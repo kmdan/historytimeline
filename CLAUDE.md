@@ -32,6 +32,14 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Base map: WebGL2 shader (`GLB`) mirrors the CPU `buildBase` loop exactly; any change to the base-map rules must be made in **both** (CPU is the fallback; `?cpu` forces it). Context loss falls back to CPU automatically.
 - Perf (2026-10-11, GPU): no long tasks while scrubbing; ~10 ms script per update. CPU fallback: ~200 ms per rebuild, throttled.
 
+## Data pipeline (dev/scripts, run with `.venv/Scripts/python -I`; raw downloads in dev/raw/, git-ignored)
+- `build_coast_slw.py` → `atlas/slw.png` (De Groeve 2022 shelf-sea history, 26 ka→now; R/G switch times, B state at 26 ka).
+- `build_climate.py` → `atlas/biome_beyer.png` (Beyer 2020, 33 snapshots, 0.5°, 3 per RGB block) + `<script id="climdata">` in the page (snapshot years, BIO1 at CLIM points, Osman 2021 + Kaufman 2020 GMST). Includes documented corrections (glacial mammoth steppe, African Humid Period).
+- `build_cliopatria.py` → `atlas/cp/<century>.json` + `index.json` (Cliopatria v0.2.1 states with from/to years) and `atlas/hb/peoples.json` (historical-basemaps features kept outside states).
+- `build_ice_paleomist.py` → R/G channels of `atlas/ice.png` (PaleoMIST 1.0, 2.5 kyr; distance-interpolated margins). Reads and rewrites ice.png (idempotent).
+- Python env: project `.venv` (numpy, scipy, pillow, shapely, tifffile, imagecodecs, h5py, netCDF4). No R.
+- Land/sea rule lives in `landCell()` (JS) and the shader; biome lookup in `bioCls()` and the shader — change both together.
+
 ## Conventions
 - Year 1 KE = 9500 BCE; signed years in data (BCE negative, no year 0); `ke()`, `toSigned()`, `civil()`.
 - Lanes 0 Near East, 1 Africa, 2 Europe, 3 Asia, 4 Americas, 5 Earth & Oceans. Importance `i`: 1 famous, 2 important, 3 specialist.
@@ -42,6 +50,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 
 ## Known improvement candidates
 - Done 2026-10-11: WebGL2 base map, timeline label collision, compact phone info box.
-- Data upgrades: see `dev/RESEARCH-sources.md` (top-10 shortlist).
+- Done 2026-10-11: De Groeve coastlines, Beyer biomes + BIO1 labels, Osman/Kaufman temperature, Cliopatria states, PaleoMIST ice.
+- Next data ideas: `dev/RESEARCH-sources.md` (XRONOS/EUROEVOL dates, HYDE land use, AADR/Glottolog, eVolv2k eruptions).
 - Borders: convert 53 snapshots to features with start/end years. Deep time: PALEOMAP paleo-DEMs + GPlates coastlines.
 - Backlog in `dev/HANDOFF.md` §7.
