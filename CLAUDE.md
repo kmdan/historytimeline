@@ -37,6 +37,9 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - `build_climate.py` → `atlas/biome_beyer.png` (Beyer 2020, 33 snapshots, 0.5°, 3 per RGB block) + `<script id="climdata">` in the page (snapshot years, BIO1 at CLIM points, Osman 2021 + Kaufman 2020 GMST). Includes documented corrections (glacial mammoth steppe, African Humid Period).
 - `build_cliopatria.py` → `atlas/cp/<century>.json` + `index.json` (Cliopatria v0.2.1 states with from/to years) and `atlas/hb/peoples.json` (historical-basemaps features kept outside states).
 - `build_ice_paleomist.py` → R/G channels of `atlas/ice.png` (PaleoMIST 1.0, 2.5 kyr; distance-interpolated margins). Reads and rewrites ice.png (idempotent).
+- `build_c14.py` → `atlas/c14.json` (p3k14c + XRONOS, de-duplicated by lab number, IntCal20).
+- `build_eruptions.py` → `<script id="eruptions">` (eVolv2k v4, eruptions ≥ 10 Tg S).
+- `build_hyde.py` → `atlas/popd.png` + `<script id="popdata">` (HYDE 3.2.1 population density, log-coded 0.5°; layer `#lyPop`, off by default). Raw grids: `dev/raw/hyde/fetch.py` (range requests + inflate64; HYDE 3.3 on YODA is behind a bot check — don't bypass).
 - Python env: project `.venv` (numpy, scipy, pillow, shapely, tifffile, imagecodecs, h5py, netCDF4). No R.
 - Land/sea rule lives in `landCell()` (JS) and the shader; biome lookup in `bioCls()` and the shader — change both together.
 
