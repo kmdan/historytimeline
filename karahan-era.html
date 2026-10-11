@@ -56,6 +56,7 @@ canvas.drag{cursor:grabbing!important}
 .layers input{accent-color:var(--accent);margin:0}
 .mapinfo{position:absolute;left:10px;top:10px;display:flex;flex-direction:column;gap:4px;pointer-events:none;max-width:calc(100% - 20px)}
 .mapinfo span{font-family:var(--f-mono);font-size:11.5px;background:color-mix(in srgb,var(--surface) 88%,transparent);color:var(--fg);padding:3px 8px;border-radius:4px;width:fit-content;font-variant-numeric:tabular-nums}
+@media (max-width:600px){ .mapinfo{left:6px;top:6px;gap:2px;max-width:calc(100% - 56px)} .mapinfo span{font-size:9.5px;padding:1px 5px;line-height:1.35} }
 .maptools{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
 .maptools button{width:32px;height:32px;padding:0;font-size:16px;line-height:1}
 .tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12px;padding:4px 8px;border-radius:4px;white-space:nowrap;transform:translate(-50%,calc(-100% - 10px))}
@@ -746,13 +747,22 @@ function draw(){
   const placed=LANES.map(()=>[{a:0,b:ctx.measureText('EARTH & OCEANS').width+16}]);
   const lt=lodTime();
   const vis=EVENTS.filter(e=>{const x=X(e.k); return x>-200&&x<W+10&&(e.i<=lt||e===selected);}).sort((a,b)=>a.i-b.i||a.k-b.k);
-  for(const e of vis){ const x=X(e.k), y=TOP+ERA_H+e.l*laneH+laneH*0.6;
-    ctx.fillStyle=col['l'+e.l]; ctx.beginPath(); ctx.arc(x,y,e===selected?6.5:(e.i===1?5:3.8),0,7); ctx.fill();
+  // dots first, then labels placed right (or left) of their dot, clear of other labels and dots
+  const dots=LANES.map(()=>[]);
+  for(const e of vis){ const x=X(e.k), y=TOP+ERA_H+e.l*laneH+laneH*0.6, r=e===selected?6.5:(e.i===1?5:3.8);
+    ctx.fillStyle=col['l'+e.l]; ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fill();
     if(e===selected){ ctx.strokeStyle=col.fg; ctx.lineWidth=1.5; ctx.stroke(); ctx.lineWidth=1; }
+    dots[e.l].push({e,a:x-r-1,b:x+r+1}); }
+  const free=(l,a,b,e)=>a>=-1 && !placed[l].some(r=>a<r.b&&b>r.a) && !dots[l].some(d=>d.e!==e&&d.e.i<=e.i&&a<d.b&&b>d.a);
+  ctx.lineJoin='round'; ctx.strokeStyle=col.surface; ctx.lineWidth=3;
+  for(const e of vis){ const x=X(e.k), y=TOP+ERA_H+e.l*laneH+laneH*0.6;
     ctx.font=(e.i===1?'600 ':'400 ')+'12px "IBM Plex Sans", sans-serif';
-    const w=ctx.measureText(e.t).width, a=x+9, b=a+w+10;
-    if(b>0 && !placed[e.l].some(r=>a<r.b&&b>r.a)){ placed[e.l].push({a,b}); ctx.fillStyle=col.fg; ctx.globalAlpha=e.i===3?.75:1; ctx.fillText(e.t,a,y+4); ctx.globalAlpha=1; }
+    const w=ctx.measureText(e.t).width;
+    let a=x+9, b=a+w+6;
+    if(!free(e.l,a,b,e)){ b=x-9; a=b-w-6; if(!free(e.l,a,b,e)) continue; }
+    placed[e.l].push({a,b}); ctx.globalAlpha=e.i===3?.75:1; ctx.strokeText(e.t,a+(b<x?6:0),y+4); ctx.fillStyle=col.fg; ctx.fillText(e.t,a+(b<x?6:0),y+4); ctx.globalAlpha=1;
   }
+  ctx.lineWidth=1;
   ctx.strokeStyle=col.accent; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(W/2,TOP); ctx.lineTo(W/2,H-AXIS_H); ctx.stroke(); ctx.lineWidth=1;
   update();
   drawMap();
