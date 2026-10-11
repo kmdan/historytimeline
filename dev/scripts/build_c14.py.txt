@@ -1,0 +1,21 @@
+# Calibrate p3k14c radiocarbon dates (IntCal20, weighted-mean approximation) and bin by 0.5° cell and century.
+# Inputs: p3k14c_data.rda (github.com/people3k/p3k14c, data/), iosacal's intcal20.14c. Output: atlas/c14.json
+import numpy as np, rdata, json, warnings
+from collections import Counter
+warnings.filterwarnings('ignore')
+cur=np.loadtxt('intcal20.14c',delimiter=',',comments='#'); cal,c14,sig=cur[:,0],cur[:,1],cur[:,2]
+df=rdata.conversion.convert(rdata.parser.parse_file('p3k14c_data.rda'))['p3k14c_data'][['Age','Error','Long','Lat']].dropna()
+df=df[(df.Age>0)&(df.Age<45000)&(df.Error<=np.maximum(300,df.Age*0.03))]
+A=df.Age.values.astype(float); Er=df.Error.values.astype(float); out=np.empty(len(A))
+for i in range(0,len(A),2000):
+  a=A[i:i+2000,None]; e=Er[i:i+2000,None]; w=np.exp(-(c14[None,:]-a)**2/(2*(e**2+sig[None,:]**2)))
+  out[i:i+2000]=(w*cal[None,:]).sum(1)/np.maximum(w.sum(1),1e-12)
+yr=1950-out; lon=np.round(df.Long.values*2)/2; lat=np.round(df.Lat.values*2)/2
+BIN=100; S=-45000; b=np.floor((yr-S)/BIN).astype(int)
+ok=(b>=0)&(yr<=1950)&np.isfinite(lon)&np.isfinite(lat)&(np.abs(lat)<=90)&(np.abs(lon)<=180)
+cells={}; cnt=Counter()
+for bb,lo,la in zip(b[ok],lon[ok],lat[ok]):
+  k=(float(lo),float(la)); cells.setdefault(k,len(cells)); cnt[(int(bb),cells[k])]+=1
+cl=sorted(cells,key=cells.get); bins={}
+for (bb,ci),n in cnt.items(): bins.setdefault(bb,[]).extend([ci,n])
+json.dump({'bin':BIN,'start':S,'cells':[c for xy in cl for c in xy],'bins':bins},open('atlas/c14.json','w'),separators=(',',':'))

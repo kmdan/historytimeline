@@ -1,0 +1,440 @@
+{
+ "themes": [
+  {
+   "theme": "Bronze Age Near East beyond Egypt & Sumer",
+   "why": "Redditors keep pointing to Elam, Mitanni, Ebla and the Old Assyrian merchant letters as rich, well-documented worlds the standard narrative skips.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1gpcsrj/",
+    "https://www.reddit.com/r/AncientCivilizations/comments/zaumxd/"
+   ]
+  },
+  {
+   "theme": "Sea Peoples / collapse as process",
+   "why": "Perennially popular question; top answers reframe them as displaced groups amid drought and pandemic rather than a single mysterious invader.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1bnhoq6/",
+    "https://www.reddit.com/r/AskHistory/comments/1vyz1du/"
+   ]
+  },
+  {
+   "theme": "Lost cities of pre-Columbian America",
+   "why": "People are surprised they were never taught about Cahokia or the lidar-revealed Amazonian urbanism that Orellana glimpsed.",
+   "evidence": [
+    "https://www.reddit.com/r/MapPorn/comments/aurmdz/the_mississippian_world/",
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1f2fm87/"
+   ]
+  },
+  {
+   "theme": "Deep-time Andes (Caral, Moche)",
+   "why": "Commenters stress the Andes had civilization millennia before the Inca, starting with Caral-Supe.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1h80q14/",
+    "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+   ]
+  },
+  {
+   "theme": "African states: Aksum, Kush, Punt",
+   "why": "Aksum's Red Sea trade, Kush's conquest of Egypt and the mystery of Punt are cited as major powers left out of Eurocentric narratives.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1h80q14/",
+    "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+   ]
+  },
+  {
+   "theme": "Enigmatic Mediterranean peoples",
+   "why": "Minoans (undeciphered Linear A), Etruscans and Nuragic Sardinia attract the top-voted 'underrated' answers because so much remains unknown.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+   ]
+  },
+  {
+   "theme": "Steppe & Central Asia",
+   "why": "Scythians (most-cited in one thread), the Oxus/BMAC civilization and Tocharians are seen as hugely influential but invisible in school history.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1uquov0/",
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1l1k319/"
+   ]
+  },
+  {
+   "theme": "South & Southeast Asian empires",
+   "why": "Khmer hydraulic engineering, the Maurya and Chola are repeatedly named as equal in significance to Greece or Rome.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/",
+    "https://www.reddit.com/r/AskHistory/comments/1h80q14/",
+    "https://www.reddit.com/r/AskHistory/comments/1f2fm87/"
+   ]
+  },
+  {
+   "theme": "Persia beyond the Achaemenids",
+   "why": "Sasanians, Rome's peer rival, are called the most neglected Iranian empire.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/19e59mp/",
+    "https://www.reddit.com/r/AskHistory/comments/1h80q14/"
+   ]
+  },
+  {
+   "theme": "Polynesian settlement of the Pacific",
+   "why": "Rapa Nui and the late Maori arrival in New Zealand come up as fascinating, recent, under-told settlement stories.",
+   "evidence": [
+    "https://www.reddit.com/r/AskHistory/comments/1f2fm87/",
+    "https://www.reddit.com/r/AskHistory/comments/1l1k319/"
+   ]
+  },
+  {
+   "theme": "Early Bronze Age Iberia & Balkans",
+   "why": "El Argar proto-states and Thracian gold are offered as Europe's forgotten complex societies.",
+   "evidence": [
+    "https://www.reddit.com/r/AncientCivilizations/comments/zaumxd/",
+    "https://www.reddit.com/r/AskHistory/comments/1l1k319/"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "y": -2600,
+   "l": 4,
+   "i": 3,
+   "t": "Caral city flourishes",
+   "d": "Caral, in Peru's Supe valley, was the main city of the Caral civilization, occupied c. 2600-2000 BC and a UNESCO World Heritage Site since 2009.",
+   "w": "Caral",
+   "lat": -10.8936,
+   "lon": -77.5203,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1h80q14/"
+  },
+  {
+   "y": -2500,
+   "l": 0,
+   "i": 2,
+   "t": "Ebla palace archive",
+   "d": "Ebla's palace archive of about 1,800 complete clay tablets (c. 2500-2250 BC) records trade, administration, literature and scribal training in Early Bronze Age Syria.",
+   "w": "Ebla tablets",
+   "lat": 35.798,
+   "lon": 36.798,
+   "src": "https://www.reddit.com/r/AncientCivilizations/comments/zaumxd/"
+  },
+  {
+   "y": -2400,
+   "l": 3,
+   "i": 2,
+   "t": "Gonur Depe, Oxus civilization",
+   "d": "Gonur Depe in southern Turkmenistan, occupied 2400-1600 BCE, was the major settlement of the Bronze Age Bactria-Margiana Archaeological Complex (BMAC).",
+   "w": "Gonur Depe",
+   "lat": 38.21,
+   "lon": 62.035,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": -2200,
+   "l": 2,
+   "i": 2,
+   "t": "El Argar Bronze Age",
+   "d": "The Argaric culture (c. 2200-1550 BC) of southeastern Iberia was an Early Bronze Age society known for advanced metallurgy and fortified settlements.",
+   "w": "El Argar culture",
+   "lat": 37.25,
+   "lon": -1.86,
+   "src": "https://www.reddit.com/r/AncientCivilizations/comments/zaumxd/"
+  },
+  {
+   "y": -2100,
+   "l": 3,
+   "i": 2,
+   "t": "Xiaohe Tarim mummies",
+   "d": "The oldest Tarim Basin mummies, from Xiaohe (c. 2135-1623 BCE), carried mostly Ancient North Eurasian ancestry with no detectable Western Steppe contribution.",
+   "w": "Tarim mummies",
+   "lat": 40.34,
+   "lon": 88.67,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": -1945,
+   "l": 0,
+   "i": 2,
+   "t": "Assyrian merchants at Kanesh",
+   "d": "At Kültepe (ancient Kanesh), Assyrian merchants ran a trading quarter c. 1945-1700 BCE that left over 22,000 tablets, the largest private cuneiform archive known.",
+   "w": "Kültepe",
+   "lat": 38.85,
+   "lon": 35.633,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1gpcsrj/"
+  },
+  {
+   "y": -1800,
+   "l": 2,
+   "i": 2,
+   "t": "Minoan Linear A",
+   "d": "Linear A, used on Minoan Crete c. 1800-1450 BC for administrative and ritual records, remains undeciphered and gave rise to Linear B.",
+   "w": "Linear A",
+   "lat": 35.06,
+   "lon": 24.79,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": -1600,
+   "l": 2,
+   "i": 1,
+   "t": "Su Nuraxi nuraghe built",
+   "d": "The central nuraghe of Su Nuraxi at Barumini, Sardinia, built between the 17th and 13th centuries BCE, is the finest surviving example of Nuragic architecture.",
+   "w": "Su Nuraxi di Barumini",
+   "lat": 39.705,
+   "lon": 8.99,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": -1550,
+   "l": 0,
+   "i": 2,
+   "t": "Mitanni kingdom rises",
+   "d": "Mitanni, a Hurrian-speaking state centered on Washukanni in northern Syria (c. 1550-1260 BC), invoked Indo-Aryan gods Mitra, Varuna and Indra in treaties with the Hittites.",
+   "w": "Mitanni",
+   "lat": 36.83,
+   "lon": 40.07,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": -1470,
+   "l": 1,
+   "i": 2,
+   "t": "Hatshepsut's Punt expedition",
+   "d": "In year 9 of her reign Hatshepsut sent an expedition to Punt, a kingdom most scholars place in the Horn of Africa, famed for gold, incense and ebony.",
+   "w": "Land of Punt",
+   "lat": null,
+   "lon": null,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": -1250,
+   "l": 0,
+   "i": 2,
+   "t": "Chogha Zanbil ziggurat",
+   "d": "Elamite king Untash-Napirisha built Chogha Zanbil in Khuzestan c. 1250 BC, one of the few ziggurats outside Mesopotamia.",
+   "w": "Chogha Zanbil",
+   "lat": 32.00833,
+   "lon": 48.52083,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": -1185,
+   "l": 0,
+   "i": 2,
+   "t": "Ugarit sacked",
+   "d": "Ugarit, a wealthy Syrian port whose last king wrote that enemy ships had burned his cities, was destroyed around 1190-1185 BC.",
+   "w": "Ugarit",
+   "lat": 35.602,
+   "lon": 35.782,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1bnhoq6/"
+  },
+  {
+   "y": -1178,
+   "l": 1,
+   "i": 3,
+   "t": "Sea Peoples repelled (Medinet Habu)",
+   "d": "Ramesses III's Year 8 inscription and reliefs at Medinet Habu record his defeat of a northern invasion associated with the Sea Peoples.",
+   "w": "Medinet Habu",
+   "lat": 25.71972,
+   "lon": 32.60083,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1bnhoq6/"
+  },
+  {
+   "y": -724,
+   "l": 1,
+   "i": 2,
+   "t": "Kushite Piye conquers Egypt",
+   "d": "Piye, Kushite king from Napata, invaded Egypt in his regnal year 20 and founded the Twenty-fifth Dynasty, defeating the Delta kings.",
+   "w": "Piye",
+   "lat": 18.53,
+   "lon": 31.83,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": -500,
+   "l": 2,
+   "i": 2,
+   "t": "Pyrgi Tablets (Etruscan)",
+   "d": "The Pyrgi Tablets, three gold plates in Etruscan and Phoenician from c. 500 BC, record Thefarie Velianas of Caere dedicating a temple to Uni-Astarte.",
+   "w": "Pyrgi Tablets",
+   "lat": 42.01,
+   "lon": 11.97,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": -400,
+   "l": 3,
+   "i": 2,
+   "t": "Pazyryk Scythian tombs",
+   "d": "The ice-preserved Pazyryk kurgans of the Altai (4th-3rd centuries BCE) hold tattooed Saka nomads, horses and the oldest surviving pile carpet.",
+   "w": "Pazyryk burials",
+   "lat": 50.746389,
+   "lon": 88.0725,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": -300,
+   "l": 2,
+   "i": 1,
+   "t": "Panagyurishte Thracian gold",
+   "d": "The Panagyurishte Treasure, nine Thracian gold vessels weighing 6.164 kg made c. 400-300 BC, was found in Bulgaria in 1949.",
+   "w": "Panagyurishte Treasure",
+   "lat": 42.5,
+   "lon": 24.18,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1l1k319/"
+  },
+  {
+   "y": -260,
+   "l": 3,
+   "i": 2,
+   "t": "Edicts of Ashoka",
+   "d": "From c. 260 BCE the Mauryan emperor Ashoka carved over thirty edicts in Prakrit, Greek and Aramaic promoting dhamma, nonviolence and tolerance.",
+   "w": "Edicts of Ashoka",
+   "lat": null,
+   "lon": null,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1f2fm87/"
+  },
+  {
+   "y": 200,
+   "l": 4,
+   "i": 2,
+   "t": "Moche Lord of Sipán",
+   "d": "The Moche royal tombs at Huaca Rajada (Sipán), dated AD 50-300, include the intact tomb of the Lord of Sipán, excavated from 1987.",
+   "w": "Huaca Rajada",
+   "lat": -6.80139,
+   "lon": -79.60222,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": 260,
+   "l": 0,
+   "i": 2,
+   "t": "Shapur captures Valerian",
+   "d": "In spring 260 Shapur I's Sasanian army defeated and captured Emperor Valerian near Edessa, the first Roman emperor taken prisoner.",
+   "w": "Battle of Edessa",
+   "lat": 37.16,
+   "lon": 38.79,
+   "src": "https://www.reddit.com/r/AskHistory/comments/19e59mp/"
+  },
+  {
+   "y": 340,
+   "l": 1,
+   "i": 2,
+   "t": "Ezana Stone, Aksum",
+   "d": "The trilingual Ezana Stone at Axum, from King Ezana's reign (AD 330-356), records his campaigns against Meroë and his conversion to Christianity.",
+   "w": "Ezana Stone",
+   "lat": 14.1379,
+   "lon": 38.7229,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": 500,
+   "l": 4,
+   "i": 2,
+   "t": "Casarabe Amazonian urbanism",
+   "d": "The Casarabe culture (c. 500-1400 AD) of Bolivia's Llanos de Moxos built large settlements linked by about 1,000 km of canals and causeways, revealed by lidar.",
+   "w": "Casarabe culture",
+   "lat": -14.8,
+   "lon": -64.4,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": 950,
+   "l": 4,
+   "i": 3,
+   "t": "Monks Mound begun, Cahokia",
+   "d": "Monks Mound at Cahokia, begun c. 900-955 CE and about 30 m high, is the largest pre-Columbian earthwork in the Americas.",
+   "w": "Monks Mound",
+   "lat": 38.660667,
+   "lon": -90.062044,
+   "src": "https://www.reddit.com/r/MapPorn/comments/aurmdz/the_mississippian_world/"
+  },
+  {
+   "y": 1010,
+   "l": 3,
+   "i": 2,
+   "t": "Chola Brihadisvara Temple",
+   "d": "Chola emperor Rajaraja I built the Brihadisvara Temple at Thanjavur between 1003 and 1010 CE, part of UNESCO's Great Living Chola Temples.",
+   "w": "Brihadisvara Temple, Thanjavur",
+   "lat": 10.7828,
+   "lon": 79.1318,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1h80q14/"
+  },
+  {
+   "y": 1050,
+   "l": 3,
+   "i": 2,
+   "t": "Angkor's West Baray reservoir",
+   "d": "The West Baray at Angkor, begun in the 11th century under Suryavarman I, is a 7.8 by 2.1 km man-made reservoir, the largest of Angkor's barays.",
+   "w": "West Baray",
+   "lat": 13.433,
+   "lon": 103.8,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": 1200,
+   "l": 5,
+   "i": 2,
+   "t": "Polynesians settle Rapa Nui",
+   "d": "Polynesians settled Easter Island (Rapa Nui) around 1200 CE by the current best estimate; nearly 1,000 moai statues survive.",
+   "w": "Easter Island",
+   "lat": -27.12,
+   "lon": -109.35,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1f2fm87/"
+  },
+  {
+   "y": 1280,
+   "l": 5,
+   "i": 2,
+   "t": "Wairau Bar, early Māori",
+   "d": "East Polynesian settlers arrived at Wairau Bar, New Zealand, about 1280 CE, using it as a stone adze workshop and moa-hunting base.",
+   "w": "Wairau Bar",
+   "lat": -41.51,
+   "lon": 174.07,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1l1k319/"
+  },
+  {
+   "y": 1300,
+   "l": 4,
+   "i": 1,
+   "t": "Muisca gold raft",
+   "d": "The Muisca raft, a gold-alloy votive offering cast between 1295 and 1410 AD, shows a chief and attendants on a raft, linked to the El Dorado legend.",
+   "w": "Muisca raft",
+   "lat": 4.31,
+   "lon": -74.3,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": 1478,
+   "l": 4,
+   "i": 1,
+   "t": "Purépecha defeat the Aztecs",
+   "d": "In the 1470s Aztecs under Axayacatl advanced toward the metal-working Purépecha heartland around Lake Pátzcuaro but were eventually defeated.",
+   "w": "Purépecha Empire",
+   "lat": 19.63,
+   "lon": -101.58,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1uquov0/"
+  },
+  {
+   "y": 1542,
+   "l": 4,
+   "i": 2,
+   "t": "Orellana descends the Amazon",
+   "d": "Francisco de Orellana's party descended the Amazon from December 1541 to 26 August 1542, describing dense riverbank settlements later evidence supports.",
+   "w": "Francisco de Orellana",
+   "lat": null,
+   "lon": null,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1im4iuh/what_are_the_most_underrated_past_civilizations/"
+  },
+  {
+   "y": 1592,
+   "l": 3,
+   "i": 1,
+   "t": "Yi Sun-sin wins at Hansan",
+   "d": "On 15 August 1592 Yi Sun-sin's Joseon fleet destroyed roughly 100 Japanese ships off Hansan Island, halting Japanese naval operations along Korea's south coast.",
+   "w": "Battle of Hansan Island",
+   "lat": 34.77,
+   "lon": 128.48,
+   "src": "https://www.reddit.com/r/AskHistory/comments/1f2fm87/"
+  }
+ ]
+}

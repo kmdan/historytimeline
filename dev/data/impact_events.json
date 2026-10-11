@@ -1,0 +1,426 @@
+{
+ "venice": {
+  "verdict": "Mostly false as stated: the piles were not cedar, and Venice was only one of several pressures on Karst forests, not the main cause of the bare Karst.",
+  "detail": "Analysis of foundation samples from five of Venice's six sestieri found alder, larch, oak, pine, elm and (later) spruce, not cedar (Macchioni, Pizzo & Capretti 2016). The Arsenal drew on its own reserved oak forest at Montello and on Cansiglio beech in the Veneto; Wikipedia's Karst Plateau article says much pile wood came from the Karst and Venice may have used it for naval timber. The Karst lost forest from the Middle Ages, but the most radical clear-cutting was by local farmers in the early 19th century (after Venice fell in 1797), driven by woodcutting, grazing and demand from Trieste, Venice and Gorizia; cover hit about 7.3% in the mid-1800s before Austrian-era black-pine afforestation from the 1880s. A Croatian/Dalmatian origin for pile timber appears only in unsourced popular accounts.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Venice",
+   "https://en.wikipedia.org/wiki/Karst_Plateau",
+   "https://en.wikipedia.org/wiki/Venetian_Arsenal",
+   "https://en.wikipedia.org/wiki/Cansiglio",
+   "https://iris.cnr.it/handle/20.500.14243/313591",
+   "https://ojs.zrc-sazu.si/carsologica/article/download/13483/12110/41158"
+  ]
+ },
+ "events": [
+  {
+   "y": -40000,
+   "l": 5,
+   "i": 1,
+   "t": "Australian megafauna vanish",
+   "d": "Most of Australia's giant animals died out after humans arrived, with extinctions peaking around 42,000 years ago; the roles of hunting and Aboriginal burning are still debated.",
+   "w": "Quaternary extinction event",
+   "lat": -25.3,
+   "lon": 133.8
+  },
+  {
+   "y": -11000,
+   "l": 4,
+   "i": 1,
+   "t": "American megafauna extinction",
+   "d": "Mammoths, giant sloths and other large animals vanished across the Americas about 13,000 years ago, soon after human arrival and at the onset of the Younger Dryas.",
+   "w": "Quaternary extinction event",
+   "lat": 40.0,
+   "lon": -100.0
+  },
+  {
+   "y": -6000,
+   "l": 5,
+   "i": 2,
+   "t": "Early farming warms climate?",
+   "d": "Ruddiman's early anthropogenic hypothesis argues that forest clearing by early farmers began raising greenhouse gas levels about 8,000 years ago; the idea remains contested.",
+   "w": "Early anthropocene",
+   "lat": null,
+   "lon": null
+  },
+  {
+   "y": -4000,
+   "l": 2,
+   "i": 2,
+   "t": "Neolithic elm decline",
+   "d": "Elm pollen nearly vanishes from northwest European peat around 4000 BC, probably from both Neolithic forest clearance and an elm disease.",
+   "w": "Dutch elm disease",
+   "lat": 54.0,
+   "lon": -2.0
+  },
+  {
+   "y": -2100,
+   "l": 0,
+   "i": 1,
+   "t": "Sumerian fields turn salty",
+   "d": "Irrigation in an arid climate salted southern Mesopotamia's soils; farmers shifted from wheat to salt-tolerant barley, and between 2100 and 1700 BC population fell by nearly three-fifths.",
+   "w": "Sumer",
+   "lat": 30.96,
+   "lon": 46.1
+  },
+  {
+   "y": -360,
+   "l": 2,
+   "i": 2,
+   "t": "Plato on eroded hills",
+   "d": "In Critias (c. 360 BC), Plato describes Greek hills once covered in good soil now stripped to the 'bones of a dead body'.",
+   "w": "Critias (dialogue)",
+   "lat": 37.98,
+   "lon": 23.73
+  },
+  {
+   "y": 1,
+   "l": 5,
+   "i": 2,
+   "t": "Roman lead in Greenland ice",
+   "d": "Greenland ice cores show European lead pollution rising with prosperity and peaking under the Roman Empire, then falling after crises such as the Antonine plague (McConnell et al. 2018).",
+   "w": "Lead poisoning",
+   "lat": null,
+   "lon": null
+  },
+  {
+   "y": 300,
+   "l": 1,
+   "i": 2,
+   "t": "Madagascar's giants decline",
+   "d": "Dung-fungus spores fall from around 230-410 CE as large herbivores decline, then charcoal rises as fires reshape Madagascar's woodlands; at least 17 giant lemur species vanished.",
+   "w": "Subfossil lemur",
+   "lat": -19.0,
+   "lon": 46.7
+  },
+  {
+   "y": 800,
+   "l": 4,
+   "i": 1,
+   "t": "Maya droughts and collapse",
+   "d": "Classic Maya cities declined after 750-900 amid severe droughts; deforestation and erosion of cleared soils are thought to have worsened the crisis.",
+   "w": "Classic Maya collapse",
+   "lat": 17.22,
+   "lon": -89.62
+  },
+  {
+   "y": 874,
+   "l": 5,
+   "i": 1,
+   "t": "Iceland settled, woods lost",
+   "d": "Norse settlement began around 874; about 40% of Iceland was forested then, but clearing for pasture and overgrazing left about 2% and caused soil erosion.",
+   "w": "Settlement of Iceland",
+   "lat": 64.15,
+   "lon": -21.94
+  },
+  {
+   "y": 1152,
+   "l": 2,
+   "i": 2,
+   "t": "Ostsiedlung marsh drainage",
+   "d": "Flemish and Dutch settlers drained marshland east of Magdeburg as eastward settlement expanded farmland at the expense of forests across central Europe.",
+   "w": "Ostsiedlung",
+   "lat": 52.13,
+   "lon": 11.62
+  },
+  {
+   "y": 1350,
+   "l": 5,
+   "i": 2,
+   "t": "Norse Greenland retreats",
+   "d": "Greenland's Western Settlement was abandoned around 1350 as the Little Ice Age shortened seasons and reduced pasture and fodder; the Eastern Settlement ended by the late 1400s.",
+   "w": "Norse colonization of North America",
+   "lat": 64.2,
+   "lon": -51.0
+  },
+  {
+   "y": 1445,
+   "l": 5,
+   "i": 1,
+   "t": "Moa hunted to extinction",
+   "d": "Polynesians settled New Zealand around 1300; by 1445 all moa species were extinct, mainly through hunting and partly through forest clearance.",
+   "w": "Moa",
+   "lat": -43.5,
+   "lon": 171.0
+  },
+  {
+   "y": 1610,
+   "l": 5,
+   "i": 1,
+   "t": "Great Dying cools Earth",
+   "d": "After epidemics killed about 90% of the Americas' people, some 56 million hectares of farmland regrew forest, drawing down CO2 by 7-10 ppm (the 1610 'Orbis spike').",
+   "w": "Orbis spike",
+   "lat": null,
+   "lon": null
+  },
+  {
+   "y": 1612,
+   "l": 2,
+   "i": 2,
+   "t": "Beemster lake drained",
+   "d": "Windmills pumped the Beemster lake dry between 1609 and 1612, creating one of the first large Dutch polders (UNESCO site since 1999).",
+   "w": "Beemster",
+   "lat": 52.55,
+   "lon": 4.917
+  },
+  {
+   "y": 1630,
+   "l": 2,
+   "i": 2,
+   "t": "Draining the Fens",
+   "d": "Investors led by the Earl of Bedford began draining England's Fens in earnest in the 1630s; the dried peat shrank and parts now lie below sea level.",
+   "w": "The Fens",
+   "lat": 52.45,
+   "lon": 0.15
+  },
+  {
+   "y": 1662,
+   "l": 1,
+   "i": 2,
+   "t": "Last dodo sighting",
+   "d": "The dodo of Mauritius, first recorded in 1598, was last reliably seen in 1662, wiped out by hunting, introduced animals and forest clearing.",
+   "w": "Dodo",
+   "lat": -20.3,
+   "lon": 57.6
+  },
+  {
+   "y": 1664,
+   "l": 2,
+   "i": 3,
+   "t": "Evelyn's Sylva published",
+   "d": "John Evelyn's Sylva, on propagating timber trees, was published for the Royal Society and became one of the most influential forestry texts.",
+   "w": "Sylva, or A Discourse of Forest-Trees and the Propagation of Timber",
+   "lat": 51.51,
+   "lon": -0.13
+  },
+  {
+   "y": 1666,
+   "l": 3,
+   "i": 2,
+   "t": "Edo Japan curbs logging",
+   "d": "After timber demand caused deforestation, floods and erosion, the shogunate from about 1666 restricted logging and encouraged tree planting, building early plantation forestry.",
+   "w": "Edo period",
+   "lat": 35.68,
+   "lon": 139.77
+  },
+  {
+   "y": 1722,
+   "l": 5,
+   "i": 1,
+   "t": "Rapa Nui's lost forests",
+   "d": "By European arrival in 1722, Rapa Nui's palm forest and 21 tree species were gone, felled by people and seeds eaten by rats; claims of societal collapse are disputed.",
+   "w": "Easter Island",
+   "lat": -27.12,
+   "lon": -109.35
+  },
+  {
+   "y": 1858,
+   "l": 2,
+   "i": 3,
+   "t": "London's Great Stink",
+   "d": "Untreated sewage in the Thames caused the Great Stink of July-August 1858, prompting Bazalgette's sewer network built 1859-1875.",
+   "w": "Great Stink",
+   "lat": 51.51,
+   "lon": -0.12
+  },
+  {
+   "y": 1876,
+   "l": 0,
+   "i": 3,
+   "t": "Wall saves Lebanon cedars",
+   "d": "A wall built in 1876 kept goats from the Cedars of God grove, a remnant of forests long cut by Egyptians and Phoenicians for shipbuilding.",
+   "w": "Cedars of God",
+   "lat": 34.245,
+   "lon": 36.048
+  },
+  {
+   "y": 1880,
+   "l": 2,
+   "i": 2,
+   "t": "Karst reforestation begins",
+   "d": "After forest cover on the Karst fell to about 7.3%, Austrian provincial laws in the 1880s launched large-scale afforestation, largely with non-native black pine.",
+   "w": "Karst Plateau",
+   "lat": 45.75,
+   "lon": 13.75
+  },
+  {
+   "y": 1914,
+   "l": 4,
+   "i": 2,
+   "t": "Last passenger pigeon dies",
+   "d": "Martha, the last passenger pigeon, died at Cincinnati Zoo; a species once numbering billions was destroyed by commercial hunting and deforestation.",
+   "w": "Passenger pigeon",
+   "lat": 39.145,
+   "lon": -84.508
+  },
+  {
+   "y": 1935,
+   "l": 4,
+   "i": 1,
+   "t": "Dust Bowl Black Sunday",
+   "d": "Plowing the prairie's grasses plus drought produced the Dust Bowl; on 14 April 1935 a huge dust storm swept the southern Great Plains.",
+   "w": "Dust Bowl",
+   "lat": 36.5,
+   "lon": -101.5
+  },
+  {
+   "y": 1950,
+   "l": 5,
+   "i": 2,
+   "t": "Proposed Anthropocene start",
+   "d": "Geologists proposed 1950, marked by bomb plutonium at Crawford Lake, Canada, as the Anthropocene's start; the IUGS rejected the formal epoch in March 2024.",
+   "w": "Anthropocene",
+   "lat": 43.468,
+   "lon": -79.948
+  },
+  {
+   "y": 1952,
+   "l": 2,
+   "i": 1,
+   "t": "Great Smog of London",
+   "d": "Coal smoke trapped by cold, still air smothered London on 5-9 December 1952, killing an estimated 10,000-12,000 and leading to the Clean Air Act 1956.",
+   "w": "Great Smog of London",
+   "lat": 51.507,
+   "lon": -0.128
+  },
+  {
+   "y": 1954,
+   "l": 4,
+   "i": 2,
+   "t": "Haiti's forests cut for charcoal",
+   "d": "After Hurricane Hazel in 1954, logging expanded to feed Port-au-Prince's charcoal demand; forest that covered about half of Haiti in 1950 fell sharply.",
+   "w": "Deforestation in Haiti",
+   "lat": 18.54,
+   "lon": -72.34
+  },
+  {
+   "y": 1956,
+   "l": 3,
+   "i": 2,
+   "t": "Minamata disease identified",
+   "d": "Methylmercury in Chisso factory wastewater poisoned fish and people around Minamata Bay; the disease was officially discovered in 1956.",
+   "w": "Minamata disease",
+   "lat": 32.21,
+   "lon": 130.4
+  },
+  {
+   "y": 1958,
+   "l": 5,
+   "i": 1,
+   "t": "Keeling Curve begins",
+   "d": "Continuous CO2 measurements began at Mauna Loa in March 1958 at about 313 ppm; the daily mean first exceeded 400 ppm in May 2013.",
+   "w": "Keeling Curve",
+   "lat": 19.536,
+   "lon": -155.576
+  },
+  {
+   "y": 1960,
+   "l": 3,
+   "i": 1,
+   "t": "Aral Sea starts shrinking",
+   "d": "Soviet cotton irrigation diverted the Amu Darya and Syr Darya; from the 1960s the Aral Sea shrank to about 10% of its size by 2007.",
+   "w": "Aral Sea",
+   "lat": 45.0,
+   "lon": 60.0
+  },
+  {
+   "y": 1966,
+   "l": 1,
+   "i": 2,
+   "t": "Lake Chad shrinks",
+   "d": "Lake Chad fell from 22,772 km2 in 1966 to about 1,800 km2, through drought, Sahel climate shifts and irrigation diverting its rivers.",
+   "w": "Lake Chad",
+   "lat": 13.099,
+   "lon": 14.533
+  },
+  {
+   "y": 1970,
+   "l": 1,
+   "i": 2,
+   "t": "Aswan High Dam completed",
+   "d": "The High Dam, built 1960-1970, ended the Nile flood, trapping fertile silt in Lake Nasser and increasing delta coastal erosion and soil salinization.",
+   "w": "Aswan Dam",
+   "lat": 23.97,
+   "lon": 32.88
+  },
+  {
+   "y": 1972,
+   "l": 4,
+   "i": 1,
+   "t": "Trans-Amazonian Highway opens",
+   "d": "Highways like the 1972 Trans-Amazonian opened the rainforest to settlers; 91% of land deforested since 1970 became cattle pasture.",
+   "w": "Deforestation of the Amazon rainforest",
+   "lat": -3.2,
+   "lon": -52.2
+  },
+  {
+   "y": 1978,
+   "l": 3,
+   "i": 2,
+   "t": "China's Green Great Wall",
+   "d": "China began the Three-North Shelter Forest Program to hold back the Gobi; critics note low tree survival and monoculture risks.",
+   "w": "Three-North Shelter Forest Program",
+   "lat": 40.0,
+   "lon": 105.0
+  },
+  {
+   "y": 1985,
+   "l": 5,
+   "i": 1,
+   "t": "Ozone hole reported",
+   "d": "British Antarctic Survey scientists reported in May 1985 a far larger than expected seasonal ozone loss over Antarctica, caused by chlorine from CFCs.",
+   "w": "Ozone depletion",
+   "lat": -75.58,
+   "lon": -26.66
+  },
+  {
+   "y": 1987,
+   "l": 5,
+   "i": 1,
+   "t": "Montreal Protocol signed",
+   "d": "On 16 September 1987, 43 nations signed the Montreal Protocol to phase out ozone-depleting chemicals; the ozone layer is projected to recover by about 2040-2066.",
+   "w": "Ozone depletion",
+   "lat": 45.5,
+   "lon": -73.57
+  },
+  {
+   "y": 1991,
+   "l": 0,
+   "i": 2,
+   "t": "Mesopotamian Marshes drained",
+   "d": "After the 1991 uprising Saddam Hussein's government intensified draining of Iraq's marshes; about 90% had disappeared by 2000 before partial reflooding after 2003.",
+   "w": "Draining of the Mesopotamian Marshes",
+   "lat": 31.0,
+   "lon": 47.0
+  },
+  {
+   "y": 1997,
+   "l": 3,
+   "i": 2,
+   "t": "Borneo forest fires",
+   "d": "Land-clearing fires, largely for oil palm plantations and worsened by El Nino drought, burned across Borneo in 1997-98, spreading haze across Southeast Asia.",
+   "w": "Deforestation in Borneo",
+   "lat": 0.96,
+   "lon": 114.55
+  },
+  {
+   "y": 1999,
+   "l": 3,
+   "i": 2,
+   "t": "Grain for Green on Loess",
+   "d": "China launched Grain for Green in 1999 to restore the Loess Plateau, whose forest cover fell eightfold over three millennia and which supplies 90% of Yellow River sediment.",
+   "w": "Loess Plateau",
+   "lat": 36.6,
+   "lon": 109.5
+  },
+  {
+   "y": 2021,
+   "l": 5,
+   "i": 2,
+   "t": "Leaded petrol ends worldwide",
+   "d": "Algeria became the last country to stop selling leaded petrol in July 2021, ending a fuel whose use peaked in the 1970s.",
+   "w": "Lead poisoning",
+   "lat": null,
+   "lon": null
+  }
+ ]
+}

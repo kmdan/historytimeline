@@ -1,0 +1,13 @@
+# rivers.json from matplotlib basemap-data (pip download basemap-data): rivers_l.dat + riversmeta_l.dat (little-endian float32 lon,lat pairs)
+# coast.json from npm world-atlas@2.0.2 land-50m.json via topojson-client (see NOTES)
+import numpy as np, json
+from shapely.geometry import LineString
+meta=[l.split() for l in open('riversmeta_l.dat')]; raw=open('rivers_l.dat','rb').read(); out=[]
+for m in meta:
+  off=int(m[5]); ln=int(m[6]); xy=np.frombuffer(raw[off:off+ln],dtype='<f4').reshape(-1,2).astype(float)
+  xy=xy[np.isfinite(xy).all(1)]
+  if len(xy)<2 or np.abs(xy).max()>400: continue
+  xy[:,0]=np.where(xy[:,0]>180,xy[:,0]-360,xy[:,0]); ls=LineString(xy)
+  if ls.length<0.3: continue
+  out.append(np.round(np.array(ls.simplify(0.04).coords)*20).astype(int).ravel().tolist())
+json.dump(out,open('atlas/rivers.json','w'),separators=(',',':'))

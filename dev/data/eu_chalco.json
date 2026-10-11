@@ -1,0 +1,2341 @@
+[
+ {
+  "n": "Varna",
+  "w": "Varna culture",
+  "from": -4550,
+  "to": -4100,
+  "region": "Northeastern Bulgaria, Black Sea coast",
+  "pts": [
+   [
+    26.3,
+    43.6
+   ],
+   [
+    26.4,
+    43.0
+   ],
+   [
+    27.0,
+    42.7
+   ],
+   [
+    27.9,
+    42.8
+   ],
+   [
+    28.1,
+    43.2
+   ],
+   [
+    28.6,
+    43.7
+   ],
+   [
+    28.4,
+    44.0
+   ],
+   [
+    27.4,
+    44.0
+   ],
+   [
+    26.6,
+    43.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Varna Necropolis (approx.)",
+    "lat": 43.216,
+    "lon": 27.882
+   },
+   {
+    "n": "Durankulak (approx.)",
+    "lat": 43.69,
+    "lon": 28.52
+   },
+   {
+    "n": "Solnitsata (approx.)",
+    "lat": 43.17,
+    "lon": 27.47
+   }
+  ],
+  "d": "Copper Age coastal society with the world's oldest worked gold, a richly furnished necropolis revealing elites, salt production and long-distance trade.",
+  "kind": "culture"
+ },
+ {
+  "n": "Gumelnița–Karanovo VI",
+  "w": "Gumelnița–Karanovo culture",
+  "from": -4700,
+  "to": -3950,
+  "region": "Lower Danube (Muntenia), Dobruja, Thrace and central Bulgaria",
+  "pts": [
+   [
+    23.5,
+    43.8
+   ],
+   [
+    24.0,
+    42.0
+   ],
+   [
+    25.5,
+    41.7
+   ],
+   [
+    26.8,
+    41.8
+   ],
+   [
+    27.6,
+    42.4
+   ],
+   [
+    27.2,
+    43.7
+   ],
+   [
+    28.3,
+    44.6
+   ],
+   [
+    27.9,
+    45.2
+   ],
+   [
+    26.5,
+    45.3
+   ],
+   [
+    25.0,
+    45.0
+   ],
+   [
+    24.0,
+    44.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Gumelnița (approx.)",
+    "lat": 44.08,
+    "lon": 26.64
+   },
+   {
+    "n": "Karanovo tell (approx.)",
+    "lat": 42.51,
+    "lon": 25.91
+   },
+   {
+    "n": "Pazardzhik (approx.)",
+    "lat": 42.19,
+    "lon": 24.33
+   }
+  ],
+  "d": "Flourishing tell-dwelling Copper Age farmers with craft workshops, graphite-painted pottery, abundant figurines and Spondylus ornaments.",
+  "kind": "culture"
+ },
+ {
+  "n": "Tiszapolgár",
+  "w": "Tiszapolgár culture",
+  "from": -4500,
+  "to": -4000,
+  "region": "Great Hungarian Plain: eastern Hungary, eastern Slovakia, Transcarpathia, western Romania",
+  "pts": [
+   [
+    20.3,
+    48.2
+   ],
+   [
+    19.6,
+    47.5
+   ],
+   [
+    20.0,
+    46.3
+   ],
+   [
+    21.0,
+    45.6
+   ],
+   [
+    22.3,
+    45.6
+   ],
+   [
+    22.6,
+    46.6
+   ],
+   [
+    23.0,
+    47.8
+   ],
+   [
+    22.4,
+    48.6
+   ],
+   [
+    21.3,
+    48.7
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Tiszapolgár-Basatanya (approx.)",
+    "lat": 47.87,
+    "lon": 21.12
+   },
+   {
+    "n": "Românești (approx.)",
+    "lat": 45.81,
+    "lon": 22.33
+   }
+  ],
+  "d": "Early Copper Age successor of the Tisza culture, known mainly from cemeteries with copper axes, ornaments and polished unpainted pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bodrogkeresztúr",
+  "w": "Bodrogkeresztúr culture",
+  "from": -4000,
+  "to": -3600,
+  "region": "Carpathian Basin: eastern Hungary, Transylvania and western Romania",
+  "pts": [
+   [
+    19.8,
+    48.3
+   ],
+   [
+    19.0,
+    47.6
+   ],
+   [
+    19.4,
+    46.3
+   ],
+   [
+    20.5,
+    45.6
+   ],
+   [
+    22.0,
+    45.6
+   ],
+   [
+    23.2,
+    46.6
+   ],
+   [
+    23.5,
+    47.6
+   ],
+   [
+    22.6,
+    48.7
+   ],
+   [
+    21.0,
+    48.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bodrogkeresztúr (approx.)",
+    "lat": 48.16,
+    "lon": 21.36
+   },
+   {
+    "n": "Moigrad (approx.)",
+    "lat": 47.18,
+    "lon": 23.15
+   }
+  ],
+  "d": "Middle Copper Age cattle-keeping farmers known from about seventy cemeteries with sex-differentiated burials, copper tools, gold ornaments and milk jugs.",
+  "kind": "culture"
+ },
+ {
+  "n": "Baden",
+  "w": "Baden culture",
+  "from": -3520,
+  "to": -2690,
+  "region": "Carpathian Basin, Moravia, eastern Austria, Slovakia, southern Poland, northern Croatia and Serbia",
+  "pts": [
+   [
+    15.8,
+    49.3
+   ],
+   [
+    15.5,
+    48.6
+   ],
+   [
+    15.8,
+    47.2
+   ],
+   [
+    16.5,
+    45.8
+   ],
+   [
+    18.5,
+    45.0
+   ],
+   [
+    20.3,
+    44.6
+   ],
+   [
+    21.5,
+    45.3
+   ],
+   [
+    21.8,
+    47.0
+   ],
+   [
+    22.0,
+    48.5
+   ],
+   [
+    21.0,
+    49.8
+   ],
+   [
+    19.0,
+    50.2
+   ],
+   [
+    17.0,
+    49.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Baden bei Wien (approx.)",
+    "lat": 48.0,
+    "lon": 16.23
+   },
+   {
+    "n": "Balatonőszöd (approx.)",
+    "lat": 46.81,
+    "lon": 17.8
+   },
+   {
+    "n": "Nitriansky Hrádok (approx.)",
+    "lat": 48.06,
+    "lon": 18.2
+   }
+  ],
+  "d": "Late Copper Age culture unifying the Carpathian Basin, with fortified hilltops, cremation urns, paired cattle burials and early wagon-shaped vessels.",
+  "kind": "culture"
+ },
+ {
+  "n": "Cernavodă",
+  "w": "Cernavodă culture",
+  "from": -4000,
+  "to": -3200,
+  "region": "Lower Danube, Dobruja and Black Sea coast of Romania and Bulgaria",
+  "pts": [
+   [
+    25.0,
+    44.3
+   ],
+   [
+    25.0,
+    43.6
+   ],
+   [
+    26.5,
+    43.0
+   ],
+   [
+    27.9,
+    43.0
+   ],
+   [
+    28.6,
+    43.8
+   ],
+   [
+    29.0,
+    44.9
+   ],
+   [
+    28.8,
+    46.0
+   ],
+   [
+    27.5,
+    45.8
+   ],
+   [
+    26.0,
+    44.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Cernavodă (approx.)",
+    "lat": 44.34,
+    "lon": 28.03
+   }
+  ],
+  "d": "Late Copper Age culture with defended hilltop settlements and steppe-related pottery and burials, succeeding the destroyed Gumelnița tell societies.",
+  "kind": "culture"
+ },
+ {
+  "n": "Coțofeni",
+  "w": "Coțofeni culture",
+  "from": -3500,
+  "to": -2500,
+  "region": "Romania (Transylvania, Banat, Oltenia, Muntenia), eastern Serbia, northwestern Bulgaria",
+  "pts": [
+   [
+    22.2,
+    46.9
+   ],
+   [
+    21.3,
+    45.6
+   ],
+   [
+    21.6,
+    44.2
+   ],
+   [
+    22.3,
+    43.3
+   ],
+   [
+    23.6,
+    43.4
+   ],
+   [
+    25.8,
+    43.9
+   ],
+   [
+    26.2,
+    44.8
+   ],
+   [
+    25.6,
+    45.6
+   ],
+   [
+    25.4,
+    46.8
+   ],
+   [
+    24.3,
+    47.8
+   ],
+   [
+    23.0,
+    47.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Râpa Roșie, Sebeș (approx.)",
+    "lat": 45.98,
+    "lon": 23.59
+   },
+   {
+    "n": "Coțofeni (approx.)",
+    "lat": 44.38,
+    "lon": 23.63
+   }
+  ],
+  "d": "Late Copper Age to Early Bronze Age hill and cave dwellers of the Carpathians, trading and intermingling with Baden and Kostolac groups.",
+  "kind": "culture"
+ },
+ {
+  "n": "Ezero",
+  "w": "Ezero culture",
+  "from": -3300,
+  "to": -2700,
+  "region": "Most of present-day Bulgaria, especially Upper Thracian Plain",
+  "pts": [
+   [
+    23.3,
+    43.3
+   ],
+   [
+    22.8,
+    42.8
+   ],
+   [
+    23.3,
+    41.6
+   ],
+   [
+    25.0,
+    41.4
+   ],
+   [
+    26.4,
+    41.6
+   ],
+   [
+    27.8,
+    42.2
+   ],
+   [
+    27.8,
+    43.0
+   ],
+   [
+    26.5,
+    43.4
+   ],
+   [
+    24.5,
+    43.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ezero tell (approx.)",
+    "lat": 42.53,
+    "lon": 26.03
+   }
+  ],
+  "d": "Early Bronze Age tell-dwelling farmers and stockbreeders with fortified settlements, linked to the Troy I horizon and Balkan-Danubian complex.",
+  "kind": "culture"
+ },
+ {
+  "n": "Vučedol",
+  "w": "Vučedol culture",
+  "from": -3000,
+  "to": -2200,
+  "region": "Syrmia and eastern Slavonia on the Danube, spreading over the Pannonian Plain and western Balkans",
+  "pts": [
+   [
+    17.0,
+    46.4
+   ],
+   [
+    15.5,
+    45.9
+   ],
+   [
+    15.8,
+    44.5
+   ],
+   [
+    16.5,
+    43.5
+   ],
+   [
+    17.8,
+    42.9
+   ],
+   [
+    19.0,
+    43.4
+   ],
+   [
+    20.3,
+    44.4
+   ],
+   [
+    20.6,
+    45.2
+   ],
+   [
+    19.8,
+    46.0
+   ],
+   [
+    18.5,
+    46.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Vučedol (approx.)",
+    "lat": 45.36,
+    "lon": 19.07
+   },
+   {
+    "n": "Vinkovci (approx.)",
+    "lat": 45.29,
+    "lon": 18.8
+   },
+   {
+    "n": "Mala Gruda (approx.)",
+    "lat": 42.43,
+    "lon": 18.7
+   }
+  ],
+  "d": "Palisaded hilltop settlements of wattle-and-daub houses, large-scale copper smelting, elaborate incised pottery like the Vučedol Dove, and an emerging warrior elite.",
+  "kind": "culture"
+ },
+ {
+  "n": "Globular Amphora",
+  "w": "Globular Amphora culture",
+  "from": -3400,
+  "to": -2800,
+  "region": "Central Europe between the Elbe and Vistula, east to Volhynia, Podolia and the middle Dniester",
+  "pts": [
+   [
+    10.8,
+    52.5
+   ],
+   [
+    11.3,
+    50.8
+   ],
+   [
+    15.0,
+    50.1
+   ],
+   [
+    19.5,
+    49.8
+   ],
+   [
+    24.5,
+    48.7
+   ],
+   [
+    27.5,
+    48.5
+   ],
+   [
+    28.5,
+    50.0
+   ],
+   [
+    25.5,
+    51.6
+   ],
+   [
+    21.0,
+    54.2
+   ],
+   [
+    17.0,
+    54.6
+   ],
+   [
+    13.0,
+    53.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Koszyce (approx.)",
+    "lat": 50.17,
+    "lon": 20.57
+   },
+   {
+    "n": "Vliněves (approx.)",
+    "lat": 50.37,
+    "lon": 14.44
+   },
+   {
+    "n": "Krzemionki (approx.)",
+    "lat": 50.97,
+    "lon": 21.5
+   }
+  ],
+  "d": "Mobile cattle and pig herders with few houses, burying the dead in stone cists with globular amphorae, stone axes and paired oxen.",
+  "kind": "culture"
+ },
+ {
+  "n": "Corded Ware",
+  "w": "Corded Ware culture",
+  "from": -2900,
+  "to": -2300,
+  "region": "Northern and central Europe from the Rhine to the upper Volga, Baltic to the Alpine foreland and northern Ukraine",
+  "pts": [
+   [
+    6.5,
+    51.8
+   ],
+   [
+    7.8,
+    47.8
+   ],
+   [
+    13.0,
+    48.2
+   ],
+   [
+    19.5,
+    49.3
+   ],
+   [
+    24.0,
+    49.0
+   ],
+   [
+    31.0,
+    50.5
+   ],
+   [
+    36.0,
+    55.0
+   ],
+   [
+    29.0,
+    57.8
+   ],
+   [
+    24.0,
+    59.2
+   ],
+   [
+    21.0,
+    56.0
+   ],
+   [
+    14.0,
+    54.2
+   ],
+   [
+    9.0,
+    53.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bronocice (approx.)",
+    "lat": 50.33,
+    "lon": 20.33
+   },
+   {
+    "n": "Eulau (approx.)",
+    "lat": 51.14,
+    "lon": 11.83
+   },
+   {
+    "n": "Esperstedt (approx.)",
+    "lat": 51.42,
+    "lon": 11.68
+   }
+  ],
+  "d": "Vast horizon of steppe-descended herders and farmers with cord-impressed beakers, battle axes and single flexed burials under small mounds; likely spread Indo-European languages.",
+  "kind": "culture"
+ },
+ {
+  "n": "Single Grave",
+  "w": "Single Grave culture",
+  "from": -2800,
+  "to": -2200,
+  "region": "Jutland, Schleswig-Holstein, northern Germany and the Netherlands",
+  "pts": [
+   [
+    5.0,
+    52.2
+   ],
+   [
+    6.5,
+    52.0
+   ],
+   [
+    9.5,
+    52.6
+   ],
+   [
+    12.5,
+    53.3
+   ],
+   [
+    13.5,
+    54.2
+   ],
+   [
+    11.5,
+    54.5
+   ],
+   [
+    10.8,
+    55.2
+   ],
+   [
+    10.6,
+    56.5
+   ],
+   [
+    10.3,
+    57.6
+   ],
+   [
+    8.2,
+    57.0
+   ],
+   [
+    8.1,
+    55.5
+   ],
+   [
+    7.0,
+    53.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kyndeløse (approx.)",
+    "lat": 55.68,
+    "lon": 11.87
+   },
+   {
+    "n": "Gjerrild (approx.)",
+    "lat": 56.5,
+    "lon": 10.82
+   }
+  ],
+  "d": "Western Corded Ware variant of cattle herders and barley farmers, burying individuals in plank coffins under low round mounds with battle axes, amber and beakers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Yamnaya",
+  "w": "Yamnaya culture",
+  "from": -3300,
+  "to": -2600,
+  "region": "Pontic–Caspian steppe from the Southern Bug and Dniester to the Ural River (Ukraine, Moldova, southern Russia)",
+  "pts": [
+   [
+    29.5,
+    48.3
+   ],
+   [
+    28.5,
+    46.5
+   ],
+   [
+    31.0,
+    46.5
+   ],
+   [
+    35.0,
+    46.3
+   ],
+   [
+    39.5,
+    46.8
+   ],
+   [
+    44.0,
+    45.3
+   ],
+   [
+    46.8,
+    45.6
+   ],
+   [
+    52.0,
+    47.2
+   ],
+   [
+    53.5,
+    51.5
+   ],
+   [
+    49.5,
+    53.3
+   ],
+   [
+    42.0,
+    51.5
+   ],
+   [
+    35.0,
+    49.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mykhailivka (approx.)",
+    "lat": 47.26,
+    "lon": 33.94
+   },
+   {
+    "n": "Kurmanayevka (approx.)",
+    "lat": 52.51,
+    "lon": 52.06
+   },
+   {
+    "n": "Cimișlia (approx.)",
+    "lat": 46.52,
+    "lon": 28.78
+   }
+  ],
+  "d": "Semi-nomadic pastoralists with ox-drawn wagons who buried ochre-strewn dead in pit graves under kurgans; widely seen as Proto-Indo-European speakers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Sredny Stog",
+  "w": "Sredny Stog culture",
+  "from": -4500,
+  "to": -3500,
+  "region": "Steppe of Ukraine and southern Russia between the Dnieper and lower Don, north of the Sea of Azov",
+  "pts": [
+   [
+    32.0,
+    49.4
+   ],
+   [
+    30.5,
+    48.0
+   ],
+   [
+    31.5,
+    46.8
+   ],
+   [
+    34.0,
+    46.8
+   ],
+   [
+    37.5,
+    47.0
+   ],
+   [
+    39.5,
+    47.2
+   ],
+   [
+    40.5,
+    48.5
+   ],
+   [
+    39.0,
+    50.5
+   ],
+   [
+    37.0,
+    50.6
+   ],
+   [
+    34.5,
+    49.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Deriivka (approx.)",
+    "lat": 49.05,
+    "lon": 33.61
+   },
+   {
+    "n": "Ihren (Igren) (approx.)",
+    "lat": 48.47,
+    "lon": 35.17
+   },
+   {
+    "n": "Oleksandriia (approx.)",
+    "lat": 49.5,
+    "lon": 37.7
+   }
+  ],
+  "d": "Mobile Copper Age steppe people with simple rectilinear dwellings, flat ochre graves and early horse exploitation, ancestral in part to Yamnaya.",
+  "kind": "culture"
+ },
+ {
+  "n": "Khvalynsk",
+  "w": "Khvalynsk culture",
+  "from": -4900,
+  "to": -3500,
+  "region": "Middle and lower Volga, Russia",
+  "pts": [
+   [
+    45.5,
+    49.8
+   ],
+   [
+    44.5,
+    47.5
+   ],
+   [
+    46.5,
+    46.8
+   ],
+   [
+    48.0,
+    47.5
+   ],
+   [
+    49.5,
+    49.5
+   ],
+   [
+    50.5,
+    52.0
+   ],
+   [
+    51.0,
+    53.8
+   ],
+   [
+    49.5,
+    54.5
+   ],
+   [
+    48.0,
+    53.5
+   ],
+   [
+    46.5,
+    52.0
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Khvalynsk cemetery",
+    "lat": 52.741,
+    "lon": 49.551
+   }
+  ],
+  "d": "Volga herders of sheep, goats and cattle whose cemeteries with copper ornaments and animal sacrifices foreshadow later kurgan burials.",
+  "kind": "culture"
+ },
+ {
+  "n": "Maykop",
+  "w": "Maykop culture",
+  "from": -3700,
+  "to": -3000,
+  "region": "Western and northern Caucasus: Kuban basin from the Taman Peninsula toward Dagestan",
+  "pts": [
+   [
+    37.8,
+    45.4
+   ],
+   [
+    36.7,
+    45.2
+   ],
+   [
+    37.8,
+    44.7
+   ],
+   [
+    39.0,
+    44.2
+   ],
+   [
+    41.0,
+    43.3
+   ],
+   [
+    43.0,
+    43.0
+   ],
+   [
+    45.5,
+    42.8
+   ],
+   [
+    46.2,
+    43.4
+   ],
+   [
+    45.0,
+    44.4
+   ],
+   [
+    42.0,
+    45.0
+   ],
+   [
+    39.5,
+    45.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Maykop kurgan (approx.)",
+    "lat": 44.61,
+    "lon": 40.11
+   },
+   {
+    "n": "Novosvobodnaya (approx.)",
+    "lat": 44.37,
+    "lon": 40.46
+   }
+  ],
+  "d": "Sedentary farming society of the Caucasus with lavish royal kurgans rich in gold and silver, early wagon wheels and advanced bronze metallurgy.",
+  "kind": "culture"
+ },
+ {
+  "n": "Kura–Araxes",
+  "w": "Kura–Araxes culture",
+  "from": -3400,
+  "to": -2000,
+  "region": "Armenian Highlands and South Caucasus: Armenia, Georgia, Azerbaijan, eastern Turkey, northwestern Iran",
+  "pts": [
+   [
+    42.0,
+    42.0
+   ],
+   [
+    40.0,
+    41.0
+   ],
+   [
+    39.5,
+    39.5
+   ],
+   [
+    41.5,
+    38.8
+   ],
+   [
+    43.5,
+    38.2
+   ],
+   [
+    45.5,
+    37.5
+   ],
+   [
+    47.5,
+    38.5
+   ],
+   [
+    49.5,
+    40.0
+   ],
+   [
+    48.5,
+    41.8
+   ],
+   [
+    46.0,
+    42.6
+   ],
+   [
+    44.0,
+    42.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Shengavit (approx.)",
+    "lat": 40.15,
+    "lon": 44.48
+   },
+   {
+    "n": "Sos Höyük (approx.)",
+    "lat": 40.03,
+    "lon": 40.94
+   },
+   {
+    "n": "Kültepe, Nakhchivan (approx.)",
+    "lat": 39.23,
+    "lon": 45.42
+   }
+  ],
+  "d": "Highland farmers and herders in round then rectangular mud-brick houses, making burnished black-and-red pottery and arsenical bronze that spread far into the Near East.",
+  "kind": "culture"
+ },
+ {
+  "n": "Catacomb",
+  "w": "Catacomb culture",
+  "from": -2500,
+  "to": -1950,
+  "region": "Southern Pontic steppe of Ukraine and southern Russia between the Southern Bug, Dnieper, Donets and North Caucasus",
+  "pts": [
+   [
+    32.5,
+    48.8
+   ],
+   [
+    30.0,
+    48.0
+   ],
+   [
+    30.5,
+    46.6
+   ],
+   [
+    33.5,
+    46.2
+   ],
+   [
+    36.5,
+    46.9
+   ],
+   [
+    39.5,
+    46.9
+   ],
+   [
+    42.5,
+    45.0
+   ],
+   [
+    45.5,
+    45.2
+   ],
+   [
+    46.0,
+    47.5
+   ],
+   [
+    43.0,
+    49.5
+   ],
+   [
+    39.5,
+    50.2
+   ],
+   [
+    35.5,
+    49.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Matviivka (approx.)",
+    "lat": 46.98,
+    "lon": 32.05
+   },
+   {
+    "n": "Bayda Island (approx.)",
+    "lat": 47.87,
+    "lon": 35.07
+   }
+  ],
+  "d": "Steppe stockbreeders, successors of Yamnaya, burying the dead in side niches (catacombs) off shaft graves under kurgans, sometimes with wagons and modelled skulls.",
+  "kind": "culture"
+ },
+ {
+  "n": "Fatyanovo–Balanovo",
+  "w": "Fatyanovo–Balanovo culture",
+  "from": -2900,
+  "to": -2050,
+  "region": "Forest zone of western Russia from Lake Pskov through the upper Volga and Oka to the middle Volga and Kama",
+  "pts": [
+   [
+    31.0,
+    58.4
+   ],
+   [
+    28.0,
+    57.5
+   ],
+   [
+    31.0,
+    56.0
+   ],
+   [
+    35.0,
+    55.3
+   ],
+   [
+    39.0,
+    55.0
+   ],
+   [
+    43.5,
+    54.8
+   ],
+   [
+    48.5,
+    55.2
+   ],
+   [
+    52.0,
+    56.0
+   ],
+   [
+    51.0,
+    57.8
+   ],
+   [
+    47.0,
+    58.0
+   ],
+   [
+    42.0,
+    58.3
+   ],
+   [
+    36.0,
+    58.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Fatyanovo (approx.)",
+    "lat": 57.65,
+    "lon": 39.8
+   },
+   {
+    "n": "Balanovo (approx.)",
+    "lat": 55.6,
+    "lon": 46.6
+   }
+  ],
+  "d": "Northeastern offshoot of Corded Ware: herders and copper-workers in riverbank log-house villages, burying men with battle axes in deep shaft graves.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bell Beaker (continental)",
+  "w": "Bell Beaker culture",
+  "from": -2800,
+  "to": -1800,
+  "region": "Iberia, France, the Rhine, upper Danube, Bohemia, Po Valley and Carpathian Basin (discontinuous)",
+  "pts": [
+   [
+    -9.4,
+    39.0
+   ],
+   [
+    -8.6,
+    37.2
+   ],
+   [
+    -4.5,
+    37.5
+   ],
+   [
+    0.5,
+    40.5
+   ],
+   [
+    5.0,
+    43.4
+   ],
+   [
+    12.0,
+    47.5
+   ],
+   [
+    19.5,
+    47.0
+   ],
+   [
+    16.5,
+    50.5
+   ],
+   [
+    9.0,
+    52.5
+   ],
+   [
+    -4.0,
+    48.0
+   ],
+   [
+    -1.5,
+    44.5
+   ],
+   [
+    -8.8,
+    43.0
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Zambujal (approx.)",
+    "lat": 39.07,
+    "lon": -9.29
+   },
+   {
+    "n": "Pömmelte (approx.)",
+    "lat": 51.98,
+    "lon": 11.82
+   },
+   {
+    "n": "Albertfalva, Budapest (approx.)",
+    "lat": 47.44,
+    "lon": 19.03
+   }
+  ],
+  "d": "Pan-European network marked by inverted-bell beakers, copper daggers, archery gear and individual burials; spread metallurgy and Steppe ancestry across western Europe.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bell Beaker (Britain)",
+  "w": "Bell Beaker culture",
+  "from": -2450,
+  "to": -1800,
+  "region": "Great Britain (also Ireland)",
+  "pts": [
+   [
+    -5.7,
+    50.1
+   ],
+   [
+    1.4,
+    51.2
+   ],
+   [
+    1.7,
+    52.6
+   ],
+   [
+    0.0,
+    53.5
+   ],
+   [
+    -1.5,
+    55.0
+   ],
+   [
+    -2.0,
+    57.6
+   ],
+   [
+    -3.5,
+    58.6
+   ],
+   [
+    -5.0,
+    58.5
+   ],
+   [
+    -5.6,
+    56.4
+   ],
+   [
+    -4.8,
+    54.8
+   ],
+   [
+    -3.0,
+    53.4
+   ],
+   [
+    -4.6,
+    52.1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Stonehenge",
+    "lat": 51.1789,
+    "lon": -1.8262
+   },
+   {
+    "n": "Woodhenge (approx.)",
+    "lat": 51.189,
+    "lon": -1.786
+   }
+  ],
+  "d": "Beaker arrival brought copper and gold working and near-total population turnover in Britain, with individual burials of archers under round barrows.",
+  "kind": "culture"
+ },
+ {
+  "n": "Únětice",
+  "w": "Únětice culture",
+  "from": -2300,
+  "to": -1600,
+  "region": "Bohemia, Moravia, Silesia, Greater and Lesser Poland, Central Germany, Lower Austria and Slovakia",
+  "pts": [
+   [
+    11.5,
+    52.3
+   ],
+   [
+    10.5,
+    51.5
+   ],
+   [
+    11.5,
+    50.3
+   ],
+   [
+    12.5,
+    49.3
+   ],
+   [
+    14.5,
+    48.3
+   ],
+   [
+    16.5,
+    48.0
+   ],
+   [
+    18.5,
+    48.3
+   ],
+   [
+    20.5,
+    49.5
+   ],
+   [
+    21.5,
+    50.5
+   ],
+   [
+    19.5,
+    52.2
+   ],
+   [
+    17.0,
+    52.8
+   ],
+   [
+    13.5,
+    52.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Únětice (approx.)",
+    "lat": 50.15,
+    "lon": 14.36
+   },
+   {
+    "n": "Leubingen (approx.)",
+    "lat": 51.2,
+    "lon": 11.18
+   },
+   {
+    "n": "Łęki Małe (approx.)",
+    "lat": 52.09,
+    "lon": 16.47
+   }
+  ],
+  "d": "Early Bronze Age villages of timber longhouses with princely barrows, massive bronze hoards and the Nebra sky disc; a hub of European tin-bronze exchange.",
+  "kind": "culture"
+ },
+ {
+  "n": "Remedello",
+  "w": "Remedello culture",
+  "from": -3400,
+  "to": -2400,
+  "region": "Northern Italy, Po Valley (Lombardy)",
+  "pts": [
+   [
+    8.6,
+    46.0
+   ],
+   [
+    7.5,
+    45.6
+   ],
+   [
+    7.8,
+    44.7
+   ],
+   [
+    9.5,
+    44.7
+   ],
+   [
+    11.5,
+    44.6
+   ],
+   [
+    12.4,
+    44.9
+   ],
+   [
+    12.6,
+    45.6
+   ],
+   [
+    11.5,
+    45.9
+   ],
+   [
+    10.0,
+    46.0
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Remedello (approx.)",
+    "lat": 45.28,
+    "lon": 10.37
+   }
+  ],
+  "d": "Copper Age culture of the Po Valley known from single crouched burials with fine flint daggers, copper axes and arsenical silver ornaments.",
+  "kind": "culture"
+ },
+ {
+  "n": "Rinaldone",
+  "w": "Rinaldone culture",
+  "from": -3700,
+  "to": -2100,
+  "region": "Central Italy: northern Lazio, southern Tuscany, Umbria and Marche",
+  "pts": [
+   [
+    11.5,
+    43.3
+   ],
+   [
+    10.6,
+    43.0
+   ],
+   [
+    11.2,
+    42.4
+   ],
+   [
+    12.0,
+    41.8
+   ],
+   [
+    12.8,
+    41.3
+   ],
+   [
+    13.5,
+    41.6
+   ],
+   [
+    13.5,
+    42.3
+   ],
+   [
+    13.9,
+    43.0
+   ],
+   [
+    13.4,
+    43.6
+   ],
+   [
+    12.5,
+    43.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Rinaldone (approx.)",
+    "lat": 42.54,
+    "lon": 12.03
+   },
+   {
+    "n": "Ponte San Pietro (approx.)",
+    "lat": 42.53,
+    "lon": 11.68
+   },
+   {
+    "n": "Fontenoce di Recanati (approx.)",
+    "lat": 43.4,
+    "lon": 13.55
+   }
+  ],
+  "d": "Copper Age culture known almost only from rock-cut tombs with flasks, copper daggers and stone mace-heads, including the 'widow's tomb' at Ponte San Pietro.",
+  "kind": "culture"
+ },
+ {
+  "n": "Los Millares",
+  "w": "Los Millares",
+  "from": -3200,
+  "to": -2000,
+  "region": "Southeastern Iberia: Almería, Granada and Murcia, Spain",
+  "pts": [
+   [
+    -3.4,
+    37.9
+   ],
+   [
+    -4.2,
+    37.4
+   ],
+   [
+    -3.5,
+    36.75
+   ],
+   [
+    -2.4,
+    36.8
+   ],
+   [
+    -1.9,
+    36.9
+   ],
+   [
+    -1.6,
+    37.3
+   ],
+   [
+    -0.8,
+    37.6
+   ],
+   [
+    -1.2,
+    38.3
+   ],
+   [
+    -2.4,
+    38.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Los Millares",
+    "lat": 36.9647,
+    "lon": -2.5222
+   },
+   {
+    "n": "Almizaraque (approx.)",
+    "lat": 37.22,
+    "lon": -1.8
+   }
+  ],
+  "d": "Copper-smelting farmers in a fortified town with triple bastioned walls, outlying forts and some 80 tholos passage tombs; type site of the Millaran culture.",
+  "kind": "culture"
+ },
+ {
+  "n": "El Argar",
+  "w": "El Argar culture",
+  "from": -2200,
+  "to": -1550,
+  "region": "Southeastern Spain: Almería, Murcia, eastern Granada and Jaén, toward Alicante and the Meseta",
+  "pts": [
+   [
+    -4.0,
+    38.0
+   ],
+   [
+    -4.2,
+    37.5
+   ],
+   [
+    -3.2,
+    36.8
+   ],
+   [
+    -2.0,
+    36.8
+   ],
+   [
+    -1.6,
+    37.3
+   ],
+   [
+    -0.8,
+    37.6
+   ],
+   [
+    -0.6,
+    38.3
+   ],
+   [
+    -1.0,
+    38.8
+   ],
+   [
+    -2.2,
+    38.7
+   ],
+   [
+    -3.2,
+    38.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "El Argar (approx.)",
+    "lat": 37.24,
+    "lon": -1.92
+   },
+   {
+    "n": "La Bastida de Totana (approx.)",
+    "lat": 37.8,
+    "lon": -1.57
+   },
+   {
+    "n": "La Almoloya (approx.)",
+    "lat": 37.98,
+    "lon": -1.36
+   }
+  ],
+  "d": "Early Bronze Age hilltop towns, possibly a state, burying individuals in cists and jars beneath houses with bronze weapons and silver diadems.",
+  "kind": "culture"
+ },
+ {
+  "n": "Vila Nova de São Pedro",
+  "w": "Castro of Vila Nova de São Pedro",
+  "from": -2700,
+  "to": -2000,
+  "region": "Portuguese Estremadura around the Tagus estuary and Setúbal peninsula",
+  "pts": [
+   [
+    -9.4,
+    39.2
+   ],
+   [
+    -9.5,
+    38.75
+   ],
+   [
+    -9.2,
+    38.42
+   ],
+   [
+    -8.75,
+    38.45
+   ],
+   [
+    -8.4,
+    38.8
+   ],
+   [
+    -8.3,
+    39.3
+   ],
+   [
+    -8.6,
+    39.7
+   ],
+   [
+    -9.1,
+    39.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Vila Nova de São Pedro",
+    "lat": 39.2198,
+    "lon": -8.8404
+   },
+   {
+    "n": "Zambujal (approx.)",
+    "lat": 39.07,
+    "lon": -9.29
+   },
+   {
+    "n": "Leceia (approx.)",
+    "lat": 38.72,
+    "lon": -9.28
+   }
+  ],
+  "d": "Chalcolithic farmers and copper-smiths in walled, bastioned hilltop settlements, burying the dead collectively in rock-cut artificial caves; later adopted Beakers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Seine-Oise-Marne",
+  "w": "Seine-Oise-Marne culture",
+  "from": -3100,
+  "to": -2000,
+  "region": "Paris Basin of northern France and southern Belgium",
+  "pts": [
+   [
+    1.6,
+    50.1
+   ],
+   [
+    0.5,
+    49.0
+   ],
+   [
+    1.0,
+    48.2
+   ],
+   [
+    2.5,
+    48.0
+   ],
+   [
+    4.2,
+    48.5
+   ],
+   [
+    5.0,
+    49.3
+   ],
+   [
+    5.8,
+    50.3
+   ],
+   [
+    4.5,
+    50.8
+   ],
+   [
+    3.0,
+    50.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mont-Aimé hypogea (approx.)",
+    "lat": 48.87,
+    "lon": 4.02
+   },
+   {
+    "n": "Pierre Turquaise (approx.)",
+    "lat": 49.15,
+    "lon": 2.33
+   },
+   {
+    "n": "Wéris (approx.)",
+    "lat": 50.33,
+    "lon": 5.53
+   }
+  ],
+  "d": "Late Neolithic to Copper Age people known for collective burial in gallery graves with port-hole slabs and Marne rock-cut tombs, with crude flat-based pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Horgen",
+  "w": "Horgen culture",
+  "from": -3400,
+  "to": -2850,
+  "region": "Northern Switzerland and southwestern Germany: Lake Zurich, Lake Constance, Lake Biel, Federsee",
+  "pts": [
+   [
+    7.0,
+    47.2
+   ],
+   [
+    6.8,
+    46.8
+   ],
+   [
+    7.2,
+    46.6
+   ],
+   [
+    8.5,
+    46.9
+   ],
+   [
+    9.6,
+    47.1
+   ],
+   [
+    9.9,
+    47.6
+   ],
+   [
+    9.8,
+    48.1
+   ],
+   [
+    8.8,
+    48.2
+   ],
+   [
+    7.6,
+    47.7
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Horgen (approx.)",
+    "lat": 47.26,
+    "lon": 8.6
+   },
+   {
+    "n": "Twann (approx.)",
+    "lat": 47.09,
+    "lon": 7.16
+   },
+   {
+    "n": "Dullenried, Federsee (approx.)",
+    "lat": 48.08,
+    "lon": 9.63
+   }
+  ],
+  "d": "Lakeshore pile-dwelling villages of pig-keeping farmers with coarse undecorated pottery, fine flint tools and rare copper; contemporary with Ötzi.",
+  "kind": "culture"
+ },
+ {
+  "n": "Mondsee",
+  "w": "Mondsee group",
+  "from": -3800,
+  "to": -2800,
+  "region": "Salzkammergut lakes of Upper Austria (Mondsee, Attersee), also Carinthia",
+  "pts": [
+   [
+    12.9,
+    48.1
+   ],
+   [
+    12.6,
+    47.6
+   ],
+   [
+    13.0,
+    47.4
+   ],
+   [
+    13.8,
+    47.5
+   ],
+   [
+    14.3,
+    47.7
+   ],
+   [
+    14.4,
+    48.1
+   ],
+   [
+    13.6,
+    48.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Scharfling, Mondsee (approx.)",
+    "lat": 47.79,
+    "lon": 13.42
+   },
+   {
+    "n": "See am Mondsee (approx.)",
+    "lat": 47.8,
+    "lon": 13.45
+   }
+  ],
+  "d": "Lake-dwelling farmers on pile villages who produced early arsenical 'Mondsee copper', one of the first Central European metallurgies.",
+  "kind": "culture"
+ },
+ {
+  "n": "Early Helladic",
+  "w": "Helladic chronology",
+  "from": -3200,
+  "to": -2000,
+  "region": "Mainland Greece: Argolid, Corinthia, Attica, Boeotia, Euboea and Aegina",
+  "pts": [
+   [
+    22.0,
+    38.9
+   ],
+   [
+    21.6,
+    38.3
+   ],
+   [
+    21.7,
+    37.0
+   ],
+   [
+    22.5,
+    36.5
+   ],
+   [
+    23.2,
+    37.3
+   ],
+   [
+    23.9,
+    37.7
+   ],
+   [
+    24.4,
+    38.3
+   ],
+   [
+    23.9,
+    38.9
+   ],
+   [
+    23.1,
+    39.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lerna (approx.)",
+    "lat": 37.55,
+    "lon": 22.72
+   },
+   {
+    "n": "Tiryns (approx.)",
+    "lat": 37.6,
+    "lon": 22.8
+   },
+   {
+    "n": "Manika (approx.)",
+    "lat": 38.48,
+    "lon": 23.62
+   }
+  ],
+  "d": "Early Bronze Age mainland Greece with fortified coastal towns and large two-storey corridor houses like Lerna's House of the Tiles.",
+  "kind": "culture"
+ },
+ {
+  "n": "Early Cycladic",
+  "w": "Cycladic culture",
+  "from": -3100,
+  "to": -2200,
+  "region": "Cyclades islands, Aegean Sea (outline is a hull around the islands)",
+  "pts": [
+   [
+    24.9,
+    37.9
+   ],
+   [
+    24.3,
+    37.6
+   ],
+   [
+    24.4,
+    36.7
+   ],
+   [
+    25.3,
+    36.3
+   ],
+   [
+    26.0,
+    36.6
+   ],
+   [
+    25.9,
+    37.1
+   ],
+   [
+    25.3,
+    37.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Chalandriani, Syros (approx.)",
+    "lat": 37.49,
+    "lon": 24.93
+   },
+   {
+    "n": "Grotta, Naxos (approx.)",
+    "lat": 37.11,
+    "lon": 25.38
+   },
+   {
+    "n": "Keros (approx.)",
+    "lat": 36.89,
+    "lon": 25.65
+   }
+  ],
+  "d": "Seafaring island communities famed for flat white-marble figurines, longboats and cist-grave cemeteries, trading pottery and obsidian across the Aegean.",
+  "kind": "culture"
+ },
+ {
+  "n": "Early Minoan",
+  "w": "Minoan chronology",
+  "from": -3100,
+  "to": -2100,
+  "region": "Crete",
+  "pts": [
+   [
+    23.7,
+    35.55
+   ],
+   [
+    23.55,
+    35.25
+   ],
+   [
+    24.4,
+    35.15
+   ],
+   [
+    24.8,
+    34.95
+   ],
+   [
+    25.8,
+    34.95
+   ],
+   [
+    26.2,
+    35.0
+   ],
+   [
+    26.3,
+    35.25
+   ],
+   [
+    25.7,
+    35.3
+   ],
+   [
+    25.1,
+    35.35
+   ],
+   [
+    24.4,
+    35.42
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Knossos",
+    "lat": 35.298,
+    "lon": 25.163
+   },
+   {
+    "n": "Myrtos Fournou Korifi (approx.)",
+    "lat": 35.01,
+    "lon": 25.6
+   },
+   {
+    "n": "Vasiliki (approx.)",
+    "lat": 35.08,
+    "lon": 25.82
+   }
+  ],
+  "d": "Prepalatial Crete of agglomerated village houses, the first painted and mottled pottery, and communal circular tholos tombs in the Mesara.",
+  "kind": "culture"
+ },
+ {
+  "n": "Nagyrév",
+  "w": "Nagyrév culture",
+  "from": -2400,
+  "to": -1900,
+  "region": "Central Hungary along the Danube and Tisza, into Slovakia",
+  "pts": [
+   [
+    19.5,
+    47.8
+   ],
+   [
+    18.8,
+    47.6
+   ],
+   [
+    18.8,
+    46.5
+   ],
+   [
+    19.6,
+    46.0
+   ],
+   [
+    20.5,
+    46.2
+   ],
+   [
+    20.6,
+    47.0
+   ],
+   [
+    20.2,
+    47.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Nagyrév (approx.)",
+    "lat": 46.95,
+    "lon": 20.2
+   },
+   {
+    "n": "Százhalombatta-Földvár (approx.)",
+    "lat": 47.3,
+    "lon": 18.92
+   }
+  ],
+  "d": "Early Bronze Age Carpathian Basin farmers who cremated their dead with many black burnished funnel-necked cups; overrun by Hatvan communities.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hatvan",
+  "w": "Hatvan culture",
+  "from": -2000,
+  "to": -1700,
+  "region": "Northern Hungary (Cserehát, Bükk, Mátra, Tisza valley to the Körös) and southern Slovakia",
+  "pts": [
+   [
+    19.6,
+    48.2
+   ],
+   [
+    19.3,
+    47.6
+   ],
+   [
+    19.9,
+    47.0
+   ],
+   [
+    20.3,
+    46.7
+   ],
+   [
+    21.0,
+    46.8
+   ],
+   [
+    21.2,
+    47.5
+   ],
+   [
+    21.8,
+    48.3
+   ],
+   [
+    21.4,
+    48.8
+   ],
+   [
+    20.3,
+    48.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Hatvan-Strázsahegy (approx.)",
+    "lat": 47.67,
+    "lon": 19.68
+   },
+   {
+    "n": "Jászdózsa-Kápolnahalom (approx.)",
+    "lat": 47.57,
+    "lon": 20.02
+   }
+  ],
+  "d": "Bronze Age people of fortified tell-like villages of timber-and-daub longhouses, textile-impressed pottery and cremation urn burials.",
+  "kind": "culture"
+ },
+ {
+  "n": "Wessex",
+  "w": "Wessex culture",
+  "from": -2000,
+  "to": -1400,
+  "region": "Wessex, southern England (Wiltshire, Dorset, Hampshire)",
+  "pts": [
+   [
+    -3.0,
+    51.1
+   ],
+   [
+    -3.0,
+    50.7
+   ],
+   [
+    -2.0,
+    50.6
+   ],
+   [
+    -1.3,
+    50.8
+   ],
+   [
+    -1.0,
+    51.2
+   ],
+   [
+    -1.3,
+    51.6
+   ],
+   [
+    -2.0,
+    51.6
+   ],
+   [
+    -2.6,
+    51.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bush Barrow (approx.)",
+    "lat": 51.166,
+    "lon": -1.836
+   },
+   {
+    "n": "Stonehenge",
+    "lat": 51.1789,
+    "lon": -1.8262
+   }
+  ],
+  "d": "Early Bronze Age elite of rich barrow burials with gold, bronze daggers and amber, tied to long-distance trade and later Stonehenge phases.",
+  "kind": "culture"
+ }
+]

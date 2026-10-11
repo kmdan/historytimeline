@@ -1,0 +1,21 @@
+# Simplify historical-basemaps GeoJSON (github.com/aourednik/historical-basemaps, geojson/world_*.geojson) into atlas/hb/<year>.json
+# Feature format: {n: NAME, s: SUBJECTO, r: [rings as flat int arrays lon*10,lat*10], c: [label lon,lat], a: area deg², b: BORDERPRECISION}
+import json,os
+from shapely.geometry import shape, Polygon
+from shapely.validation import make_valid
+idx=json.load(open('index.json'))['years']; years=[]
+for x in idx:
+  if x['year']<-10000: continue
+  g=json.load(open(x['filename'])); feats=[]
+  for f in g['features']:
+    p=f.get('properties') or {}; n=p.get('NAME') or ''
+    if not f.get('geometry') or not n: continue
+    s=make_valid(shape(f['geometry'])).simplify(0.12,preserve_topology=True)
+    polys=[s] if isinstance(s,Polygon) else [q for q in getattr(s,'geoms',[]) if isinstance(q,Polygon)]
+    rings=[[v for xy in q.exterior.coords for v in (round(xy[0]*10),round(xy[1]*10))] for q in polys if q.area>=0.02]
+    rings=[r for r in rings if len(r)>=6]
+    if not rings: continue
+    lp=max(polys,key=lambda q:q.area).representative_point()
+    feats.append({'n':n,'s':p.get('SUBJECTO') or n,'r':rings,'c':[round(lp.x,1),round(lp.y,1)],'a':round(sum(q.area for q in polys),1),'b':p.get('BORDERPRECISION') or 1})
+  json.dump(feats,open(f"atlas/hb/{x['year']}.json",'w'),separators=(',',':'),ensure_ascii=False); years.append(x['year'])
+json.dump(years,open('atlas/hb/years.json','w'))

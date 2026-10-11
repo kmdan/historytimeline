@@ -1,0 +1,2212 @@
+[
+ {
+  "n": "Sesklo",
+  "w": "Sesklo culture",
+  "from": -6800,
+  "to": -5000,
+  "region": "Thessaly and southern Macedonia, Greece",
+  "pts": [
+   [
+    21.4,
+    39.0
+   ],
+   [
+    22.6,
+    38.9
+   ],
+   [
+    23.2,
+    39.2
+   ],
+   [
+    22.9,
+    39.6
+   ],
+   [
+    22.7,
+    40.1
+   ],
+   [
+    22.4,
+    40.5
+   ],
+   [
+    21.6,
+    40.5
+   ],
+   [
+    21.2,
+    40.0
+   ],
+   [
+    21.3,
+    39.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Sesklo (approx.)",
+    "lat": 39.36,
+    "lon": 22.84
+   },
+   {
+    "n": "Argissa Magoula (approx.)",
+    "lat": 39.64,
+    "lon": 22.33
+   },
+   {
+    "n": "Servia (approx.)",
+    "lat": 40.18,
+    "lon": 22.0
+   }
+  ],
+  "d": "Early farmers of Thessaly living in mudbrick and stone-founded houses, growing wheat and barley, herding sheep and goats, and making red-on-white painted pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Dimini",
+  "w": "Dimini",
+  "from": -4800,
+  "to": -3300,
+  "region": "Eastern Thessaly, Greece",
+  "pts": [
+   [
+    22.0,
+    39.1
+   ],
+   [
+    22.9,
+    39.1
+   ],
+   [
+    23.2,
+    39.3
+   ],
+   [
+    22.9,
+    39.8
+   ],
+   [
+    22.6,
+    40.0
+   ],
+   [
+    22.1,
+    39.9
+   ],
+   [
+    21.8,
+    39.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Dimini",
+    "lat": 39.35,
+    "lon": 22.883
+   },
+   {
+    "n": "Sesklo (approx.)",
+    "lat": 39.36,
+    "lon": 22.84
+   }
+  ],
+  "d": "Late Neolithic successor of Sesklo in Thessaly, known for walled hilltop settlements with central megaron-like houses and abstract painted spiral pottery traded widely.",
+  "kind": "culture"
+ },
+ {
+  "n": "Starčevo–Körös–Criș",
+  "w": "Starčevo–Körös–Criș culture",
+  "from": -6200,
+  "to": -4500,
+  "region": "Serbia, eastern Hungary, western Romania, northwest Balkans",
+  "pts": [
+   [
+    18.6,
+    44.0
+   ],
+   [
+    21.0,
+    42.6
+   ],
+   [
+    22.6,
+    43.6
+   ],
+   [
+    23.8,
+    45.4
+   ],
+   [
+    24.2,
+    46.6
+   ],
+   [
+    22.8,
+    47.4
+   ],
+   [
+    20.8,
+    47.2
+   ],
+   [
+    19.2,
+    46.4
+   ],
+   [
+    18.4,
+    45.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Starčevo (approx.)",
+    "lat": 44.82,
+    "lon": 20.7
+   },
+   {
+    "n": "Körös/Tiszasziget area (approx.)",
+    "lat": 46.65,
+    "lon": 20.25
+   },
+   {
+    "n": "Gura Baciului (approx.)",
+    "lat": 46.79,
+    "lon": 23.51
+   }
+  ],
+  "d": "First farming culture of the central Balkans and Carpathian Basin, with pit dwellings and small houses, barbotine and painted pottery, and sheep-goat herding.",
+  "kind": "culture"
+ },
+ {
+  "n": "Karanovo",
+  "w": "Karanovo culture",
+  "from": -6200,
+  "to": -4000,
+  "region": "Upper Thracian plain, Bulgaria",
+  "pts": [
+   [
+    23.6,
+    42.0
+   ],
+   [
+    25.0,
+    41.7
+   ],
+   [
+    26.6,
+    41.8
+   ],
+   [
+    27.6,
+    42.3
+   ],
+   [
+    27.0,
+    42.8
+   ],
+   [
+    25.6,
+    42.8
+   ],
+   [
+    24.2,
+    42.6
+   ],
+   [
+    23.4,
+    42.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Karanovo",
+    "lat": 42.51139,
+    "lon": 25.915
+   },
+   {
+    "n": "Tell Yunatsite (approx.)",
+    "lat": 42.24,
+    "lon": 24.26
+   },
+   {
+    "n": "Azmak tell (approx.)",
+    "lat": 42.43,
+    "lon": 25.63
+   }
+  ],
+  "d": "Long-lived agrarian tell culture of Thrace whose settlement mounds grew for millennia; villages of square houses with white- and dark-painted pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Linear Pottery (LBK)",
+  "w": "Linear Pottery culture",
+  "from": -5500,
+  "to": -4500,
+  "region": "Central Europe from the Paris Basin to Ukraine: Danube, Elbe, Rhine, Oder, Vistula basins",
+  "pts": [
+   [
+    2.3,
+    48.6
+   ],
+   [
+    6.0,
+    47.5
+   ],
+   [
+    12.5,
+    48.0
+   ],
+   [
+    19.0,
+    47.6
+   ],
+   [
+    22.5,
+    48.3
+   ],
+   [
+    25.0,
+    48.5
+   ],
+   [
+    25.5,
+    50.0
+   ],
+   [
+    21.5,
+    51.5
+   ],
+   [
+    18.0,
+    52.8
+   ],
+   [
+    13.0,
+    52.2
+   ],
+   [
+    9.0,
+    51.8
+   ],
+   [
+    5.8,
+    51.1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bylany (approx.)",
+    "lat": 49.96,
+    "lon": 15.25
+   },
+   {
+    "n": "Langweiler (approx.)",
+    "lat": 50.88,
+    "lon": 6.3
+   },
+   {
+    "n": "Vráble (approx.)",
+    "lat": 48.24,
+    "lon": 18.31
+   }
+  ],
+  "d": "First farmers of temperate Europe, living in timber longhouses up to 45 m long, growing emmer and einkorn, raising cattle, and making incised band-decorated pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Cardial / Impressed Ware",
+  "w": "Cardium pottery",
+  "from": -6400,
+  "to": -5000,
+  "region": "Mediterranean coasts from Adriatic and Italy to southern France, Iberia and Morocco",
+  "pts": [
+   [
+    -9.0,
+    38.7
+   ],
+   [
+    -5.6,
+    36.0
+   ],
+   [
+    0.3,
+    38.6
+   ],
+   [
+    3.2,
+    41.9
+   ],
+   [
+    7.5,
+    43.7
+   ],
+   [
+    12.4,
+    41.6
+   ],
+   [
+    15.6,
+    38.0
+   ],
+   [
+    20.0,
+    39.4
+   ],
+   [
+    19.8,
+    41.6
+   ],
+   [
+    13.6,
+    43.6
+   ],
+   [
+    5.5,
+    44.8
+   ],
+   [
+    -2.5,
+    39.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Coppa Nevigata (approx.)",
+    "lat": 41.57,
+    "lon": 15.85
+   },
+   {
+    "n": "Cueva de Chaves (approx.)",
+    "lat": 42.24,
+    "lon": -0.11
+   },
+   {
+    "n": "Pendimoun (approx.)",
+    "lat": 43.8,
+    "lon": 7.49
+   }
+  ],
+  "d": "Seafaring farmers who spread agriculture along the western Mediterranean, decorating pottery by pressing cockle (Cerastoderma) shells into wet clay.",
+  "kind": "culture"
+ },
+ {
+  "n": "Vinča",
+  "w": "Vinča culture",
+  "from": -5400,
+  "to": -4500,
+  "region": "Serbia, Kosovo, Banat, Transylvania, western Bulgaria, eastern Bosnia, North Macedonia",
+  "pts": [
+   [
+    18.6,
+    44.2
+   ],
+   [
+    19.5,
+    42.6
+   ],
+   [
+    21.0,
+    41.8
+   ],
+   [
+    22.6,
+    42.2
+   ],
+   [
+    23.6,
+    43.4
+   ],
+   [
+    22.8,
+    44.6
+   ],
+   [
+    23.6,
+    45.6
+   ],
+   [
+    23.7,
+    46.0
+   ],
+   [
+    22.0,
+    46.2
+   ],
+   [
+    20.2,
+    45.8
+   ],
+   [
+    19.0,
+    45.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Vinča-Belo Brdo (approx.)",
+    "lat": 44.76,
+    "lon": 20.62
+   },
+   {
+    "n": "Pločnik (approx.)",
+    "lat": 43.21,
+    "lon": 21.4
+   },
+   {
+    "n": "Tărtăria (approx.)",
+    "lat": 45.93,
+    "lon": 23.42
+   }
+  ],
+  "d": "Large tell settlements, dark-burnished pottery and numerous figurines; Vinča people made some of the earliest smelted copper in the world.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hamangia",
+  "w": "Hamangia culture",
+  "from": -5250,
+  "to": -4500,
+  "region": "Dobruja, southeast Romania and northeast Bulgaria",
+  "pts": [
+   [
+    27.3,
+    43.4
+   ],
+   [
+    28.6,
+    43.2
+   ],
+   [
+    28.8,
+    44.0
+   ],
+   [
+    28.9,
+    44.8
+   ],
+   [
+    28.6,
+    45.2
+   ],
+   [
+    28.1,
+    45.1
+   ],
+   [
+    27.9,
+    44.4
+   ],
+   [
+    27.5,
+    43.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Baia-Hamangia (approx.)",
+    "lat": 44.72,
+    "lon": 28.8
+   },
+   {
+    "n": "Durankulak (approx.)",
+    "lat": 43.68,
+    "lon": 28.53
+   },
+   {
+    "n": "Cernavodă (approx.)",
+    "lat": 44.34,
+    "lon": 28.03
+   }
+  ],
+  "d": "Black Sea coastal farmers of Dobruja with grid-planned villages, spiral-decorated pottery, large cemeteries and the famous Thinker of Cernavodă figurine.",
+  "kind": "culture"
+ },
+ {
+  "n": "Boian",
+  "w": "Boian culture",
+  "from": -4300,
+  "to": -3500,
+  "region": "Lower Danube: Wallachia, Muntenia, northern Bulgaria",
+  "pts": [
+   [
+    23.4,
+    44.0
+   ],
+   [
+    24.6,
+    43.6
+   ],
+   [
+    26.4,
+    43.6
+   ],
+   [
+    27.4,
+    44.0
+   ],
+   [
+    27.8,
+    44.6
+   ],
+   [
+    27.2,
+    45.1
+   ],
+   [
+    26.0,
+    45.0
+   ],
+   [
+    24.4,
+    44.6
+   ],
+   [
+    23.6,
+    44.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lake Boian (approx.)",
+    "lat": 44.3,
+    "lon": 26.9
+   },
+   {
+    "n": "Vidra (approx.)",
+    "lat": 44.27,
+    "lon": 26.17
+   },
+   {
+    "n": "Cernica (approx.)",
+    "lat": 44.42,
+    "lon": 26.26
+   }
+  ],
+  "d": "Lower Danube farmers settling on terraces above floodplains, making post-fired polished pottery with white-inlaid geometric designs; ancestral to Gumelnița.",
+  "kind": "culture"
+ },
+ {
+  "n": "Dudești",
+  "w": "Dudești culture",
+  "from": -5800,
+  "to": -5000,
+  "region": "Wallachia (Muntenia, Oltenia), Romania",
+  "pts": [
+   [
+    23.0,
+    44.0
+   ],
+   [
+    24.4,
+    43.7
+   ],
+   [
+    26.0,
+    43.8
+   ],
+   [
+    26.9,
+    44.2
+   ],
+   [
+    26.6,
+    44.8
+   ],
+   [
+    25.4,
+    45.0
+   ],
+   [
+    24.0,
+    44.8
+   ],
+   [
+    23.2,
+    44.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Dudești, Bucharest (approx.)",
+    "lat": 44.41,
+    "lon": 26.15
+   }
+  ],
+  "d": "Early farming and herding culture of the Wallachian plain living in semi-subterranean dwellings on the edges of low plateaus.",
+  "kind": "culture"
+ },
+ {
+  "n": "Lengyel",
+  "w": "Lengyel culture",
+  "from": -5000,
+  "to": -4000,
+  "region": "Middle Danube: Transdanubia, Moravia, Slovakia, Austria, southern Poland",
+  "pts": [
+   [
+    14.4,
+    47.0
+   ],
+   [
+    16.3,
+    46.2
+   ],
+   [
+    18.6,
+    46.0
+   ],
+   [
+    19.4,
+    47.2
+   ],
+   [
+    19.8,
+    48.4
+   ],
+   [
+    19.4,
+    50.0
+   ],
+   [
+    18.5,
+    52.6
+   ],
+   [
+    17.0,
+    51.0
+   ],
+   [
+    15.6,
+    49.6
+   ],
+   [
+    14.6,
+    48.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lengyel (approx.)",
+    "lat": 46.38,
+    "lon": 18.38
+   },
+   {
+    "n": "Osłonki (approx.)",
+    "lat": 52.63,
+    "lon": 18.8
+   },
+   {
+    "n": "Krumlov Forest (approx.)",
+    "lat": 49.03,
+    "lon": 16.36
+   }
+  ],
+  "d": "Middle Danube successor of LBK with trapezoidal longhouses, ditched rondel enclosures, painted pottery, and separate cemeteries with flexed burials.",
+  "kind": "culture"
+ },
+ {
+  "n": "Stroke-ornamented ware",
+  "w": "Stroke-ornamented ware culture",
+  "from": -4900,
+  "to": -4400,
+  "region": "Bohemia, Saxony, Saxony-Anhalt, Silesia, upper Vistula",
+  "pts": [
+   [
+    11.2,
+    50.8
+   ],
+   [
+    12.4,
+    50.2
+   ],
+   [
+    13.8,
+    49.6
+   ],
+   [
+    15.8,
+    49.9
+   ],
+   [
+    17.8,
+    50.1
+   ],
+   [
+    19.6,
+    50.2
+   ],
+   [
+    19.0,
+    51.4
+   ],
+   [
+    16.5,
+    51.6
+   ],
+   [
+    14.0,
+    52.0
+   ],
+   [
+    12.0,
+    51.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Goseck circle (approx.)",
+    "lat": 51.2,
+    "lon": 11.86
+   },
+   {
+    "n": "Dresden-Nickern (approx.)",
+    "lat": 51.0,
+    "lon": 13.8
+   }
+  ],
+  "d": "Successor of LBK in the Elbe and Oder lands, building trapezoidal longhouses and rondels like Goseck, with zig-zag stroke-decorated pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hinkelstein",
+  "w": "Hinkelstein culture",
+  "from": -5000,
+  "to": -4900,
+  "region": "Rhine-Main area and Rhenish Hesse, Germany",
+  "pts": [
+   [
+    7.6,
+    49.4
+   ],
+   [
+    8.6,
+    49.3
+   ],
+   [
+    9.2,
+    49.8
+   ],
+   [
+    9.0,
+    50.3
+   ],
+   [
+    8.3,
+    50.3
+   ],
+   [
+    7.8,
+    50.0
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Worms area (approx.)",
+    "lat": 49.63,
+    "lon": 8.36
+   }
+  ],
+  "d": "Short-lived Middle Neolithic group of the upper Rhine following the Linear Pottery culture and preceding Großgartach and Rössen.",
+  "kind": "culture"
+ },
+ {
+  "n": "Rössen",
+  "w": "Rössen culture",
+  "from": -4600,
+  "to": -4300,
+  "region": "Central and southern Germany, southeast Low Countries, northeast France, northern Switzerland",
+  "pts": [
+   [
+    5.0,
+    49.0
+   ],
+   [
+    7.5,
+    47.6
+   ],
+   [
+    10.0,
+    47.8
+   ],
+   [
+    12.6,
+    48.6
+   ],
+   [
+    12.4,
+    51.0
+   ],
+   [
+    11.8,
+    51.8
+   ],
+   [
+    10.0,
+    52.0
+   ],
+   [
+    7.8,
+    51.8
+   ],
+   [
+    6.0,
+    51.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Rössen, Leuna (approx.)",
+    "lat": 51.31,
+    "lon": 12.02
+   },
+   {
+    "n": "Deiringsen-Ruploh (approx.)",
+    "lat": 51.56,
+    "lon": 8.1
+   }
+  ],
+  "d": "Middle Neolithic farmers in trapezoidal or boat-shaped longhouses up to 65 m long, with richly incised pottery and crouched east-facing burials.",
+  "kind": "culture"
+ },
+ {
+  "n": "La Hoguette",
+  "w": "La Hoguette culture",
+  "from": -5400,
+  "to": -5000,
+  "region": "Rhine, Meuse and Moselle basins to the Jura and Normandy (France, Germany, Switzerland)",
+  "pts": [
+   [
+    -0.6,
+    49.0
+   ],
+   [
+    1.5,
+    48.4
+   ],
+   [
+    4.5,
+    47.0
+   ],
+   [
+    5.6,
+    46.0
+   ],
+   [
+    7.6,
+    47.2
+   ],
+   [
+    9.4,
+    48.6
+   ],
+   [
+    8.8,
+    49.8
+   ],
+   [
+    6.8,
+    50.6
+   ],
+   [
+    5.4,
+    50.4
+   ],
+   [
+    3.0,
+    49.6
+   ],
+   [
+    0.6,
+    49.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "La Hoguette, Fontenay-le-Marmion (approx.)",
+    "lat": 49.09,
+    "lon": -0.35
+   },
+   {
+    "n": "Baulmes-Abri de la Cure (approx.)",
+    "lat": 46.79,
+    "lon": 6.52
+   },
+   {
+    "n": "Stuttgart-Bad Cannstatt (approx.)",
+    "lat": 48.8,
+    "lon": 9.22
+   }
+  ],
+  "d": "Enigmatic pottery-making group west of the LBK, possibly of Cardial/Mediterranean origin, making dotted-line ovoid pots and keeping livestock and some cereals.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bükk",
+  "w": "Bükk culture",
+  "from": -5300,
+  "to": -4900,
+  "region": "Bükk Mountains and upper Tisza, northeastern Hungary and eastern Slovakia",
+  "pts": [
+   [
+    19.6,
+    47.6
+   ],
+   [
+    20.8,
+    47.5
+   ],
+   [
+    22.0,
+    47.8
+   ],
+   [
+    22.6,
+    48.4
+   ],
+   [
+    22.2,
+    49.0
+   ],
+   [
+    21.2,
+    49.1
+   ],
+   [
+    20.2,
+    48.7
+   ],
+   [
+    19.5,
+    48.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Aggtelek, Baradla cave (approx.)",
+    "lat": 48.47,
+    "lon": 20.5
+   },
+   {
+    "n": "Miskolc area (approx.)",
+    "lat": 48.1,
+    "lon": 20.78
+   }
+  ],
+  "d": "Eastern Linear Pottery offshoot of the Bükk uplands, living in rectangular sunken or surface dwellings and caves, famous for very thin-walled finely incised pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Butmir",
+  "w": "Butmir culture",
+  "from": -5100,
+  "to": -4500,
+  "region": "Central Bosnia along the Bosna river, Bosnia and Herzegovina",
+  "pts": [
+   [
+    17.4,
+    43.7
+   ],
+   [
+    18.3,
+    43.7
+   ],
+   [
+    18.6,
+    43.9
+   ],
+   [
+    18.3,
+    44.5
+   ],
+   [
+    17.9,
+    44.6
+   ],
+   [
+    17.5,
+    44.4
+   ],
+   [
+    17.2,
+    44.1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Butmir (approx.)",
+    "lat": 43.83,
+    "lon": 18.31
+   },
+   {
+    "n": "Okolište (approx.)",
+    "lat": 43.98,
+    "lon": 18.16
+   },
+   {
+    "n": "Obre II (approx.)",
+    "lat": 44.05,
+    "lon": 18.05
+   }
+  ],
+  "d": "Bosnian farming villages such as Okolište, with up to a few thousand residents, producing dark glossy pottery with spiral and geometric decoration.",
+  "kind": "culture"
+ },
+ {
+  "n": "Danilo",
+  "w": "Danilo culture",
+  "from": -4700,
+  "to": -3900,
+  "region": "Dalmatian coast of Croatia and parts of Bosnia and Herzegovina",
+  "pts": [
+   [
+    15.0,
+    44.6
+   ],
+   [
+    15.4,
+    44.0
+   ],
+   [
+    16.2,
+    43.5
+   ],
+   [
+    17.3,
+    43.1
+   ],
+   [
+    18.0,
+    42.8
+   ],
+   [
+    17.9,
+    43.3
+   ],
+   [
+    17.0,
+    43.8
+   ],
+   [
+    16.0,
+    44.3
+   ],
+   [
+    15.4,
+    44.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Danilo (approx.)",
+    "lat": 43.71,
+    "lon": 16.05
+   }
+  ],
+  "d": "Middle Neolithic Dalmatian farmers and fishers making painted buff ware, incised dark burnished pottery and distinctive four-legged ritual rhyta.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hvar",
+  "w": "Hvar culture",
+  "from": -3500,
+  "to": -2500,
+  "region": "Eastern Adriatic coast and islands, Croatia",
+  "pts": [
+   [
+    14.8,
+    44.8
+   ],
+   [
+    15.2,
+    44.2
+   ],
+   [
+    16.0,
+    43.4
+   ],
+   [
+    16.8,
+    43.0
+   ],
+   [
+    17.6,
+    42.6
+   ],
+   [
+    18.2,
+    42.5
+   ],
+   [
+    17.8,
+    43.0
+   ],
+   [
+    16.8,
+    43.6
+   ],
+   [
+    15.8,
+    44.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Grapčeva cave (approx.)",
+    "lat": 43.13,
+    "lon": 16.8
+   },
+   {
+    "n": "Vela Spila (approx.)",
+    "lat": 42.97,
+    "lon": 16.72
+   }
+  ],
+  "d": "Late Neolithic eastern Adriatic culture named after Hvar island, known from cave sites such as Grapčeva with richly ornamented, incrusted pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Maltese temples (Ġgantija)",
+  "w": "Ġgantija",
+  "from": -3600,
+  "to": -2500,
+  "region": "Malta and Gozo",
+  "pts": [
+   [
+    14.18,
+    36.0
+   ],
+   [
+    14.33,
+    35.85
+   ],
+   [
+    14.52,
+    35.8
+   ],
+   [
+    14.56,
+    35.82
+   ],
+   [
+    14.4,
+    35.9
+   ],
+   [
+    14.25,
+    36.02
+   ],
+   [
+    14.18,
+    36.08
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ġgantija",
+    "lat": 36.04722,
+    "lon": 14.26917
+   },
+   {
+    "n": "Ħaġar Qim (approx.)",
+    "lat": 35.83,
+    "lon": 14.44
+   },
+   {
+    "n": "Tarxien (approx.)",
+    "lat": 35.87,
+    "lon": 14.51
+   }
+  ],
+  "d": "Island farmers who built Europe's earliest free-standing megalithic temples, starting with Ġgantija on Gozo, older than the Egyptian pyramids.",
+  "kind": "culture"
+ },
+ {
+  "n": "Chasséen",
+  "w": "Chasséen culture",
+  "from": -4500,
+  "to": -3500,
+  "region": "Southern and central France: Languedoc, Provence, Rhône, Paris Basin, Loire",
+  "pts": [
+   [
+    -0.6,
+    43.4
+   ],
+   [
+    3.1,
+    43.1
+   ],
+   [
+    4.8,
+    43.4
+   ],
+   [
+    6.8,
+    43.2
+   ],
+   [
+    6.4,
+    44.6
+   ],
+   [
+    5.6,
+    46.6
+   ],
+   [
+    4.8,
+    48.0
+   ],
+   [
+    3.4,
+    49.0
+   ],
+   [
+    1.4,
+    48.8
+   ],
+   [
+    0.6,
+    47.4
+   ],
+   [
+    1.0,
+    45.6
+   ],
+   [
+    -0.2,
+    44.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Chassey-le-Camp (approx.)",
+    "lat": 46.88,
+    "lon": 4.7
+   },
+   {
+    "n": "Bercy, Paris (approx.)",
+    "lat": 48.83,
+    "lon": 2.38
+   },
+   {
+    "n": "Saint-Michel-du-Touch (approx.)",
+    "lat": 43.61,
+    "lon": 1.4
+   }
+  ],
+  "d": "Sedentary farmers and herders across much of France living in villages of 100-400 people, with flint tools and plain, lightly decorated burnished pottery.",
+  "kind": "culture"
+ },
+ {
+  "n": "Michelsberg",
+  "w": "Michelsberg culture",
+  "from": -4400,
+  "to": -3500,
+  "region": "Rhineland, Belgium, northeastern France, southwestern Netherlands, western and central Germany",
+  "pts": [
+   [
+    3.0,
+    50.2
+   ],
+   [
+    4.4,
+    49.4
+   ],
+   [
+    6.6,
+    48.4
+   ],
+   [
+    8.2,
+    47.8
+   ],
+   [
+    10.0,
+    48.4
+   ],
+   [
+    11.4,
+    49.6
+   ],
+   [
+    11.0,
+    51.0
+   ],
+   [
+    9.4,
+    51.6
+   ],
+   [
+    7.2,
+    51.6
+   ],
+   [
+    5.6,
+    51.6
+   ],
+   [
+    3.8,
+    51.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Michelsberg, Untergrombach (approx.)",
+    "lat": 49.08,
+    "lon": 8.59
+   },
+   {
+    "n": "Kapellenberg, Hofheim (approx.)",
+    "lat": 50.1,
+    "lon": 8.43
+   },
+   {
+    "n": "Spiennes (approx.)",
+    "lat": 50.42,
+    "lon": 3.99
+   }
+  ],
+  "d": "Builders of hilltop causewayed enclosures with undecorated tulip-shaped beakers; formal burials are rare and human remains turn up in ditches and pits.",
+  "kind": "culture"
+ },
+ {
+  "n": "Cerny",
+  "w": "Cerny culture",
+  "from": -4700,
+  "to": -4000,
+  "region": "Paris Basin (Seine and Yonne valleys) and Normandy, France",
+  "pts": [
+   [
+    0.0,
+    49.0
+   ],
+   [
+    1.4,
+    48.2
+   ],
+   [
+    2.6,
+    47.6
+   ],
+   [
+    3.6,
+    47.7
+   ],
+   [
+    4.4,
+    48.2
+   ],
+   [
+    3.8,
+    48.9
+   ],
+   [
+    2.6,
+    49.6
+   ],
+   [
+    1.0,
+    49.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Cerny (approx.)",
+    "lat": 48.48,
+    "lon": 2.33
+   },
+   {
+    "n": "Passy (approx.)",
+    "lat": 48.11,
+    "lon": 3.3
+   },
+   {
+    "n": "Fleury-sur-Orne (approx.)",
+    "lat": 49.15,
+    "lon": -0.37
+   }
+  ],
+  "d": "Middle Neolithic culture of the Paris Basin famous for Passy-type monumental long barrows up to 300 m long, early ancestors of Atlantic megalithism.",
+  "kind": "culture"
+ },
+ {
+  "n": "Funnelbeaker (TRB)",
+  "w": "Funnelbeaker culture",
+  "from": -4100,
+  "to": -2800,
+  "region": "Northern Germany, Netherlands, Denmark, southern Sweden and Norway, Poland, Bohemia, western Ukraine",
+  "pts": [
+   [
+    5.0,
+    52.2
+   ],
+   [
+    10.0,
+    51.0
+   ],
+   [
+    15.0,
+    50.0
+   ],
+   [
+    23.5,
+    50.0
+   ],
+   [
+    24.5,
+    51.2
+   ],
+   [
+    18.0,
+    54.6
+   ],
+   [
+    16.0,
+    56.0
+   ],
+   [
+    18.6,
+    59.8
+   ],
+   [
+    10.8,
+    59.9
+   ],
+   [
+    8.6,
+    57.1
+   ],
+   [
+    8.1,
+    55.0
+   ],
+   [
+    6.8,
+    53.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Sarup (approx.)",
+    "lat": 55.04,
+    "lon": 10.24
+   },
+   {
+    "n": "Bronocice (approx.)",
+    "lat": 50.33,
+    "lon": 20.33
+   },
+   {
+    "n": "Flintbek (approx.)",
+    "lat": 54.25,
+    "lon": 10.07
+   }
+  ],
+  "d": "First farmers of northern Europe, building dolmens, passage graves and Sarup-type enclosures, making funnel-necked beakers, and using early wheeled carts.",
+  "kind": "culture"
+ },
+ {
+  "n": "Cortaillod",
+  "w": "Cortaillod culture",
+  "from": -4300,
+  "to": -3500,
+  "region": "Western and central Switzerland, Valais, Jura lakes",
+  "pts": [
+   [
+    6.0,
+    46.2
+   ],
+   [
+    7.0,
+    46.0
+   ],
+   [
+    8.0,
+    46.3
+   ],
+   [
+    8.6,
+    46.8
+   ],
+   [
+    8.4,
+    47.4
+   ],
+   [
+    7.6,
+    47.4
+   ],
+   [
+    6.8,
+    47.1
+   ],
+   [
+    6.1,
+    46.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Cortaillod (approx.)",
+    "lat": 46.94,
+    "lon": 6.84
+   },
+   {
+    "n": "Twann (approx.)",
+    "lat": 47.09,
+    "lon": 7.16
+   },
+   {
+    "n": "Auvernier (approx.)",
+    "lat": 46.97,
+    "lon": 6.88
+   }
+  ],
+  "d": "Lakeside pile-dwelling farmers of western Switzerland, making plain round-based pottery; waterlogged sites preserve wooden tools, textiles and food.",
+  "kind": "culture"
+ },
+ {
+  "n": "Pfyn",
+  "w": "Pfyn culture",
+  "from": -4300,
+  "to": -3500,
+  "region": "Northeastern Switzerland, Lake Constance, Upper Swabia and southern Bavaria",
+  "pts": [
+   [
+    8.4,
+    47.2
+   ],
+   [
+    9.6,
+    47.1
+   ],
+   [
+    10.6,
+    47.5
+   ],
+   [
+    11.4,
+    47.9
+   ],
+   [
+    11.2,
+    48.3
+   ],
+   [
+    10.0,
+    48.3
+   ],
+   [
+    8.9,
+    48.0
+   ],
+   [
+    8.4,
+    47.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Pfyn-Breitenloo (approx.)",
+    "lat": 47.59,
+    "lon": 8.94
+   },
+   {
+    "n": "Hornstaad-Hörnle (approx.)",
+    "lat": 47.7,
+    "lon": 8.99
+   },
+   {
+    "n": "Feldmeilen-Vorderfeld (approx.)",
+    "lat": 47.28,
+    "lon": 8.62
+   }
+  ],
+  "d": "Eastern Swiss and Lake Constance lake-shore villages of rows of houses, with Michelsberg-related pottery and some of the earliest copper working north of the Alps.",
+  "kind": "culture"
+ },
+ {
+  "n": "Ozieri",
+  "w": "Ozieri culture",
+  "from": -4200,
+  "to": -3400,
+  "region": "Sardinia (mainly north), with influence in Corsica",
+  "pts": [
+   [
+    8.4,
+    39.1
+   ],
+   [
+    9.0,
+    38.9
+   ],
+   [
+    9.6,
+    39.2
+   ],
+   [
+    9.7,
+    40.1
+   ],
+   [
+    9.8,
+    41.0
+   ],
+   [
+    9.2,
+    41.2
+   ],
+   [
+    8.3,
+    40.9
+   ],
+   [
+    8.4,
+    40.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "San Michele cave, Ozieri (approx.)",
+    "lat": 40.59,
+    "lon": 9.0
+   },
+   {
+    "n": "Monte d'Accoddi (approx.)",
+    "lat": 40.79,
+    "lon": 8.45
+   },
+   {
+    "n": "Anghelu Ruju (approx.)",
+    "lat": 40.63,
+    "lon": 8.33
+   }
+  ],
+  "d": "Sardinian farmers in villages of stone huts who carved rock-cut tombs (domus de janas) and made finely incised, ochre-filled pottery; Monte d'Accoddi was likely a cult centre.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bug–Dniester",
+  "w": "Bug–Dniester culture",
+  "from": -6300,
+  "to": -5000,
+  "region": "Dniester and Southern Bug valleys, Moldova and Ukraine",
+  "pts": [
+   [
+    27.2,
+    47.4
+   ],
+   [
+    28.8,
+    46.6
+   ],
+   [
+    30.4,
+    47.0
+   ],
+   [
+    31.4,
+    47.8
+   ],
+   [
+    30.8,
+    49.0
+   ],
+   [
+    29.4,
+    49.4
+   ],
+   [
+    27.8,
+    48.8
+   ],
+   [
+    26.8,
+    48.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Soroca (approx.)",
+    "lat": 48.16,
+    "lon": 28.3
+   }
+  ],
+  "d": "Pottery-using hunter-fishers of the Dniester and Bug who made pointed-based wavy-line pots and gradually adopted cereal farming and cattle from neighbouring farmers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Cucuteni–Trypillia",
+  "w": "Cucuteni–Trypillia culture",
+  "from": -5050,
+  "to": -2950,
+  "region": "Eastern Romania, Moldova and right-bank Ukraine, from the Carpathians to the Dnieper",
+  "pts": [
+   [
+    26.2,
+    45.4
+   ],
+   [
+    28.2,
+    45.6
+   ],
+   [
+    30.0,
+    46.6
+   ],
+   [
+    31.6,
+    47.6
+   ],
+   [
+    31.0,
+    48.8
+   ],
+   [
+    30.6,
+    50.4
+   ],
+   [
+    29.0,
+    50.2
+   ],
+   [
+    26.4,
+    49.4
+   ],
+   [
+    25.2,
+    48.0
+   ],
+   [
+    25.6,
+    46.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Cucuteni (approx.)",
+    "lat": 47.29,
+    "lon": 26.92
+   },
+   {
+    "n": "Talianki (approx.)",
+    "lat": 48.8,
+    "lon": 30.5
+   },
+   {
+    "n": "Poduri (approx.)",
+    "lat": 46.47,
+    "lon": 26.54
+   }
+  ],
+  "d": "Farmers known for richly painted spiral pottery and mega-sites of up to 15,000 people, whose settlements were deliberately burned and rebuilt every 60-80 years.",
+  "kind": "culture"
+ },
+ {
+  "n": "Neolithic Britain",
+  "w": "Neolithic British Isles",
+  "from": -4100,
+  "to": -2500,
+  "region": "Great Britain and Orkney (Ireland followed a parallel course)",
+  "pts": [
+   [
+    -5.7,
+    50.0
+   ],
+   [
+    1.4,
+    51.2
+   ],
+   [
+    1.7,
+    52.7
+   ],
+   [
+    -1.5,
+    55.0
+   ],
+   [
+    -1.8,
+    57.6
+   ],
+   [
+    -2.8,
+    59.2
+   ],
+   [
+    -3.4,
+    59.3
+   ],
+   [
+    -5.0,
+    58.6
+   ],
+   [
+    -6.0,
+    56.8
+   ],
+   [
+    -3.2,
+    54.6
+   ],
+   [
+    -4.6,
+    52.6
+   ],
+   [
+    -5.2,
+    51.7
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Windmill Hill (approx.)",
+    "lat": 51.44,
+    "lon": -1.88
+   },
+   {
+    "n": "Sweet Track (approx.)",
+    "lat": 51.15,
+    "lon": -2.83
+   },
+   {
+    "n": "Skara Brae (approx.)",
+    "lat": 59.05,
+    "lon": -3.34
+   }
+  ],
+  "d": "Farming arrived from the continent around 4100 BC; Neolithic Britons built causewayed enclosures, long barrows, timber trackways and later henges and stone circles.",
+  "kind": "culture"
+ },
+ {
+  "n": "Grooved Ware",
+  "w": "Grooved ware",
+  "from": -3000,
+  "to": -2500,
+  "region": "Orkney, Great Britain and Ireland",
+  "pts": [
+   [
+    -5.6,
+    50.1
+   ],
+   [
+    1.4,
+    51.2
+   ],
+   [
+    1.7,
+    52.7
+   ],
+   [
+    -0.2,
+    54.2
+   ],
+   [
+    -2.0,
+    56.4
+   ],
+   [
+    -1.8,
+    57.6
+   ],
+   [
+    -2.8,
+    59.2
+   ],
+   [
+    -3.4,
+    59.3
+   ],
+   [
+    -5.6,
+    57.6
+   ],
+   [
+    -4.8,
+    55.0
+   ],
+   [
+    -3.2,
+    53.4
+   ],
+   [
+    -5.2,
+    51.7
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ness of Brodgar (approx.)",
+    "lat": 58.99,
+    "lon": -3.21
+   },
+   {
+    "n": "Durrington Walls (approx.)",
+    "lat": 51.19,
+    "lon": -1.79
+   },
+   {
+    "n": "Balfarg (approx.)",
+    "lat": 56.21,
+    "lon": -3.17
+   }
+  ],
+  "d": "Flat-based grooved pottery style born in Orkney around 3000 BC and spread across Britain, closely tied to henges, feasting and monuments like Durrington Walls.",
+  "kind": "culture"
+ },
+ {
+  "n": "Gumelnița–Karanovo VI",
+  "w": "Gumelnița–Karanovo culture",
+  "from": -4700,
+  "to": -3950,
+  "region": "Lower Danube, Bulgaria, Thrace and the western Black Sea coast",
+  "pts": [
+   [
+    23.2,
+    42.4
+   ],
+   [
+    25.0,
+    41.9
+   ],
+   [
+    27.5,
+    42.2
+   ],
+   [
+    28.0,
+    43.2
+   ],
+   [
+    28.6,
+    44.2
+   ],
+   [
+    28.2,
+    45.2
+   ],
+   [
+    26.8,
+    45.2
+   ],
+   [
+    25.0,
+    44.8
+   ],
+   [
+    23.4,
+    44.4
+   ],
+   [
+    22.8,
+    43.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Gumelnița (approx.)",
+    "lat": 44.08,
+    "lon": 26.66
+   },
+   {
+    "n": "Karanovo",
+    "lat": 42.51139,
+    "lon": 25.915
+   }
+  ],
+  "d": "Copper Age tell-dwelling culture of the lower Danube and Thrace with craft workshops, graphite-painted pottery and abundant copper and gold, collapsing around 4000 BC.",
+  "kind": "culture"
+ },
+ {
+  "n": "Varna",
+  "w": "Varna culture",
+  "from": -4550,
+  "to": -4100,
+  "region": "Northeastern Bulgarian Black Sea coast",
+  "pts": [
+   [
+    26.6,
+    42.9
+   ],
+   [
+    27.9,
+    42.8
+   ],
+   [
+    28.1,
+    43.4
+   ],
+   [
+    28.6,
+    43.7
+   ],
+   [
+    28.0,
+    44.1
+   ],
+   [
+    27.2,
+    44.0
+   ],
+   [
+    26.4,
+    43.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Varna Necropolis (approx.)",
+    "lat": 43.21,
+    "lon": 27.87
+   },
+   {
+    "n": "Solnitsata, Provadia (approx.)",
+    "lat": 43.18,
+    "lon": 27.44
+   },
+   {
+    "n": "Durankulak (approx.)",
+    "lat": 43.68,
+    "lon": 28.53
+   }
+  ],
+  "d": "Copper Age society whose Varna Necropolis holds about 3,000 gold objects, the oldest worked gold in the world, and early evidence of marked social hierarchy.",
+  "kind": "culture"
+ },
+ {
+  "n": "Tisza",
+  "w": "Tisza culture",
+  "from": -5400,
+  "to": -4400,
+  "region": "Great Hungarian Plain (Alföld), western Romania, eastern Slovakia, Zakarpattia",
+  "pts": [
+   [
+    19.4,
+    46.0
+   ],
+   [
+    20.8,
+    45.8
+   ],
+   [
+    21.6,
+    46.2
+   ],
+   [
+    22.0,
+    47.0
+   ],
+   [
+    22.6,
+    48.0
+   ],
+   [
+    22.2,
+    48.6
+   ],
+   [
+    21.2,
+    48.4
+   ],
+   [
+    20.4,
+    47.8
+   ],
+   [
+    19.6,
+    47.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Hódmezővásárhely-Gorzsa (approx.)",
+    "lat": 46.39,
+    "lon": 20.42
+   },
+   {
+    "n": "Polgár-Csőszhalom (approx.)",
+    "lat": 47.87,
+    "lon": 21.12
+   },
+   {
+    "n": "Szegvár-Tűzkövesi (approx.)",
+    "lat": 46.58,
+    "lon": 20.24
+   }
+  ],
+  "d": "Late Neolithic farmers of the Hungarian plain living on tells built up over centuries, with meander-incised pottery, cult altars and large figurines.",
+  "kind": "culture"
+ },
+ {
+  "n": "Ertebølle",
+  "w": "Ertebølle culture",
+  "from": -5400,
+  "to": -3950,
+  "region": "Denmark, Schleswig-Holstein, southern Sweden, western Baltic coast",
+  "pts": [
+   [
+    8.1,
+    54.4
+   ],
+   [
+    9.8,
+    54.3
+   ],
+   [
+    11.2,
+    54.0
+   ],
+   [
+    13.5,
+    54.4
+   ],
+   [
+    14.3,
+    55.4
+   ],
+   [
+    14.2,
+    56.2
+   ],
+   [
+    12.8,
+    56.6
+   ],
+   [
+    12.0,
+    56.1
+   ],
+   [
+    10.6,
+    57.7
+   ],
+   [
+    8.6,
+    57.1
+   ],
+   [
+    8.1,
+    55.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ertebølle (approx.)",
+    "lat": 56.8,
+    "lon": 9.18
+   },
+   {
+    "n": "Vedbæk (approx.)",
+    "lat": 55.85,
+    "lon": 12.57
+   },
+   {
+    "n": "Skateholm (approx.)",
+    "lat": 55.39,
+    "lon": 13.47
+   }
+  ],
+  "d": "Late Mesolithic coastal foragers living off fish, seals and game, leaving huge shell middens and making pointed pots and blubber lamps before farming arrived.",
+  "kind": "culture"
+ }
+]

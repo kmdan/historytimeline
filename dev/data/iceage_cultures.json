@@ -1,0 +1,2616 @@
+[
+ {
+  "n": "Last Neanderthals",
+  "w": "Neanderthal extinction",
+  "from": -42000,
+  "to": -33050,
+  "region": "Iberia, southern France, Balkans, Caucasus",
+  "pts": [
+   [
+    -9,
+    37
+   ],
+   [
+    -5,
+    36
+   ],
+   [
+    3,
+    41
+   ],
+   [
+    20,
+    40
+   ],
+   [
+    30,
+    41
+   ],
+   [
+    42,
+    43
+   ],
+   [
+    44,
+    45
+   ],
+   [
+    16,
+    47
+   ],
+   [
+    2,
+    47
+   ],
+   [
+    -9,
+    43
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Gorham's Cave",
+    "lat": 36.12,
+    "lon": -5.34
+   },
+   {
+    "n": "Zafarraya",
+    "lat": 36.95,
+    "lon": -4.12
+   },
+   {
+    "n": "Mezmaiskaya Cave",
+    "lat": 44.17,
+    "lon": 40.0
+   }
+  ],
+  "d": "Last Mousterian-tool-making Neanderthals; most vanish around 40,000 years ago, with possible late survivors in Iberia to about 35,000 years ago.",
+  "kind": "species"
+ },
+ {
+  "n": "Châtelperronian",
+  "w": "Châtelperronian",
+  "from": -42550,
+  "to": -34050,
+  "region": "Central and southwestern France, northern Spain",
+  "pts": [
+   [
+    -4,
+    43
+   ],
+   [
+    -1,
+    42.5
+   ],
+   [
+    2,
+    42.5
+   ],
+   [
+    4,
+    44
+   ],
+   [
+    5,
+    47.5
+   ],
+   [
+    2,
+    48
+   ],
+   [
+    -1,
+    47
+   ],
+   [
+    -2,
+    45
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Grotte des Fées, Châtelperron",
+    "lat": 46.4,
+    "lon": 3.63
+   },
+   {
+    "n": "Grotte du Renne",
+    "lat": 47.59,
+    "lon": 3.76
+   }
+  ],
+  "d": "Debated early Upper Palaeolithic industry with thin blades, curved-backed knives and ivory ornaments, possibly made by late Neanderthals.",
+  "kind": "culture"
+ },
+ {
+  "n": "Uluzzian",
+  "w": "Uluzzian",
+  "from": -43050,
+  "to": -37550,
+  "region": "Southern and central Italy, Argolis (Greece)",
+  "pts": [
+   [
+    10,
+    44
+   ],
+   [
+    11,
+    42.5
+   ],
+   [
+    15,
+    39
+   ],
+   [
+    17,
+    38
+   ],
+   [
+    18.5,
+    40
+   ],
+   [
+    23,
+    37
+   ],
+   [
+    23,
+    38.5
+   ],
+   [
+    16,
+    42
+   ],
+   [
+    13,
+    45.5
+   ],
+   [
+    10,
+    45.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Grotta del Cavallo",
+    "lat": 40.16,
+    "lon": 17.97
+   },
+   {
+    "n": "Fumane",
+    "lat": 45.59,
+    "lon": 10.91
+   },
+   {
+    "n": "Klissoura Cave",
+    "lat": 37.69,
+    "lon": 22.81
+   }
+  ],
+  "d": "Transitional industry linking Middle and Upper Palaeolithic, known for shell beads and some of Europe's oldest modern human teeth.",
+  "kind": "culture"
+ },
+ {
+  "n": "Aurignacian",
+  "w": "Aurignacian",
+  "from": -41050,
+  "to": -26050,
+  "region": "Western and central Europe, Danube basin to Ukraine",
+  "pts": [
+   [
+    -9,
+    43
+   ],
+   [
+    -5,
+    40
+   ],
+   [
+    3,
+    42
+   ],
+   [
+    17,
+    44
+   ],
+   [
+    24,
+    44
+   ],
+   [
+    32,
+    46
+   ],
+   [
+    34,
+    49
+   ],
+   [
+    14,
+    52
+   ],
+   [
+    5,
+    51
+   ],
+   [
+    -2,
+    48
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Aurignac",
+    "lat": 43.22,
+    "lon": 0.88
+   },
+   {
+    "n": "Chauvet Cave",
+    "lat": 44.39,
+    "lon": 4.42
+   },
+   {
+    "n": "Vogelherd Cave",
+    "lat": 48.56,
+    "lon": 10.19
+   }
+  ],
+  "d": "First widespread modern human culture in Europe: blades, bone and antler points, ivory figurines like the Venus of Hohle Fels, and early cave art.",
+  "kind": "culture"
+ },
+ {
+  "n": "Gravettian",
+  "w": "Gravettian",
+  "from": -31050,
+  "to": -19050,
+  "region": "Europe from Portugal and Britain to Russia",
+  "pts": [
+   [
+    -9,
+    38
+   ],
+   [
+    -2,
+    37
+   ],
+   [
+    15,
+    38
+   ],
+   [
+    23,
+    37
+   ],
+   [
+    30,
+    45
+   ],
+   [
+    42,
+    53
+   ],
+   [
+    30,
+    54
+   ],
+   [
+    18,
+    53
+   ],
+   [
+    -4,
+    51
+   ],
+   [
+    -9,
+    43
+   ]
+  ],
+  "sites": [
+   {
+    "n": "La Gravette",
+    "lat": 44.85,
+    "lon": 0.9
+   },
+   {
+    "n": "Pavlov",
+    "lat": 48.87,
+    "lon": 16.67
+   },
+   {
+    "n": "Grotta Paglicci",
+    "lat": 41.68,
+    "lon": 15.59
+   }
+  ],
+  "d": "Mobile hunters with backed-blade points, nets and possibly bows; eastern groups hunted mammoth; famous for Venus figurines.",
+  "kind": "culture"
+ },
+ {
+  "n": "Pavlovian",
+  "w": "Pavlovian culture",
+  "from": -27050,
+  "to": -23050,
+  "region": "Moravia, northern Austria, southern Poland",
+  "pts": [
+   [
+    14.5,
+    48.3
+   ],
+   [
+    16,
+    47.8
+   ],
+   [
+    18.5,
+    48.2
+   ],
+   [
+    20.5,
+    49.5
+   ],
+   [
+    20,
+    50.6
+   ],
+   [
+    17,
+    50.5
+   ],
+   [
+    15,
+    49.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Pavlov",
+    "lat": 48.87,
+    "lon": 16.67
+   },
+   {
+    "n": "Dolní Věstonice",
+    "lat": 48.88,
+    "lon": 16.65
+   },
+   {
+    "n": "Předmostí",
+    "lat": 49.46,
+    "lon": 17.44
+   }
+  ],
+  "d": "Gravettian-linked culture of tundra mammoth hunters near the ice sheets, known for ceramic figurines like the Venus of Dolní Věstonice.",
+  "kind": "culture"
+ },
+ {
+  "n": "Kostenki",
+  "w": "Kostenki 14",
+  "from": -40000,
+  "to": -23050,
+  "region": "Middle Don River, Voronezh region, Russia",
+  "pts": [
+   [
+    37.5,
+    50.5
+   ],
+   [
+    39.5,
+    50.3
+   ],
+   [
+    41,
+    51.2
+   ],
+   [
+    40.5,
+    52.3
+   ],
+   [
+    38.5,
+    52.4
+   ],
+   [
+    37.3,
+    51.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kostenki",
+    "lat": 51.39,
+    "lon": 39.05
+   }
+  ],
+  "d": "Cluster of 26 Upper Palaeolithic sites on the Don with some of Europe's earliest modern humans and a 25,000-year-old ring of mammoth bones.",
+  "kind": "population"
+ },
+ {
+  "n": "Solutrean",
+  "w": "Solutrean",
+  "from": -20050,
+  "to": -15050,
+  "region": "France, Spain, Portugal",
+  "pts": [
+   [
+    -9.5,
+    37
+   ],
+   [
+    -6,
+    36.5
+   ],
+   [
+    -1,
+    37.5
+   ],
+   [
+    3,
+    42
+   ],
+   [
+    6,
+    44.5
+   ],
+   [
+    5,
+    47
+   ],
+   [
+    1,
+    47.5
+   ],
+   [
+    -2,
+    46
+   ],
+   [
+    -9,
+    43
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Solutré",
+    "lat": 46.3,
+    "lon": 4.72
+   },
+   {
+    "n": "Altamira",
+    "lat": 43.38,
+    "lon": -4.12
+   }
+  ],
+  "d": "Last Glacial Maximum hunters of horse and reindeer, renowned for thin pressure-flaked leaf-shaped bifacial points.",
+  "kind": "culture"
+ },
+ {
+  "n": "Epigravettian",
+  "w": "Epigravettian",
+  "from": -19050,
+  "to": -8050,
+  "region": "Italy, Balkans, Ukraine, Caucasus, to the Volga",
+  "pts": [
+   [
+    5,
+    43
+   ],
+   [
+    10,
+    44
+   ],
+   [
+    23,
+    37
+   ],
+   [
+    28,
+    41
+   ],
+   [
+    38,
+    43
+   ],
+   [
+    49,
+    46
+   ],
+   [
+    47,
+    52
+   ],
+   [
+    34,
+    52
+   ],
+   [
+    14,
+    47
+   ],
+   [
+    7,
+    45
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Grotta Paglicci",
+    "lat": 41.68,
+    "lon": 15.59
+   },
+   {
+    "n": "Arene Candide",
+    "lat": 44.16,
+    "lon": 8.33
+   },
+   {
+    "n": "Mezhyrich",
+    "lat": 49.62,
+    "lon": 31.0
+   }
+  ],
+  "d": "Southern and eastern European successors of the Gravettian making microlithic backed bladelets; eastern groups built mammoth-bone huts like Mezhyrich.",
+  "kind": "culture"
+ },
+ {
+  "n": "Magdalenian",
+  "w": "Magdalenian",
+  "from": -19050,
+  "to": -11050,
+  "region": "Western and central Europe, Portugal to Poland, Britain",
+  "pts": [
+   [
+    -9,
+    40
+   ],
+   [
+    -5,
+    37.5
+   ],
+   [
+    7,
+    44
+   ],
+   [
+    13,
+    47
+   ],
+   [
+    20,
+    49
+   ],
+   [
+    13,
+    53
+   ],
+   [
+    5,
+    52.5
+   ],
+   [
+    -1,
+    53
+   ],
+   [
+    -4,
+    48
+   ],
+   [
+    -9,
+    43.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Abri de la Madeleine",
+    "lat": 44.97,
+    "lon": 1.03
+   },
+   {
+    "n": "Lascaux",
+    "lat": 45.05,
+    "lon": 1.17
+   },
+   {
+    "n": "Altamira",
+    "lat": 43.38,
+    "lon": -4.12
+   }
+  ],
+  "d": "Reindeer and red deer hunters with barbed bone harpoons and spear-throwers; creators of much of Europe's great cave art.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hamburgian",
+  "w": "Hamburg culture",
+  "from": -13550,
+  "to": -11150,
+  "region": "Northern Germany, Netherlands, Jutland, Poland, Scotland, Skåne",
+  "pts": [
+   [
+    3,
+    52
+   ],
+   [
+    8,
+    51.5
+   ],
+   [
+    17,
+    51.5
+   ],
+   [
+    18,
+    54
+   ],
+   [
+    14,
+    56.5
+   ],
+   [
+    10,
+    57.5
+   ],
+   [
+    2,
+    56.5
+   ],
+   [
+    -4,
+    56
+   ],
+   [
+    -3,
+    55
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Meiendorf",
+    "lat": 53.63,
+    "lon": 10.16
+   },
+   {
+    "n": "Howburn Farm",
+    "lat": 55.73,
+    "lon": -3.6
+   }
+  ],
+  "d": "Specialist reindeer hunters following herds across the late-glacial plain, using shouldered points and zinken antler-working tools.",
+  "kind": "culture"
+ },
+ {
+  "n": "Federmesser",
+  "w": "Federmesser culture",
+  "from": -12050,
+  "to": -10850,
+  "region": "Northern European Plain: Belgium to Poland",
+  "pts": [
+   [
+    2,
+    50
+   ],
+   [
+    7,
+    50.5
+   ],
+   [
+    15,
+    51
+   ],
+   [
+    21,
+    51.5
+   ],
+   [
+    21,
+    53.5
+   ],
+   [
+    14,
+    54.5
+   ],
+   [
+    9,
+    55.5
+   ],
+   [
+    4,
+    54.5
+   ],
+   [
+    1.5,
+    52
+   ]
+  ],
+  "sites": [],
+  "d": "Late-glacial forest-steppe hunters named for small curved backed flint points ('quill knives').",
+  "kind": "culture"
+ },
+ {
+  "n": "Azilian",
+  "w": "Azilian",
+  "from": -10550,
+  "to": -8050,
+  "region": "Franco-Cantabrian region: northern Spain, southern France",
+  "pts": [
+   [
+    -8,
+    43
+   ],
+   [
+    -4,
+    42.5
+   ],
+   [
+    1,
+    41.5
+   ],
+   [
+    3,
+    42
+   ],
+   [
+    5,
+    44
+   ],
+   [
+    7,
+    47
+   ],
+   [
+    3,
+    47.5
+   ],
+   [
+    -1,
+    46
+   ],
+   [
+    -2,
+    43.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mas d'Azil",
+    "lat": 43.07,
+    "lon": 1.36
+   },
+   {
+    "n": "Grotte du Bichon",
+    "lat": 47.1,
+    "lon": 6.85
+   },
+   {
+    "n": "Balma Guilanyà",
+    "lat": 42.07,
+    "lon": 1.55
+   }
+  ],
+  "d": "Small groups in rock shelters making microliths, flat antler harpoons and painted pebbles with geometric designs.",
+  "kind": "culture"
+ },
+ {
+  "n": "Ahrensburgian",
+  "w": "Ahrensburg culture",
+  "from": -10950,
+  "to": -9750,
+  "region": "North German plain, southern Scandinavia, western Poland, Doggerland",
+  "pts": [
+   [
+    0,
+    53
+   ],
+   [
+    6,
+    52
+   ],
+   [
+    14,
+    52
+   ],
+   [
+    18,
+    53.5
+   ],
+   [
+    16,
+    56
+   ],
+   [
+    12,
+    59
+   ],
+   [
+    7,
+    58
+   ],
+   [
+    2,
+    56.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Stellmoor",
+    "lat": 53.66,
+    "lon": 10.2
+   },
+   {
+    "n": "Meiendorf",
+    "lat": 53.63,
+    "lon": 10.16
+   }
+  ],
+  "d": "Younger Dryas reindeer hunters using bows and tanged flint arrowheads, living in seasonal hide-tent camps.",
+  "kind": "culture"
+ },
+ {
+  "n": "Swiderian",
+  "w": "Swiderian culture",
+  "from": -11000,
+  "to": -8200,
+  "region": "Poland, Lithuania, Belarus, Ukraine, Carpathians",
+  "pts": [
+   [
+    14,
+    51
+   ],
+   [
+    19,
+    49.5
+   ],
+   [
+    25,
+    46
+   ],
+   [
+    32,
+    46
+   ],
+   [
+    34,
+    45
+   ],
+   [
+    33,
+    50
+   ],
+   [
+    28,
+    54
+   ],
+   [
+    24,
+    55.5
+   ],
+   [
+    17,
+    54.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Świdry Wielkie",
+    "lat": 52.1,
+    "lon": 21.25
+   }
+  ],
+  "d": "Mobile hunters of the northern plains and Carpathians using tanged arrowheads, moving seasonally after reindeer and other game.",
+  "kind": "culture"
+ },
+ {
+  "n": "Mal'ta–Buret'",
+  "w": "Mal'ta–Buret' culture",
+  "from": -22050,
+  "to": -13050,
+  "region": "Upper Angara, west of Lake Baikal, Siberia",
+  "pts": [
+   [
+    101,
+    51.5
+   ],
+   [
+    104,
+    51.5
+   ],
+   [
+    106,
+    52.5
+   ],
+   [
+    105.5,
+    54
+   ],
+   [
+    102.5,
+    54.2
+   ],
+   [
+    100.5,
+    53
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mal'ta",
+    "lat": 52.85,
+    "lon": 103.52
+   },
+   {
+    "n": "Buret'",
+    "lat": 53.0,
+    "lon": 103.51
+   }
+  ],
+  "d": "Siberian hunters living in semi-subterranean bone-and-antler houses who carved ivory Venus figurines and birds.",
+  "kind": "culture"
+ },
+ {
+  "n": "Yana (Ancient North Siberians)",
+  "w": "Yana Rhinoceros Horn Site",
+  "from": -30050,
+  "to": -19050,
+  "region": "Arctic northeast Siberia, Yana River",
+  "pts": [
+   [
+    128,
+    68
+   ],
+   [
+    137,
+    67.5
+   ],
+   [
+    146,
+    68
+   ],
+   [
+    150,
+    71
+   ],
+   [
+    142,
+    73.5
+   ],
+   [
+    132,
+    73
+   ],
+   [
+    127,
+    71
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Yana RHS",
+    "lat": 70.72,
+    "lon": 135.43
+   }
+  ],
+  "d": "High-Arctic mammoth hunters who made bone and ivory tools; their DNA defines the Ancient North Siberian lineage.",
+  "kind": "population"
+ },
+ {
+  "n": "Afontova Gora",
+  "w": "Afontova Gora",
+  "from": -16050,
+  "to": -10050,
+  "region": "Yenisei River near Krasnoyarsk",
+  "pts": [
+   [
+    90.5,
+    55
+   ],
+   [
+    93.5,
+    55
+   ],
+   [
+    94.5,
+    56.2
+   ],
+   [
+    93.5,
+    57.2
+   ],
+   [
+    91,
+    57
+   ],
+   [
+    90,
+    56
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Afontova Gora",
+    "lat": 56.0,
+    "lon": 92.8
+   }
+  ],
+  "d": "Late Palaeolithic mammoth-hunting campsites whose people descended genetically from the Mal'ta–Buret' population.",
+  "kind": "population"
+ },
+ {
+  "n": "Dyuktai",
+  "w": "Dyuktai Cave",
+  "from": -33050,
+  "to": -10050,
+  "region": "Aldan basin and northeast Asia (Yakutia)",
+  "pts": [
+   [
+    118,
+    57
+   ],
+   [
+    128,
+    55.5
+   ],
+   [
+    138,
+    57
+   ],
+   [
+    144,
+    61
+   ],
+   [
+    140,
+    65
+   ],
+   [
+    130,
+    66
+   ],
+   [
+    121,
+    63
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Dyuktai Cave",
+    "lat": 59.288,
+    "lon": 132.607
+   }
+  ],
+  "d": "Northeast Asian hunters using wedge-shaped microblade cores, burins and bifacial points (dates in uncalibrated radiocarbon years).",
+  "kind": "culture"
+ },
+ {
+  "n": "Denisovans (last evidence)",
+  "w": "Denisovan",
+  "from": -46050,
+  "to": -30050,
+  "region": "Altai to Tibetan Plateau, probably wider East Asia",
+  "pts": [
+   [
+    82,
+    50
+   ],
+   [
+    86,
+    46
+   ],
+   [
+    95,
+    38
+   ],
+   [
+    100,
+    33
+   ],
+   [
+    105,
+    33
+   ],
+   [
+    106,
+    37
+   ],
+   [
+    98,
+    43
+   ],
+   [
+    90,
+    52
+   ],
+   [
+    84,
+    53
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Denisova Cave",
+    "lat": 51.4,
+    "lon": 84.68
+   },
+   {
+    "n": "Baishiya Karst Cave",
+    "lat": 35.45,
+    "lon": 102.57
+   }
+  ],
+  "d": "Archaic humans known mainly from DNA; latest remains are a rib from Baishiya Karst Cave dated 48,000–32,000 years ago.",
+  "kind": "species"
+ },
+ {
+  "n": "Tianyuan (early East Asians)",
+  "w": "Tianyuan man",
+  "from": -40050,
+  "to": -37050,
+  "region": "North China Plain near Beijing",
+  "pts": [
+   [
+    113,
+    38
+   ],
+   [
+    117,
+    37.5
+   ],
+   [
+    119,
+    39
+   ],
+   [
+    118.5,
+    41
+   ],
+   [
+    115,
+    41.5
+   ],
+   [
+    113,
+    40
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Tianyuan Cave",
+    "lat": 39.66,
+    "lon": 115.88
+   }
+  ],
+  "d": "Early modern human from a cave near Beijing whose genome shows a deep East Eurasian lineage ancestral to many Asians and Native Americans.",
+  "kind": "population"
+ },
+ {
+  "n": "Xianrendong pottery foragers",
+  "w": "Xianrendong Cave",
+  "from": -18050,
+  "to": -17050,
+  "region": "Jiangxi, south China",
+  "pts": [
+   [
+    115.5,
+    27.5
+   ],
+   [
+    118.5,
+    27.5
+   ],
+   [
+    119,
+    29.5
+   ],
+   [
+    117,
+    30.2
+   ],
+   [
+    115,
+    29.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Xianren Cave",
+    "lat": 28.73,
+    "lon": 117.17
+   }
+  ],
+  "d": "Mobile hunter-gatherers who made the world's earliest known pottery, probably for cooking, during the Last Glacial Maximum.",
+  "kind": "culture"
+ },
+ {
+  "n": "Japanese Paleolithic",
+  "w": "Japanese Paleolithic",
+  "from": -36000,
+  "to": -14000,
+  "region": "Japanese archipelago (then partly joined)",
+  "pts": [
+   [
+    129.5,
+    31
+   ],
+   [
+    131.5,
+    31
+   ],
+   [
+    136,
+    33.5
+   ],
+   [
+    141,
+    35
+   ],
+   [
+    142,
+    39
+   ],
+   [
+    145,
+    43.5
+   ],
+   [
+    141.5,
+    45.5
+   ],
+   [
+    139.5,
+    42
+   ],
+   [
+    136,
+    37
+   ],
+   [
+    130,
+    34.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lake Nojiri",
+    "lat": 36.83,
+    "lon": 138.22
+   }
+  ],
+  "d": "Pre-pottery foragers who hunted Naumann's elephant and giant deer and made some of the world's oldest ground stone axes.",
+  "kind": "culture"
+ },
+ {
+  "n": "Incipient Jōmon",
+  "w": "Jōmon period",
+  "from": -14000,
+  "to": -7500,
+  "region": "Japan, mainly Honshu and Kyushu",
+  "pts": [
+   [
+    129.5,
+    31
+   ],
+   [
+    131.5,
+    31
+   ],
+   [
+    136,
+    33.5
+   ],
+   [
+    141,
+    35
+   ],
+   [
+    142,
+    39
+   ],
+   [
+    145,
+    43.5
+   ],
+   [
+    141.5,
+    45.5
+   ],
+   [
+    139.5,
+    42
+   ],
+   [
+    136,
+    37
+   ],
+   [
+    130,
+    34.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Odai Yamamoto I",
+    "lat": 41.03,
+    "lon": 140.62
+   },
+   {
+    "n": "Fukui Cave",
+    "lat": 33.2,
+    "lon": 129.7
+   }
+  ],
+  "d": "Semi-sedentary hunter-gatherers among the world's first potters, living on nuts, shellfish and game.",
+  "kind": "culture"
+ },
+ {
+  "n": "Hoabinhian",
+  "w": "Hoabinhian",
+  "from": -10000,
+  "to": -2000,
+  "region": "Mainland Southeast Asia, Yunnan to Sumatra",
+  "pts": [
+   [
+    98,
+    8
+   ],
+   [
+    100,
+    2
+   ],
+   [
+    103,
+    1.5
+   ],
+   [
+    106,
+    9
+   ],
+   [
+    109,
+    13
+   ],
+   [
+    108,
+    21
+   ],
+   [
+    104,
+    23.5
+   ],
+   [
+    99,
+    24
+   ],
+   [
+    97,
+    20
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Spirit Cave",
+    "lat": 19.57,
+    "lon": 98.27
+   },
+   {
+    "n": "Hòa Bình",
+    "lat": 20.82,
+    "lon": 105.34
+   },
+   {
+    "n": "Gua Cha",
+    "lat": 4.6,
+    "lon": 101.97
+   }
+  ],
+  "d": "Rock-shelter foragers making unifacially flaked cobble tools and gathering shellfish, fish, nuts and small game.",
+  "kind": "culture"
+ },
+ {
+  "n": "Niah Caves (Sundaland)",
+  "w": "Niah Caves",
+  "from": -44050,
+  "to": -32050,
+  "region": "Borneo / Sundaland",
+  "pts": [
+   [
+    108,
+    1
+   ],
+   [
+    110,
+    -3
+   ],
+   [
+    116,
+    -4.5
+   ],
+   [
+    119,
+    1
+   ],
+   [
+    118,
+    6
+   ],
+   [
+    115,
+    7
+   ],
+   [
+    111,
+    3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Niah Caves",
+    "lat": 3.82,
+    "lon": 113.78
+   }
+  ],
+  "d": "Early modern humans in the Bornean rainforest, known from the Deep Skull and long-term cave occupation.",
+  "kind": "population"
+ },
+ {
+  "n": "South Asian microlithic",
+  "w": "South Asian Stone Age",
+  "from": -40050,
+  "to": -15050,
+  "region": "Central and eastern India",
+  "pts": [
+   [
+    73,
+    21
+   ],
+   [
+    78,
+    18
+   ],
+   [
+    84,
+    19
+   ],
+   [
+    88,
+    21.5
+   ],
+   [
+    88,
+    24
+   ],
+   [
+    83,
+    26
+   ],
+   [
+    78,
+    26
+   ],
+   [
+    74,
+    24
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bhimbetka",
+    "lat": 22.94,
+    "lon": 77.61
+   },
+   {
+    "n": "Belan",
+    "lat": 25.0,
+    "lon": 82.0
+   }
+  ],
+  "d": "Early modern humans making microlithic tools from about 42,000 years ago; Bhimbetka rock shelters hold paintings from around 30,000 BCE.",
+  "kind": "culture"
+ },
+ {
+  "n": "Balangoda Man",
+  "w": "Balangoda Man",
+  "from": -38000,
+  "to": -3450,
+  "region": "Sri Lanka (joined to India by land)",
+  "pts": [
+   [
+    79.7,
+    6.2
+   ],
+   [
+    81,
+    5.9
+   ],
+   [
+    82,
+    7
+   ],
+   [
+    81.7,
+    8.6
+   ],
+   [
+    80.5,
+    9.8
+   ],
+   [
+    79.6,
+    9.6
+   ],
+   [
+    79.8,
+    8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Fa Hien Cave",
+    "lat": 6.65,
+    "lon": 80.21
+   },
+   {
+    "n": "Batadomba-lena",
+    "lat": 6.77,
+    "lon": 80.43
+   }
+  ],
+  "d": "Cave-dwelling hunter-gatherers of Sri Lanka who made some of the earliest geometric microliths, around 28,500 BCE.",
+  "kind": "population"
+ },
+ {
+  "n": "Levantine Aurignacian",
+  "w": "Levantine Aurignacian",
+  "from": -33050,
+  "to": -27050,
+  "region": "Lebanon, Israel, Negev",
+  "pts": [
+   [
+    34.3,
+    30.5
+   ],
+   [
+    35.2,
+    30.3
+   ],
+   [
+    35.9,
+    32.5
+   ],
+   [
+    36.4,
+    34.3
+   ],
+   [
+    35.8,
+    34.6
+   ],
+   [
+    35,
+    33
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ksar Akil",
+    "lat": 33.91,
+    "lon": 35.6
+   },
+   {
+    "n": "Hayonim Cave",
+    "lat": 32.93,
+    "lon": 35.23
+   },
+   {
+    "n": "Manot Cave",
+    "lat": 33.06,
+    "lon": 35.17
+   }
+  ],
+  "d": "Levantine blade industry resembling the European Aurignacian, with burins, Font-Yves-like points and rare bone tools.",
+  "kind": "culture"
+ },
+ {
+  "n": "Baradostian",
+  "w": "Baradostian culture",
+  "from": -36000,
+  "to": -18000,
+  "region": "Zagros Mountains, Iraq–Iran border",
+  "pts": [
+   [
+    44,
+    36.5
+   ],
+   [
+    45.5,
+    34
+   ],
+   [
+    47.5,
+    32
+   ],
+   [
+    51,
+    29.5
+   ],
+   [
+    52,
+    31
+   ],
+   [
+    48,
+    35
+   ],
+   [
+    46,
+    37.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Shanidar Cave",
+    "lat": 36.83,
+    "lon": 44.22
+   },
+   {
+    "n": "Yafteh Cave",
+    "lat": 33.53,
+    "lon": 48.25
+   }
+  ],
+  "d": "Zagros Upper Palaeolithic industry making blades, bladelets and many burins from prismatic cores.",
+  "kind": "culture"
+ },
+ {
+  "n": "Kebaran",
+  "w": "Kebaran culture",
+  "from": -21050,
+  "to": -13050,
+  "region": "Levant and Sinai",
+  "pts": [
+   [
+    32.5,
+    29
+   ],
+   [
+    34,
+    27.8
+   ],
+   [
+    35.5,
+    29.5
+   ],
+   [
+    36.3,
+    32
+   ],
+   [
+    37,
+    35
+   ],
+   [
+    35.9,
+    35.5
+   ],
+   [
+    34.8,
+    32.5
+   ],
+   [
+    33.5,
+    31
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kebara Cave",
+    "lat": 32.56,
+    "lon": 34.94
+   },
+   {
+    "n": "Ohalo II",
+    "lat": 32.72,
+    "lon": 35.57
+   },
+   {
+    "n": "Ein Gev",
+    "lat": 32.78,
+    "lon": 35.64
+   }
+  ],
+  "d": "Highly mobile hunter-gatherers making small geometric microliths, associated with the bow and arrow and early dogs.",
+  "kind": "culture"
+ },
+ {
+  "n": "Zarzian",
+  "w": "Zarzian culture",
+  "from": -18050,
+  "to": -8050,
+  "region": "Zagros (Iraqi Kurdistan, Iran), north to Gobustan",
+  "pts": [
+   [
+    44,
+    36
+   ],
+   [
+    46,
+    33
+   ],
+   [
+    49,
+    31
+   ],
+   [
+    52,
+    32
+   ],
+   [
+    51,
+    36
+   ],
+   [
+    49.5,
+    40.5
+   ],
+   [
+    47,
+    41
+   ],
+   [
+    44.5,
+    38
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Zarzi",
+    "lat": 35.75,
+    "lon": 45.0
+   },
+   {
+    "n": "Palegawra Cave",
+    "lat": 35.5,
+    "lon": 45.5
+   },
+   {
+    "n": "Shanidar Cave",
+    "lat": 36.83,
+    "lon": 44.22
+   }
+  ],
+  "d": "Zagros hunter-gatherers using microliths and bows to hunt onager, red deer and wild goats, living in temporary structures.",
+  "kind": "culture"
+ },
+ {
+  "n": "Natufian",
+  "w": "Natufian culture",
+  "from": -13050,
+  "to": -9550,
+  "region": "Levant: Israel, Palestine, Jordan, Lebanon, Syria",
+  "pts": [
+   [
+    33.8,
+    30.5
+   ],
+   [
+    35,
+    29.5
+   ],
+   [
+    36,
+    31
+   ],
+   [
+    37,
+    34
+   ],
+   [
+    38.8,
+    35.9
+   ],
+   [
+    37,
+    36.3
+   ],
+   [
+    35.8,
+    34.5
+   ],
+   [
+    34.8,
+    32.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ain Mallaha",
+    "lat": 33.06,
+    "lon": 35.6
+   },
+   {
+    "n": "El Wad",
+    "lat": 32.67,
+    "lon": 34.97
+   },
+   {
+    "n": "Shuqba Cave",
+    "lat": 31.98,
+    "lon": 35.04
+   }
+  ],
+  "d": "Semi-sedentary foragers in stone round-houses harvesting wild cereals with sickles and hunting gazelle, on the threshold of farming.",
+  "kind": "culture"
+ },
+ {
+  "n": "Aterian (late)",
+  "w": "Aterian",
+  "from": -148050,
+  "to": -18050,
+  "region": "North Africa, Mauritania to Egypt",
+  "pts": [
+   [
+    -16,
+    20
+   ],
+   [
+    -5,
+    19
+   ],
+   [
+    10,
+    17
+   ],
+   [
+    25,
+    20
+   ],
+   [
+    31,
+    24
+   ],
+   [
+    20,
+    32
+   ],
+   [
+    10,
+    34
+   ],
+   [
+    0,
+    35.5
+   ],
+   [
+    -6,
+    35.5
+   ],
+   [
+    -10,
+    30
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bir el Ater",
+    "lat": 34.75,
+    "lon": 8.05
+   },
+   {
+    "n": "Dar es Soltan",
+    "lat": 33.98,
+    "lon": -6.88
+   },
+   {
+    "n": "Adrar Bous",
+    "lat": 20.33,
+    "lon": 9.0
+   }
+  ],
+  "d": "Long-lived North African Middle Stone Age industry of tanged points, disappearing around 20,000 years ago.",
+  "kind": "culture"
+ },
+ {
+  "n": "Iberomaurusian",
+  "w": "Iberomaurusian",
+  "from": -23050,
+  "to": -9050,
+  "region": "Coastal Morocco, Algeria, Tunisia; Cyrenaica (Libya)",
+  "pts": [
+   [
+    -9,
+    31
+   ],
+   [
+    -2,
+    33
+   ],
+   [
+    5,
+    34.5
+   ],
+   [
+    10,
+    34
+   ],
+   [
+    20,
+    32
+   ],
+   [
+    20,
+    33
+   ],
+   [
+    11,
+    37.3
+   ],
+   [
+    2,
+    36.8
+   ],
+   [
+    -5.5,
+    36
+   ],
+   [
+    -9.5,
+    33.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Taforalt",
+    "lat": 34.81,
+    "lon": -2.41
+   },
+   {
+    "n": "Afalou bou Rhummel",
+    "lat": 36.6,
+    "lon": 5.4
+   },
+   {
+    "n": "Haua Fteah",
+    "lat": 32.9,
+    "lon": 22.05
+   }
+  ],
+  "d": "Maghreb hunter-gatherers making crescent backed bladelets and bone tools, with much plant food and cave cemeteries.",
+  "kind": "culture"
+ },
+ {
+  "n": "Halfan",
+  "w": "Halfan culture",
+  "from": -20550,
+  "to": -14050,
+  "region": "Nubian Nile Valley (northern Sudan); Kubbaniyan in Egypt",
+  "pts": [
+   [
+    30.5,
+    20.5
+   ],
+   [
+    31.8,
+    20.5
+   ],
+   [
+    32.6,
+    22.5
+   ],
+   [
+    33.2,
+    24.5
+   ],
+   [
+    32.5,
+    25
+   ],
+   [
+    31.6,
+    23
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Wadi Halfa",
+    "lat": 21.8,
+    "lon": 31.35
+   },
+   {
+    "n": "Wadi Kubbaniya",
+    "lat": 24.17,
+    "lon": 32.83
+   }
+  ],
+  "d": "Nile Valley foragers making backed microblades who hunted herd animals and fished, staying long at favoured riverside camps.",
+  "kind": "culture"
+ },
+ {
+  "n": "Qadan",
+  "w": "Qadan culture",
+  "from": -13050,
+  "to": -9050,
+  "region": "Nubia, Second Cataract to Tushka",
+  "pts": [
+   [
+    30.6,
+    21
+   ],
+   [
+    31.6,
+    21
+   ],
+   [
+    32.2,
+    22.3
+   ],
+   [
+    32,
+    23
+   ],
+   [
+    31.2,
+    22.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Jebel Sahaba",
+    "lat": 21.98,
+    "lon": 31.33
+   }
+  ],
+  "d": "Nile hunters, fishers and wild-grain gatherers using grinding stones; Jebel Sahaba cemetery records early violent conflict.",
+  "kind": "culture"
+ },
+ {
+  "n": "Shum Laka foragers",
+  "w": "Shum Laka",
+  "from": -28050,
+  "to": 1550,
+  "region": "Cameroon Grassfields",
+  "pts": [
+   [
+    9,
+    5
+   ],
+   [
+    10.5,
+    4.8
+   ],
+   [
+    11.5,
+    5.5
+   ],
+   [
+    11.2,
+    7
+   ],
+   [
+    10,
+    7.2
+   ],
+   [
+    9.2,
+    6.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Shum Laka",
+    "lat": 5.859,
+    "lon": 10.078
+   }
+  ],
+  "d": "West-Central African rock-shelter foragers whose 30,000-year record and ancient DNA illuminate early African population history.",
+  "kind": "population"
+ },
+ {
+  "n": "Iwo Eleru",
+  "w": "Iwo Eleru",
+  "from": -14350,
+  "to": -9750,
+  "region": "Southwestern Nigeria",
+  "pts": [
+   [
+    3,
+    6.5
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    7,
+    7.5
+   ],
+   [
+    6,
+    8.5
+   ],
+   [
+    3.5,
+    8.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Iwo Eleru",
+    "lat": 7.27,
+    "lon": 5.1
+   }
+  ],
+  "d": "Later Stone Age rock shelter whose 13,000-year-old skull mixes archaic and modern features, hinting at a deep African lineage.",
+  "kind": "population"
+ },
+ {
+  "n": "Ishango",
+  "w": "Ishango bone",
+  "from": -20000,
+  "to": -18000,
+  "region": "Semliki River / Lake Edward, eastern Congo",
+  "pts": [
+   [
+    29,
+    -1
+   ],
+   [
+    30.2,
+    -1
+   ],
+   [
+    30.5,
+    0
+   ],
+   [
+    30,
+    1
+   ],
+   [
+    29.3,
+    0.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ishango",
+    "lat": -0.13,
+    "lon": 29.6
+   }
+  ],
+  "d": "Small fishing and gathering community at the Lake Edward outlet, known for the notched Ishango bone tally.",
+  "kind": "population"
+ },
+ {
+  "n": "Later Stone Age (southern Africa)",
+  "w": "Later Stone Age",
+  "from": -48050,
+  "to": -6050,
+  "region": "Eastern and southern Africa",
+  "pts": [
+   [
+    12,
+    -17
+   ],
+   [
+    15,
+    -30
+   ],
+   [
+    18,
+    -35
+   ],
+   [
+    26,
+    -34.5
+   ],
+   [
+    33,
+    -29
+   ],
+   [
+    41,
+    -5
+   ],
+   [
+    40,
+    3
+   ],
+   [
+    35,
+    5
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    22,
+    -10
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Border Cave",
+    "lat": -27.025,
+    "lon": 31.989
+   }
+  ],
+  "d": "Hunter-gatherers with microliths, bone points and digging sticks; Border Cave's 44,000-year-old tools resemble later San kits.",
+  "kind": "culture"
+ },
+ {
+  "n": "Aboriginal Australians (Sahul)",
+  "w": "Prehistory of Australia",
+  "from": -46050,
+  "to": 2000,
+  "region": "Sahul: Australia and New Guinea joined",
+  "pts": [
+   [
+    114,
+    -22
+   ],
+   [
+    125,
+    -33
+   ],
+   [
+    131,
+    -31.5
+   ],
+   [
+    145,
+    -39
+   ],
+   [
+    150,
+    -37
+   ],
+   [
+    146,
+    -19
+   ],
+   [
+    151,
+    -10
+   ],
+   [
+    132,
+    -1
+   ],
+   [
+    136,
+    -8
+   ],
+   [
+    121,
+    -17
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Madjedbebe",
+    "lat": -12.5,
+    "lon": 132.89
+   },
+   {
+    "n": "Lake Mungo",
+    "lat": -33.73,
+    "lon": 143.08
+   },
+   {
+    "n": "Cranebrook Terraces",
+    "lat": -33.75,
+    "lon": 150.7
+   }
+  ],
+  "d": "Semi-nomadic hunter-gatherer clans who shaped the land with fire; Lake Mungo holds Australia's oldest human remains, about 41,000 years old.",
+  "kind": "population"
+ },
+ {
+  "n": "Pleistocene Tasmanians",
+  "w": "Aboriginal Tasmanians",
+  "from": -33050,
+  "to": 2000,
+  "region": "Tasmania and the Bassian Plain",
+  "pts": [
+   [
+    144.5,
+    -43.6
+   ],
+   [
+    148.3,
+    -43.2
+   ],
+   [
+    148.5,
+    -40.5
+   ],
+   [
+    147,
+    -38.8
+   ],
+   [
+    145,
+    -38.6
+   ],
+   [
+    143.5,
+    -40
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Warreen Cave",
+    "lat": -42.7,
+    "lon": 146.1
+   },
+   {
+    "n": "Kutikina Cave",
+    "lat": -42.3,
+    "lon": 145.8
+   }
+  ],
+  "d": "Southernmost humans of the Ice Age, moving seasonally and hunting in Tasmania's cold highlands during the glacial maximum.",
+  "kind": "population"
+ },
+ {
+  "n": "Ancient Beringians",
+  "w": "Beringia",
+  "from": -22050,
+  "to": -9550,
+  "region": "Beringia land bridge, Alaska and Yukon",
+  "pts": [
+   [
+    160,
+    62
+   ],
+   [
+    175,
+    58
+   ],
+   [
+    -170,
+    56
+   ],
+   [
+    -158,
+    56
+   ],
+   [
+    -145,
+    60
+   ],
+   [
+    -137,
+    68
+   ],
+   [
+    -150,
+    70.5
+   ],
+   [
+    -168,
+    71
+   ],
+   [
+    175,
+    71
+   ],
+   [
+    162,
+    69
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Bluefish Caves",
+    "lat": 67.15,
+    "lon": -140.583
+   },
+   {
+    "n": "Swan Point",
+    "lat": 64.38,
+    "lon": -146.04
+   }
+  ],
+  "d": "Small populations who reached Beringia from Siberia during the Last Glacial Maximum before spreading into the Americas.",
+  "kind": "population"
+ },
+ {
+  "n": "Pre-Clovis Americans",
+  "w": "Settlement of the Americas",
+  "from": -21050,
+  "to": -11050,
+  "region": "Western and eastern North America",
+  "pts": [
+   [
+    -124,
+    40
+   ],
+   [
+    -117,
+    32
+   ],
+   [
+    -106,
+    30.5
+   ],
+   [
+    -97,
+    29
+   ],
+   [
+    -82,
+    33
+   ],
+   [
+    -77,
+    39
+   ],
+   [
+    -80,
+    42
+   ],
+   [
+    -90,
+    43
+   ],
+   [
+    -111,
+    47
+   ],
+   [
+    -124,
+    48
+   ]
+  ],
+  "sites": [
+   {
+    "n": "White Sands footprints",
+    "lat": 32.85,
+    "lon": -106.3
+   },
+   {
+    "n": "Cooper's Ferry",
+    "lat": 45.906,
+    "lon": -116.396
+   },
+   {
+    "n": "Paisley Caves",
+    "lat": 42.75,
+    "lon": -120.55
+   }
+  ],
+  "d": "Earliest Americans, attested by White Sands footprints, Cooper's Ferry stemmed points and Paisley Caves coprolites; dates remain debated.",
+  "kind": "population"
+ },
+ {
+  "n": "Clovis",
+  "w": "Settlement of the Americas",
+  "from": -11300,
+  "to": -10650,
+  "region": "North America, Rockies to the Atlantic",
+  "pts": [
+   [
+    -122,
+    35
+   ],
+   [
+    -110,
+    29
+   ],
+   [
+    -98,
+    25
+   ],
+   [
+    -82,
+    26
+   ],
+   [
+    -75,
+    35
+   ],
+   [
+    -70,
+    43
+   ],
+   [
+    -80,
+    46
+   ],
+   [
+    -95,
+    49
+   ],
+   [
+    -114,
+    49
+   ],
+   [
+    -122,
+    45
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Blackwater Draw",
+    "lat": 34.28,
+    "lon": -103.33
+   },
+   {
+    "n": "Clovis, New Mexico",
+    "lat": 34.4,
+    "lon": -103.2
+   }
+  ],
+  "d": "Big-game hunters using fluted Clovis spear points, found with mammoth and other extinct megafauna remains.",
+  "kind": "culture"
+ },
+ {
+  "n": "Fishtail point makers",
+  "w": "Fishtail projectile point",
+  "from": -11550,
+  "to": -8250,
+  "region": "Pampas, Patagonia, Andes to Ecuador, southern Brazil",
+  "pts": [
+   [
+    -80,
+    -2
+   ],
+   [
+    -75,
+    -15
+   ],
+   [
+    -72,
+    -35
+   ],
+   [
+    -70,
+    -55
+   ],
+   [
+    -64,
+    -52
+   ],
+   [
+    -60,
+    -40
+   ],
+   [
+    -53,
+    -30
+   ],
+   [
+    -48,
+    -12
+   ],
+   [
+    -60,
+    -8
+   ],
+   [
+    -72,
+    1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Fell's Cave",
+    "lat": -52.03,
+    "lon": -70.07
+   },
+   {
+    "n": "Piedra Museo",
+    "lat": -47.9,
+    "lon": -67.88
+   },
+   {
+    "n": "Paso Otero 5",
+    "lat": -38.17,
+    "lon": -59.13
+   }
+  ],
+  "d": "South American Paleoindians whose fishtail-shaped spear points were likely used to hunt megafauna across the Pampas and Patagonia.",
+  "kind": "culture"
+ }
+]

@@ -1,0 +1,1368 @@
+[
+ {
+  "n": "Maglemosian",
+  "w": "Maglemosian culture",
+  "from": -9000,
+  "to": -6000,
+  "region": "Denmark, N Germany, Poland, S Sweden, E England, Doggerland",
+  "pts": [
+   [
+    -1.5,
+    54.5
+   ],
+   [
+    -1.0,
+    52.5
+   ],
+   [
+    2.5,
+    51.2
+   ],
+   [
+    8.0,
+    52.3
+   ],
+   [
+    14.0,
+    52.6
+   ],
+   [
+    19.0,
+    53.6
+   ],
+   [
+    15.0,
+    55.5
+   ],
+   [
+    13.0,
+    56.3
+   ],
+   [
+    10.5,
+    57.6
+   ],
+   [
+    6.0,
+    56.5
+   ],
+   [
+    2.0,
+    55.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Maglemose (approx.)",
+    "lat": 55.53,
+    "lon": 11.28
+   },
+   {
+    "n": "Lundby Mose (approx.)",
+    "lat": 55.2,
+    "lon": 11.88
+   }
+  ],
+  "d": "Forest and wetland hunter-fishers with flint microliths, bone leister spears and domesticated dogs, living in bark huts across a landscape joined to Britain by Doggerland.",
+  "kind": "culture"
+ },
+ {
+  "n": "Kongemose",
+  "w": "Kongemose culture",
+  "from": -6000,
+  "to": -5200,
+  "region": "Denmark, Skåne (S Sweden)",
+  "pts": [
+   [
+    8.1,
+    56.5
+   ],
+   [
+    8.6,
+    54.9
+   ],
+   [
+    10.5,
+    54.6
+   ],
+   [
+    12.4,
+    54.9
+   ],
+   [
+    14.3,
+    55.4
+   ],
+   [
+    14.2,
+    56.2
+   ],
+   [
+    12.8,
+    56.6
+   ],
+   [
+    10.5,
+    57.6
+   ],
+   [
+    8.3,
+    57.1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kongemose (approx.)",
+    "lat": 55.58,
+    "lon": 11.38
+   }
+  ],
+  "d": "Coastal hunter-fishers of red deer, roe deer and boar, known for rhombic arrowheads and bone daggers edged with flint microblades.",
+  "kind": "culture"
+ },
+ {
+  "n": "Ertebølle",
+  "w": "Ertebølle culture",
+  "from": -5400,
+  "to": -3950,
+  "region": "Denmark, Schleswig-Holstein, S Sweden, Baltic coast to Rügen",
+  "pts": [
+   [
+    8.1,
+    56.5
+   ],
+   [
+    8.6,
+    54.2
+   ],
+   [
+    10.5,
+    53.8
+   ],
+   [
+    12.5,
+    54.0
+   ],
+   [
+    14.0,
+    54.3
+   ],
+   [
+    14.5,
+    55.3
+   ],
+   [
+    14.3,
+    56.2
+   ],
+   [
+    12.8,
+    56.7
+   ],
+   [
+    10.5,
+    57.7
+   ],
+   [
+    8.3,
+    57.1
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ertebølle (approx.)",
+    "lat": 56.81,
+    "lon": 9.18
+   },
+   {
+    "n": "Tybrind Vig (approx.)",
+    "lat": 55.43,
+    "lon": 9.9
+   },
+   {
+    "n": "Skateholm (approx.)",
+    "lat": 55.39,
+    "lon": 13.48
+   }
+  ],
+  "d": "Semi-sedentary coastal fisher-hunters with shell middens, pointed-base pottery and blubber lamps, and cemeteries with red ochre and antler grave goods.",
+  "kind": "culture"
+ },
+ {
+  "n": "Kunda",
+  "w": "Kunda culture",
+  "from": -8500,
+  "to": -5000,
+  "region": "Estonia, Latvia, Lithuania, S Finland, NW Russia",
+  "pts": [
+   [
+    22.0,
+    59.0
+   ],
+   [
+    21.5,
+    57.3
+   ],
+   [
+    22.0,
+    55.0
+   ],
+   [
+    25.5,
+    54.3
+   ],
+   [
+    29.0,
+    55.0
+   ],
+   [
+    32.5,
+    56.0
+   ],
+   [
+    33.0,
+    58.5
+   ],
+   [
+    30.5,
+    60.2
+   ],
+   [
+    27.0,
+    60.8
+   ],
+   [
+    23.0,
+    60.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kunda Lammasmägi (approx.)",
+    "lat": 59.49,
+    "lon": 26.53
+   },
+   {
+    "n": "Pulli (approx.)",
+    "lat": 58.39,
+    "lon": 24.48
+   },
+   {
+    "n": "Zvejnieki",
+    "lat": 57.776,
+    "lon": 25.226
+   }
+  ],
+  "d": "Baltic forest-zone hunter-fishers who took elk, seals and pike with bone and antler gear decorated with geometric designs.",
+  "kind": "culture"
+ },
+ {
+  "n": "Narva",
+  "w": "Narva culture",
+  "from": -5300,
+  "to": -1750,
+  "region": "Estonia, Latvia, Lithuania, Kaliningrad, adjacent Poland, Belarus, Russia",
+  "pts": [
+   [
+    21.0,
+    56.8
+   ],
+   [
+    20.5,
+    55.2
+   ],
+   [
+    21.5,
+    54.2
+   ],
+   [
+    24.5,
+    53.8
+   ],
+   [
+    28.0,
+    54.5
+   ],
+   [
+    30.5,
+    55.8
+   ],
+   [
+    29.8,
+    58.0
+   ],
+   [
+    28.5,
+    59.5
+   ],
+   [
+    24.0,
+    59.5
+   ],
+   [
+    22.0,
+    58.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Narva (approx.)",
+    "lat": 59.38,
+    "lon": 28.19
+   },
+   {
+    "n": "Šventoji (approx.)",
+    "lat": 56.03,
+    "lon": 21.08
+   },
+   {
+    "n": "Juodkrantė (approx.)",
+    "lat": 55.55,
+    "lon": 21.12
+   }
+  ],
+  "d": "Pottery-using fisher-hunter-gatherers in long-term settlements, making large organic-tempered vessels, trading amber and Valdai flint, and slowly adopting husbandry.",
+  "kind": "culture"
+ },
+ {
+  "n": "Komornica",
+  "w": "Komornica culture",
+  "from": -8000,
+  "to": -6000,
+  "region": "Poland, E Germany (also Denmark, S Sweden)",
+  "pts": [
+   [
+    14.5,
+    52.5
+   ],
+   [
+    15.5,
+    51.0
+   ],
+   [
+    18.0,
+    50.5
+   ],
+   [
+    21.0,
+    50.8
+   ],
+   [
+    23.5,
+    51.5
+   ],
+   [
+    23.5,
+    53.0
+   ],
+   [
+    21.0,
+    54.0
+   ],
+   [
+    18.0,
+    54.3
+   ],
+   [
+    15.5,
+    53.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Komornica (approx.)",
+    "lat": 52.43,
+    "lon": 20.9
+   }
+  ],
+  "d": "Early Mesolithic microlithic flint industry of the Polish lowlands, closely related to the Maglemosian complex.",
+  "kind": "culture"
+ },
+ {
+  "n": "Sauveterrian",
+  "w": "Sauveterrian",
+  "from": -8500,
+  "to": -6500,
+  "region": "S and central France, N Italy, Alpine foreland",
+  "pts": [
+   [
+    0.5,
+    46.5
+   ],
+   [
+    -1.5,
+    44.5
+   ],
+   [
+    -0.5,
+    43.2
+   ],
+   [
+    3.0,
+    43.2
+   ],
+   [
+    6.5,
+    43.5
+   ],
+   [
+    10.0,
+    44.0
+   ],
+   [
+    13.5,
+    45.5
+   ],
+   [
+    12.5,
+    46.8
+   ],
+   [
+    8.0,
+    47.5
+   ],
+   [
+    4.0,
+    47.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Sauveterre-la-Lémance (approx.)",
+    "lat": 44.59,
+    "lon": 0.99
+   }
+  ],
+  "d": "Early Mesolithic hunter-gatherers making tiny geometric microliths and backed bladelet points, with evidence of ritual burial.",
+  "kind": "culture"
+ },
+ {
+  "n": "Tardenoisian",
+  "w": "Tardenoisian",
+  "from": -9000,
+  "to": -4000,
+  "region": "N France, Belgium",
+  "pts": [
+   [
+    -1.0,
+    49.6
+   ],
+   [
+    -1.5,
+    48.8
+   ],
+   [
+    0.0,
+    47.8
+   ],
+   [
+    3.0,
+    47.8
+   ],
+   [
+    5.5,
+    48.3
+   ],
+   [
+    6.5,
+    49.5
+   ],
+   [
+    6.2,
+    50.7
+   ],
+   [
+    4.5,
+    51.3
+   ],
+   [
+    2.5,
+    51.0
+   ],
+   [
+    1.5,
+    50.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Fère-en-Tardenois (approx.)",
+    "lat": 49.2,
+    "lon": 3.52
+   }
+  ],
+  "d": "Mesolithic flint industry of trapezes, scalene triangles and microburins made on pressure-flaked bladelets, used by mobile hunter-gatherers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Iron Gates Mesolithic",
+  "w": "Lepenski Vir",
+  "from": -9500,
+  "to": -5500,
+  "region": "Iron Gates gorge of the Danube, Serbia/Romania",
+  "pts": [
+   [
+    21.35,
+    44.75
+   ],
+   [
+    21.5,
+    44.45
+   ],
+   [
+    22.0,
+    44.35
+   ],
+   [
+    22.5,
+    44.4
+   ],
+   [
+    22.95,
+    44.25
+   ],
+   [
+    23.0,
+    44.6
+   ],
+   [
+    22.5,
+    44.75
+   ],
+   [
+    22.0,
+    44.8
+   ],
+   [
+    21.6,
+    44.9
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lepenski Vir",
+    "lat": 44.5611,
+    "lon": 22.0242
+   },
+   {
+    "n": "Vlasac (approx.)",
+    "lat": 44.53,
+    "lon": 22.05
+   },
+   {
+    "n": "Schela Cladovei (approx.)",
+    "lat": 44.625,
+    "lon": 22.6
+   }
+  ],
+  "d": "Sedentary Danube fishers with standardized trapezoidal houses, stone hearths, carved fish-faced boulder sculptures and burials beneath house floors.",
+  "kind": "culture"
+ },
+ {
+  "n": "Irish Mesolithic",
+  "w": "Mesolithic Ireland",
+  "from": -8000,
+  "to": -4000,
+  "region": "Ireland",
+  "pts": [
+   [
+    -10.0,
+    54.2
+   ],
+   [
+    -9.5,
+    53.0
+   ],
+   [
+    -10.2,
+    51.8
+   ],
+   [
+    -9.5,
+    51.5
+   ],
+   [
+    -7.0,
+    52.0
+   ],
+   [
+    -6.2,
+    52.3
+   ],
+   [
+    -6.0,
+    53.5
+   ],
+   [
+    -5.6,
+    54.5
+   ],
+   [
+    -6.2,
+    55.2
+   ],
+   [
+    -7.5,
+    55.3
+   ],
+   [
+    -8.5,
+    54.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mount Sandel (approx.)",
+    "lat": 55.14,
+    "lon": -6.65
+   },
+   {
+    "n": "Lough Boora (approx.)",
+    "lat": 53.21,
+    "lon": -7.72
+   },
+   {
+    "n": "Hermitage (approx.)",
+    "lat": 52.69,
+    "lon": -8.48
+   }
+  ],
+  "d": "Mobile foragers using coastal, lake and river camps for fish, eels, shellfish and wild pig; later phases used heavy Larnian-style macrolithic blades.",
+  "kind": "culture"
+ },
+ {
+  "n": "Mesolithic Britain",
+  "w": "Mesolithic Britain",
+  "from": -9700,
+  "to": -4300,
+  "region": "England, Wales, Scotland, Doggerland margin",
+  "pts": [
+   [
+    -5.7,
+    57.5
+   ],
+   [
+    -5.0,
+    55.5
+   ],
+   [
+    -3.3,
+    54.4
+   ],
+   [
+    -4.6,
+    53.2
+   ],
+   [
+    -5.2,
+    51.8
+   ],
+   [
+    -5.6,
+    50.1
+   ],
+   [
+    -3.0,
+    50.6
+   ],
+   [
+    0.5,
+    50.8
+   ],
+   [
+    1.8,
+    51.4
+   ],
+   [
+    2.8,
+    52.8
+   ],
+   [
+    1.5,
+    54.5
+   ],
+   [
+    -1.6,
+    55.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Star Carr (approx.)",
+    "lat": 54.214,
+    "lon": -0.411
+   },
+   {
+    "n": "Howick (approx.)",
+    "lat": 55.45,
+    "lon": -1.59
+   },
+   {
+    "n": "Gough's Cave, Cheddar (approx.)",
+    "lat": 51.282,
+    "lon": -2.766
+   }
+  ],
+  "d": "Hunter-gatherers of deer, boar and aurochs with microlith-tipped weapons; Star Carr preserves antler headdresses, timber platforms and early round houses.",
+  "kind": "culture"
+ },
+ {
+  "n": "Nøstvet–Lihult",
+  "w": "Nøstvet and Lihult cultures",
+  "from": -6200,
+  "to": -3200,
+  "region": "Oslofjord and SE Norway, W coast of Sweden (Bohuslän)",
+  "pts": [
+   [
+    9.0,
+    59.3
+   ],
+   [
+    9.8,
+    58.95
+   ],
+   [
+    10.6,
+    59.05
+   ],
+   [
+    11.1,
+    58.7
+   ],
+   [
+    11.6,
+    57.8
+   ],
+   [
+    12.0,
+    57.4
+   ],
+   [
+    12.8,
+    57.9
+   ],
+   [
+    12.7,
+    59.0
+   ],
+   [
+    11.7,
+    60.1
+   ],
+   [
+    10.5,
+    60.3
+   ],
+   [
+    9.6,
+    60.0
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Nøstvet (approx.)",
+    "lat": 59.7,
+    "lon": 10.79
+   },
+   {
+    "n": "Sandarna (approx.)",
+    "lat": 57.68,
+    "lon": 11.9
+   }
+  ],
+  "d": "Coastal hunter-fishers of seabirds and marine mammals with ground stone axes and quartz microliths, growing increasingly sedentary over time.",
+  "kind": "culture"
+ },
+ {
+  "n": "Fosna–Hensbacka",
+  "w": "Fosna–Hensbacka culture",
+  "from": -8300,
+  "to": -7300,
+  "region": "Norwegian coast (Hordaland–Nordland), Østfold, Bohuslän",
+  "pts": [
+   [
+    13.5,
+    67.5
+   ],
+   [
+    11.8,
+    66.0
+   ],
+   [
+    8.5,
+    63.9
+   ],
+   [
+    5.0,
+    62.2
+   ],
+   [
+    4.9,
+    60.0
+   ],
+   [
+    6.5,
+    58.6
+   ],
+   [
+    10.5,
+    58.95
+   ],
+   [
+    11.8,
+    57.7
+   ],
+   [
+    12.4,
+    58.5
+   ],
+   [
+    10.5,
+    60.0
+   ],
+   [
+    8.0,
+    62.5
+   ],
+   [
+    14.0,
+    66.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Høgnipen (approx.)",
+    "lat": 59.3,
+    "lon": 11.25
+   },
+   {
+    "n": "Pauler, Larvik (approx.)",
+    "lat": 59.08,
+    "lon": 10.05
+   }
+  ],
+  "d": "Earliest colonists of the Scandinavian west coast, boat-using seal hunters and fishers with flake axes and tanged arrowheads, mostly on outer islands.",
+  "kind": "culture"
+ },
+ {
+  "n": "Komsa",
+  "w": "Komsa culture",
+  "from": -10000,
+  "to": -6000,
+  "region": "Finnmark and Varanger coast (N Norway), Kola margin",
+  "pts": [
+   [
+    16.0,
+    69.4
+   ],
+   [
+    15.5,
+    68.8
+   ],
+   [
+    19.0,
+    69.0
+   ],
+   [
+    23.0,
+    69.6
+   ],
+   [
+    26.0,
+    69.7
+   ],
+   [
+    29.5,
+    69.5
+   ],
+   [
+    31.0,
+    70.0
+   ],
+   [
+    29.5,
+    70.6
+   ],
+   [
+    26.0,
+    71.1
+   ],
+   [
+    23.5,
+    70.8
+   ],
+   [
+    19.0,
+    70.2
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mount Komsa, Alta (approx.)",
+    "lat": 69.97,
+    "lon": 23.33
+   }
+  ],
+  "d": "Arctic maritime hunter-gatherers living chiefly by seal hunting and fishing from boats, with crude quartz and quartzite tools due to scarce flint.",
+  "kind": "culture"
+ },
+ {
+  "n": "Butovo",
+  "w": "Butovo culture",
+  "from": -9600,
+  "to": -6000,
+  "region": "Upper Volga and Oka basins, central Russia",
+  "pts": [
+   [
+    34.5,
+    57.8
+   ],
+   [
+    33.5,
+    56.8
+   ],
+   [
+    34.5,
+    55.5
+   ],
+   [
+    37.0,
+    54.8
+   ],
+   [
+    40.0,
+    55.2
+   ],
+   [
+    42.5,
+    56.0
+   ],
+   [
+    42.5,
+    57.5
+   ],
+   [
+    40.0,
+    58.3
+   ],
+   [
+    37.0,
+    58.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Ozerki (approx.)",
+    "lat": 56.8,
+    "lon": 36.1
+   },
+   {
+    "n": "Sahtyš (approx.)",
+    "lat": 56.8,
+    "lon": 40.4
+   },
+   {
+    "n": "Ivanovskoje-7 (approx.)",
+    "lat": 56.95,
+    "lon": 39.15
+   }
+  ],
+  "d": "Forest hunter-fishers of elk and beaver using Shigir-type arrowheads, harpoons, fishhooks and flint axes in wetland and river settlements.",
+  "kind": "culture"
+ },
+ {
+  "n": "Swifterbant",
+  "w": "Swifterbant culture",
+  "from": -5300,
+  "to": -3400,
+  "region": "Netherlands (Flevoland, IJssel/Vecht, Rhine delta), N Belgium",
+  "pts": [
+   [
+    4.0,
+    51.8
+   ],
+   [
+    4.3,
+    51.1
+   ],
+   [
+    5.5,
+    51.5
+   ],
+   [
+    6.8,
+    51.9
+   ],
+   [
+    7.2,
+    52.4
+   ],
+   [
+    7.0,
+    53.1
+   ],
+   [
+    6.3,
+    53.4
+   ],
+   [
+    5.4,
+    52.9
+   ],
+   [
+    4.6,
+    52.4
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Swifterbant (approx.)",
+    "lat": 52.57,
+    "lon": 5.62
+   },
+   {
+    "n": "Hardinxveld-Giessendam (approx.)",
+    "lat": 51.83,
+    "lon": 4.84
+   },
+   {
+    "n": "Bergschenhoek (approx.)",
+    "lat": 51.99,
+    "lon": 4.5
+   }
+  ],
+  "d": "Wetland foragers on river dunes and levees who made Ertebølle-like pottery and gradually added cattle, pigs and small cereal plots after about 4800 BCE.",
+  "kind": "culture"
+ },
+ {
+  "n": "Comb Ceramic",
+  "w": "Comb Ceramic culture",
+  "from": -4200,
+  "to": -2000,
+  "region": "Finland, Karelia, Estonia, NW Russia",
+  "pts": [
+   [
+    24.5,
+    65.8
+   ],
+   [
+    21.5,
+    63.5
+   ],
+   [
+    21.0,
+    61.0
+   ],
+   [
+    22.5,
+    59.8
+   ],
+   [
+    24.0,
+    58.5
+   ],
+   [
+    26.5,
+    57.5
+   ],
+   [
+    30.0,
+    57.0
+   ],
+   [
+    36.0,
+    57.5
+   ],
+   [
+    38.5,
+    60.0
+   ],
+   [
+    37.0,
+    63.0
+   ],
+   [
+    33.0,
+    65.5
+   ],
+   [
+    29.0,
+    67.5
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Kudruküla (approx.)",
+    "lat": 59.4,
+    "lon": 27.95
+   }
+  ],
+  "d": "Lake- and coast-dwelling hunter-fisher-gatherers making large round- or pointed-based comb-impressed pots, burying the dead with red ochre, flint and amber.",
+  "kind": "culture"
+ },
+ {
+  "n": "Dnieper–Donets",
+  "w": "Dnieper–Donets culture",
+  "from": -5000,
+  "to": -4200,
+  "region": "Ukraine and S Russia: Dnieper, Donets and Pripyat basins",
+  "pts": [
+   [
+    24.5,
+    51.5
+   ],
+   [
+    27.0,
+    49.5
+   ],
+   [
+    31.0,
+    47.8
+   ],
+   [
+    34.5,
+    47.0
+   ],
+   [
+    37.5,
+    47.0
+   ],
+   [
+    40.0,
+    48.5
+   ],
+   [
+    39.5,
+    50.5
+   ],
+   [
+    36.0,
+    51.5
+   ],
+   [
+    32.0,
+    52.3
+   ],
+   [
+    28.0,
+    52.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Mariupol cemetery (approx.)",
+    "lat": 47.1,
+    "lon": 37.55
+   },
+   {
+    "n": "Deriivka (approx.)",
+    "lat": 49.05,
+    "lon": 33.75
+   },
+   {
+    "n": "Mykilske (approx.)",
+    "lat": 48.15,
+    "lon": 35.1
+   }
+  ],
+  "d": "Forest-steppe hunter-fishers who later kept livestock, made flat-based pottery and buried the dead in large ochre-strewn collective pits.",
+  "kind": "culture"
+ },
+ {
+  "n": "Bug–Dniester",
+  "w": "Bug–Dniester culture",
+  "from": -6300,
+  "to": -5000,
+  "region": "Moldova and SW Ukraine: Dniester and Southern Bug valleys",
+  "pts": [
+   [
+    26.5,
+    48.8
+   ],
+   [
+    28.0,
+    47.0
+   ],
+   [
+    30.0,
+    46.6
+   ],
+   [
+    31.5,
+    47.0
+   ],
+   [
+    31.8,
+    48.5
+   ],
+   [
+    30.5,
+    49.6
+   ],
+   [
+    28.5,
+    49.7
+   ],
+   [
+    27.0,
+    49.3
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Soroca (approx.)",
+    "lat": 48.16,
+    "lon": 28.3
+   }
+  ],
+  "d": "Hunters and fishers of aurochs, deer, boar and pike who made pointed-based wavy-line pottery, later adopting cattle and cereals from Körös farmers.",
+  "kind": "culture"
+ },
+ {
+  "n": "Asturian",
+  "w": "Asturian culture",
+  "from": -7330,
+  "to": -4550,
+  "region": "Coastal E Asturias and W Cantabria, N Spain",
+  "pts": [
+   [
+    -6.0,
+    43.55
+   ],
+   [
+    -5.5,
+    43.25
+   ],
+   [
+    -4.5,
+    43.15
+   ],
+   [
+    -3.5,
+    43.25
+   ],
+   [
+    -3.4,
+    43.5
+   ],
+   [
+    -4.5,
+    43.45
+   ],
+   [
+    -5.4,
+    43.6
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Cueva de Mazaculos (approx.)",
+    "lat": 43.38,
+    "lon": -4.62
+   },
+   {
+    "n": "El Perro (approx.)",
+    "lat": 43.43,
+    "lon": -3.43
+   }
+  ],
+  "d": "Coastal foragers who left limpet-rich shell middens (concheros), hunted red deer and used distinctive quartzite pick tools, with little or no art.",
+  "kind": "culture"
+ },
+ {
+  "n": "Elshanka",
+  "w": "Elshanka culture",
+  "from": -6700,
+  "to": -6000,
+  "region": "Middle Volga: Samara Bend, Samara and Sok rivers, Russia",
+  "pts": [
+   [
+    47.5,
+    54.5
+   ],
+   [
+    47.5,
+    52.5
+   ],
+   [
+    49.0,
+    51.8
+   ],
+   [
+    51.5,
+    52.3
+   ],
+   [
+    53.0,
+    53.0
+   ],
+   [
+    52.0,
+    54.2
+   ],
+   [
+    50.0,
+    54.8
+   ],
+   [
+    48.5,
+    54.8
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Lebyazhinka IV (approx.)",
+    "lat": 53.55,
+    "lon": 50.4
+   }
+  ],
+  "d": "Hunter-fishers at river-confluence camps who made some of Europe's earliest pottery, simple coil-built low-fired vessels, from about 6700 BCE.",
+  "kind": "culture"
+ },
+ {
+  "n": "Zvejnieki",
+  "w": "Zvejnieki burial ground",
+  "from": -7500,
+  "to": -2600,
+  "region": "N shore of Lake Burtnieks, N Latvia",
+  "pts": [
+   [
+    24.95,
+    57.75
+   ],
+   [
+    25.05,
+    57.62
+   ],
+   [
+    25.3,
+    57.6
+   ],
+   [
+    25.5,
+    57.7
+   ],
+   [
+    25.45,
+    57.85
+   ],
+   [
+    25.2,
+    57.92
+   ],
+   [
+    25.02,
+    57.86
+   ]
+  ],
+  "sites": [
+   {
+    "n": "Zvejnieki",
+    "lat": 57.776,
+    "lon": 25.226
+   }
+  ],
+  "d": "Cemetery of 330+ graves used for over four millennia by Kunda, Narva, Comb Ware and Corded Ware peoples, rich in grave goods.",
+  "kind": "culture"
+ }
+]

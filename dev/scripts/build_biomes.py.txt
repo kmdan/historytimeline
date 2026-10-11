@@ -1,0 +1,71 @@
+import numpy as np
+from PIL import Image
+from scipy import ndimage
+Image.MAX_IMAGE_PIXELS=None
+GW,GH=2160,1080
+lo=-180+(np.arange(GW)+.5)/6; la=90-(np.arange(GH)+.5)/6
+LON,LAT=np.meshgrid(lo,la); ALAT=np.abs(LAT)
+# --- Köppen mode per 1/3° cell
+kg=np.array(Image.open('kg/x/kgcpy/kmz_int_reshape.png'))
+blk=kg.reshape(GH,6,GW,6)
+cnt=np.zeros((33,GH,GW),np.uint16)
+for c in range(1,33): cnt[c]=(blk==c).sum(axis=(1,3))
+cnt[32]=0  # ignore ocean in mode
+K=cnt.argmax(0); K[cnt.max(0)==0]=0
+# biomes: 1 rainforest 2 savanna 3 desert 4 grassland/steppe 5 mediterranean 6 temperate forest 7 boreal 8 tundra 9 ice 10 mammoth steppe
+M=np.zeros(33,np.uint8)
+for c,b in {1:1,2:1,3:2,4:2,5:4,6:4,7:3,8:3,9:6,10:6,11:6,12:5,13:5,14:5,15:6,16:6,17:6,18:6,19:6,20:7,21:7,22:6,23:6,24:7,25:7,26:6,27:6,28:7,29:7,30:9,31:8}.items(): M[c]=b
+B0=M[K]
+# fill every cell (incl. today's sea shelves) with nearest land biome
+has=B0>0
+_,(iy,ix)=ndimage.distance_transform_edt(~has,return_indices=True)
+B0=B0[iy,ix]
+NZ=np.load('/tmp/claude-0/NZ2.npy')
+EUR=(LON>-25)&(LON<180)&(LAT>0); BER=((LON<-140)|(LON>150))&(LAT>55)
+NAM=(LON>-170)&(LON<-50)&(LAT>15)&~BER
+SAH=(LAT>12)&(LAT<33)&(LON>-18)&(LON<36); ARA=(LAT>13)&(LAT<31)&(LON>=36)&(LON<59)
+AUS=(LAT<-10)&(LAT>-40)&(LON>112)&(LON<155)
+AMZ=(LAT>-15)&(LAT<8)&(LON>-80)&(LON<-44)
+CHOCO=(LON>-92)&(LON<-74)&(LAT>-2)&(LAT<20)
+def biome(c,g,north):
+  """c: glacial coldness 0..1; g: green Sahara 0..1; north: Holocene treeline shift (deg, >0 = north)"""
+  B=B0.copy()
+  # glacial cold: each extratropical cell takes the modern biome found further poleward (Δ° shift)
+  if c>0:
+    shift=np.where(EUR|BER,14,np.where(NAM,10,5))*c
+    srcLat=np.clip(LAT+np.sign(LAT)*shift,-89.8,89.8)
+    rows=np.clip(np.round((90-srcLat)*6-.5).astype(int),0,GH-1)
+    cols=np.broadcast_to(np.arange(GW),(GH,GW))
+    S=B0[rows,cols]
+    ext=(ALAT>22)&np.isin(B0,[4,5,6,7,8])&np.isin(S,[4,5,6,7,8,9])
+    S=np.where(S==9,8,S)
+    B[ext]=S[ext]
+    B[(ALAT>71)&np.isin(B,[4,5,6,7,10])]=8
+    ms=(EUR|BER)&(ALAT>40)&np.isin(B,[7,8])&(ALAT<72+0*c)&(c>0.25)&(NZ<0.35+0.6*c)
+    B[ms]=10
+    B[(EUR)&(ALAT>36)&(ALAT<48)&(c>0.5)&(B0==6)&(NZ<0.45*c)]=4
+    B[(EUR)&(c>0.5)&(B0==5)&(NZ<0.7*c)]=4
+  # deserts expand
+  B[(c>0.4)&(B0==4)&(ALAT<45)&(NZ<0.25+0.5*c)]=3
+  B[(c>0.4)&(B0==2)&(ALAT>8)&(ALAT<22)&(NZ<0.6*c)]=4
+  B[(c>0.6)&AUS&np.isin(B0,[2,4])&(NZ<0.75*c)]=3
+  # rainforest refugia; savanna corridor through the Amazon
+  B[(c>0.3)&(B0==1)&~CHOCO&(NZ<0.5*c)]=2
+  B[(c>0.6)&(B0==1)&AMZ&(np.abs(LON+58)<4+NZ*3)]=2
+  # Holocene warmth: treeline further north
+  if north>0:
+    B[(B0==8)&(LAT>55)&(LAT<66+north)&(NZ>0.3)]=7
+  # African Humid Period
+  if g>0:
+    w=np.clip((LAT-12)/4,0,1)*np.clip((33-LAT)/4,0,1)*np.clip((LON+18)/4,0,1)*np.clip((36-LON)/4,0,1)
+    w=np.maximum(w,0.8*np.clip((LAT-13)/4,0,1)*np.clip((31-LAT)/4,0,1)*np.clip((LON-36)/3,0,1)*np.clip((59-LON)/4,0,1))
+    wet=(SAH|ARA)&np.isin(B0,[3,4])&(w*g>NZ*0.9+0.05)
+    B[wet&(LAT<22)]=2; B[wet&(LAT>=22)]=4
+  return B
+SNAP=[(-40000,0.55,0,0),(-24000,1.0,0,0),(-17000,0.9,0,0),(-12700,0.45,0,0),(-10900,0.6,0,0),(-9000,0.1,0.6,3),(-6000,0,1,4),(-3000,0,0.15,1),(1800,0,0,0)]
+maps=[biome(c,g,n) for _,c,g,n in SNAP]
+while len(maps)%3: maps.append(maps[-1])
+for i in range(0,len(maps),3):
+  Image.fromarray(np.dstack(maps[i:i+3]).astype(np.uint8),'RGB').save(f'/home/claude/atlas/biome{i//3}.png',optimize=True)
+np.save('/tmp/claude-0/B0_2.npy',B0)
+print('biomes', [s[0] for s in SNAP])

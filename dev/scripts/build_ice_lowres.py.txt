@@ -1,0 +1,108 @@
+import numpy as np
+from PIL import Image
+from scipy import ndimage
+GW,GH=1080,540
+d=np.load('etopo.npy')[:, :-1]; lo=np.load('lo.npy')[:-1]; la=np.load('la.npy')
+lo=np.where(lo>180,lo-360,lo); idx=np.argsort(lo); d=d[:,idx][::-1]; lo=lo[idx]; la=la[::-1]
+LON,LAT=np.meshgrid(lo,la)
+B0=np.load('/tmp/claude-0/B0.npy'); NZ=np.load('/tmp/claude-0/NZ.npy')
+rng=np.random.default_rng(11)
+def sn(scale):
+  n=rng.normal(size=(GH//scale+3,GW//scale+3)); a=np.array(Image.fromarray(((n-n.min())/(n.max()-n.min())*255).astype(np.uint8)).resize((GW,GH),Image.BICUBIC))/255.0
+  return (a-a.mean())/a.std()
+N=sn(14)*0.10+sn(5)*0.05+sn(2)*0.025
+def dist(lon0,lat0,sy=1.0):
+  p1,p2=np.radians(LAT),np.radians(lat0); dl=np.radians(LON-lon0)
+  base=6371*np.arccos(np.clip(np.sin(p1)*np.sin(p2)+np.cos(p1)*np.cos(p2)*np.cos(dl),-1,1))
+  if sy!=1.0:
+    dy=(LAT-lat0)*111.2; dx=np.sqrt(np.maximum(base**2-dy**2,0)); return np.sqrt(dx**2+(dy/sy)**2)
+  return base
+T=np.arange(-45000,-2999,50)
+def code(y):
+  y=np.asarray(y,float)
+  return np.where(y<=-45000,1,np.where(y<=-15000,1+(y+45000)/30000*99,100+(y+15000)/12000*154)).round().clip(1,254)
+onset=np.zeros((GH,GW)); deg=np.zeros((GH,GW))  # years; 0 = none
+ON=np.full((GH,GW),np.inf); OFF=np.full((GH,GW),-np.inf); PERM=np.zeros((GH,GW),bool)
+def add(mask,dkm,keys,permanent_tail=False):
+  ky=np.array([k[0] for k in keys],float); kr=np.array([k[1] for k in keys],float)
+  r=np.interp(T,ky,kr,left=kr[0],right=kr[-1])
+  dk=dkm[mask]
+  cov=r[None,:]>=dk[:,None]             # cells x times
+  anyc=cov.any(1)
+  first=np.where(anyc,T[cov.argmax(1)],np.inf)
+  last=np.where(anyc,T[cov.shape[1]-1-cov[:,::-1].argmax(1)],-np.inf)
+  perm=anyc&cov[:,-1]
+  ii=np.where(mask)
+  ON[ii]=np.minimum(ON[ii],first); OFF[ii]=np.maximum(OFF[ii],np.where(perm,1e9,last)); PERM[ii]|=perm
+ok=d>-300
+# Laurentide (two domes)
+L=[(-45000,1300),(-40000,1450),(-30000,1700),(-26000,2050),(-22000,2250),(-18000,2250),(-16000,2100),(-14000,1900),(-12000,1700),(-10500,1450),(-9500,1200),(-8500,1020),(-8000,900),(-7500,780),(-7000,650),(-6600,420),(-6200,200),(-5800,60),(-5600,0)]
+dl=np.minimum(dist(-72,56),dist(-97,63)*1.05)*(1+N)
+add((LON>-145)&(LON<-50)&(LAT>37)&ok, dl, L)
+# Cordilleran
+C=[(-45000,250),(-40000,300),(-30000,500),(-24000,900),(-18000,1000),(-16000,850),(-14000,500),(-12500,250),(-11000,80),(-10000,0)]
+add((LON>-155)&(LON<-110)&(LAT>44)&(LAT<68)&ok, dist(-125,55,1.6)*(1+N), C)
+# Fennoscandian
+S=[(-45000,550),(-40000,600),(-32000,700),(-28000,1000),(-24000,1400),(-20000,1450),(-18000,1350),(-16000,1200),(-14500,1100),(-13000,1050),(-12000,950),(-11000,800),(-10500,750),(-9500,600),(-9000,480),(-8500,330),(-8100,150),(-7800,0)]
+add((LON>-8)&(LON<50)&(LAT>48)&ok, dist(17,64)*(1+N), S)
+# British-Irish
+BI=[(-45000,60),(-40000,100),(-32000,300),(-27000,500),(-24000,650),(-20000,550),(-18000,350),(-16500,150),(-15000,0)]
+add((LON>-14)&(LON<8)&(LAT>50)&(LAT<62)&(d>-200), dist(-4.5,56)*(1+N), BI)
+# Barents-Kara
+BK=[(-45000,0),(-32000,100),(-28000,400),(-24000,900),(-20000,1000),(-17000,850),(-15000,400),(-13000,0)]
+add((LON>10)&(LON<110)&(LAT>66)&(d>-600), np.minimum(dist(45,76),dist(75,76))*(1+N), BK)
+# Iceland
+IC=[(-45000,250),(-24000,330),(-18000,330),(-15000,250),(-12000,180),(-10000,110),(-8000,60),(-3000,55)]
+add((LON>-28)&(LON<-10)&(LAT>62)&(LAT<68)&(d>-400), dist(-18.5,64.8)*(1+N), IC)
+# Alps
+AL=[(-45000,60),(-40000,80),(-30000,120),(-26000,200),(-22000,230),(-19000,200),(-17000,120),(-15000,50),(-14000,0)]
+add((LON>4)&(LON<17)&(LAT>43)&(LAT<49)&(d>300), dist(10,46.5,0.55)*(1+N), AL)
+# Patagonia (stretched N-S)
+PA=[(-45000,260),(-28000,330),(-22000,360),(-18000,300),(-16000,200),(-14000,150),(-10000,110),(-3000,100)]
+add((LON>-78)&(LON<-66)&(LAT<-36)&(LAT>-57)&(d>-200), dist(-73,-47,3.2)*(1+N), PA)
+# Generic mountain glaciers via snowline lowering with glacial cold
+TMP=[(-45000,-4.5),(-40000,-4.5),(-30000,-5),(-26000,-5.8),(-21000,-6.1),(-19000,-6),(-17000,-5.5),(-15000,-4.8),(-14700,-3.8),(-13000,-3.5),(-12900,-3.8),(-11700,-1.5),(-9500,-1.2),(-8000,-0.6),(-6000,-0.1),(-3000,0)]
+cT=np.clip(-np.interp(T,[k[0] for k in TMP],[k[1] for k in TMP])/6,0,1)
+A=np.abs(LAT); sl=5300-3400*np.clip(A/65,0,1)**1.5
+dry=np.isin(B0,[3,4])|((B0==8)&(d>3500))
+sl=sl+np.where(dry,1100,0)+np.where((LON>72)&(LON<104)&(LAT>27)&(LAT<40),1300,0)
+mt=(d>800)&(A<62)
+dd=d[mt]; ss=sl[mt]
+cov=(dd[:,None]> (ss[:,None]-1100*cT[None,:]))
+anyc=cov.any(1); first=np.where(anyc,T[cov.argmax(1)],np.inf); last=np.where(anyc,T[cov.shape[1]-1-cov[:,::-1].argmax(1)],-np.inf); perm=anyc&(dd>ss+500)
+ii=np.where(mt); ON[ii]=np.minimum(ON[ii],first); OFF[ii]=np.maximum(OFF[ii],np.where(perm,1e9,last)); PERM[ii]|=perm
+# Greenland & Antarctica: permanent; glacial shelf extension
+lab,_=ndimage.label(d>0); gid=lab[np.argmin(abs(la-72)),np.argmin(abs(lo+40))]
+GR=lab==gid; AN=(LAT<-62)&(d>0)
+for M,maxd,km in [(GR,-500,250),(AN,-700,250)]:
+  ON[M]=-1e9; OFF[M]=1e9; PERM[M]=True
+  dist_cells=ndimage.distance_transform_edt(~M)*37
+  sh=(~M)&(dist_cells<km*(1+N*2))&(d>maxd)
+  ON[sh]=np.minimum(ON[sh],-30000); OFF[sh]=np.maximum(OFF[sh],-12500)
+R=np.where(np.isfinite(ON),code(np.where(np.isfinite(ON),ON,0)),0)
+R=np.where(ON<=-45000,1,R)
+G=np.where(PERM,255,np.where(np.isfinite(OFF)&(OFF>-1e8),code(np.where(np.isfinite(OFF),OFF,0)),0))
+# --- farming start year
+cent=[(36.5,40,-9000,0.9),(29.4,67.6,-7000,0.5),(35,112,-6500,0.45),(30,115,-6500,0.45),(-6,145,-5000,0.06),(18,-98,-4000,0.35),(-13,-72,-3000,0.3),(9,39,-3000,0.3),(13,0,-2500,0.5),(6,11,-1000,0.7),(37,-86,500,0.4)]
+start=np.full((GH,GW),np.inf)
+for la0,lo0,y0,v in cent:
+  start=np.minimum(start, y0+dist(lo0,la0)*(1+N*2)/v)
+suit=np.isin(B0,[2,4,5,6])&(d>0)&(d<3500)
+irr=((LAT>24)&(LAT<31.6)&(np.abs(LON-(31.2+(30-LAT)*0.15))<0.7))|((LAT>30)&(LAT<36.5)&(LON>40)&(LON<48.5)&(d<200)&(d>0))|((LAT>24)&(LAT<32)&(LON>67)&(LON<74.5)&(d<300)&(d>0))
+suit|=irr
+# settler frontiers
+NAMm=(LON>-130)&(LON<-60)&(LAT>25)&(LAT<55)
+start=np.where(NAMm, np.minimum(start, 1650+np.maximum(0,(-75-LON))*7), start)
+start=np.where((LON>-75)&(LON<-50)&(LAT<-25)&(LAT>-42), np.minimum(start,1860), start)
+start=np.where((LON>112)&(LON<155)&(LAT<-15), np.minimum(start,1820+np.abs(LON-150)*3), start)
+start=np.where((LON>15)&(LON<35)&(LAT<-22), np.minimum(start,1700+(LON-18)*8), start)
+start=np.where((LON>40)&(LON<90)&(LAT>45)&(LAT<56), np.minimum(start,1880+(LON-40)*1.5), start)
+start=np.where(~suit,np.inf,start)
+start=np.where(start<2000,start,np.inf)
+def fcode(y): return np.where(y<=0,1+(y+10000)/10000*149,150+y/2000*104).round().clip(1,254)
+Bf=np.where(np.isfinite(start),fcode(np.where(np.isfinite(start),start,0)),0)
+Image.fromarray(np.dstack([R,G,Bf]).astype(np.uint8),'RGB').save('/home/claude/atlas/ice.png',optimize=True)
+t=np.array(Image.open('/home/claude/atlas/terrain.png')); t[...,2]=(NZ*255).astype(np.uint8)
+Image.fromarray(t,'RGB').save('/home/claude/atlas/terrain.png',optimize=True)
+np.save('/tmp/claude-0/ice_R.npy',R); np.save('/tmp/claude-0/ice_G.npy',G); np.save('/tmp/claude-0/farm.npy',Bf)
+print('done')
