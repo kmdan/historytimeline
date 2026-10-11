@@ -1,2 +1,4 @@
 dev/test/out/
 __pycache__/
+.venv/
+dev/raw/
