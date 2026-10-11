@@ -903,7 +903,7 @@ let MW=800,MH=400, mv={lon:15,lat:20,k:2.2}; // k = px per degree
 const GW=2160, GH=1080, GR=6, NPX=GW*GH;     // raster: 1/6 degree cells
 let terr=null, iceD=null, bio=null;
 const base=document.createElement('canvas'); base.width=GW; base.height=GH; const bctx=base.getContext('2d');
-const baseImg=bctx.createImageData(GW,GH), flags=new Uint8Array(NPX);  // flags: 1 land, 2 ice
+const baseImg=bctx.createImageData(GW,GH);
 let baseKey='', lastBuild=0, buildTimer=0;
 const FW=720, FH=360;                       // evidence (fade) layer at 1/2 degree
 const landC=document.createElement('canvas'); landC.width=FW; landC.height=FH; const lctx=landC.getContext('2d'); const landImg=lctx.createImageData(FW,FH);
@@ -1020,17 +1020,111 @@ let regIdx=null;
 function buildRegIdx(){ const c=document.createElement('canvas'); c.width=GW; c.height=GH; const g=c.getContext('2d',{willReadFrequently:true}); regIdx=new Uint8Array(NPX);
   FREG.forEach((r,i)=>{ g.clearRect(0,0,GW,GH); g.fillStyle='#fff'; g.beginPath(); r.pts.forEach((p,j)=>{ const x=(p[0]+180)*GR, yy=(90-p[1])*GR; j?g.lineTo(x,yy):g.moveTo(x,yy); }); g.closePath(); g.fill();
     const a=g.getImageData(0,0,GW,GH).data; for(let p=0;p<NPX;p++) if(a[p*4+3]>127) regIdx[p]=i+1; }); }
+// GPU version of buildBase: the same per-pixel rules as the CPU loop below, run as a WebGL2 fragment shader.
+// Data stays in the PNG encodings (elevation code, ice onset/retreat codes, farming start code, biome snapshots);
+// the year arrives as uniforms, so redrawing for a new year costs about a millisecond instead of ~200 ms.
+const glc=document.createElement('canvas'); glc.width=GW; glc.height=GH;
+let baseSrc=base, baseP={D:0,cc:0,ice:false};
+const GLB=(()=>{ try{
+  if(/[?&]cpu\b/.test(location.search)) return null;   // ?cpu forces the CPU renderer (for comparison)
+  const gl=glc.getContext('webgl2',{alpha:false,antialias:false,depth:false,premultipliedAlpha:false,preserveDrawingBuffer:true}); if(!gl) return null;
+  const VS=`#version 300 es
+in vec2 a; void main(){ gl_Position=vec4(a,0.,1.); }`;
+  const FS=`#version 300 es
+precision highp float; precision highp int; precision highp usampler2D; precision highp usampler2DArray;
+uniform usampler2D uT,uI,uR; uniform usampler2DArray uB;
+uniform float uD,uCC,uBt,uGf,uY,uLate,uGEff; uniform int uSi,uNb; uniform bool uBio,uFarm,uIce,uForest,uHasBio,uHasReg;
+uniform vec3 cSD,cSS,cLL,cLH,cSH,cIC,cGR,cFM,cFO,cCL; uniform vec3 cB[11]; uniform float uFS[11],uFP[11]; uniform vec2 uRF[24];
+out vec4 o;
+uint h1(uint p){ uint h=(p^(p>>13u))*0x5bd1e995u; h=(h^(h>>15u))*0x27d4eb2du; return (h^(h>>16u))>>24u; }
+uint h2(uint p){ uint h=(p^(p>>11u))*0x2c1b3c6du; h=(h^(h>>13u))*0x297a2d39u; return (h^(h>>16u))>>24u; }
+float cl(float v){ return clamp(v,0.,1.); }
+float green(ivec2 c){ float lat=90.-(float(c.y)+.5)/6., lon=-180.+(float(c.x)+.5)/6.;
+  float s=cl((lat-12.)/4.)*cl((33.-lat)/4.)*cl((lon+18.)/4.)*cl((36.-lon)/4.);
+  float a=cl((lat-13.)/4.)*cl((31.-lat)/4.)*cl((lon-36.)/3.)*cl((59.-lon)/4.)*.8; return max(s,a); }
+float farmY(float c){ return c<=150.? -10000.+(c-1.)/149.*10000. : (c-150.)/104.*2000.; }
+void main(){
+  ivec2 c=ivec2(int(gl_FragCoord.x), ${GH-1}-int(gl_FragCoord.y)); uint p=uint(c.y*${GW}+c.x);
+  uvec4 t=texelFetch(uT,c,0); float R=float(t.r), G=float(t.g), Bn=float(t.b);
+  vec3 col; bool land=false;
+  if(R<=130.){ if(R<uD){ col=cSH; land=true; } else col=mix(cSS,cSD,min(1.,(R-uD)/120.)*.55); }
+  else if(R<140.) col=mix(cSS,cSD,.55+(R-131.)/8.*.45);
+  else { col=mix(cLL,cLH,min(1.,(R-140.)/80.)); land=true; }
+  uvec4 I=texelFetch(uI,c,0);
+  if(land){ int cls=0; bool farmed=false;
+    if(uHasBio){ int L=Bn<uBt?uNb:uSi; cls=int(texelFetch(uB,ivec3(c,L/3),0)[L%3]); }
+    if(uBio){ if(cls>0) col=cB[cls]; if(R>215.) col+=(cB[8]-col)*min(1.,(R-215.)/40.); }
+    else if(uGf>0.){ float w=green(c); if(w>0.) col+=(cGR-col)*(uGf*w*.85); }
+    if(uFarm && I.b>0u){ float sy=farmY(float(I.b)); if(uY>sy){ float dens=uFS[cls>0?cls:6]*min(1.,(uY-sy)/2500.)*uLate;
+      if(float(h1(p))<dens*255.){ col+=(cFM-col)*.85; farmed=true; } } }
+    if(uForest && !farmed && cls!=9){ float pNat=uFP[cls], pNow=pNat*uGEff; int ri=uHasReg?int(texelFetch(uR,c,0).r):0;
+      if(ri>0 && uRF[ri-1].y>=0.){ pNat=max(pNat,uRF[ri-1].x); pNow=uRF[ri-1].y; }
+      if(pNat>.01){ float v=.62*(Bn/255.)+.38*(float(h2(p))/255.);
+        if(v<pNow) col+=(cFO-col)*.62; else if(v<pNat) col+=(cCL-col)*.5; } }
+    col*=.74+G/255.*.46; }
+  if(uIce){ float on=float(I.r), off=float(I.g);
+    if((on>0. && on<=uCC && (off==255. || off>uCC)) || c.y>=${GH-48}) col=cIC*(.88+G/255.*.18); }
+  o=vec4(col/255.,1.);
+}`;
+  const sh=(type,src)=>{ const s=gl.createShader(type); gl.shaderSource(s,src); gl.compileShader(s); if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
+  const pr=gl.createProgram(); gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS)); gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS)); gl.linkProgram(pr);
+  if(!gl.getProgramParameter(pr,gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(pr));
+  gl.useProgram(pr);
+  const vb=gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER,vb); gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  const al=gl.getAttribLocation(pr,'a'); gl.enableVertexAttribArray(al); gl.vertexAttribPointer(al,2,gl.FLOAT,false,0,0);
+  const U={}; const u=n=>U[n]||(U[n]=gl.getUniformLocation(pr,n));
+  gl.pixelStorei(gl.UNPACK_ALIGNMENT,1);
+  const tex=(unit,target)=>{ const t=gl.createTexture(); gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(target,t);
+    for(const [k,v] of [[gl.TEXTURE_MIN_FILTER,gl.NEAREST],[gl.TEXTURE_MAG_FILTER,gl.NEAREST],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]]) gl.texParameteri(target,k,v); return t; };
+  const tT=tex(0,gl.TEXTURE_2D), tI=tex(1,gl.TEXTURE_2D), tR=tex(2,gl.TEXTURE_2D), tB=tex(3,gl.TEXTURE_2D_ARRAY);
+  gl.texStorage3D(gl.TEXTURE_2D_ARRAY,1,gl.RGBA8UI,GW,GH,3);
+  gl.uniform1i(u('uT'),0); gl.uniform1i(u('uI'),1); gl.uniform1i(u('uR'),2); gl.uniform1i(u('uB'),3);
+  const up2=(unit,t,data,fmt,ifmt)=>{ gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t); gl.texImage2D(gl.TEXTURE_2D,0,ifmt,GW,GH,0,fmt,gl.UNSIGNED_BYTE,new Uint8Array(data.buffer,data.byteOffset,data.byteLength)); };
+  const has={T:false,I:false,R:false};
+  glc.addEventListener('webglcontextlost',e=>{ e.preventDefault(); api.lost=true; baseSrc=base; baseKey=''; drawMap(); });
+  const api={ lost:false,
+    terrain:d=>{ up2(0,tT,d,gl.RGBA_INTEGER,gl.RGBA8UI); has.T=true; },
+    ice:d=>{ up2(1,tI,d,gl.RGBA_INTEGER,gl.RGBA8UI); has.I=true; },
+    regions:d=>{ up2(2,tR,d,gl.RED_INTEGER,gl.R8UI); has.R=true; },
+    biome:(i,d)=>{ gl.activeTexture(gl.TEXTURE3); gl.bindTexture(gl.TEXTURE_2D_ARRAY,tB); gl.texSubImage3D(gl.TEXTURE_2D_ARRAY,0,0,0,i,GW,GH,1,gl.RGBA_INTEGER,gl.UNSIGNED_BYTE,new Uint8Array(d.buffer,d.byteOffset,d.byteLength)); },
+    draw(P){ if(api.lost||!has.T) return false;
+      gl.useProgram(pr); gl.viewport(0,0,GW,GH);
+      for(const [n,v] of Object.entries(P.f)) gl.uniform1f(u(n),v);
+      for(const [n,v] of Object.entries(P.i)) gl.uniform1i(u(n),v);
+      for(const [n,v] of Object.entries(P.c)) gl.uniform3f(u(n),v[0],v[1],v[2]);
+      gl.uniform1i(u('uHasReg'),has.R?1:0); if(!has.I){ gl.uniform1i(u('uIce'),0); gl.uniform1i(u('uFarm'),0); }
+      gl.uniform3fv(u('cB'),P.cB.flat()); gl.uniform1fv(u('uFS'),FSUIT); gl.uniform1fv(u('uFP'),FPOT);
+      const rf=new Float32Array(48).fill(-1); P.RF.forEach((r,i)=>{ if(i<24){ rf[i*2]=r.f0; rf[i*2+1]=r.now===null?-1:r.now; } }); gl.uniform2fv(u('uRF'),rf);
+      gl.drawArrays(gl.TRIANGLES,0,3); return true; } };
+  return api;
+} catch(err){ console.warn('WebGL2 base map unavailable, using CPU fallback:',err); return null; } })();
+// land (1), ice (2) or sea (0) for a raster cell, with the parameters of the last base build
+function flagAt(p){ const R=terr[p*4];
+  if(baseP.ice){ const on=iceD[p*4], off=iceD[p*4+1]; if((on>0&&on<=baseP.cc&&(off===255||off>baseP.cc))||p>=GW*(GH-48)) return 2; }
+  return R>=140||(R<=130&&R<baseP.D)?1:0; }
 function buildBase(y,sea){
   if(!terr) return;
   const D=-sea, gf=greenFactor(y), cc=iceCode(y), b=bioSnap(y);
   const useBio = LY.biome && bio, useFarm = LY.farm && iceD && y>-10000, useIce = LY.ice && iceD, useForest = LY.forest && bio && regIdx;
+  const gpu = GLB && !GLB.lost;
   const fy = Math.round(y/(y<0?50:5));
-  const key=[D.toFixed(1),useIce?cc:'x',useBio?b.si+':'+b.bt.toFixed(2):'r',gf.toFixed(2),useFarm?fy:'f',useForest?Math.round(y/(y<1500?100:10))+':'+b.si+':'+b.bt.toFixed(2):'n',col['sea-deep'],col.b1].join('|');
+  const key = gpu ? [D.toFixed(2),useIce?cc:'x',useBio?1:0,useFarm?1:0,useForest?1:0,y,col['sea-deep'],col.b1].join('|')
+    : [D.toFixed(1),useIce?cc:'x',useBio?b.si+':'+b.bt.toFixed(2):'r',gf.toFixed(2),useFarm?fy:'f',useForest?Math.round(y/(y<1500?100:10))+':'+b.si+':'+b.bt.toFixed(2):'n',col['sea-deep'],col.b1].join('|');
   if(key===baseKey) return;
   const now=performance.now();
-  if(baseKey && now-lastBuild<160){ clearTimeout(buildTimer); buildTimer=setTimeout(drawMap,180); return; }   // throttle while dragging
+  if(!gpu && baseKey && now-lastBuild<160){ clearTimeout(buildTimer); buildTimer=setTimeout(drawMap,180); return; }   // throttle while dragging (CPU only)
   baseKey=key; lastBuild=now;
+  const landKey=[D.toFixed(1),useIce?cc:'x',col.surface].join('|'), landChanged=landKey!==baseP.key; baseP={D,cc,ice:!!useIce,key:landKey};
   const sd=hex(col['sea-deep']), ss=hex(col['sea-shallow']), ll=hex(col['land-low']), lh=hex(col['land-high']), sh=hex(col.shelf), ic=hex(col.ice), gr=hex(col.green), fm=hex(col.farm);
+  if(gpu){ const gK=ke(y), gRatio = y< -8000 ? 1 : interp(FORESTG,gK)/6.0;
+    const ok=GLB.draw({
+      f:{uD:D,uCC:cc,uBt:b.bt255,uGf:gf,uY:y,uLate:y>1850?1+Math.min(1,(y-1850)/100)*0.45:1,uGEff:1-(1-gRatio)*0.6},
+      i:{uSi:b.si,uNb:b.nb,uBio:useBio?1:0,uFarm:useFarm?1:0,uIce:useIce?1:0,uForest:useForest?1:0,uHasBio:bio?1:0},
+      c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared)},
+      cB:[ll,hex(col.b1),hex(col.b2),hex(col.b3),hex(col.b4),hex(col.b5),hex(col.b6),hex(col.b7),hex(col.b8),ic,hex(col.b10)],
+      RF:FREG.map(r=>({f0:fregAt(r,-8000), now:y<-8000?null:fregAt(r,y)})) });
+    if(ok){ baseSrc=glc; mc.dataset.renderer='webgl2'; if(landChanged) buildLand(); return; } }
+  baseSrc=base; mc.dataset.renderer='cpu';
   // colour tables by elevation code
   const TR=new Float32Array(256), TG=new Float32Array(256), TB=new Float32Array(256), TL=new Uint8Array(256);
   for(let R=0;R<256;R++){ let c, l=0;
@@ -1062,11 +1156,14 @@ function buildBase(y,sea){
           else if(v<pNat){ r+=(clr[0]-r)*.5; g+=(clr[1]-g)*.5; bl+=(clr[2]-bl)*.5; } } }
       const s=S[G]; r*=s; g*=s; bl*=s; }
     if(useIce){ const on=I[q], off=I[q+1]; if((on>0&&on<=cc&&(off===255||off>cc)) || p>=antRow){ const s=SI[G]; r=ic[0]*s; g=ic[1]*s; bl=ic[2]*s; f=2; } }
-    flags[p]=f; d[q]=r; d[q+1]=g; d[q+2]=bl; d[q+3]=255; }
+    d[q]=r; d[q+1]=g; d[q+2]=bl; d[q+3]=255; }
   bctx.putImageData(baseImg,0,0);
-  // land mask for the evidence layer (land that is not under ice)
+  buildLand();
+}
+// land mask for the evidence layer (land that is not under ice)
+function buildLand(){
   const su=hex(col.surface), L=landImg.data;
-  for(let j=0;j<FH;j++) for(let i=0;i<FW;i++){ const p=(j*3+1)*GW+i*3+1, o=(j*FW+i)*4; const on=flags[p]===1;
+  for(let j=0;j<FH;j++) for(let i=0;i<FW;i++){ const p=(j*3+1)*GW+i*3+1, o=(j*FW+i)*4; const on=flagAt(p)===1;
     L[o]=su[0]; L[o+1]=su[1]; L[o+2]=su[2]; L[o+3]=on?255:0; }
   lctx.putImageData(landImg,0,0); fadeKey='';
 }
@@ -1166,7 +1263,7 @@ function renderMap(){
   mx.fillStyle=col['sea-deep']; mx.fillRect(0,0,MW,MH);
   mx.imageSmoothingEnabled=true; mx.imageSmoothingQuality='high';
   const X0=PX(-180), Y0=PY(90), WW=360*mv.k, HH=180*mv.k;
-  if(terr) mx.drawImage(base,X0,Y0,WW,HH);
+  if(terr) mx.drawImage(baseSrc,X0,Y0,WW,HH);
   else { mx.fillStyle=col.muted; mx.font='13px "IBM Plex Sans", sans-serif'; mx.fillText('Loading elevation data…',16,MH-16); }
   // faded where there is no evidence
   buildFade(y);
@@ -1177,7 +1274,7 @@ function renderMap(){
     const x0=UNX(0)-1, x1=UNX(MW)+1, y0=UNY(MH)-1, y1=UNY(0)+1, minLen=mv.k<4?1.5:0;
     for(const r of rivers){ if(minLen && r.length<8) continue; let pen=false;
       for(let i=0;i<r.length;i+=2){ const lon=r[i]/20, lat=r[i+1]/20;
-        if(lon<x0||lon>x1||lat<y0||lat>y1||flags[cellOf(lon,lat)]!==1){ pen=false; continue; }
+        if(lon<x0||lon>x1||lat<y0||lat>y1||flagAt(cellOf(lon,lat))!==1){ pen=false; continue; }
         const px=PX(lon), py=PY(lat); pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; } }
     mx.stroke(); mx.restore(); }
   // equator & tropics
@@ -1428,10 +1525,10 @@ function drawSL(){ if(!SLW) return; const g=sx; g.clearRect(0,0,SLW,SLH); g.font
 // load map data
 function loadPx(src,cb){ const img=new Image(); img.onload=()=>{ const c=document.createElement('canvas'); c.width=GW; c.height=GH; const g=c.getContext('2d',{willReadFrequently:true}); g.drawImage(img,0,0);
   cb(g.getImageData(0,0,GW,GH).data); baseKey=''; lastBuild=0; drawMap(); }; img.src=src; }
-loadPx('atlas/terrain.png',d=>{ terr=d; });
-buildRegIdx();
-loadPx('atlas/ice.png',d=>{ iceD=d; });
-(function(){ const parts=[]; let n=0; for(let i=0;i<3;i++) loadPx(`atlas/biome${i}.png`,d=>{ parts[i]=d; if(++n===3){
+loadPx('atlas/terrain.png',d=>{ terr=d; GLB&&GLB.terrain(d); });
+buildRegIdx(); GLB&&GLB.regions(regIdx);
+loadPx('atlas/ice.png',d=>{ iceD=d; GLB&&GLB.ice(d); });
+(function(){ const parts=[]; let n=0; for(let i=0;i<3;i++) loadPx(`atlas/biome${i}.png`,d=>{ parts[i]=d; GLB&&GLB.biome(i,d); if(++n===3){
   const out=[]; for(let s=0;s<9;s++){ const src=parts[Math.floor(s/3)], ch=s%3, a=new Uint8Array(NPX); for(let p=0;p<NPX;p++) a[p]=src[p*4+ch]; out.push(a); } bio=out; } }); })();
 fetch('atlas/coast.json').then(r=>r.json()).then(d=>{ coast=d; drawMap(); }).catch(()=>{});
 fetch('atlas/rivers.json').then(r=>r.json()).then(d=>{ rivers=d; drawMap(); }).catch(()=>{});

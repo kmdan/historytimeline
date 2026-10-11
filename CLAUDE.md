@@ -19,24 +19,29 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Live artifact: https://claude.ai/artifact/EVCozfzuxXvmWzggiSg216 — **always republish to this same url** (link must stay stable; it is shared "anyone with the link").
 - Publish = Artifact publish with `url` + `file_path: karahan-era.html`; pass `files` only for changed supporting files (unlisted ones are kept); omit `icon`.
 - Before publishing, read the live artifact if it may have changed since last read (the tool refuses otherwise).
-- Publishing is outward-facing: confirm with the user before republishing unless they asked for it in that request.
+- User approved (2026-10-11): republish after each **tested** improvement without asking. Commit to git first; mention each publish in the reply.
 - Artifact runtime limits: no external fetch/images at runtime (CSP); scripts only from cdnjs / jsdelivr / unpkg with exact versions; everything else ships as files beside the page.
 
 ## Testing
 - Local server: `.claude/launch.json` config `karahan` (python http.server on 8765) → open `http://localhost:8765/karahan-era.html` in the built-in browser.
-- No Node/Playwright locally. All JS lives in one IIFE (no globals): drive via UI (`#goY`/`#goU`/`#go` form, buttons, pointer events on `#tl`), read `#ph`, `#mapinfo`, `#eName`, `#pop`.
-- Check each change at several years (e.g. 21000 BCE, 4500 BCE, 900 CE, 1750, 2020), light + dark, mobile 375 px (no horizontal page scroll), console errors, and long tasks (PerformanceObserver 'longtask') for scrubbing performance.
-- Baseline (2026-10-11): map rebuild ~130–290 ms per long task; throttled redraws make scrubbing jumpy.
+- **Preferred: headless Playwright with the installed Edge** (works even when the browser pane is hidden — the pane stops rendering/rAF when hidden):
+  - `python dev/test/check.py <outdir>` — errors, GPU vs `?cpu` pixel diff at 5 years (must be ~0), scrub long tasks, screenshots (dark/light/phone). Uses SwiftShader, so its timings are NOT representative.
+  - `python dev/test/profile.py [?cpu]` — CPU profile of a scrub on the real GPU (RTX 3070); use this for performance numbers.
+- All JS lives in one IIFE (no globals): drive via UI (`#goY`/`#goU`/`#go` form, buttons, pointer events on `#tl`), read `#ph`, `#mapinfo`, `#eName`, `#pop`, `#map[data-renderer]` (`webgl2` or `cpu`).
+- Check each change at several years (e.g. 21000 BCE, 4500 BCE, 900 CE, 1750, 2020), light + dark, mobile 375 px (no horizontal page scroll), console errors.
+- Base map: WebGL2 shader (`GLB`) mirrors the CPU `buildBase` loop exactly; any change to the base-map rules must be made in **both** (CPU is the fallback; `?cpu` forces it). Context loss falls back to CPU automatically.
+- Perf (2026-10-11, GPU): no long tasks while scrubbing; ~10 ms script per update. CPU fallback: ~200 ms per rebuild, throttled.
 
 ## Conventions
 - Year 1 KE = 9500 BCE; signed years in data (BCE negative, no year 0); `ke()`, `toSigned()`, `civil()`.
 - Lanes 0 Near East, 1 Africa, 2 Europe, 3 Asia, 4 Americas, 5 Earth & Oceans. Importance `i`: 1 famous, 2 important, 3 specialist.
 - Keep design tokens on `:root` with dark-mode overrides; match the existing compact code style.
 - Facts must be checked against Wikipedia or cited papers; mark estimates and contested points as such.
-- Not a git repo yet — before large refactors, keep a backup copy of `karahan-era.html` (or suggest `git init`).
+- Git repo (local only, no remote): commit each working step; `.gitattributes` keeps files byte-exact.
+- Map projection stays equirectangular (user: Equal Earth / globe not needed for now).
 
 ## Known improvement candidates
-- WebGL2 base-map shader (smooth scrubbing, biome blending, Equal Earth / globe projections) — recommended next step.
-- Timeline event labels overlap in dense periods; map info box covers much of the map on phones.
+- Done 2026-10-11: WebGL2 base map, timeline label collision, compact phone info box.
+- Data upgrades: see `dev/RESEARCH-sources.md` (top-10 shortlist).
 - Borders: convert 53 snapshots to features with start/end years. Deep time: PALEOMAP paleo-DEMs + GPlates coastlines.
 - Backlog in `dev/HANDOFF.md` §7.
