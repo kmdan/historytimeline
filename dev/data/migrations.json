@@ -1,5 +1,552 @@
 [
  {
+  "n": "Archaic humans across Europe (Homo heidelbergensis)",
+  "w": "Homo heidelbergensis",
+  "from": -498050,
+  "to": -398050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    35,
+    32
+   ],
+   [
+    29,
+    40
+   ],
+   [
+    18,
+    44
+   ],
+   [
+    8,
+    46
+   ],
+   [
+    2,
+    49
+   ],
+   [
+    -0.7,
+    50.85
+   ]
+  ],
+  "branches": [
+   [
+    [
+     8,
+     46
+    ],
+    [
+     2,
+     44
+    ],
+    [
+     -3.5,
+     42.35
+    ]
+   ]
+  ],
+  "d": "Hypothetical route: archaic humans often called Homo heidelbergensis carried Late Acheulean handaxes into Europe from about 700,000 years ago, and occupation became frequent after 500,000 years ago (Boxgrove, England, ~500,000 years). The ~430,000-year-old Sima de los Huesos people in Spain already belong to the Neanderthal line."
+ },
+ {
+  "n": "Early modern-human gene flow into Neanderthals",
+  "w": "Interbreeding between archaic and modern humans",
+  "from": -368050,
+  "to": -248050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 3,
+  "path": [
+   [
+    33,
+    12
+   ],
+   [
+    32.5,
+    24
+   ],
+   [
+    33,
+    30.5
+   ],
+   [
+    35.5,
+    34
+   ],
+   [
+    29,
+    40
+   ],
+   [
+    15,
+    45
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route, inferred only from genetics: an early population related to Homo sapiens left Africa and interbred with Neanderthal ancestors between about 370,000 and 250,000 years ago, replacing the Neanderthal Y chromosome (and probably mitochondrial DNA). No fossils show where this happened."
+ },
+ {
+  "n": "Early Homo sapiens across Africa",
+  "w": "Jebel Irhoud",
+  "from": -348050,
+  "to": -198050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    36,
+    5
+   ],
+   [
+    25,
+    12
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    -8.9,
+    31.9
+   ]
+  ],
+  "branches": [
+   [
+    [
+     36,
+     5
+    ],
+    [
+     33,
+     -8
+    ],
+    [
+     26.1,
+     -28.8
+    ]
+   ]
+  ],
+  "d": "Hypothetical route: fossils with early modern features appear across Africa by about 315,000 years ago (Jebel Irhoud, Morocco), 260,000 (Florisbad, South Africa) and 233,000 (Omo, Ethiopia). Many researchers now think Homo sapiens emerged from linked populations across the continent rather than in one place."
+ },
+ {
+  "n": "Early Homo sapiens to Greece? (Apidima)",
+  "w": "Apidima Cave",
+  "from": -228050,
+  "to": -208050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 3,
+  "path": [
+   [
+    32,
+    22
+   ],
+   [
+    32.5,
+    30.5
+   ],
+   [
+    35,
+    33
+   ],
+   [
+    30,
+    36.5
+   ],
+   [
+    26,
+    37.2
+   ],
+   [
+    22.4,
+    36.7
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: a partial skull (Apidima 1) from Apidima Cave in southern Greece, dated to over 210,000 years ago, has been identified as an early Homo sapiens; this is contested, and others see an archaic form. If correct, the group was later replaced by Neanderthals (Apidima 2, over 170,000 years)."
+ },
+ {
+  "n": "Denisovans onto the Tibetan Plateau",
+  "w": "Xiahe mandible",
+  "from": -228050,
+  "to": -158050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    84,
+    51.4
+   ],
+   [
+    88,
+    45
+   ],
+   [
+    95,
+    40
+   ],
+   [
+    100,
+    37
+   ],
+   [
+    102.57,
+    35.45
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route (direction unknown): Denisovans, known from the Altai's Denisova Cave from about 200,000 years ago, were on the Tibetan Plateau by 160,000 years ago (Xiahe jaw, Baishiya Karst Cave, 3,280 m), and sediment DNA shows them there until at least 60,000 years ago. Their EPAS1 gene variant helps Tibetans live at altitude today."
+ },
+ {
+  "n": "Denisovans across East and Southeast Asia",
+  "w": "Denisovan",
+  "from": -218050,
+  "to": -128050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    102.57,
+    35.45
+   ],
+   [
+    104,
+    28
+   ],
+   [
+    103.5,
+    22.5
+   ],
+   [
+    103.4,
+    20.2
+   ]
+  ],
+  "branches": [
+   [
+    [
+     102.57,
+     35.45
+    ],
+    [
+     112,
+     40
+    ],
+    [
+     120,
+     44
+    ],
+    [
+     126.6,
+     45.75
+    ]
+   ],
+   [
+    [
+     104,
+     28
+    ],
+    [
+     112,
+     27
+    ],
+    [
+     117,
+     25.5
+    ],
+    [
+     119.6,
+     23.5
+    ]
+   ]
+  ],
+  "d": "Hypothetical route: Denisovan fossils identified by DNA or proteins come from Laos (Tam Ngu Hao 2 tooth, about 164,000–131,000 years ago), Harbin in Manchuria (skull, at least 146,000 years) and the seabed of the Penghu channel off Taiwan, showing a range across much of East Asia; how they moved between these places is unknown."
+ },
+ {
+  "n": "Early modern humans into the Levant (Misliya)",
+  "w": "Misliya Cave",
+  "from": -198050,
+  "to": -176050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    32,
+    22
+   ],
+   [
+    32.5,
+    30.5
+   ],
+   [
+    34.4,
+    31.2
+   ],
+   [
+    34.97,
+    32.7
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: an upper jaw from Misliya Cave on Mount Carmel, Israel, dated to 194,000–177,000 years ago, is one of the oldest Homo sapiens fossils outside Africa, suggesting modern humans moved in and out of the Levant several times."
+ },
+ {
+  "n": "Last Interglacial dispersal into Arabia",
+  "w": "Jebel Faya",
+  "from": -133050,
+  "to": -113050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    38,
+    15
+   ],
+   [
+    43.4,
+    12.6
+   ],
+   [
+    46,
+    18
+   ],
+   [
+    50,
+    22
+   ],
+   [
+    55.85,
+    25.12
+   ]
+  ],
+  "branches": [
+   [
+    [
+     32.5,
+     30.5
+    ],
+    [
+     38,
+     29
+    ],
+    [
+     42,
+     27
+    ],
+    [
+     48,
+     25
+    ]
+   ]
+  ],
+  "d": "Hypothetical route: stone tools at Jebel Faya (UAE) dated to about 125,000 years ago resemble East African tools, suggesting modern humans crossed into Arabia when monsoon rains turned its deserts green; the crossing point (Bab-el-Mandeb or Sinai) is debated and the oldest Arabian human fossil is later, about 85,000 years."
+ },
+ {
+  "n": "Skhul and Qafzeh modern humans",
+  "w": "Skhul and Qafzeh hominins",
+  "from": -128050,
+  "to": -88050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    32,
+    22
+   ],
+   [
+    32.5,
+    30.5
+   ],
+   [
+    34.4,
+    31.2
+   ],
+   [
+    35.29,
+    32.68
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: modern humans buried their dead at Skhul and Qafzeh caves in Israel about 120,000–90,000 years ago, when the Last Interglacial greened the Sahara and Sinai; this early group did not last, and Neanderthals later reoccupied the region."
+ },
+ {
+  "n": "Neanderthals reach the Altai",
+  "w": "Denisova Cave",
+  "from": -118050,
+  "to": -78050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    20,
+    46
+   ],
+   [
+    38,
+    45
+   ],
+   [
+    52,
+    43
+   ],
+   [
+    66,
+    40
+   ],
+   [
+    76,
+    45
+   ],
+   [
+    83.2,
+    51.4
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: Neanderthals visited Denisova Cave in the Altai by about 190,000 and 100,000 years ago; the genome of the Chagyrskaya Neanderthal (about 80,000–60,000 years ago) is closer to Croatian Neanderthals than to the older Altai Neanderthal, showing that western Neanderthals spread east and replaced earlier Siberian groups."
+ },
+ {
+  "n": "Early modern humans in southern China? (Fuyan)",
+  "w": "Fuyan Cave",
+  "from": -118050,
+  "to": -78050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 3,
+  "path": [
+   [
+    78.1,
+    15.3
+   ],
+   [
+    90,
+    22
+   ],
+   [
+    99,
+    24
+   ],
+   [
+    106,
+    25
+   ],
+   [
+    111.48,
+    25.65
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical and contested: 47 modern-looking human teeth from Fuyan Cave, Hunan, were dated to 120,000–80,000 years ago, implying a very early arrival in China; a later ancient-DNA study argues the teeth are Holocene, so this early wave remains in doubt."
+ },
+ {
+  "n": "Early humans into South Asia? (Jwalapuram)",
+  "w": "Jwalapuram",
+  "from": -98050,
+  "to": -72050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 3,
+  "path": [
+   [
+    55.85,
+    25.12
+   ],
+   [
+    62,
+    25.5
+   ],
+   [
+    68,
+    24
+   ],
+   [
+    74,
+    19
+   ],
+   [
+    78.1,
+    15.3
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: Middle Palaeolithic tools at Jwalapuram in southern India, from both before and after the Toba eruption about 74,000 years ago, have been attributed to early modern humans arriving from Arabia; no human fossils were found, so archaic makers are equally possible."
+ },
+ {
+  "n": "Neanderthals into the Levant and Zagros",
+  "w": "Neanderthal",
+  "from": -78050,
+  "to": -48050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    24,
+    42
+   ],
+   [
+    29,
+    41
+   ],
+   [
+    33,
+    38.5
+   ],
+   [
+    36.5,
+    36.5
+   ],
+   [
+    35.5,
+    33.5
+   ],
+   [
+    35.0,
+    32.6
+   ]
+  ],
+  "branches": [
+   [
+    [
+     36.5,
+     36.5
+    ],
+    [
+     40,
+     37
+    ],
+    [
+     44.3,
+     36.8
+    ]
+   ]
+  ],
+  "d": "Hypothetical route: after the Skhul–Qafzeh modern humans disappeared, Neanderthals occupied the Levant and Zagros (Kebara and Amud in Israel, Shanidar in Iraq, roughly 70,000–50,000 years ago; est.), probably moving south from Anatolia in colder phases. Neanderthals had used the region earlier too (Tabun Cave, perhaps ~120,000 years)."
+ },
+ {
   "n": "Out of Africa (southern route)",
   "w": "Early human migrations",
   "from": -68050,
@@ -93,6 +640,82 @@
   "d": "Ancestors of Aboriginal Australians island-hopped from Southeast Asia to Sahul about 65,000–50,000 years ago, via Timor to the Kimberley or via the Moluccas to New Guinea, reaching Lake Mungo by 41,000 years ago.",
   "people": 1500,
   "vol": "at least 1,300–1,550 founders (Bradshaw et al. 2019; est.)"
+ },
+ {
+  "n": "First Homo sapiens wave into Europe (Mandrin)",
+  "w": "Grotte Mandrin",
+  "from": -54850,
+  "to": -49750,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    35.5,
+    34
+   ],
+   [
+    32,
+    37
+   ],
+   [
+    27,
+    40
+   ],
+   [
+    20,
+    42
+   ],
+   [
+    12,
+    44
+   ],
+   [
+    4.75,
+    44.49
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: a modern human tooth and Neronian points at Grotte Mandrin in France's Rhône valley date to about 54,000 years ago, roughly 10,000 years before the main wave; this group, probably from the Levant, apparently vanished and Neanderthals returned to the cave."
+ },
+ {
+  "n": "Denisovan ancestry into Papuans and Australians",
+  "w": "Denisovan",
+  "from": -50050,
+  "to": -38050,
+  "kind": "dispersal",
+  "hyp": true,
+  "mode": "front",
+  "scale": 2,
+  "path": [
+   [
+    106,
+    -3
+   ],
+   [
+    114,
+    -2
+   ],
+   [
+    119.5,
+    -2
+   ],
+   [
+    125,
+    -3
+   ],
+   [
+    131,
+    -3.5
+   ],
+   [
+    140,
+    -5
+   ]
+  ],
+  "branches": [],
+  "d": "Hypothetical route: Papuans, Aboriginal Australians and the Aeta of the Philippines carry up to about 5% Denisovan DNA, from interbreeding after about 50,000 years ago and before Papuans and Australians split ~37,000 years ago, probably in Wallacea or Sundaland; the arrow marks a likely meeting zone, not a known route."
  },
  {
   "n": "Peopling of East Asia",
@@ -2575,6 +3198,82 @@
   "people": 1600000
  },
  {
+  "n": "European mass emigration to the United States",
+  "w": "Immigration to the United States",
+  "from": 1836,
+  "to": 1924,
+  "kind": "migration",
+  "path": [
+   [
+    8.8,
+    53.5
+   ],
+   [
+    3.5,
+    52.5
+   ],
+   [
+    -1,
+    50.2
+   ],
+   [
+    -30,
+    45
+   ],
+   [
+    -74,
+    40.7
+   ]
+  ],
+  "branches": [
+   [
+    [
+     14.25,
+     40.85
+    ],
+    [
+     9,
+     38.5
+    ],
+    [
+     -5.6,
+     36
+    ],
+    [
+     -30,
+     38
+    ],
+    [
+     -74,
+     40.7
+    ]
+   ],
+   [
+    [
+     -3,
+     53.4
+    ],
+    [
+     -8,
+     51.5
+    ],
+    [
+     -30,
+     48
+    ]
+   ]
+  ],
+  "scale": 1,
+  "d": "Over 30 million Europeans, first from Germany, Ireland and Scandinavia, after 1890 mainly from Italy and Eastern Europe, emigrated to the United States between 1836 and 1914, peaking at 1.29 million in 1907.",
+  "mode": "flow",
+  "peak": [
+   1880,
+   1914
+  ],
+  "vol": "over 30 million (1836–1914)",
+  "people": 30000000
+ },
+ {
   "n": "Irish famine emigration",
   "w": "Great Famine (Ireland)",
   "from": 1845,
@@ -2699,82 +3398,6 @@
   "mode": "flow",
   "people": 19000000,
   "vol": "about 19 million Chinese emigrants 1846–1940, mostly to Southeast Asia (McKeown 2004; est.)"
- },
- {
-  "n": "European mass emigration to the United States",
-  "w": "Immigration to the United States",
-  "from": 1836,
-  "to": 1924,
-  "kind": "migration",
-  "path": [
-   [
-    8.8,
-    53.5
-   ],
-   [
-    3.5,
-    52.5
-   ],
-   [
-    -1,
-    50.2
-   ],
-   [
-    -30,
-    45
-   ],
-   [
-    -74,
-    40.7
-   ]
-  ],
-  "branches": [
-   [
-    [
-     14.25,
-     40.85
-    ],
-    [
-     9,
-     38.5
-    ],
-    [
-     -5.6,
-     36
-    ],
-    [
-     -30,
-     38
-    ],
-    [
-     -74,
-     40.7
-    ]
-   ],
-   [
-    [
-     -3,
-     53.4
-    ],
-    [
-     -8,
-     51.5
-    ],
-    [
-     -30,
-     48
-    ]
-   ]
-  ],
-  "scale": 1,
-  "d": "Over 30 million Europeans, first from Germany, Ireland and Scandinavia, after 1890 mainly from Italy and Eastern Europe, emigrated to the United States between 1836 and 1914, peaking at 1.29 million in 1907.",
-  "mode": "flow",
-  "peak": [
-   1880,
-   1914
-  ],
-  "vol": "over 30 million (1836–1914)",
-  "people": 30000000
  },
  {
   "n": "European emigration to Argentina",
