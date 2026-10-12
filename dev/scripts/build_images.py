@@ -1,6 +1,6 @@
 """Download era illustrations from Wikimedia Commons as small local files.
 
-Reads the Commons file names from <script id="research"> in karahan-era.html,
+Reads the Commons file names from <script id="research"> and <script id="deepresearch"> in karahan-era.html,
 asks the Commons API for a 640 px thumbnail plus licence/author metadata, and
 writes atlas/img/<id>.webp (quality 76, ~50 kB) and atlas/img/index.json:
   {"File:...": {"src": "img/<id>.webp", "w": .., "h": .., "lic": .., "lic_url": .., "artist": .., "ok": bool}}
@@ -27,6 +27,8 @@ def get(url):
         except urllib.error.HTTPError as e:
             if e.code not in (429, 503):
                 raise
+        except (urllib.error.URLError, TimeoutError, OSError):   # stalled connection: wait and retry
+            pass
     raise RuntimeError('rate limited: ' + url)
 
 
@@ -36,7 +38,9 @@ def text(v):
 
 def main():
     page = (ROOT / 'karahan-era.html').read_text(encoding='utf-8')
-    research = json.loads(re.search(r'<script id="research" type="application/json">(.*?)</script>', page, re.S).group(1))
+    research = [era for tag in ('research', 'deepresearch')      # deepresearch: the five eras before 40,000 BCE
+                for m in [re.search(r'<script id="%s" type="application/json">(.*?)</script>' % tag, page, re.S)] if m
+                for era in json.loads(m.group(1))]
     files = list(dict.fromkeys(im['file'] for era in research for im in era.get('images', [])))
     OUT.mkdir(parents=True, exist_ok=True)
     idx_path = OUT / 'index.json'
