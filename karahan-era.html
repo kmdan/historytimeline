@@ -134,7 +134,7 @@ canvas.drag{cursor:grabbing!important}
 .pop .pimg-ic{flex:none;width:34px;height:26px;border-radius:3px;background:linear-gradient(160deg,var(--b6),var(--b4) 55%,var(--b8));position:relative;overflow:hidden}
 .pop .pimg-ic::after{content:"";position:absolute;left:4px;right:4px;bottom:3px;height:10px;background:var(--b7);clip-path:polygon(0 100%,30% 20%,50% 60%,70% 0,100% 100%)}
 .pphoto{display:block;color:var(--muted);text-decoration:none;font-size:11px;line-height:1.3}
-.pphoto img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:50% 30%;border-radius:5px;background:var(--line)}
+.pphoto i{display:block;width:100%;aspect-ratio:16/10;border-radius:5px;background-color:var(--line);background-repeat:no-repeat}
 .pphoto span{display:block;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pphoto:hover span,.pphoto:focus-visible span{color:var(--accent)}
 .ev .pphoto{max-width:420px;margin:4px 0 8px}
@@ -1796,8 +1796,10 @@ function showTip(x,y,text){ tip.textContent=text; tip.style.left=x+'px'; tip.sty
 // pictures: lead image of the item's Wikipedia article, shipped as small files (dev/scripts/build_popup_images.py)
 let PIMG={};
 fetch('atlas/pimg/index.json').then(r=>r.json()).then(d=>{ PIMG=d; if(selected) select(selected); }).catch(()=>{});
-const picFor = t => t&&PIMG[t]||null;
-const picHTML = (m,alt) => `<a class="pphoto" href="${commonsUrl(m.file)}" target="_blank" rel="noopener"><img src="atlas/${esc(m.src)}" width="${m.w}" height="${m.h}" alt="${esc(alt)}" decoding="async"><span>${esc([m.artist,m.lic].filter(Boolean).join(' · '))} ↗</span></a>`;
+const picFor = t => t&&t!=='_grid'&&PIMG[t]||null;
+// pictures are cells of sprite sheets (the artifact allows only 511 files): background sized to the grid, positioned on the cell
+const picHTML = (m,alt) => { const [C,R]=PIMG._grid, x=m.c%C, y=Math.floor(m.c/C);
+  return `<a class="pphoto" href="${commonsUrl(m.file)}" target="_blank" rel="noopener"><i role="img" aria-label="${esc(alt)}" style="background-image:url(atlas/pimg/s${m.s}.webp);background-size:${C*100}% ${R*100}%;background-position:${x/(C-1)*100}% ${y/(R-1)*100}%"></i><span>${esc([m.artist,m.lic].filter(Boolean).join(' · '))} ↗</span></a>`; };
 // popup with description, picture and Wikipedia link
 let popTimer=0, popCur=null, overPop=false, popK=null, popSticky=false;
 function popHTML(i){ const links=[], pic=picFor(i.img)||picFor(i.w);

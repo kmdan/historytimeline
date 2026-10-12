@@ -3,8 +3,10 @@
 Collects the Wikipedia titles used by events, landscapes, animals, migrations and Ice Age cultures
 (plus Ice Age site names whose article is an archaeological site), asks Wikipedia for the free lead
 image (prop=pageimages, pilicense=free), skips maps / flags / charts / SVG drawings, reads licence and
-author from Commons, and writes atlas/pimg/<id>.webp (360 px wide, ~20 kB) and atlas/pimg/index.json:
-  {"<Wikipedia title>": {"src": "pimg/<id>.webp", "w":.., "h":.., "file": "File:..", "lic":.., "artist":..}}
+author from Commons, and keeps 360 px thumbnails in dev/raw/pimg/ (download cache, not committed).
+The artifact holds at most 511 files, so the published pictures are packed into sprite sheets:
+atlas/pimg/s<n>.webp, a grid of COLS x ROWS cells of 360x225 (16:10, cropped 30 % from the top), and
+atlas/pimg/index.json: {"_grid": [COLS, ROWS], "<title>": {"s": sheet, "c": cell, "file": "File:..", "lic":.., "artist":..}}
 Popup items look pictures up by their Wikipedia title (`w`), sites by name.
 dev/data/popup_images_pick.json overrides the lead image per title/site (hand-picked art);
 dev/data/popup_images_skip.json lists lead images rejected by eye (maps, charts, text pages).
@@ -16,15 +18,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'atlas' / 'pimg'
+CACHE = ROOT / 'dev' / 'raw' / 'pimg'
+COLS, ROWS, CW, CH = 8, 6, 360, 225
 UA = 'KarahanEra/0.1 (https://github.com/kmdan/historytimeline)'
 WIDTH = 360
 FREE = re.compile(r'^(public domain|pd|cc0|cc by(-sa)? [\d.]+|cc-by(-sa)?-[\d.]+|no restrictions|attribution$|fal$|free art)', re.I)
 # lead images that are maps, flags, charts or diagrams rather than pictures of the thing
 SKIP = re.compile(r'(\.svg$|\.gif$|map|karte|carte|mapa|locator|location|distribution|range|extent|expansion|migration|'
                   r'route|flag|coat.of.arms|emblem|seal.of|chart|graph|diagram|timeline|plot|logo|\bpd\b.*text)', re.I)
-# lead images checked by eye on contact sheets and found to be maps, charts or text pages
 # hand-picked pictures (paintings / life restorations in their setting) that replace or add to the lead image
 PICK = json.loads((ROOT / 'dev' / 'data' / 'popup_images_pick.json').read_text(encoding='utf-8'))
+# lead images checked by eye on contact sheets and found to be maps, charts or text pages
 SKIP_FILES = set(json.loads((ROOT / 'dev' / 'data' / 'popup_images_skip.json').read_text(encoding='utf-8')))
 SITE = re.compile(r'(archaeolog|cave|rock shelter|rockshelter|paleolithic|palaeolithic|mesolithic|neolithic|prehistoric|site|burial|settlement)', re.I)
 
@@ -99,10 +103,10 @@ def main():
     want = lead_images(wt); want.update({k: v for k, v in lead_images(sites, True).items() if k not in want})
     want.update(PICK)
     print(len(wt), 'titles +', len(sites), 'sites ->', len(want), 'with a usable lead picture')
-    OUT.mkdir(parents=True, exist_ok=True)
-    idx_path = OUT / 'index.json'
+    CACHE.mkdir(parents=True, exist_ok=True)
+    idx_path = CACHE / 'index.json'
     idx = json.loads(idx_path.read_text(encoding='utf-8')) if idx_path.exists() else {}
-    todo = [t for t, f in want.items() if not (t in idx and idx[t]['file'] == f and (OUT / Path(idx[t]['src']).name).exists())]
+    todo = [t for t, f in want.items() if not (t in idx and idx[t]['file'] == f and (CACHE / Path(idx[t]['src']).name).exists())]
     files = sorted(set(want[t] for t in todo))
     meta = {}
     for i in range(0, len(files), 50):
@@ -122,8 +126,8 @@ def main():
         if not FREE.match(lic) or m.get('NonFree', {}).get('value') == 'true':
             print('NONFREE', lic, '|', t); continue
         name = hashlib.sha1(f.encode()).hexdigest()[:10] + '.webp'
-        if f not in done and (OUT / name).exists():  # already downloaded by an interrupted run
-            done[f] = Image.open(OUT / name).size
+        if f not in done and (CACHE / name).exists():  # already downloaded by an interrupted run
+            done[f] = Image.open(CACHE / name).size
         if f not in done:
             try:
                 im = Image.open(io.BytesIO(get(ii['thumburl']))); im.load()
@@ -132,7 +136,7 @@ def main():
             if im.mode != 'RGB':  # flatten transparency onto white
                 im = im.convert('RGBA'); bg = Image.new('RGB', im.size, (255, 255, 255)); bg.paste(im, mask=im.split()[3]); im = bg
             im.thumbnail((WIDTH, WIDTH * 2))
-            im.save(OUT / name, 'WEBP', quality=72, method=6)
+            im.save(CACHE / name, 'WEBP', quality=72, method=6)
             done[f] = (im.width, im.height); time.sleep(2)
         w, h = done[f]
         idx[t] = {'src': 'pimg/' + name, 'w': w, 'h': h, 'file': f, 'lic': lic,
@@ -143,10 +147,36 @@ def main():
         del idx[t]
     idx_path.write_bytes(json.dumps(idx, ensure_ascii=False, indent=0, sort_keys=True).encode('utf-8'))
     used = {Path(v['src']).name for v in idx.values()} | {hashlib.sha1(norm(f).encode()).hexdigest()[:10] + '.webp' for f in want.values()}
-    for p in OUT.glob('*.webp'):
+    for p in CACHE.glob('*.webp'):
         if p.name not in used:
             p.unlink()
-    print(len(idx), 'pictures,', round(sum(p.stat().st_size for p in OUT.glob('*.webp')) / 1e6, 1), 'MB')
+    pack(idx)
+
+
+def pack(idx):
+    """Sprite sheets: one 16:10 cell per distinct Commons file, cropped like the page's old object-position 50% 30%."""
+    files = sorted({v['file'] for v in idx.values()})
+    cell = {f: i for i, f in enumerate(files)}
+    per = COLS * ROWS
+    OUT.mkdir(parents=True, exist_ok=True)
+    for p in OUT.glob('*'):
+        p.unlink()
+    src = {v['file']: CACHE / Path(v['src']).name for v in idx.values()}
+    for n in range(0, len(files), per):
+        sheet = Image.new('RGB', (COLS * CW, ROWS * CH), (128, 128, 128))
+        for i, f in enumerate(files[n:n + per]):
+            im = Image.open(src[f]).convert('RGB')
+            k = max(CW / im.width, CH / im.height)
+            im = im.resize((max(CW, round(im.width * k)), max(CH, round(im.height * k))), Image.LANCZOS)
+            x0, y0 = (im.width - CW) // 2, round((im.height - CH) * 0.3)
+            sheet.paste(im.crop((x0, y0, x0 + CW, y0 + CH)), ((i % COLS) * CW, (i // COLS) * CH))
+        sheet.save(OUT / f's{n // per}.webp', 'WEBP', quality=74, method=6)
+    out = {'_grid': [COLS, ROWS]}
+    for t, v in sorted(idx.items()):
+        c = cell[v['file']]
+        out[t] = {'s': c // per, 'c': c % per, 'file': v['file'], 'lic': v['lic'], 'artist': v['artist']}
+    (OUT / 'index.json').write_bytes(json.dumps(out, ensure_ascii=False, separators=(',', ':')).encode('utf-8'))
+    print(len(idx), 'pictures in', -(-len(files) // per), 'sheets,', round(sum(p.stat().st_size for p in OUT.glob('*.webp')) / 1e6, 1), 'MB')
 
 
 if __name__ == '__main__':
