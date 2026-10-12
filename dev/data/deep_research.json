@@ -1,0 +1,162 @@
+[
+{"era":"deep1","events":[],
+"more":[
+{"y":-498050,"l":1,"i":2,"t":"Kathu Pan stone points","d":"Stone points about 500,000 years old from Kathu Pan, South Africa, carry damage suggesting they tipped hafted spears, the oldest such claim (debated).","w":"Kathu Archaeological Complex","lat":-27.7,"lon":23.05},
+{"y":-478050,"l":2,"i":2,"t":"Boxgrove butchery site","d":"On an ancient tidal flat in Sussex, about 480,000 years ago, people butcher horses, rhinos and deer with finely made flint hand-axes; a shin bone is Britain's oldest human fossil.","w":"Boxgrove Palaeolithic site","lat":50.87,"lon":-0.69},
+{"y":-448050,"l":5,"i":2,"t":"First Dover Strait megaflood","d":"About 450,000 years ago an ice-dammed lake in the southern North Sea overflows and cuts through the chalk ridge joining England to France (Gupta 2017).","w":"Weald–Artois Anticline","lat":51.0,"lon":1.5},
+{"y":-428050,"l":2,"i":1,"t":"Sima de los Huesos","d":"About 430,000 years ago the bodies of about 29 people end up in a deep cave shaft at Atapuerca, Spain; their DNA places them on the Neanderthal line.","w":"Sima de los Huesos hominins","lat":42.367,"lon":-3.522},
+{"y":-398050,"l":2,"i":2,"t":"Barnham: oldest fire-making","d":"Burnt earth, heat-cracked hand-axes and pieces of pyrite at Barnham, Suffolk, about 400,000 years old, are the oldest evidence of people making fire rather than just using it.","w":"Control of fire by early humans","lat":52.38,"lon":0.747},
+{"y":-318050,"l":1,"i":2,"t":"Olorgesailie: early Middle Stone Age","d":"About 320,000 years ago people at Olorgesailie, Kenya, make smaller Middle Stone Age tools, bring obsidian from tens of kilometres away and use red pigment.","w":"Olorgesailie","lat":-1.578,"lon":36.446},
+{"y":-313050,"l":1,"i":1,"t":"Jebel Irhoud: earliest Homo sapiens","d":"Skulls from Jebel Irhoud, Morocco, dated to about 315,000 years ago, have modern faces but long, low braincases; the oldest fossils assigned to Homo sapiens (debated).","w":"Jebel Irhoud","lat":31.855,"lon":-8.873}
+],
+"know":[
+{"t":"The 'muddle in the middle'","d":"Fossils from this time vary so much that experts disagree how to name them; Homo heidelbergensis is often used for the ancestors of Neanderthals and modern humans, but the name is debated.","w":"Homo heidelbergensis"},
+{"t":"Hand-axes everywhere","d":"The Acheulean teardrop-shaped hand-axe, first made over 1.7 million years ago, is the standard tool across Africa, Europe and western Asia for more than a million years.","w":"Acheulean"},
+{"t":"Ice ages get bigger","d":"From about 430,000 years ago glacial cycles swing harder, with four large 100,000-year cycles up to the present (the Mid-Brunhes Event).","w":"Mid-Brunhes Event"},
+{"t":"The Anglian glaciation","d":"The largest British ice age reaches the Isles of Scilly and north London and pushes the Thames south into its present valley.","w":"Anglian stage"},
+{"t":"Fire becomes routine","d":"Hearths become common between about 400,000 and 300,000 years ago, at sites such as Beeches Pit in England and Qesem Cave in Israel.","w":"Control of fire by early humans"}
+],
+"papers":[
+{"a":"Meyer et al.","y":2016,"t":"Nuclear DNA sequences from the Middle Pleistocene Sima de los Huesos hominins","j":"Nature","f":"genetics","c":584,"u":"https://doi.org/10.1038/nature17405","why":"Oldest human nuclear DNA yet read; shows the 430,000-year-old Sima people were early relatives of Neanderthals."},
+{"a":"Wilkins et al.","y":2012,"t":"Evidence for Early Hafted Hunting Technology","j":"Science","f":"archaeology","c":406,"u":"https://doi.org/10.1126/science.1227608","why":"Argues that 500,000-year-old Kathu Pan points were mounted on spears, pushing stone-tipped weapons far back in time."},
+{"a":"Davis et al.","y":2025,"t":"Earliest evidence of making fire","j":"Nature","f":"archaeology","c":15,"u":"https://doi.org/10.1038/s41586-025-09855-6","why":"Barnham hearths with flint and pyrite show people could strike fire about 400,000 years ago."},
+{"a":"Gupta et al.","y":2017,"t":"Two-stage opening of the Dover Strait and the origin of island Britain","j":"Nature Communications","f":"climate","c":93,"u":"https://doi.org/10.1038/ncomms15101","why":"Sea-floor mapping shows two megafloods (about 450,000 and 160,000 years ago) cut the land bridge to France."},
+{"a":"Hu et al.","y":2023,"t":"Genomic inference of a severe human bottleneck during the Early to Middle Pleistocene transition","j":"Science","f":"genetics","c":139,"u":"https://doi.org/10.1126/science.abq7487","why":"Infers that human ancestors shrank to about 1,280 breeders between 930,000 and 813,000 years ago (debated)."},
+{"a":"Lisiecki & Raymo","y":2005,"t":"A Pliocene-Pleistocene stack of 57 globally distributed benthic δ18O records","j":"Paleoceanography","f":"climate","c":7381,"u":"https://doi.org/10.1029/2004PA001071","why":"The standard 'LR04' curve of global ice volume that defines the marine isotope stages used throughout these eras."}
+],
+"images":[
+{"cap":"Skull 5 ('Miguelón') from Sima de los Huesos, about 430,000 years old","k":"people","file":"File:Skull5 complete right Sima de los Huesos.jpg","cr":"UtaUtaNapishtim","lic":"CC BY-SA 4.0"},
+{"cap":"The single hand-axe ('Excalibur') found among the Sima de los Huesos bones","k":"artifact","file":"File:Hand Axe Sima de los Huesos.jpg","cr":"UtaUtaNapishtim","lic":"CC BY-SA 4.0"},
+{"cap":"Flint hand-axe from Boxgrove, West Sussex","k":"artifact","file":"File:Boxgrove handaxe.jpg","cr":"Midnightblueowl","lic":"CC BY-SA 3.0"},
+{"cap":"The Strait of Dover from space; megafloods first breached the chalk ridge here","k":"landscape","file":"File:Strait of Dover MODIS.jpg","cr":"NASA","lic":"Public domain"},
+{"cap":"Acheulean hand-axes from Olorgesailie, Kenya (Smithsonian)","k":"artifact","file":"File:Olorgesailie Handaxes.jpg","cr":"Jonathan Chen","lic":"CC BY-SA 4.0"}
+]},
+{"era":"deep2","events":[],
+"more":[
+{"y":-283050,"l":1,"i":2,"t":"Homo naledi in Rising Star Cave","d":"Remains of at least 15 small-brained Homo naledi lie deep in the Rising Star cave system, South Africa, dated to between 335,000 and 236,000 years ago.","w":"Homo naledi","lat":-25.967,"lon":27.662},
+{"y":-208050,"l":2,"i":3,"t":"Apidima 1 skull","d":"A partial skull from Apidima Cave in southern Greece, about 210,000 years old, has been read as the oldest Homo sapiens outside Africa (strongly debated).","w":"Apidima Cave","lat":36.661,"lon":22.363},
+{"y":-198050,"l":2,"i":2,"t":"Schöningen spears","d":"Ten wooden throwing spears from a lakeshore at Schöningen, Germany; once dated to 300,000 years or more, re-dated in 2025 to about 200,000 years ago.","w":"Schöningen spears","lat":52.137,"lon":10.988},
+{"y":-183050,"l":0,"i":2,"t":"Misliya jaw","d":"An upper jaw from Misliya Cave on Mount Carmel, Israel, about 185,000 years old (177,000–194,000), is among the oldest Homo sapiens fossils outside Africa.","w":"Misliya Cave","lat":32.741,"lon":34.972},
+{"y":-162050,"l":1,"i":2,"t":"Pinnacle Point shellfish and ochre","d":"At Pinnacle Point Cave 13B, South Africa, people eat shellfish and grind ochre about 164,000 years ago, the earliest known regular use of sea foods.","w":"Pinnacle Point","lat":-34.208,"lon":22.089},
+{"y":-158050,"l":3,"i":2,"t":"Xiahe Denisovan jaw","d":"A jaw found by a monk in Baishiya Karst Cave on the Tibetan Plateau, at least 160,000 years old, identified as Denisovan from its proteins.","w":"Xiahe mandible","lat":35.448,"lon":102.571},
+{"y":-158050,"l":5,"i":3,"t":"Second Dover Strait megaflood","d":"About 160,000 years ago a second outburst flood removes the last of the chalk ridge; from now on Britain is an island whenever sea level is high (Gupta 2017).","w":"Weald–Artois Anticline","lat":51.0,"lon":1.5}
+],
+"know":[
+{"t":"Homo sapiens arises across Africa","d":"Fossils from Morocco, Ethiopia and South Africa suggest modern humans evolved across the continent rather than in one place (the 'pan-African' view).","w":"Recent African origin of modern humans"},
+{"t":"The Middle Stone Age","d":"From roughly 300,000 years ago African toolmakers switch from hand-axes to smaller flakes and points, with pigment use and long-distance exchange.","w":"Middle Stone Age"},
+{"t":"Prepared-core flaking","d":"The Levallois method shapes a stone core so that a flake of planned shape can be struck off; Neanderthals and early modern humans both use it.","w":"Levallois technique"},
+{"t":"Denisovans","d":"A sister group of Neanderthals known mostly from DNA, with fossils from Denisova Cave in Siberia, Xiahe on the Tibetan Plateau and elsewhere in Asia.","w":"Denisovan"},
+{"t":"Several human species at once","d":"Homo sapiens, Neanderthals, Denisovans, Homo naledi and late Homo erectus all live at the same time.","w":"Homo naledi"}
+],
+"papers":[
+{"a":"Hublin et al.","y":2017,"t":"New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens","j":"Nature","f":"anthropology","c":1340,"u":"https://doi.org/10.1038/nature22336","why":"Pushed the earliest Homo sapiens fossils back to about 315,000 years and to North Africa."},
+{"a":"Berger et al.","y":2015,"t":"Homo naledi, a new species of the genus Homo from the Dinaledi Chamber, South Africa","j":"eLife","f":"anthropology","c":700,"u":"https://doi.org/10.7554/eLife.09560","why":"Named a small-brained human species later dated to 335,000–236,000 years ago."},
+{"a":"Hershkovitz et al.","y":2018,"t":"The earliest modern humans outside Africa","j":"Science","f":"anthropology","c":538,"u":"https://doi.org/10.1126/science.aap8369","why":"The Misliya jaw shows modern humans in the Levant by about 185,000 years ago."},
+{"a":"Chen et al.","y":2019,"t":"A late Middle Pleistocene Denisovan mandible from the Tibetan Plateau","j":"Nature","f":"anthropology","c":497,"u":"https://doi.org/10.1038/s41586-019-1139-x","why":"First Denisovan fossil found outside Denisova Cave, identified by ancient proteins."},
+{"a":"Thieme","y":1997,"t":"Lower Palaeolithic hunting spears from Germany","j":"Nature","f":"archaeology","c":829,"u":"https://doi.org/10.1038/385807a0","why":"Announced the Schöningen spears, proof of planned big-game hunting; Hutson et al. 2025 (Science Advances) re-date them to about 200,000 years."},
+{"a":"Reich et al.","y":2010,"t":"Genetic history of an archaic hominin group from Denisova Cave in Siberia","j":"Nature","f":"genetics","c":1981,"u":"https://doi.org/10.1038/nature09710","why":"Genome from a finger bone revealed the Denisovans and their DNA in present-day Melanesians."}
+],
+"images":[
+{"cap":"Composite reconstruction of the Jebel Irhoud skulls, about 315,000 years old","k":"people","file":"File:Homo sapiens from Jebel Irhoud.jpg","cr":"Philipp Gunz, MPI EVA Leipzig","lic":"CC BY-SA 2.0"},
+{"cap":"Facial reconstruction of Homo naledi","k":"reconstruction","file":"File:Homo naledi facial reconstruction.jpg","cr":"Cicero Moraes (Arc-Team) et al.","lic":"CC BY 4.0"},
+{"cap":"Wooden spears and double-pointed sticks from Schöningen","k":"artifact","file":"File:Schöningen wooden artifacts Lower Palaeolithic.jpg","cr":"Matthias Vogel","lic":"CC BY 4.0"},
+{"cap":"The Xiahe mandible, a Denisovan jaw from the Tibetan Plateau","k":"people","file":"File:Xiahe mandible.jpg","cr":"Dongju Zhang","lic":"CC BY-SA 4.0"},
+{"cap":"Excavation in one of the Pinnacle Point caves, South Africa","k":"site","file":"File:Pinnacle Point Archaeological Site, Mossel Bay South Africa.jpg","cr":"Andrew Hall","lic":"CC BY-SA 3.0"}
+]},
+{"era":"deep3","events":[],
+"more":[
+{"y":-128050,"l":2,"i":2,"t":"Krapina eagle talons","d":"Eight white-tailed eagle talons with cut marks and polish, about 130,000 years old, from the Neanderthal site at Krapina, Croatia; probably worn as jewellery.","w":"Krapina Neanderthal site","lat":46.165,"lon":15.864},
+{"y":-123050,"l":5,"i":2,"t":"Last Interglacial warm peak","d":"Around 125,000 years ago the climate is at times up to about 2 °C warmer than today and sea level stands about 6–9 m higher.","w":"Last Interglacial","lat":null,"lon":null},
+{"y":-123050,"l":0,"i":2,"t":"Jebel Faya tools","d":"Stone tools at Jebel Faya in Sharjah, about 125,000 years old, suggest modern humans crossed a greener Arabia (debated who made them).","w":"Jebel Faya","lat":25.119,"lon":55.847},
+{"y":-120550,"l":2,"i":3,"t":"Hippos under Trafalgar Square","d":"River gravels beneath Trafalgar Square hold hippopotamus, lion, rhinoceros and straight-tusked elephant bones from the Last Interglacial (about 130,000–115,000 years ago).","w":"Trafalgar Square","lat":51.508,"lon":-0.128},
+{"y":-118050,"l":0,"i":3,"t":"Skhul burials and shell beads","d":"Modern humans at Skhul Cave on Mount Carmel bury some of their dead and keep perforated sea shells; dates are uncertain, roughly 120,000–80,000 years ago.","w":"Skhul and Qafzeh hominins","lat":32.671,"lon":34.966},
+{"y":-110550,"l":3,"i":2,"t":"Ngandong: last Homo erectus","d":"Skullcaps of Solo Man from Ngandong on Java, dated to about 117,000–108,000 years ago, are the last known Homo erectus.","w":"Solo Man","lat":-7.349,"lon":111.426}
+],
+"know":[
+{"t":"A warmer-than-today interglacial","d":"The Last Interglacial (about 130,000–115,000 years ago) was one of the warmest of the last 800,000 years, with seas 6–9 m higher; a guide to future warming.","w":"Last Interglacial"},
+{"t":"Green Sahara corridors","d":"Wet phases turn the Sahara and Arabia into savanna with lakes and rivers, opening routes for animals and people out of Africa.","w":"Sahara pump theory"},
+{"t":"Early exits from Africa","d":"Modern humans reach the Levant and probably Arabia during warm, wet spells, but these early groups leave little trace in people living today.","w":"Southern dispersal"},
+{"t":"Neanderthal Europe","d":"Neanderthals live from Iberia to the Altai in small, thinly spread groups, hunting big game and making Levallois tools.","w":"Neanderthal"},
+{"t":"The end of Homo erectus","d":"Homo erectus, the longest-lived human species (about 2 million years), makes its last known appearance on Java.","w":"Solo Man"}
+],
+"papers":[
+{"a":"Radovčić et al.","y":2015,"t":"Evidence for Neandertal Jewelry: Modified White-Tailed Eagle Claws at Krapina","j":"PLoS ONE","f":"archaeology","c":274,"u":"https://doi.org/10.1371/journal.pone.0119802","why":"Showed cut marks and polish on Krapina eagle talons, Neanderthal ornaments 130,000 years old."},
+{"a":"Armitage et al.","y":2011,"t":"The Southern Route “Out of Africa”: Evidence for an Early Expansion of Modern Humans into Arabia","j":"Science","f":"archaeology","c":542,"u":"https://doi.org/10.1126/science.1199113","why":"Dated the Jebel Faya tools to about 125,000 years and argued for an early route across Arabia."},
+{"a":"Rizal et al.","y":2020,"t":"Last appearance of Homo erectus at Ngandong, Java, 117,000–108,000 years ago","j":"Nature","f":"anthropology","c":165,"u":"https://doi.org/10.1038/s41586-019-1863-2","why":"Settled the age of the Ngandong skulls, the last known Homo erectus."},
+{"a":"Vanhaeren et al.","y":2006,"t":"Middle Paleolithic Shell Beads in Israel and Algeria","j":"Science","f":"archaeology","c":465,"u":"https://doi.org/10.1126/science.1128139","why":"Identified perforated sea shells at Skhul as some of the oldest known beads."},
+{"a":"Dutton et al.","y":2015,"t":"Sea-level rise due to polar ice-sheet mass loss during past warm periods","j":"Science","f":"climate","c":846,"u":"https://doi.org/10.1126/science.aaa4019","why":"Review showing Last Interglacial seas stood 6–9 m above today from shrinking polar ice sheets."},
+{"a":"NEEM community","y":2013,"t":"Eemian interglacial reconstructed from a Greenland folded ice core","j":"Nature","f":"climate","c":774,"u":"https://doi.org/10.1038/nature11789","why":"Greenland ice core showing the island was about 8 °C warmer in the Eemian, yet its ice sheet survived."}
+],
+"images":[
+{"cap":"White-tailed eagle talons with cut marks from the Neanderthal site at Krapina","k":"artifact","file":"File:Possible Neandertal Jewelry White-Tailed Eagle Claws with striations at the Neanderthal site of Krapina, Croatia, 130,000 BP.jpg","cr":"Davorka Radovčić, Ankica Oros Sršen, Jakov Radovčić, David W. Frayer","lic":"CC BY 4.0"},
+{"cap":"Straight-tusked elephant in a Last Interglacial landscape (painting)","k":"reconstruction","file":"File:Straight tusked elephant Eemian landscape.jpg","cr":"Brennan Stokkermans","lic":"CC BY 4.0"},
+{"cap":"Reconstruction of a Central European landscape in the Last Interglacial","k":"reconstruction","file":"File:European last interglacial landscape.jpg","cr":"Márton Zsoldos","lic":"CC BY 4.0"},
+{"cap":"Jebel Faya, Sharjah, seen from the desert to the east","k":"site","file":"File:Jebel Faya.jpg","cr":"Alexandermcnabb","lic":"CC BY-SA 4.0"},
+{"cap":"Cast of Ngandong 13, one of the last Homo erectus skulls","k":"people","file":"File:Ngandong 13 NMNH.jpg","cr":"Jonathan Chen","lic":"CC BY-SA 4.0"}
+]},
+{"era":"deep4","events":[],
+"more":[
+{"y":-98050,"l":1,"i":3,"t":"Blombos ochre workshop","d":"About 100,000 years ago people at Blombos Cave, South Africa, grind ochre and mix it with bone and charcoal in abalone shells, the oldest known paint kit.","w":"Blombos Cave","lat":-34.414,"lon":21.223},
+{"y":-93050,"l":0,"i":2,"t":"Qafzeh burials","d":"At Qafzeh near Nazareth modern humans bury their dead about 90,000–100,000 years ago; a teenager (Qafzeh 11) lies with red deer antlers in the hands.","w":"Skhul and Qafzeh hominins","lat":32.688,"lon":35.318},
+{"y":-88050,"l":1,"i":3,"t":"Katanda bone harpoons","d":"Barbed bone harpoon points from Katanda on the Semliki River (DR Congo), about 90,000 years old, used to spear large catfish (date once doubted).","w":"Semliki harpoon","lat":null,"lon":null},
+{"y":-73050,"l":0,"i":2,"t":"Shanidar Z burial","d":"A Neanderthal woman in her mid-40s or older is laid in a hand-dug gully in Shanidar Cave, Iraq, about 75,000 years ago.","w":"Shanidar Cave","lat":36.832,"lon":44.221},
+{"y":-72050,"l":5,"i":1,"t":"Toba supereruption","d":"About 74,000 years ago Toba in Sumatra produces the largest eruption of the Quaternary, dropping about 5 cm of ash over India; its effect on people is debated.","w":"Youngest Toba eruption","lat":2.685,"lon":98.876},
+{"y":-71050,"l":1,"i":1,"t":"Blombos drawing","d":"Red ochre crayon lines on a stone flake from Blombos Cave, about 73,000 years old, the oldest known drawing.","w":"Blombos Cave","lat":-34.414,"lon":21.223},
+{"y":-65850,"l":3,"i":1,"t":"Muna hand stencil","d":"A hand stencil in Liang Metanduno on Muna Island, Sulawesi, at least 67,800 years old, is the oldest known cave art (Oktaviana 2026).","w":"Liang Metanduno","lat":-4.899,"lon":122.66},
+{"y":-58050,"l":1,"i":3,"t":"Diepkloof engraved eggshells","d":"Ostrich-eggshell water containers engraved with hatched patterns, about 60,000 years old, from Diepkloof Rock Shelter, South Africa.","w":"Diepkloof Rock Shelter","lat":-32.387,"lon":18.453}
+],
+"know":[
+{"t":"Behavioural modernity","d":"Beads, engraving, pigments and composite tools appear in Africa long before Europe's Upper Paleolithic, so 'modern' behaviour built up gradually.","w":"Behavioral modernity"},
+{"t":"The Last Glacial Period begins","d":"From about 115,000 years ago ice sheets grow in steps until the Last Glacial Maximum about 20,000 years ago.","w":"Last Glacial Period"},
+{"t":"Toba and the bottleneck idea","d":"The Toba supereruption was once blamed for a near-extinction of humans; later work in India and Africa finds little sign of a catastrophe.","w":"Youngest Toba eruption"},
+{"t":"Island humans of Southeast Asia","d":"Homo floresiensis on Flores (about 1.1 m tall) and Homo luzonensis on Luzon show that small human species lived on islands.","w":"Homo floresiensis"},
+{"t":"The first known cave art","d":"Hand stencils in Indonesia show that cave painting began far from Europe and tens of thousands of years earlier than once believed.","w":"Liang Metanduno"}
+],
+"papers":[
+{"a":"Henshilwood et al.","y":2002,"t":"Emergence of Modern Human Behavior: Middle Stone Age Engravings from South Africa","j":"Science","f":"archaeology","c":985,"u":"https://doi.org/10.1126/science.1067575","why":"Engraved ochre from Blombos Cave made the case for early symbolic thought in Africa."},
+{"a":"Henshilwood et al.","y":2018,"t":"An abstract drawing from the 73,000-year-old levels at Blombos Cave, South Africa","j":"Nature","f":"archaeology","c":257,"u":"https://doi.org/10.1038/s41586-018-0514-3","why":"Reported the oldest known drawing, made with an ochre crayon."},
+{"a":"Brown et al.","y":2004,"t":"A new small-bodied hominin from the Late Pleistocene of Flores, Indonesia","j":"Nature","f":"anthropology","c":1070,"u":"https://doi.org/10.1038/nature02999","why":"Described Homo floresiensis, the 'hobbit' of Liang Bua."},
+{"a":"Petraglia et al.","y":2007,"t":"Middle Paleolithic Assemblages from the Indian Subcontinent Before and After the Toba Super-Eruption","j":"Science","f":"archaeology","c":339,"u":"https://doi.org/10.1126/science.1141564","why":"Similar stone tools below and above the Toba ash in India argue against a human catastrophe."},
+{"a":"Oktaviana et al.","y":2026,"t":"Rock art from at least 67,800 years ago in Sulawesi","j":"Nature","f":"archaeology","c":12,"u":"https://doi.org/10.1038/s41586-025-09968-y","why":"Dated a hand stencil on Muna Island as the oldest known cave art."},
+{"a":"Spratt & Lisiecki","y":2016,"t":"A Late Pleistocene sea level stack","j":"Climate of the Past","f":"climate","c":844,"u":"https://doi.org/10.5194/cp-12-1079-2016","why":"Combined sea-level curve for the last 800,000 years, used for coastlines as ice grows."}
+],
+"images":[
+{"cap":"Nassarius shell beads from Blombos Cave, about 75,000 years old","k":"artifact","file":"File:BBC-shell-beads.jpg","cr":"Chris Henshilwood & Francesco d'Errico","lic":"CC BY 2.5"},
+{"cap":"Artist's impression of the Toba eruption","k":"reconstruction","file":"File:Tobaeruption.png","cr":"Anynobody","lic":"CC BY-SA 4.0"},
+{"cap":"Cast of a child burial from Qafzeh Cave (Anthropos Museum, Brno)","k":"site","file":"File:Middle Paleolithic, Cast of funeral of child from Cave of Qafzeh Anthropos, Brno, 187947.jpg","cr":"Zde","lic":"CC BY-SA 4.0"},
+{"cap":"Diepkloof Rock Shelter, Western Cape","k":"site","file":"File:Diepkloof-general-view.JPG","cr":"Vincent Mourre / Inrap","lic":"CC BY-SA 3.0"},
+{"cap":"Skull of Homo floresiensis (cast, Naturmuseum Senckenberg)","k":"people","file":"File:Homo floresiensis skull - Naturmuseum Senckenberg - DSC02091.JPG","cr":"Daderot","lic":"CC0"}
+]},
+{"era":"deep5","events":[],
+"more":[
+{"y":-63050,"l":3,"i":2,"t":"Madjedbebe: first Australians?","d":"Artefacts at Madjedbebe rock shelter in Arnhem Land are dated to about 65,000 years ago, which would be the earliest human presence in Australia (debated; at least 50,000).","w":"Madjedbebe","lat":-12.5,"lon":132.883},
+{"y":-52050,"l":2,"i":2,"t":"Grotte Mandrin: early sapiens in France","d":"A child's tooth and small points show modern humans at Grotte Mandrin in the Rhône valley about 54,000 years ago, between Neanderthal occupations.","w":"Mandrin Cave","lat":44.469,"lon":4.771},
+{"y":-52050,"l":3,"i":3,"t":"Chagyrskaya Neanderthal family","d":"DNA from 11 Neanderthals in Chagyrskaya Cave, Altai, about 54,000 years old, includes a father and his teenage daughter (Skov 2022).","w":"Chagyrskaya Cave","lat":51.442,"lon":83.155},
+{"y":-49250,"l":3,"i":1,"t":"Leang Karampuang painted scene","d":"Human-like figures and a pig painted in Leang Karampuang, Sulawesi, are at least 51,200 years old, the oldest known figurative scene.","w":"Caves in the Maros-Pangkep karst","lat":-5.003,"lon":119.694},
+{"y":-44050,"l":3,"i":2,"t":"Australian megafauna vanish","d":"Diprotodon, the marsupial lion and other giant animals disappear across Australia about 46,000 years ago; humans, climate or both are blamed (debated).","w":"Australian megafauna","lat":null,"lon":null},
+{"y":-44050,"l":2,"i":3,"t":"Bacho Kiro: early sapiens in Europe","d":"Human remains about 46,000 years old from Bacho Kiro Cave, Bulgaria, are among the earliest Homo sapiens in Europe; later individuals had recent Neanderthal ancestors.","w":"Bacho Kiro Cave","lat":42.947,"lon":25.43},
+{"y":-43050,"l":3,"i":2,"t":"Ust'-Ishim man","d":"A thigh bone from the Irtysh River in western Siberia, about 45,000 years old, gave one of the oldest modern-human genomes.","w":"Ust'-Ishim man","lat":57.744,"lon":71.2}
+],
+"know":[
+{"t":"The lasting move out of Africa","d":"Nearly all people outside Africa descend from a dispersal about 70,000–50,000 years ago that spread along southern Asia to Australia.","w":"Early human migrations"},
+{"t":"Mixing with Neanderthals and Denisovans","d":"Non-Africans carry about 1–4% Neanderthal DNA and Melanesians about 4–6% Denisovan DNA from interbreeding on the way.","w":"Interbreeding between archaic and modern humans"},
+{"t":"Sahul and the first sea voyages","d":"Low seas join Australia, New Guinea and Tasmania into Sahul; reaching it needed several open-sea crossings from Asia.","w":"Sahul"},
+{"t":"Megafauna extinctions","d":"Big animals disappear first in Australia and later on other continents, at roughly the times people arrive; how much humans caused it is debated.","w":"Late Pleistocene extinctions"},
+{"t":"Climate flickers","d":"Greenland ice shows repeated abrupt warmings within decades, followed by slower cooling, through the Last Glacial Period.","w":"Dansgaard–Oeschger event"}
+],
+"papers":[
+{"a":"Clarkson et al.","y":2017,"t":"Human occupation of northern Australia by 65,000 years ago","j":"Nature","f":"archaeology","c":1182,"u":"https://doi.org/10.1038/nature22968","why":"Pushed the arrival of people in Australia back to about 65,000 years (debated)."},
+{"a":"Slimak et al.","y":2022,"t":"Modern human incursion into Neanderthal territories 54,000 years ago at Mandrin, France","j":"Science Advances","f":"archaeology","c":224,"u":"https://doi.org/10.1126/sciadv.abj9496","why":"A tooth and tools show Homo sapiens in France about 54,000 years ago, between Neanderthal layers."},
+{"a":"Oktaviana et al.","y":2024,"t":"Narrative cave art in Indonesia by 51,200 years ago","j":"Nature","f":"archaeology","c":81,"u":"https://doi.org/10.1038/s41586-024-07541-7","why":"Dated the Leang Karampuang pig-and-humans scene, the oldest known figurative art."},
+{"a":"Skov et al.","y":2022,"t":"Genetic insights into the social organization of Neanderthals","j":"Nature","f":"genetics","c":172,"u":"https://doi.org/10.1038/s41586-022-05283-y","why":"Chagyrskaya genomes reveal small Neanderthal groups with a father and daughter and women moving between groups."},
+{"a":"Iasi et al.","y":2024,"t":"Neanderthal ancestry through time: Insights from genomes of ancient and present-day humans","j":"Science","f":"genetics","c":59,"u":"https://doi.org/10.1126/science.adq3010","why":"Dates the main Neanderthal interbreeding to about 50,500–43,500 years ago."},
+{"a":"Roberts et al.","y":2001,"t":"New Ages for the Last Australian Megafauna: Continent-Wide Extinction About 46,000 Years Ago","j":"Science","f":"archaeology","c":537,"u":"https://doi.org/10.1126/science.1060264","why":"Dating of 28 sites places the loss of Australia's giant animals about 46,000 years ago."}
+],
+"images":[
+{"cap":"Grotte Mandrin in the Rhône valley, seen from the air","k":"site","file":"File:Mandrin Cave (from the sky).jpg","cr":"Ségolène Vandevelde","lic":"CC BY-SA 4.0"},
+{"cap":"Life-size sculpture of Diprotodon, the largest marsupial","k":"fauna","file":"File:Diprotodon sculpture.jpg","cr":"Yun Huang Yong","lic":"CC BY 2.0"},
+{"cap":"Skeleton of the marsupial lion Thylacoleo, Naracoorte Caves","k":"fauna","file":"File:Thylacoleo skeleton in Naracoorte Caves.jpg","cr":"Karora","lic":"Public domain"},
+{"cap":"Sunda and Sahul at low sea level, with the Wallace line","k":"landscape","file":"File:Map of Sunda and Sahul.png","cr":"Maximilian Dörrbecker (Chumwa)","lic":"CC BY-SA 3.0"},
+{"cap":"Skeleton of Shanidar 1, a Neanderthal who survived severe injuries (Iraq Museum)","k":"people","file":"File:Shanidar I skull and skeleton, c. 60,000 to 45,00o BCE. Iraq Museum.jpg","cr":"Osama Shukir Muhammed Amin FRCP(Glasg)","lic":"CC BY-SA 4.0"}
+]}
+]
