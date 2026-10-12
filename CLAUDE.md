@@ -26,8 +26,10 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Local server: `.claude/launch.json` config `karahan` (python http.server on 8765) → open `http://localhost:8765/karahan-era.html` in the built-in browser.
 - **Preferred: headless Playwright with the installed Edge** (works even when the browser pane is hidden — the pane stops rendering/rAF when hidden):
   - `python dev/test/check.py <outdir>` — errors, GPU vs `?cpu` pixel diff at 5 years (must be ~0), scrub long tasks, screenshots (dark/light/phone). Uses SwiftShader, so its timings are NOT representative.
+  - `python dev/test/touch.py <outdir>` — emulated phone + tablet: swipe over map/timeline scrolls the page, sideways swipe travels, pinch zooms the map, tapped popups stay open, fit and have reachable links (raw CDP touch events; synthesizeScrollGesture does not scroll headless).
   - `python dev/test/profile.py [?cpu]` — CPU profile of a scrub on the real GPU (RTX 3070); use this for performance numbers.
 - All JS lives in one IIFE (no globals): drive via UI (`#goY`/`#goU`/`#go` form, buttons, pointer events on `#tl`), read `#ph`, `#mapinfo`, `#eName`, `#pop`, `#map[data-renderer]` (`webgl2` or `cpu`).
+- Touch model: one finger scrolls the page over the map (two fingers pan/zoom it); timeline/chart take sideways drags; popups are a bottom sheet on touch/narrow screens; `leave`/hover handlers are mouse-only.
 - Check each change at several years (e.g. 21000 BCE, 4500 BCE, 900 CE, 1750, 2020), light + dark, mobile 375 px (no horizontal page scroll), console errors.
 - Base map: WebGL2 shader (`GLB`) mirrors the CPU `buildBase` loop exactly; any change to the base-map rules must be made in **both** (CPU is the fallback; `?cpu` forces it). Context loss falls back to CPU automatically.
 - Perf (2026-10-11, GPU): no long tasks while scrubbing; ~10 ms script per update. CPU fallback: ~200 ms per rebuild, throttled.
@@ -48,7 +50,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Lanes 0 Near East, 1 Africa, 2 Europe, 3 Asia, 4 Americas, 5 Earth & Oceans. Importance `i`: 1 famous, 2 important, 3 specialist.
 - Keep design tokens on `:root` with dark-mode overrides; match the existing compact code style.
 - Facts must be checked against Wikipedia or cited papers; mark estimates and contested points as such.
-- Git repo (local only, no remote): commit each working step; `.gitattributes` keeps files byte-exact.
+- Git repo with GitHub remote `origin` (github.com/kmdan/historytimeline, private): commit each working step and `git push`; `.gitattributes` keeps files byte-exact.
 - Map projection stays equirectangular (user: Equal Earth / globe not needed for now).
 
 ## Known improvement candidates

@@ -43,11 +43,15 @@ input[type=text]{width:7.5em;font-family:var(--f-mono)}
 .stack{display:flex;flex-direction:column}
 .stack .atlas{border-radius:8px 8px 0 0}
 .stack .trench{border-radius:0 0 8px 8px;border-top:0}
-.trench,.atlas{position:relative;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden;touch-action:none;user-select:none}
+.trench,.atlas{position:relative;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden;user-select:none;-webkit-user-select:none}
+/* touch: one finger scrolls the page over the map (two fingers move/zoom it); sideways drags on the timeline travel */
+.atlas{touch-action:pan-x pan-y}
+.trench{touch-action:pan-y}
 .trench canvas,.atlas canvas{display:block;width:100%;cursor:grab}
 canvas.drag{cursor:grabbing!important}
 .ph{position:absolute;top:14px;left:50%;transform:translateX(-50%);pointer-events:none;font-family:var(--f-mono);font-size:12px;background:var(--accent);color:var(--bg);padding:2px 8px;border-radius:0 0 5px 5px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .hint{font-size:12px;color:var(--muted);font-family:var(--f-mono)}
+.touch-only{display:none} @media (pointer:coarse){ .touch-only{display:block} .no-touch{display:none} }
 .atlas-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px 24px}
 .atlas-head h2{font-family:var(--f-display);font-weight:400;font-size:28px;margin:0;line-height:1.1}
 .atlas-head h2 small{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-left:10px;letter-spacing:.04em}
@@ -74,6 +78,13 @@ canvas.drag{cursor:grabbing!important}
 .pop .pl a{color:var(--accent);text-decoration:none;font-weight:500}
 .pop .pl a:hover{text-decoration:underline}
 .pop .pgo{align-self:flex-start}
+.pop .pclose{display:none;position:absolute;top:6px;right:6px;width:36px;height:36px;padding:0;font-size:20px;line-height:1;border-radius:50%}
+@media (pointer:coarse),(max-width:600px){
+  .pop{position:fixed;left:8px!important;right:8px;top:auto!important;bottom:calc(8px + env(safe-area-inset-bottom,0px));width:auto;max-width:560px;margin:0 auto;max-height:62vh;overflow:auto;z-index:50;padding-right:48px;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  .pop .pclose{display:block}
+  .pop .pl a{display:block;padding:7px 0}
+  .pop .pimg{padding:10px}
+}
 .slwrap{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:10px 12px 4px;display:flex;flex-direction:column;gap:4px}
 .slhead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;font-size:13px}
 .slhead b{font-weight:600}
@@ -82,7 +93,7 @@ canvas.drag{cursor:grabbing!important}
 .slkey i.k2{border-top:2px dashed var(--l1)}
 .slkey i.k3{border-top:2px dotted var(--l3)}
 .slhead span{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
-#sl{display:block;width:100%;cursor:pointer;touch-action:none}
+#sl{display:block;width:100%;cursor:pointer;touch-action:pan-y}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted)}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-2px;margin-right:6px;border:1px solid var(--line)}
 .report{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px}
@@ -228,7 +239,8 @@ ol.know a:hover{border-bottom-color:var(--accent)}
       <div class="ph" id="ph"></div>
     </div>
     </div>
-    <div class="hint">Timeline: click the top strip to jump across the whole span · drag to travel · scroll or pinch to zoom down to single years · click a dot or any moment to go there</div>
+    <div class="hint touch-only">Map: tap a place or name for details · two fingers to move and zoom · Timeline: drag sideways to travel, pinch to zoom, tap the top strip to jump</div>
+    <div class="hint no-touch">Timeline: click the top strip to jump across the whole span · drag to travel · scroll or pinch to zoom down to single years · click a dot or any moment to go there</div>
     <div class="legend" id="legend">
       <span><i style="background:var(--b1)"></i>Tropical rainforest</span>
       <span><i style="background:var(--b2)"></i>Savanna &amp; dry forest</span>
@@ -880,18 +892,21 @@ function animateTo(c,s){ if(anim) cancelAnimationFrame(anim.id);
 function zoomAt(f,mx){ const kAt=center-span/2+mx/W*span; span*=f; clamp(); center=kAt-(mx/W-0.5)*span; draw(); }
 
 // generic drag / pinch / wheel handler
-function gestures(el,{pan,zoom,tap,hover,leave}){
-  const ptrs=new Map(); let pinch=null, moved=0, down=false;
-  el.addEventListener('pointerdown',e=>{ el.setPointerCapture(e.pointerId); ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY}); if(ptrs.size===1){moved=0;down=true;el.classList.add('drag');}
-    if(ptrs.size===2){ const [a,b]=[...ptrs.values()]; pinch={d:Math.hypot(a.x-b.x,a.y-b.y)}; } });
+// pointer gestures. Touch: with twoFinger, one finger is left to the browser (page scroll) and two fingers pan + zoom;
+// taps get a larger tolerance; 'leave' is only for mice (a lifted finger also "leaves")
+function gestures(el,{pan,zoom,tap,hover,leave,twoFinger}){
+  const ptrs=new Map(); let pinch=null, moved=0, down=false, touch=false;
+  el.addEventListener('pointerdown',e=>{ touch=e.pointerType!=='mouse'; if(!touch) el.setPointerCapture(e.pointerId); ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY}); if(ptrs.size===1){moved=0;down=true;el.classList.add('drag');}
+    if(ptrs.size===2){ const [a,b]=[...ptrs.values()]; pinch={d:Math.hypot(a.x-b.x,a.y-b.y),mx:(a.x+b.x)/2,my:(a.y+b.y)/2}; } });
   el.addEventListener('pointermove',e=>{ const r=el.getBoundingClientRect();
-    if(!ptrs.has(e.pointerId)){ hover&&hover(e.clientX-r.left,e.clientY-r.top); return; }
+    if(!ptrs.has(e.pointerId)){ if(e.pointerType==='mouse') hover&&hover(e.clientX-r.left,e.clientY-r.top); return; }
     const p=ptrs.get(e.pointerId), dx=e.clientX-p.x, dy=e.clientY-p.y; ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
-    if(ptrs.size===2&&pinch){ const [a,b]=[...ptrs.values()]; const d=Math.hypot(a.x-b.x,a.y-b.y); zoom(pinch.d/d,(a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top); pinch.d=d; moved=99; return; }
-    moved+=Math.abs(dx)+Math.abs(dy); pan(dx,dy); });
+    if(ptrs.size===2&&pinch){ const [a,b]=[...ptrs.values()]; const d=Math.hypot(a.x-b.x,a.y-b.y), mx=(a.x+b.x)/2, my=(a.y+b.y)/2;
+      if(twoFinger) pan(mx-pinch.mx,my-pinch.my); zoom(pinch.d/d,mx-r.left,my-r.top); pinch.d=d; pinch.mx=mx; pinch.my=my; moved=99; return; }
+    moved+=Math.abs(dx)+Math.abs(dy); if(touch&&twoFinger) return; pan(dx,dy); });
   const up=e=>{ ptrs.delete(e.pointerId); if(ptrs.size<2) pinch=null; if(ptrs.size===0&&down){ down=false; el.classList.remove('drag');
-    if(moved<5&&e.type==='pointerup'&&tap){ const r=el.getBoundingClientRect(); tap(e.clientX-r.left,e.clientY-r.top); } } };
-  el.addEventListener('pointerup',up); el.addEventListener('pointercancel',up); el.addEventListener('pointerleave',()=>leave&&leave());
+    if(moved<(touch?12:5)&&e.type==='pointerup'&&tap){ const r=el.getBoundingClientRect(); tap(e.clientX-r.left,e.clientY-r.top,touch); } } };
+  el.addEventListener('pointerup',up); el.addEventListener('pointercancel',up); el.addEventListener('pointerleave',e=>{ if(e.pointerType==='mouse') leave&&leave(); });
   el.addEventListener('wheel',e=>{ e.preventDefault(); const r=el.getBoundingClientRect();
     if(Math.abs(e.deltaX)>Math.abs(e.deltaY)&&!e.ctrlKey){ pan(-e.deltaX,0,true); return; }
     const unit=e.deltaMode===1?33:1; zoom(Math.exp(e.deltaY*unit*(e.ctrlKey?0.01:0.0018)), e.clientX-r.left, e.clientY-r.top); },{passive:false});
@@ -905,10 +920,10 @@ let ovDrag=false;
 gestures(cv,{
   pan:(dx)=>{ if(ovDrag) return; stopAnim(); center-=dx/W*span; draw(); },
   zoom:(f,mx)=>{ stopAnim(); zoomAt(f,mx); },
-  tap:(x,y)=>{ if(y<=OVH+2) return; const h=hitT(x,y); if(h) select(h,true); else animateTo(center-span/2+x/W*span, span); },
+  tap:(x,y,touch)=>{ if(y<=OVH+2) return; const h=hitT(x,y,touch?24:14); if(h) select(h,true); else animateTo(center-span/2+x/W*span, span); },
   hover:(x,y)=>{ cv.style.cursor=y<=OVH+2?'pointer':hitT(x,y)?'pointer':''; }
 });
-function hitT(mx,my){ let best=null,bd=14; const lt=lodTime(); for(const e of EVENTS){ if(e.i>lt&&e!==selected) continue; const x=X(e.k), y=TOP+ERA_H+e.l*laneH+laneH*0.6; const d=Math.hypot(x-mx,y-my); if(d<bd){bd=d;best=e;} } return best; }
+function hitT(mx,my,bd=14){ let best=null; const lt=lodTime(); for(const e of EVENTS){ if(e.i>lt&&e!==selected) continue; const x=X(e.k), y=TOP+ERA_H+e.l*laneH+laneH*0.6; const d=Math.hypot(x-mx,y-my); if(d<bd){bd=d;best=e;} } return best; }
 cv.addEventListener('keydown',e=>{ const m={ArrowLeft:-1,ArrowRight:1}[e.key]; if(m){ center+=m*span*0.08; draw(); e.preventDefault(); }
   if(e.key==='+'||e.key==='='){ zoomAt(0.7,W/2); e.preventDefault(); } if(e.key==='-'||e.key==='_'){ zoomAt(1/0.7,W/2); e.preventDefault(); } });
 
@@ -1440,8 +1455,8 @@ function renderMap(){
       if(!place(px-w/2-2,py-14,px+w/2+2,py+12)) continue;
       mx.textBaseline='middle'; mx.fillStyle=col.muted; mx.font='500 9.5px "IBM Plex Mono", monospace'; halo(n.toUpperCase(),px,py-6,.85);
       mx.fillStyle=col.fg; mx.font='italic 400 11px "IBM Plex Sans", sans-serif'; halo(l2,px,py+6,.85);
-      hits.push({x0:px-w/2-2,y0:py-14,x1:px+w/2+2,y1:py+12,info:{kind:'Climate (estimate)',title:n,sub:`${civil(k)} · annual mean ≈ ${fmtT(t)} (today about ${fmtT(today)})`,
-        desc:`${B.n}: ${B.c}.${ice?' This point lies under the ice sheet.':''} The temperature is an estimate: today’s value shifted by the global change, which was larger near the poles than in the tropics.`,w:B.w,img:B.n,links:[{t:'Köppen climate classification',u:wikiUrl('Köppen climate classification')}]}}); }
+      hits.push({x0:px-w/2-2,y0:py-14,x1:px+w/2+2,y1:py+12,info:{kind:'Climate (estimate)',title:n,sub:`${civil(k)} · annual mean ≈ ${fmtT(t)} (today about ${fmtT(estTemp(n,NOW))})`,
+        desc:`${B.n}: ${B.c}.${ice?' This point lies under the ice sheet.':''} Vegetation and temperature come from a climate-model reconstruction on a half-degree grid (Beyer, Krapp & Manica 2020), with measured warming added after 1950; they are model estimates, not measurements.`,w:B.w,img:B.n,links:[{t:'Beyer et al. 2020, Scientific Data',u:'https://doi.org/10.1038/s41597-020-0552-1'}]}}); }
     mx.textAlign='left'; mx.textBaseline='alphabetic';
   }
   // Ice Age culture names and key sites
@@ -1492,8 +1507,8 @@ function cultureInfo(f){
 
 function pip(x,y,r){ let ins=false; for(let i=0,j=r.length-2;i<r.length;j=i,i+=2){ const xi=r[i]/10,yi=r[i+1]/10,xj=r[j]/10,yj=r[j+1]/10;
   if(((yi>y)!==(yj>y))&&(x<(xj-xi)*(y-yi)/(yj-yi)+xi)) ins=!ins; } return ins; }
-function mapHit(x,y){
-  for(let i=hits.length-1;i>=0;i--){ const h=hits[i]; if(x>=h.x0&&x<=h.x1&&y>=h.y0&&y<=h.y1) return {label:h.info}; }
+function mapHit(x,y,pad=0){
+  for(let i=hits.length-1;i>=0;i--){ const h=hits[i]; if(x>=h.x0-pad&&x<=h.x1+pad&&y>=h.y0-pad&&y<=h.y1+pad) return {label:h.info}; }
   if(LY.borders){ const lon=UNX(x), lat=UNY(y), yr=toSigned(Math.floor(center));
     for(const c of ICEC){ if(!iceCultureActive(c,yr)) continue; const r=c.pts.flat().map(v=>v*10);
       if(pip(lon,lat,r)||(c.wrap&&pip(lon+360,lat,r))) return {label:iceCultureInfo(c)}; } }
@@ -1520,20 +1535,22 @@ function popHTML(i){ const links=[];
   return `<div class="pk">${esc(i.kind)}</div><h4>${esc(i.title)}</h4>${i.sub?`<div class="ps">${esc(i.sub)}</div>`:''}${i.desc?`<p>${esc(i.desc)}</p>`:''}
     ${(i.figs&&i.figs.length)?`<div class="figs">${i.figs.map(figHTML).join('')}</div>`:''}
     <a class="pimg" href="${commonsSearch(i.img||i.title)}" target="_blank" rel="noopener"><span class="pimg-ic" aria-hidden="true"></span><span>Pictures of ${esc(i.img||i.title)}<small>Wikimedia Commons ↗</small></span></a>
-    <div class="pl">${links.join('')}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}`; }
+    <div class="pl">${links.join('')}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}<button type="button" class="pclose" aria-label="Close">×</button>`; }
 function showPop(i,x,y){ popCur=i; popK=Math.floor(center); pop.innerHTML=popHTML(i); pop.hidden=false;
   const go=pop.querySelector('.pgo'); if(go) go.onclick=()=>{ select(i.ev,true); pop.hidden=true; popCur=null; };
+  pop.querySelector('.pclose').onclick=()=>{ pop.hidden=true; popCur=null; };
   const pw=pop.offsetWidth, ph=pop.offsetHeight; let lx=x+14, ly=y+14;
   if(lx+pw>MW-6) lx=Math.max(6,x-pw-14); if(ly+ph>MH-6) ly=Math.max(6,MH-ph-6);
   pop.style.left=lx+'px'; pop.style.top=ly+'px'; }
 function hidePopSoon(){ clearTimeout(popTimer); popTimer=setTimeout(()=>{ if(!overPop){ pop.hidden=true; popCur=null; } },320); }
-pop.addEventListener('pointerenter',()=>{ overPop=true; clearTimeout(popTimer); });
-pop.addEventListener('pointerleave',()=>{ overPop=false; hidePopSoon(); });
+pop.addEventListener('pointerenter',e=>{ if(e.pointerType==='mouse'){ overPop=true; clearTimeout(popTimer); } });
+pop.addEventListener('pointerleave',e=>{ if(e.pointerType==='mouse'){ overPop=false; hidePopSoon(); } });
 let hoverRAF=0;
-gestures(mc,{
+mc.addEventListener('touchmove',e=>{ if(e.touches.length>1) e.preventDefault(); },{passive:false});   // two fingers: map, not page
+gestures(mc,{ twoFinger:true,
   pan:(dx,dy)=>{ mv.lon-=dx/mv.k; mv.lat+=dy/mv.k; mapClamp(); tip.hidden=true; pop.hidden=true; popCur=null; drawMap(); },
   zoom:(f,x,y)=>{ const lon=UNX(x), lat=UNY(y); mv.k/=f; mapClamp(); mv.lon=lon-(x-MW/2)/mv.k; mv.lat=lat+(y-MH/2)/mv.k; mapClamp(); tip.hidden=true; pop.hidden=true; popCur=null; drawMap(); },
-  tap:(x,y)=>{ const h=mapHit(x,y); tip.hidden=true;
+  tap:(x,y,touch)=>{ const h=mapHit(x,y,touch?10:0); tip.hidden=true;
     if(h&&h.label){ if(h.label.ev) select(h.label.ev,false); showPop(h.label,x,y); }
     else if(h&&h.poly){ const ci=cultureInfo(h.poly); if(ci) showPop(ci,x,y); else { pop.hidden=true; popCur=null; showTip(x,y,h.poly.n); } }
     else { pop.hidden=true; popCur=null; showTip(x,y,groundInfo(x,y)); } },
