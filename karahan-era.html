@@ -89,6 +89,11 @@ canvas.drag{cursor:grabbing!important}
 .pop .pimg small{display:block;color:var(--muted);font-size:11.5px}
 .pop .pimg-ic{flex:none;width:34px;height:26px;border-radius:3px;background:linear-gradient(160deg,var(--b6),var(--b4) 55%,var(--b8));position:relative;overflow:hidden}
 .pop .pimg-ic::after{content:"";position:absolute;left:4px;right:4px;bottom:3px;height:10px;background:var(--b7);clip-path:polygon(0 100%,30% 20%,50% 60%,70% 0,100% 100%)}
+.pphoto{display:block;color:var(--muted);text-decoration:none;font-size:11px;line-height:1.3}
+.pphoto img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:50% 30%;border-radius:5px;background:var(--line)}
+.pphoto span{display:block;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pphoto:hover span,.pphoto:focus-visible span{color:var(--accent)}
+.ev .pphoto{max-width:420px;margin:4px 0 8px}
 .pop .pl{display:flex;flex-direction:column;gap:3px}
 .pop .pl a{color:var(--accent);text-decoration:none;font-weight:500}
 .pop .pl a:hover{text-decoration:underline}
@@ -341,6 +346,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
       <h2>Selected event</h2>
       <div class="when" id="evWhen"></div>
       <h3 id="evTitle"></h3>
+      <div id="evPic"></div>
       <p id="evText"></p>
       <div style="display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center"><button type="button" id="evGo">Stand here</button><a id="evWiki" class="ext" target="_blank" rel="noopener" hidden></a><a id="evReddit" class="ext" target="_blank" rel="noopener" hidden>Why it’s here: Reddit discussion ↗</a></div>
       <div class="figs" id="evFigs"></div>
@@ -927,7 +933,7 @@ $('impact').addEventListener('click',ev=>{ const b=ev.target.closest('button[dat
   $('topPosts').addEventListener('click',ev=>{ if(ev.target.closest('a')) return; const b=ev.target.closest('button[data-i]'); if(!b) return; select(EVENTS[+b.dataset.i],true); document.getElementById('atlas').scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); }); }
 $('near').addEventListener('click',ev=>{ const b=ev.target.closest('button'); if(!b) return; select(EVENTS[+b.dataset.i],true); });
 
-function select(e,go){ selected=e; $('evWhen').textContent=`${e.k>=1?'Year '+fmt(e.k)+' KE · ':''}${civil(e.k)} · ${LANES[e.l]}${e.imp?' · Human impact on the environment':''}`; $('evTitle').textContent=e.t; $('evText').textContent=e.d||''; $('evText').hidden=!e.d;
+function select(e,go){ selected=e; $('evWhen').textContent=`${e.k>=1?'Year '+fmt(e.k)+' KE · ':''}${civil(e.k)} · ${LANES[e.l]}${e.imp?' · Human impact on the environment':''}`; $('evTitle').textContent=e.t; { const m=picFor(e.w); $('evPic').innerHTML=m?picHTML(m,e.t):''; } $('evText').textContent=e.d||''; $('evText').hidden=!e.d;
   const a=$('evWiki'); if(e.w){ a.href=wikiUrl(e.w); a.textContent=`Wikipedia: ${e.w} ↗`; a.hidden=false; } else a.hidden=true;
   const rd=$('evReddit'); if(e.src){ rd.href=e.src; rd.hidden=false; } else rd.hidden=true;
   $('evFigs').innerHTML=figsFor(e).map(figHTML).join('');
@@ -1677,17 +1683,22 @@ function groundInfo(x,y){ const lon=UNX(x), lat=UNY(y); if(lon<-180||lon>180||la
   return (B?`${B.n} · ${B.c}`:'Land')+(shelf?' · dry land that is sea floor today':'')+(pd===null?'':` · ≈ ${fmtDens(pd)} people per km² (HYDE estimate)`); }
 function showTip(x,y,text){ tip.textContent=text; tip.style.left=x+'px'; tip.style.top=y+'px'; tip.hidden=!text; }
 
-// popup with description, image link and Wikipedia link
+// pictures: lead image of the item's Wikipedia article, shipped as small files (dev/scripts/build_popup_images.py)
+let PIMG={};
+fetch('atlas/pimg/index.json').then(r=>r.json()).then(d=>{ PIMG=d; if(selected) select(selected); }).catch(()=>{});
+const picFor = t => t&&PIMG[t]||null;
+const picHTML = (m,alt) => `<a class="pphoto" href="${commonsUrl(m.file)}" target="_blank" rel="noopener"><img src="atlas/${esc(m.src)}" width="${m.w}" height="${m.h}" alt="${esc(alt)}" decoding="async"><span>${esc([m.artist,m.lic].filter(Boolean).join(' · '))} ↗</span></a>`;
+// popup with description, picture and Wikipedia link
 let popTimer=0, popCur=null, overPop=false, popK=null;
-function popHTML(i){ const links=[];
+function popHTML(i){ const links=[], pic=picFor(i.img)||picFor(i.w);
   if(i.w) links.push(`<a href="${wikiUrl(i.w)}" target="_blank" rel="noopener">Wikipedia: ${esc(i.w)} ↗</a>`);
   else if(i.search) links.push(`<a href="${wikiSearch(i.search)}" target="_blank" rel="noopener">Find “${esc(i.search)}” on Wikipedia ↗</a>`);
   (i.links||[]).forEach(l=>links.push(`<a href="${l.u}" target="_blank" rel="noopener">${esc(l.t)} ↗</a>`));
   if(i.ev&&i.ev.src) links.push(`<a href="${esc(i.ev.src)}" target="_blank" rel="noopener">Reddit discussion that suggested it ↗</a>`);
-  return `<div class="pk">${esc(i.kind)}</div><h4>${esc(i.title)}</h4>${i.sub?`<div class="ps">${esc(i.sub)}</div>`:''}${i.desc?`<p>${esc(i.desc)}</p>`:''}
+  return `<div class="pk">${esc(i.kind)}</div><h4>${esc(i.title)}</h4>${i.sub?`<div class="ps">${esc(i.sub)}</div>`:''}${pic?picHTML(pic,i.title):''}${i.desc?`<p>${esc(i.desc)}</p>`:''}
     ${(i.figs&&i.figs.length)?`<div class="figs">${i.figs.map(figHTML).join('')}</div>`:''}
-    <a class="pimg" href="${commonsSearch(i.img||i.title)}" target="_blank" rel="noopener"><span class="pimg-ic" aria-hidden="true"></span><span>Pictures of ${esc(i.img||i.title)}<small>Wikimedia Commons ↗</small></span></a>
-    <div class="pl">${links.join('')}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}<button type="button" class="pclose" aria-label="Close">×</button>`; }
+    ${pic?'':`<a class="pimg" href="${commonsSearch(i.img||i.title)}" target="_blank" rel="noopener"><span class="pimg-ic" aria-hidden="true"></span><span>Pictures of ${esc(i.img||i.title)}<small>Wikimedia Commons ↗</small></span></a>`}
+    <div class="pl">${links.join('')}${pic?`<a href="${commonsSearch(i.img||i.title)}" target="_blank" rel="noopener">More pictures on Wikimedia Commons ↗</a>`:''}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}<button type="button" class="pclose" aria-label="Close">×</button>`; }
 function showPop(i,x,y){ popCur=i; popK=Math.floor(center); pop.innerHTML=popHTML(i); pop.hidden=false;
   const go=pop.querySelector('.pgo'); if(go) go.onclick=()=>{ select(i.ev,true); pop.hidden=true; popCur=null; };
   pop.querySelector('.pclose').onclick=()=>{ pop.hidden=true; popCur=null; };
