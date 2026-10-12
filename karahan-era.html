@@ -163,6 +163,9 @@ ol.know a:hover{border-bottom-color:var(--accent)}
 .gallery .kind{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
 .gallery .cap{font-size:14px;line-height:1.4}
 .gallery .cr{font-size:12px;color:var(--muted);margin-top:auto}
+.gallery a.pic{padding:0;overflow:hidden}
+.gallery a.pic img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.gallery a.pic .kind,.gallery a.pic .cap,.gallery a.pic .cr{padding:0 14px}.gallery a.pic .cr{padding-bottom:12px}
 .papers{overflow-x:auto}
 .papers table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
 .papers th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;text-align:left;padding:6px 10px 8px 0;border-bottom:1px solid var(--line)}
@@ -334,7 +337,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
       <div class="figs grid" id="figGallery"></div>
     </div>
     <div class="card wide">
-      <h2>See it: illustrations on Wikimedia Commons</h2>
+      <h2>See it: illustrations from Wikimedia Commons</h2>
       <div class="gallery" id="gallery"></div>
     </div>
     <div class="card wide">
@@ -363,7 +366,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     <p><b>Population density.</b> People per km² from the History Database of the Global Environment, HYDE 3.2.1 (<a href="https://doi.org/10.5194/essd-9-927-2017" target="_blank" rel="noopener">Klein Goldewijk et al. 2017</a>; <a href="https://doi.org/10.17026/DANS-25G-GEZ3" target="_blank" rel="noopener">data</a>, CC BY 3.0), averaged to half-degree cells and blended between its time steps (every 1,000 years before 1 CE, every century to 1700, then every 10 years). The map shows people rather than density: density times land area, summed in a grid that adapts to the zoom, drawn as circles whose area is proportional to the number of people, with the largest labelled. Totals come out within about 10% of HYDE's published figures. Before about 1500 these are model estimates: regional population totals spread over the land by its suitability, not counts. There is no gridded reconstruction before 10,000 BCE, so the layer is empty then.</p>
     <p><b>Volcanic eruptions.</b> The largest eruptions from 500 BCE to 1900 CE (at least 10 million tonnes of sulfur reaching the stratosphere) come from the ice-core database eVolv2k version 4 (<a href="https://doi.org/10.1594/PANGAEA.971968" target="_blank" rel="noopener">Sigl &amp; Toohey 2024</a>, CC BY 4.0); eruptions whose volcano is still unknown appear on the timeline only.</p>
     <p><b>Reddit picks.</b> 31 events (marked “Reddit discussion” in their card) were added after surveying threads in r/AskHistory, r/AncientCivilizations and r/MapPorn about overlooked periods and regions; each was checked against its Wikipedia article.</p>
-    <p><b>Links and references.</b> Each event links to its Wikipedia article. The "See it" cards open illustrations on Wikimedia Commons (they can't be shown inside the page). "Key papers" lists landmark works for each era with citation counts from <a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex</a> as of October 2026; counts for books are often undercounted. When you are zoomed out, only the best-known events appear; zoom in on the timeline or the map to see specialist sites and finds.</p>
+    <p><b>Links and references.</b> Each event links to its Wikipedia article. The "See it" pictures are small copies of Wikimedia Commons files under free licences; each opens its Commons page with full author and licence details. "Key papers" lists landmark works for each era with citation counts from <a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex</a> as of October 2026; counts for books are often undercounted. When you are zoomed out, only the best-known events appear; zoom in on the timeline or the map to see specialist sites and finds.</p>
     <p><b>Facts and figures</b> were checked against Wikipedia and, for the Society panel, against the papers cited there: Hill et al. 2011 (Science), Tallavaara et al. 2015 (PNAS), Gurven &amp; Kaplan 2007, Volk &amp; Atkinson 2013, Kohler et al. 2017 (Nature), Bocquet-Appel 2011 (Science), Mummert et al. 2011, Shennan et al. 2013 (Nat. Comms), Haak et al. 2015 (Nature), Rasmussen et al. 2015 and Rascovan et al. 2019 (Cell), Seersholm et al. 2024 (Nature), Mittnik et al. 2019 (Science), Macintosh et al. 2017 (Sci. Adv.), Lahr et al. 2016 (Nature), Crevecoeur et al. 2021 (Sci. Rep.), Scheidel (The Great Leveler), Scheidel &amp; Friesen 2009, Alfani, Eisner, Clark (A Farewell to Alms), Koch et al. 2019 and Our World in Data. Contested points (White Sands and Monte Verde dates, Trypillia population, plague's role in the Neolithic decline) are flagged in the text.</p>
     <p><b>Other layers.</b> Peoples, and states before 3400 BCE, come from the community <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> project (53 snapshots, drawn with approximate borders). Dated sites are about 200,000 radiocarbon dates from the <a href="https://www.p3k14c.org/" target="_blank" rel="noopener">p3k14c</a> database and <a href="https://xronos.ch/" target="_blank" rel="noopener">XRONOS</a> (<a href="https://doi.org/10.5334/jcaa.191" target="_blank" rel="noopener">Roe et al. 2025</a>, CC BY 4.0; it includes EUROEVOL, RADON and other regional databases), merged by laboratory number and calibrated with IntCal20; they show where archaeologists have dug as much as where people lived, so Europe and North America look busier than they were.</p>
     <p>Figures before 1800 are scholarly estimates with wide error bars: population, sea level and especially Holocene temperature are still debated. Before Year 1 the count runs into negative numbers.</p>
@@ -845,6 +848,16 @@ function update(){
 let renderedEra=null;
 const FIELD={archaeology:'Archaeology',genetics:'Genetics',biology:'Biology',climate:'Climate',history:'History',anthropology:'Anthropology',sociology:'Sociology',economics:'Economics'};
 const KIND={landscape:'Landscape',people:'People',fauna:'Animals',flora:'Plants',site:'Site',artifact:'Artefact',reconstruction:'Reconstruction'};
+// Era illustrations: local thumbnails from atlas/img (built by dev/scripts/build_images.py; licences read from Commons);
+// files without a local copy stay link cards
+let IMG=null, galleryR=null;
+function renderGallery(r){
+  galleryR=r;
+  $('gallery').innerHTML=r.images.map(im=>{ const m=IMG&&IMG[im.file], ok=m&&m.ok&&m.src;
+    const cr=[im.cr||(m&&m.artist), ok?m.lic:im.lic].filter(Boolean).join(' · ')||'Wikimedia Commons';
+    return `<a${ok?' class="pic"':''} href="${commonsUrl(im.file)}" target="_blank" rel="noopener">${ok?`<img src="atlas/${esc(m.src)}" width="${m.w}" height="${m.h}" alt="${esc(im.cap)}" loading="lazy" decoding="async">`:''}<span class="kind">${esc(KIND[im.k]||im.k)}</span><span class="cap">${esc(im.cap)}</span><span class="cr">${esc(cr)} ↗</span></a>`; }).join('');
+}
+fetch('atlas/img/index.json').then(r=>r.json()).then(d=>{ IMG=d; if(galleryR) renderGallery(galleryR); }).catch(()=>{});
 function renderEra(era){
   if(era===renderedEra) return; renderedEra=era;
   const r=RESEARCH[ERAS.indexOf(era)]; if(!r) return;
@@ -855,7 +868,7 @@ function renderEra(era){
   $('know').innerHTML=r.know.map(x=>`<li><b>${x.w?`<a href="${wikiUrl(x.w)}" target="_blank" rel="noopener">${esc(x.t)}</a>`:esc(x.t)}</b><p>${esc(x.d)}</p></li>`).join('');
   { const fl=FIGS.filter(f=>{ const k=ke(f.y); return k>=era.ka&&k<era.kb; }).sort((a,b)=>a.y-b.y);
     $('figGallery').innerHTML=fl.length?fl.map(figHTML).join(''):'<p style="color:var(--muted);font-size:14px">No open-licence scientific figure has been collected for this era yet.</p>'; }
-  $('gallery').innerHTML=r.images.map(im=>`<a href="${commonsUrl(im.file)}" target="_blank" rel="noopener"><span class="kind">${esc(KIND[im.k]||im.k)}</span><span class="cap">${esc(im.cap)}</span><span class="cr">${esc([im.cr,im.lic].filter(Boolean).join(' · ')||'Wikimedia Commons')} ↗</span></a>`).join('');
+  renderGallery(r);
   const ps=[...r.papers].sort((a,b)=>(b.c??-1)-(a.c??-1)); const max=Math.max(1,...ps.map(p=>p.c||0));
   $('papers').innerHTML=`<table><thead><tr><th>Work</th><th>Field</th><th class="c">Cited by</th></tr></thead><tbody>${ps.map(p=>`<tr><td><a href="${esc(p.u)}" target="_blank" rel="noopener">${esc(p.t)}</a> <span style="color:var(--muted)">· ${esc(p.a)} ${esc(p.y)}, <i>${esc(p.j)}</i></span><span class="why">${esc(p.why)}</span></td><td><span class="fld">${esc(FIELD[p.f]||p.f)}</span></td><td class="c">${p.c!=null?`<span class="bar" style="width:${Math.max(2,Math.round(p.c/max*60))}px"></span>${fmt(p.c)}`:'n/a'}</td></tr>`).join('')}</tbody></table>`;
 }

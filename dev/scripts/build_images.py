@@ -2,12 +2,13 @@
 
 Reads the Commons file names from <script id="research"> in karahan-era.html,
 asks the Commons API for a 640 px thumbnail plus licence/author metadata, and
-writes atlas/img/<id>.jpg and atlas/img/index.json:
-  {"File:...": {"src": "img/<id>.jpg", "w": .., "h": .., "lic": .., "lic_url": .., "artist": .., "ok": bool}}
+writes atlas/img/<id>.webp (quality 76, ~50 kB) and atlas/img/index.json:
+  {"File:...": {"src": "img/<id>.webp", "w": .., "h": .., "lic": .., "lic_url": .., "artist": .., "ok": bool}}
 "ok" is False when the licence is not free (the page then keeps a link card).
 Run: .venv/Scripts/python -I dev/scripts/build_images.py
 """
-import hashlib, html, json, re, sys, time, urllib.parse, urllib.request
+import hashlib, html, io, json, re, sys, time, urllib.parse, urllib.request
+from PIL import Image
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -55,13 +56,13 @@ def main():
         rec = {'lic': lic, 'lic_url': m.get('LicenseUrl', {}).get('value', ''),
                'artist': text(m.get('Artist', {}).get('value'))[:120], 'ok': ok}
         if ok:
-            name = hashlib.sha1(f.encode()).hexdigest()[:10] + '.jpg'
-            # SVG/PNG thumbs come back as PNG; the browser sniffs the type, but keep .jpg only for JPEG
-            url = ii['thumburl']
-            if not url.lower().split('?')[0].endswith(('.jpg', '.jpeg')):
-                name = name[:-4] + '.png'
-            (OUT / name).write_bytes(get(url))
-            rec.update(src='img/' + name, w=ii.get('thumbwidth'), h=ii.get('thumbheight'))
+            name = hashlib.sha1(f.encode()).hexdigest()[:10] + '.webp'
+            im = Image.open(io.BytesIO(get(ii['thumburl']))); im.load()
+            if im.mode != 'RGB':  # flatten transparency (SVG/PNG thumbs) onto white
+                im = im.convert('RGBA'); bg = Image.new('RGB', im.size, (255, 255, 255)); bg.paste(im, mask=im.split()[3]); im = bg
+            im.thumbnail((WIDTH, WIDTH * 2))
+            im.save(OUT / name, 'WEBP', quality=76, method=6)
+            rec.update(src='img/' + name, w=im.width, h=im.height)
         idx[f] = rec
         print('ok ' if ok else 'NONFREE', lic, '|', f)
         idx_path.write_text(json.dumps(idx, ensure_ascii=False, indent=0, sort_keys=True), encoding='utf-8')
