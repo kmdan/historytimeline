@@ -6,6 +6,8 @@ image (prop=pageimages, pilicense=free), skips maps / flags / charts / SVG drawi
 author from Commons, and writes atlas/pimg/<id>.webp (360 px wide, ~20 kB) and atlas/pimg/index.json:
   {"<Wikipedia title>": {"src": "pimg/<id>.webp", "w":.., "h":.., "file": "File:..", "lic":.., "artist":..}}
 Popup items look pictures up by their Wikipedia title (`w`), sites by name.
+dev/data/popup_images_pick.json overrides the lead image per title/site (hand-picked art);
+dev/data/popup_images_skip.json lists lead images rejected by eye (maps, charts, text pages).
 Run: .venv/Scripts/python -I dev/scripts/build_popup_images.py [--cultures]   (--cultures adds the 800 culture articles)
 """
 import hashlib, html, io, json, re, sys, time, urllib.parse, urllib.request
@@ -21,6 +23,8 @@ FREE = re.compile(r'^(public domain|pd|cc0|cc by(-sa)? [\d.]+|cc-by(-sa)?-[\d.]+
 SKIP = re.compile(r'(\.svg$|\.gif$|map|karte|carte|mapa|locator|location|distribution|range|extent|expansion|migration|'
                   r'route|flag|coat.of.arms|emblem|seal.of|chart|graph|diagram|timeline|plot|logo|\bpd\b.*text)', re.I)
 # lead images checked by eye on contact sheets and found to be maps, charts or text pages
+# hand-picked pictures (paintings / life restorations in their setting) that replace or add to the lead image
+PICK = json.loads((ROOT / 'dev' / 'data' / 'popup_images_pick.json').read_text(encoding='utf-8'))
 SKIP_FILES = set(json.loads((ROOT / 'dev' / 'data' / 'popup_images_skip.json').read_text(encoding='utf-8')))
 SITE = re.compile(r'(archaeolog|cave|rock shelter|rockshelter|paleolithic|palaeolithic|mesolithic|neolithic|prehistoric|site|burial|settlement)', re.I)
 
@@ -93,6 +97,7 @@ def main():
     page = (ROOT / 'karahan-era.html').read_text(encoding='utf-8')
     wt, sites = titles(page, '--cultures' in sys.argv)
     want = lead_images(wt); want.update({k: v for k, v in lead_images(sites, True).items() if k not in want})
+    want.update(PICK)
     print(len(wt), 'titles +', len(sites), 'sites ->', len(want), 'with a usable lead picture')
     OUT.mkdir(parents=True, exist_ok=True)
     idx_path = OUT / 'index.json'
