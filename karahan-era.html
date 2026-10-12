@@ -55,6 +55,16 @@ h1 span{color:var(--accent)}
 #qList .d{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
 #qList .none{display:block;color:var(--muted);cursor:default}
 @media (max-width:600px){ .search{flex-basis:100%;max-width:none} }
+.place .placebar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+#plStrip{display:block;width:100%;height:150px}
+.pop .pplace{display:flex;flex-wrap:wrap;gap:6px}
+.note{position:absolute;z-index:4;left:50%;top:10px;transform:translateX(-50%);width:min(380px,calc(100% - 100px));background:var(--surface);color:var(--fg);border:1px solid var(--accent);border-radius:8px;padding:10px 12px;box-shadow:0 8px 28px rgba(0,0,0,.2);font-size:13px;line-height:1.45;display:flex;flex-direction:column;gap:4px}
+.note .nk{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.note b{font-family:var(--f-display);font-weight:400;font-size:18px;line-height:1.2}
+.note .nrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.note .nbar{height:3px;background:var(--accent);border-radius:2px;transform-origin:left;animation:nbar linear forwards}
+@keyframes nbar{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@media (pointer:coarse),(max-width:600px){ .note{top:auto;bottom:8px;width:calc(100% - 16px)} }
 .playbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
 #bPlay{min-width:6.5em;font-weight:500}
 #bPlay[aria-pressed="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--surface))}
@@ -267,6 +277,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
       </div>
       <div class="tip" id="tip" hidden></div>
       <div class="pop" id="pop" hidden></div>
+      <div class="note" id="note" hidden role="status" aria-live="polite"></div>
     </div>
     <div class="trench" id="trench">
       <canvas id="tl" tabindex="0" aria-label="Timeline. The strip at the top shows the whole span; click it to jump. Drag the lanes to move, scroll or pinch to zoom, click to jump to a moment or an event."></canvas>
@@ -355,6 +366,13 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     <div class="card">
       <h2>Look around: nearest event in each region</h2>
       <ul class="near" id="near"></ul>
+    </div>
+    <div class="card wide place" id="placeCard" hidden>
+      <h2>What happened here <span class="h2note" id="plWhere"></span></h2>
+      <div class="placebar"><button type="button" id="plPlay">▶ Play from here</button><button type="button" id="plClear">Remove pin</button><span class="hint" id="plNote"></span></div>
+      <canvas id="plStrip" aria-label="This place through time: sea, land or ice; vegetation; people; dated finds"></canvas>
+      <h3 class="subh">Nearby events</h3>
+      <ul class="near" id="plEvents"></ul>
     </div>
     <div class="card ev" id="evCard">
       <h2>Selected event</h2>
@@ -1384,7 +1402,7 @@ function loadHB(y){
 }
 
 // label placement + hit regions for popups
-let placed=[], hits=[]; const cultC=document.createElement('canvas');
+let placePin=null; let placed=[], hits=[]; const cultC=document.createElement('canvas');
 function place(x0,y0,x1,y1){ for(const r of placed) if(x0<r[2]&&x1>r[0]&&y0<r[3]&&y1>r[1]) return false; placed.push([x0,y0,x1,y1]); return true; }
 function halo(text,x,y,a=.8){ mx.lineWidth=3; mx.strokeStyle=col.surface; mx.globalAlpha=a; mx.strokeText(text,x,y); mx.globalAlpha=1; mx.fillText(text,x,y); }
 
@@ -1617,6 +1635,11 @@ function renderMap(){
       const ci=cultureInfo(f); if(ci) hits.push({x0:x-w/2-3,y0:yy-8,x1:x+w/2+3,y1:yy+8,info:ci}); }
     mx.textAlign='left'; mx.textBaseline='alphabetic';
   }
+  // pinned place ("What happened here")
+  if(placePin){ const px=PX(placePin.lon), py=PY(placePin.lat);
+    if(px>-20&&px<MW+20&&py>-20&&py<MH+20){ mx.save(); mx.fillStyle=col.accent; mx.strokeStyle=col.surface; mx.lineWidth=2;
+      mx.beginPath(); mx.moveTo(px,py); mx.lineTo(px-7,py-15); mx.arc(px,py-19,8,Math.PI*0.8,Math.PI*0.2,false); mx.closePath(); mx.fill(); mx.stroke();
+      mx.fillStyle=col.surface; mx.beginPath(); mx.arc(px,py-19,3,0,7); mx.fill(); mx.restore(); } }
   // info chips
   info.push(`Sea level ${seaTxt(sea)} vs today · ${(()=>{const v=interp(TMP,k);return (v>0.04?'+':v<-0.04?'−':'±')+Math.abs(v).toFixed(1)})()} °C`);
   if(LY.pop) info.push(y<POPY[0]?'Population: no gridded estimate before 10,000 BCE':`Population ≈ ${fmtPeople(popWorld).replace(' M',' million')} worldwide (HYDE estimate)`);
@@ -1660,7 +1683,7 @@ function groundInfo(x,y){ const lon=UNX(x), lat=UNY(y); if(lon<-180||lon>180||la
 function showTip(x,y,text){ tip.textContent=text; tip.style.left=x+'px'; tip.style.top=y+'px'; tip.hidden=!text; }
 
 // popup with description, image link and Wikipedia link
-let popTimer=0, popCur=null, overPop=false, popK=null;
+let popTimer=0, popCur=null, overPop=false, popK=null, popSticky=false;
 function popHTML(i){ const links=[];
   if(i.w) links.push(`<a href="${wikiUrl(i.w)}" target="_blank" rel="noopener">Wikipedia: ${esc(i.w)} ↗</a>`);
   else if(i.search) links.push(`<a href="${wikiSearch(i.search)}" target="_blank" rel="noopener">Find “${esc(i.search)}” on Wikipedia ↗</a>`);
@@ -1669,14 +1692,16 @@ function popHTML(i){ const links=[];
   return `<div class="pk">${esc(i.kind)}</div><h4>${esc(i.title)}</h4>${i.sub?`<div class="ps">${esc(i.sub)}</div>`:''}${i.desc?`<p>${esc(i.desc)}</p>`:''}
     ${(i.figs&&i.figs.length)?`<div class="figs">${i.figs.map(figHTML).join('')}</div>`:''}
     <a class="pimg" href="${commonsSearch(i.img||i.title)}" target="_blank" rel="noopener"><span class="pimg-ic" aria-hidden="true"></span><span>Pictures of ${esc(i.img||i.title)}<small>Wikimedia Commons ↗</small></span></a>
-    <div class="pl">${links.join('')}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}<button type="button" class="pclose" aria-label="Close">×</button>`; }
-function showPop(i,x,y){ popCur=i; popK=Math.floor(center); pop.innerHTML=popHTML(i); pop.hidden=false;
+    <div class="pl">${links.join('')}</div>${i.ev?`<button type="button" class="pgo">Stand here</button>`:''}${i.place?`<div class="pplace"><button type="button" class="phere">What happened here?</button><button type="button" class="pplay">▶ Play from here</button></div>`:''}<button type="button" class="pclose" aria-label="Close">×</button>`; }
+function showPop(i,x,y,sticky=false){ popCur=i; popSticky=sticky; popK=Math.floor(center); pop.innerHTML=popHTML(i); pop.hidden=false;
   const go=pop.querySelector('.pgo'); if(go) go.onclick=()=>{ select(i.ev,true); pop.hidden=true; popCur=null; };
   pop.querySelector('.pclose').onclick=()=>{ pop.hidden=true; popCur=null; };
+  if(i.place){ pop.querySelector('.phere').onclick=()=>{ pop.hidden=true; popCur=null; setPlace(i.place.lat,i.place.lon,true); };
+    pop.querySelector('.pplay').onclick=()=>{ pop.hidden=true; popCur=null; setPlace(i.place.lat,i.place.lon,false); placePlay(); }; }
   const pw=pop.offsetWidth, ph=pop.offsetHeight; let lx=x+14, ly=y+14;
   if(lx+pw>MW-6) lx=Math.max(6,x-pw-14); if(ly+ph>MH-6) ly=Math.max(6,MH-ph-6);
   pop.style.left=lx+'px'; pop.style.top=ly+'px'; }
-function hidePopSoon(){ clearTimeout(popTimer); popTimer=setTimeout(()=>{ if(!overPop){ pop.hidden=true; popCur=null; } },320); }
+function hidePopSoon(){ if(popSticky) return; clearTimeout(popTimer); popTimer=setTimeout(()=>{ if(!overPop&&!popSticky){ pop.hidden=true; popCur=null; } },320); }
 pop.addEventListener('pointerenter',e=>{ if(e.pointerType==='mouse'){ overPop=true; clearTimeout(popTimer); } });
 pop.addEventListener('pointerleave',e=>{ if(e.pointerType==='mouse'){ overPop=false; hidePopSoon(); } });
 let hoverRAF=0;
@@ -1685,12 +1710,13 @@ gestures(mc,{ twoFinger:true,
   pan:(dx,dy)=>{ mv.lon-=dx/mv.k; mv.lat+=dy/mv.k; mapClamp(); tip.hidden=true; pop.hidden=true; popCur=null; drawMap(); },
   zoom:(f,x,y)=>{ const lon=UNX(x), lat=UNY(y); mv.k/=f; mapClamp(); mv.lon=lon-(x-MW/2)/mv.k; mv.lat=lat+(y-MH/2)/mv.k; mapClamp(); tip.hidden=true; pop.hidden=true; popCur=null; drawMap(); },
   tap:(x,y,touch)=>{ const h=mapHit(x,y,touch?10:0); tip.hidden=true;
-    if(h&&h.label){ if(h.label.ev) select(h.label.ev,false); showPop(h.label,x,y); }
-    else if(h&&h.poly){ const ci=cultureInfo(h.poly); if(ci) showPop(ci,x,y); else { pop.hidden=true; popCur=null; showTip(x,y,h.poly.n); } }
-    else { pop.hidden=true; popCur=null; showTip(x,y,groundInfo(x,y)); } },
+    if(h&&h.label){ const e=h.label.ev; if(e) select(e,false); showPop({...h.label,place:e&&e.g?{lat:e.g[0],lon:e.g[1]}:{lat:UNY(y),lon:UNX(x)}},x,y,true); }
+    else if(h&&h.poly){ const ci=cultureInfo(h.poly); if(ci) showPop({...ci,place:{lat:UNY(y),lon:UNX(x)}},x,y,true); else { pop.hidden=true; popCur=null; showTip(x,y,h.poly.n); } }
+    else { const g=groundInfo(x,y); if(!g){ pop.hidden=true; popCur=null; return; }
+      showPop({kind:'This place',title:g.split(' · ')[0],sub:latLonTxt(UNY(y),UNX(x)),desc:g.split(' · ').slice(1).join(' · '),img:g.split(' · ')[0],place:{lat:UNY(y),lon:UNX(x)}},x,y,true); } },
   hover:(x,y)=>{ cancelAnimationFrame(hoverRAF); hoverRAF=requestAnimationFrame(()=>{ const h=mapHit(x,y);
     mc.style.cursor=h&&h.label?'pointer':'';
-    if(h&&h.label){ tip.hidden=true; if(popCur!==h.label){ clearTimeout(popTimer); popTimer=setTimeout(()=>showPop(h.label,x,y),130); } }
+    if(h&&h.label){ tip.hidden=true; if(popCur!==h.label&&!popSticky){ clearTimeout(popTimer); popTimer=setTimeout(()=>showPop(h.label,x,y),130); } }
     else { if(popCur) hidePopSoon(); else clearTimeout(popTimer);
       showTip(x,y,h&&h.poly?h.poly.n:groundInfo(x,y)); } }); },
   leave:()=>{ tip.hidden=true; if(popCur) hidePopSoon(); else clearTimeout(popTimer); }
@@ -1794,12 +1820,84 @@ function playStart(){ if(play) return; stopAnim(); if(center>=NOW-1) center=Math
   const tick=now=>{ const dt=Math.min(0.1,(now-last)/1000); last=now; const r=playRate(center);
     center=Math.min(NOW,center+r*dt);
     const want=Math.max(40,r*12); span=Math.exp(Math.log(span)+(Math.log(want)-Math.log(span))*Math.min(1,dt*1.5));   // zoom follows the speed
-    $('pRate').textContent=`≈ ${yearsLabel(r)} per second`; draw();
-    if(center>=NOW){ playStop(); return; } play.id=requestAnimationFrame(tick); };
+    $('pRate').textContent=`≈ ${yearsLabel(r)} per second`;
+    if(placeTick()) return; draw(); if(placeData) drawPlace();
+    if(center>=NOW){ playStop(); if(placeRun) placeStop(); return; } play.id=requestAnimationFrame(tick); };
   play={id:requestAnimationFrame(tick)}; }
-bPlay.onclick=()=>play?playStop():playStart();
-cv.addEventListener('pointerdown',()=>playStop());   // touching the timeline takes over
+bPlay.onclick=()=>{ if(play){ playStop(); if(placeRun){ clearTimeout(placeRun.timer); $('note').hidden=true; } } else if(placeRun) placeResume(); else playStart(); };
+cv.addEventListener('pointerdown',()=>{ if(play||placeRun) placeStop(); });   // touching the timeline takes over
 document.addEventListener('keydown',e=>{ if(e.code!=='Space'||e.target.closest('input,select,textarea,button,a')) return; e.preventDefault(); play?playStop():playStart(); });
+
+// ---------- "What happened here?": a pinned place through time, and playback that pauses for what happens nearby ----------
+const latLonTxt=(la,lo)=>`${Math.abs(la).toFixed(1)}°${la>=0?'N':'S'} ${Math.abs(lo).toFixed(1)}°${lo>=0?'E':'W'}`;
+const kmBetween=(a,b,c,d)=>{ const R=6371, r=Math.PI/180, x=(d-b)*r*Math.cos((a+c)/2*r), y=(c-a)*r; return R*Math.hypot(x,y); };
+const BIOTOK=['land-low','b1','b2','b3','b4','b5','b6','b7','b8','ice','b10'];
+let placeData=null;
+function placeState(la,lo,k){ const y=toSigned(Math.floor(k)), p=cellOf(lo,la), sea=interp(SEA,k);
+  if(!landAt(p,sea,y)) return {s:terr[p*4]===135?'lake':'sea'}; if(iceAt(p,y)) return {s:'ice'}; return {s:'land',b:biomeAt(p,y)||0}; }
+function setPlace(la,lo,show){ if(!terr) return; placePin={lat:la,lon:lo};
+  const ages=[]; for(let i=0;i<=300;i++) ages.push(Math.exp(Math.log(NOW-DMIN)+(Math.log(8)-Math.log(NOW-DMIN))*i/300));   // log-spaced, oldest first
+  const samples=ages.map(a=>{ const k=NOW-a; return {a,k,...placeState(la,lo,k), pop:popAt(lo,la,toSigned(Math.floor(k)))}; });
+  // radiocarbon dates within ~150 km, per century bin
+  const c14b=new Map(); if(c14){ const near=new Set(); for(let i=0;i<c14.cells.length;i+=2) if(Math.abs(c14.cells[i+1]-la)<1.4&&kmBetween(la,lo,c14.cells[i+1],c14.cells[i])<150) near.add(i/2);
+    for(const [b,arr] of Object.entries(c14.bins)) for(let i=0;i<arr.length;i+=2) if(near.has(arr[i])) c14b.set(+b,(c14b.get(+b)||0)+arr[i+1]); }
+  const evs=EVENTS.filter(e=>e.g).map(e=>({e,d:kmBetween(la,lo,e.g[0],e.g[1])})).filter(x=>x.d<(x.e.i<=2?900:400)).sort((a,b)=>a.e.k-b.e.k);
+  placeData={la,lo,samples,c14b,evs};
+  $('placeCard').hidden=false; $('plWhere').textContent='· '+latLonTxt(la,lo);
+  const nearK=center; const order=evs.map((x,i)=>[Math.abs(x.e.k-nearK),i]).sort((a,b)=>a[0]-b[0]).slice(0,8).map(x=>x[1]);   // 8 closest in time first
+  $('plEvents').innerHTML=evs.length? evs.map(({e,d},i)=>`<li${order.includes(i)||evs.length<=10?'':' class="more" hidden'}><button type="button" data-i="${EVENTS.indexOf(e)}"><span class="dot" style="background:var(--l${e.l})"></span><span class="t"><b>${esc(e.t)}</b><span>${esc(LANES[e.l])} · about ${fmt(Math.round(d/10)*10)} km away</span></span><span class="d">${civil(e.k)}</span></button></li>`).join('')
+    : '<li class="hint">No dated events in this project within reach of this spot yet.</li>';
+  if(evs.length>10) $('plEvents').insertAdjacentHTML('beforeend',`<li><button type="button" class="showall"><span></span><span class="t"><b>Show all ${evs.length} nearby events</b></span><span></span></button></li>`);
+  drawPlace(); drawMap(); if(show) $('placeCard').scrollIntoView({behavior:reduce?'auto':'smooth',block:'nearest'}); }
+$('plEvents').addEventListener('click',ev=>{ if(ev.target.closest('.showall')){ $('plEvents').querySelectorAll('li.more').forEach(li=>li.hidden=false); ev.target.closest('li').remove(); return; }
+  const b=ev.target.closest('button[data-i]'); if(b) select(EVENTS[+b.dataset.i],true); });
+$('plClear').onclick=()=>{ placeStop(); placePin=null; placeData=null; $('placeCard').hidden=true; drawMap(); };
+$('plPlay').onclick=()=>placePlay();
+function drawPlace(){ const c=$('plStrip'); if(!placeData||c.offsetParent===null) return; const w=c.clientWidth, h=150; c.width=w*dpr; c.height=h*dpr; const g=c.getContext('2d'); g.setTransform(dpr,0,0,dpr,0,0); g.clearRect(0,0,w,h);
+  const L=92, R=8, T=6, rowH=24, gap=6, S=placeData.samples, aMax=NOW-DMIN, aMin=8;
+  const ax=a=>L+(Math.log(aMax)-Math.log(a))/(Math.log(aMax)-Math.log(aMin))*(w-L-R);
+  g.font='11px "IBM Plex Mono", monospace'; g.textBaseline='middle'; g.fillStyle=col.muted;
+  ['Surface','Vegetation','People','Dated finds'].forEach((t,i)=>g.fillText(t,4,T+i*(rowH+gap)+rowH/2));
+  for(let i=0;i<S.length-1;i++){ const x0=ax(S[i].a), x1=ax(S[i+1].a)+0.6, s=S[i];
+    g.fillStyle= s.s==='ice'?col.ice: s.s==='land'?col['land-high']: s.s==='lake'?col.river:col['sea-deep']; g.fillRect(x0,T,x1-x0,rowH);
+    if(s.s==='land'){ g.fillStyle=col[BIOTOK[s.b]]||col['land-low']; g.fillRect(x0,T+rowH+gap,x1-x0,rowH); } }
+  // people: log bar height, only from 10,000 BCE
+  const pr=T+2*(rowH+gap); let pmax=0; S.forEach(s=>{ if(s.pop) pmax=Math.max(pmax,s.pop); });
+  if(pmax>0){ g.fillStyle=col['pop-mid']; for(let i=0;i<S.length-1;i++){ const v=S[i].pop; if(!v) continue; const hh=Math.max(1,rowH*Math.log10(1+v)/Math.log10(1+pmax)); g.fillRect(ax(S[i].a),pr+rowH-hh,ax(S[i+1].a)-ax(S[i].a)+0.6,hh); }
+    g.fillStyle=col.muted; g.textAlign='right'; g.fillText(`max ≈ ${fmtDens(pmax)}/km²`,w-R,pr-1); g.textAlign='left'; }
+  // dated finds: century bins, plotted at their age
+  const fr=T+3*(rowH+gap); let fmax=0; placeData.c14b.forEach(v=>fmax=Math.max(fmax,v));
+  if(fmax>0){ g.fillStyle=col.accent; placeData.c14b.forEach((v,b)=>{ const yr=c14.start+(b+0.5)*c14.bin, a=Math.max(aMin,1950-yr+(NOW-ke(1950))); if(a>aMax) return; const hh=Math.max(1.5,rowH*Math.sqrt(v/fmax)); g.fillRect(ax(a)-1,fr+rowH-hh,2,hh); }); }
+  // axis: years ago, and the current year
+  g.fillStyle=col.muted; g.textAlign='center'; for(const a of [100000,10000,1000,100]){ if(a>aMax) continue; const x=ax(a); g.fillRect(x,T,1,4*(rowH+gap)-gap); g.fillText(a>=1000?`${fmt(a/1000)}k yrs ago`:`${a} yrs ago`,x,h-6); } g.textAlign='left';
+  const cx=ax(Math.max(aMin,NOW-center)); g.fillStyle=col.accent; g.fillRect(cx-1,T-2,2,4*(rowH+gap)-gap+4); }
+
+// play from here: map centred on the pin; stops at nearby events and at changes of the place itself
+let placeRun=null;
+function placeStops(fromK){ if(!placeData) return []; const st=[];
+  for(const {e,d} of placeData.evs) if(e.k>fromK) st.push({k:e.k,kind:LANES[e.l]+` · about ${fmt(Math.round(d/10)*10)} km away`,t:e.t,d:e.d||'',ev:e});
+  const S=placeData.samples, lab={sea:'sea',lake:'a lake',ice:'under the ice',land:'dry land'};
+  for(let i=1;i<S.length;i++){ const a=S[i-1], b=S[i]; if(b.k<=fromK) continue;
+    if(a.s!==b.s){ const t= a.s==='ice'&&b.s!=='ice'?'The ice melts away from here': b.s==='ice'?'Ice covers this spot': b.s==='sea'&&a.s==='land'?'The sea floods this spot': a.s==='sea'&&b.s==='land'?'Land rises out of the sea here':`From ${lab[a.s]} to ${lab[b.s]}`;
+      st.push({k:b.k,kind:'This place',t,d:b.s==='sea'?'Rising sea level drowns the land: this spot becomes sea floor.':b.s==='land'&&a.s==='ice'?`The ground is free of ice; the vegetation becomes ${BIO[b.b]?BIO[b.b].n.toLowerCase():'established'}.`:''}); }
+    else if(a.s==='land'&&a.b!==b.b&&b.b&&a.b){ const j=Math.min(S.length-1,i+2); if(S[j].b===b.b) st.push({k:b.k,kind:'This place',t:`${BIO[b.b].n} replaces ${BIO[a.b].n.toLowerCase()}`,d:BIO[b.b].c?`The climate here: ${BIO[b.b].c}.`:''}); } }
+  return st.sort((a,b)=>a.k-b.k).filter((s,i,arr)=>i===0||s.k-arr[i-1].k>Math.max(2,(NOW-s.k)*0.02)); }   // no two stops too close in time
+function showNote(s,ms){ const n=$('note'); n.hidden=false;
+  n.innerHTML=`<span class="nk">${esc(civil(s.k))} · ${esc(s.kind)}</span><b>${esc(s.t)}</b>${s.d?`<span>${esc(s.d)}</span>`:''}<span class="nrow">${s.ev&&s.ev.w?`<a class="ext" href="${wikiUrl(s.ev.w)}" target="_blank" rel="noopener">Wikipedia ↗</a>`:''}<button type="button" class="ngo">Continue ▶</button><button type="button" class="nstop">Stop</button></span><span class="nbar" style="animation-duration:${ms}ms"></span>`;
+  n.querySelector('.ngo').onclick=()=>placeResume(); n.querySelector('.nstop').onclick=()=>placeStop(); }
+function placeStop(){ if(placeRun){ clearTimeout(placeRun.timer); placeRun=null; } playStop(); $('note').hidden=true; $('plNote').textContent=''; }
+function placeResume(){ if(!placeRun) return; clearTimeout(placeRun.timer); $('note').hidden=true; playStart(); }
+function placePlay(){ if(!placePin) return; placeStop(); playStop();
+  mv.lat=placePin.lat; mv.lon=placePin.lon; mv.k=Math.max(mv.k,minK()*3); mapClamp(); drawMap();
+  if(center>=NOW-5) center=Math.max(DMIN,ke(-12000));
+  placeRun={stops:placeStops(center), i:0, timer:0};
+  $('plNote').textContent=placeRun.stops.length?`${placeRun.stops.length} stops on the way`:'Nothing recorded nearby; time runs on.';
+  document.getElementById('atlas').scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); playStart(); }
+// called from the play loop: pause at the next stop
+function placeTick(){ if(!placeRun) return false; const s=placeRun.stops[placeRun.i]; if(!s||center<s.k) return false;
+  center=s.k; placeRun.i++; playStop(); if(s.ev) select(s.ev,false); const ms=s.ev?4500:3500; showNote(s,ms); draw();
+  placeRun.timer=setTimeout(()=>{ if(placeRun) placeResume(); },ms); return true; }
+new ResizeObserver(()=>drawPlace()).observe($('placeCard'));
 
 // ---------- search: events, eras and migrations; the list narrows as you type ----------
 { const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
