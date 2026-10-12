@@ -1,0 +1,1883 @@
+[
+{
+"sp": "mam",
+"site": "Wrangel Island, Russia",
+"lat": 71.0,
+"lon": -179.5,
+"old": 4113,
+"young": 3933,
+"src": "Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618; Vartanyan et al. 2008, Quaternary Research (Wrangel 14C comp"
+},
+{
+"sp": "mam",
+"site": "St. Paul Island (Pribilof Is.), lake core, USA (Alaska)",
+"lat": 57.15,
+"lon": -170.25,
+"old": 5700,
+"young": 5500,
+"src": "Graham et al. 2016, PNAS 113(33):9310-9314, doi:10.1073/pnas.1604903113"
+},
+{
+"sp": "mam",
+"site": "Nizhnyaya Taymyra River, Taimyr, Russia",
+"lat": 75.25,
+"lon": 99.73,
+"old": 11206,
+"young": 10914,
+"src": "Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618"
+},
+{
+"sp": "mam",
+"site": "Yuribey River, Gydan Peninsula, Russia",
+"lat": 68.92,
+"lon": 71.0,
+"old": 11650,
+"young": 11336,
+"src": "Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618"
+},
+{
+"sp": "mam",
+"site": "Lugovskoe (Khanty-Mansi), Russia",
+"lat": 61.05,
+"lon": 68.57,
+"old": 12239,
+"young": 11575,
+"src": "Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618; Orlova et al. 2004, Radiocarbon (Lugovskoe, possible extra-A"
+},
+{
+"sp": "mam",
+"site": "Volchya Griva (Baraba steppe), Russia",
+"lat": 54.5,
+"lon": 80.2,
+"old": 13107,
+"young": 12875,
+"src": "Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618"
+},
+{
+"sp": "mam",
+"site": "Puurmani, central Estonia, Estonia",
+"lat": 58.56,
+"lon": 26.28,
+"old": 11860,
+"young": 11450,
+"src": "Lõugas, Ukkonen & Jungner 2002, QSR 21:1347-1354, doi:10.1016/S0277-3791(01)00098-1; Krivokorin et al. 2025, Land 14(1):178, doi:10.3390/land14010178"
+},
+{
+"sp": "mam",
+"site": "Berelekh (Berelyokh) mammoth 'graveyard', Indigirka lowland, Russia",
+"lat": 70.55,
+"lon": 149.05,
+"old": 16578,
+"young": 13665,
+"src": "Pitulko et al. 2014, Geoarchaeology, doi:10.1002/gea.21483; Orlova, Kuzmin & Dementiev 2004, Radiocarbon 46(1):301-314, Table 1, doi:10.1017/S0033822200039618"
+},
+{
+"sp": "mam",
+"site": "Achchagyi-Allaikha mass accumulation, Yana-Indigirka lowland, Russia",
+"lat": 69.0,
+"lon": 147.3,
+"old": 14672,
+"young": 14513,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens"
+},
+{
+"sp": "mam",
+"site": "Condover (Norton Farm Pit), Shropshire, United Kingdom",
+"lat": 52.65,
+"lon": -2.75,
+"old": 14830,
+"young": 13930,
+"src": "Allen et al. 2009, Geological Journal 44(4), doi:10.1002/gj.1161; Scourse et al. 2009, doi:10.1002/gj.1163"
+},
+{
+"sp": "mam",
+"site": "Hebior mammoth, Kenosha County, Wisconsin, USA",
+"lat": 42.55,
+"lon": -88.05,
+"old": 14694,
+"young": 14267,
+"src": "Overstreet & Kolb 2003, Geoarchaeology 18(1); GSA 2005 abstract; Kenosha Public Museum"
+},
+{
+"sp": "mam",
+"site": "Chicken (Fortymile area), interior Alaska, USA (Alaska)",
+"lat": 64.07,
+"lon": -141.94,
+"old": 14176,
+"young": 13176,
+"src": "Alaska Science Forum / UAF Geophysical Institute 2023, https://www.gi.alaska.edu/alaska-science-forum/adopted-mammoth-fell-15000-years-ago; Guthrie 2004, Nature (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "mam",
+"site": "Mezhyrich, mammoth-bone structure 4, Ukraine",
+"lat": 49.62,
+"lon": 31.47,
+"old": 18248,
+"young": 17764,
+"src": "Chu et al. 2025, Open Research Europe 5:198, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12639289/"
+},
+{
+"sp": "mam",
+"site": "Kostenki 11, mammoth-bone circle (layer Ia), Russia",
+"lat": 51.39,
+"lon": 39.04,
+"old": 25063,
+"young": 24490,
+"src": "Pryor et al. 2020, Antiquity, doi:10.15184/aqy.2020.7 (suppl. Table S1)"
+},
+{
+"sp": "mam",
+"site": "Dolní Věstonice / Pavlov (Pavlovian Gravettian), Czech Republic",
+"lat": 48.88,
+"lon": 16.65,
+"old": 31000,
+"young": 29000,
+"src": "Fewlass et al. 2019, J. Archaeol. Sci. Reports 27, https://hal.archives-ouvertes.fr/hal-02302131"
+},
+{
+"sp": "mam",
+"site": "Yana RHS (Yana Rhinoceros Horn Site), Russia",
+"lat": 70.72,
+"lon": 135.43,
+"old": 33040,
+"young": 28920,
+"src": "Pitulko et al. 2004, Science 303:52-56 (PMID 14704419); XRONOS; Wikipedia 'Yana Rhinoceros Horn Site'"
+},
+{
+"sp": "mam",
+"site": "Ji'nan, Shandong, China",
+"lat": 36.65,
+"lon": 117.0,
+"old": 38359,
+"young": 37259,
+"src": "Takahashi et al. 2007, QSR 26:954-957, doi:10.1016/j.quascirev.2006.12.001"
+},
+{
+"sp": "mam",
+"site": "Padul, Granada Basin, Spain",
+"lat": 37.02,
+"lon": -3.6,
+"old": 40400,
+"young": 30600,
+"src": "Álvarez-Lao et al. 2009, Palaeogeogr. Palaeoclimatol. Palaeoecol. 278:57-70, doi:10.1016/j.palaeo.2009.04.011"
+},
+{
+"sp": "mam",
+"site": "Yuni, Hokkaido, Japan",
+"lat": 42.99,
+"lon": 141.81,
+"old": 47962,
+"young": 46814,
+"src": "Takahashi et al. 2006, Palaeogeogr. Palaeoclimatol. Palaeoecol. 233:1-10, doi:10.1016/j.palaeo.2005.08.006"
+},
+{
+"sp": "mam",
+"site": "Cape Erimo, Hokkaido, Japan",
+"lat": 41.93,
+"lon": 143.25,
+"old": 23681,
+"young": 23363,
+"src": "Takahashi et al. 2006 (see Yuni row)"
+},
+{
+"sp": "mam",
+"site": "Lyuba calf, Yuribey River, Yamal Peninsula, Russia",
+"lat": 68.92,
+"lon": 69.7,
+"old": 46092,
+"young": 44892,
+"src": "Fisher et al. 2012, Quaternary International 255:94-105, doi:10.1016/j.quaint.2011.05.040 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "mam",
+"site": "Sopochnaya Karga ('Zhenya'), Yenisei Bay, Taimyr, Russia",
+"lat": 71.9,
+"lon": 82.7,
+"old": 45944,
+"young": 45458,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens; Pitulko et al. 2016, Science (butchered mammoth)"
+},
+{
+"sp": "mam",
+"site": "Yuka calf, Oyogos Yar coast (near Yukagir), Russia",
+"lat": 72.68,
+"lon": 143.5,
+"old": 39702,
+"young": 39242,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens"
+},
+{
+"sp": "mam",
+"site": "Fishhook mammoth, Taimyra River estuary, Russia",
+"lat": 74.4,
+"lon": 99.5,
+"old": 24984,
+"young": 24720,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens"
+},
+{
+"sp": "mam",
+"site": "Yukagir mammoth (head), northern Yakutia, Russia",
+"lat": 71.7,
+"lon": 140.0,
+"old": 22500,
+"young": 22500,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens; Wikipedia 'Yukagir mammoth'"
+},
+{
+"sp": "mam",
+"site": "Malolyakhovsky mammoth ('Buttercup'), Maly Lyakhovsky Island, Russia",
+"lat": 74.1,
+"lon": 140.6,
+"old": 33250,
+"young": 32534,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens"
+},
+{
+"sp": "mam",
+"site": "Kirgilyakh mammoth ('Dima'), upper Kolyma basin, Russia",
+"lat": 62.8,
+"lon": 148.2,
+"old": 44300,
+"young": 43300,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "mam",
+"site": "Adams mammoth, Lena delta (Bykovsky Peninsula), Russia",
+"lat": 71.8,
+"lon": 129.2,
+"old": 41108,
+"young": 40108,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "mam",
+"site": "Effie (Fairbanks Creek), near Fairbanks, USA (Alaska)",
+"lat": 65.05,
+"lon": -147.15,
+"old": 38347,
+"young": 33607,
+"src": "Wikipedia 'List of mammoth specimens' https://en.wikipedia.org/wiki/List_of_mammoth_specimens"
+},
+{
+"sp": "mam",
+"site": "Mamontovaya Kurya, Usa River (Komi), Russia",
+"lat": 66.57,
+"lon": 62.42,
+"old": 40000,
+"young": 40000,
+"src": "Pavlov, Svendsen & Indrelid 2001, Nature 413:64-67, doi:10.1038/35092552; Wikipedia 'Mamontovaya Kurya'"
+},
+{
+"sp": "mam",
+"site": "Niederweningen, Wehntal (Zurich), Switzerland",
+"lat": 47.51,
+"lon": 8.38,
+"old": 49000,
+"young": 45180,
+"src": "Hajdas et al. 2007, Quaternary International 164-165:98-105; Mammutmuseum Niederweningen (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "mam",
+"site": "Lynford Quarry, Norfolk, United Kingdom",
+"lat": 52.53,
+"lon": 0.66,
+"old": 65000,
+"young": 57000,
+"src": "Boismier, Gamble & Coward (eds) 2012, Neanderthals Among Mammoths: Excavations at Lynford Quarry, Norfolk (English Heritage)"
+},
+{
+"sp": "mam",
+"site": "Ilford (Uphall Pit), east London, United Kingdom",
+"lat": 51.56,
+"lon": 0.07,
+"old": 243000,
+"young": 191000,
+"src": "London Museum, mammoth jaw (MIS 7); Lister et al. 2005, Quaternary International 126-128:49-64 (M. primigenius enters Europe shortly after 200 ka)"
+},
+{
+"sp": "rhi",
+"site": "Bad Frankenhausen, Germany",
+"lat": 51.36,
+"lon": 11.1,
+"old": 478000,
+"young": 424000,
+"src": "Uzunidis, Antoine & Brugal 2022 QSR 288:107594 (Table 1), doi:10.1016/j.quascirev.2022.107594; Kahlke & Lacombat 2008 QSR 27:1951-1961"
+},
+{
+"sp": "rhi",
+"site": "La Fage (Noailles), France",
+"lat": 45.1,
+"lon": 1.52,
+"old": 374000,
+"young": 243000,
+"src": "Uzunidis, Antoine & Brugal 2022 QSR 288:107594 (Table 1), doi:10.1016/j.quascirev.2022.107594"
+},
+{
+"sp": "rhi",
+"site": "Neumark-Nord, Germany",
+"lat": 51.32,
+"lon": 11.89,
+"old": 243000,
+"young": 191000,
+"src": "Uzunidis, Antoine & Brugal 2022 QSR 288:107594 (Table 1), doi:10.1016/j.quascirev.2022.107594 (citing van der Made 2010)"
+},
+{
+"sp": "rhi",
+"site": "Romain-la-Roche, France",
+"lat": 47.53,
+"lon": 6.38,
+"old": 191000,
+"young": 130000,
+"src": "Uzunidis, Antoine & Brugal 2022 QSR 288:107594 (Table 1), doi:10.1016/j.quascirev.2022.107594 (citing Guerin 2010)"
+},
+{
+"sp": "rhi",
+"site": "Settepolesini, Italy",
+"lat": 44.9,
+"lon": 11.45,
+"old": 52856,
+"young": 46956,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Labeko Koba Cave, Spain",
+"lat": 43.07,
+"lon": -2.46,
+"old": 47239,
+"young": 43919,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Starunia, Ukraine",
+"lat": 48.72,
+"lon": 24.5,
+"old": 46156,
+"young": 44896,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Kamchatka Peninsula, Russia",
+"lat": 55.83,
+"lon": 159.67,
+"old": 48159,
+"young": 45619,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Strashnaya Cave, Altai, Russia",
+"lat": 51.3,
+"lon": 83.0,
+"old": 47569,
+"young": 45989,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Cherskiy (lower Kolyma), Russia",
+"lat": 68.76,
+"lon": 161.63,
+"old": 43709,
+"young": 43009,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Salawusu, Ordos, Inner Mongolia, China",
+"lat": 38.75,
+"lon": 109.17,
+"old": 43177,
+"young": 41797,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Wrangel Island, Neizvestnaya River, Russia",
+"lat": 71.26,
+"lon": 179.43,
+"old": 42641,
+"young": 42121,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Wilderness Pit, Bishopbriggs, United Kingdom",
+"lat": 55.93,
+"lon": -4.2,
+"old": 35983,
+"young": 35363,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Kostenki, Russia",
+"lat": 51.41,
+"lon": 39.05,
+"old": 31410,
+"young": 31190,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Third Cave, Goyet, Belgium",
+"lat": 50.45,
+"lon": 5.01,
+"old": 28617,
+"young": 28037,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Mal'ta, Russia",
+"lat": 52.86,
+"lon": 103.55,
+"old": 24351,
+"young": 24071,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Jasna Cave, Poland",
+"lat": 50.26,
+"lon": 19.41,
+"old": 19401,
+"young": 19141,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Hongqi site, Heilongjiang, China",
+"lat": 46.47,
+"lon": 126.03,
+"old": 20302,
+"young": 20042,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Kesslerloch Cave, Switzerland",
+"lat": 47.75,
+"lon": 8.7,
+"old": 17626,
+"young": 17226,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Gönnersdorf, Germany",
+"lat": 50.45,
+"lon": 7.42,
+"old": 16925,
+"young": 16745,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Anadyr' Region, Otrozhniy Mine (Chukotka), Russia",
+"lat": 65.12,
+"lon": 172.8,
+"old": 16778,
+"young": 16178,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Upper Lena (Baikal area), Russia",
+"lat": 54.0,
+"lon": 105.8,
+"old": 16427,
+"young": 15827,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Bolshoy Lyakhovsky Island, New Siberian Islands, Russia",
+"lat": 73.33,
+"lon": 141.34,
+"old": 16426,
+"young": 15826,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Dankovo site, Ryazan Region, Russia",
+"lat": 53.25,
+"lon": 39.15,
+"old": 15337,
+"young": 14917,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Kama River near Solikamsk, Urals, Russia",
+"lat": 59.91,
+"lon": 56.35,
+"old": 15083,
+"young": 14783,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Lobvinsky Grotto (Lobva Cave), Urals, Russia",
+"lat": 59.47,
+"lon": 60.07,
+"old": 14395,
+"young": 13935,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Molodo River, Russia",
+"lat": 69.2,
+"lon": 123.2,
+"old": 14857,
+"young": 14437,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Ust'-Omolon, Russia",
+"lat": 68.7,
+"lon": 158.7,
+"old": 14384,
+"young": 13944,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Lena-Amga interfluve, Russia",
+"lat": 61.0,
+"lon": 130.0,
+"old": 14079,
+"young": 13919,
+"src": "Stuart & Lister 2012 QSR 51:1-17, SI Table 1, doi:10.1016/j.quascirev.2012.06.007"
+},
+{
+"sp": "rhi",
+"site": "Tumat (Syallakh area), Yakutia, Russia",
+"lat": 70.73,
+"lon": 139.23,
+"old": 14400,
+"young": 14400,
+"src": "Guðjónsdóttir et al. 2026 Genome Biol Evol 18(1):evaf239, doi:10.1093/gbe/evaf239"
+},
+{
+"sp": "lio",
+"site": "Les Rameaux (Saint-Antonin-Noble-Val), France",
+"lat": 44.15,
+"lon": 1.75,
+"old": 243000,
+"young": 130000,
+"src": "Uzunidis, Antoine & Brugal 2022 QSR 288:107594 (Table 1), doi:10.1016/j.quascirev.2022.107594 (citing Argant & Brugal 2017)"
+},
+{
+"sp": "lio",
+"site": "Einhornhöhle (Harz), Germany",
+"lat": 51.62,
+"lon": 10.43,
+"old": 190000,
+"young": 190000,
+"src": "Russo et al. 2023 Sci Rep 13, doi:10.1038/s41598-023-42764-0"
+},
+{
+"sp": "lio",
+"site": "Nizhnyaya Tunguska River, Russia",
+"lat": 64.71,
+"lon": 90.81,
+"old": 54466,
+"young": 51926,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Bolshoy Lyakhovsky Island, Russia",
+"lat": 73.51,
+"lon": 142.04,
+"old": 51934,
+"young": 49054,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Siegsdorf, Germany",
+"lat": 47.81,
+"lon": 12.65,
+"old": 51555,
+"young": 48235,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Russo et al. 2023 doi:10.1038/s41598-023-42764-0"
+},
+{
+"sp": "lio",
+"site": "North Sea (Dutch sector), Netherlands",
+"lat": 51.77,
+"lon": 3.69,
+"old": 49163,
+"young": 47543,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1"
+},
+{
+"sp": "lio",
+"site": "Aufhausener Höhle, Germany",
+"lat": 48.57,
+"lon": 9.76,
+"old": 47584,
+"young": 46464,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1"
+},
+{
+"sp": "lio",
+"site": "Semyuelyakh River (Tirekhtyakh basin, Indigirka) - cub \"Boris\", Russia",
+"lat": 68.6,
+"lon": 147.2,
+"old": 46177,
+"young": 45377,
+"src": "Quaternary (MDPI) 2021, 4(3):24, doi:10.3390/quat4030024"
+},
+{
+"sp": "lio",
+"site": "Tamir (Selenga basin), Russia",
+"lat": 50.27,
+"lon": 107.4,
+"old": 43748,
+"young": 43028,
+"src": "Malikov et al. 2024 Russ J Theriol 23(1):83-94, doi:10.15298/rusjtheriol.23.1.09 (dates from Stuart & Lister 2011)"
+},
+{
+"sp": "lio",
+"site": "Kyttyk Peninsula, Chukotka, Russia",
+"lat": 69.5,
+"lon": 167.5,
+"old": 41747,
+"young": 41287,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Quartz Creek, Yukon, Canada",
+"lat": 63.49,
+"lon": -139.27,
+"old": 34587,
+"young": 34327,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1 (citing Barnett et al. 2016 Open Quat doi:10.5334/oq.24)"
+},
+{
+"sp": "lio",
+"site": "Volga-Don Canal, Russia",
+"lat": 48.55,
+"lon": 44.03,
+"old": 32995,
+"young": 32255,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Semyuelyakh River (Tirekhtyakh basin, Indigirka) - cub \"Sparta\", Russia",
+"lat": 68.6,
+"lon": 147.2,
+"old": 32047,
+"young": 31667,
+"src": "Quaternary (MDPI) 2021, 4(3):24, doi:10.3390/quat4030024; Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1"
+},
+{
+"sp": "lio",
+"site": "Keremsit River, Indigirka, Russia",
+"lat": 65.29,
+"lon": 143.06,
+"old": 31795,
+"young": 31455,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Kurtak 4 (Yenisei), Russia",
+"lat": 55.14,
+"lon": 91.52,
+"old": 30129,
+"young": 29889,
+"src": "Malikov et al. 2024 Russ J Theriol 23(1):83-94, doi:10.15298/rusjtheriol.23.1.09 (dates from Stuart & Lister 2011)"
+},
+{
+"sp": "lio",
+"site": "Mal'ta, Russia",
+"lat": 52.85,
+"lon": 103.52,
+"old": 25909,
+"young": 25749,
+"src": "Malikov et al. 2024 Russ J Theriol 23(1):83-94, doi:10.15298/rusjtheriol.23.1.09 (dates from Stuart & Lister 2011)"
+},
+{
+"sp": "lio",
+"site": "Khroma River, Indigirka, Russia",
+"lat": 70.16,
+"lon": 141.97,
+"old": 23935,
+"young": 23655,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Onon River, Transbaikalia, Russia",
+"lat": 50.58,
+"lon": 115.4,
+"old": 21951,
+"young": 21631,
+"src": "Malikov et al. 2024 Russ J Theriol 23(1):83-94, doi:10.15298/rusjtheriol.23.1.09 (dates from Stuart & Lister 2011)"
+},
+{
+"sp": "lio",
+"site": "Kubekovo (Krasnoyarsk), Russia",
+"lat": 56.15,
+"lon": 93.11,
+"old": 21964,
+"young": 21644,
+"src": "Malikov et al. 2024 Russ J Theriol 23(1):83-94, doi:10.15298/rusjtheriol.23.1.09 (dates from Stuart & Lister 2011)"
+},
+{
+"sp": "lio",
+"site": "Urals, Russia",
+"lat": 60.23,
+"lon": 59.2,
+"old": 16486,
+"young": 16246,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Schusterlucke cave, Austria",
+"lat": 48.45,
+"lon": 15.4,
+"old": 18881,
+"young": 18521,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa; Stuart & Li"
+},
+{
+"sp": "lio",
+"site": "Smolensk region, Russia",
+"lat": 54.78,
+"lon": 32.02,
+"old": 17207,
+"young": 17007,
+"src": "Stanton et al. 2020 Sci Rep 10:12621, Suppl. Table 1, doi:10.1038/s41598-020-69474-1; Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa"
+},
+{
+"sp": "lio",
+"site": "Zigeunerfels Cave (Sigmaringen), Germany",
+"lat": 48.1,
+"lon": 9.18,
+"old": 14623,
+"young": 14203,
+"src": "Stuart & Lister 2012 QSR 51:1-17 Table 2, doi:10.1016/j.quascirev.2012.06.007 (from Stuart & Lister 2011 QSR 30:2329-2340, doi:10.1016/j.quascirev.2010.04.023)"
+},
+{
+"sp": "lio",
+"site": "Le Closeau (Rueil-Malmaison), France",
+"lat": 48.87,
+"lon": 2.18,
+"old": 14364,
+"young": 13884,
+"src": "Stuart & Lister 2012 QSR 51:1-17 Table 2, doi:10.1016/j.quascirev.2012.06.007 (from Stuart & Lister 2011 QSR 30:2329-2340, doi:10.1016/j.quascirev.2010.04.023)"
+},
+{
+"sp": "lio",
+"site": "Lena Delta, Russia",
+"lat": 72.5,
+"lon": 126.5,
+"old": 15354,
+"young": 13926,
+"src": "Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa (citing Stuart & Lister 2011 QSR 30:2329-2340, doi:10.1016/j.quascirev.2010.04.023)"
+},
+{
+"sp": "lio",
+"site": "Fairbanks Creek, Alaska, USA",
+"lat": 65.0,
+"lon": -147.3,
+"old": 13839,
+"young": 12741,
+"src": "Ersmark et al. 2015 Open Quaternary 1:1-15, doi:10.5334/oq.aa (citing Stuart & Lister 2011 QSR 30:2329-2340, doi:10.1016/j.quascirev.2010.04.023)"
+},
+{
+"sp": "lio",
+"site": "Uyandina River, Abyysky District (cubs \"Uyan\" and \"Dina\"), Russia",
+"lat": 68.4,
+"lon": 145.83,
+"old": 55000,
+"young": 25000,
+"src": "Wikipedia \"Cave lion\" (Panthera spelaea), retrieved 2026-10-12"
+},
+{
+"sp": "bea",
+"site": "Boxgrove, United Kingdom",
+"lat": 50.86,
+"lon": -0.69,
+"old": 480000,
+"young": 480000,
+"src": "Wikipedia 'Ursus deningeri'; https://en.wikipedia.org/wiki/Ursus_deningeri"
+},
+{
+"sp": "bea",
+"site": "Sima de los Huesos, Atapuerca, Spain",
+"lat": 42.35,
+"lon": -3.52,
+"old": 430000,
+"young": 430000,
+"src": "Arsuaga et al. 2014 Science 344:1358-1363; doi:10.1126/science.1253958"
+},
+{
+"sp": "bea",
+"site": "Medzhibozh, Ukraine",
+"lat": 49.44,
+"lon": 27.41,
+"old": 400000,
+"young": 400000,
+"src": "Wikipedia 'Ursus deningeri'; https://en.wikipedia.org/wiki/Ursus_deningeri"
+},
+{
+"sp": "bea",
+"site": "Kudaro caves, Georgia",
+"lat": 42.31,
+"lon": 43.41,
+"old": 400000,
+"young": 400000,
+"src": "Stiller & Baryshnikov 2014 Quat Int 339-340:224-231; doi:10.1016/j.quaint.2013.09.023"
+},
+{
+"sp": "bea",
+"site": "Scladina Cave, Sclayn, Belgium",
+"lat": 50.49,
+"lon": 5.03,
+"old": 80000,
+"young": 42500,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Nerubajskoe 3, Odessa, Ukraine",
+"lat": 46.53,
+"lon": 30.36,
+"old": 56000,
+"young": 56000,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Hovk 1 cave, Armenia",
+"lat": 40.88,
+"lon": 45.0,
+"old": 55000,
+"young": 55000,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Denisova Cave, Altai, Russia",
+"lat": 51.24,
+"lon": 84.38,
+"old": 52937,
+"young": 52937,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Ramesch-Knochenhöhle, Austria",
+"lat": 47.64,
+"lon": 14.25,
+"old": 52766,
+"young": 47016,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Conturines Cave, Italy",
+"lat": 46.62,
+"lon": 11.95,
+"old": 47594,
+"young": 47594,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Peștera cu Oase, Romania",
+"lat": 45.03,
+"lon": 21.84,
+"old": 46800,
+"young": 42900,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Kizel Cave, Middle Urals, Russia",
+"lat": 59.0,
+"lon": 57.6,
+"old": 50325,
+"young": 48925,
+"src": "Pacher et al. 2009, 15th Int. Cave Bear Symposium abstracts p.14-17; https://www.zin.ru/labs/theriology/staff/baryshnikov/references/pacher_et_al_2009.pdf (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "bea",
+"site": "Chauvet-Pont d'Arc Cave, France",
+"lat": 44.39,
+"lon": 4.42,
+"old": 42000,
+"young": 33000,
+"src": "Quiles et al. 2016 PNAS 113:4670-4675; doi:10.1073/pnas.1523158113"
+},
+{
+"sp": "bea",
+"site": "Divje babe I, Slovenia",
+"lat": 46.07,
+"lon": 13.92,
+"old": 50000,
+"young": 35000,
+"src": "Wikipedia 'Divje Babe'; https://en.wikipedia.org/wiki/Divje_Babe"
+},
+{
+"sp": "bea",
+"site": "Gailenreuth Cave, Germany",
+"lat": 49.83,
+"lon": 11.33,
+"old": 40484,
+"young": 40484,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Ossenyaga cave, NW Caucasus, Russia",
+"lat": 43.67,
+"lon": 39.9,
+"old": 40383,
+"young": 40383,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Kudaro 3 cave, Georgia",
+"lat": 42.31,
+"lon": 43.41,
+"old": 38000,
+"young": 37000,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Hohle Fels, Germany",
+"lat": 48.38,
+"lon": 9.75,
+"old": 35550,
+"young": 35550,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Potočka zijalka, Slovenia",
+"lat": 46.45,
+"lon": 14.67,
+"old": 31231,
+"young": 31231,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Geißenklösterle, Germany",
+"lat": 48.4,
+"lon": 9.77,
+"old": 31166,
+"young": 31069,
+"src": "Knapp et al. 2009 Mol Ecol 18:1225-1238, Tables 1-3; doi:10.1111/j.1365-294X.2009.04088.x"
+},
+{
+"sp": "bea",
+"site": "Gamssulzenhöhle, Austria",
+"lat": 47.65,
+"lon": 14.3,
+"old": 30009,
+"young": 28611,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Istállós-kő Cave, Hungary",
+"lat": 48.08,
+"lon": 20.42,
+"old": 29180,
+"young": 28814,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Komarowa Cave, Poland",
+"lat": 50.76,
+"lon": 19.27,
+"old": 28830,
+"young": 28334,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Cova Eirós, Spain",
+"lat": 42.73,
+"lon": -7.25,
+"old": 28642,
+"young": 27832,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Rochedane, France",
+"lat": 47.36,
+"lon": 6.75,
+"old": 28082,
+"young": 27814,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Chiostraccio Cave, Italy",
+"lat": 43.3,
+"lon": 11.2,
+"old": 27187,
+"young": 26793,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Vindija Cave, Croatia",
+"lat": 46.3,
+"lon": 16.08,
+"old": 26372,
+"young": 26098,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Grotta Sopra Fontana Marella, Italy",
+"lat": 45.86,
+"lon": 8.77,
+"old": 26284,
+"young": 25880,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Stajnia Cave, Poland",
+"lat": 50.62,
+"lon": 19.48,
+"old": 25456,
+"young": 25046,
+"src": "Baca et al. 2016 Sci Nat 103:92, Table 1; doi:10.1007/s00114-016-1414-8"
+},
+{
+"sp": "bea",
+"site": "Paina Cave and Trene Cave, Berici Hills, Italy",
+"lat": 45.45,
+"lon": 11.55,
+"old": 24200,
+"young": 23500,
+"src": "Terlato et al. 2019 Historical Biology 31(4); doi:10.1080/08912963.2018.1448395"
+},
+{
+"sp": "dee",
+"site": "Hoxne, United Kingdom",
+"lat": 52.35,
+"lon": 1.2,
+"old": 424000,
+"young": 374000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Steinheim an der Murr, Germany",
+"lat": 48.97,
+"lon": 9.28,
+"old": 400000,
+"young": 300000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Bolomor Cave, Spain",
+"lat": 39.06,
+"lon": -0.25,
+"old": 180000,
+"young": 180000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "De Nadale Cave, Italy",
+"lat": 45.43,
+"lon": 11.52,
+"old": 71000,
+"young": 69000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Abri du Maras, France",
+"lat": 44.31,
+"lon": 4.56,
+"old": 55000,
+"young": 40000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Riparo del Broion, Italy",
+"lat": 45.48,
+"lon": 11.58,
+"old": 50000,
+"young": 44000,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Kamenka (Complex A), Buryatia, Russia",
+"lat": 51.9,
+"lon": 107.6,
+"old": 45569,
+"young": 42760,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Komarowa Cave, Poland",
+"lat": 50.76,
+"lon": 19.27,
+"old": 42400,
+"young": 41400,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Brown Bank (trawled), southern North Sea, North Sea",
+"lat": 52.6,
+"lon": 3.3,
+"old": 42088,
+"young": 39888,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Riparo di Fumane, Italy",
+"lat": 45.59,
+"lon": 10.91,
+"old": 40122,
+"young": 39122,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Tropfsteinhöhle Kugelstein, Austria",
+"lat": 47.2,
+"lon": 15.33,
+"old": 39076,
+"young": 34876,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Castlepook Cave, Co. Cork, Ireland",
+"lat": 52.2,
+"lon": -8.6,
+"old": 37455,
+"young": 36195,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Svenstrup, S of Aalborg, Denmark",
+"lat": 56.98,
+"lon": 9.85,
+"old": 37438,
+"young": 35478,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Paviland Cave (Goat's Hole), United Kingdom",
+"lat": 51.55,
+"lon": -4.25,
+"old": 35836,
+"young": 34336,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Vogelherd Cave, Germany",
+"lat": 48.56,
+"lon": 10.19,
+"old": 30899,
+"young": 29899,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Settepolesini, Bondeno (Po valley), Italy",
+"lat": 44.89,
+"lon": 11.42,
+"old": 29700,
+"young": 28700,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Goyet Cave, Belgium",
+"lat": 50.44,
+"lon": 5.02,
+"old": 28494,
+"young": 27494,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Kent's Cavern, Devon, United Kingdom",
+"lat": 50.47,
+"lon": -3.5,
+"old": 27703,
+"young": 26703,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Amalda Cave, Spain",
+"lat": 43.24,
+"lon": -2.2,
+"old": 25540,
+"young": 24540,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890 (radiocarbon age, roughly converted to calendar years)"
+},
+{
+"sp": "dee",
+"site": "Bonnarps mosse, SE of Malmö, Sweden",
+"lat": 55.53,
+"lon": 13.1,
+"old": 13845,
+"young": 13145,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Ballaugh, Isle of Man, Isle of Man",
+"lat": 54.31,
+"lon": -4.54,
+"old": 13825,
+"young": 13155,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Lüdersdorf, Germany",
+"lat": 53.87,
+"lon": 10.81,
+"old": 13710,
+"young": 13215,
+"src": "Wikipedia 'Irish elk'; https://en.wikipedia.org/wiki/Irish_elk"
+},
+{
+"sp": "dee",
+"site": "Ballybetagh Bog, Co. Dublin, Ireland",
+"lat": 53.22,
+"lon": -6.2,
+"old": 13510,
+"young": 11065,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Kilgreany Cave, Co. Waterford, Ireland",
+"lat": 52.1,
+"lon": -7.73,
+"old": 13180,
+"young": 12645,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Glen Wyllin, Isle of Man, Isle of Man",
+"lat": 54.28,
+"lon": -4.6,
+"old": 13125,
+"young": 12420,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Neviansk, Russia",
+"lat": 57.49,
+"lon": 60.22,
+"old": 13115,
+"young": 12635,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "River Cree, Galloway, United Kingdom",
+"lat": 54.95,
+"lon": -4.45,
+"old": 12640,
+"young": 11570,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Chernigovo open-pit mine, Kuznetsk Basin, Russia",
+"lat": 55.6,
+"lon": 86.3,
+"old": 11950,
+"young": 11295,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Shigir (Mesolithic site), Russia",
+"lat": 57.42,
+"lon": 60.06,
+"old": 9010,
+"young": 8650,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "dee",
+"site": "Kamyshlov Mire, Russia",
+"lat": 56.84,
+"lon": 62.71,
+"old": 7790,
+"young": 7585,
+"src": "Stuart et al. 2004 Nature 431:684-689, Suppl. Table 1; doi:10.1038/nature02890"
+},
+{
+"sp": "ele",
+"site": "Ficoncella (Tarquinia), Italy",
+"lat": 42.25,
+"lon": 11.73,
+"old": 533000,
+"young": 478000,
+"src": "Aureli et al. 2015 PLoS ONE, doi:10.1371/journal.pone.0124498"
+},
+{
+"sp": "ele",
+"site": "Marathousa 1 (Megalopolis basin), Greece",
+"lat": 37.43,
+"lon": 22.1,
+"old": 480000,
+"young": 420000,
+"src": "Tourloukis et al. 2018 Quat. Int. 497:154-169, doi:10.1016/j.quaint.2018.03.043"
+},
+{
+"sp": "ele",
+"site": "Revadim Quarry, Israel",
+"lat": 31.77,
+"lon": 34.82,
+"old": 500000,
+"young": 300000,
+"src": "Solodenko et al. 2015 PLoS ONE, doi:10.1371/journal.pone.0118572"
+},
+{
+"sp": "ele",
+"site": "Southfleet Road, Ebbsfleet (Swanscombe), UK",
+"lat": 51.44,
+"lon": 0.31,
+"old": 425000,
+"young": 375000,
+"src": "Wenban-Smith et al. 2006 J. Quat. Sci. 21:471-483; Wenban-Smith (ed.) 2013 OA Monograph 20, https://eprints.oxfordarchaeology.com/2732"
+},
+{
+"sp": "ele",
+"site": "Castel di Guido, Italy",
+"lat": 41.89,
+"lon": 12.27,
+"old": 465000,
+"young": 395000,
+"src": "Villa et al. 2021 PLoS ONE, doi:10.1371/journal.pone.0256090"
+},
+{
+"sp": "ele",
+"site": "Áridos 1 & 2 (Arganda, Jarama valley), Spain",
+"lat": 40.29,
+"lon": -3.47,
+"old": 424000,
+"young": 300000,
+"src": "Santonja et al. 2001; Panera et al. 2011 Estudios Geol.; Yravedra et al. 2010 J. Archaeol. Sci."
+},
+{
+"sp": "ele",
+"site": "Ambrona, Spain",
+"lat": 41.16,
+"lon": -2.5,
+"old": 400000,
+"young": 350000,
+"src": "Falguères et al. 2006 J. Archaeol. Sci. 33:149-157, doi:10.1016/j.jas.2005.07.006; Wikipedia 'Torralba and Ambrona'"
+},
+{
+"sp": "ele",
+"site": "Bilzingsleben, Germany",
+"lat": 51.28,
+"lon": 11.07,
+"old": 424000,
+"young": 300000,
+"src": "Schwarcz et al. 1988 Archaeometry 30:5-17"
+},
+{
+"sp": "ele",
+"site": "La Polledrara di Cecanibbio, Italy",
+"lat": 41.95,
+"lon": 12.23,
+"old": 327000,
+"young": 323000,
+"src": "Pereira et al. 2017, cited in Cerilli et al. (ICA), https://ica.cultura.gov.it/wp-content/uploads/2023/07/c0d7f8307c5586127a9ecb2ac414da00_Cerilli-et-al_.pdf"
+},
+{
+"sp": "ele",
+"site": "Schöningen, Germany",
+"lat": 52.13,
+"lon": 10.99,
+"old": 337000,
+"young": 300000,
+"src": "Univ. Tübingen press release 2020; Schöningen reference-site review, J. Medit. Earth Sci., https://rosa.uniroma1.it/rosa04/mediterranean_earth_sciences/article/"
+},
+{
+"sp": "ele",
+"site": "Ehringsdorf (Weimar), Germany",
+"lat": 50.96,
+"lon": 11.35,
+"old": 250000,
+"young": 216000,
+"src": "Meyer et al. 2017 eLife 6:e25413, doi:10.7554/eLife.25413"
+},
+{
+"sp": "ele",
+"site": "Casal de' Pazzi (Rome), Italy",
+"lat": 41.94,
+"lon": 12.56,
+"old": 240000,
+"young": 200000,
+"src": "Palombo 2023 J. Medit. Earth Sci., https://rosa.uniroma1.it/rosa04/mediterranean_earth_sciences/article/view/18135"
+},
+{
+"sp": "ele",
+"site": "Aveley (Sandy Lane pit), UK",
+"lat": 51.5,
+"lon": 0.25,
+"old": 243000,
+"young": 191000,
+"src": "Geological Conservation Review, Sandy Lane Pit (Essex Field Club), https://essexfieldclub.org.uk/portal.php/p/Geology+Site+Account/s/Sandy Lane Pit (site of)"
+},
+{
+"sp": "ele",
+"site": "Upnor (Medway), UK",
+"lat": 51.41,
+"lon": 0.53,
+"old": 243000,
+"young": 191000,
+"src": "Scott, Archaeologia Cantiana 111, https://www.kentarchaeology.org.uk/magazine/111/14-the-context-of-the-palaeolithic-straight-tusked-elephant-found-at-upnor-ken"
+},
+{
+"sp": "ele",
+"site": "Poggetti Vecchi (Grosseto), Italy",
+"lat": 42.79,
+"lon": 11.14,
+"old": 171000,
+"young": 171000,
+"src": "Aranguren et al. 2018 PNAS, doi:10.1073/pnas.1716068115; Benvenuti et al. 2017 Quat. Res. 88:327-344"
+},
+{
+"sp": "ele",
+"site": "Cova del Rinoceront (Castelldefels), Spain",
+"lat": 41.29,
+"lon": 1.95,
+"old": 147000,
+"young": 74000,
+"src": "Daura et al. 2015 Quat. Sci. Rev., doi:10.1016/j.quascirev.2015.02.014; Univ. Barcelona 2021"
+},
+{
+"sp": "ele",
+"site": "Neumark-Nord 1, Germany",
+"lat": 51.32,
+"lon": 11.89,
+"old": 130000,
+"young": 115000,
+"src": "Gaudzinski-Windheuser et al. 2023 Sci. Adv. 9, doi:10.1126/sciadv.add8186; Meyer et al. 2017 eLife"
+},
+{
+"sp": "ele",
+"site": "Gröbern, Germany",
+"lat": 51.72,
+"lon": 12.43,
+"old": 130000,
+"young": 115000,
+"src": "Gaudzinski-Windheuser et al. 2023 PNAS, doi:10.1073/pnas.2309427120"
+},
+{
+"sp": "ele",
+"site": "Taubach, Germany",
+"lat": 50.96,
+"lon": 11.38,
+"old": 130000,
+"young": 115000,
+"src": "Gaudzinski-Windheuser et al. 2023 PNAS, doi:10.1073/pnas.2309427120"
+},
+{
+"sp": "ele",
+"site": "Lehringen (Verden), Germany",
+"lat": 52.92,
+"lon": 9.27,
+"old": 130000,
+"young": 115000,
+"src": "Verheijen et al. 2026 Sci. Rep., doi:10.1038/s41598-026-42538-4"
+},
+{
+"sp": "ele",
+"site": "Trafalgar Square (London), UK",
+"lat": 51.51,
+"lon": -0.13,
+"old": 130000,
+"young": 115000,
+"src": "Franks 1960 New Phytol.; Stuart 2001 PANGAEA, doi:10.1594/PANGAEA.64391"
+},
+{
+"sp": "ele",
+"site": "Barrington (Cambridgeshire), UK",
+"lat": 52.13,
+"lon": 0.03,
+"old": 130000,
+"young": 115000,
+"src": "Geological Conservation Review, https://geoguide.scottishgeologytrust.org/page/440"
+},
+{
+"sp": "ele",
+"site": "Matalascañas (Doñana, Huelva) trackways, Spain",
+"lat": 37.01,
+"lon": -6.58,
+"old": 125000,
+"young": 87000,
+"src": "Neto de Carvalho et al. 2021 Sci. Rep. 11:17311, doi:10.1038/s41598-021-96754-1"
+},
+{
+"sp": "ele",
+"site": "Grotta Guattari (Circeo), Italy",
+"lat": 41.23,
+"lon": 13.08,
+"old": 66000,
+"young": 65000,
+"src": "Rolfo et al. 2025 C. R. Palevol 24(10), doi:10.5852/cr-palevol2025v24a10"
+},
+{
+"sp": "ele",
+"site": "Foz do Enxarrique (Tejo T6), Portugal",
+"lat": 39.65,
+"lon": -7.67,
+"old": 47000,
+"young": 41000,
+"src": "Cunha et al. 2019 Quaternary 2(1):3, doi:10.3390/quat2010003"
+},
+{
+"sp": "ele",
+"site": "Catalan Bay dunes (Gibraltar) trackways, Gibraltar (UK)",
+"lat": 36.15,
+"lon": -5.34,
+"old": 29000,
+"young": 29000,
+"src": "Gibraltar National Museum team et al. 2019 Quat. Sci. Rev. (Following the last Neanderthals), doi:10.1016/j.quascirev.2019.01.013"
+},
+{
+"sp": "dip",
+"site": "Ned's Gully, Darling Downs, QLD, Australia",
+"lat": -27.9167,
+"lon": 151.9667,
+"old": 52000,
+"young": 40000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Cox's Creek (Kenloi), Liverpool Plains, NSW, Australia",
+"lat": -31.0152,
+"lon": 149.58,
+"old": 60000,
+"young": 48000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Cox's Creek (Kenloi), Liverpool Plains, NSW, Australia",
+"lat": -31.0152,
+"lon": 149.58,
+"old": 55000,
+"young": 47000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Lake Callabonna, SA, Australia",
+"lat": -29.8,
+"lon": 140.1667,
+"old": 84000,
+"young": 66000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Lancefield Swamp, VIC, Australia",
+"lat": -37.268,
+"lon": 144.733,
+"old": 59800,
+"young": 40400,
+"src": "Van Huet et al. 1998, Australian Archaeology 46:5, doi:10.1080/03122417.1998.11681605; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figs"
+},
+{
+"sp": "dip",
+"site": "Lancefield Swamp, VIC, Australia",
+"lat": -37.268,
+"lon": 144.733,
+"old": 58600,
+"young": 47400,
+"src": "Dortch et al. 2016, Quat. Sci. Rev. 145:161, doi:10.1016/j.quascirev.2016.05.042; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare "
+},
+{
+"sp": "dip",
+"site": "Lancefield Swamp, VIC, Australia",
+"lat": -37.268,
+"lon": 144.733,
+"old": 64500,
+"young": 54300,
+"src": "Dortch et al. 2016, Quat. Sci. Rev. 145:161, doi:10.1016/j.quascirev.2016.05.042; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare "
+},
+{
+"sp": "dip",
+"site": "Lancefield Swamp, VIC, Australia",
+"lat": -37.268,
+"lon": 144.733,
+"old": 47600,
+"young": 40600,
+"src": "Dortch et al. 2016, Quat. Sci. Rev. 145:161, doi:10.1016/j.quascirev.2016.05.042; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare "
+},
+{
+"sp": "dip",
+"site": "Lancefield Swamp, VIC, Australia",
+"lat": -37.268,
+"lon": 144.733,
+"old": 34000,
+"young": 28200,
+"src": "Dortch et al. 2016, Quat. Sci. Rev. 145:161, doi:10.1016/j.quascirev.2016.05.042; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare "
+},
+{
+"sp": "dip",
+"site": "Cuddie Springs, NSW, Australia",
+"lat": -30.3486,
+"lon": 147.3433,
+"old": 57000,
+"young": 45000,
+"src": "Grün et al. 2010, Quat. Sci. Rev. 29:596, doi:10.1016/j.quascirev.2009.11.004; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi"
+},
+{
+"sp": "dip",
+"site": "Cuddie Springs, NSW, Australia",
+"lat": -30.3486,
+"lon": 147.3433,
+"old": 175000,
+"young": 115000,
+"src": "Grün et al. 2010, Quat. Sci. Rev. 29:596, doi:10.1016/j.quascirev.2009.11.004; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi"
+},
+{
+"sp": "dip",
+"site": "Cuddie Springs, NSW, Australia",
+"lat": -30.3486,
+"lon": 147.3433,
+"old": 322000,
+"young": 208000,
+"src": "Grün et al. 2010, Quat. Sci. Rev. 29:596, doi:10.1016/j.quascirev.2009.11.004; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi"
+},
+{
+"sp": "dip",
+"site": "Cuddie Springs, NSW, Australia",
+"lat": -30.3486,
+"lon": 147.3433,
+"old": 582000,
+"young": 438000,
+"src": "Grün et al. 2010, Quat. Sci. Rev. 29:596, doi:10.1016/j.quascirev.2009.11.004; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi"
+},
+{
+"sp": "dip",
+"site": "Cooper's Dune, SA, Australia",
+"lat": -32.4667,
+"lon": 137.7,
+"old": 49000,
+"young": 45000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Cooper's Dune, SA, Australia",
+"lat": -32.4667,
+"lon": 137.7,
+"old": 60000,
+"young": 56000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Cooper's Dune, SA, Australia",
+"lat": -32.4667,
+"lon": 137.7,
+"old": 63000,
+"young": 57000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Baldina Creek, SA, Australia",
+"lat": -33.6667,
+"lon": 139.0833,
+"old": 65000,
+"young": 43000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Baldina Creek, SA, Australia",
+"lat": -33.6667,
+"lon": 139.0833,
+"old": 75000,
+"young": 57000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Millicent, SA, Australia",
+"lat": -37.5833,
+"lon": 140.4,
+"old": 91000,
+"young": 77000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Millicent, SA, Australia",
+"lat": -37.5833,
+"lon": 140.4,
+"old": 106000,
+"young": 90000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Millicent, SA, Australia",
+"lat": -37.5833,
+"lon": 140.4,
+"old": 123000,
+"young": 105000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Hallett Cove, SA, Australia",
+"lat": -35.0692,
+"lon": 138.4856,
+"old": 50000,
+"young": 38000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Hallett Cove, SA, Australia",
+"lat": -35.0692,
+"lon": 138.4856,
+"old": 53000,
+"young": 41000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Warratyi rock shelter, Flinders Ranges, SA, Australia",
+"lat": -31.6339,
+"lon": 138.8127,
+"old": 45500,
+"young": 42100,
+"src": "Hamm et al. 2016, Nature 539:280, doi:10.1038/nature20125; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9.figshare"
+},
+{
+"sp": "dip",
+"site": "Lake Victoria, NSW, Australia",
+"lat": -34.02,
+"lon": 141.342,
+"old": 60000,
+"young": 44000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Lake Colongulac, VIC, Australia",
+"lat": -38.173,
+"lon": 143.163,
+"old": 92000,
+"young": 72000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Hookina Creek, SA, Australia",
+"lat": -31.7333,
+"lon": 138.2333,
+"old": 105000,
+"young": 89000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Hookina Creek, SA, Australia",
+"lat": -31.7333,
+"lon": 138.2333,
+"old": 173000,
+"young": 149000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Hookina Creek, SA, Australia",
+"lat": -31.7333,
+"lon": 138.2333,
+"old": 252000,
+"young": 218000,
+"src": "Grün et al. 2008, Aust. J. Earth Sci. 55:917, doi:10.1080/08120090802097419; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:1"
+},
+{
+"sp": "dip",
+"site": "Victoria Fossil Cave, Naracoorte, SA, Australia",
+"lat": -37.0472,
+"lon": 140.8035,
+"old": 173000,
+"young": 141000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Victoria Fossil Cave, Naracoorte, SA, Australia",
+"lat": -37.0472,
+"lon": 140.8035,
+"old": 185000,
+"young": 157000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Du Boulay Creek, WA, Australia",
+"lat": -21.0158,
+"lon": 116.16,
+"old": 92000,
+"young": 68000,
+"src": "Roberts et al. 2001, Science 292:1888, doi:10.1126/science.1060264; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9"
+},
+{
+"sp": "dip",
+"site": "Wyandotte Creek, QLD, Australia",
+"lat": -19.8667,
+"lon": 145.0667,
+"old": 35782,
+"young": 34282,
+"src": "McNamara 1990, Memoirs of the Queensland Museum 28:285-297; via FosSahul 2.0 (Peters et al. 2019, doi:10.1038/s41597-019-0267-3; figshare doi:10.6084/m9.figshar (radiocarbon age, roughly converted to calendar years)"
+}
+]
