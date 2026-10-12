@@ -11,7 +11,7 @@ Run:  python dev/test/check.py [outdir]
 import sys, os, json
 from playwright.sync_api import sync_playwright
 
-URL = 'http://localhost:8765/karahan-era.html'
+URL = os.environ.get('KE_BASE','http://localhost:8765/')+'karahan-era.html'
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'dev/test/out'
 YEARS = [(21000, 'bce'), (4500, 'bce'), (900, 'ce'), (1750, 'ce'), (2020, 'ce')]
 os.makedirs(OUT, exist_ok=True)

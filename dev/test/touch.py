@@ -3,6 +3,7 @@ Run (server on :8765):  python dev/test/touch.py [outdir]
 For each device: page scrolls when swiping over the map; sideways swipe on the timeline travels; two-finger pinch zooms
 the map; tapping a map label opens a popup that stays open, fits the screen and has a reachable Wikipedia link.
 """
+import os
 import sys, json
 from playwright.sync_api import sync_playwright
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'dev/test/out'
@@ -18,7 +19,7 @@ with sync_playwright() as p:
     for name, kw in DEV.items():
         ctx = br.new_context(**kw); pg = ctx.new_page(); errs = []
         pg.on('pageerror', lambda e: errs.append(str(e)))
-        pg.goto('http://localhost:8765/karahan-era.html'); pg.wait_for_timeout(5000)
+        pg.goto(os.environ.get('KE_BASE','http://localhost:8765/')+'karahan-era.html'); pg.wait_for_timeout(5000)
         cdp = ctx.new_cdp_session(pg); res = {}
         pg.evaluate("document.getElementById('atlas').scrollIntoView({block:'start'})"); pg.wait_for_timeout(300)
         m = pg.locator('#map').bounding_box(); t = pg.locator('#tl').bounding_box()

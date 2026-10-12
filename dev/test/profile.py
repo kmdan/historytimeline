@@ -1,6 +1,7 @@
 """CPU profile of a timeline scrub (headless Edge on the real GPU). Prints self time by function.
 Run (server on :8765):  python dev/test/profile.py [query]   e.g. query '?cpu'
 """
+import os
 import sys, json, collections
 from playwright.sync_api import sync_playwright
 
@@ -16,7 +17,7 @@ SCRUB = """async () => { const c=document.getElementById('tl'), b=c.getBoundingC
 with sync_playwright() as p:
     br = p.chromium.launch(channel='msedge', headless=True, args=['--enable-gpu', '--use-angle=d3d11', '--ignore-gpu-blocklist'])
     pg = br.new_page(viewport={'width': 1100, 'height': 900})
-    pg.goto('http://localhost:8765/karahan-era.html' + Q); pg.wait_for_timeout(6000)
+    pg.goto(os.environ.get('KE_BASE','http://localhost:8765/')+'karahan-era.html' + Q); pg.wait_for_timeout(6000)
     pg.evaluate("""async () => { const d=document; d.getElementById('goY').value=30000; d.getElementById('goU').value='bce'; d.getElementById('go').requestSubmit(); await new Promise(r=>setTimeout(r,2500)); }""")
     cdp = pg.context.new_cdp_session(pg)
     cdp.send('Profiler.enable'); cdp.send('Profiler.setSamplingInterval', {'interval': 200}); cdp.send('Profiler.start')

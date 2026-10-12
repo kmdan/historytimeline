@@ -31,6 +31,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
   - `python dev/test/flicker.py [page] [latency_ms]` — border-layer dropouts while scrubbing with simulated network latency (must be 0).
   - `python dev/test/links.py` — deep links `?y=&at=`, address bar following the view, head tags / JSON-LD / text readable without JS.
   - `python dev/test/og.py [year]` — regenerates the social preview `atlas/og.png` (1200×630).
+  - `python dev/test/play_search.py` and `python dev/test/place.py` — play button, search box, "What happened here?" + play-from-here (desktop + phone). All test scripts take `KE_BASE=http://localhost:PORT/` to test another server/worktree.
   - `python dev/test/profile.py [?cpu]` — CPU profile of a scrub on the real GPU (RTX 3070); use this for performance numbers.
 - All JS lives in one IIFE (no globals): drive via UI (`#goY`/`#goU`/`#go` form, buttons, pointer events on `#tl`), read `#ph`, `#mapinfo`, `#eName`, `#pop`, `#map[data-renderer]` (`webgl2` or `cpu`).
 - Touch model: one finger scrolls the page over the map (two fingers pan/zoom it); timeline/chart take sideways drags; popups are a bottom sheet on touch/narrow screens; `leave`/hover handlers are mouse-only.
@@ -52,6 +53,12 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Before 45,000 BCE (`DEEPICE`) ice = biome class 9 of the snapshot (not ice.png); seas above today flood land codes `R ≤ 140+1.4846·√sea` (CPU `floodR`, shader). Overview strip/charts use the compressed scale `ovF/ovK` (C=1800 yr).
 - Python env: project `.venv` (numpy, scipy, pillow, shapely, tifffile, imagecodecs, h5py, netCDF4). No R.
 - Land/sea rule lives in `landCell()` (JS) and the shader; biome lookup in `bioCls()` and the shader — change both together.
+
+## Interactive features (2026-10-12)
+- Play: `playStart/playStop`, years per second ∝ age (`RATE`, `RATE_MIN`), timeline zoom follows speed; Space toggles.
+- Search: header combobox over EVENTS, ERAS, MIGR (choose on click, not pointerdown, so a tap cannot hit what lies under the list).
+- Place: tap-opened popups are sticky and carry "What happened here? / Play from here"; `setPlace()` samples land/sea/ice, biome, HYDE, C14 at log-spaced ages; `placePlay()` pauses at nearby events and at changes of the place (`placeStops`, `placeTick`).
+- Plan for guided tours: `dev/PLAN-play-search-place-tours.md` (phase 4).
 
 ## Conventions
 - Year 1 KE = 9500 BCE; signed years in data (BCE negative, no year 0); `ke()`, `toSigned()`, `civil()`.
