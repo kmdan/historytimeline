@@ -1504,6 +1504,35 @@ function drawMigrations(y,k){
         if(L===m.lines[0]) out.push({m,P,fade}); } }
     mx.restore(); }
   return out; }
+// zoom-stable clusters for dated finds: grouped in fixed geographic cells (16°, 8°, 4°, 2°, 1°, ½°), each cell drawn at the
+// mean position of all its finds, so nothing moves while panning; between two zoom levels the smaller cells slide out of
+// their parent cell and fade in. Which cells show depends on their total weight, so the choice is stable too.
+const CLV=[16,8,4,2,1,0.5];
+function clusterIndex(rows,weight){
+  const L=CLV.map(()=>new Map());
+  rows.forEach((r,i)=>{ const sp=r[0], lat=r[2], lon=r[3], c=r[6]?1:0; let parent=null;
+    CLV.forEach((d,l)=>{ const key=sp+':'+c+':'+Math.floor((lon+180)/d)+':'+Math.floor((90-lat)/d); let g=L[l].get(key);
+      if(!g){ g={key,sp,coarse:!!c,lat:0,lon:0,n:0,w:0,rows:[],parent}; L[l].set(key,g); }
+      g.lat+=lat; g.lon+=lon; g.n++; g.w+=weight(r); g.rows.push(i); parent=key; }); });
+  L.forEach(m=>m.forEach(g=>{ g.lat/=g.n; g.lon/=g.n; }));
+  return L; }
+// returns [{g, act (active row indices), lat, lon, a (alpha)}] for the current zoom and year
+function clusterView(L,rows,active,cap,coarseFrom){
+  const z=mv.k/minK(), Lf=Math.max(0,Math.min(CLV.length-1,Math.log2(z)*1.15)), l=Math.floor(Lf), f=Lf-l, s=f*f*(3-2*f);
+  const pick=lev=>{ const by={};
+    for(const g of L[lev].values()){ if(g.coarse&&lev<coarseFrom) continue; const act=g.rows.filter(i=>active(rows[i])); if(!act.length) continue; (by[g.sp]=by[g.sp]||[]).push({g,act}); }
+    const keep=new Map(); for(const k in by) by[k].sort((p,q)=>q.g.w-p.g.w).slice(0,cap(lev)).forEach(o=>keep.set(o.g.key,o)); return keep; };
+  const K1=pick(l); if(l>=CLV.length-1||s<=0.001) return [...K1.values()].map(o=>({...o,lat:o.g.lat,lon:o.g.lon,a:1}));
+  const K2=pick(l+1), out=[], mainOf=new Map(), hasChild=new Set();
+  K2.forEach(o=>{ const m=mainOf.get(o.g.parent); if(!m||o.g.w>m.g.w) mainOf.set(o.g.parent,o); hasChild.add(o.g.parent); });
+  K2.forEach(o=>{ const P=K1.get(o.g.parent);
+    if(!P){ out.push({...o,lat:o.g.lat,lon:o.g.lon,a:s}); return; }                 // newly allowed: fade in in place
+    const main=mainOf.get(o.g.parent)===o;                                            // the main child stands in for the parent
+    out.push({...o,lat:P.g.lat+(o.g.lat-P.g.lat)*s,lon:P.g.lon+(o.g.lon-P.g.lon)*s,a:main?1:s}); });
+  K1.forEach((o,k)=>{ if(!hasChild.has(k)) out.push({...o,lat:o.g.lat,lon:o.g.lon,a:1-s}); });   // capped out at the next level: fade
+  return out; }
+const clusterSum=(o,rows)=>{ const g={sp:o.g.sp,coarse:o.g.coarse,sites:new Set(),a:Infinity,b:-Infinity};
+  for(const i of o.act){ const r=rows[i]; g.sites.add(r[1]); g.a=Math.min(g.a,r[4]); g.b=Math.max(g.b,r[5]); } return g; };
 // human species before 40,000 BCE: dated finds (Timmermann et al. 2022, plus Denisovans, Flores, Luzon, naledi),
 // one coloured figure per species and map cell; loaded the first time the year goes before 38,000 BCE
 let HOM=null, homAsked=false;
@@ -1513,22 +1542,20 @@ function homInfo(g){ const sp=HOM.sp[g.sp], names=[...g.sites].map(i=>HOM.site[i
   return {kind:'Human species · dated finds', title:sp[1]===sp[2]?sp[1]:`${sp[1]} (${sp[2]})`, sub:`${civil(ke(g.a))} – ${civil(ke(g.b))}`,
     desc:`${names.length>1?names.length+' sites: ':'Site: '}${names.slice(0,5).join(', ')}${names.length>5?' …':''}.${cult.length?' '+cult.slice(0,3).join('; ')+'.':''} Dates of the finds, not the full time the species lived here.`,
     w:sp[3], img:sp[3]}; }
+let HOMIDX=null;
 function drawHominins(y){
   if(!LY.homo || y>-38000) return; if(!HOM){ loadHom(); return; }
-  const cell=26, groups=new Map();
-  for(const [sp,si,lat,lon,a,b] of HOM.f){ if(y<a-HOMWIN||y>b+HOMWIN||(sp===0&&y>-40000)) continue;
-    const x=PX(lon), yy=PY(lat); if(x<-10||x>MW+10||yy<-10||yy>MH+10) continue;
-    const key=sp+':'+Math.floor(x/cell)+':'+Math.floor(yy/cell); let g=groups.get(key);
-    if(!g){ g={sp,x:0,y:0,n:0,sites:new Set(),a,b}; groups.set(key,g); }
-    g.x+=x; g.y+=yy; g.n++; g.sites.add(si); g.a=Math.min(g.a,a); g.b=Math.max(g.b,b); }
+  if(!HOMIDX) HOMIDX=clusterIndex(HOM.f,()=>1);
+  const view=clusterView(HOMIDX,HOM.f,r=>!(y<r[4]-HOMWIN||y>r[5]+HOMWIN||(r[0]===0&&y>-40000)),()=>1e9,0);
   const best={}, s=13;
   mx.save(); mx.lineJoin='round';
-  for(const g of groups.values()){ g.x=g.x/g.n+(g.sp%3-1)*4; g.y/=g.n;
-    mx.beginPath(); person(g.x,g.y,s); mx.strokeStyle=col.surface; mx.lineWidth=2.6; mx.globalAlpha=.9; mx.stroke();
-    mx.globalAlpha=1; mx.fillStyle=col['h'+g.sp]; mx.fill();
-    hits.push({x0:g.x-7,y0:g.y-9,x1:g.x+7,y1:g.y+9,info:homInfo(g)});
-    if(!best[g.sp]||g.n>best[g.sp].n) best[g.sp]=g; }
-  mx.font='italic 600 11.5px "IBM Plex Sans", sans-serif'; mx.textBaseline='middle';
+  for(const o of view){ const x=PX(o.lon)+(o.g.sp%3-1)*4, yy=PY(o.lat); if(x<-10||x>MW+10||yy<-10||yy>MH+10||o.a<0.02) continue;
+    mx.beginPath(); person(x,yy,s); mx.strokeStyle=col.surface; mx.lineWidth=2.6; mx.globalAlpha=.9*o.a; mx.stroke();
+    mx.globalAlpha=o.a; mx.fillStyle=col['h'+o.g.sp]; mx.fill();
+    const g=clusterSum(o,HOM.f); g.x=x; g.y=yy; g.n=o.g.n;
+    if(o.a>0.5) hits.push({x0:x-7,y0:yy-9,x1:x+7,y1:yy+9,info:homInfo(g)});
+    if(o.a>0.5&&(!best[g.sp]||g.n>best[g.sp].n)) best[g.sp]=g; }
+  mx.globalAlpha=1; mx.font='italic 600 11.5px "IBM Plex Sans", sans-serif'; mx.textBaseline='middle';
   for(const g of Object.values(best)){ const t=HOM.sp[g.sp][1], w=mx.measureText(t).width, x0=g.x+9, y0=g.y;
     if(!place(x0-2,y0-8,x0+w+2,y0+8)) continue; mx.fillStyle=col['h'+g.sp]; halo(t,x0,y0,.9);
     hits.push({x0:x0-2,y0:y0-8,x1:x0+w+2,y1:y0+8,info:homInfo(g)}); }
@@ -1543,25 +1570,21 @@ function fauInfo(g){ const sp=FAU.sp[g.sp], names=[...g.sites].map(i=>FAU.site[i
   return {kind:'Ice Age animal · dated finds', title:`${sp[1]} (${sp[2]})`, sub:`${civil(ke(g.a))} – ${civil(ke(g.b))}`,
     desc:`${names.length>1?names.length+' sites: ':'Site: '}${names.slice(0,5).join(', ')}${names.length>5?' …':''}. ${g.coarse?'Dated only to a long period, so the animal may not have lived here in this exact millennium. ':''}Sources: ${src.slice(0,3).join('; ')}.`,
     w:sp[3], img:sp[3]}; }
+let FAUIDX=null;
+const FAUCAP=[5,8,15,40,1e9,1e9];   // most clusters per species at each cell size (16° … ½°)
 function drawFauna(y){
   if(!LY.fauna || y>-1000) return; if(!FAU){ loadFau(); return; }
-  // zoomed out the layer shows only the main clusters: big cells, at most a few per species, no coarsely dated finds
-  const z=mv.k/minK(), cell=z<2?70:z<4?50:z<8?34:22, cap=z<2?5:z<4?8:z<8?15:1e9, showCoarse=z>=8, groups=new Map();
-  for(const [sp,si,lat,lon,a,b,c] of FAU.f){ if(c&&!showCoarse) continue; const w=c?0:FAUWIN; if(y<a-w||y>b+(c?0:1500)||y>FAU.sp[sp][4]) continue;   // after a find: only a short window
-    const x=PX(lon), yy=PY(lat); if(x<-10||x>MW+10||yy<-10||yy>MH+10) continue;
-    const key=sp+':'+c+':'+Math.floor(x/cell)+':'+Math.floor(yy/cell); let g=groups.get(key);
-    if(!g){ g={sp,coarse:c,x:0,y:0,n:0,w:0,sites:new Set(),a,b}; groups.set(key,g); }
-    const cited=!/^(Neotoma|Paleobiology)/.test(FAU.site[si][1]);   // dated localities from published studies count more
-    g.x+=x; g.y+=yy; g.n++; g.w+=cited?4:1; g.sites.add(si); g.a=Math.min(g.a,a); g.b=Math.max(g.b,b); }
-  const bySp={}; for(const g of groups.values()) (bySp[g.sp]=bySp[g.sp]||[]).push(g);
-  const keep=Object.values(bySp).flatMap(L=>L.sort((p,q)=>q.w-p.w).slice(0,cap));
+  if(!FAUIDX) FAUIDX=clusterIndex(FAU.f,r=>/^(Neotoma|Paleobiology)/.test(FAU.site[r[1]][1])?1:4);   // cited dated localities count more
+  const view=clusterView(FAUIDX,FAU.f,r=>{ const w=r[6]?0:FAUWIN; return !(y<r[4]-w||y>r[5]+(r[6]?0:1500)||y>FAU.sp[r[0]][4]); },l=>FAUCAP[l],3);
   const best={};
   mx.save();
-  for(const g of keep){ g.x=g.x/g.n+(g.sp%4-1.5)*3; g.y/=g.n; const r=z<2?3.6:3;
-    mx.globalAlpha=g.coarse?.38:.95; mx.save(); mx.translate(g.x,g.y); mx.rotate(Math.PI/4);
-    mx.fillStyle=fauCol(g.sp); mx.strokeStyle=col.surface; mx.lineWidth=1.4; mx.fillRect(-r,-r,2*r,2*r); mx.strokeRect(-r,-r,2*r,2*r); mx.restore();
-    hits.push({x0:g.x-6,y0:g.y-6,x1:g.x+6,y1:g.y+6,info:fauInfo(g)});
-    if(!g.coarse&&(!best[g.sp]||g.w>best[g.sp].w)) best[g.sp]=g; }
+  for(const o of view){ const x=PX(o.lon)+(o.g.sp%4-1.5)*3, yy=PY(o.lat); if(x<-10||x>MW+10||yy<-10||yy>MH+10||o.a<0.02) continue;
+    const r=3.3;
+    mx.globalAlpha=(o.g.coarse?.38:.95)*o.a; mx.save(); mx.translate(x,yy); mx.rotate(Math.PI/4);
+    mx.fillStyle=fauCol(o.g.sp); mx.strokeStyle=col.surface; mx.lineWidth=1.4; mx.fillRect(-r,-r,2*r,2*r); mx.strokeRect(-r,-r,2*r,2*r); mx.restore();
+    const g=clusterSum(o,FAU.f); g.x=x; g.y=yy; g.w=o.g.w;
+    if(o.a>0.5) hits.push({x0:x-6,y0:yy-6,x1:x+6,y1:yy+6,info:fauInfo(g)});
+    if(o.a>0.5&&!g.coarse&&(!best[g.sp]||g.w>best[g.sp].w)) best[g.sp]=g; }
   mx.globalAlpha=1; mx.font='500 11px "IBM Plex Sans", sans-serif'; mx.textBaseline='middle';
   for(const g of Object.values(best)){ const t=FAU.sp[g.sp][1], w=mx.measureText(t).width, x0=g.x+7, y0=g.y;
     if(!place(x0-2,y0-8,x0+w+2,y0+8)) continue; mx.fillStyle=fauCol(g.sp); halo(t,x0,y0,.9);
