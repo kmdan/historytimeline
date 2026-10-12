@@ -1,6 +1,6 @@
 # Karahan Era
 
-An interactive world timeline and atlas from 40,000 BCE to today. Scrub through time and watch coastlines, ice sheets, vegetation, cultures, states, migrations and population change on the map, with dated events for every region.
+An interactive world timeline and atlas from 500,000 BCE to today. Scrub through time and watch coastlines, ice sheets, vegetation, cultures, states, migrations and population change on the map, with dated events for every region.
 
 **Live site: https://kmdan.github.io/historytimeline/**
 
@@ -8,7 +8,7 @@ The calendar counts from Year 1 KE = 9500 BCE, around the end of the last Ice Ag
 
 ## What's on the map
 
-- **Land, sea and ice**: shelf-sea coastlines for the last 26,000 years, ice sheets every 2,500 years, sea level and global temperature charts
+- **Land, sea and ice**: five glacial cycles of sea level, ice and vegetation, shelf-sea coastlines for the last 26,000 years, ice sheets every 2,500 years, sea level and global temperature charts
 - **Climate and vegetation**: biomes and local temperatures from climate-model snapshots, with an estimated forest layer
 - **People**: Ice Age and European prehistoric cultures, states from 3400 BCE, 60 migrations, about 200,000 radiocarbon-dated sites and an optional population-density layer
 - **Events**: hundreds of dated events in six regional lanes, each linked to Wikipedia, plus the largest volcanic eruptions of the last 2,400 years
@@ -29,6 +29,8 @@ The main datasets are listed below. Full credits, licences and caveats are at th
 | Peoples, earlier borders | historical-basemaps (A. Ourednik) | see project |
 | Radiocarbon dates | p3k14c; XRONOS (Roe et al. 2025) | see projects; CC BY 4.0 |
 | Population density | HYDE 3.2.1, Klein Goldewijk et al. 2017 | CC BY 3.0 |
+| Deep time: sea level, CO₂, temperature (500,000–40,000 BCE) | Spratt & Lisiecki 2016; Bereiter et al. 2015; EPICA Dome C, Jouzel et al. 2007 (scaled estimate) | free with citation (NOAA) |
+| Deep time: biomes, local temperature, ice | Krapp et al. 2021 | CC BY 4.0 |
 | Volcanic eruptions | eVolv2k v4, Sigl & Toohey 2024 | CC BY 4.0 |
 | Elevation, today's coast | ETOPO (NOAA); Natural Earth | public domain |
 

@@ -1,13 +1,13 @@
 # Karahan Era
 
-> Interactive world history timeline and atlas from 40,000 BCE to today. Drag the timeline and the world map shows coastlines, ice sheets, vegetation, cultures, states, migrations, radiocarbon-dated sites and population for that year, with dated events for six world regions, each linked to Wikipedia. Free, open source (MIT), data from cited scientific datasets.
+> Interactive world history timeline and atlas from 500,000 BCE to today. Drag the timeline and the world map shows coastlines, ice sheets, vegetation, cultures, states, migrations, radiocarbon-dated sites and population for that year, with dated events for six world regions, each linked to Wikipedia. Free, open source (MIT), data from cited scientific datasets.
 
 The calendar counts from Year 1 KE (Karahan Era) = 9500 BCE. Figures before 1800 are scholarly estimates; contested points are flagged on the page.
 
 ## Use
 
 - [The atlas](https://kmdan.github.io/historytimeline/karahan-era.html): the interactive page (needs JavaScript; map drawn with WebGL2, CPU fallback).
-- Deep links: `karahan-era.html?y=-4500` opens the world in 4500 BCE (signed civil year, negative = BCE, no year 0, range -40000 to 2026). Add `&at=lat,lon,zoom` for a map view, e.g. `?y=1750&at=48,10,4` (zoom 1 = whole world).
+- Deep links: `karahan-era.html?y=-4500` opens the world in 4500 BCE (signed civil year, negative = BCE, no year 0, range -500000 to 2026). Add `&at=lat,lon,zoom` for a map view, e.g. `?y=1750&at=48,10,4` (zoom 1 = whole world).
 - The page text (lead, field report, "About the data") is plain HTML; the map and timeline are canvas drawings.
 
 ## Data
