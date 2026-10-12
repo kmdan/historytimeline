@@ -20,6 +20,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Publish = Artifact publish with `url` + `file_path: karahan-era.html`; pass `files` only for changed supporting files (unlisted ones are kept); omit `icon`.
 - Before publishing, read the live artifact if it may have changed since last read (the tool refuses otherwise).
 - User approved (2026-10-11): republish after each **tested** improvement without asking. Commit to git first; mention each publish in the reply.
+- GitHub Pages (2026-10-12, repo public): https://kmdan.github.io/historytimeline/ serves `master` root; `index.html` redirects to `karahan-era.html`, `.nojekyll` disables Jekyll. Updates go live on push.
 - Artifact runtime limits: no external fetch/images at runtime (CSP); scripts only from cdnjs / jsdelivr / unpkg with exact versions; everything else ships as files beside the page.
 
 ## Testing
