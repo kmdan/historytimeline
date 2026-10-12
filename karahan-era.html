@@ -207,7 +207,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
         <label><input type="checkbox" id="lyBiome" checked>Biomes</label>
         <label><input type="checkbox" id="lyIce" checked>Ice sheets</label>
         <label><input type="checkbox" id="lyFarm" checked>Farmland</label>
-        <label><input type="checkbox" id="lyPop">Population density</label>
+        <label><input type="checkbox" id="lyPop">Population</label>
         <label><input type="checkbox" id="lyForest" checked>Forests</label>
         <label><input type="checkbox" id="lyCoast" checked>Today’s coast</label>
         <label><input type="checkbox" id="lyRivers" checked>Rivers</label>
@@ -253,7 +253,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
       <span><i style="background:var(--b10)"></i>Mammoth steppe</span>
       <span><i style="background:var(--ice)"></i>Ice sheet &amp; glaciers</span>
       <span><i style="background:var(--farm)"></i>Farmland &amp; pasture</span>
-      <span><i style="width:60px;background:linear-gradient(90deg,color-mix(in srgb,var(--pop-lo) 30%,transparent),var(--pop-mid),var(--pop-hi))"></i>People per km² (1 → 1,000+; from 10,000 BCE)</span>
+      <span><i style="border-radius:50%;background:color-mix(in srgb,var(--pop-mid) 55%,transparent);border-color:var(--pop-hi)"></i>Population: circle area = people (largest labelled; from 10,000 BCE)</span>
       <span><i style="background:var(--forest)"></i>Forest (estimate)</span>
       <span><i style="background:var(--cleared)"></i>Forest cleared by people</span>
       <span><i style="border:0;border-top:1.5px dashed var(--fg);height:0;border-radius:0;vertical-align:3px"></i>Today’s coastline</span>
@@ -356,11 +356,11 @@ ol.know a:hover{border-bottom-color:var(--accent)}
 
   <div class="foot">
     <p><b>Map data and estimates.</b> For the last 26,000 years, land and sea follow the shelf-sea reconstructions of <a href="https://doi.org/10.1111/geb.13573" target="_blank" rel="noopener">De Groeve et al. 2022</a> (<a href="https://doi.org/10.21942/uva.20029220.v1" target="_blank" rel="noopener">data</a>, CC BY 4.0), which include regional sea level and the rebound of land once pressed down by ice, every 500 years (interpolated between). Before that, coastlines are redrawn from the <a href="https://www.ngdc.noaa.gov/mgg/global/etopo5.HTML" target="_blank" rel="noopener">ETOPO</a> 20-arc-minute elevation grid at the estimated global sea level. Today's coastline is from <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Ice sheets follow the global reconstruction PaleoMIST 1.0 of <a href="https://doi.org/10.1038/s41467-021-21469-w" target="_blank" rel="noopener">Gowan et al. 2021</a> (<a href="https://doi.org/10.1594/PANGAEA.905800" target="_blank" rel="noopener">data</a>, CC BY 4.0), whose margins every 2,500 years are built on the dated limits of Dyke, Dalton, Hughes and others; between those steps each ice edge is interpolated so it advances and retreats smoothly. PaleoMIST covers the ice sheets of North America, Greenland, Eurasia, Iceland, Patagonia and Antarctica; the Alps and other mountain glaciers keep the earlier schematic model, with a snowline lowered by up to about 1 km in the cold. Biomes and local temperatures come from <a href="https://doi.org/10.1038/s41597-020-0552-1" target="_blank" rel="noopener">Beyer, Krapp &amp; Manica 2020</a> (HadCM3 climate downscaled to 0.5° and BIOME4 vegetation, every 1,000–2,000 years; <a href="https://doi.org/10.6084/m9.figshare.12293345" target="_blank" rel="noopener">data</a>, CC BY 4.0), grouped into the ten classes of the legend. Two known model biases are corrected with published patterns: in cold phases northern Eurasia and Beringia are drawn as open mammoth steppe instead of the modelled taiga (pollen syntheses, BIOME 6000), and the Sahara and Arabia are greened during the African Humid Period, which the model misses. Global temperature for the last 24,000 years is the data-assimilation reconstruction of <a href="https://doi.org/10.1038/s41586-021-03984-4" target="_blank" rel="noopener">Osman et al. 2021</a> (the chart's band is its 90% range); the dotted line is the proxy-based Holocene curve of <a href="https://doi.org/10.1038/s41597-020-0530-7" target="_blank" rel="noopener">Kaufman et al. 2020</a>. The two disagree about whether the mid-Holocene was warmer than the 19th century, an open question known as the Holocene temperature conundrum. Farmland spreads outward from the known centres of domestication at estimated speeds, then with 18th–20th-century settler frontiers. Treat the biome and farmland layers as illustrations of the pattern, not as reconstructions.</p>
-    <p><b>Cultures and peoples.</b> Before 10,000 BCE, the dashed, softly coloured areas are hypothetical extents of 47 archaeological cultures and populations (for example Aurignacian, Gravettian, Magdalenian, Natufian, Iberomaurusian, Clovis and the first Australians). For Europe from 9500 to 2000 BCE, 88 Mesolithic, Neolithic, Copper Age and Early Bronze Age cultures (from Maglemosian and Lepenski Vir through LBK, Vinča, Varna, Cucuteni–Trypillia, Funnelbeaker and Yamnaya to Corded Ware, Bell Beaker and Únětice) replace the coarse European blocks of the borders maps. All are drawn around the regions and key sites their Wikipedia articles describe and clipped to the land of the time; site positions marked “approx.” are estimates. Elsewhere, from 10,000 BCE the map uses the historical-basemaps borders, and from 3400 BCE states come from <a href="https://github.com/Seshat-Global-History-Databank/cliopatria" target="_blank" rel="noopener">Cliopatria</a> (Seshat Global History Databank, v0.2.1, CC BY 4.0; <a href="https://doi.org/10.1038/s41597-025-04516-9" target="_blank" rel="noopener">Bennett et al. 2025</a>): 13,700 dated border shapes for more than 1,600 polities, each shown only in the years it applies to, with its Wikipedia article. Peoples outside those states (foragers, herders, tribal confederations) still come from historical-basemaps. Every culture and state has a popup. For 815 names the matching Wikipedia article was checked and is linked with a short description; for the rest the popup offers a Wikipedia search that opens the article directly when the title matches.</p>
+    <p><b>Cultures and peoples.</b> Before 10,000 BCE, the dashed, softly coloured areas are hypothetical extents of 47 archaeological cultures and populations (for example Aurignacian, Gravettian, Magdalenian, Natufian, Iberomaurusian, Clovis and the first Australians). For Europe from 9500 to 2000 BCE, 88 Mesolithic, Neolithic, Copper Age and Early Bronze Age cultures (from Maglemosian and Lepenski Vir through LBK, Vinča, Varna, Cucuteni–Trypillia, Funnelbeaker and Yamnaya to Corded Ware, Bell Beaker and Únětice) replace the coarse European blocks of the borders maps. All are drawn around the regions and key sites their Wikipedia articles describe and clipped to the land of the time; site positions marked “approx.” are estimates. Elsewhere, from 10,000 BCE the map uses the historical-basemaps borders, and from 3400 BCE states come from <a href="https://github.com/Seshat-Global-History-Databank/cliopatria" target="_blank" rel="noopener">Cliopatria</a> (Seshat Global History Databank, v0.2.1, CC BY 4.0; <a href="https://doi.org/10.1038/s41597-025-04516-9" target="_blank" rel="noopener">Bennett et al. 2025</a>): 13,700 dated border shapes for more than 1,600 polities, each shown only in the years it applies to, with its Wikipedia article. Peoples outside those states (foragers, herders, tribal confederations) still come from historical-basemaps. Where Cliopatria leaves a gap of up to 25 years between two border shapes of the same state, the earlier shape is kept so borders do not blink. Every culture and state has a popup. For 815 names the matching Wikipedia article was checked and is linked with a short description; for the rest the popup offers a Wikipedia search that opens the article directly when the title matches.</p>
     <p><b>Forests and human impact.</b> The Forests layer is an estimate: each biome has a natural forest share, reduced over time by farmland and by the global loss of about a third of the world's forests since the last ice age (6 billion hectares 10,000 years ago, about 4 billion today, from Our World in Data). In 19 regions with documented histories (Iceland, Ireland, Britain, Scotland, Greece, the Dinaric Karst, Lebanon, Rapa Nui, Madagascar, New Zealand, Hawaii, Haiti, the eastern United States, the Amazon, Borneo, Central Europe, Japan, China and Denmark) the forest share follows the published figures; values marked “est.” in their popups are estimates. 42 dated human-impact events, from megafauna extinctions and salted Sumerian fields to the Montreal Protocol, are tagged on the timeline.</p>
     <p><b>Population movements.</b> 60 migrations, expansions and forced movements, from the dispersal out of Africa and the peopling of the Americas through the spread of farming, Austronesian and Polynesian voyaging, the Bantu expansion, steppe migrations, the Migration Period, Norse and Mongol expansions, the Atlantic slave trade and 19th-century emigration to Partition and the Syrian refugee crisis. Arrows grow along an approximate route between the start and end dates given in each Wikipedia article, then fade.</p>
     <p><b>Scientific illustrations.</b> 44 figures from peer-reviewed open-access papers (Nature, Nature Communications, Scientific Reports, Science Advances, PLOS ONE, Antiquity, Copernicus and MDPI journals, Internet Archaeology) are linked with their authors, journal and licence (mostly CC BY; a few are CC BY-NC or CC BY-NC-ND, which allow showing but not commercial use or changes). They open on the publisher’s site because this page cannot load outside images.</p>
-    <p><b>Population density.</b> People per km² from the History Database of the Global Environment, HYDE 3.2.1 (<a href="https://doi.org/10.5194/essd-9-927-2017" target="_blank" rel="noopener">Klein Goldewijk et al. 2017</a>; <a href="https://doi.org/10.17026/DANS-25G-GEZ3" target="_blank" rel="noopener">data</a>, CC BY 3.0), averaged to half-degree cells and blended between its time steps (every 1,000 years before 1 CE, every century to 1700, then every 10 years). Before about 1500 these are model estimates: regional population totals spread over the land by its suitability, not counts. There is no gridded reconstruction before 10,000 BCE, so the layer is empty then.</p>
+    <p><b>Population density.</b> People per km² from the History Database of the Global Environment, HYDE 3.2.1 (<a href="https://doi.org/10.5194/essd-9-927-2017" target="_blank" rel="noopener">Klein Goldewijk et al. 2017</a>; <a href="https://doi.org/10.17026/DANS-25G-GEZ3" target="_blank" rel="noopener">data</a>, CC BY 3.0), averaged to half-degree cells and blended between its time steps (every 1,000 years before 1 CE, every century to 1700, then every 10 years). The map shows people rather than density: density times land area, summed in a grid that adapts to the zoom, drawn as circles whose area is proportional to the number of people, with the largest labelled. Totals come out within about 10% of HYDE's published figures. Before about 1500 these are model estimates: regional population totals spread over the land by its suitability, not counts. There is no gridded reconstruction before 10,000 BCE, so the layer is empty then.</p>
     <p><b>Volcanic eruptions.</b> The largest eruptions from 500 BCE to 1900 CE (at least 10 million tonnes of sulfur reaching the stratosphere) come from the ice-core database eVolv2k version 4 (<a href="https://doi.org/10.1594/PANGAEA.971968" target="_blank" rel="noopener">Sigl &amp; Toohey 2024</a>, CC BY 4.0); eruptions whose volcano is still unknown appear on the timeline only.</p>
     <p><b>Reddit picks.</b> 31 events (marked “Reddit discussion” in their card) were added after surveying threads in r/AskHistory, r/AncientCivilizations and r/MapPorn about overlooked periods and regions; each was checked against its Wikipedia article.</p>
     <p><b>Links and references.</b> Each event links to its Wikipedia article. The "See it" cards open illustrations on Wikimedia Commons (they can't be shown inside the page). "Key papers" lists landmark works for each era with citation counts from <a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex</a> as of October 2026; counts for books are often undercounted. When you are zoomed out, only the best-known events appear; zoom in on the timeline or the map to see specialist sites and finds.</p>
@@ -938,7 +938,7 @@ let baseKey='', lastBuild=0, buildTimer=0;
 const FW=720, FH=360;                       // evidence (fade) layer at 1/2 degree
 const landC=document.createElement('canvas'); landC.width=FW; landC.height=FH; const lctx=landC.getContext('2d'); const landImg=lctx.createImageData(FW,FH);
 const fadeC=document.createElement('canvas'); fadeC.width=FW; fadeC.height=FH; const fctx=fadeC.getContext('2d'); let fadeKey='', fadeStrength=0;
-let c14=null, hbYears=[], hbCache={}, hbCur=null, hbYear=null, hbLoading=null, coast=null, rivers=null, greenW=null;
+let c14=null, hbYears=[], hbCache={}, hbCur=null, hbYear=null, hbLoading={}, coast=null, rivers=null, greenW=null;
 const LY={pop:false,migr:true,figs:true,forest:true,biome:true,ice:true,farm:true,coast:true,rivers:true,climate:true,fade:true,marks:true,borders:true,c14:false,events:true};
 ['Pop','Migr','Figs','Forest','Biome','Ice','Farm','Coast','Rivers','Climate','Fade','Marks','Borders','C14','Events'].forEach(n=>{ const el=$('ly'+n); el.addEventListener('change',()=>{ LY[n.toLowerCase()]=el.checked; baseKey=''; fadeKey=''; drawMap(); }); });
 // biome snapshots (precomputed estimates) and their years
@@ -1213,19 +1213,35 @@ function buildLand(){
 
 // Population density (HYDE 3.2.1, 10,000 BCE - 2015 CE): 0.5-degree log-coded grids, blended between snapshots
 const POPY=JSON.parse(document.getElementById('popdata').textContent).years;
-let popd=null, popKey=''; const popC=document.createElement('canvas'); popC.width=720; popC.height=360; const pctx=popC.getContext('2d'), popImg=pctx.createImageData(720,360);
+let popd=null, popLandA=null, popCells=null;
 function popSnap(y){ let i=0; while(i<POPY.length-1 && y>=POPY[i+1]) i++; const j=Math.min(i+1,POPY.length-1); return {i,j,t:j>i&&POPY[j]>POPY[i]?Math.min(1,Math.max(0,(y-POPY[i])/(POPY[j]-POPY[i]))):0}; }
 const popCode=(L,c)=>popd[(((L/3)|0)*259200+c)*4+L%3];
 function popAt(lon,lat,y){ if(!popd||y<POPY[0]) return null; const s=popSnap(y), c=Math.min(359,Math.max(0,Math.floor((90-lat)*2)))*720+Math.min(719,Math.max(0,Math.floor((lon+180)*2)));
   const v=popCode(s.i,c)+(popCode(s.j,c)-popCode(s.i,c))*s.t; return v<1?0:Math.pow(10,v/32-3); }
-function buildPop(y){ const key=[Math.round(y<1700?y/10:y),col['pop-hi']].join('|'); if(key===popKey) return; popKey=key;
-  const s=popSnap(y), lo=hex(col['pop-lo']), mi=hex(col['pop-mid']), hi=hex(col['pop-hi']), D=popImg.data;
-  // codes: 80 ≈ 0.3, 96 = 1, 160 = 100, 192 = 1,000 people per km²; below ~0.3 the layer stays clear
-  const LUT=new Uint8ClampedArray(256*4); for(let v=1;v<256;v++){ const t=Math.min(1,Math.max(0,(v-80)/120)), c=t<.5?mix(lo,mi,t*2):mix(mi,hi,(t-.5)*2);
-    LUT[v*4]=c[0]; LUT[v*4+1]=c[1]; LUT[v*4+2]=c[2]; LUT[v*4+3]=255*(v<70?0:Math.min(.85,.08+t*.8)); }
-  for(let c=0;c<259200;c++){ const a=popCode(s.i,c), b=popCode(s.j,c), v=Math.round(a+(b-a)*s.t), o=c*4;
-    D[o]=LUT[v*4]; D[o+1]=LUT[v*4+1]; D[o+2]=LUT[v*4+2]; D[o+3]=v<1?0:LUT[v*4+3]; }
-  pctx.putImageData(popImg,0,0); }
+// land area (km², today's land) of each 0.5-degree cell, from the terrain raster; people = density x land area
+function buildPopLand(){ popLandA=new Float32Array(259200); const cells=[];
+  for(let j=0;j<GH;j++){ const a=Math.pow(111.195/GR,2)*Math.cos((90-(j+.5)/GR)*Math.PI/180), row=((j/3)|0)*720;
+    for(let i=0;i<GW;i++) if(terr[(j*GW+i)*4]>=140) popLandA[row+((i/3)|0)]+=a; }
+  for(let c=0;c<259200;c++) if(popLandA[c]>0) cells.push(c); popCells=Int32Array.from(cells); }
+const fmtPeople = n => n>=1e9?(n/1e9).toFixed(n<1e10?2:1)+' billion':n>=1e6?(n/1e6).toFixed(n<1e7?1:0)+' M':n>=1e3?Math.round(n/1e3)+' k':String(Math.round(n));
+// population circles: people summed in a world-aligned grid sized to the zoom (circle area ∝ people)
+let popWorld=0;
+function drawPopulation(y){ popWorld=0; if(!popd||!terr||y<POPY[0]) return [];
+  if(!popLandA) buildPopLand();
+  const st=popSnap(y), steps=[0.5,1,2,3,5,10,15,20,30], step=steps.find(v=>v*mv.k>=(MW<600?46:58))||30;
+  const x0=UNX(0)-step, x1=UNX(MW)+step, y0=UNY(MH)-step, y1=UNY(0)+step, bins=new Map();
+  for(const c of popCells){ const a=popCode(st.i,c), b=popCode(st.j,c), v=a+(b-a)*st.t; if(v<1) continue;
+    const n=Math.pow(10,v/32-3)*popLandA[c]; popWorld+=n;
+    const lon=-180+(c%720+.5)/2, lat=90-(((c/720)|0)+.5)/2; if(lon<x0||lon>x1||lat<y0||lat>y1) continue;
+    const key=Math.floor((lon+180)/step)*4096+Math.floor((90-lat)/step); let B=bins.get(key); if(!B){ B={n:0,lo:0,la:0}; bins.set(key,B); }
+    B.n+=n; B.lo+=n*lon; B.la+=n*lat; }
+  const L=[...bins.values()].filter(B=>B.n>0).sort((a,b)=>b.n-a.n); if(!L.length) return [];
+  const rmax=MW<600?20:28, kr=rmax/Math.sqrt(L[0].n);
+  mx.save(); mx.lineWidth=1;
+  for(let i=L.length-1;i>=0;i--){ const B=L[i], r=kr*Math.sqrt(B.n); if(r<1.2) continue; B.px=PX(B.lo/B.n); B.py=PY(B.la/B.n); B.r=r;
+    mx.globalAlpha=.5; mx.fillStyle=col['pop-mid']; mx.beginPath(); mx.arc(B.px,B.py,r,0,7); mx.fill();
+    mx.globalAlpha=.9; mx.strokeStyle=col['pop-hi']; mx.stroke(); }
+  mx.restore(); L.step=step; return L; }
 const fmtDens = d => d<0.1?'under 0.1':d<10?d.toFixed(1):Math.round(d).toLocaleString('en');
 
 // Evidence layer: land with no dated finds, recorded events or mapped states near this time is drawn faded
@@ -1269,22 +1285,28 @@ function smoothPath(ctx,pts,off){ const n=pts.length; const P=i=>{ const p=pts[(
 const FORAGER=/hunt|forag|gather|tribes|aboriginal|khoisan|mesolithic|paleo|arctic|nomad|pastoral|herder|fishers/i;
 // States from 3400 BCE: Cliopatria (Seshat), each border valid between its own start and end year, loaded per century.
 // Peoples outside those states still come from the historical-basemaps snapshot (atlas/hb/peoples.json lists them).
-const CP_START=-3400; let cpIndex=null, cpCache={}, cpLoading={}, hbKeep=null, hbSig='';
-function cpRows(y){ const k=Math.floor(y/100); if(!cpIndex||!cpIndex.has(k)) return [];
-  if(cpCache[k]) return cpCache[k].filter(f=>f.f<=y&&y<=f.t);
-  if(!cpLoading[k]){ cpLoading[k]=true; fetch(`atlas/cp/${k}.json`).then(r=>r.json()).then(d=>{ d.forEach(f=>{ f.hue=hashHue(f.n); f.forager=false; f.s=f.n; f.cp=true; f.b=1; });
+const CP_START=-3400; let cpIndex=null, cpCache={}, cpLoading={}, hbKeep=null, hbSig='', hbLast=null;
+function cpLoad(k){ if(!cpIndex||!cpIndex.has(k)||cpCache[k]||cpLoading[k]) return; cpLoading[k]=true;
+  fetch(`atlas/cp/${k}.json`).then(r=>r.json()).then(d=>{ d.forEach(f=>{ f.hue=hashHue(f.n); f.forager=false; f.s=f.n; f.cp=true; f.b=1; });
     cpCache[k]=d; fadeKey=''; drawMap(); }).catch(()=>{ cpLoading[k]=false; }); }
-  return null; }
+function cpRows(y){ const k=Math.floor(y/100); if(!cpIndex||!cpIndex.has(k)) return [];
+  cpLoad(k-1); cpLoad(k+1);                                   // preload neighbours so scrubbing rarely waits
+  if(cpCache[k]) return cpCache[k].filter(f=>f.f<=y&&y<=f.t);
+  cpLoad(k); return null; }
+function hbLoad(v){ if(v===undefined||hbCache[v]||hbLoading[v]) return; hbLoading[v]=true;
+  fetch(`atlas/hb/${v}.json`).then(r=>r.json()).then(d=>{ d.forEach((f,i)=>{ f.hue=hashHue(f.s); f.forager=FORAGER.test(f.n); f.n=f.n.trim(); f.i=i; });
+    hbCache[v]=d; hbLoading[v]=false; fadeKey=''; drawMap(); }).catch(()=>{ hbLoading[v]=false; }); }
+// while a needed file is still loading, keep showing the last borders instead of blanking the layer
+const keepLast=y=>{ if(hbLast&&Math.abs(hbLast.y-y)<300){ hbCur=hbLast.cur; hbYear=hbLast.year; hbSig=hbLast.sig; } };   // not after a long jump
 function loadHB(y){
   if(!hbYears.length) return;
-  let pick=null; for(const v of hbYears) if(v<=y) pick=v; if(pick===null) { hbCur=null; hbYear=null; return; }
-  if(!hbCache[pick]){ if(hbLoading===pick) return; hbLoading=pick;
-    fetch(`atlas/hb/${pick}.json`).then(r=>r.json()).then(d=>{ d.forEach((f,i)=>{ f.hue=hashHue(f.s); f.forager=FORAGER.test(f.n); f.n=f.n.trim(); f.i=i; });
-      hbCache[pick]=d; hbLoading=null; fadeKey=''; drawMap(); }).catch(()=>{ hbLoading=null; });
-    return; }
+  let pi=-1; hbYears.forEach((v,i)=>{ if(v<=y) pi=i; }); if(pi<0) { hbCur=null; hbYear=null; return; }
+  const pick=hbYears[pi]; hbLoad(hbYears[pi+1]); hbLoad(hbYears[pi-1]);
+  if(!hbCache[pick]){ hbLoad(pick); keepLast(y); return; }
   hbYear=pick; hbCur=hbCache[pick]; hbSig=pick;
-  if(y>=CP_START && hbKeep){ const cp=cpRows(y); if(cp===null){ hbCur=null; hbYear=null; return; }
+  if(y>=CP_START && hbKeep){ const cp=cpRows(y); if(cp===null){ keepLast(y); return; }
     const keep=hbKeep[pick]; hbCur=keep? [...cp, ...keep.map(i=>hbCache[pick][i])] : [...cp, ...hbCur]; hbSig=pick+'|'+Math.floor(y/100)+'|'+cp.length; }
+  hbLast={cur:hbCur, year:hbYear, sig:hbSig, y};
 }
 
 // label placement + hit regions for popups
@@ -1339,7 +1361,6 @@ function renderMap(){
   // faded where there is no evidence
   buildFade(y);
   if(LY.fade && fadeStrength>0 && terr){ mx.globalAlpha=0.52*fadeStrength; mx.drawImage(fadeC,X0,Y0,WW,HH); mx.globalAlpha=1; }
-  if(LY.pop && popd && y>=POPY[0]){ buildPop(y); mx.drawImage(popC,X0,Y0,WW,HH); }
   // rivers (modern courses), hidden under ice
   if(LY.rivers && rivers && terr){
     mx.save(); mx.strokeStyle=col.river; mx.globalAlpha=mv.k>6?.85:.6; mx.lineWidth=mv.k>8?1.1:mv.k>4?.8:.55; mx.lineJoin='round'; mx.beginPath();
@@ -1385,6 +1406,7 @@ function renderMap(){
     for(const [ci,n] of agg){ const px=PX(c14.cells[ci*2]), py=PY(c14.cells[ci*2+1]); if(px<-5||px>MW+5||py<-5||py>MH+5) continue; nC14+=n;
       const r=Math.min(1.6+Math.sqrt(n)*0.9*Math.sqrt(mv.k/3),10); mx.globalAlpha=.55; mx.beginPath(); mx.arc(px,py,r,0,7); mx.fill(); }
     mx.globalAlpha=1; }
+  const popBins=LY.pop?drawPopulation(y):[];
   // events (highest priority labels)
   if(LY.events){ const win=Math.max(30,span*0.06), lm=lodMap();
     const near=EVENTS.filter(e=>e.g&&Math.abs(e.k-k)<=win&&(e.i<=lm||e===selected)).sort((a,b)=>(b===selected)-(a===selected)||a.i-b.i||Math.abs(a.k-k)-Math.abs(b.k-k));
@@ -1459,6 +1481,17 @@ function renderMap(){
         desc:`${B.n}: ${B.c}.${ice?' This point lies under the ice sheet.':''} Vegetation and temperature come from a climate-model reconstruction on a half-degree grid (Beyer, Krapp & Manica 2020), with measured warming added after 1950; they are model estimates, not measurements.`,w:B.w,img:B.n,links:[{t:'Beyer et al. 2020, Scientific Data',u:'https://doi.org/10.1038/s41597-020-0552-1'}]}}); }
     mx.textAlign='left'; mx.textBaseline='alphabetic';
   }
+  // population: number labels for the largest circles in view
+  if(popBins.length){ const top=MW<600?5:8; let shown=0; mx.textAlign='center';
+    for(const B of popBins){ if(shown>=top) break; if(B.px===undefined||B.px<0||B.px>MW||B.py<0||B.py>MH) continue;
+      const t=fmtPeople(B.n); mx.font='600 11.5px "IBM Plex Sans", sans-serif'; const w=mx.measureText(t).width;
+      if(!place(B.px-w/2-3,B.py-8,B.px+w/2+3,B.py+8)) continue; shown++;
+      mx.fillStyle=col.fg; halo(t,B.px,B.py+4,.9);
+      hits.push({x0:B.px-Math.max(B.r,w/2),y0:B.py-Math.max(B.r,9),x1:B.px+Math.max(B.r,w/2),y1:B.py+Math.max(B.r,9),info:{kind:'Population (estimate)',title:`≈ ${fmtPeople(B.n).replace(' M',' million').replace(' k',' thousand')} people`,
+        sub:`${civil(k)} · within this ${popBins.step}° × ${popBins.step}° square of the map`,
+        desc:`HYDE 3.2.1 estimate (Klein Goldewijk et al. 2017): people per km² times land area, summed over the square. Before about 1500 these are model estimates built from regional totals, not counts. World total at this time ≈ ${fmtPeople(popWorld).replace(' M',' million')}.`,
+        img:'Population density', links:[{t:'Klein Goldewijk et al. 2017 (HYDE 3.2)',u:'https://doi.org/10.5194/essd-9-927-2017'}]}}); }
+    mx.textAlign='left'; }
   // Ice Age culture names and key sites
   if(iceActive.length){
     mx.textAlign='center'; mx.textBaseline='middle';
@@ -1486,7 +1519,7 @@ function renderMap(){
   }
   // info chips
   info.push(`Sea level ${sea<-1.5?Math.round(sea)+' m':(Math.round(sea*100))+' cm'} vs today · ${(()=>{const v=interp(TMP,k);return (v>0.04?'+':v<-0.04?'−':'±')+Math.abs(v).toFixed(1)})()} °C`);
-  if(LY.pop) info.push(y<POPY[0]?'Population: no gridded estimate before 10,000 BCE':'Population density: HYDE 3.2 estimate');
+  if(LY.pop) info.push(y<POPY[0]?'Population: no gridded estimate before 10,000 BCE':`Population ≈ ${fmtPeople(popWorld).replace(' M',' million')} worldwide (HYDE estimate)`);
   if(LY.borders) info.push(y<-10000?'Cultures: hypothetical Ice Age areas': hbYear===null? 'Loading cultures…' : y>=CP_START&&hbKeep? `States: Cliopatria · peoples: map of ${hbYear<0?fmt(-hbYear)+' BCE':hbYear+' CE'}` : `Cultures & states: map of ${hbYear<0?fmt(-hbYear)+' BCE':hbYear+' CE'}`);
   if(LY.borders && euDetail(y)) info.push(`Europe: ${ICEC.filter(c=>c.eu&&iceCultureActive(c,y)).length} cultures active (detailed set)`);
   if(LY.c14 && c14) info.push(y>1950?'Radiocarbon: not used after 1950':`${fmt(nC14)} dated samples in view, ±250 yrs`);
@@ -1612,7 +1645,7 @@ loadPx('atlas/terrain.png',d=>{ terr=d; GLB&&GLB.terrain(d); });
 buildRegIdx(); GLB&&GLB.regions(regIdx);
 loadPx('atlas/ice.png',d=>{ iceD=d; GLB&&GLB.ice(d); });
 loadPx('atlas/slw.png',d=>{ slw=d; GLB&&GLB.shelf(d); });
-loadPx('atlas/popd.png',d=>{ popd=d; popKey=''; },720,360*Math.ceil(POPY.length/3));
+loadPx('atlas/popd.png',d=>{ popd=d; },720,360*Math.ceil(POPY.length/3));
 loadPx('atlas/biome_beyer.png',d=>{ bio=d; GLB&&GLB.biome(d); },BW,BH*BL);
 fetch('atlas/coast.json').then(r=>r.json()).then(d=>{ coast=d; drawMap(); }).catch(()=>{});
 fetch('atlas/rivers.json').then(r=>r.json()).then(d=>{ rivers=d; drawMap(); }).catch(()=>{});

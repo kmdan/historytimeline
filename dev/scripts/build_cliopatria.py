@@ -9,6 +9,7 @@ atlas/cp/<k>.json: rows active in years [k*100, k*100+99] (k may be negative), e
 atlas/cp/index.json: list of bucket numbers that exist.
 atlas/hb/peoples.json: {hb snapshot year: [indices of historical-basemaps features to keep]} for snapshots >= -3400 BCE;
   a historical-basemaps feature is kept only where Cliopatria has no state over most of it (stateless peoples).
+Gaps of up to 25 years between consecutive rows of one polity are bridged (the earlier border is kept).
 Run:  .venv/Scripts/python -I dev/scripts/build_cliopatria.py
 """
 import json, os, collections, re
@@ -34,6 +35,14 @@ for f in g['features']:
     rows.append({'n': p['Name'].strip(), 'w': p.get('Wikipedia') or '', 'f': p['FromYear'], 't': p['ToYear'], 'r': rings,
                  'c': [round(lp.x, 1), round(lp.y, 1)], 'a': round(sum(q.area for q in polys), 1), '_g': unary_union(polys)})
 print(len(rows), 'rows')
+# bridge short gaps (<= 25 years) between consecutive rows of the same polity, so borders do not blink while scrubbing
+GAP = 25; byname = collections.defaultdict(list); bridged = 0
+for r in rows: byname[r['n']].append(r)
+for lst in byname.values():
+    lst.sort(key=lambda r: r['f'])
+    for a_, b_ in zip(lst, lst[1:]):
+        if 0 < b_['f'] - a_['t'] - 1 <= GAP: a_['t'] = b_['f'] - 1; bridged += 1
+print(bridged, 'short gaps bridged')
 buckets = collections.defaultdict(list)
 for r in rows:
     for k in range(r['f'] // 100, r['t'] // 100 + 1): buckets[k].append(r)
