@@ -1,4 +1,5 @@
 """Save GPU, CPU and difference images of the map canvas at one year.  python dev/test/diff.py 4500 bce outdir"""
+import os
 import sys, numpy as np
 from PIL import Image
 from playwright.sync_api import sync_playwright
@@ -8,7 +9,7 @@ with sync_playwright() as p:
     br = p.chromium.launch(channel='msedge', headless=True, args=['--enable-gpu', '--use-angle=d3d11'])
     imgs = []
     for q in sys.argv[4:6] if len(sys.argv)>5 else ('', '?cpu'):
-        pg = br.new_page(viewport={'width': 1100, 'height': 900}); pg.goto('http://localhost:8765/' + (q if q.endswith('html') or '.html?' in q else 'karahan-era.html'+q)); pg.wait_for_timeout(6000)
+        pg = br.new_page(viewport={'width': 1100, 'height': 900}); pg.goto(os.environ.get('KE_BASE','http://localhost:8765/')+'' + (q if q.endswith('html') or '.html?' in q else 'karahan-era.html'+q)); pg.wait_for_timeout(6000)
         w, h, d = pg.evaluate(GO, [int(v), u]); imgs.append(np.array(d, np.uint8).reshape(h, w, 4)[..., :3])
     br.close()
 a, b = (i.astype(int) for i in imgs)

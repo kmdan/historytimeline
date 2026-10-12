@@ -2,6 +2,7 @@
 Run (server on :8765):  python dev/test/flicker.py [page] [latency_ms]
 Prints how many animation frames showed 'Loading cultures…' and how many showed fewer than half the usual borders.
 """
+import os
 import sys, json
 from playwright.sync_api import sync_playwright
 PAGE = sys.argv[1] if len(sys.argv) > 1 else 'karahan-era.html'
@@ -12,7 +13,7 @@ with sync_playwright() as p:
     def slow(route):
         pg.wait_for_timeout(LAT); route.continue_()
     pg.route('**/atlas/**', slow)
-    pg.goto('http://localhost:8765/' + PAGE); pg.wait_for_timeout(6000)
+    pg.goto(os.environ.get('KE_BASE','http://localhost:8765/')+'' + PAGE); pg.wait_for_timeout(6000)
     pg.evaluate("async()=>{const d=document; d.getElementById('goY').value=600; d.getElementById('goU').value='ce'; d.getElementById('go').requestSubmit(); await new Promise(r=>setTimeout(r,4000));}")
     res = pg.evaluate("""async()=>{
       const c=document.getElementById('tl'), b=c.getBoundingClientRect(), y=b.top+b.height*0.6, x0=b.left+b.width*0.85;

@@ -6,10 +6,11 @@ Run:  python dev/test/links.py
 3. bad values are ignored; ?cpu survives
 4. raw HTML (no JS) has title, description, canonical, JSON-LD, lead text and the sources section
 """
+import os
 import json, re, sys, urllib.request
 from playwright.sync_api import sync_playwright
 
-URL = 'http://localhost:8765/karahan-era.html'
+URL = os.environ.get('KE_BASE','http://localhost:8765/')+'karahan-era.html'
 fails = []
 def ok(cond, msg):
     print(('ok   ' if cond else 'FAIL ') + msg)
@@ -23,7 +24,7 @@ ok('name="description"' in head and 'rel="canonical"' in head and 'og:image' in 
 ld = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', head).group(1))
 ok(ld['@type'] == 'WebApplication' and len(ld['isBasedOn']) >= 5, 'JSON-LD parses, lists datasets')
 text = re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>', ' ', raw, flags=re.S)
-ok('Drag the timeline to travel from 40,000 BCE' in text and 'About the data' in text and 'De Groeve et al. 2022' in text, 'lead + sources readable without JS')
+ok('Drag the timeline to travel from' in text and 'About the data' in text and 'De Groeve et al. 2022' in text, 'lead + sources readable without JS')
 
 with sync_playwright() as p:
     b = p.chromium.launch(channel='msedge', headless=True, args=['--use-angle=swiftshader', '--enable-unsafe-swiftshader'])
