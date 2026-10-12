@@ -1,0 +1,6 @@
+# Karahan Era: all crawlers welcome, including AI search and assistant bots.
+# Note: on GitHub Pages this file sits under /historytimeline/, so crawlers only honour it if the site moves to its own domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://kmdan.github.io/historytimeline/sitemap.xml

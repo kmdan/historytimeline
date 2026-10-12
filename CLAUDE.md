@@ -29,6 +29,8 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
   - `python dev/test/check.py <outdir>` — errors, GPU vs `?cpu` pixel diff at 5 years (must be ~0), scrub long tasks, screenshots (dark/light/phone). Uses SwiftShader, so its timings are NOT representative.
   - `python dev/test/touch.py <outdir>` — emulated phone + tablet: swipe over map/timeline scrolls the page, sideways swipe travels, pinch zooms the map, tapped popups stay open, fit and have reachable links (raw CDP touch events; synthesizeScrollGesture does not scroll headless).
   - `python dev/test/flicker.py [page] [latency_ms]` — border-layer dropouts while scrubbing with simulated network latency (must be 0).
+  - `python dev/test/links.py` — deep links `?y=&at=`, address bar following the view, head tags / JSON-LD / text readable without JS.
+  - `python dev/test/og.py [year]` — regenerates the social preview `atlas/og.png` (1200×630).
   - `python dev/test/profile.py [?cpu]` — CPU profile of a scrub on the real GPU (RTX 3070); use this for performance numbers.
 - All JS lives in one IIFE (no globals): drive via UI (`#goY`/`#goU`/`#go` form, buttons, pointer events on `#tl`), read `#ph`, `#mapinfo`, `#eName`, `#pop`, `#map[data-renderer]` (`webgl2` or `cpu`).
 - Touch model: one finger scrolls the page over the map (two fingers pan/zoom it); timeline/chart take sideways drags; popups are a bottom sheet on touch/narrow screens; `leave`/hover handlers are mouse-only.
@@ -55,6 +57,8 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Facts must be checked against Wikipedia or cited papers; mark estimates and contested points as such.
 - Git repo with GitHub remote `origin` (github.com/kmdan/historytimeline, public): commit each working step and `git push` (Git Credential Manager holds the GitHub login since 2026-10-12; if a push asks for credentials, stop and ask the user — never enter them); `.gitattributes` keeps files byte-exact.
 - Migrations focus (user, 2026-10-12): historical movements **before 1900**; no modern refugee/flow datasets. Size is shown as 1–5 figures (×10 each) from `people`; streams (`mode:"flow"`) vs advancing fronts.
+- Deep links: `?y=<signed civil year>&at=lat,lon,zoom` (zoom 1 = whole world) are read on load; the address bar follows the view via `replaceState` (`linkSoon()` in `draw()`/`drawMap()`); other params (`?cpu`) are kept.
+- Discoverability (2026-10-12, `dev/PLAN-discoverability.md`): title, description, canonical (= GitHub Pages URL), Open Graph and JSON-LD live in `<head>`; `robots.txt`, `sitemap.xml`, `llms.txt` at the repo root. Update `sitemap.xml` lastmod and the JSON-LD `isBasedOn` list when datasets change.
 - Map projection stays equirectangular (user: Equal Earth / globe not needed for now).
 
 ## Known improvement candidates

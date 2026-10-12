@@ -1,0 +1,31 @@
+# Karahan Era
+
+> Interactive world history timeline and atlas from 40,000 BCE to today. Drag the timeline and the world map shows coastlines, ice sheets, vegetation, cultures, states, migrations, radiocarbon-dated sites and population for that year, with dated events for six world regions, each linked to Wikipedia. Free, open source (MIT), data from cited scientific datasets.
+
+The calendar counts from Year 1 KE (Karahan Era) = 9500 BCE. Figures before 1800 are scholarly estimates; contested points are flagged on the page.
+
+## Use
+
+- [The atlas](https://kmdan.github.io/historytimeline/karahan-era.html): the interactive page (needs JavaScript; map drawn with WebGL2, CPU fallback).
+- Deep links: `karahan-era.html?y=-4500` opens the world in 4500 BCE (signed civil year, negative = BCE, no year 0, range -40000 to 2026). Add `&at=lat,lon,zoom` for a map view, e.g. `?y=1750&at=48,10,4` (zoom 1 = whole world).
+- The page text (lead, field report, "About the data") is plain HTML; the map and timeline are canvas drawings.
+
+## Data
+
+- [README with sources and licences](https://github.com/kmdan/historytimeline#readme)
+- [Source code](https://github.com/kmdan/historytimeline) (MIT); data keeps its source licences (mostly CC BY 4.0).
+- `atlas/cp/index.json` and `atlas/cp/<century>.json`: states from 3400 BCE (Cliopatria v0.2.1, Seshat, CC BY 4.0), one file per century; each state has name, Wikipedia title, from/to years and compact integer outlines.
+- `atlas/hb/*.json`: peoples and earlier borders (historical-basemaps).
+- `atlas/c14.json`: ~200,000 radiocarbon dates binned by time and grid cell (p3k14c, XRONOS; calibrated with IntCal20).
+- `atlas/coast.json` (Natural Earth 50m) and `atlas/rivers.json`: today's coastline and rivers, compact integer coordinates.
+- PNG rasters (`slw.png`, `ice.png`, `biome_beyer.png`, `popd.png`, `terrain.png`) encode coastlines, ice, biomes, population and elevation; encodings are documented in `dev/HANDOFF.md`.
+
+## Main sources
+
+- Coastlines, last 26,000 years: De Groeve et al. 2022, https://doi.org/10.1111/geb.13573
+- Ice sheets: PaleoMIST 1.0, Gowan et al. 2021, https://doi.org/10.1038/s41467-021-21469-w
+- Biomes and local temperature: Beyer, Krapp & Manica 2020, https://doi.org/10.1038/s41597-020-0552-1
+- Global temperature: Osman et al. 2021; Kaufman et al. 2020
+- States: Cliopatria, Bennett et al. 2025, https://doi.org/10.1038/s41597-025-04516-9
+- Population: HYDE 3.2.1, Klein Goldewijk et al. 2017, https://doi.org/10.5194/essd-9-927-2017
+- Volcanic eruptions: eVolv2k v4, Sigl & Toohey 2024, https://doi.org/10.1594/PANGAEA.971968
