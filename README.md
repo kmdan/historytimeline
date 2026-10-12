@@ -34,6 +34,10 @@ The main datasets are listed below. Full credits, licences and caveats are at th
 
 Figures before 1800 are scholarly estimates with wide error bars. Contested points are flagged in the page. Linked journal figures are under their own licences (mostly CC BY, a few CC BY-NC/ND), so this project is non-commercial.
 
+## Licence
+
+The code (HTML, CSS, JavaScript, Python scripts) is under the [MIT licence](LICENSE). The data keeps the licences of its sources listed above.
+
 ## Repository layout
 
 - `karahan-era.html`: the whole page (HTML, CSS, JavaScript and embedded data)
