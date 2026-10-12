@@ -34,3 +34,28 @@ session edits `karahan-era.html` on master at the same time; merge into master w
 - First stories (facts checked against Wikipedia/papers): Out of Africa and the peopling of the world; the peopling of
   the Americas; Doggerland drowns; the spread of farming from the Near East; the Austronesian voyages; the Bantu
   expansion; steppe migrations (Yamnaya). Migration arrows animate in sync with the steps.
+
+## Feedback log — "What happened here?" (user, 2026-10-12; parked, revisit later)
+- The separate place card below the map feels odd as its own view; it should feel part of the map/timeline
+  (e.g. a side panel or overlay tied to the pin) rather than a second page section.
+- "Nearby" is too generous: events far from the place are listed (now 900 km for importance ≤ 2, 400 km otherwise).
+  Tighten and/or scale with zoom; prefer events whose region contains the place.
+- Missing: migrations that pass through or reach the place, and other changes (who ruled it — Cliopatria/peoples,
+  coastline/river changes, population steps, eruptions nearby). Add these as stops and as rows in the strip.
+
+## Phase 4 status (2026-10-12)
+- Engine done: "Guided tours ▾" in the play bar (also found by search), panel at the bottom of the map with
+  Back / Next / Auto / Read more and step dots; time and map fly together (log-age interpolation); arrow keys step,
+  Esc closes; deep link `?tour=<id>&step=<n>`. Data: `dev/data/tours.json` → `dev/scripts/embed_tours.py` →
+  `<script id="tours">`. Test: `dev/test/tours.py`.
+- First tours (fact-checked against Wikipedia): Out of Africa (10 steps), Peopling of the Americas (9), Doggerland
+  drowns (8). Contested points are worded as "debated" (Madjedbebe 65 ka, Mandrin, White Sands, Monte Verde after
+  Surovell et al. 2026, Paisley Caves, Storegga's effect).
+
+## Tour candidates (popularity check, `dev/data/reddit_tours.json`)
+Reddit blocks automated search, so this ranking uses proxies (AskHistorians FAQ sections, press explainers, existing
+viral animated maps), not vote counts. High: Bronze Age collapse & Sea Peoples; Mongol conquests; Black Death spread;
+Vikings from the Rus to Vinland; Polynesian wayfinding; Columbian Exchange & the Great Dying; Indo-European spread as a
+language story; Ice Age land bridges (Beringia, Sunda, Sahul, Doggerland). Medium: Green Sahara; Silk Roads; White Sands
+/ first Americans; Göbekli Tepe & first monuments; whole history in two minutes; Alexander; Zheng He vs the Iberian
+voyages. Still planned from before: spread of farming, Austronesian voyages, Bantu expansion.
