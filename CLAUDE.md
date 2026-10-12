@@ -44,6 +44,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - `build_c14.py` → `atlas/c14.json` (p3k14c + XRONOS, de-duplicated by lab number, IntCal20).
 - `build_eruptions.py` → `<script id="eruptions">` (eVolv2k v4, eruptions ≥ 10 Tg S).
 - `build_hyde.py` → `atlas/popd.png` + `<script id="popdata">` (HYDE 3.2.1 population density, log-coded 0.5°; layer `#lyPop`, off by default; drawn as population circles per zoom-sized world grid, people = density × land area from terrain, top 5–8 labelled). Raw grids: `dev/raw/hyde/fetch.py` (range requests + inflate64; HYDE 3.3 on YODA is behind a bot check — don't bypass).
+- `build_images.py` → `atlas/img/*.webp` + `index.json` (Commons thumbnails for the era "See it" images, licence/author from Commons metadata; free licences only).
 - Python env: project `.venv` (numpy, scipy, pillow, shapely, tifffile, imagecodecs, h5py, netCDF4). No R.
 - Land/sea rule lives in `landCell()` (JS) and the shader; biome lookup in `bioCls()` and the shader — change both together.
 

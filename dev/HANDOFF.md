@@ -49,8 +49,8 @@ Core JS (search by name):
 Scripts in `dev/scripts/` (Python: numpy, scipy, PIL, shapely, rdata). Sources: ETOPO20 (matplotlib basemap repo), basemap-data wheel (shadedrelief.jpg, lsmask, rivers), kgcpy (Köppen 100″), p3k14c, historical-basemaps, world-atlas.
 
 ## 5. Research workflow & limits
-- Shell network blocks Wikipedia, Commons, OpenAlex, Reddit. Use WebFetch/WebSearch (often via subagents). Wikipedia rate-limits (429): `sleep 4` between fetches, `sleep 90` on 429. OpenAlex works by DOI lookup.
-- The published page's CSP blocks external images/fetch → Commons images and scientific figures are link cards. To embed real images, the user must provide files (e.g. connected folder), then publish as artifact files/assets.
+- Shell network blocked Wikipedia, Commons, OpenAlex, Reddit (since 2026-10-12 Commons API + thumbnails work from the shell with a User-Agent). Use WebFetch/WebSearch (often via subagents). Wikipedia rate-limits (429): `sleep 4` between fetches, `sleep 90` on 429. OpenAlex works by DOI lookup.
+- The published page's CSP blocks external images/fetch, but files published beside the page load fine. Era images: `dev/scripts/build_images.py` downloads 640 px WebP thumbnails to `atlas/img/` (+ `index.json` with Commons licence/author); the "See it" gallery shows them. Scientific figures are still link cards.
 - Raw research JSON in `dev/data/` (same content as embedded blocks, plus source notes).
 
 ## 6. Testing
