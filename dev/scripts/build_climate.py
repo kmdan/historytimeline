@@ -17,13 +17,14 @@ Adjustment: HadCM3 keeps the Sahara/Arabia dry in the early-mid Holocene; the Af
 the same rule as the previous Koppen-based build (greenFactor in the page).
 Run:  .venv/Scripts/python -I dev/scripts/build_climate.py
 """
-import json, re, io
+import json, re, io, os
 import numpy as np, netCDF4 as nc
 from scipy import ndimage
 from PIL import Image
 
 PAGE = 'karahan-era.html'
-d = nc.Dataset('dev/raw/beyer/LateQuaternary_Environment.nc'); d.set_auto_mask(False)
+RAW = os.environ.get('KE_RAW', 'dev/raw')        # raw downloads (git-ignored)
+d = nc.Dataset(f'{RAW}/beyer/LateQuaternary_Environment.nc'); d.set_auto_mask(False)
 T = d['time'][:]; lat = d['latitude'][:]; lon = d['longitude'][:]
 sel = [i for i, t in enumerate(T) if t >= -42000]
 years = [int(1950 + T[i]) for i in sel]
@@ -67,7 +68,8 @@ ALA = np.abs(LA)
 snaps, bio1 = [], []
 for i, y in zip(sel, years):
     b = north_up(d['biome'][i].astype(np.float32)); b[b == 0] = np.nan          # water bodies -> nearest land class
-    B = MAP[fill(b).astype(int)]
+    bf = fill(b).astype(int); B = MAP[bf]
+    B[(bf == 17) & (fill(north_up(d['BIO1'][i].astype(np.float32))) >= 8)] = 5   # 'open conifer woodland' in warm climates: dry woodland
     c = coldness(y)
     if c > 0.25:
         B[(EUR | BER) & (ALA > 40) & (ALA < 72) & np.isin(B, [6, 7, 8]) & (NZ < 0.35 + 0.6 * c)] = 10
@@ -92,12 +94,12 @@ for n, la_, lo_, _ in clim:
     pts[n] = [round(float(a[r, c]), 1) for a in bio1]
 
 # global mean temperature, anomalies vs 1800-1900 CE
-o = nc.Dataset('dev/raw/osman/LGMR_GMST_ens.nc'); o.set_auto_mask(False)
+o = nc.Dataset(f'{RAW}/osman/LGMR_GMST_ens.nc'); o.set_auto_mask(False)
 age = o['age'][:]; ens = o['gmst'][:]                       # (500, 120)
 ref = ens[:, age == 100].mean()
 p5, p50, p95 = (np.percentile(ens, q, axis=0) - ref for q in (5, 50, 95))
 osman = [[int(1950 - a), round(float(m), 2), round(float(l), 2), round(float(h), 2)] for a, m, l, h in zip(age, p50, p5, p95)][::-1]
-k = np.genfromtxt('dev/raw/kaufman/temp12k_allmethods_percentiles.csv', delimiter=',', skip_header=1)
+k = np.genfromtxt(f'{RAW}/kaufman/temp12k_allmethods_percentiles.csv', delimiter=',', skip_header=1)
 kaufman = [[int(1950 - r[0]), round(float(r[2]), 2), round(float(r[1]), 2), round(float(r[3]), 2)] for r in k][::-1]
 
 data = {'years': years, 'bio1': pts, 'osman': osman, 'kaufman': kaufman,

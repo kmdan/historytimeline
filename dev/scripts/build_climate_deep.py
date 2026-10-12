@@ -56,15 +56,16 @@ for line in open(f'{RAW}/deep/spratt2016-noaa.txt', encoding='utf-8'):
 snaps, bio1 = [], []
 for ka in KAS:
     b = north_up(d['biome'][idx[ka]]); b[(b < 1) | (b > 28)] = np.nan
-    B = MAP[fill(b).astype(int)]
+    t = north_up(t1[v1][idx1[ka]]); t[(t < -90) | (t > 60)] = np.nan; t = fill(t)
+    bf = fill(b).astype(int); B = MAP[bf]
+    B[(bf == 17) & (t >= 8)] = 5      # BIOME4 'open conifer woodland' in warm climates is dry woodland, not boreal
     c = float(np.clip((-sea[ka] - 35) / 90, 0, 1))
     if c > 0.25:
         B[(EUR | BER) & (ALA > 40) & (ALA < 72) & np.isin(B, [6, 7, 8]) & (NZ < 0.35 + 0.6 * c)] = 10
     if c > 0.5:
         B[EUR & (ALA > 36) & (ALA < 48) & (B == 6) & (NZ < 0.45 * c)] = 4
     snaps.append(B)
-    t = north_up(t1[v1][idx1[ka]]); t[(t < -90) | (t > 60)] = np.nan
-    bio1.append(fill(t))
+    bio1.append(t)
 
 files, blocks = [], [np.dstack(snaps[k:k + 3]) for k in range(0, len(snaps), 3)]
 for n, (a, z) in enumerate([(0, 11), (11, 22), (22, len(blocks))], 1):
