@@ -1,5 +1,17 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Karahan Era</title>
+<!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>Karahan Era: interactive world history timeline &amp; atlas, 40,000 BCE to today</title>
+<meta name="description" content="Interactive world history timeline and atlas, 40,000 BCE to today: watch coastlines, ice sheets, climate, cultures, states and migrations change year by year.">
+<link rel="canonical" href="https://kmdan.github.io/historytimeline/karahan-era.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Karahan Era">
+<meta property="og:title" content="Karahan Era: interactive world history timeline &amp; atlas, 40,000 BCE to today">
+<meta property="og:description" content="Interactive world history timeline and atlas, 40,000 BCE to today: watch coastlines, ice sheets, climate, cultures, states and migrations change year by year.">
+<meta property="og:url" content="https://kmdan.github.io/historytimeline/karahan-era.html">
+<meta property="og:image" content="https://kmdan.github.io/historytimeline/atlas/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="World map in Karahan Era showing coastlines, ice sheets and cultures at a chosen year">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Karahan Era","alternateName":"Karahan Era world timeline and atlas","url":"https://kmdan.github.io/historytimeline/karahan-era.html","description":"Interactive world history timeline and atlas, 40,000 BCE to today: watch coastlines, ice sheets, climate, cultures, states and migrations change year by year.","applicationCategory":"EducationalApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript; WebGL2 recommended","isAccessibleForFree":true,"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","author":{"@type":"Person","name":"kmdan","url":"https://github.com/kmdan"},"codeRepository":"https://github.com/kmdan/historytimeline","image":"https://kmdan.github.io/historytimeline/atlas/og.png","about":["World history","Prehistory","Paleoclimate","Historical geography","Last Glacial Maximum"],"temporalCoverage":"-40000/2026","isBasedOn":[{"@type":"Dataset","name":"Shelf-sea coastline history, last 26,000 years (De Groeve et al. 2022)","url":"https://doi.org/10.21942/uva.20029220.v1","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"PaleoMIST 1.0 ice sheet reconstruction (Gowan et al. 2021)","url":"https://doi.org/10.1594/PANGAEA.905800","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Global terrestrial climate and biomes over 120,000 years (Beyer, Krapp & Manica 2020)","url":"https://doi.org/10.6084/m9.figshare.12293345","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Cliopatria: polities from 3400 BCE (Bennett et al. 2025)","url":"https://doi.org/10.1038/s41597-025-04516-9","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"HYDE 3.2.1 population density (Klein Goldewijk et al. 2017)","url":"https://doi.org/10.17026/DANS-25G-GEZ3","license":"https://creativecommons.org/licenses/by/3.0/"},{"@type":"Dataset","name":"eVolv2k v4 volcanic eruptions (Sigl & Toohey 2024)","url":"https://doi.org/10.1594/PANGAEA.971968","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"XRONOS radiocarbon dates (Roe et al. 2025)","url":"https://doi.org/10.5334/jcaa.191","license":"https://creativecommons.org/licenses/by/4.0/"}]}</script>
+</head><body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -179,6 +191,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
 .papers .bar{display:inline-block;height:4px;background:var(--accent);border-radius:2px;vertical-align:middle;margin-right:6px;opacity:.7}
 .foot{font-size:12.5px;color:var(--muted);max-width:95ch;display:flex;flex-direction:column;gap:6px}
 .foot p{margin:0}
+.foot-h{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin:0}
 .foot a{color:var(--accent)}
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
 </style>
@@ -188,6 +201,8 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     <div>
       <h1>Karahan <span>Era</span></h1>
       <p class="lede">A world timeline that starts counting when people first raised carved stone pillars at Karahan Tepe and Göbekli Tepe. <b>Year 1 = 9500 BCE</b>, so today, 2026 CE, is <b>Year 11,526</b>. It reaches back 30,000 years before Year 1, into the last Ice Age.</p>
+      <p class="lede">Drag the timeline to travel from 40,000 BCE to today and watch coastlines, ice sheets, vegetation, cultures, states, migrations and population change on the world map, with dated events for every region and links to the sources.</p>
+      <noscript><p class="lede"><b>This interactive map needs JavaScript.</b> The data sources are listed at the foot of the page.</p></noscript>
     </div>
     <div class="controls">
       <button id="bOne" type="button">Year 1</button>
@@ -227,7 +242,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     <nav class="eras" id="eras" aria-label="Jump to era"></nav>
     <div class="stack">
     <div class="atlas" id="atlas">
-      <canvas id="map" aria-label="World map for the year on the timeline. Drag to pan, scroll or pinch to zoom."></canvas>
+      <canvas id="map" role="img" aria-label="World map for the year on the timeline. Drag to pan, scroll or pinch to zoom."></canvas>
       <div class="mapinfo" id="mapinfo"></div>
       <div class="maptools">
         <button type="button" id="mIn" aria-label="Zoom map in">+</button>
@@ -275,7 +290,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     </div>
     <div class="slwrap">
       <div class="slhead"><b>Global sea level and temperature <small class="slkey"><i class="k1"></i>sea level vs today (m, left) <i class="k2"></i>temperature vs 1800–1900 (°C, right; band: 90% range) <i class="k3"></i>Kaufman 2020</small></b><span id="slNow"></span></div>
-      <canvas id="sl" aria-label="Chart of global sea level and temperature over the last 42,000 years. Click or drag to move through time."></canvas>
+      <canvas id="sl" role="img" aria-label="Chart of global sea level and temperature over the last 42,000 years. Click or drag to move through time."></canvas>
     </div>
   </section>
 
@@ -358,7 +373,8 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     </div>
   </section>
 
-  <div class="foot">
+  <div class="foot" id="about-data">
+    <h2 class="foot-h">About the data</h2>
     <p><b>Map data and estimates.</b> For the last 26,000 years, land and sea follow the shelf-sea reconstructions of <a href="https://doi.org/10.1111/geb.13573" target="_blank" rel="noopener">De Groeve et al. 2022</a> (<a href="https://doi.org/10.21942/uva.20029220.v1" target="_blank" rel="noopener">data</a>, CC BY 4.0), which include regional sea level and the rebound of land once pressed down by ice, every 500 years (interpolated between). Before that, coastlines are redrawn from the <a href="https://www.ngdc.noaa.gov/mgg/global/etopo5.HTML" target="_blank" rel="noopener">ETOPO</a> 20-arc-minute elevation grid at the estimated global sea level. Today's coastline is from <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Ice sheets follow the global reconstruction PaleoMIST 1.0 of <a href="https://doi.org/10.1038/s41467-021-21469-w" target="_blank" rel="noopener">Gowan et al. 2021</a> (<a href="https://doi.org/10.1594/PANGAEA.905800" target="_blank" rel="noopener">data</a>, CC BY 4.0), whose margins every 2,500 years are built on the dated limits of Dyke, Dalton, Hughes and others; between those steps each ice edge is interpolated so it advances and retreats smoothly. PaleoMIST covers the ice sheets of North America, Greenland, Eurasia, Iceland, Patagonia and Antarctica; the Alps and other mountain glaciers keep the earlier schematic model, with a snowline lowered by up to about 1 km in the cold. Biomes and local temperatures come from <a href="https://doi.org/10.1038/s41597-020-0552-1" target="_blank" rel="noopener">Beyer, Krapp &amp; Manica 2020</a> (HadCM3 climate downscaled to 0.5° and BIOME4 vegetation, every 1,000–2,000 years; <a href="https://doi.org/10.6084/m9.figshare.12293345" target="_blank" rel="noopener">data</a>, CC BY 4.0), grouped into the ten classes of the legend. Two known model biases are corrected with published patterns: in cold phases northern Eurasia and Beringia are drawn as open mammoth steppe instead of the modelled taiga (pollen syntheses, BIOME 6000), and the Sahara and Arabia are greened during the African Humid Period, which the model misses. Global temperature for the last 24,000 years is the data-assimilation reconstruction of <a href="https://doi.org/10.1038/s41586-021-03984-4" target="_blank" rel="noopener">Osman et al. 2021</a> (the chart's band is its 90% range); the dotted line is the proxy-based Holocene curve of <a href="https://doi.org/10.1038/s41597-020-0530-7" target="_blank" rel="noopener">Kaufman et al. 2020</a>. The two disagree about whether the mid-Holocene was warmer than the 19th century, an open question known as the Holocene temperature conundrum. Farmland spreads outward from the known centres of domestication at estimated speeds, then with 18th–20th-century settler frontiers. Treat the biome and farmland layers as illustrations of the pattern, not as reconstructions.</p>
     <p><b>Cultures and peoples.</b> Before 10,000 BCE, the dashed, softly coloured areas are hypothetical extents of 47 archaeological cultures and populations (for example Aurignacian, Gravettian, Magdalenian, Natufian, Iberomaurusian, Clovis and the first Australians). For Europe from 9500 to 2000 BCE, 88 Mesolithic, Neolithic, Copper Age and Early Bronze Age cultures (from Maglemosian and Lepenski Vir through LBK, Vinča, Varna, Cucuteni–Trypillia, Funnelbeaker and Yamnaya to Corded Ware, Bell Beaker and Únětice) replace the coarse European blocks of the borders maps. All are drawn around the regions and key sites their Wikipedia articles describe and clipped to the land of the time; site positions marked “approx.” are estimates. Elsewhere, from 10,000 BCE the map uses the historical-basemaps borders, and from 3400 BCE states come from <a href="https://github.com/Seshat-Global-History-Databank/cliopatria" target="_blank" rel="noopener">Cliopatria</a> (Seshat Global History Databank, v0.2.1, CC BY 4.0; <a href="https://doi.org/10.1038/s41597-025-04516-9" target="_blank" rel="noopener">Bennett et al. 2025</a>): 13,700 dated border shapes for more than 1,600 polities, each shown only in the years it applies to, with its Wikipedia article. Peoples outside those states (foragers, herders, tribal confederations) still come from historical-basemaps. Where Cliopatria leaves a gap of up to 25 years between two border shapes of the same state, the earlier shape is kept so borders do not blink. Every culture and state has a popup. For 815 names the matching Wikipedia article was checked and is linked with a short description; for the rest the popup offers a Wikipedia search that opens the article directly when the title matches.</p>
     <p><b>Forests and human impact.</b> The Forests layer is an estimate: each biome has a natural forest share, reduced over time by farmland and by the global loss of about a third of the world's forests since the last ice age (6 billion hectares 10,000 years ago, about 4 billion today, from Our World in Data). In 19 regions with documented histories (Iceland, Ireland, Britain, Scotland, Greece, the Dinaric Karst, Lebanon, Rapa Nui, Madagascar, New Zealand, Hawaii, Haiti, the eastern United States, the Amazon, Borneo, Central Europe, Japan, China and Denmark) the forest share follows the published figures; values marked “est.” in their popups are estimates. 42 dated human-impact events, from megafauna extinctions and salted Sumerian fields to the Montreal Protocol, are tagged on the timeline.</p>
@@ -735,6 +751,7 @@ const step = (keys,k)=>{ let v=keys[0][1]; for(const [a,x] of keys){ if(k>=a) v=
 // ---------- timeline ----------
 const cv=document.getElementById('tl'), ctx=cv.getContext('2d'), trench=document.getElementById('trench'), ph=document.getElementById('ph');
 let W=800,H=420,dpr=1, center=ke(-9500)+1400, span=4200, anim=null, selected=EVENTS[0], col={};
+let linkT=0, linkReady=false, linkLast='';   // deep link in the address bar (see 'deep links' below)
 const OVH=14, ERA_H=22, AXIS_H=32, TOP=OVH;   // overview strip, era band, lanes, axis
 let laneH=32;
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -746,7 +763,7 @@ function clamp(){ span=Math.min(Math.max(span,6),DMAX-DMIN+400); center=Math.min
 const X = k => (k-(center-span/2))/span*W;
 
 function draw(){
-  clamp();
+  clamp(); linkSoon();
   const start=center-span/2;
   ctx.clearRect(0,0,W,H); ctx.fillStyle=col.surface; ctx.fillRect(0,0,W,H);
   // overview of the whole span: eras, the visible window, the current year
@@ -833,6 +850,7 @@ function update(){
   $('yBig').textContent = fmt(k);
   $('yCivil').textContent = (k>=1? `Year ${fmt(k)} KE = `:`Before Year 1 · `) + civil(k);
   $('atlasYear').textContent = `${k>=1?'Year '+fmt(k)+' · ':''}${civil(k)}`;
+  $('map').setAttribute('aria-label',`World map in ${civil(k)}: coastlines, ice, vegetation, cultures and states of that time. Drag to pan, scroll or pinch to zoom.`);
   const era=ERAS.find(e=>k>=e.ka&&k<e.kb)||ERAS[ERAS.length-1];
   $('eName').textContent = `${era.n} · ${era.s}`;
   renderEra(era);
@@ -1382,7 +1400,7 @@ function drawMigrations(y,k){
     mx.restore(); }
   return out; }
 let mapPending=false;
-function drawMap(){ if(mapPending) return; mapPending=true; requestAnimationFrame(()=>{ mapPending=false; renderMap(); }); }
+function drawMap(){ linkSoon(); if(mapPending) return; mapPending=true; requestAnimationFrame(()=>{ mapPending=false; renderMap(); }); }
 function renderMap(){
   if(!MW) return;
   const k=Math.floor(center), y=toSigned(k), sea=interp(SEA,k);
@@ -1716,6 +1734,20 @@ new MutationObserver(retheme).observe(document.documentElement,{attributes:true,
 document.fonts && document.fonts.ready.then(()=>draw());
 select(EVENTS.find(e=>e.t.startsWith('Karahan Tepe'))||EVENTS[0],false);
 size(); mapSize();
+
+// ---------- deep links: ?y=-4500 (signed civil year) &at=lat,lon,zoom (zoom 1 = whole world) ----------
+// Read once on load; afterwards the address bar quietly follows the view (replaceState, no history entries), so a copied URL shares it.
+function linkSoon(){ if(linkReady&&!linkT) linkT=setTimeout(writeLink,500); }
+function linkState(){ const q=new URLSearchParams(location.search); q.set('y',toSigned(Math.floor(center)));
+  const z=mv.k/minK(); if(z>1.02) q.set('at',`${mv.lat.toFixed(1)},${mv.lon.toFixed(1)},${z.toFixed(1)}`); else q.delete('at');
+  return q.toString().replace(/%2C/g,',').replace(/=(?=&|$)/g,''); }
+function writeLink(){ linkT=0; const q=linkState(); if(q===linkLast) return; linkLast=q;
+  try{ history.replaceState(history.state,'',location.pathname+'?'+q+location.hash); }catch(e){} }
+(()=>{ const q=new URLSearchParams(location.search), y=parseInt(q.get('y'),10);
+  if(Number.isFinite(y)&&y!==0&&ke(y)>=DMIN&&ke(y)<=DMAX){ center=ke(y)+0.5; span=400; }
+  const at=(q.get('at')||'').split(',').map(parseFloat);
+  if(at.length>=2&&Number.isFinite(at[0])&&Number.isFinite(at[1])){ mv.lat=at[0]; mv.lon=at[1]; mv.k=(at[2]>=1?at[2]:1.8)*minK(); mapClamp(); }
+  linkLast=linkState(); linkReady=true; draw(); drawMap(); })();
 })();
 </script>
 
