@@ -51,7 +51,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Lanes 0 Near East, 1 Africa, 2 Europe, 3 Asia, 4 Americas, 5 Earth & Oceans. Importance `i`: 1 famous, 2 important, 3 specialist.
 - Keep design tokens on `:root` with dark-mode overrides; match the existing compact code style.
 - Facts must be checked against Wikipedia or cited papers; mark estimates and contested points as such.
-- Git repo with GitHub remote `origin` (github.com/kmdan/historytimeline, private): commit each working step; pushing happens from GitHub Desktop (command-line git has no GitHub sign-in here — do not enter credentials); `.gitattributes` keeps files byte-exact.
+- Git repo with GitHub remote `origin` (github.com/kmdan/historytimeline, public): commit each working step and `git push` (Git Credential Manager holds the GitHub login since 2026-10-12; if a push asks for credentials, stop and ask the user — never enter them); `.gitattributes` keeps files byte-exact.
 - Map projection stays equirectangular (user: Equal Earth / globe not needed for now).
 
 ## Known improvement candidates
