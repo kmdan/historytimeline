@@ -14,6 +14,17 @@
 "lon": 23.05
 },
 {
+"y": -498050,
+"l": 5,
+"i": 2,
+"t": "The 100,000-year problem",
+"d": "For the past million years ice ages have come roughly every 100,000 years, matching orbital eccentricity, the weakest of the orbital cycles. Why this small push sets the rhythm is still an open question.",
+"w": "100,000-year problem",
+"lat": null,
+"lon": null,
+"q": true
+},
+{
 "y": -478050,
 "l": 2,
 "i": 2,
@@ -34,6 +45,16 @@
 "lon": 1.5
 },
 {
+"y": -448050,
+"l": 5,
+"i": 2,
+"t": "Anglian ice reaches London",
+"d": "In the Anglian glaciation (MIS 12, about 478,000–424,000 years ago), the most extreme of the last two million years, ice reaches the Isles of Scilly and north London and pushes the Thames south into its present valley.",
+"w": "Anglian stage",
+"lat": 51.6,
+"lon": -0.19
+},
+{
 "y": -428050,
 "l": 2,
 "i": 1,
@@ -44,6 +65,17 @@
 "lon": -3.522
 },
 {
+"y": -428050,
+"l": 5,
+"i": 2,
+"t": "Mid-Brunhes Event",
+"d": "About 430,000 years ago glacial cycles grow larger: since then four big 100,000-year cycles with warmer interglacials. What caused the shift is an open question.",
+"w": "Mid-Brunhes Event",
+"lat": null,
+"lon": null,
+"q": true
+},
+{
 "y": -398050,
 "l": 2,
 "i": 2,
@@ -52,6 +84,16 @@
 "w": "Control of fire by early humans",
 "lat": 52.38,
 "lon": 0.747
+},
+{
+"y": -398050,
+"l": 5,
+"i": 2,
+"t": "Long interglacial melts south Greenland",
+"d": "Interglacial MIS 11 lasts about 50,000 years (424,000–374,000 years ago). Around 400,000 years ago nearly all of south Greenland's ice melts (amount debated), adding at least about 1.4 m to sea level.",
+"w": "Greenland ice sheet",
+"lat": 64.0,
+"lon": -45.0
 },
 {
 "y": -318050,
@@ -304,6 +346,16 @@
 "w": "Harbin cranium",
 "lat": 45.75,
 "lon": 126.6
+},
+{
+"y": -138050,
+"l": 5,
+"i": 2,
+"t": "Saalian ice reaches the Rhineland",
+"d": "In the Saalian glaciation's Drenthe advance, ice covers the northern Netherlands and reaches Düsseldorf. The Penultimate Glacial Maximum, about 140,000 years ago, was Eurasia's largest glaciation of the last 400,000 years (dating of the Drenthe advance debated).",
+"w": "Saale glaciation",
+"lat": 52.0,
+"lon": 5.9
 }
 ],
 "know": [
