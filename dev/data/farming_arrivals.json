@@ -1,0 +1,786 @@
+{
+ "source_note": "Earliest farming (Neolithic) dates per site, from English Wikipedia article text and Wikipedia coordinates (fetched 2026-10-13 via the MediaWiki API). t = signed year (BCE negative): start of the farming/Neolithic occupation as stated; midpoint when the start itself is a range or a millennium; years BP converted as 1950-BP (no calibration). 'src' = article the date comes from; 'coords_src' given when coordinates come from a different article (or town/region page, see note). 'spread' = diffusion from the Fertile Crescent; 'centres' = independent domestication centres (not part of the spread surface). Gaps (no Wikipedia site with both coordinates and a date): southern Scandinavia (Funnelbeaker from c. 4100 BCE, replacing Ertebolle c. 3950), Portugal, Paris Basin, Hungary/Slovakia LBK start (c. 5500), Koros sites, Bug-Dniester, Eastern North America (EAC, squash c. 5000 BCE), Ethiopia, Shangshan, Xinglonggou.",
+ "spread": [
+  {
+   "n": "Jericho (Tell es-Sultan)",
+   "lat": 31.8561,
+   "lon": 35.46,
+   "t": -9250,
+   "when": "first permanent settlement (PPNA) between 9,500 and 9000 BCE",
+   "approx": true,
+   "w": "Jericho",
+   "src": "https://en.wikipedia.org/wiki/Jericho"
+  },
+  {
+   "n": "Tell Aswad",
+   "lat": 33.4,
+   "lon": 36.55,
+   "t": -8700,
+   "when": "domesticated plants from Early PPNB 8700–8200 cal BC",
+   "approx": true,
+   "w": "Tell Aswad",
+   "src": "https://en.wikipedia.org/wiki/Tell_Aswad",
+   "note": "Earlier PPNA claim (c. 9000 cal BC) withdrawn after re-dating"
+  },
+  {
+   "n": "Çayönü",
+   "lat": 38.2164,
+   "lon": 39.7264,
+   "t": -8630,
+   "when": "from around 8630 to 6800 BC",
+   "approx": true,
+   "w": "Çayönü",
+   "src": "https://en.wikipedia.org/wiki/%C3%87ay%C3%B6n%C3%BC"
+  },
+  {
+   "n": "Tell Abu Hureyra (Neolithic village)",
+   "lat": 35.866,
+   "lon": 38.4,
+   "t": -8600,
+   "when": "second occupation ca. 8,600–5,800 BCE",
+   "approx": true,
+   "w": "Tell Abu Hureyra",
+   "src": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+   "note": "Claim of rye cultivation c. 13,000 years ago (Epipalaeolithic) is contested"
+  },
+  {
+   "n": "Klimonas (Cyprus)",
+   "lat": 34.7126,
+   "lon": 33.1337,
+   "t": -8500,
+   "when": "9th millennium BC; 'oldest known farming village'",
+   "approx": true,
+   "w": "Klimonas",
+   "src": "https://en.wikipedia.org/wiki/Klimonas",
+   "note": "Cereals brought from the Levant"
+  },
+  {
+   "n": "Nevalı Çori",
+   "lat": 37.5183,
+   "lon": 38.6056,
+   "t": -8400,
+   "when": "PPNB, from 8400 to 8100 BC",
+   "approx": false,
+   "w": "Nevalı Çori",
+   "src": "https://en.wikipedia.org/wiki/Neval%C4%B1_%C3%87ori"
+  },
+  {
+   "n": "ʿAin Ghazal",
+   "lat": 31.988,
+   "lon": 35.976,
+   "t": -8350,
+   "when": "MPPNB phase I starts around 10,300 BP",
+   "approx": true,
+   "w": "Ayn Ghazal (archaeological site)",
+   "src": "https://en.wikipedia.org/wiki/Ayn_Ghazal_(archaeological_site)"
+  },
+  {
+   "n": "Boncuklu Höyük",
+   "lat": 37.7518,
+   "lon": 32.8648,
+   "t": -8300,
+   "when": "occupied between around 8300 to 7800 BCE; small-scale agriculture",
+   "approx": true,
+   "w": "Boncuklu Höyük",
+   "src": "https://en.wikipedia.org/wiki/Boncuklu_H%C3%B6y%C3%BCk"
+  },
+  {
+   "n": "Aşıklı Höyük",
+   "lat": 38.3489,
+   "lon": 34.23,
+   "t": -8200,
+   "when": "first settled around 8,200 BC",
+   "approx": true,
+   "w": "Aşıklı Höyük",
+   "src": "https://en.wikipedia.org/wiki/A%C5%9F%C4%B1kl%C4%B1_H%C3%B6y%C3%BCk"
+  },
+  {
+   "n": "Ganj Dareh",
+   "lat": 34.2721,
+   "lon": 47.4758,
+   "t": -8200,
+   "when": "c. 8200 BC; earliest evidence for goat domestication",
+   "approx": true,
+   "w": "Ganj Dareh",
+   "src": "https://en.wikipedia.org/wiki/Ganj_Dareh"
+  },
+  {
+   "n": "Chogha Golan",
+   "lat": 33.3774,
+   "lon": 46.2711,
+   "t": -7850,
+   "when": "domesticated emmer wheat around 9,800 BP",
+   "approx": true,
+   "w": "Chogha Golan",
+   "src": "https://en.wikipedia.org/wiki/Chogha_Golan"
+  },
+  {
+   "n": "Tell Halula",
+   "lat": 36.4167,
+   "lon": 38.1667,
+   "t": -7750,
+   "when": "from middle PPNB at around 7750 BC",
+   "approx": true,
+   "w": "Tell Halula",
+   "src": "https://en.wikipedia.org/wiki/Tell_Halula"
+  },
+  {
+   "n": "Ali Kosh",
+   "lat": 32.5578,
+   "lon": 47.3249,
+   "t": -7500,
+   "when": "Bus Mordeh phase started around 7500 BC",
+   "approx": true,
+   "w": "Ali Kosh",
+   "src": "https://en.wikipedia.org/wiki/Ali_Kosh",
+   "note": "2018 analysis suggests a shorter occupation"
+  },
+  {
+   "n": "Çatalhöyük",
+   "lat": 37.6667,
+   "lon": 32.8281,
+   "t": -7500,
+   "when": "from around 7500 BC to 5600 BC",
+   "approx": true,
+   "w": "Çatalhöyük",
+   "src": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk"
+  },
+  {
+   "n": "Tell Sabi Abyad",
+   "lat": 36.504,
+   "lon": 39.093,
+   "t": -7500,
+   "when": "inhabited around 7500 to 5500 BC",
+   "approx": true,
+   "w": "Tell Sabi Abyad",
+   "src": "https://en.wikipedia.org/wiki/Tell_Sabi_Abyad"
+  },
+  {
+   "n": "Sang-i Chakmak",
+   "lat": 36.4997,
+   "lon": 55.0006,
+   "t": -7200,
+   "when": "western settlement 7200 to 6600 cal BC",
+   "approx": false,
+   "w": "Sang-i Chakmak",
+   "src": "https://en.wikipedia.org/wiki/Sang-i_Chakmak"
+  },
+  {
+   "n": "Jeitun",
+   "lat": 38.1878,
+   "lon": 58.3491,
+   "t": -7200,
+   "when": "occupied from about 7200 to 4500 BC",
+   "approx": true,
+   "w": "Jeitun",
+   "src": "https://en.wikipedia.org/wiki/Jeitun"
+  },
+  {
+   "n": "Chogha Bonut",
+   "lat": 32.222,
+   "lon": 48.505,
+   "t": -7200,
+   "when": "settled as early as 7200 BCE",
+   "approx": true,
+   "w": "Chogha Bonut",
+   "src": "https://en.wikipedia.org/wiki/Chogha_Bonut"
+  },
+  {
+   "n": "Beidha",
+   "lat": 30.3708,
+   "lon": 35.4478,
+   "t": -7200,
+   "when": "habitation dated between 7200 and 6500 BC",
+   "approx": false,
+   "w": "Beidha (archaeological site)",
+   "src": "https://en.wikipedia.org/wiki/Beidha_(archaeological_site)"
+  },
+  {
+   "n": "Jarmo",
+   "lat": 35.5558,
+   "lon": 44.9303,
+   "t": -7090,
+   "when": "oldest levels dated (C-14) to 7090 BC",
+   "approx": false,
+   "w": "Jarmo",
+   "src": "https://en.wikipedia.org/wiki/Jarmo"
+  },
+  {
+   "n": "Knossos",
+   "lat": 35.2981,
+   "lon": 25.1631,
+   "t": -7000,
+   "when": "settlement on Kephala hill began around 7000 BC",
+   "approx": true,
+   "w": "Knossos",
+   "src": "https://en.wikipedia.org/wiki/Knossos"
+  },
+  {
+   "n": "Khirokitia (Cyprus)",
+   "lat": 34.7967,
+   "lon": 33.3437,
+   "t": -7000,
+   "when": "radiocarbon foundation date of around 7000 BC",
+   "approx": true,
+   "w": "Khirokitia",
+   "src": "https://en.wikipedia.org/wiki/Khirokitia"
+  },
+  {
+   "n": "Mehrgarh",
+   "lat": 29.3833,
+   "lon": 67.6167,
+   "t": -7000,
+   "when": "farming village dated from 7000 BCE or 5250 BCE",
+   "approx": true,
+   "w": "Mehrgarh",
+   "src": "https://en.wikipedia.org/wiki/Mehrgarh",
+   "note": "CONTESTED: recent radiocarbon on teeth puts Period I at 5250–4650 BCE"
+  },
+  {
+   "n": "Franchthi Cave (Neolithic)",
+   "lat": 37.4233,
+   "lon": 23.1322,
+   "t": -6900,
+   "when": "Neolithic farmers arrive in Greece c. 6900 BC",
+   "approx": true,
+   "w": "Franchthi Cave",
+   "src": "https://en.wikipedia.org/wiki/Franchthi_Cave"
+  },
+  {
+   "n": "Sesklo",
+   "lat": 39.355,
+   "lon": 22.835,
+   "t": -6850,
+   "when": "proto-/pre-Sesklo c. 7510 BC — c. 6190 BC",
+   "approx": true,
+   "w": "Sesklo",
+   "src": "https://en.wikipedia.org/wiki/Sesklo",
+   "note": "Midpoint of a broad, older dating"
+  },
+  {
+   "n": "Chogha Mish",
+   "lat": 32.2241,
+   "lon": 48.5555,
+   "t": -6800,
+   "when": "dating back to about 6800 BC",
+   "approx": true,
+   "w": "Chogha Mish",
+   "src": "https://en.wikipedia.org/wiki/Chogha_Mish"
+  },
+  {
+   "n": "Yeşilova Höyük (İzmir)",
+   "lat": 38.4414,
+   "lon": 27.2139,
+   "t": -6500,
+   "when": "occupied from roughly 6500 to 4000 BC",
+   "approx": true,
+   "w": "Yeşilova Höyük",
+   "src": "https://en.wikipedia.org/wiki/Ye%C5%9Filova_H%C3%B6y%C3%BCk"
+  },
+  {
+   "n": "Aratashen (Armenia)",
+   "lat": 40.1286,
+   "lon": 44.2275,
+   "t": -6500,
+   "when": "pre-ceramic first phase going back to 6500 BCE",
+   "approx": true,
+   "w": "Aratashen",
+   "src": "https://en.wikipedia.org/wiki/Aratashen"
+  },
+  {
+   "n": "Tell el-'Oueili (Ubaid 0)",
+   "lat": 31.243,
+   "lon": 45.885,
+   "t": -6500,
+   "when": "Ubaid 0 (6500–5400 BCE)",
+   "approx": true,
+   "w": "Tell el-'Oueili",
+   "src": "https://en.wikipedia.org/wiki/Tell_el-'Oueili"
+  },
+  {
+   "n": "Karanovo",
+   "lat": 42.5114,
+   "lon": 25.915,
+   "t": -6200,
+   "when": "Karanovo I–III ca. 62nd to 55th centuries BC",
+   "approx": true,
+   "w": "Karanovo culture",
+   "src": "https://en.wikipedia.org/wiki/Karanovo_culture"
+  },
+  {
+   "n": "Runik (Starčevo)",
+   "lat": 42.7836,
+   "lon": 20.7058,
+   "t": -6185,
+   "when": "ca. 6185 BCE (6325–6088 BCE, 95% CI)",
+   "approx": true,
+   "w": "Runik",
+   "src": "https://en.wikipedia.org/wiki/Star%C4%8Devo_culture",
+   "coords_src": "https://en.wikipedia.org/wiki/Runik"
+  },
+  {
+   "n": "Nea Nikomedeia",
+   "lat": 40.5877,
+   "lon": 22.2498,
+   "t": -6150,
+   "when": "dated to 6250–6050 BC",
+   "approx": true,
+   "w": "Nea Nikomideia",
+   "src": "https://en.wikipedia.org/wiki/Nea_Nikomideia"
+  },
+  {
+   "n": "Lepenski Vir (Neolithic)",
+   "lat": 44.5611,
+   "lon": 22.0242,
+   "t": -6100,
+   "when": "Starčevo expansion to eastern Serbia (Lepenski Vir) ca. 6100 BCE",
+   "approx": true,
+   "w": "Lepenski Vir",
+   "src": "https://en.wikipedia.org/wiki/Star%C4%8Devo_culture",
+   "coords_src": "https://en.wikipedia.org/wiki/Lepenski_Vir",
+   "note": "Mesolithic–Neolithic transition site; late phase 6300–6000 BC"
+  },
+  {
+   "n": "Nabta Playa (sheep/goats)",
+   "lat": 22.508,
+   "lon": 30.7256,
+   "t": -6100,
+   "when": "goats and sheep from Western Asia appear in the late 7th millennium BC",
+   "approx": true,
+   "w": "Nabta Playa",
+   "src": "https://en.wikipedia.org/wiki/Nabta_Playa",
+   "note": "Earlier 'domestic cattle' claims are disputed (likely wild aurochs)"
+  },
+  {
+   "n": "Coppa Nevigata (Impressed Ware)",
+   "lat": 41.5581,
+   "lon": 15.8339,
+   "t": -6000,
+   "when": "perhaps as early as 6000 cal B.C.",
+   "approx": true,
+   "w": "Coppa Nevigata",
+   "src": "https://en.wikipedia.org/wiki/Cardium_pottery",
+   "coords_src": "https://en.wikipedia.org/wiki/Coppa_Nevigata"
+  },
+  {
+   "n": "Tumba Madžari",
+   "lat": 42.0014,
+   "lon": 21.505,
+   "t": -6000,
+   "when": "continuous occupation 6000–4300 BC",
+   "approx": true,
+   "w": "Tumba Madžari",
+   "src": "https://en.wikipedia.org/wiki/Tumba_Mad%C5%BEari"
+  },
+  {
+   "n": "Tepe Sialk",
+   "lat": 33.9689,
+   "lon": 51.4047,
+   "t": -6000,
+   "when": "Sialk I inhabited from around 6000 to 5500 BCE",
+   "approx": true,
+   "w": "Tepe Sialk",
+   "src": "https://en.wikipedia.org/wiki/Tepe_Sialk"
+  },
+  {
+   "n": "Choga Mami",
+   "lat": 33.8833,
+   "lon": 45.45,
+   "t": -6000,
+   "when": "first canal irrigation around 6000 BCE",
+   "approx": true,
+   "w": "Choga Mami",
+   "src": "https://en.wikipedia.org/wiki/Choga_Mami"
+  },
+  {
+   "n": "Aknashen (Armenia)",
+   "lat": 40.0958,
+   "lon": 44.2861,
+   "t": -5950,
+   "when": "earliest Horizon VII started in 5950 BC",
+   "approx": false,
+   "w": "Aknashen",
+   "src": "https://en.wikipedia.org/wiki/Aknashen"
+  },
+  {
+   "n": "Arukhlo (Shulaveri–Shomu)",
+   "lat": 41.4533,
+   "lon": 44.6957,
+   "t": -5800,
+   "when": "occupied 5800–5400 BC",
+   "approx": false,
+   "w": "Arukhlo",
+   "src": "https://en.wikipedia.org/wiki/Arukhlo"
+  },
+  {
+   "n": "Hajji Firuz Tepe",
+   "lat": 36.9944,
+   "lon": 45.4744,
+   "t": -5700,
+   "when": "Hajji Firuz period c. 6000–5400 cal BC",
+   "approx": true,
+   "w": "Hajji Firuz Tepe",
+   "src": "https://en.wikipedia.org/wiki/Hajji_Firuz_Tepe"
+  },
+  {
+   "n": "Vinča-Belo Brdo (Starčevo)",
+   "lat": 44.7619,
+   "lon": 20.6231,
+   "t": -5700,
+   "when": "Starčevo period c. 5700–5300 BCE",
+   "approx": true,
+   "w": "Vinča-Belo Brdo",
+   "src": "https://en.wikipedia.org/wiki/Vin%C4%8Da-Belo_Brdo"
+  },
+  {
+   "n": "Faiyum A",
+   "lat": 29.3084,
+   "lon": 30.8441,
+   "t": -5600,
+   "when": "Faiyum A, about 5600–4400 BC; earliest farming culture in the Nile Valley",
+   "approx": true,
+   "w": "Faiyum",
+   "src": "https://en.wikipedia.org/wiki/Prehistoric_Egypt",
+   "coords_src": "https://en.wikipedia.org/wiki/Faiyum",
+   "note": "Coordinates of Faiyum city (Faiyum depression)"
+  },
+  {
+   "n": "Eridu",
+   "lat": 30.8158,
+   "lon": 45.9961,
+   "t": -5400,
+   "when": "founded c. 5400 BC (early Ubaid)",
+   "approx": true,
+   "w": "Eridu",
+   "src": "https://en.wikipedia.org/wiki/Eridu"
+  },
+  {
+   "n": "Ifri Oudadane (Morocco)",
+   "lat": 35.2151,
+   "lon": -3.2542,
+   "t": -5380,
+   "when": "domesticated lentil dating back to 7.327±81 BP",
+   "approx": true,
+   "w": "Ifri Oudadane",
+   "src": "https://en.wikipedia.org/wiki/Ifri_Oudadane",
+   "note": "BP value as given; earliest dated crop in North Africa"
+  },
+  {
+   "n": "Merimde Beni Salama",
+   "lat": 30.316,
+   "lon": 30.85,
+   "t": -5300,
+   "when": "earliest radiocarbon date 5300 BC",
+   "approx": false,
+   "w": "Merimde Beni Salama",
+   "src": "https://en.wikipedia.org/wiki/Merimde_Beni_Salama"
+  },
+  {
+   "n": "Herxheim (LBK)",
+   "lat": 49.1469,
+   "lon": 8.22,
+   "t": -5300,
+   "when": "site dates between 5300 and 4950 BC",
+   "approx": false,
+   "w": "Herxheim bei Landau/Pfalz",
+   "src": "https://en.wikipedia.org/wiki/Herxheim_(archaeological_site)",
+   "coords_src": "https://en.wikipedia.org/wiki/Herxheim_bei_Landau%2FPfalz",
+   "note": "Coordinates of the municipality"
+  },
+  {
+   "n": "Cave of El Toro",
+   "lat": 36.6272,
+   "lon": -4.5183,
+   "t": -5280,
+   "when": "Early Neolithic (5280 BC)",
+   "approx": false,
+   "w": "Cave of El Toro",
+   "src": "https://en.wikipedia.org/wiki/Cave_of_El_Toro"
+  },
+  {
+   "n": "Kückhoven well (LBK)",
+   "lat": 51.0833,
+   "lon": 6.3167,
+   "t": -5100,
+   "when": "Linear Pottery well built around 5,100 B.C.",
+   "approx": true,
+   "w": "Erkelenz",
+   "src": "https://en.wikipedia.org/wiki/Erkelenz",
+   "note": "Coordinates of Erkelenz borough"
+  },
+  {
+   "n": "Haua Fteah (Libya)",
+   "lat": 32.8997,
+   "lon": 22.0514,
+   "t": -5050,
+   "when": "domesticated animal bones dated between 7 and 4.7 thousand years old",
+   "approx": true,
+   "w": "Haua Fteah",
+   "src": "https://en.wikipedia.org/wiki/Haua_Fteah"
+  },
+  {
+   "n": "Talheim (LBK)",
+   "lat": 49.0828,
+   "lon": 9.1861,
+   "t": -5000,
+   "when": "LBK settlement, about 5000 BC (grave 5207–4849 BCE)",
+   "approx": true,
+   "w": "Talheim Death Pit",
+   "src": "https://en.wikipedia.org/wiki/Talheim_Death_Pit"
+  },
+  {
+   "n": "Hienheim (LBK)",
+   "lat": 48.864,
+   "lon": 11.767,
+   "t": -5000,
+   "when": "Neolithic settlement from around 5000 BC",
+   "approx": true,
+   "w": "Hienheim",
+   "src": "https://en.wikipedia.org/wiki/Hienheim"
+  },
+  {
+   "n": "Fontbrégoua Cave",
+   "lat": 43.55,
+   "lon": 6.2333,
+   "t": -5000,
+   "when": "used in the fifth and fourth millennia BCE (Early Neolithic herders)",
+   "approx": true,
+   "w": "Fontbrégoua Cave",
+   "src": "https://en.wikipedia.org/wiki/Fontbr%C3%A9goua_Cave",
+   "note": "Millennium-level dating only"
+  },
+  {
+   "n": "Sheri Khan Tarakai",
+   "lat": 32.8444,
+   "lon": 70.4689,
+   "t": -5000,
+   "when": "occupied from approximately 5000 BC",
+   "approx": true,
+   "w": "Sheri Khan Tarakai",
+   "src": "https://en.wikipedia.org/wiki/Sheri_Khan_Tarakai"
+  },
+  {
+   "n": "Lipari",
+   "lat": 38.4667,
+   "lon": 14.95,
+   "t": -5000,
+   "when": "inhabited already in 5000 BC",
+   "approx": true,
+   "w": "Lipari",
+   "src": "https://en.wikipedia.org/wiki/Lipari",
+   "note": "Neolithic island colonisation (obsidian)"
+  },
+  {
+   "n": "Cueva de los Murciélagos (Zuheros)",
+   "lat": 37.5419,
+   "lon": -4.3042,
+   "t": -4900,
+   "when": "Neolithic finds 4,900 to 3,980 BC",
+   "approx": false,
+   "w": "Cueva de los Murciélagos",
+   "src": "https://en.wikipedia.org/wiki/Cueva_de_los_Murci%C3%A9lagos"
+  },
+  {
+   "n": "Badari",
+   "lat": 27,
+   "lon": 31.4167,
+   "t": -4400,
+   "when": "flourished 4400–4000 BC, might have emerged by 5000 BC",
+   "approx": true,
+   "w": "Badarian culture",
+   "src": "https://en.wikipedia.org/wiki/Badarian_culture",
+   "note": "Earliest direct evidence of agriculture in Upper Egypt"
+  },
+  {
+   "n": "Ferriter's Cove",
+   "lat": 52.171,
+   "lon": -10.447,
+   "t": -4350,
+   "when": "cattle and sheep alive c. 4350 BC",
+   "approx": true,
+   "w": "Ferriter's Cove",
+   "src": "https://en.wikipedia.org/wiki/Ferriter's_Cove",
+   "note": "Earliest (contested) evidence of farming in Ireland; possibly imported animals"
+  },
+  {
+   "n": "Balbridie",
+   "lat": 57.0536,
+   "lon": -2.4432,
+   "t": -4000,
+   "when": "dating from 3400 to 4000 BC",
+   "approx": true,
+   "w": "Balbridie",
+   "src": "https://en.wikipedia.org/wiki/Balbridie"
+  },
+  {
+   "n": "Sarazm",
+   "lat": 39.5083,
+   "lon": 67.4611,
+   "t": -3900,
+   "when": "C14 dates ranging from 3900 to 2100 BC",
+   "approx": true,
+   "w": "Sarazm",
+   "src": "https://en.wikipedia.org/wiki/Sarazm"
+  },
+  {
+   "n": "Sweet Track",
+   "lat": 51.1642,
+   "lon": -2.8264,
+   "t": -3807,
+   "when": "built in 3807 BC (dendrochronology)",
+   "approx": false,
+   "w": "Sweet Track",
+   "src": "https://en.wikipedia.org/wiki/Sweet_Track",
+   "note": "Early Neolithic trackway, Somerset Levels"
+  },
+  {
+   "n": "Windmill Hill",
+   "lat": 51.4415,
+   "lon": -1.8762,
+   "t": -3800,
+   "when": "first occupied around 3800 BC",
+   "approx": true,
+   "w": "Windmill Hill, Avebury",
+   "src": "https://en.wikipedia.org/wiki/Windmill_Hill,_Avebury"
+  },
+  {
+   "n": "Knap of Howar (Orkney)",
+   "lat": 59.3494,
+   "lon": -2.9107,
+   "t": -3800,
+   "when": "occupied from 3800 BC to 2800 BC",
+   "approx": true,
+   "w": "Knap of Howar",
+   "src": "https://en.wikipedia.org/wiki/Knap_of_Howar",
+   "note": "Neolithic farmstead"
+  },
+  {
+   "n": "Céide Fields",
+   "lat": 54.3069,
+   "lon": -9.4578,
+   "t": -3500,
+   "when": "Neolithic farming landscape of the fourth millennium BCE",
+   "approx": true,
+   "w": "Céide Fields",
+   "src": "https://en.wikipedia.org/wiki/C%C3%A9ide_Fields",
+   "note": "Millennium midpoint; Bronze/Iron Age reinterpretation proposed"
+  },
+  {
+   "n": "Burzahom (Kashmir)",
+   "lat": 34.1699,
+   "lon": 74.8668,
+   "t": -3000,
+   "when": "phases between 3000 BCE and 1000 BCE; wheat",
+   "approx": true,
+   "w": "Burzahom archaeological site",
+   "src": "https://en.wikipedia.org/wiki/Burzahom_archaeological_site"
+  }
+ ],
+ "centres": [
+  {
+   "n": "Nanzhuangtou (millet, N China)",
+   "lat": 39.1167,
+   "lon": 115.65,
+   "t": -9250,
+   "when": "roughly 9,500–9,000 BC; millet cultivation c. 10,500 BP",
+   "approx": true,
+   "w": "Nanzhuangtou",
+   "src": "https://en.wikipedia.org/wiki/Nanzhuangtou",
+   "note": "Early millet use; domestication status debated"
+  },
+  {
+   "n": "Guilá Naquitz Cave (squash, Oaxaca)",
+   "lat": 16.9753,
+   "lon": -96.3089,
+   "t": -8750,
+   "when": "cultivated squash rinds as far back as 8750 BC",
+   "approx": true,
+   "w": "Guilá Naquitz Cave",
+   "src": "https://en.wikipedia.org/wiki/Guil%C3%A1_Naquitz_Cave"
+  },
+  {
+   "n": "Guitarrero Cave (Andes)",
+   "lat": -9.2006,
+   "lon": -77.7097,
+   "t": -8500,
+   "when": "ají pepper first appears at 8,500 BCE",
+   "approx": true,
+   "w": "Guitarrero Cave",
+   "src": "https://en.wikipedia.org/wiki/Guitarrero_Cave",
+   "note": "Early plant dates here have been questioned"
+  },
+  {
+   "n": "Kuk Swamp (New Guinea)",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "t": -7050,
+   "when": "agricultural drainage systems beginning about 9,000 years ago",
+   "approx": true,
+   "w": "Kuk Swamp",
+   "src": "https://en.wikipedia.org/wiki/Kuk_Swamp",
+   "note": "Taro; bananas/sugar cane 6,900–6,400 years ago"
+  },
+  {
+   "n": "Jiahu (Peiligang)",
+   "lat": 33.613,
+   "lon": 113.667,
+   "t": -7000,
+   "when": "settled c. 7000 BC",
+   "approx": true,
+   "w": "Jiahu",
+   "src": "https://en.wikipedia.org/wiki/Jiahu"
+  },
+  {
+   "n": "Cishan (millet)",
+   "lat": 36.7,
+   "lon": 114.2,
+   "t": -6500,
+   "when": "Cishan culture (6500–5000 BC); foxtail millet c. 8700 years ago",
+   "approx": true,
+   "w": "Cishan culture",
+   "src": "https://en.wikipedia.org/wiki/Cishan_culture",
+   "note": "Claims of 10,000-year broomcorn millet questioned"
+  },
+  {
+   "n": "Kuahuqiao (paddy rice)",
+   "lat": 30.1442,
+   "lon": 120.2183,
+   "t": -5750,
+   "when": "paddy rice cultivation 7700 years ago",
+   "approx": true,
+   "w": "Kuahuqiao site",
+   "src": "https://en.wikipedia.org/wiki/Kuahuqiao_site"
+  },
+  {
+   "n": "Uan Muhuggiag (Saharan cattle)",
+   "lat": 24.9,
+   "lon": 10.3667,
+   "t": -5500,
+   "when": "domestic cattle perhaps from the eighth millennium BP",
+   "approx": true,
+   "w": "Uan Muhuggiag",
+   "src": "https://en.wikipedia.org/wiki/Uan_Muhuggiag",
+   "note": "Origin of African cattle (local vs Near East) debated"
+  },
+  {
+   "n": "Hemudu (rice)",
+   "lat": 29.9642,
+   "lon": 121.3444,
+   "t": -5500,
+   "when": "Hemudu culture (5500 BC to 3300 BC)",
+   "approx": true,
+   "w": "Hemudu culture",
+   "src": "https://en.wikipedia.org/wiki/Hemudu_culture"
+  },
+  {
+   "n": "Dhar Tichitt (pearl millet, Sahel)",
+   "lat": 18.4517,
+   "lon": -9.4053,
+   "t": -1750,
+   "when": "Early Tichitt 1900–1600 BCE: initial cultivation of domesticated pearl millet",
+   "approx": true,
+   "w": "Dhar Tichitt",
+   "src": "https://en.wikipedia.org/wiki/Dhar_Tichitt"
+  }
+ ]
+}
