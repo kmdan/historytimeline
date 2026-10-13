@@ -1074,8 +1074,8 @@
   "ly": {
    "lyFigs": false,
    "lyC14": false,
-   "lyFarm": true,
-   "lyPop": true,
+   "lyFarm": false,
+   "lyPop": false,
    "lyMigr": true,
    "lyFauna": false,
    "lyHomo": false
@@ -2403,5 +2403,450 @@
   "fx": {
    "walk": true
   }
+ },
+ {
+  "id": "tambora",
+  "title": "Tambora and the Year Without a Summer",
+  "blurb": "How one Indonesian volcano in 1815 chilled the world, emptied granaries from New England to Yunnan and left traces in literature and art.",
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": false,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  },
+  "steps": [
+   {
+    "y": 1815,
+    "lat": -8.4,
+    "lon": 117.6,
+    "z": 12,
+    "span": 6,
+    "t": "Tambora explodes",
+    "c": "On 10 April 1815 Mount Tambora on Sumbawa reached its climax: the most powerful eruption in recorded history (VEI 7). About 10,000 people died at once; famine and disease on Sumbawa, Lombok and Bali killed tens of thousands more (estimates vary).",
+    "w": "1815 eruption of Mount Tambora",
+    "src": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "look": [
+     [
+      -8.25,
+      118.0,
+      "Mount Tambora"
+     ],
+     [
+      -8.65,
+      116.32,
+      "Lombok"
+     ]
+    ]
+   },
+   {
+    "y": 1816,
+    "lat": 10,
+    "lon": 60,
+    "z": 1,
+    "span": 6,
+    "t": "A veil in the sky",
+    "c": "The eruption column rose over 40 km. Sulfur gas became a haze of tiny droplets that spread around the globe and reflected sunlight. In 1816 the world was about 0.4–0.7 °C cooler than normal (estimates).",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "look": [
+     [
+      -8.25,
+      118.0,
+      "Tambora"
+     ]
+    ]
+   },
+   {
+    "y": 1816,
+    "lat": 43.5,
+    "lon": -71,
+    "z": 8,
+    "span": 6,
+    "t": "Snow in June",
+    "c": "On 6 June 1816 snow fell in Albany, New York, and Dennysville, Maine. Repeated summer frosts killed crops across New England, and the year was nicknamed \"Eighteen hundred and froze to death\".",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "look": [
+     [
+      42.65,
+      -73.76,
+      "Albany"
+     ],
+     [
+      44.9,
+      -67.22,
+      "Dennysville"
+     ]
+    ]
+   },
+   {
+    "y": 1816,
+    "lat": 49,
+    "lon": 2,
+    "z": 6,
+    "span": 6,
+    "t": "Bread riots in Europe",
+    "c": "Cold rain ruined harvests and grain prices soared. Riots broke out at markets and bakeries across Europe, the most violent since the French Revolution. In England the Ely and Littleport riots of May 1816 ended with five men hanged.",
+    "w": "Ely and Littleport riots of 1816",
+    "src": "https://en.wikipedia.org/wiki/Ely_and_Littleport_riots_of_1816",
+    "look": [
+     [
+      52.46,
+      0.3,
+      "Littleport"
+     ],
+     [
+      46.8,
+      2.5,
+      "France"
+     ]
+    ]
+   },
+   {
+    "y": 1816,
+    "lat": 25,
+    "lon": 102,
+    "z": 8,
+    "span": 6,
+    "t": "Famine in Yunnan",
+    "c": "In south-western China, cold summers ruined rice harvests in Yunnan and caused a large famine, one of several blows to the Qing dynasty in these years.",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "look": [
+     [
+      25.04,
+      102.71,
+      "Kunming"
+     ]
+    ]
+   },
+   {
+    "y": 1816,
+    "lat": 46.2,
+    "lon": 6.3,
+    "z": 20,
+    "span": 6,
+    "t": "Frankenstein at Lake Geneva",
+    "c": "In June 1816 endless rain kept Mary Shelley, Percy Shelley, Lord Byron and John Polidori indoors at the Villa Diodati. Byron proposed a ghost-story contest: Mary began Frankenstein and Polidori wrote The Vampyre.",
+    "w": "Villa Diodati",
+    "src": "https://en.wikipedia.org/wiki/Villa_Diodati",
+    "look": [
+     [
+      46.2203,
+      6.1833,
+      "Villa Diodati"
+     ]
+    ]
+   },
+   {
+    "y": 1817,
+    "lat": 48,
+    "lon": 9,
+    "z": 8,
+    "span": 6,
+    "t": "Hunger and emigration",
+    "c": "Famine struck eastern Switzerland in 1816–17. In south-western Germany more people left than died: many emigrated to America, and Swabian groups trekked to the Russian Caucasus (1817–19), though religion also drove them.",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Caucasus_Germans",
+    "look": [
+     [
+      47.42,
+      9.37,
+      "East Switzerland"
+     ],
+     [
+      48.78,
+      9.18,
+      "Württemberg"
+     ]
+    ]
+   },
+   {
+    "y": 1817,
+    "lat": 54,
+    "lon": -6,
+    "z": 12,
+    "span": 6,
+    "t": "Typhus in Ireland",
+    "c": "Hunger weakened people and a typhus epidemic swept Ireland from 1816 to 1819, spreading on to Britain and the continent. Estimates put the deaths at about 65,000.",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "look": [
+     [
+      53.35,
+      -6.26,
+      "Dublin"
+     ]
+    ]
+   },
+   {
+    "y": 1817,
+    "lat": 23,
+    "lon": 88,
+    "z": 8,
+    "span": 8,
+    "t": "Monsoon and cholera",
+    "c": "The Indian monsoon came late, then brought torrential rain. In 1817 cholera broke out near Jessore in Bengal and became the first cholera pandemic, reaching Southeast Asia, China and Arabia. Whether Tambora helped trigger it is debated.",
+    "w": "1817–1824 cholera pandemic",
+    "src": "https://en.wikipedia.org/wiki/1817%E2%80%931824_cholera_pandemic",
+    "look": [
+     [
+      23.17,
+      89.21,
+      "Jessore"
+     ],
+     [
+      22.57,
+      88.36,
+      "Calcutta"
+     ]
+    ]
+   },
+   {
+    "y": 1817,
+    "lat": 49.4,
+    "lon": 8.5,
+    "z": 20,
+    "span": 6,
+    "t": "A horse without oats?",
+    "c": "On 12 June 1817 Karl Drais rode his wooden running machine from Mannheim, an ancestor of the bicycle. Oats were scarce and many horses died after 1816; that this inspired Drais is a popular idea but debated.",
+    "w": "Dandy horse",
+    "src": "https://en.wikipedia.org/wiki/Karl_Drais",
+    "look": [
+     [
+      49.49,
+      8.47,
+      "Mannheim"
+     ]
+    ]
+   },
+   {
+    "y": 1828,
+    "lat": 51.2,
+    "lon": -0.5,
+    "z": 20,
+    "span": 20,
+    "t": "Sunsets on canvas",
+    "c": "Volcanic haze makes sunsets glow red and yellow. J. M. W. Turner's golden skies, such as Chichester Canal (1828), may reflect such sunsets; a 2007 study found redder skies in paintings after big eruptions. The link is plausible, not proven.",
+    "w": "Chichester Canal (painting)",
+    "src": "https://en.wikipedia.org/wiki/Chichester_Canal_(painting)",
+    "look": [
+     [
+      50.83,
+      -0.79,
+      "Chichester Canal"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "volcanic-winters",
+  "title": "Volcanoes that changed the climate",
+  "blurb": "Seven eruptions, from the dark sun of 536 to Pinatubo in 1991, that cooled the planet and shook harvests and societies.",
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": false,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  },
+  "steps": [
+   {
+    "y": 536,
+    "lat": 40,
+    "lon": -40,
+    "z": 2,
+    "span": 20,
+    "t": "The dark sun of 536",
+    "c": "In 536 the historian Procopius wrote that the sun shone without brightness for a year. European summers were up to about 2.5 °C colder. Ice cores point to eruptions in North America, but the exact volcanoes are debated.",
+    "w": "Volcanic winter of 536",
+    "src": "https://en.wikipedia.org/wiki/Volcanic_winter_of_536",
+    "look": [
+     [
+      41.01,
+      28.98,
+      "Constantinople"
+     ],
+     [
+      37.88,
+      -119.0,
+      "Mono Craters?"
+     ]
+    ]
+   },
+   {
+    "y": 540,
+    "lat": 38,
+    "lon": 25,
+    "z": 3,
+    "span": 40,
+    "t": "A Late Antique Little Ice Age",
+    "c": "A second eruption around 539–540 cooled summers again, and the cold lasted until about 660. Famine and the Plague of Justinian, first seen in Egypt in 541, followed; how far the climate helped the plague is debated.",
+    "w": "Late Antique Little Ice Age",
+    "src": "https://en.wikipedia.org/wiki/Late_Antique_Little_Ice_Age",
+    "look": [
+     [
+      31.04,
+      32.55,
+      "Pelusium 541"
+     ],
+     [
+      41.01,
+      28.98,
+      "Constantinople"
+     ]
+    ]
+   },
+   {
+    "y": 1257,
+    "lat": -8.4,
+    "lon": 116.4,
+    "z": 12,
+    "span": 20,
+    "t": "Samalas, the hidden giant",
+    "c": "Ice cores showed a huge sulfur spike around 1257, but no known volcano matched. In 2013 scientists traced it to Samalas on Lombok, whose eruption (VEI 7) buried the town of Pamatan. Its climate effects were milder than models suggest.",
+    "w": "Samalas",
+    "src": "https://en.wikipedia.org/wiki/Samalas",
+    "look": [
+     [
+      -8.41,
+      116.41,
+      "Samalas"
+     ]
+    ]
+   },
+   {
+    "y": 1600,
+    "lat": -16.5,
+    "lon": -71.2,
+    "z": 12,
+    "span": 10,
+    "t": "Huaynaputina buries Peru",
+    "c": "On 19 February 1600 Huaynaputina in southern Peru erupted (VEI 6), the largest recorded eruption in South America. Ash collapsed roofs in Arequipa, wiped out local vineyards and killed about 1,000–1,500 people.",
+    "w": "Huaynaputina",
+    "src": "https://en.wikipedia.org/wiki/Huaynaputina",
+    "look": [
+     [
+      -16.616,
+      -70.85,
+      "Huaynaputina"
+     ],
+     [
+      -16.4,
+      -71.54,
+      "Arequipa"
+     ]
+    ]
+   },
+   {
+    "y": 1601,
+    "lat": 55.75,
+    "lon": 37.6,
+    "z": 6,
+    "span": 8,
+    "t": "Russia's great famine",
+    "c": "The summer of 1601 was among the coldest in six centuries. Frosts ruined Russian harvests, and the famine of 1601–03 killed perhaps two million people, deepening the Time of Troubles. The eruption is a likely, not certain, cause.",
+    "w": "Russian famine of 1601–1603",
+    "src": "https://en.wikipedia.org/wiki/Russian_famine_of_1601%E2%80%931603",
+    "look": [
+     [
+      55.75,
+      37.62,
+      "Moscow"
+     ]
+    ]
+   },
+   {
+    "y": 1783,
+    "lat": 58,
+    "lon": -5,
+    "z": 3,
+    "span": 6,
+    "t": "Laki's poisonous haze",
+    "c": "From June 1783 the Laki fissure in Iceland poured out lava and gas for eight months. Fluorine poisoned the grass, most sheep died and the famine killed about a fifth of Icelanders. Sulfurous haze drifted over Europe, linked to about 23,000 deaths in Britain (estimate).",
+    "w": "Laki",
+    "src": "https://en.wikipedia.org/wiki/Laki",
+    "look": [
+     [
+      64.06,
+      -18.23,
+      "Laki"
+     ],
+     [
+      51.51,
+      -0.13,
+      "London"
+     ],
+     [
+      50.08,
+      14.42,
+      "Prague"
+     ]
+    ]
+   },
+   {
+    "y": 1815,
+    "lat": -5,
+    "lon": 110,
+    "z": 3,
+    "span": 6,
+    "t": "Tambora, 1815",
+    "c": "The largest eruption in recorded history (VEI 7) made 1816 the \"Year Without a Summer\" around the Northern Hemisphere. Its full story has its own tour: Tambora and the Year Without a Summer.",
+    "w": "1815 eruption of Mount Tambora",
+    "src": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+    "look": [
+     [
+      -8.25,
+      118.0,
+      "Tambora"
+     ]
+    ]
+   },
+   {
+    "y": 1883,
+    "lat": -6,
+    "lon": 105,
+    "z": 2,
+    "span": 6,
+    "t": "Krakatoa is heard worldwide",
+    "c": "On 27 August 1883 Krakatoa exploded in the Sunda Strait, heard 4,800 km away. Tsunamis killed most of at least 36,000 victims. Red sunsets circled the globe; cooling estimates range from about 0.4 to 1.2 °C.",
+    "w": "1883 eruption of Krakatoa",
+    "src": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa",
+    "look": [
+     [
+      -6.102,
+      105.423,
+      "Krakatoa"
+     ],
+     [
+      -19.7,
+      63.4,
+      "Rodrigues heard"
+     ]
+    ]
+   },
+   {
+    "y": 1991,
+    "lat": 15.1,
+    "lon": 120.35,
+    "z": 2,
+    "span": 6,
+    "t": "Pinatubo, measured from space",
+    "c": "On 15 June 1991 Mount Pinatubo in the Philippines erupted (VEI 6); evacuations saved many, but 847 died. Satellites tracked its sulfur haze, and the world cooled by about 0.4–0.5 °C for two years, as predicted.",
+    "w": "1991 eruption of Mount Pinatubo",
+    "src": "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo",
+    "look": [
+     [
+      15.142,
+      120.35,
+      "Pinatubo"
+     ]
+    ]
+   }
+  ]
  }
 ]
