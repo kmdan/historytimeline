@@ -88,7 +88,7 @@ h1 span{color:var(--accent)}
 .tour .tx{all:unset;cursor:pointer;position:absolute;right:8px;top:6px;font-size:16px;line-height:1;color:var(--muted);padding:2px 4px}
 .tour .tsp select{font:inherit;font-size:12px;padding:2px 4px}
 .tour .nbar{height:3px;background:var(--accent);border-radius:2px;transform-origin:left;animation:nbar linear forwards}
-@media (pointer:coarse),(max-width:600px){ .tour{position:static;width:auto;border-radius:0;border-width:1px 0;box-shadow:none;padding:8px 12px;gap:3px;font-size:12px;line-height:1.35} .tour b{font-size:15px} .tour .nk{font-size:9.5px} .tour .tdots{display:none} .tour .nrow button{padding:3px 9px;font-size:12px} }
+@media (max-width:600px){ .tour{position:static;width:auto;border-radius:0;border-width:1px 0;box-shadow:none;padding:8px 12px;gap:3px;font-size:12px;line-height:1.35} .tour b{font-size:15px} .tour .nk{font-size:9.5px} .tour .tdots{display:none} .tour .nrow button{padding:3px 9px;font-size:12px} }
 #bPlay{min-width:6.5em;font-weight:500}
 #bPlay[aria-pressed="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--surface))}
 .spd{font-size:12.5px;color:var(--muted);display:flex;gap:6px;align-items:center}
@@ -2300,7 +2300,7 @@ new ResizeObserver(()=>drawPlace()).observe($('placeCard'));
 const TOURS=JSON.parse(document.getElementById('tours').textContent||'[]');
 let tourRun=null;   // {t: tour, i: step index, auto: bool, timer, fly}
 const tourEl=$('tour'), tourMenu=$('tourMenu'), bTours=$('bTours');
-{ const mq=matchMedia('(pointer:coarse),(max-width:600px)'), atl=$('atlas'), place=()=>mq.matches?atl.after(tourEl):atl.append(tourEl);   // phones: between map and timeline, so the map stays visible
+{ const mq=matchMedia('(max-width:600px)'), atl=$('atlas'), place=()=>mq.matches?atl.after(tourEl):atl.append(tourEl);   // phones: between map and timeline, so the map stays visible
   place(); mq.addEventListener('change',place); }
 // time and map move together; deep time is interpolated in log-age so long jumps still feel like travel
 const tourK=y=>{ const yi=Math.floor(y); return y===yi?ke(y)+0.5:ke(yi)+(y-yi); };   // fractional CE years: months
@@ -2343,8 +2343,10 @@ function tourShown(){ if(!tourRun) return; clearTimeout(tourRun.timer); tourLook
   if(tourRun.auto) tourRun.timer=setTimeout(()=>{ if(!tourRun) return; if(tourRun.i<tourRun.t.steps.length-1) tourStep(tourRun.i+1); else { tourRun.auto=false; tourRender(); } },tourRead(tourRun.t.steps[tourRun.i])); }
 const tourLayers=on=>{ for(const [id,v] of Object.entries(on||{})){ const c=$(id); if(c&&c.checked!==v){ c.checked=v; c.dispatchEvent(new Event('change',{bubbles:true})); } } };
 function tourStep(i,ms){ if(!tourRun) return; storyFocus=null; const n=tourRun.t.steps.length; i=Math.max(0,Math.min(n-1,i)); const back=i<tourRun.i; tourRun.i=i; clearTimeout(tourRun.timer);
-  const st=tourRun.t.steps[i]; tourLayers({...tourRun.t.ly,...st.ly}); storyFx=(tourRun.t.fx||st.fx)?{...tourRun.t.fx,...st.fx}:null;
-  tourRender(); tourFly(st, ms!=null?ms:back?900:(st.dur?st.dur*1000/tourSpd:tourMs())); if(reduce||ms===0) tourShown(); linkSoon(); }
+  const st=tourRun.t.steps[i]; tourRender();   // the card first, so nothing below can keep it from showing
+  try{ tourLayers({...tourRun.t.ly,...st.ly}); }catch(e){ console.error(e); } storyFx=(tourRun.t.fx||st.fx)?{...tourRun.t.fx,...st.fx}:null;
+  if(tourEl.parentElement!==$('atlas')) requestAnimationFrame(()=>tourEl.scrollIntoView({behavior:'auto',block:'nearest'}));   // under the map (phones): keep the card on screen
+  tourFly(st, ms!=null?ms:back?900:(st.dur?st.dur*1000/tourSpd:tourMs())); if(reduce||ms===0) tourShown(); linkSoon(); }
 function tourStart(id,i=0,ms){ const t=TOURS.find(x=>x.id===id); if(!t) return; playStop(); if(placeRun) placeStop(); pop.hidden=true;
   if(tourRun){ clearTimeout(tourRun.timer); if(tourRun.fly) cancelAnimationFrame(tourRun.fly); }
   const saved=tourRun?tourRun.saved:Object.fromEntries([...document.querySelectorAll('input[id^="ly"]')].map(c=>[c.id,c.checked]));
