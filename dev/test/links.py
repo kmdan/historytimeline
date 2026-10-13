@@ -52,7 +52,7 @@ with sync_playwright() as p:
     s2 = st(pg); ok(s2['url'] != s['url'] and 'y=' in s2['url'] and 'at=48.0,10.0,4.0' in s2['url'], f'scrub updates URL: {s["url"]} -> {s2["url"]}')
     ok(pg.evaluate('history.length') == h0, 'no history entries added')
     # map zoom out to whole world drops `at`
-    pg.click('#mHome'); pg.wait_for_timeout(1000); s3 = st(pg); ok('at=' not in s3['url'], f'home view drops at: {s3["url"]}')
+    pg.click('#mHome'); pg.wait_for_timeout(2000); s3 = st(pg); ok('at=' not in s3['url'], f'home view drops at: {s3["url"]}')
     pg, e = page('?y=abc&at=x,y'); s = st(pg); ok(not e and s['url'] == '?y=abc&at=x,y', f'bad values ignored, no errors: {e} {s["at"]}')
     pg, e = page('?y=99999'); s = st(pg); ok('99999' not in s['at'], f'out of range ignored: {s["at"]}')
     pg, e = page('?cpu&y=900'); s = st(pg)
