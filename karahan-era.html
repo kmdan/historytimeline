@@ -1594,6 +1594,16 @@ function drawFauna(y){
   mx.textBaseline='alphabetic'; mx.restore(); }
 let mapPending=false;
 function drawMap(){ linkSoon(); if(mapPending) return; mapPending=true; requestAnimationFrame(()=>{ mapPending=false; renderMap(); }); }
+// small islands named when zoomed in (lat, lon, name, Wikipedia title)
+const ISL_K=4, ISLANDS=[[-17.65,-149.43,'Tahiti','Tahiti'],[-16.83,-151.43,'Raiatea','Raiatea'],[-8.86,-140.14,'Marquesas','Marquesas Islands'],[-21.23,-159.78,'Rarotonga','Rarotonga'],
+  [-27.12,-109.35,'Rapa Nui','Easter Island'],[-25.07,-130.1,'Pitcairn','Pitcairn Islands'],[-23.12,-134.97,'Mangareva','Mangareva'],[19.6,-155.5,'Hawaiʻi','Hawaii (island)'],[21.47,-157.98,'Oʻahu','Oahu'],
+  [-13.92,-171.75,'Samoa','Samoa'],[-21.18,-175.2,'Tonga','Tonga'],[-17.8,178,'Fiji','Fiji'],[-17.7,168.3,'Vanuatu','Vanuatu'],[-21.3,165.5,'New Caledonia','New Caledonia'],
+  [-9.6,160.2,'Solomon Islands','Solomon Islands'],[-44,-176.5,'Chatham Islands','Chatham Islands'],[-29.04,167.95,'Norfolk Island','Norfolk Island'],[-8.52,179.2,'Tuvalu','Tuvalu'],
+  [1.42,173,'Kiribati','Kiribati'],[7.1,171.4,'Marshall Islands','Marshall Islands'],[13.45,144.79,'Guam','Guam'],[7.5,134.6,'Palau','Palau'],[6.88,158.22,'Pohnpei','Pohnpei'],
+  [-19.05,-169.87,'Niue','Niue'],[-0.6,-90.5,'Galápagos','Galápagos Islands'],[62,-6.8,'Faroe Islands','Faroe Islands'],[59,-3,'Orkney','Orkney'],[60.3,-1.3,'Shetland','Shetland'],
+  [38.7,-27.2,'Azores','Azores'],[32.75,-16.95,'Madeira','Madeira'],[28.3,-16.6,'Canary Islands','Canary Islands'],[15.1,-23.6,'Cape Verde','Cape Verde'],[32.3,-64.8,'Bermuda','Bermuda'],
+  [-15.96,-5.7,'Saint Helena','Saint Helena'],[35.9,14.4,'Malta','Malta'],[-20.3,57.55,'Mauritius','Mauritius'],[-21.1,55.5,'Réunion','Réunion'],[-11.7,43.3,'Comoros','Comoros'],
+  [-6.1,39.3,'Zanzibar','Zanzibar'],[12.5,53.9,'Socotra','Socotra'],[4.17,73.5,'Maldives','Maldives'],[12,92.8,'Andaman Islands','Andaman Islands']];
 function renderMap(){
   if(!MW) return;
   const k=Math.floor(center), y=toSigned(k), sea=interp(SEA,k);
@@ -1770,6 +1780,14 @@ function renderMap(){
       const ci=cultureInfo(f); if(ci) hits.push({x0:x-w/2-3,y0:yy-8,x1:x+w/2+3,y1:yy+8,info:ci}); }
     mx.textAlign='left'; mx.textBaseline='alphabetic';
   }
+  // small islands: too small for the 0.5° land grid, so named with a dot once the map is zoomed in (lowest-priority labels)
+  if(mv.k>=ISL_K*minK()){ mx.save(); mx.font='italic 400 10.5px "IBM Plex Sans", sans-serif'; mx.textBaseline='middle';
+    for(const [la,lo,n,w] of ISLANDS){ const x=PX(lo), yy=PY(la); if(x<4||x>MW-4||yy<4||yy>MH-4) continue;
+      const tw=mx.measureText(n).width; if(!place(x-3,yy-7,x+6+tw,yy+7)) continue;
+      mx.globalAlpha=.85; mx.fillStyle=col.surface; mx.strokeStyle=col.fg; mx.lineWidth=1.2; mx.beginPath(); mx.arc(x,yy,2.6,0,7); mx.fill(); mx.stroke();
+      mx.fillStyle=col.fg; mx.globalAlpha=1; halo(n,x+6,yy,.7);
+      hits.push({x0:x-5,y0:yy-7,x1:x+6+tw,y1:yy+7,info:{kind:'Island',title:n,w,img:w}}); }
+    mx.restore(); }
   // pinned place ("What happened here")
   if(placePin){ const px=PX(placePin.lon), py=PY(placePin.lat);
     if(px>-20&&px<MW+20&&py>-20&&py<MH+20){ mx.save(); mx.fillStyle=col.accent; mx.strokeStyle=col.surface; mx.lineWidth=2;
