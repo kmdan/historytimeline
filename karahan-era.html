@@ -494,7 +494,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
 (()=>{
 // ---------- calendar ----------
 const ke = y => y<0 ? 9501+y : 9500+y;            // signed civil year (no year 0) -> KE
-const fmt = n => Math.round(n).toLocaleString('en-US');
+const fmt = n => { n=Math.round(n); const t=String(Math.abs(n)).replace(/\B(?=(\d{3})+(?!\d))/g,','); return n<0?'-'+t:t; };   // = toLocaleString('en-US') for whole numbers, much faster in the timeline loop
 const civil = k => { k=Math.floor(k); return k>=9501 ? `${k-9500} CE` : `${fmt(9501-k)} BCE`; };
 const toSigned = k => k>=9501 ? k-9500 : k-9501;   // KE -> signed civil year
 const NOW = ke(2026);
@@ -934,8 +934,12 @@ const MET=[
 ];
 MET.forEach((m,i)=>{ const d=document.createElement('div'); d.className='m'; d.innerHTML=`<span class="k">${m.k}</span><span class="v" id="mv${i}"></span>${m.keys?`<canvas id="sp${i}"></canvas>`:''}`; metricsEl.appendChild(d); });
 
+// curve samples across the whole span are the same every frame (only the marker moves): compute once per data set and width
+const ovCache=new Map();
+function ovSamples(keys,N,log){ let m=ovCache.get(keys); if(!m){ m=new Map(); ovCache.set(keys,m); } const id=N+(log?'L':''); let a=m.get(id);
+  if(!a){ a=new Float64Array(N+1); for(let i=0;i<=N;i++) a[i]=interp(keys,ovK(i/N,DMIN,NOW),log); m.set(id,a); } return a; }
 function spark(i){ const m=MET[i], c=$('sp'+i); if(!c) return; const w=c.clientWidth,h=26; if(!w) return; c.width=w*dpr; c.height=h*dpr; const g=c.getContext('2d'); g.setTransform(dpr,0,0,dpr,0,0);
-  const vals=[]; for(let j=0;j<=w;j++){ const k=ovK(j/w,DMIN,NOW); const v=interp(m.keys,k,m.log); vals.push(m.log?Math.log(v):v); }
+  const vals=Array.from(ovSamples(m.keys,w,m.log),v=>m.log?Math.log(v):v);
   const lo=Math.min(...vals), hi=Math.max(...vals);
   const yy=v=>h-3-(v-lo)/(hi-lo||1)*(h-6);
   g.beginPath(); vals.forEach((v,j)=>j?g.lineTo(j,yy(v)):g.moveTo(j,yy(v))); g.lineTo(w,h); g.lineTo(0,h); g.closePath(); g.fillStyle=col.accent; g.globalAlpha=.14; g.fill(); g.globalAlpha=1;
@@ -1450,7 +1454,7 @@ function buildBase(y,sea){
       c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared),...Object.fromEntries(Object.entries(PAINT.c).map(([n,v])=>[n,hex(v)]))},
       cB:[ll,hex(col.b1),hex(col.b2),hex(col.b3),hex(col.b4),hex(col.b5),hex(col.b6),hex(col.b7),hex(col.b8),ic,hex(col.b10)],
       RF:FREG.map(r=>({f0:fregAt(r,-8000), now:y<-8000?null:fregAt(r,y)})) });
-    if(ok){ baseSrc=glc; baseWorld=view.world; mc.dataset.renderer='webgl2'; if(landChanged) buildLand(); return; } }
+    if(ok){ baseSrc=glc; baseWorld=view.world; mc.dataset.renderer='webgl2'; if(landChanged) buildLandSoon(); return; } }
   baseSrc=base; mc.dataset.renderer='cpu';
   // colour tables by elevation code
   // colour by elevation code, for cells that are land (L*) or water (W*) at this time
@@ -1486,7 +1490,15 @@ function buildBase(y,sea){
   buildLand();
 }
 // land mask for the evidence layer (land that is not under ice)
-function buildLand(){
+// The land mask is a CPU pass over the whole world (~260k cells). While time moves (drag, play, tours) the coast changes
+// little per frame, so rebuild it at most about 6 times a second, with a final rebuild once the year settles.
+let landT=0, landLast=0;
+function buildLandSoon(){ const now=performance.now(); if(now-landLast>160){ landLast=now; clearTimeout(landT); landT=0; buildLand(); }
+  else if(!landT) landT=setTimeout(()=>{ landT=0; landLast=performance.now(); buildLand(); drawMap(); },170-(now-landLast)); }
+// rivers are hidden under ice and sea: the per-point test changes only with the land mask, so it is cached with it
+let riverVis=null;
+const riverOn=(r,i)=>{ if(!riverVis) riverVis=new Map(); let v=riverVis.get(r); if(!v){ v=new Uint8Array(r.length/2); for(let j=0;j<r.length;j+=2) v[j/2]=flagAt(cellOf(r[j]/20,r[j+1]/20))===1?1:0; riverVis.set(r,v); } return v[i/2]===1; };
+function buildLand(){ riverVis=null;
   const su=hex(col.surface), L=landImg.data;
   for(let j=0;j<FH;j++) for(let i=0;i<FW;i++){ const p=(j*3+1)*GW+i*3+1, o=(j*FW+i)*4; const on=flagAt(p)===1;
     L[o]=su[0]; L[o+1]=su[1]; L[o+2]=su[2]; L[o+3]=on?255:0; }
@@ -1818,9 +1830,10 @@ const ISL_K=4, ISLANDS=[[-17.65,-149.43,'Tahiti','Tahiti'],[-16.83,-151.43,'Raia
   [38.7,-27.2,'Azores','Azores'],[32.75,-16.95,'Madeira','Madeira'],[28.3,-16.6,'Canary Islands','Canary Islands'],[15.1,-23.6,'Cape Verde','Cape Verde'],[32.3,-64.8,'Bermuda','Bermuda'],
   [-15.96,-5.7,'Saint Helena','Saint Helena'],[35.9,14.4,'Malta','Malta'],[-20.3,57.55,'Mauritius','Mauritius'],[-21.1,55.5,'Réunion','Réunion'],[-11.7,43.3,'Comoros','Comoros'],
   [-6.1,39.3,'Zanzibar','Zanzibar'],[12.5,53.9,'Socotra','Socotra'],[4.17,73.5,'Maldives','Maldives'],[12,92.8,'Andaman Islands','Andaman Islands']];
+let mapHold=null;   // during a long tour jump the map shows this moment (updated a few times a second) while the timeline sweeps smoothly
 function renderMap(){
   if(!MW) return;
-  const k=Math.floor(center), y=toSigned(k), sea=interp(SEA,k);
+  const cK=mapHold??center, k=Math.floor(cK), y=toSigned(k), sea=interp(SEA,k);
   if(popCur && popK!==k){ pop.hidden=true; popCur=null; }
   hbCur=null; hbYear=null; if(y>=-10000) loadHB(y);
   buildBase(y,sea);
@@ -1838,7 +1851,7 @@ function renderMap(){
     const x0=UNX(0)-1, x1=UNX(MW)+1, y0=UNY(MH)-1, y1=UNY(0)+1, minLen=mv.k<4?1.5:0;
     for(const r of rivers){ if(minLen && r.length<8) continue; let pen=false;
       for(let i=0;i<r.length;i+=2){ const lon=r[i]/20, lat=r[i+1]/20;
-        if(lon<x0||lon>x1||lat<y0||lat>y1||flagAt(cellOf(lon,lat))!==1){ pen=false; continue; }
+        if(lon<x0||lon>x1||lat<y0||lat>y1||!riverOn(r,i)){ pen=false; continue; }
         const px=PX(lon), py=PY(lat); pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; } }
     mx.stroke(); mx.restore(); }
   // plant symbols (zoomed in): kind of vegetation, and 0-3 trees by tree cover, on a world-fixed grid so they stay put
@@ -1881,7 +1894,7 @@ function renderMap(){
       g.fillStyle=`hsla(${c.hue},52%,50%,${c.eu?0.17:0.15})`; g.fill(); g.strokeStyle=`hsla(${c.hue},45%,32%,0.75)`; g.lineWidth=1.1; g.setLineDash([5,4]); g.stroke(); g.setLineDash([]); }
     if(terr){ g.globalCompositeOperation='destination-in'; g.imageSmoothingEnabled=true; g.drawImage(landC,X0,Y0,WW,HH); g.globalCompositeOperation='source-over'; }   // keep only land of the time
     mx.drawImage(cultC,0,0,MW,MH); }
-  { const tf=y>0?y+(center-Math.floor(center)):y; drawSpread(SPREADS.plague,tf); if(storyFx&&storyFx.spread&&SPREADS[storyFx.spread]) drawSpread(SPREADS[storyFx.spread],tf); }
+  { const tf=y>0?y+(cK-Math.floor(cK)):y; drawSpread(SPREADS.plague,tf); if(storyFx&&storyFx.spread&&SPREADS[storyFx.spread]) drawSpread(SPREADS[storyFx.spread],tf); }
   const migDrawn=drawMigrations(y,k);
   if(drawWalkers(y)&&!walkRaf) walkRaf=requestAnimationFrame(walkTick);
   drawHominins(y);
@@ -2139,14 +2152,15 @@ function drawSL(){ if(!SLW) return; const g=sx; g.clearRect(0,0,SLW,SLH); g.font
   const x1=slX(1); g.strokeStyle=col.accent; g.setLineDash([3,3]); g.beginPath(); g.moveTo(x1,SLP.t); g.lineTo(x1,SLH-SLP.b); g.stroke(); g.setLineDash([]); g.fillStyle=col.accent; g.textAlign='left'; g.fillText('Year 1',x1+4,SLH-SLP.b-8);
   // sea level area
   const N=Math.max(100,Math.round(SLW-SLP.l-SLP.r)), yb=SLH-SLP.b; g.beginPath(); g.moveTo(slX(DMIN),yb);
-  for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); g.lineTo(slX(kk),slY(interp(SEA,kk))); } g.lineTo(slX(NOW),yb); g.closePath();
+  const SS=ovSamples(SEA,N), TS=ovSamples(TMP,N);
+  for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); g.lineTo(slX(kk),slY(SS[i])); } g.lineTo(slX(NOW),yb); g.closePath();
   g.fillStyle=col['sea-deep']; g.globalAlpha=.55; g.fill(); g.globalAlpha=1;
-  g.beginPath(); for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); const px=slX(kk), py=slY(interp(SEA,kk)); i?g.lineTo(px,py):g.moveTo(px,py); } g.strokeStyle=col.l4; g.lineWidth=1.5; g.stroke();
+  g.beginPath(); for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); const px=slX(kk), py=slY(SS[i]); i?g.lineTo(px,py):g.moveTo(px,py); } g.strokeStyle=col.l4; g.lineWidth=1.5; g.stroke();
   // temperature: Osman 2021 90% range (shaded), Kaufman 2020 Holocene median (dotted), page curve (dashed)
   { const R=CLD.osman; g.beginPath(); R.forEach((r,i)=>{ const x=slX(ke(r[0])), yv=slT(r[3]); i?g.lineTo(x,yv):g.moveTo(x,yv); });
     for(let i=R.length-1;i>=0;i--) g.lineTo(slX(ke(R[i][0])),slT(R[i][2])); g.closePath(); g.fillStyle=col.l1; g.globalAlpha=.16; g.fill(); g.globalAlpha=1;
     g.beginPath(); CLD.kaufman.forEach((r,i)=>{ const x=slX(ke(r[0])), yv=slT(r[1]); i?g.lineTo(x,yv):g.moveTo(x,yv); }); g.strokeStyle=col.l3; g.lineWidth=1.4; g.setLineDash([1.5,2.5]); g.stroke(); g.setLineDash([]); }
-  g.beginPath(); for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); const px=slX(kk), py=slT(interp(TMP,kk)); i?g.lineTo(px,py):g.moveTo(px,py); } g.strokeStyle=col.l1; g.lineWidth=1.3; g.setLineDash([4,3]); g.stroke(); g.setLineDash([]);
+  g.beginPath(); for(let i=0;i<=N;i++){ const kk=ovK(i/N,DMIN,NOW); const px=slX(kk), py=slT(TS[i]); i?g.lineTo(px,py):g.moveTo(px,py); } g.strokeStyle=col.l1; g.lineWidth=1.3; g.setLineDash([4,3]); g.stroke(); g.setLineDash([]);
   // labels
   const mw=slX(ke(-12500)); g.fillStyle=col.fg; g.font='10.5px "IBM Plex Mono", monospace'; g.textAlign='right'; if(SLW>=600) g.fillText('Meltwater pulse 1A ↘',mw-4,slY(-45));
   // playhead
@@ -2304,19 +2318,27 @@ const tourEl=$('tour'), tourMenu=$('tourMenu'), bTours=$('bTours');
   place(); mq.addEventListener('change',place); }
 // time and map move together; deep time is interpolated in log-age so long jumps still feel like travel
 const tourK=y=>{ const yi=Math.floor(y); return y===yi?ke(y)+0.5:ke(yi)+(y-yi); };   // fractional CE years: months
-function tourFly(st,ms){ const k1=tourK(st.y), a0=Math.max(1,NOW-center), a1=Math.max(1,NOW-k1), s0=span,
+function tourFly(st,ms){ const k1=tourK(st.y), kS=center, a0=Math.max(1,NOW-center), a1=Math.max(1,NOW-k1), s0=span,
     s1=st.span||Math.min(Math.max(60,a1*0.5),NOW-DMIN), z=st.z||2, la0=mv.lat, lo0=mv.lon, kk0=mv.k, kk1=z*minK();
   if(anim){ cancelAnimationFrame(anim.id); anim=null; } if(tourRun&&tourRun.fly) cancelAnimationFrame(tourRun.fly);
-  popStepK=kk1;
+  popStepK=kk1; mapHold=null;
   const side=tourEl.parentElement===$('atlas'), tla=st.lat-(side?0.1*MH/kk1:0), tlo=st.lon-(side?0.06*MW/kk1:0);   // caption box over the lower left: frame the place up and to the right
-  const set=(e,et=e)=>{ center=NOW-Math.exp(Math.log(a0)+(Math.log(a1)-Math.log(a0))*et); span=Math.exp(Math.log(s0)+(Math.log(s1)-Math.log(s0))*e);
-    mv.lat=la0+(tla-la0)*e; mv.lon=lo0+(tlo-lo0)*e; mv.k=Math.exp(Math.log(kk0)+(Math.log(kk1)-Math.log(kk0))*e); mapClamp(); draw(); drawMap(); };
-  if(reduce||ms<=0){ popStepK=0; set(1); center=k1; draw(); return; }
-  const mapMs=Math.min(ms,1500), ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
-  const t0=performance.now(); const tick=now=>{ const t=Math.min((now-t0)/ms,1), tm=Math.min((now-t0)/mapMs,1);
-    set(ease(tm), t*t*(3-2*t)*0.25+t*0.75);   // time: nearly constant speed, soft start and stop
+  const cam=e=>{ span=Math.exp(Math.log(s0)+(Math.log(s1)-Math.log(s0))*e);
+    mv.lat=la0+(tla-la0)*e; mv.lon=lo0+(tlo-lo0)*e; mv.k=Math.exp(Math.log(kk0)+(Math.log(kk1)-Math.log(kk0))*e); mapClamp(); };
+  const ageAt=(aFrom,aTo,u)=>NOW-Math.exp(Math.log(aFrom)+(Math.log(aTo)-Math.log(aFrom))*u);
+  if(reduce||ms<=0){ popStepK=0; cam(1); center=k1; draw(); drawMap(); return; }
+  // A long jump (more than three timeline-widths or 400 years) is split: first a quick sweep in which the map only updates a few
+  // times a second (each year change rebuilds layers, so every frame would stutter), then a run-in over the last
+  // timeline-width before the step at full detail, so arrows and fronts still grow into the moment.
+  const G=Math.abs(k1-kS), big=G>Math.min(3*s1,400), runIn=big?Math.min(G,s1,Math.max(300,a1*0.2)):G, kA=k1-Math.sign(k1-kS)*runIn, aA=Math.max(1,NOW-kA), split=big?0.5:0;
+  const mapMs=Math.min(ms,1500), ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2, smooth=u=>u*u*(3-2*u)*0.25+u*0.75;
+  let held=0;
+  const t0=performance.now(); const tick=now=>{ const t=Math.min((now-t0)/ms,1), tm=Math.min((now-t0)/mapMs,1); cam(ease(tm));
+    if(big&&t<split){ center=ageAt(a0,aA,ease(t/split)); if(now-held>125||mapHold===null){ held=now; mapHold=center; } }
+    else { mapHold=null; center=big?kA+(k1-kA)*smooth((t-split)/(1-split)):ageAt(a0,a1,smooth(t)); }   // time: nearly constant speed, soft start and stop
+    draw(); drawMap();
     if(tm>=1) tourLook();
-    if(t<1) tourRun.fly=requestAnimationFrame(tick); else { tourRun.fly=0; popStepK=0; center=k1; draw(); drawMap(); tourShown(); } };
+    if(t<1) tourRun.fly=requestAnimationFrame(tick); else { tourRun.fly=0; popStepK=0; mapHold=null; center=k1; draw(); drawMap(); tourShown(); } };
   tourRun.fly=requestAnimationFrame(tick); }
 function tourHTML(){ const {t,i,auto}=tourRun, st=t.steps[i], n=t.steps.length;
   return `<span class="nk">Tour · ${esc(t.title)} · ${i+1}/${n} · ${esc(tourWhen(st.y))}</span><button type="button" class="tx" aria-label="Close the tour">✕</button>
@@ -2352,7 +2374,7 @@ function tourStart(id,i=0,ms){ const t=TOURS.find(x=>x.id===id); if(!t) return; 
   const saved=tourRun?tourRun.saved:Object.fromEntries([...document.querySelectorAll('input[id^="ly"]')].map(c=>[c.id,c.checked]));
   tourRun={t,i:-1,auto:false,timer:0,fly:0,saved}; tourMenuOpen(false); tourStep(i,ms);
   if(ms!==0) document.getElementById('atlas').scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); }
-function tourEnd(){ if(!tourRun) return; clearTimeout(tourRun.timer); if(tourRun.fly) cancelAnimationFrame(tourRun.fly); popStepK=0; const saved=tourRun.saved; tourRun=null; storyFx=null; storyFocus=null; tourLayers(saved); drawMap(); tourEl.hidden=true; linkSoon(); }
+function tourEnd(){ if(!tourRun) return; clearTimeout(tourRun.timer); if(tourRun.fly) cancelAnimationFrame(tourRun.fly); popStepK=0; mapHold=null; const saved=tourRun.saved; tourRun=null; storyFx=null; storyFocus=null; tourLayers(saved); drawMap(); tourEl.hidden=true; linkSoon(); }
 function tourMenuOpen(on){ tourMenu.hidden=!on; bTours.setAttribute('aria-expanded',on); }
 tourMenu.innerHTML=TOURS.map(t=>`<li><button type="button" data-id="${esc(t.id)}"><b>${esc(t.title)}</b><span>${esc(t.blurb||'')}</span><small>${t.steps.length} steps · ${esc(tourWhen(t.steps[0].y))} → ${esc(tourWhen(t.steps[t.steps.length-1].y))}</small></button></li>`).join('');
 bTours.hidden=!TOURS.length;
