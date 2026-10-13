@@ -1837,7 +1837,7 @@ function renderMap(){
     mx.save(); mx.strokeStyle=col.river; mx.globalAlpha=mv.k>6?.85:.6; mx.lineWidth=mv.k>8?1.1:mv.k>4?.8:.55; mx.lineJoin='round'; mx.beginPath();
     const x0=UNX(0)-1, x1=UNX(MW)+1, y0=UNY(MH)-1, y1=UNY(0)+1, minLen=mv.k<4?1.5:0;
     for(const r of rivers){ if(minLen && r.length<8) continue; let pen=false;
-      for(let i=0;i<r.length;i+=2){ const lon=r[i]/20, lat=r[i+1]/20;
+      for(let i=0;i<r.length;i+=2){ const lon=r[i]/100, lat=r[i+1]/100;   // rivers.json: lon,lat x100, snapped to ETOPO valleys (build_rivers_valleys.py)
         if(lon<x0||lon>x1||lat<y0||lat>y1||flagAt(cellOf(lon,lat))!==1){ pen=false; continue; }
         const px=PX(lon), py=PY(lat); pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; } }
     mx.stroke(); mx.restore(); }
