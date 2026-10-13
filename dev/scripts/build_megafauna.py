@@ -9,6 +9,9 @@ Sources (bulk JSON, no key):
     -> dev/raw/megafauna/stuart2012_rhino_mmc1.xlsx
   Lister & Stuart 2019 (Quat Int 500:185-203) giant deer radiocarbon dates passing audit (Table S1)
     -> dev/raw/megafauna/lister2019_deer_mmc1.xlsx
+  NOW database (New and Old Worlds fossil mammals, CC BY 4.0): localities with min/max ages in Ma, mostly Eurasia;
+    exported from https://nowdatabase.luomus.fi/ (export_all with species lists, 2026-10-13) and filtered to the target
+    species -> dev/data/now_megafauna.json (filter rule in its 'src')
   dev/data/megafauna_dated.json: hand-compiled dated localities for thinly covered species (each row cited)
 Raw API responses are cached in dev/raw/megafauna/ (set KE_RAW to reuse them from another checkout).
 Output atlas/megafauna.json:
@@ -141,6 +144,15 @@ c14list(RAW / 'stuart2012_rhino_mmc1.xlsx', 'datelist', 'rhi', 'Stuart & Lister 
 c14list(RAW / 'lister2019_deer_mmc1.xlsx', 'Table S1', 'dee', 'Lister & Stuart 2019',
         {'site': 'locality', 'lat': 'LatDD', 'lon': 'LongDD', 'c14': '14C date', 'sd': 'sigma', 'from': 'calfrom', 'to': 'calto'})
 
+# NOW database localities (ages in Ma); the only bulk source with numeric ages for the Middle Pleistocene
+nowf = Path('dev/data/now_megafauna.json')
+if nowf.exists():
+    nd = json.loads(nowf.read_text(encoding='utf-8'))
+    for lid, sp in nd['f']:
+        name, lat, lon, mx, mn = nd['loc'][str(lid)]
+        old, young = mx * 1e6, mn * 1e6
+        add(KEY[sp], name, 'NOW database', lat, lon, old, young, old - young > 60000)
+
 # hand-compiled dated localities (cited per row)
 hand = Path('dev/data/megafauna_dated.json')
 if hand.exists():
@@ -159,7 +171,7 @@ for (site, sid, _, _), g in sorted(groups.items(), key=lambda kv: (kv[0][1], kv[
 
 # sp rows: [key, name, scientific, Wikipedia, last signed year]
 json.dump({'sp': [s[:4] + [signed(LAST[s[0]])] for s in SP], 'site': sites, 'f': out,
-           'src': 'Neotoma Paleoecology Database (CC BY 4.0); Paleobiology Database (CC BY 4.0); FosSahul 2.0 (CC0); Stuart & Lister 2012; Lister & Stuart 2019; dev/data/megafauna_dated.json (cited per record)'},
+           'src': 'Neotoma Paleoecology Database (CC BY 4.0); Paleobiology Database (CC BY 4.0); NOW database (CC BY 4.0); FosSahul 2.0 (CC0); Stuart & Lister 2012; Lister & Stuart 2019; dev/data/megafauna_dated.json (cited per record)'},
           open('atlas/megafauna.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 from collections import Counter
 c = Counter((SP[r[0]][0], r[6]) for r in out)

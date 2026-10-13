@@ -33,7 +33,7 @@ The main datasets are listed below. Full credits, licences and caveats are at th
 | Deep time: biomes, local temperature, ice | Krapp et al. 2021 | CC BY 4.0 |
 | Volcanic eruptions | eVolv2k v4, Sigl & Toohey 2024 | CC BY 4.0 |
 | Human species finds | Timmermann et al. 2022 | CC BY 4.0 |
-| Ice Age animal finds | Neotoma; Paleobiology Database; FosSahul 2.0 (Peters et al. 2019); Stuart & Lister 2012; Lister & Stuart 2019 | CC BY 4.0; CC BY 4.0; CC0; dates cited |
+| Ice Age animal finds | Neotoma; Paleobiology Database; NOW database; FosSahul 2.0 (Peters et al. 2019); Stuart & Lister 2012; Lister & Stuart 2019 | CC BY 4.0; CC BY 4.0; CC BY 4.0; CC0; dates cited |
 | Large eruptions (VEI 6+) | Smithsonian Global Volcanism Program | non-commercial, with citation |
 | Elevation, today's coast | ETOPO (NOAA); Natural Earth | public domain |
 
