@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 src = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / 'dev/data/tours.json'
 page = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / 'karahan-era.html'
-KEEP = ('y', 'lat', 'lon', 'z', 't', 'c', 'w', 'span', 'dur', 'ly', 'fx', 'look')
+KEEP = ('y', 'lat', 'lon', 'z', 't', 'c', 'w', 'span', 'dur', 'ly', 'fx', 'look', 'img')
 
 tours = json.loads(src.read_text(encoding='utf-8'))
 out = []

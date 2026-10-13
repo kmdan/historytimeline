@@ -839,6 +839,372 @@
   }
  },
  {
+  "id": "ice-ages",
+  "title": "Five ice ages",
+  "blurb": "How the planet breathed over 500,000 years: ice sheets came and went, seas rose and fell, the Sahara turned green and dried again.",
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyIce": true,
+   "lyBiome": true,
+   "lyCoast": true,
+   "lyFauna": true,
+   "lyMigr": false,
+   "lyPop": false,
+   "lyBorders": false,
+   "lyHomo": false,
+   "lyEvents": true
+  },
+  "steps": [
+   {
+    "y": -478050,
+    "lat": 30,
+    "lon": 10,
+    "z": 1,
+    "t": "Five ice ages in 500,000 years",
+    "c": "For the last half-million years Earth has swung between long ice ages and short warm spells, roughly every 100,000 years. Since about 430,000 years ago (the Mid-Brunhes Event) the swings have been especially deep. Why the weak 100,000-year wobble of Earth's orbit sets the beat is still an open question: the \"100,000-year problem\".",
+    "w": "100,000-year problem",
+    "img": "Woolly mammoth",
+    "src": "https://en.wikipedia.org/wiki/100,000-year_problem"
+   },
+   {
+    "y": -448050,
+    "lat": 51.6,
+    "lon": 0.8,
+    "z": 8,
+    "t": "Ice reaches London",
+    "c": "In the Anglian glaciation (MIS 12), the harshest in Britain for two million years, ice reached Finchley and Hornchurch in north London and pushed the Thames south into its present valley. A lake dammed behind the ice spilled over the chalk ridge joining Britain to France in giant waterfalls: the first breach of the Dover Strait.",
+    "w": "Anglian stage",
+    "img": "Anglian stage",
+    "look": [
+     [
+      51.5565,
+      0.2128,
+      "Hornchurch"
+     ],
+     [
+      51.0,
+      1.5,
+      "Dover Strait breach"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Anglian_stage"
+   },
+   {
+    "y": -408050,
+    "lat": 60,
+    "lon": -25,
+    "z": 2.2,
+    "t": "A long, warm super-interglacial",
+    "c": "MIS 11 was the longest warm spell of the last 500,000 years. Southern Greenland lost most of its ice and seas may have stood 6 to 20 m higher (estimates vary). DNA of pine, yew and butterflies under 2 km of Greenland ice is at least 450,000 years old; whether it comes from this warm spell is debated. In Suffolk, people were making fire about 400,000 years ago.",
+    "w": "Marine Isotope Stage 11",
+    "img": "Marine Isotope Stage 11",
+    "look": [
+     [
+      65.183,
+      -43.817,
+      "Dye 3 ice core"
+     ],
+     [
+      52.38,
+      0.747,
+      "Barnham: earliest fire-making"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Marine_Isotope_Stage_11"
+   },
+   {
+    "y": -148050,
+    "lat": 52.5,
+    "lon": 8,
+    "z": 6,
+    "t": "The Saalian ice reaches the Rhine",
+    "c": "In the penultimate ice age (MIS 6) Scandinavian ice crossed the Netherlands and reached the Rhine near Düsseldorf; the Hondsrug ridge in Drenthe was shaped under it. A second megaflood through the Dover Strait, dated to about 160,000 years ago by inference, finished cutting the chalk ridge: since then Britain becomes an island whenever the sea is high.",
+    "w": "Saale glaciation",
+    "img": "Saale glaciation",
+    "look": [
+     [
+      51.2256,
+      6.7767,
+      "Düsseldorf: ice limit"
+     ],
+     [
+      52.9489,
+      6.8103,
+      "Hondsrug"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Saale_glaciation"
+   },
+   {
+    "y": -123050,
+    "lat": 50,
+    "lon": 5,
+    "z": 3,
+    "t": "Hippos in the Thames",
+    "c": "The last interglacial (Eemian) was as warm as today or up to 2 °C warmer, and seas stood 6 to 9 m higher; Scandinavia was an island. Hippos wallowed as far north as Teesside in northern England, and straight-tusked elephants roamed Europe. Builders in the 1950s found hippo, lion and elephant bones right under Trafalgar Square. The Sahara was green.",
+    "w": "Last Interglacial",
+    "img": "Last Interglacial",
+    "look": [
+     [
+      51.508,
+      -0.128,
+      "Trafalgar Square"
+     ],
+     [
+      54.57,
+      -1.32,
+      "Northernmost hippos"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Last_Interglacial"
+   },
+   {
+    "y": -72050,
+    "lat": 5,
+    "lon": 85,
+    "z": 2,
+    "t": "Toba: a supereruption",
+    "c": "Toba on Sumatra, the largest known explosive eruption of the last 2.6 million years, threw out about 3,800 km³ of rock, leaving ash 5 cm deep across India and glass shards as far as South Africa; the crater is now Lake Toba. It was once thought to have nearly wiped out humankind, but most recent evidence argues against that: stone tools in India and South Africa carry on above the ash.",
+    "w": "Youngest Toba eruption",
+    "img": "Youngest Toba eruption",
+    "look": [
+     [
+      2.6845,
+      98.8756,
+      "Lake Toba"
+     ],
+     [
+      15.81,
+      78.03,
+      "Jwalapuram"
+     ],
+     [
+      -34.2078,
+      22.0894,
+      "Pinnacle Point"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Youngest_Toba_eruption"
+   },
+   {
+    "y": -43050,
+    "lat": 60,
+    "lon": -35,
+    "z": 2.2,
+    "t": "A flickering climate",
+    "c": "The last ice age was not steady. Greenland ice cores record 25 Dansgaard–Oeschger events: warmings of 5 °C, and up to about 16 °C, within a few decades, followed by slow cooling. In Heinrich events armadas of icebergs broke off the North American ice through Hudson Strait and dropped Canadian rock on the sea floor off Europe. The cause is still debated.",
+    "w": "Dansgaard–Oeschger event",
+    "img": "Dansgaard–Oeschger event",
+    "look": [
+     [
+      75.017,
+      -42.533,
+      "NGRIP ice core"
+     ],
+     [
+      62.0,
+      -70.0,
+      "Hudson Strait"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Dansgaard–Oeschger_event"
+   },
+   {
+    "y": -19050,
+    "lat": 35,
+    "lon": 10,
+    "z": 1,
+    "t": "The Last Glacial Maximum",
+    "c": "About 21,000 years ago the world was on average about 6 °C colder (estimates range from 4 to 6 °C) and sea level about 125 m lower. Ice over Canada was over 3 km thick. Doggerland, Beringia, Sundaland and Sahul were dry land, and the mammoth steppe ran from Spain to the Yukon, the largest biome on Earth. Ice cores from then hold 20 to 25 times more dust than today: a windy, dry world.",
+    "w": "Last Glacial Maximum",
+    "img": "Mammoth steppe",
+    "look": [
+     [
+      63.0,
+      -98.0,
+      "3 km of ice"
+     ],
+     [
+      54.717,
+      2.767,
+      "Doggerland"
+     ],
+     [
+      65.75,
+      -168.977,
+      "Beringia"
+     ],
+     [
+      0,
+      108,
+      "Sundaland"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum"
+   },
+   {
+    "y": -13550,
+    "lat": 47,
+    "lon": -117,
+    "z": 10,
+    "t": "The Missoula floods",
+    "c": "An ice dam in Montana held back Lake Missoula, then burst again and again: dozens of floods, each pouring up to 10 km³ of water an hour across Washington State, carved the Channeled Scablands and the 5.6 km-wide Dry Falls. Their dates differ between studies, roughly 18,000 to 13,000 years ago. J Harlen Bretz, who proposed the floods in 1923, was ridiculed for decades before he was proved right.",
+    "w": "Missoula floods",
+    "img": "Missoula floods",
+    "look": [
+     [
+      46.87,
+      -113.99,
+      "Lake Missoula"
+     ],
+     [
+      47.6,
+      -119.357,
+      "Dry Falls"
+     ],
+     [
+      46.044,
+      -118.947,
+      "Wallula Gap"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Missoula_floods"
+   },
+   {
+    "y": -12450,
+    "lat": 5,
+    "lon": 110,
+    "z": 3,
+    "t": "Meltwater pulse 1A",
+    "c": "When the climate warmed suddenly about 14,600 years ago, sea level rose 16 to 25 m in about 400 to 500 years, 40 to 60 mm a year (today about 3 mm). Wide coastal plains such as the Sunda Shelf went under. Which ice sheets the water came from is still unresolved.",
+    "w": "Meltwater pulse 1A",
+    "look": [
+     [
+      3,
+      107,
+      "Sunda Shelf"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Meltwater_pulse_1A"
+   },
+   {
+    "y": -10850,
+    "lat": 55,
+    "lon": -30,
+    "z": 2,
+    "t": "The Younger Dryas: back into the cold",
+    "c": "About 12,900 years ago the North Atlantic world plunged back into near-glacial cold: Greenland cooled by up to 10 °C within a few decades, Europe by 2 to 6 °C. The usual explanation is a weakening of the Atlantic overturning circulation, perhaps after meltwater from Lake Agassiz. It ended about 11,700 years ago, with Greenland warming about 8 °C in 40 years. It is named after a small alpine flower.",
+    "w": "Younger Dryas",
+    "img": "Younger Dryas",
+    "look": [
+     [
+      75.017,
+      -42.533,
+      "Greenland ice cores"
+     ],
+     [
+      51.0,
+      -97.0,
+      "Lake Agassiz"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/Younger_Dryas"
+   },
+   {
+    "y": -7050,
+    "lat": 18,
+    "lon": 15,
+    "z": 3,
+    "t": "The green Sahara",
+    "c": "In the African Humid Period stronger monsoon rains turned much of the Sahara into grassland with lakes, hippos, crocodiles and giraffes. Lake Mega-Chad covered at least 360,000 km², by some estimates more than the Caspian Sea. In the Cave of Swimmers in Egypt's desert, painted figures appear to swim.",
+    "w": "African humid period",
+    "img": "Cave of Swimmers",
+    "look": [
+     [
+      16.956,
+      17.781,
+      "Mega-Chad"
+     ],
+     [
+      23.5947,
+      25.2335,
+      "Cave of Swimmers"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/African_humid_period"
+   },
+   {
+    "y": -6250,
+    "lat": 52,
+    "lon": -50,
+    "z": 2,
+    "t": "The 8.2 kiloyear event",
+    "c": "About 8,200 years ago the last great ice-dammed lakes, Agassiz and Ojibway, probably drained into the North Atlantic. Greenland cooled by about 3 °C in under 20 years; the cold spell lasted about 150 years, and sea level jumped by between 0.5 and 4 m.",
+    "w": "8.2-kiloyear event",
+    "look": [
+     [
+      51.0,
+      -97.0,
+      "Lake Agassiz"
+     ],
+     [
+      58,
+      -45,
+      "North Atlantic"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/8.2-kiloyear_event"
+   },
+   {
+    "y": -3550,
+    "lat": 18,
+    "lon": 15,
+    "z": 3,
+    "t": "The Sahara dries",
+    "c": "Between about 6,000 and 5,000 years ago the monsoon retreated and the green Sahara turned to desert. Whether this happened abruptly or gradually and region by region is debated. Herders and their cattle, painted on the rocks of Tassili n'Ajjer, moved toward the Nile and the Sahel.",
+    "w": "African humid period",
+    "img": "African humid period",
+    "look": [
+     [
+      25.5,
+      9,
+      "Tassili n'Ajjer"
+     ],
+     [
+      16.956,
+      17.781,
+      "Mega-Chad dries"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/African_humid_period"
+   },
+   {
+    "y": -2200,
+    "lat": 28,
+    "lon": 60,
+    "z": 2.5,
+    "t": "The 4.2 kiloyear drought",
+    "c": "A megadrought in the 22nd century BCE is one of the most severe climate events of our epoch. It may have helped bring down the Akkadian Empire and Egypt's Old Kingdom, though how much is debated, and it was not global. It marks the start of the Meghalayan, the age we live in, named after a stalagmite in a cave in India.",
+    "w": "4.2-kiloyear event",
+    "img": "Meghalayan",
+    "look": [
+     [
+      36.957,
+      41.505,
+      "Tell Leilan"
+     ],
+     [
+      25.26,
+      91.88,
+      "Mawmluh Cave"
+     ]
+    ],
+    "src": "https://en.wikipedia.org/wiki/4.2-kiloyear_event"
+   }
+  ]
+ },
+ {
   "id": "farming",
   "title": "The spread of farming",
   "blurb": "How farming began independently in several parts of the world after the Ice Age and spread from the Fertile Crescent across Europe.",
