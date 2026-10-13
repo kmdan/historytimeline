@@ -1214,7 +1214,7 @@ function vegAt(p,y){ const cls=biomeAt(p,y); let dens=0, pNat=FPOT[cls]||0;
   return {cls, tree:Math.max(0,pNow)*(1-dens), farm:dens}; }
 // plant symbols: small gouache-style sprites, painted once per theme into a sheet (kinds x 4 variants)
 const VK=['con','dec','rf','aca','olv','sh','grass','tus','dune'], VSZ=20;
-// per biome class: [tree symbol, ground symbol]
+// per biome class: [tree symbol, ground symbol]; trees per cluster (1-5) show tree cover
 const VEGT=[null,['rf',null],['aca','grass'],[null,'dune'],['dec','grass'],['olv','sh'],['dec','grass'],['con','tus'],[null,'tus'],null,[null,'grass']];
 let vegSheet=null;
 function vegSprites(){ const dk=darkTheme(); if(vegSheet&&vegSheet.dk===dk&&vegSheet.dpr===dpr) return vegSheet;
@@ -1842,16 +1842,17 @@ function renderMap(){
         const px=PX(lon), py=PY(lat); pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; } }
     mx.stroke(); mx.restore(); }
   // plant symbols (zoomed in): kind of vegetation, and 0-3 trees by tree cover, on a world-fixed grid so they stay put
-  if(LY.veg && bio && terr && mv.k>=7){ const V=vegSprites(), S=V.S, sd=Math.pow(2,Math.round(Math.log2(34/mv.k))), list=[];
+  if(LY.veg && bio && terr && mv.k>=7){ const V=vegSprites(), S=V.S, sd=Math.pow(2,Math.round(Math.log2(70/mv.k))), list=[];
     const i0=Math.floor(UNX(0)/sd)-1, i1=Math.ceil(UNX(MW)/sd)+1, j0=Math.floor(UNY(MH)/sd)-1, j1=Math.ceil(UNY(0)/sd)+1, sk=Math.round(sd*4096);
     for(let j=j0;j<=j1;j++) for(let i=i0;i<=i1;i++){ let h=Math.imul(i,73856093)^Math.imul(j,19349663)^Math.imul(sk,83492791); h=Math.imul(h^(h>>>13),0x5bd1e995); h^=h>>>15;
       const h1=(h>>>0)/4294967296, h2=(Math.imul(h,0x27d4eb2d)>>>0)/4294967296, lon=(i+.15+h1*.7)*sd, lat=(j+.15+h2*.7)*sd;
       if(lat<-84||lat>84||lon<-180||lon>180) continue; const p=cellOf(lon,lat); if(flagAt(p)!==1) continue;
       const v=vegAt(p,y); if(!VEGT[v.cls]) continue; list.push({x:PX(lon),y:PY(lat),v,vi:Math.floor(h1*997)%4,g:h2<.55}); }
     list.sort((a,b)=>a.y-b.y);
-    for(const it of list){ const T=VEGT[it.v.cls], t=it.v.tree, n=T[0]?(t>.55?3:t>.3?2:t>.08?1:0):0;
+    const CL=[[],[[0,0]],[[-4,-1],[4,1]],[[-5,-1],[5,-1],[0,3]],[[-5,-3],[4,-4],[-2,3],[6,2]],[[-7,-1],[0,-4],[7,-1],[-4,4],[4,4]]];   // cluster layouts: 1-5 trees
+    for(const it of list){ const T=VEGT[it.v.cls], t=it.v.tree, n=T[0]?(t>.75?5:t>.55?4:t>.35?3:t>.15?2:t>.05?1:0):0;
       const put=(k,dx,dy,sc)=>{ const w=VSZ*sc; mx.drawImage(V.c,it.vi*S,VK.indexOf(k)*S,S,S,it.x+dx-w/2,it.y+dy-w*.88,w,w); };
-      if(n===1) put(T[0],0,0,1); else if(n===2){ put(T[0],-4,-1,.88); put(T[0],4,2,1); } else if(n===3){ put(T[0],-5,-2,.85); put(T[0],5,-1,.92); put(T[0],0,4,1); }
+      for(const [dx,dy] of [...CL[n]].sort((a,b)=>a[1]-b[1])) put(T[0],dx*1.1,dy,.82+.18*(dy+4)/8);
       if(n<2&&T[1]&&it.g){ mx.globalAlpha=.8; put(T[1],n?8:0,n?3:0,.75); mx.globalAlpha=1; } } }
   // equator & tropics
   mx.strokeStyle=col.fg; mx.globalAlpha=.12; mx.setLineDash([2,4]); [0,23.44,-23.44].forEach(l=>{ mx.beginPath(); mx.moveTo(0,PY(l)); mx.lineTo(MW,PY(l)); mx.stroke(); }); mx.setLineDash([]); mx.globalAlpha=1;
