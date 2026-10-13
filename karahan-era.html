@@ -1836,10 +1836,12 @@ function renderMap(){
   if(LY.rivers && rivers && terr){
     mx.save(); mx.strokeStyle=col.river; mx.globalAlpha=mv.k>6?.85:.6; mx.lineWidth=mv.k>8?1.1:mv.k>4?.8:.55; mx.lineJoin='round'; mx.beginPath();
     const x0=UNX(0)-1, x1=UNX(MW)+1, y0=UNY(MH)-1, y1=UNY(0)+1, minLen=mv.k<4?1.5:0;
-    for(const r of rivers){ if(minLen && r.length<8) continue; let pen=false;
+    for(const r of rivers){ if(minLen && r.length<8) continue; let pen=false, lx=0, ly=0;
       for(let i=0;i<r.length;i+=2){ const lon=r[i]/100, lat=r[i+1]/100;   // rivers.json: lon,lat x100, snapped to ETOPO valleys (build_rivers_valleys.py)
-        if(lon<x0||lon>x1||lat<y0||lat>y1||flagAt(cellOf(lon,lat))!==1){ pen=false; continue; }
-        const px=PX(lon), py=PY(lat); pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; } }
+        if(lon<x0||lon>x1||lat<y0||lat>y1){ pen=false; continue; }
+        const px=PX(lon), py=PY(lat), last=i+2>=r.length; if(pen&&!last&&Math.abs(px-lx)+Math.abs(py-ly)<1.5) continue;   // skip points closer than ~1.5 px (zoomed out)
+        if(flagAt(cellOf(lon,lat))!==1){ pen=false; continue; }
+        pen?mx.lineTo(px,py):mx.moveTo(px,py); pen=true; lx=px; ly=py; } }
     mx.stroke(); mx.restore(); }
   // plant symbols (zoomed in): kind of vegetation, and 0-3 trees by tree cover, on a world-fixed grid so they stay put
   if(LY.veg && bio && terr && mv.k>=7){ const V=vegSprites(), S=V.S, sd=Math.pow(2,Math.round(Math.log2(70/mv.k))), list=[];
