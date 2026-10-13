@@ -61,7 +61,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Play: `playStart/playStop`, years per second ∝ age (`RATE`, `RATE_MIN`), timeline zoom follows speed; Space toggles.
 - Search: header combobox over EVENTS, ERAS, MIGR (choose on click, not pointerdown, so a tap cannot hit what lies under the list).
 - Place: tap-opened popups are sticky and carry "What happened here? / Play from here"; `setPlace()` samples land/sea/ice, biome, HYDE, C14 at log-spaced ages; `placePlay()` pauses at nearby events and at changes of the place (`placeStops`, `placeTick`).
-- Guided tours: `TOURS` from `<script id="tours">` (built by `dev/scripts/embed_tours.py` from `dev/data/tours.json`; steps {y, lat, lon, z, t, c, w, span?, ly?}); `tourStart/tourStep/tourEnd`, `tourFly` moves time (log-age) and map together; deep link `?tour=- Plan for guided tours: `dev/PLAN-play-search-place-tours.md` (phase 4).step=`; test `dev/test/tours.py`. Plan, feedback log and candidate stories: `dev/PLAN-play-search-place-tours.md`.
+- Guided tours: `TOURS` from `<script id="tours">` (built by `dev/scripts/embed_tours.py` from `dev/data/tours.json`; steps {y, lat, lon, z, t, c, w, span?, ly?}); `tourStart/tourStep/tourEnd`, `tourFly` moves time (log-age) and map together; deep link `?tour=<id>&step=<n>`; test `dev/test/tours.py`. Plan, feedback log and candidate stories: `dev/PLAN-play-search-place-tours.md`.
 
 ## Conventions
 - Year 1 KE = 9500 BCE; signed years in data (BCE negative, no year 0); `ke()`, `toSigned()`, `civil()`.
