@@ -998,7 +998,7 @@
   "blurb": "Follow the deadliest pandemic in recorded history from Central Asia across the Black Sea and the Mediterranean to every corner of Europe and the Middle East, 1338–1353.",
   "steps": [
    {
-    "y": 1338,
+    "y": 1339,
     "lat": 42.7,
     "lon": 76,
     "z": 8,
@@ -1111,11 +1111,13 @@
   "ly": {
    "lyFigs": false,
    "lyC14": false,
-   "lyPop": true,
-   "lyBorders": true,
+   "lyPop": false,
+   "lyBorders": false,
    "lyEvents": true,
    "lyMigr": false,
-   "lyFauna": false
+   "lyFauna": false,
+   "lyPlague": true,
+   "lyMarks": false
   }
  },
  {

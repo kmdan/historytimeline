@@ -1,0 +1,933 @@
+{
+ "source_note": "First recorded arrivals of the Black Death, 1338-1353, from English Wikipedia (Black Death and its country articles, plus city/ruler articles); fetched 2026-10-13. t = decimal year, month m -> year+(m-0.5)/12; seasons -> middle month (spring Apr, summer Jul, autumn Oct); year-only -> mid-year, approx. Dates from deaths or outbreak reports are 'present by' dates, so arrival may be earlier. Where Wikipedia articles disagree, the chosen date and the alternative are in 'note' (notably Gaza/Damascus/Aleppo: the Black Death article says 1347, Black Death in the Middle East says 1348, used here). No Wikipedia dates were found for Milan (incl. its sparing), Sardinia, Corsica, Mallorca, Barcelona, Valencia, Seville, Santiago, Bristol, Calais, Cyprus, Crete or Baghdad's first arrival.",
+ "places": [
+  {
+   "n": "Chüy Valley (Issyk-Kul region)",
+   "lat": 42.8,
+   "lon": 75.3,
+   "t": 1338.75,
+   "when": "1338–1339",
+   "approx": true,
+   "w": "Black Death",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "Nestorian graves with plague inscriptions (Kara-Djigach, Burana); Y. pestis aDNA confirmed by Spyrou et al. 2022 (Nature)"
+  },
+  {
+   "n": "Sarai",
+   "lat": 48.51,
+   "lon": 45.8,
+   "t": 1346.5,
+   "when": "1346–1347",
+   "approx": true,
+   "w": "Sarai (city)",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Russia",
+   "note": "Golden Horde capital; with Astrakhan and the Black Sea ports"
+  },
+  {
+   "n": "Caffa",
+   "lat": 45.03,
+   "lon": 35.38,
+   "t": 1346.5,
+   "when": "1346 (siege of Caffa)",
+   "approx": true,
+   "w": "Feodosia",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "epidemic in the besieging army 1346; transmission story contested"
+  },
+  {
+   "n": "Astrakhan",
+   "lat": 46.35,
+   "lon": 48.04,
+   "t": 1346.75,
+   "when": "1346–1347",
+   "approx": true,
+   "w": "Astrakhan",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Russia"
+  },
+  {
+   "n": "Constantinople",
+   "lat": 41.01,
+   "lon": 28.98,
+   "t": 1347.542,
+   "when": "summer 1347",
+   "approx": true,
+   "w": "Constantinople",
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Trebizond",
+   "lat": 41.0,
+   "lon": 39.72,
+   "t": 1347.708,
+   "when": "September 1347",
+   "approx": false,
+   "w": "Trabzon",
+   "src": "https://en.wikipedia.org/wiki/Trebizond"
+  },
+  {
+   "n": "Alexandria",
+   "lat": 31.2,
+   "lon": 29.92,
+   "t": 1347.792,
+   "when": "autumn 1347",
+   "approx": true,
+   "w": "Alexandria",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East"
+  },
+  {
+   "n": "Messina",
+   "lat": 38.19,
+   "lon": 15.55,
+   "t": 1347.792,
+   "when": "October 1347",
+   "approx": false,
+   "w": "Messina",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Catania",
+   "lat": 37.5,
+   "lon": 15.09,
+   "t": 1347.875,
+   "when": "November 1347",
+   "approx": false,
+   "w": "Catania",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Marseille",
+   "lat": 43.3,
+   "lon": 5.37,
+   "t": 1347.875,
+   "when": "November 1347",
+   "approx": false,
+   "w": "Marseille",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "note": "Black Death in France also cites December 1347; the Black Death article says end of January 1348"
+  },
+  {
+   "n": "Ragusa (Dubrovnik)",
+   "lat": 42.64,
+   "lon": 18.11,
+   "t": 1348.042,
+   "when": "January 1348",
+   "approx": false,
+   "w": "Dubrovnik",
+   "src": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+  },
+  {
+   "n": "Genoa",
+   "lat": 44.41,
+   "lon": 8.93,
+   "t": 1348.042,
+   "when": "January 1348",
+   "approx": false,
+   "w": "Genoa",
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Venice",
+   "lat": 45.44,
+   "lon": 12.33,
+   "t": 1348.042,
+   "when": "January 1348",
+   "approx": false,
+   "w": "Venice",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "Black Death in Italy gives April 1348"
+  },
+  {
+   "n": "Pisa",
+   "lat": 43.72,
+   "lon": 10.4,
+   "t": 1348.042,
+   "when": "January 1348",
+   "approx": false,
+   "w": "Pisa",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Carcassonne",
+   "lat": 43.21,
+   "lon": 2.35,
+   "t": 1348.042,
+   "when": "January 1348",
+   "approx": false,
+   "w": "Carcassonne",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Lucca",
+   "lat": 43.84,
+   "lon": 10.5,
+   "t": 1348.125,
+   "when": "February 1348",
+   "approx": false,
+   "w": "Lucca",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Piombino",
+   "lat": 42.93,
+   "lon": 10.53,
+   "t": 1348.125,
+   "when": "February 1348",
+   "approx": false,
+   "w": "Piombino",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Florence",
+   "lat": 43.77,
+   "lon": 11.25,
+   "t": 1348.208,
+   "when": "March 1348",
+   "approx": false,
+   "w": "Florence",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Bologna",
+   "lat": 44.49,
+   "lon": 11.34,
+   "t": 1348.208,
+   "when": "March–September 1348",
+   "approx": true,
+   "w": "Bologna",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Avignon",
+   "lat": 43.95,
+   "lon": 4.81,
+   "t": 1348.208,
+   "when": "early 1348 (by April)",
+   "approx": true,
+   "w": "Avignon",
+   "src": "https://en.wikipedia.org/wiki/History_of_Avignon",
+   "note": "Wikipedia gives the year 1348; Black Death in France places executions for well-poisoning there in April 1348"
+  },
+  {
+   "n": "Toulouse",
+   "lat": 43.6,
+   "lon": 1.44,
+   "t": 1348.292,
+   "when": "by April 1348",
+   "approx": true,
+   "w": "Toulouse",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Lyon",
+   "lat": 45.76,
+   "lon": 4.84,
+   "t": 1348.292,
+   "when": "April 1348",
+   "approx": false,
+   "w": "Lyon",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Tunis",
+   "lat": 36.81,
+   "lon": 10.18,
+   "t": 1348.292,
+   "when": "April 1348",
+   "approx": false,
+   "w": "Tunis",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "Black Death in the Middle East: present by June 1348"
+  },
+  {
+   "n": "Gaza",
+   "lat": 31.5,
+   "lon": 34.47,
+   "t": 1348.292,
+   "when": "April 1348",
+   "approx": false,
+   "w": "Gaza City",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
+   "note": "Black Death in the Middle East: April–May 1348; the Black Death article puts it in April 1347"
+  },
+  {
+   "n": "Zaragoza (Aragon)",
+   "lat": 41.65,
+   "lon": -0.88,
+   "t": 1348.292,
+   "when": "spring 1348",
+   "approx": true,
+   "w": "Zaragoza",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Spain",
+   "note": "reached Aragon in spring 1348"
+  },
+  {
+   "n": "Perugia",
+   "lat": 43.11,
+   "lon": 12.39,
+   "t": 1348.333,
+   "when": "April–May 1348",
+   "approx": true,
+   "w": "Perugia",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Orvieto",
+   "lat": 42.72,
+   "lon": 12.11,
+   "t": 1348.333,
+   "when": "April–May 1348",
+   "approx": true,
+   "w": "Orvieto",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Siena",
+   "lat": 43.32,
+   "lon": 11.33,
+   "t": 1348.375,
+   "when": "May 1348",
+   "approx": false,
+   "w": "Siena",
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Lisbon",
+   "lat": 38.72,
+   "lon": -9.14,
+   "t": 1348.458,
+   "when": "late spring or early summer 1348",
+   "approx": true,
+   "w": "Lisbon",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Portugal",
+   "note": "Portugal reached around April or May 1348"
+  },
+  {
+   "n": "Bordeaux",
+   "lat": 44.84,
+   "lon": -0.58,
+   "t": 1348.458,
+   "when": "by June 1348 (likely present by March)",
+   "approx": true,
+   "w": "Bordeaux",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Melcombe (Weymouth)",
+   "lat": 50.61,
+   "lon": -2.46,
+   "t": 1348.458,
+   "when": "shortly before 24 June 1348",
+   "approx": false,
+   "w": "Weymouth, Dorset",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "note": "first in England; possibly arrived c. 8 May 1348"
+  },
+  {
+   "n": "Roissy (near Paris)",
+   "lat": 49.0,
+   "lon": 2.52,
+   "t": 1348.458,
+   "when": "June 1348",
+   "approx": false,
+   "w": "Roissy-en-France",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Rouen",
+   "lat": 49.44,
+   "lon": 1.1,
+   "t": 1348.458,
+   "when": "24 June 1348",
+   "approx": false,
+   "w": "Rouen",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Trento",
+   "lat": 46.07,
+   "lon": 11.12,
+   "t": 1348.458,
+   "when": "June 1348",
+   "approx": false,
+   "w": "Trento",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Mecca",
+   "lat": 21.42,
+   "lon": 39.83,
+   "t": 1348.5,
+   "when": "1348",
+   "approx": true,
+   "w": "Mecca",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "brought by Hajj pilgrims; year only"
+  },
+  {
+   "n": "Fez",
+   "lat": 34.03,
+   "lon": -5.0,
+   "t": 1348.5,
+   "when": "1348",
+   "approx": true,
+   "w": "Fez, Morocco",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "brought by the Marinid army returning from Tunis; year only"
+  },
+  {
+   "n": "Mühldorf am Inn",
+   "lat": 48.25,
+   "lon": 12.52,
+   "t": 1348.542,
+   "when": "29 June 1348",
+   "approx": false,
+   "w": "Mühldorf",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "by tradition the first German-speaking town hit"
+  },
+  {
+   "n": "Damascus",
+   "lat": 33.51,
+   "lon": 36.29,
+   "t": 1348.542,
+   "when": "summer (July) 1348",
+   "approx": true,
+   "w": "Damascus",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
+   "note": "the Black Death article says July 1347"
+  },
+  {
+   "n": "Dublin",
+   "lat": 53.35,
+   "lon": -6.26,
+   "t": 1348.6,
+   "when": "1348",
+   "approx": true,
+   "w": "Dublin",
+   "src": "https://en.wikipedia.org/wiki/History_of_Dublin",
+   "note": "year only"
+  },
+  {
+   "n": "Paris",
+   "lat": 48.86,
+   "lon": 2.35,
+   "t": 1348.6,
+   "when": "after June 1348; ~800 deaths a day by Nov–Dec 1348",
+   "approx": true,
+   "w": "Paris",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "note": "no arrival month on Wikipedia; placed after Roissy (June) and before the Nov–Dec peak"
+  },
+  {
+   "n": "Rome",
+   "lat": 41.9,
+   "lon": 12.5,
+   "t": 1348.625,
+   "when": "August 1348",
+   "approx": false,
+   "w": "Rome",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+  },
+  {
+   "n": "Givry (Burgundy)",
+   "lat": 46.78,
+   "lon": 4.74,
+   "t": 1348.625,
+   "when": "August–November 1348",
+   "approx": true,
+   "w": "Givry",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Cairo",
+   "lat": 30.04,
+   "lon": 31.24,
+   "t": 1348.708,
+   "when": "September 1348",
+   "approx": false,
+   "w": "Cairo",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
+   "note": "the Black Death article: by late summer 1348"
+  },
+  {
+   "n": "London",
+   "lat": 51.51,
+   "lon": -0.13,
+   "t": 1348.75,
+   "when": "autumn 1348 (29 Sept in some accounts, certainly by November)",
+   "approx": true,
+   "w": "London",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England"
+  },
+  {
+   "n": "Aleppo",
+   "lat": 36.2,
+   "lon": 37.16,
+   "t": 1348.792,
+   "when": "October 1348",
+   "approx": true,
+   "w": "Aleppo",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "month from the Black Death article, which gives 1347; year 1348 per the Middle East article's chronology (Gaza April, Damascus summer 1348)"
+  },
+  {
+   "n": "Teruel",
+   "lat": 40.34,
+   "lon": -1.11,
+   "t": 1348.792,
+   "when": "by 30 October 1348",
+   "approx": false,
+   "w": "Teruel",
+   "src": "https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Queen_of_Aragon",
+   "note": "Queen Eleanor of Aragon died of plague there"
+  },
+  {
+   "n": "Neuberg (Austria)",
+   "lat": 47.66,
+   "lon": 15.57,
+   "t": 1348.875,
+   "when": "11 November 1348",
+   "approx": false,
+   "w": "Neuberg an der Mürz",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "Neuberg Chronicle, St Martin's day"
+  },
+  {
+   "n": "Antioch",
+   "lat": 36.2,
+   "lon": 36.16,
+   "t": 1349.0,
+   "when": "1348–1349",
+   "approx": true,
+   "w": "Antioch",
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Asyut (Upper Egypt)",
+   "lat": 27.18,
+   "lon": 31.18,
+   "t": 1349.125,
+   "when": "early 1349",
+   "approx": true,
+   "w": "Asyut",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East"
+  },
+  {
+   "n": "York",
+   "lat": 53.96,
+   "lon": -1.08,
+   "t": 1349.375,
+   "when": "May 1349",
+   "approx": false,
+   "w": "York",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England"
+  },
+  {
+   "n": "Vienna",
+   "lat": 48.21,
+   "lon": 16.37,
+   "t": 1349.375,
+   "when": "May 1349",
+   "approx": false,
+   "w": "Vienna",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Oslo",
+   "lat": 59.91,
+   "lon": 10.75,
+   "t": 1349.417,
+   "when": "May or June 1349",
+   "approx": true,
+   "w": "Oslo",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway"
+  },
+  {
+   "n": "Mosul",
+   "lat": 36.34,
+   "lon": 43.13,
+   "t": 1349.5,
+   "when": "1349",
+   "approx": true,
+   "w": "Mosul",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "year only"
+  },
+  {
+   "n": "Buda (Hungary)",
+   "lat": 47.5,
+   "lon": 19.04,
+   "t": 1349.5,
+   "when": "by 1349",
+   "approx": true,
+   "w": "Buda",
+   "src": "https://en.wikipedia.org/wiki/Louis_I_of_Hungary",
+   "note": "year only; article context places the Hungarian outbreak in 1349"
+  },
+  {
+   "n": "Basel",
+   "lat": 47.56,
+   "lon": 7.59,
+   "t": 1349.5,
+   "when": "1349",
+   "approx": true,
+   "w": "Basel",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Switzerland",
+   "note": "year only"
+  },
+  {
+   "n": "Zürich",
+   "lat": 47.37,
+   "lon": 8.54,
+   "t": 1349.5,
+   "when": "1349",
+   "approx": true,
+   "w": "Zürich",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Switzerland",
+   "note": "year only"
+  },
+  {
+   "n": "Bern",
+   "lat": 46.95,
+   "lon": 7.45,
+   "t": 1349.5,
+   "when": "1349",
+   "approx": true,
+   "w": "Bern",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Switzerland",
+   "note": "year only"
+  },
+  {
+   "n": "Scotland (Edinburgh)",
+   "lat": 55.95,
+   "lon": -3.19,
+   "t": 1349.5,
+   "when": "1349",
+   "approx": true,
+   "w": "Black Death",
+   "src": "https://en.wikipedia.org/wiki/Scotland_in_the_Late_Middle_Ages",
+   "note": "year only; point placed at Edinburgh"
+  },
+  {
+   "n": "Strasbourg",
+   "lat": 48.58,
+   "lon": 7.75,
+   "t": 1349.542,
+   "when": "8 July 1349",
+   "approx": false,
+   "w": "Strasbourg",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Tournai",
+   "lat": 50.61,
+   "lon": 3.39,
+   "t": 1349.625,
+   "when": "August–November 1349",
+   "approx": true,
+   "w": "Tournai",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "note": "Hainaut and Flanders: summer 1349 (Black Death in Germany)"
+  },
+  {
+   "n": "Bergen",
+   "lat": 60.39,
+   "lon": 5.32,
+   "t": 1349.625,
+   "when": "late summer (probably August) 1349",
+   "approx": true,
+   "w": "Bergen",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway"
+  },
+  {
+   "n": "Mainz",
+   "lat": 50.0,
+   "lon": 8.27,
+   "t": 1349.667,
+   "when": "summer–autumn 1349",
+   "approx": true,
+   "w": "Mainz",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Augsburg",
+   "lat": 48.37,
+   "lon": 10.9,
+   "t": 1349.667,
+   "when": "summer–autumn 1349",
+   "approx": true,
+   "w": "Augsburg",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Trondheim",
+   "lat": 63.43,
+   "lon": 10.4,
+   "t": 1349.792,
+   "when": "autumn 1349",
+   "approx": true,
+   "w": "Trondheim",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway"
+  },
+  {
+   "n": "Cologne",
+   "lat": 50.94,
+   "lon": 6.96,
+   "t": 1349.958,
+   "when": "December 1349",
+   "approx": false,
+   "w": "Cologne",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "a local chronicle suggests 1347 (uncertain)"
+  },
+  {
+   "n": "Gibraltar (Castilian siege camp)",
+   "lat": 36.14,
+   "lon": -5.35,
+   "t": 1350.208,
+   "when": "by 26 March 1350",
+   "approx": false,
+   "w": "Siege of Gibraltar (1349–1350)",
+   "src": "https://en.wikipedia.org/wiki/Alfonso_XI_of_Castile",
+   "note": "King Alfonso XI died of plague in the camp"
+  },
+  {
+   "n": "Visby (Gotland)",
+   "lat": 57.64,
+   "lon": 18.3,
+   "t": 1350.458,
+   "when": "May or at the latest July 1350",
+   "approx": true,
+   "w": "Visby",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Sweden"
+  },
+  {
+   "n": "Lübeck",
+   "lat": 53.87,
+   "lon": 10.69,
+   "t": 1350.458,
+   "when": "early summer 1350",
+   "approx": true,
+   "w": "Lübeck",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Hamburg",
+   "lat": 53.55,
+   "lon": 9.99,
+   "t": 1350.458,
+   "when": "early summer 1350",
+   "approx": true,
+   "w": "Hamburg",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Magdeburg",
+   "lat": 52.13,
+   "lon": 11.63,
+   "t": 1350.458,
+   "when": "early summer 1350",
+   "approx": true,
+   "w": "Magdeburg",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Deventer",
+   "lat": 52.25,
+   "lon": 6.16,
+   "t": 1350.5,
+   "when": "1350",
+   "approx": true,
+   "w": "Deventer",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "year only; Frisia, arrived from Germany"
+  },
+  {
+   "n": "Ribe",
+   "lat": 55.33,
+   "lon": 8.76,
+   "t": 1350.542,
+   "when": "July–October 1350",
+   "approx": true,
+   "w": "Ribe",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark"
+  },
+  {
+   "n": "Lund (Scania)",
+   "lat": 55.7,
+   "lon": 13.19,
+   "t": 1350.542,
+   "when": "July–December 1350",
+   "approx": true,
+   "w": "Scania",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark"
+  },
+  {
+   "n": "Copenhagen",
+   "lat": 55.68,
+   "lon": 12.57,
+   "t": 1350.625,
+   "when": "August–September 1350",
+   "approx": true,
+   "w": "Copenhagen",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark"
+  },
+  {
+   "n": "Stockholm",
+   "lat": 59.33,
+   "lon": 18.07,
+   "t": 1350.625,
+   "when": "August 1350",
+   "approx": false,
+   "w": "Stockholm",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Sweden"
+  },
+  {
+   "n": "Uppsala",
+   "lat": 59.86,
+   "lon": 17.64,
+   "t": 1350.625,
+   "when": "August 1350",
+   "approx": false,
+   "w": "Uppsala",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Sweden"
+  },
+  {
+   "n": "Roskilde",
+   "lat": 55.64,
+   "lon": 12.08,
+   "t": 1350.708,
+   "when": "September–October 1350",
+   "approx": true,
+   "w": "Roskilde",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark"
+  },
+  {
+   "n": "Prussia (Marienburg)",
+   "lat": 54.04,
+   "lon": 19.03,
+   "t": 1351.5,
+   "when": "1351",
+   "approx": true,
+   "w": "State of the Teutonic Order",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "year only; point placed at Marienburg"
+  },
+  {
+   "n": "Ta'izz (Yemen)",
+   "lat": 13.58,
+   "lon": 44.02,
+   "t": 1351.9,
+   "when": "1351 or 1352",
+   "approx": true,
+   "w": "Taiz",
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "note": "carried home by Sultan al-Mujahid Ali"
+  },
+  {
+   "n": "Brno",
+   "lat": 49.2,
+   "lon": 16.61,
+   "t": 1351.958,
+   "when": "December 1351",
+   "approx": false,
+   "w": "Brno",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "also Znojmo; Moravia, not Bohemia proper"
+  },
+  {
+   "n": "Pskov",
+   "lat": 57.82,
+   "lon": 28.33,
+   "t": 1352.292,
+   "when": "spring 1352",
+   "approx": true,
+   "w": "Pskov",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Russia",
+   "note": "first documented outbreak in Russia"
+  },
+  {
+   "n": "Novgorod",
+   "lat": 58.52,
+   "lon": 31.27,
+   "t": 1352.5,
+   "when": "1352",
+   "approx": true,
+   "w": "Veliky Novgorod",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Russia",
+   "note": "year only, same year as Pskov"
+  },
+  {
+   "n": "Tonnerre",
+   "lat": 47.86,
+   "lon": 3.97,
+   "t": 1352.5,
+   "when": "1352",
+   "approx": true,
+   "w": "Tonnerre",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "note": "last part of France reached; year only"
+  },
+  {
+   "n": "Moscow",
+   "lat": 55.75,
+   "lon": 37.62,
+   "t": 1353.292,
+   "when": "by 27 April 1353",
+   "approx": false,
+   "w": "Moscow",
+   "src": "https://en.wikipedia.org/wiki/Simeon_of_Moscow",
+   "note": "Grand Prince Simeon died of plague 27 April 1353"
+  }
+ ],
+ "spared": [
+  {
+   "n": "Poland",
+   "lat": 52.0,
+   "lon": 19.5,
+   "note": "often believed minimally affected (travel ban by Casimir III, sparse population); debated: pollen study disputed, Benedictow points to missing research, and wage/grain/forest evidence suggests it was hit. Plague believed to have arrived in 1351.",
+   "debated": true,
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Poland"
+  },
+  {
+   "n": "Bohemia",
+   "lat": 50.0,
+   "lon": 14.5,
+   "note": "traditionally described as spared (the claim was used as propaganda); only Moravian outbreaks (Brno, Znojmo, Dec 1351) contradict it.",
+   "debated": true,
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Basque Country",
+   "lat": 43.1,
+   "lon": -2.4,
+   "note": "plague less common in most of the Basque Country, as in isolated parts of Belgium/Netherlands and isolated Alpine villages.",
+   "debated": false,
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Flanders",
+   "lat": 51.05,
+   "lon": 3.4,
+   "note": "Black Death article says plague did not appear there until the turn of the 15th century; Black Death in Germany says Hainaut and Flanders were reached in summer 1349.",
+   "debated": true,
+   "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Finland",
+   "lat": 61.5,
+   "lon": 24.0,
+   "note": "no confirmed arrival; assumed for 1351-1352 without direct references.",
+   "debated": true,
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Sweden"
+  },
+  {
+   "n": "Iceland",
+   "lat": 64.9,
+   "lon": -18.6,
+   "note": "not reached until 1402.",
+   "debated": false,
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway"
+  }
+ ]
+}
