@@ -10,7 +10,7 @@
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="World map in Karahan Era showing coastlines, ice sheets and cultures at a chosen year">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Karahan Era","alternateName":"Karahan Era world timeline and atlas","url":"https://kmdan.github.io/historytimeline/karahan-era.html","description":"Interactive world history timeline and atlas, 500,000 BCE to today: watch coastlines, ice sheets, climate, cultures, states and migrations change year by year.","applicationCategory":"EducationalApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript; WebGL2 recommended","isAccessibleForFree":true,"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","author":{"@type":"Person","name":"kmdan","url":"https://github.com/kmdan"},"codeRepository":"https://github.com/kmdan/historytimeline","image":"https://kmdan.github.io/historytimeline/atlas/og.png","about":["World history","Prehistory","Paleoclimate","Historical geography","Last Glacial Maximum"],"temporalCoverage":"-40000/2026","isBasedOn":[{"@type":"Dataset","name":"Shelf-sea coastline history, last 26,000 years (De Groeve et al. 2022)","url":"https://doi.org/10.21942/uva.20029220.v1","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"PaleoMIST 1.0 ice sheet reconstruction (Gowan et al. 2021)","url":"https://doi.org/10.1594/PANGAEA.905800","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Global terrestrial climate and biomes over 120,000 years (Beyer, Krapp & Manica 2020)","url":"https://doi.org/10.6084/m9.figshare.12293345","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Cliopatria: polities from 3400 BCE (Bennett et al. 2025)","url":"https://doi.org/10.1038/s41597-025-04516-9","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"HYDE 3.2.1 population density (Klein Goldewijk et al. 2017)","url":"https://doi.org/10.17026/DANS-25G-GEZ3","license":"https://creativecommons.org/licenses/by/3.0/"},{"@type":"Dataset","name":"eVolv2k v4 volcanic eruptions (Sigl & Toohey 2024)","url":"https://doi.org/10.1594/PANGAEA.971968","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"XRONOS radiocarbon dates (Roe et al. 2025)","url":"https://doi.org/10.5334/jcaa.191","license":"https://creativecommons.org/licenses/by/4.0/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Karahan Era","alternateName":"Karahan Era world timeline and atlas","url":"https://kmdan.github.io/historytimeline/karahan-era.html","description":"Interactive world history timeline and atlas, 500,000 BCE to today: watch coastlines, ice sheets, climate, cultures, states and migrations change year by year.","applicationCategory":"EducationalApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript; WebGL2 recommended","isAccessibleForFree":true,"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","author":{"@type":"Person","name":"kmdan","url":"https://github.com/kmdan"},"codeRepository":"https://github.com/kmdan/historytimeline","image":"https://kmdan.github.io/historytimeline/atlas/og.png","about":["World history","Prehistory","Paleoclimate","Historical geography","Last Glacial Maximum"],"temporalCoverage":"-40000/2026","isBasedOn":[{"@type":"Dataset","name":"ETOPO 2022 global relief model (NOAA NCEI)","url":"https://doi.org/10.25921/fd45-gt74"},{"@type":"Dataset","name":"Shelf-sea coastline history, last 26,000 years (De Groeve et al. 2022)","url":"https://doi.org/10.21942/uva.20029220.v1","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"PaleoMIST 1.0 ice sheet reconstruction (Gowan et al. 2021)","url":"https://doi.org/10.1594/PANGAEA.905800","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Global terrestrial climate and biomes over 120,000 years (Beyer, Krapp & Manica 2020)","url":"https://doi.org/10.6084/m9.figshare.12293345","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"Cliopatria: polities from 3400 BCE (Bennett et al. 2025)","url":"https://doi.org/10.1038/s41597-025-04516-9","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"HYDE 3.2.1 population density (Klein Goldewijk et al. 2017)","url":"https://doi.org/10.17026/DANS-25G-GEZ3","license":"https://creativecommons.org/licenses/by/3.0/"},{"@type":"Dataset","name":"eVolv2k v4 volcanic eruptions (Sigl & Toohey 2024)","url":"https://doi.org/10.1594/PANGAEA.971968","license":"https://creativecommons.org/licenses/by/4.0/"},{"@type":"Dataset","name":"XRONOS radiocarbon dates (Roe et al. 2025)","url":"https://doi.org/10.5334/jcaa.191","license":"https://creativecommons.org/licenses/by/4.0/"}]}</script>
 </head><body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -448,7 +448,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
 
   <div class="foot" id="about-data">
     <h2 class="foot-h">About the data</h2>
-    <p><b>Map data and estimates.</b> For the last 26,000 years, land and sea follow the shelf-sea reconstructions of <a href="https://doi.org/10.1111/geb.13573" target="_blank" rel="noopener">De Groeve et al. 2022</a> (<a href="https://doi.org/10.21942/uva.20029220.v1" target="_blank" rel="noopener">data</a>, CC BY 4.0), which include regional sea level and the rebound of land once pressed down by ice, every 500 years (interpolated between). Before that, coastlines are redrawn from the <a href="https://www.ngdc.noaa.gov/mgg/global/etopo5.HTML" target="_blank" rel="noopener">ETOPO</a> 20-arc-minute elevation grid at the estimated global sea level. Today's coastline is from <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Ice sheets follow the global reconstruction PaleoMIST 1.0 of <a href="https://doi.org/10.1038/s41467-021-21469-w" target="_blank" rel="noopener">Gowan et al. 2021</a> (<a href="https://doi.org/10.1594/PANGAEA.905800" target="_blank" rel="noopener">data</a>, CC BY 4.0), whose margins every 2,500 years are built on the dated limits of Dyke, Dalton, Hughes and others; between those steps each ice edge is interpolated so it advances and retreats smoothly. PaleoMIST covers the ice sheets of North America, Greenland, Eurasia, Iceland, Patagonia and Antarctica; the Alps and other mountain glaciers keep the earlier schematic model, with a snowline lowered by up to about 1 km in the cold. Biomes and local temperatures come from <a href="https://doi.org/10.1038/s41597-020-0552-1" target="_blank" rel="noopener">Beyer, Krapp &amp; Manica 2020</a> (HadCM3 climate downscaled to 0.5° and BIOME4 vegetation, every 1,000–2,000 years; <a href="https://doi.org/10.6084/m9.figshare.12293345" target="_blank" rel="noopener">data</a>, CC BY 4.0), grouped into the ten classes of the legend. Two known model biases are corrected with published patterns: in cold phases northern Eurasia and Beringia are drawn as open mammoth steppe instead of the modelled taiga (pollen syntheses, BIOME 6000), and the Sahara and Arabia are greened during the African Humid Period, which the model misses. Global temperature for the last 24,000 years is the data-assimilation reconstruction of <a href="https://doi.org/10.1038/s41586-021-03984-4" target="_blank" rel="noopener">Osman et al. 2021</a> (the chart's band is its 90% range); the dotted line is the proxy-based Holocene curve of <a href="https://doi.org/10.1038/s41597-020-0530-7" target="_blank" rel="noopener">Kaufman et al. 2020</a>. The two disagree about whether the mid-Holocene was warmer than the 19th century, an open question known as the Holocene temperature conundrum. Farmland spreads outward from the known centres of domestication at estimated speeds, then with 18th–20th-century settler frontiers. Treat the biome and farmland layers as illustrations of the pattern, not as reconstructions.</p>
+    <p><b>Map data and estimates.</b> For the last 26,000 years, land and sea follow the shelf-sea reconstructions of <a href="https://doi.org/10.1111/geb.13573" target="_blank" rel="noopener">De Groeve et al. 2022</a> (<a href="https://doi.org/10.21942/uva.20029220.v1" target="_blank" rel="noopener">data</a>, CC BY 4.0), which include regional sea level and the rebound of land once pressed down by ice, every 500 years (interpolated between). Before that, coastlines are redrawn from the <a href="https://www.ngdc.noaa.gov/mgg/global/etopo5.HTML" target="_blank" rel="noopener">ETOPO</a> 20-arc-minute elevation grid at the estimated global sea level. Today's coastline is from <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Relief shading and the fine detail of coasts inside each map cell come from the <a href="https://doi.org/10.25921/fd45-gt74" target="_blank" rel="noopener">ETOPO 2022</a> global relief model of NOAA NCEI (60 arc-seconds, averaged to 1/12°); the map is drawn at screen resolution, so zoomed in the coasts and hills stay sharp while the land and sea of each time still follow the reconstructions above. Ice sheets follow the global reconstruction PaleoMIST 1.0 of <a href="https://doi.org/10.1038/s41467-021-21469-w" target="_blank" rel="noopener">Gowan et al. 2021</a> (<a href="https://doi.org/10.1594/PANGAEA.905800" target="_blank" rel="noopener">data</a>, CC BY 4.0), whose margins every 2,500 years are built on the dated limits of Dyke, Dalton, Hughes and others; between those steps each ice edge is interpolated so it advances and retreats smoothly. PaleoMIST covers the ice sheets of North America, Greenland, Eurasia, Iceland, Patagonia and Antarctica; the Alps and other mountain glaciers keep the earlier schematic model, with a snowline lowered by up to about 1 km in the cold. Biomes and local temperatures come from <a href="https://doi.org/10.1038/s41597-020-0552-1" target="_blank" rel="noopener">Beyer, Krapp &amp; Manica 2020</a> (HadCM3 climate downscaled to 0.5° and BIOME4 vegetation, every 1,000–2,000 years; <a href="https://doi.org/10.6084/m9.figshare.12293345" target="_blank" rel="noopener">data</a>, CC BY 4.0), grouped into the ten classes of the legend. Two known model biases are corrected with published patterns: in cold phases northern Eurasia and Beringia are drawn as open mammoth steppe instead of the modelled taiga (pollen syntheses, BIOME 6000), and the Sahara and Arabia are greened during the African Humid Period, which the model misses. Global temperature for the last 24,000 years is the data-assimilation reconstruction of <a href="https://doi.org/10.1038/s41586-021-03984-4" target="_blank" rel="noopener">Osman et al. 2021</a> (the chart's band is its 90% range); the dotted line is the proxy-based Holocene curve of <a href="https://doi.org/10.1038/s41597-020-0530-7" target="_blank" rel="noopener">Kaufman et al. 2020</a>. The two disagree about whether the mid-Holocene was warmer than the 19th century, an open question known as the Holocene temperature conundrum. Farmland spreads outward from the known centres of domestication at estimated speeds, then with 18th–20th-century settler frontiers. Treat the biome and farmland layers as illustrations of the pattern, not as reconstructions.</p>
     <p><b>Deep time (before 40,000 BCE).</b> Global sea level follows the stack of <a href="https://doi.org/10.5194/cp-12-1079-2016" target="_blank" rel="noopener">Spratt &amp; Lisiecki 2016</a> (1,000-year steps; stacks smooth out short peaks, so interglacial highstands may be underestimated), and CO₂ the ice-core composite of <a href="https://doi.org/10.1002/2014GL061957" target="_blank" rel="noopener">Bereiter et al. 2015</a>. Global temperature before 40,000 BCE is a rough estimate scaled from the EPICA Dome C Antarctic record (<a href="https://doi.org/10.1126/science.1141038" target="_blank" rel="noopener">Jouzel et al. 2007</a>): cold anomalies × 0.63, warm ones × 0.3, because the poles change more than the globe. Biomes, local temperatures and ice sheets come from the 800,000-year reconstruction of <a href="https://doi.org/10.1038/s41597-021-01009-3" target="_blank" rel="noopener">Krapp et al. 2021</a> (HadCM3 climate emulated through the glacial cycles and downscaled to 0.5°, BIOME4 vegetation; <a href="https://doi.org/10.5281/zenodo.8415273" target="_blank" rel="noopener">data</a>, CC BY 4.0), shown every 5,000 years with the same glacial-steppe correction as above. Before 122,000 years ago the model’s northern ice sheets come from a coarse ice-sheet simulation and are smaller than the geological limits of some glaciations (Saalian ice reached the Rhineland). When the sea stood higher than today, low coastal land is drawn flooded. These are model reconstructions: treat them as the broad pattern of each glacial and interglacial.</p>
     <p><b>Cultures and peoples.</b> Before 10,000 BCE, the dashed, softly coloured areas are hypothetical extents of 47 archaeological cultures and populations (for example Aurignacian, Gravettian, Magdalenian, Natufian, Iberomaurusian, Clovis and the first Australians). For Europe from 9500 to 2000 BCE, 88 Mesolithic, Neolithic, Copper Age and Early Bronze Age cultures (from Maglemosian and Lepenski Vir through LBK, Vinča, Varna, Cucuteni–Trypillia, Funnelbeaker and Yamnaya to Corded Ware, Bell Beaker and Únětice) replace the coarse European blocks of the borders maps. All are drawn around the regions and key sites their Wikipedia articles describe and clipped to the land of the time; site positions marked “approx.” are estimates. Elsewhere, from 10,000 BCE the map uses the historical-basemaps borders, and from 3400 BCE states come from <a href="https://github.com/Seshat-Global-History-Databank/cliopatria" target="_blank" rel="noopener">Cliopatria</a> (Seshat Global History Databank, v0.2.1, CC BY 4.0; <a href="https://doi.org/10.1038/s41597-025-04516-9" target="_blank" rel="noopener">Bennett et al. 2025</a>): 13,700 dated border shapes for more than 1,600 polities, each shown only in the years it applies to, with its Wikipedia article. Peoples outside those states (foragers, herders, tribal confederations) still come from historical-basemaps. Where Cliopatria leaves a gap of up to 25 years between two border shapes of the same state, the earlier shape is kept so borders do not blink. Every culture and state has a popup. For 815 names the matching Wikipedia article was checked and is linked with a short description; for the rest the popup offers a Wikipedia search that opens the article directly when the title matches.</p>
     <p><b>Forests and human impact.</b> The Forests layer is an estimate: each biome has a natural forest share, reduced over time by farmland and by the global loss of about a third of the world's forests since the last ice age (6 billion hectares 10,000 years ago, about 4 billion today, from Our World in Data). In 19 regions with documented histories (Iceland, Ireland, Britain, Scotland, Greece, the Dinaric Karst, Lebanon, Rapa Nui, Madagascar, New Zealand, Hawaii, Haiti, the eastern United States, the Amazon, Borneo, Central Europe, Japan, China and Denmark) the forest share follows the published figures; values marked “est.” in their popups are estimates. 42 dated human-impact events, from megafauna extinctions and salted Sumerian fields to the Montreal Protocol, are tagged on the timeline.</p>
@@ -1202,15 +1202,17 @@ function buildRegIdx(){ const c=document.createElement('canvas'); c.width=GW; c.
 // Data stays in the PNG encodings (elevation code, ice onset/retreat codes, farming start code, biome snapshots);
 // the year arrives as uniforms, so redrawing for a new year costs about a millisecond instead of ~200 ms.
 const glc=document.createElement('canvas'); glc.width=GW; glc.height=GH;
-let baseSrc=base, baseP={D:0,cc:0,ice:false,bp:0};
+let baseSrc=base, baseP={D:0,cc:0,ice:false,bp:0}, elevOK=0, baseWorld=1;
 const GLB=(()=>{ try{
   if(/[?&]cpu\b/.test(location.search)) return null;   // ?cpu forces the CPU renderer (for comparison)
   const gl=glc.getContext('webgl2',{alpha:false,antialias:false,depth:false,premultipliedAlpha:false,preserveDrawingBuffer:true}); if(!gl) return null;
+  const RELZ='12.', RELK='0.9';   // relief: vertical exaggeration of the fine elevation, and shading strength
   const VS=`#version 300 es
 in vec2 a; void main(){ gl_Position=vec4(a,0.,1.); }`;
   const FS=`#version 300 es
-precision highp float; precision highp int; precision highp usampler2D; precision highp usampler2DArray;
+precision highp float; precision highp int; precision highp usampler2D; precision highp usampler2DArray; precision highp isampler2D;
 uniform usampler2D uT,uI,uR,uS; uniform usampler2DArray uB; uniform bool uHasS; uniform float uBP;
+uniform isampler2D uE,uEc; uniform bool uHasE; uniform float uES,uH; uniform vec3 uV;   // fine elevation (m), its cell means; view: lon at left, lat at top, degrees per device pixel
 uniform float uD,uCC,uBt,uGf,uY,uLate,uGEff; uniform int uSi,uNb; uniform bool uBio,uFarm,uIce,uForest,uHasBio,uHasReg,uDeep;
 uniform vec3 cSD,cSS,cLL,cLH,cSH,cIC,cGR,cFM,cFO,cCL; uniform vec3 cB[11]; uniform float uFS[11],uFP[11]; uniform vec2 uRF[24];
 out vec4 o;
@@ -1221,8 +1223,10 @@ float green(ivec2 c){ float lat=90.-(float(c.y)+.5)/6., lon=-180.+(float(c.x)+.5
   float s=cl((lat-12.)/4.)*cl((33.-lat)/4.)*cl((lon+18.)/4.)*cl((36.-lon)/4.);
   float a=cl((lat-13.)/4.)*cl((31.-lat)/4.)*cl((lon-36.)/3.)*cl((59.-lon)/4.)*.8; return max(s,a); }
 float farmY(float c){ return c<=150.? -10000.+(c-1.)/149.*10000. : (c-150.)/104.*2000.; }
-void main(){
-  ivec2 c=ivec2(int(gl_FragCoord.x), ${GH-1}-int(gl_FragCoord.y)); uint p=uint(c.y*${GW}+c.x);
+// one 1/6-degree cell: colour before relief shading, land flag, ice flag, relief code (the old per-pixel rules)
+struct Cell{ vec3 col; float land; float ice; float G; };
+Cell cellAt(ivec2 c, ivec2 bo){   // bo: extra offset (cells) for the 0.5-degree vegetation lookup, so its blocks get organic edges
+  c.x=(c.x%${GW}+${GW})%${GW}; c.y=clamp(c.y,0,${GH-1}); uint p=uint(c.y*${GW}+c.x);
   uvec4 t=texelFetch(uT,c,0); float R=float(t.r), G=float(t.g), Bn=float(t.b);
   bool land = (R>=140. && R>(uD<0. ? 140.+1.4846*sqrt(-uD) : 139.)) || (R<=130. && R<uD);
   if(uHasS){ uvec4 s=texelFetch(uS,c,0); bool l=s.b>127u;
@@ -1232,7 +1236,7 @@ void main(){
     : (R<=130. ? mix(cSS,cSD,clamp((R-uD)/120.,0.,1.)*.55) : R<140. ? mix(cSS,cSD,.55+(R-131.)/8.*.45) : cSS);
   uvec4 I=texelFetch(uI,c,0); int cls=0;
   if(land){ bool farmed=false;
-    if(uHasBio){ int L=Bn<uBt?uNb:uSi; int x=c.x+((int(t.g)*7)>>8)-3, yy=c.y+((int(t.b)*7)>>8)-3;
+    if(uHasBio){ int L=Bn<uBt?uNb:uSi; int x=c.x+bo.x+((int(t.g)*7)>>8)-3, yy=c.y+bo.y+((int(t.b)*7)>>8)-3;
       x=(x+${GW})%${GW}; yy=clamp(yy,0,${GH-1}); cls=int(texelFetch(uB,ivec3(x/3,yy/3,L/3),0)[L%3]); }
     if(uBio){ if(cls>0) col=cB[cls]; if(R>215.) col+=(cB[8]-col)*min(1.,(R-215.)/40.); }
     else if(uGf>0.){ float w=green(c); if(w>0.) col+=(cGR-col)*(uGf*w*.85); }
@@ -1241,10 +1245,46 @@ void main(){
     if(uForest && !farmed && cls!=9){ float pNat=uFP[cls], pNow=pNat*uGEff; int ri=uHasReg?int(texelFetch(uR,c,0).r):0;
       if(ri>0 && uRF[ri-1].y>=0.){ pNat=max(pNat,uRF[ri-1].x); pNow=uRF[ri-1].y; }
       if(pNat>.01){ float v=.62*(Bn/255.)+.38*(float(h2(p))/255.);
-        if(v<pNow) col+=(cFO-col)*.62; else if(v<pNat) col+=(cCL-col)*.5; } }
-    col*=.74+G/255.*.46; }
+        if(v<pNow) col+=(cFO-col)*.62; else if(v<pNat) col+=(cCL-col)*.5; } } }
+  float ice=0.;
   if(uIce){ float on=float(I.r), off=float(I.g);
-    if((uDeep ? land && cls==9 : on>0. && on<=uCC && (off==255. || off>uCC)) || c.y>=${GH-48}) col=cIC*(.88+G/255.*.18); }
+    if((uDeep ? land && cls==9 : on>0. && on<=uCC && (off==255. || off>uCC)) || c.y>=${GH-48}) ice=1.; }
+  return Cell(col, land?1.:0., ice, G);
+}
+// smooth value noise (cell units) to break up the grid
+float hs(ivec2 q){ uint h=uint(q.x)*0x8da6b343u^uint(q.y)*0xd8163841u; h=(h^(h>>13u))*0x5bd1e995u; return float(h>>8u)/16777216.; }
+float vn(vec2 x){ vec2 i=floor(x), f=fract(x); f=f*f*(3.-2.*f); ivec2 q=ivec2(i);
+  return mix(mix(hs(q),hs(q+ivec2(1,0)),f.x),mix(hs(q+ivec2(0,1)),hs(q+ivec2(1,1)),f.x),f.y); }
+// fine elevation (ETOPO 2022), bilinear, and the mean of each 1/6-degree cell
+float eF(ivec2 q,int W){ q.x=(q.x%W+W)%W; q.y=clamp(q.y,0,W/2-1); return float(texelFetch(uE,q,0).r); }
+float eAt(float lon,float lat){ int W=int(360.*uES+.5); vec2 g=vec2((lon+180.)*uES-.5,(90.-lat)*uES-.5); ivec2 i=ivec2(floor(g)); vec2 f=fract(g);
+  return mix(mix(eF(i,W),eF(i+ivec2(1,0),W),f.x),mix(eF(i+ivec2(0,1),W),eF(i+ivec2(1,1),W),f.x),f.y); }
+float eC(ivec2 q){ q.x=(q.x%${GW}+${GW})%${GW}; q.y=clamp(q.y,0,${GH-1}); return float(texelFetch(uEc,q,0).r); }
+float eLo(vec2 g){ ivec2 i=ivec2(floor(g)); vec2 f=fract(g); return mix(mix(eC(i),eC(i+ivec2(1,0)),f.x),mix(eC(i+ivec2(0,1)),eC(i+ivec2(1,1)),f.x),f.y); }
+// hillshade from the fine elevation: light mostly from the north-west, some from the west; 0.7071 = flat ground
+float hill(float lon,float lat){ float h=1./uES, cl=max(cos(radians(lat)),.05);
+  float gx=(eAt(lon+h,lat)-eAt(lon-h,lat))/(2.*h*111320.*cl), gy=(eAt(lon,lat+h)-eAt(lon,lat-h))/(2.*h*111320.);
+  vec3 n=normalize(vec3(-gx*${RELZ},-gy*${RELZ},1.));
+  return dot(n,vec3(-.5,.5,.70711))*.75+dot(n,vec3(-.70711,0.,.70711))*.25; }
+void main(){
+  float lon=uV.x+gl_FragCoord.x*uV.z, lat=uV.y-(uH-gl_FragCoord.y)*uV.z;
+  if(lat>90.||lat<-90.){ o=vec4(cSD/255.,1.); return; }
+  vec2 g0=vec2((lon+180.)*6.-.5,(90.-lat)*6.-.5);
+  float ppc=1./(6.*uV.z), J1=clamp(ppc-1.,0.,1.), J2=clamp((ppc-3.)/3.,0.,1.);   // px per cell; noise octaves fade in only where they cannot alias
+  vec2 g=g0+(vec2(vn(g0*.9),vn(g0*.9+vec2(31.7,11.3)))-.5)*J1+(vec2(vn(g0*2.3+7.),vn(g0*2.3+vec2(3.1,17.9)))-.5)*.5*J2;   // jittered position: organic edges instead of squares
+  ivec2 bo=ivec2(round((vec2(vn(g0*.4+vec2(5.,2.)),vn(g0*.4+vec2(9.,13.)))-.5)*3.*J1));
+  ivec2 i0=ivec2(floor(g)); vec2 f=fract(g);
+  vec3 lc=vec3(0.), sc=vec3(0.); float lw=0., iw=0., Gs=0.;
+  for(int k=0;k<4;k++){ ivec2 d=ivec2(k&1,k>>1); float w=(d.x==1?f.x:1.-f.x)*(d.y==1?f.y:1.-f.y);
+    Cell C=cellAt(i0+d,bo); lc+=C.col*w*C.land; sc+=C.col*w*(1.-C.land); lw+=w*C.land; iw+=w*C.ice; Gs+=w*C.G; }
+  vec3 landC = lw>.001 ? lc/lw : cLL, seaC = lw<.999 ? sc/(1.-lw) : cSS;
+  float lf=lw, s, si, h=0.;
+  if(uHasE){ lf+=clamp((eAt(lon,lat)-eLo(g0))/40.,-.45,.45)*min(1.,lw*(1.-lw)*8.);   // coast detail from fine elevation, only where the cells are mixed land/sea
+    h=hill(lon,lat)-.70711; s=clamp(.97+h*${RELK},.6,1.25); si=clamp(.97+h*${RELK}*.5,.8,1.1); }
+  else { s=.74+Gs/255.*.46; si=.88+Gs/255.*.18; }
+  float aa=clamp(fwidth(lf)*.7,1e-4,.2), A=smoothstep(.5-aa,.5+aa,lf);
+  vec3 col=mix(seaC,landC*s,A);
+  float ai=clamp(fwidth(iw)*.7,1e-4,.2); col=mix(col,cIC*si,smoothstep(.5-ai,.5+ai,iw));
   o=vec4(col/255.,1.);
 }`;
   const sh=(type,src)=>{ const s=gl.createShader(type); gl.shaderSource(s,src); gl.compileShader(s); if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
@@ -1257,20 +1297,25 @@ void main(){
   gl.pixelStorei(gl.UNPACK_ALIGNMENT,1);
   const tex=(unit,target)=>{ const t=gl.createTexture(); gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(target,t);
     for(const [k,v] of [[gl.TEXTURE_MIN_FILTER,gl.NEAREST],[gl.TEXTURE_MAG_FILTER,gl.NEAREST],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]]) gl.texParameteri(target,k,v); return t; };
-  const tT=tex(0,gl.TEXTURE_2D), tI=tex(1,gl.TEXTURE_2D), tR=tex(2,gl.TEXTURE_2D), tB=tex(3,gl.TEXTURE_2D_ARRAY), tS=tex(4,gl.TEXTURE_2D);
+  const tT=tex(0,gl.TEXTURE_2D), tI=tex(1,gl.TEXTURE_2D), tR=tex(2,gl.TEXTURE_2D), tB=tex(3,gl.TEXTURE_2D_ARRAY), tS=tex(4,gl.TEXTURE_2D), tE=tex(5,gl.TEXTURE_2D), tEc=tex(6,gl.TEXTURE_2D);
   gl.activeTexture(gl.TEXTURE3); gl.bindTexture(gl.TEXTURE_2D_ARRAY,tB); gl.texStorage3D(gl.TEXTURE_2D_ARRAY,1,gl.RGBA8UI,BW,BH,BL);
-  gl.uniform1i(u('uT'),0); gl.uniform1i(u('uI'),1); gl.uniform1i(u('uR'),2); gl.uniform1i(u('uB'),3); gl.uniform1i(u('uS'),4);
+  gl.uniform1i(u('uT'),0); gl.uniform1i(u('uI'),1); gl.uniform1i(u('uR'),2); gl.uniform1i(u('uB'),3); gl.uniform1i(u('uS'),4); gl.uniform1i(u('uE'),5); gl.uniform1i(u('uEc'),6);
   const up2=(unit,t,data,fmt,ifmt)=>{ gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t); gl.texImage2D(gl.TEXTURE_2D,0,ifmt,GW,GH,0,fmt,gl.UNSIGNED_BYTE,new Uint8Array(data.buffer,data.byteOffset,data.byteLength)); };
-  const has={T:false,I:false,R:false,S:false};
+  const upE=(unit,t,data,w,h)=>{ gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t); gl.texImage2D(gl.TEXTURE_2D,0,gl.R16I,w,h,0,gl.RED_INTEGER,gl.SHORT,data); };
+  const has={T:false,I:false,R:false,S:false,E:false}; let eS=6;
   glc.addEventListener('webglcontextlost',e=>{ e.preventDefault(); api.lost=true; baseSrc=base; baseKey=''; drawMap(); });
   const api={ lost:false,
     terrain:d=>{ up2(0,tT,d,gl.RGBA_INTEGER,gl.RGBA8UI); has.T=true; },
     ice:d=>{ up2(1,tI,d,gl.RGBA_INTEGER,gl.RGBA8UI); has.I=true; },
     regions:d=>{ up2(2,tR,d,gl.RED_INTEGER,gl.R8UI); has.R=true; },
     shelf:d=>{ up2(4,tS,d,gl.RGBA_INTEGER,gl.RGBA8UI); has.S=true; },
+    // fine elevation (1/12 degree, int16 m) and its 1/6-degree cell means; halved when the GPU cannot hold 4320 px
+    elev:(e,ec,w)=>{ const big=w<=gl.getParameter(gl.MAX_TEXTURE_SIZE); upE(5,tE,big?e:ec,big?w:GW,big?w/2:GH); upE(6,tEc,ec,GW,GH); eS=big?w/360:GR; has.E=true; },
     biome:(d,z0=ND/3)=>{ gl.activeTexture(gl.TEXTURE3); gl.bindTexture(gl.TEXTURE_2D_ARRAY,tB); gl.texSubImage3D(gl.TEXTURE_2D_ARRAY,0,0,0,z0,BW,BH,d.length/(BW*BH*4),gl.RGBA_INTEGER,gl.UNSIGNED_BYTE,new Uint8Array(d.buffer,d.byteOffset,d.byteLength)); },
     draw(P){ if(api.lost||!has.T) return false;
-      gl.useProgram(pr); gl.viewport(0,0,GW,GH);
+      const V=P.view; if(glc.width!==V.w||glc.height!==V.h){ glc.width=V.w; glc.height=V.h; }
+      gl.useProgram(pr); gl.viewport(0,0,V.w,V.h); gl.uniform3f(u('uV'),V.lon0,V.lat0,V.dpp); gl.uniform1f(u('uH'),V.h);
+      gl.uniform1i(u('uHasE'),has.E?1:0); gl.uniform1f(u('uES'),eS);
       for(const [n,v] of Object.entries(P.f)) gl.uniform1f(u(n),v);
       for(const [n,v] of Object.entries(P.i)) gl.uniform1i(u(n),v);
       for(const [n,v] of Object.entries(P.c)) gl.uniform3f(u(n),v[0],v[1],v[2]);
@@ -1290,7 +1335,10 @@ function buildBase(y,sea){
   const useBio = LY.biome && bio, useFarm = LY.farm && iceD && y>-10000, useIce = LY.ice && iceD, useForest = LY.forest && bio && regIdx;
   const gpu = GLB && !GLB.lost;
   const fy = Math.round(y/(y<0?50:5));
-  const key = gpu ? [D.toFixed(2),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?1:0,useFarm?1:0,useForest?1:0,y,col['sea-deep'],col.b1].join('|')
+  // GPU: zoomed out, the whole world at grid resolution (canvas scales it down smoothly); zoomed in (cells > 2 px), only the visible view at device resolution
+  const Wd=360*mv.k*dpr, Ww=Wd<=GW?GW:GW*2;
+  const view = Wd<=GW*2 ? {w:Ww, h:Ww/2, lon0:-180, lat0:90, dpp:360/Ww, world:1} : {w:Math.round(MW*dpr), h:Math.round(MH*dpr), lon0:UNX(0), lat0:UNY(0), dpp:1/(mv.k*dpr), world:0};
+  const key = gpu ? [D.toFixed(2),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?1:0,useFarm?1:0,useForest?1:0,y,col['sea-deep'],col.b1,view.w,view.h,view.lon0,view.lat0,view.dpp,elevOK].join('|')
       : [D.toFixed(1),slw?Math.round(yearBP(y)/50):'',useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?b.si+':'+b.bt.toFixed(2):'r',gf.toFixed(2),useFarm?fy:'f',useForest?Math.round(y/(y<1500?100:10))+':'+b.si+':'+b.bt.toFixed(2):'n',col['sea-deep'],col.b1].join('|');
   if(key===baseKey) return;
   const now=performance.now();
@@ -1299,13 +1347,13 @@ function buildBase(y,sea){
   const bp=yearBP(y), landKey=[D.toFixed(1),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',slw?Math.round(bp/20):'',col.surface].join('|'), landChanged=landKey!==baseP.key; baseP={D,cc,ice:!!useIce,bp,key:landKey,deep,b};
   const sd=hex(col['sea-deep']), ss=hex(col['sea-shallow']), ll=hex(col['land-low']), lh=hex(col['land-high']), sh=hex(col.shelf), ic=hex(col.ice), gr=hex(col.green), fm=hex(col.farm);
   if(gpu){ const gK=ke(y), gRatio = y< -8000 ? 1 : interp(FORESTG,gK)/6.0;
-    const ok=GLB.draw({
+    const ok=GLB.draw({ view,
       f:{uBP:bp,uD:D,uCC:cc,uBt:b.bt255,uGf:gf,uY:y,uLate:y>1850?1+Math.min(1,(y-1850)/100)*0.45:1,uGEff:1-(1-gRatio)*0.6},
       i:{uSi:b.si,uNb:b.nb,uBio:useBio?1:0,uFarm:useFarm?1:0,uIce:useIce?1:0,uForest:useForest?1:0,uHasBio:bio?1:0,uDeep:deep?1:0},
       c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared)},
       cB:[ll,hex(col.b1),hex(col.b2),hex(col.b3),hex(col.b4),hex(col.b5),hex(col.b6),hex(col.b7),hex(col.b8),ic,hex(col.b10)],
       RF:FREG.map(r=>({f0:fregAt(r,-8000), now:y<-8000?null:fregAt(r,y)})) });
-    if(ok){ baseSrc=glc; mc.dataset.renderer='webgl2'; if(landChanged) buildLand(); return; } }
+    if(ok){ baseSrc=glc; baseWorld=view.world; mc.dataset.renderer='webgl2'; if(landChanged) buildLand(); return; } }
   baseSrc=base; mc.dataset.renderer='cpu';
   // colour tables by elevation code
   // colour by elevation code, for cells that are land (L*) or water (W*) at this time
@@ -1603,7 +1651,7 @@ function renderMap(){
   mx.fillStyle=col['sea-deep']; mx.fillRect(0,0,MW,MH);
   mx.imageSmoothingEnabled=true; mx.imageSmoothingQuality='high';
   const X0=PX(-180), Y0=PY(90), WW=360*mv.k, HH=180*mv.k;
-  if(terr) mx.drawImage(baseSrc,X0,Y0,WW,HH);
+  if(terr){ if(baseSrc===glc&&!baseWorld) mx.drawImage(glc,0,0,MW,MH); else mx.drawImage(baseSrc,X0,Y0,WW,HH); }
   else { mx.fillStyle=col.muted; mx.font='13px "IBM Plex Sans", sans-serif'; mx.fillText('Loading elevation data…',16,MH-16); }
   // faded where there is no evidence
   buildFade(y);
@@ -1912,7 +1960,12 @@ function drawSL(){ if(!SLW) return; const g=sx; g.clearRect(0,0,SLW,SLH); g.font
 // load map data
 function loadPx(src,cb,w=GW,h=GH){ const img=new Image(); img.onload=()=>{ const c=document.createElement('canvas'); c.width=w; c.height=h; const g=c.getContext('2d',{willReadFrequently:true}); g.drawImage(img,0,0);
   cb(g.getImageData(0,0,w,h).data); baseKey=''; lastBuild=0; drawMap(); }; img.src=src; }
-loadPx('atlas/terrain.png',d=>{ terr=d; GLB&&GLB.terrain(d); });
+loadPx('atlas/terrain.png',d=>{ terr=d; GLB&&GLB.terrain(d);
+  // fine elevation (ETOPO 2022, 1/12 degree) for the GPU map: sharp coasts and relief; R/G = high/low byte of metres + 11000
+  if(GLB) loadPx('atlas/elev.webp',px=>{ const W2=GW*2, H2=GH*2, e=new Int16Array(W2*H2), ec=new Int16Array(NPX);
+    for(let i=0,q=0;i<e.length;i++,q+=4) e[i]=(px[q]<<8|px[q+1])-11000;
+    for(let j=0;j<GH;j++) for(let i=0;i<GW;i++){ const a=2*j*W2+2*i; ec[j*GW+i]=Math.round((e[a]+e[a+1]+e[a+W2]+e[a+W2+1])/4); }
+    GLB.elev(e,ec,W2); elevOK=1; },GW*2,GH*2); });
 buildRegIdx(); GLB&&GLB.regions(regIdx);
 loadPx('atlas/ice.png',d=>{ iceD=d; GLB&&GLB.ice(d); });
 loadPx('atlas/slw.png',d=>{ slw=d; GLB&&GLB.shelf(d); });
