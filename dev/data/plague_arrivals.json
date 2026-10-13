@@ -1,5 +1,5 @@
 {
- "source_note": "First recorded arrivals of the Black Death, 1338-1353, from English Wikipedia (Black Death and its country articles, plus city/ruler articles); fetched 2026-10-13. t = decimal year, month m -> year+(m-0.5)/12; seasons -> middle month (spring Apr, summer Jul, autumn Oct); year-only -> mid-year, approx. Dates from deaths or outbreak reports are 'present by' dates, so arrival may be earlier. Where Wikipedia articles disagree, the chosen date and the alternative are in 'note' (notably Gaza/Damascus/Aleppo: the Black Death article says 1347, Black Death in the Middle East says 1348, used here). No Wikipedia dates were found for Milan (incl. its sparing), Sardinia, Corsica, Mallorca, Barcelona, Valencia, Seville, Santiago, Bristol, Calais, Cyprus, Crete or Baghdad's first arrival.",
+ "source_note": "First recorded arrivals of the Black Death, 1338-1353, from English Wikipedia (Black Death and its country articles, plus city/ruler articles); fetched 2026-10-13. t = decimal year, month m -> year+(m-0.5)/12; seasons -> middle month (spring Apr, summer Jul, autumn Oct); year-only -> mid-year, approx. Dates from deaths or outbreak reports are 'present by' dates, so arrival may be earlier. Where Wikipedia articles disagree, the chosen date and the alternative are in 'note' (notably Gaza/Damascus/Aleppo: the Black Death article says 1347, Black Death in the Middle East says 1348, used here). No Wikipedia dates were found for Milan (incl. its sparing), Sardinia, Corsica, Mallorca, Barcelona, Valencia, Seville, Santiago, Bristol, Calais, Cyprus, Crete or Baghdad's first arrival. Extended 2026-10-13 with Catalan/Valencian dates from the Enciclopèdia Catalana ('La pesta del 1348 als Països Catalans'), year-only places from Biraben's inventory (Büntgen et al. 2012, EnviDat 'Digitizing historical plague', ODbL), and single dates from French/Italian Wikipedia and local-history sources (see each 'src'); Santiago/Galicia, Corsica and Anatolia still have no accessible dated source.",
  "places": [
   {
    "n": "Chüy Valley (Issyk-Kul region)",
@@ -55,6 +55,17 @@
    "src": "https://en.wikipedia.org/wiki/Black_Death"
   },
   {
+   "n": "Nicosia (Cyprus)",
+   "lat": 35.17,
+   "lon": 33.36,
+   "t": 1347.625,
+   "when": "late summer 1347 (possibly earlier)",
+   "approx": true,
+   "w": "Nicosia",
+   "src": "https://adrianjboas.com/post/on-a-surprising-reticence",
+   "note": "A. J. Boas on sparse Cypriot evidence; Nicosia funerary slabs suggest a peak in spring 1348 (Papacostas, doi:10.1017/9781108289993.008)"
+  },
+  {
    "n": "Trebizond",
    "lat": 41.0,
    "lon": 39.72,
@@ -104,6 +115,28 @@
    "w": "Marseille",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
    "note": "Black Death in France also cites December 1347; the Black Death article says end of January 1348"
+  },
+  {
+   "n": "Cagliari (Sardinia)",
+   "lat": 39.22,
+   "lon": 9.11,
+   "t": 1347.958,
+   "when": "1347",
+   "approx": true,
+   "w": "Cagliari",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; placed late 1347 (after Messina, Oct 1347) rather than mid-year"
+  },
+  {
+   "n": "Naples",
+   "lat": 40.84,
+   "lon": 14.25,
+   "t": 1347.958,
+   "when": "1347",
+   "approx": true,
+   "w": "Naples",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; placed late 1347 (after Messina) rather than mid-year"
   },
   {
    "n": "Ragusa (Dubrovnik)",
@@ -177,6 +210,17 @@
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
   },
   {
+   "n": "Split (Spalato)",
+   "lat": 43.51,
+   "lon": 16.44,
+   "t": 1348.125,
+   "when": "early 1348 (after Pisa, Jan 1348)",
+   "approx": true,
+   "w": "Split, Croatia",
+   "src": "https://it.wikipedia.org/wiki/Peste_nera",
+   "note": "then Šibenik and Dubrovnik; Istria and Dalmatia in 1348"
+  },
+  {
    "n": "Florence",
    "lat": 43.77,
    "lon": 11.25,
@@ -206,6 +250,17 @@
    "w": "Avignon",
    "src": "https://en.wikipedia.org/wiki/History_of_Avignon",
    "note": "Wikipedia gives the year 1348; Black Death in France places executions for well-poisoning there in April 1348"
+  },
+  {
+   "n": "Mallorca (Palma)",
+   "lat": 39.57,
+   "lon": 2.65,
+   "t": 1348.208,
+   "when": "end of March 1348",
+   "approx": false,
+   "w": "Palma de Mallorca",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "Enciclopèdia Catalana; alarm and ship controls already from February 1348"
   },
   {
    "n": "Toulouse",
@@ -261,6 +316,28 @@
    "note": "reached Aragon in spring 1348"
   },
   {
+   "n": "Perpignan (Roussillon)",
+   "lat": 42.7,
+   "lon": 2.9,
+   "t": 1348.292,
+   "when": "12 April 1348",
+   "approx": false,
+   "w": "Perpignan",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "first mainland territory of the Crown of Aragon hit (date after Emery)"
+  },
+  {
+   "n": "Pamplona (Navarre)",
+   "lat": 42.82,
+   "lon": -1.64,
+   "t": 1348.292,
+   "when": "spring 1348",
+   "approx": true,
+   "w": "Pamplona",
+   "src": "https://www.ondavasca.com/la-peste-negra-regresa-a-navarra-como-microexposicion/",
+   "note": "Archivo Real y General de Navarra exhibition: reached Navarre from north of the Pyrenees by spring 1348; mortality debated (Monteano vs Castán & Dueñas)"
+  },
+  {
    "n": "Perugia",
    "lat": 43.11,
    "lon": 12.39,
@@ -289,6 +366,59 @@
    "approx": false,
    "w": "Siena",
    "src": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "n": "Barcelona",
+   "lat": 41.39,
+   "lon": 2.17,
+   "t": 1348.375,
+   "when": "early May 1348",
+   "approx": false,
+   "w": "Barcelona",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "procession 14 May 1348; Tarragona about the same time"
+  },
+  {
+   "n": "Tarragona",
+   "lat": 41.12,
+   "lon": 1.25,
+   "t": 1348.375,
+   "when": "early May 1348",
+   "approx": true,
+   "w": "Tarragona",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "given as about the same time as Barcelona"
+  },
+  {
+   "n": "Girona",
+   "lat": 41.98,
+   "lon": 2.82,
+   "t": 1348.375,
+   "when": "mid-May 1348",
+   "approx": false,
+   "w": "Girona",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans"
+  },
+  {
+   "n": "Valencia",
+   "lat": 39.47,
+   "lon": -0.38,
+   "t": 1348.375,
+   "when": "May 1348",
+   "approx": false,
+   "w": "Valencia",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "chronicle of Peter IV, confirmed by local records; deaths in the city by end of May; often given as June"
+  },
+  {
+   "n": "Sagunt (Morvedre)",
+   "lat": 39.68,
+   "lon": -0.27,
+   "t": 1348.375,
+   "when": "from late May 1348",
+   "approx": false,
+   "w": "Sagunto",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans"
   },
   {
    "n": "Lisbon",
@@ -353,6 +483,16 @@
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
   },
   {
+   "n": "Morella",
+   "lat": 40.62,
+   "lon": -0.1,
+   "t": 1348.458,
+   "when": "late June to mid-August 1348",
+   "approx": false,
+   "w": "Morella",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans"
+  },
+  {
    "n": "Mecca",
    "lat": 21.42,
    "lon": 39.83,
@@ -397,6 +537,94 @@
    "note": "the Black Death article says July 1347"
   },
   {
+   "n": "Vic",
+   "lat": 41.93,
+   "lon": 2.25,
+   "t": 1348.542,
+   "when": "July 1348",
+   "approx": false,
+   "w": "Vic",
+   "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
+   "note": "Plana de Vic"
+  },
+  {
+   "n": "Almería",
+   "lat": 36.84,
+   "lon": -2.46,
+   "t": 1348.542,
+   "when": "1348 (late spring in Iberia)",
+   "approx": true,
+   "w": "Almería",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; described by Ibn Khatima, physician in Almería (749 AH = 1348)"
+  },
+  {
+   "n": "Granada",
+   "lat": 37.18,
+   "lon": -3.6,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Granada",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; described by Ibn al-Khatib"
+  },
+  {
+   "n": "Seville",
+   "lat": 37.38,
+   "lon": -5.99,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Seville",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; contested: a Castilian study (unread, via search) puts Andalusia only by early 1350"
+  },
+  {
+   "n": "Coimbra",
+   "lat": 40.21,
+   "lon": -8.43,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Coimbra",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
+   "n": "Tlemcen",
+   "lat": 34.88,
+   "lon": -1.32,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Tlemcen",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
+   "n": "Tangier",
+   "lat": 35.78,
+   "lon": -5.81,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Tangier",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
+   "n": "Beirut",
+   "lat": 33.89,
+   "lon": 35.5,
+   "t": 1348.542,
+   "when": "1348",
+   "approx": true,
+   "w": "Beirut",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
    "n": "Dublin",
    "lat": 53.35,
    "lon": -6.26,
@@ -437,6 +665,17 @@
    "approx": true,
    "w": "Givry",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+  },
+  {
+   "n": "Bristol",
+   "lat": 51.45,
+   "lon": -2.59,
+   "t": 1348.625,
+   "when": "15 August 1348 (first deaths)",
+   "approx": false,
+   "w": "Bristol",
+   "src": "https://www.brh.org.uk/site/?p=10840",
+   "note": "Knighton's chronicle via Boucher; Bristol Radical History Group; often called the first English city hit after Melcombe"
   },
   {
    "n": "Cairo",
@@ -491,6 +730,17 @@
    "w": "Neuberg an der Mürz",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
    "note": "Neuberg Chronicle, St Martin's day"
+  },
+  {
+   "n": "Calais",
+   "lat": 50.95,
+   "lon": 1.85,
+   "t": 1348.958,
+   "when": "December 1348 (from London)",
+   "approx": false,
+   "w": "Calais",
+   "src": "https://fr.wikipedia.org/wiki/Peste_noire",
+   "note": "English-held since 1347; Biraben also lists 1348"
   },
   {
    "n": "Antioch",
@@ -617,6 +867,39 @@
    "approx": false,
    "w": "Strasbourg",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+  },
+  {
+   "n": "Limerick",
+   "lat": 52.66,
+   "lon": -8.63,
+   "t": 1349.542,
+   "when": "1349",
+   "approx": true,
+   "w": "Limerick",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
+   "n": "Évora",
+   "lat": 38.57,
+   "lon": -7.91,
+   "t": 1349.542,
+   "when": "1349",
+   "approx": true,
+   "w": "Évora",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+  },
+  {
+   "n": "Valenciennes (Hainaut)",
+   "lat": 50.36,
+   "lon": 3.52,
+   "t": 1349.542,
+   "when": "summer 1349",
+   "approx": true,
+   "w": "Valenciennes",
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "note": "plague reached Hainaut and Flanders in summer 1349; Biraben lists Valenciennes, Arras, Amiens in 1349"
   },
   {
    "n": "Tournai",
@@ -763,6 +1046,28 @@
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Denmark"
   },
   {
+   "n": "Gdańsk (Danzig)",
+   "lat": 54.35,
+   "lon": 18.65,
+   "t": 1350.542,
+   "when": "1350",
+   "approx": true,
+   "w": "Gdańsk",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; also listed 1351-1352"
+  },
+  {
+   "n": "Toruń (Thorn)",
+   "lat": 53.01,
+   "lon": 18.6,
+   "t": 1350.542,
+   "when": "1350",
+   "approx": true,
+   "w": "Toruń",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; also Elbląg 1350"
+  },
+  {
    "n": "Copenhagen",
    "lat": 55.68,
    "lon": 12.57,
@@ -812,6 +1117,17 @@
    "w": "State of the Teutonic Order",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
    "note": "year only; point placed at Marienburg"
+  },
+  {
+   "n": "Wrocław (Breslau)",
+   "lat": 51.11,
+   "lon": 17.03,
+   "t": 1351.542,
+   "when": "1351",
+   "approx": true,
+   "w": "Wrocław",
+   "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
   },
   {
    "n": "Ta'izz (Yemen)",
@@ -928,6 +1244,14 @@
    "note": "not reached until 1402.",
    "debated": false,
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway"
+  },
+  {
+   "n": "Milan",
+   "lat": 45.46,
+   "lon": 9.19,
+   "note": "partly spared: the Visconti imposed strict control of goods and people and walled up infected households (Italian Wikipedia: ~15,000 deaths of ~100,000); French Wikipedia lists Milan as spared with Bruges and Nuremberg. Biraben's inventory has a 'Milan' 1350 entry but with coordinates near Treviso.",
+   "debated": true,
+   "src": "https://it.wikipedia.org/wiki/Peste_nera"
   }
  ]
 }
