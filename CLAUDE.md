@@ -68,6 +68,7 @@ Owner: Daniel (VFX/pipeline TD; fluent in Python, not a web developer).
 - Lanes 0 Near East, 1 Africa, 2 Europe, 3 Asia, 4 Americas, 5 Earth & Oceans. Importance `i`: 1 famous, 2 important, 3 specialist.
 - Keep design tokens on `:root` with dark-mode overrides; match the existing compact code style.
 - Facts must be checked against Wikipedia or cited papers; mark estimates and contested points as such.
+- Content scope (user, 2026-10-13): only topics the scientific community takes seriously (peer-reviewed, debated among specialists is fine if marked "debated"); no pseudo-archaeology or popular fringe claims (e.g. Gunung Padang "pyramid", Younger Dryas impact as civilisation-ender, lost Ice Age civilisations).
 - Git repo with GitHub remote `origin` (github.com/kmdan/historytimeline, public): commit each working step and `git push` (Git Credential Manager holds the GitHub login since 2026-10-12; if a push asks for credentials, stop and ask the user — never enter them); `.gitattributes` keeps files byte-exact.
 - Migrations focus (user, 2026-10-12): historical movements **before 1900**; no modern refugee/flow datasets. Size is shown as 1–5 figures (×10 each) from `people`; streams (`mode:"flow"`) vs advancing fronts.
 - Deep links: `?y=<signed civil year>&at=lat,lon,zoom` (zoom 1 = whole world) are read on load; the address bar follows the view via `replaceState` (`linkSoon()` in `draw()`/`drawMap()`); other params (`?cpu`) are kept.
