@@ -42,6 +42,7 @@ Core JS (search by name):
 - Layers object `LY` ↔ checkboxes `#lyForest #lyBiome #lyIce #lyFarm #lyCoast #lyRivers #lyClimate #lyFade #lyMarks #lyBorders #lyC14 #lyEvents #lyMigr #lyFigs`.
 
 ## 4. Atlas data files (`atlas/`, 2160×1080 = 1/6° unless noted)
+- `dem/t<col>_<row>.webp` + `dem/index.json`: 30° tiles of 1′ ETOPO detail (difference to elev.webp, 8 m steps around 128), loaded when zoomed in.
 - `elev.webp` (4320×2160, 1/12°): ETOPO 2022 elevation, R/G = high/low byte of metres + 11000; GPU only (fine coasts, relief at screen resolution).
 - `terrain.png` R: 1–130 depth m, 131–139 deep, 135 lake, 140–255 land (√elev); G: relief detail (Natural Earth shaded relief); B: smooth noise (biome/forest dithering).
 - `ice.png` R onset code, G retreat code (255 permanent) → `iceCode(y)`; B farming start code → `farmYear(c)`.
