@@ -15,6 +15,16 @@
     "src": "https://en.wikipedia.org/wiki/Jebel_Irhoud"
    },
    {
+    "y": -128050,
+    "lat": 31.9,
+    "lon": 34.9,
+    "z": 12,
+    "t": "Nesher Ramla: archaic people",
+    "c": "Near Ramla, Israel, a skull fragment and jaw about 140,000–120,000 years old belong to archaic humans, not Homo sapiens. Whether they were a distinct population or early Neanderthals is debated.",
+    "w": "Nesher Ramla Homo",
+    "src": "https://en.wikipedia.org/wiki/Nesher_Ramla_Homo"
+   },
+   {
     "y": -98050,
     "lat": 32.68,
     "lon": 35.1,
@@ -23,6 +33,16 @@
     "c": "Modern humans reached the Levant long before the main dispersal: the Skhul and Qafzeh fossils in Israel are about 120,000–80,000 years old. These early groups seem to have died out or retreated.",
     "w": "Skhul and Qafzeh hominins",
     "src": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+   },
+   {
+    "y": -88050,
+    "lat": 51.4,
+    "lon": 84.7,
+    "z": 8,
+    "t": "Denny, a hybrid child",
+    "c": "A bone fragment from Denisova Cave in Siberia belonged to a girl who died about 90,000 years ago, aged around 13. Her genome shows a Neanderthal mother and a Denisovan father.",
+    "w": "Denny (hybrid hominin)",
+    "src": "https://doi.org/10.1038/s41586-018-0455-x"
    },
    {
     "y": -58050,
@@ -104,7 +124,17 @@
     "w": "Yana Rhinoceros Horn Site",
     "src": "https://en.wikipedia.org/wiki/Yana_Rhinoceros_Horn_Site"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyHomo": true,
+   "lyMigr": true,
+   "lyIce": true,
+   "lyFauna": false,
+   "lyPop": false,
+   "lyEvents": false
+  }
  },
  {
   "id": "americas",
@@ -201,7 +231,17 @@
     "w": "Thule people",
     "src": "https://en.wikipedia.org/wiki/Thule_people"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyIce": true,
+   "lyMigr": true,
+   "lyFauna": true,
+   "lyCoast": true,
+   "lyPop": false,
+   "lyHomo": false
+  }
  },
  {
   "id": "doggerland",
@@ -288,7 +328,17 @@
     "w": "Doggerland",
     "src": "https://en.wikipedia.org/wiki/Doggerland"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyCoast": true,
+   "lyIce": true,
+   "lyMarks": true,
+   "lyFauna": false,
+   "lyPop": false,
+   "lyHomo": false
+  }
  },
  {
   "id": "polynesia",
@@ -303,10 +353,7 @@
     "t": "Seafarers leave Taiwan",
     "c": "Austronesian-speaking farmers and seafarers spread south from Taiwan from about 3000 BCE. They reached the Batanes Islands of the northern Philippines by about 2200 BCE and went on to settle island Southeast Asia.",
     "w": "Austronesian peoples",
-    "src": "https://en.wikipedia.org/wiki/Austronesian_peoples",
-    "ly": {
-     "lyMigr": true
-    }
+    "src": "https://en.wikipedia.org/wiki/Austronesian_peoples"
    },
    {
     "y": -1500,
@@ -398,7 +445,15 @@
     "w": "Hōkūleʻa",
     "src": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%ABle%CA%BBa"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyMigr": true,
+   "lyMarks": true,
+   "lyPop": false,
+   "lyFauna": false
+  }
  },
  {
   "id": "farming",
@@ -413,10 +468,7 @@
     "t": "Natufian villages",
     "c": "From about 12,500 BCE, Natufian people of the Levant lived in settled villages, harvesting wild cereals and hunting gazelle. The cold, dry Younger Dryas (about 10,900–9,700 BCE) may have pushed them toward cultivation; this idea is debated.",
     "w": "Natufian culture",
-    "src": "https://en.wikipedia.org/wiki/Natufian_culture",
-    "ly": {
-     "lyBiome": true
-    }
+    "src": "https://en.wikipedia.org/wiki/Natufian_culture"
    },
    {
     "y": -9500,
@@ -436,10 +488,7 @@
     "t": "First crops and herds",
     "c": "In the Fertile Crescent, people domesticated the 'founder crops': einkorn and emmer wheat, barley, lentils, peas and flax. Sheep, goats, cattle and pigs were domesticated here about 10,000–11,000 years ago.",
     "w": "Neolithic founder crops",
-    "src": "https://en.wikipedia.org/wiki/Neolithic_founder_crops",
-    "ly": {
-     "lyFarm": true
-    }
+    "src": "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
    },
    {
     "y": -7000,
@@ -521,7 +570,16 @@
     "w": "Pearl millet",
     "src": "https://en.wikipedia.org/wiki/Pearl_millet"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyFarm": true,
+   "lyPop": true,
+   "lyMigr": true,
+   "lyFauna": false,
+   "lyHomo": false
+  }
  },
  {
   "id": "bronze-age-collapse",
@@ -533,9 +591,6 @@
     "lat": 33.5,
     "lon": 31,
     "z": 2.5,
-    "ly": {
-     "lyBorders": true
-    },
     "t": "The Great Powers club",
     "c": "In the mid-14th century BCE the pharaohs at Amarna exchanged letters and gifts with the kings of Babylon, Assyria, Mitanni, the Hittites and Cyprus, calling one another 'brother'. The archive covers only about 15–30 years.",
     "w": "Amarna letters",
@@ -631,7 +686,16 @@
     "w": "Phoenician alphabet",
     "src": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyEvents": true,
+   "lyMigr": true,
+   "lyPop": false,
+   "lyFauna": false
+  }
  },
  {
   "id": "rome",
@@ -643,9 +707,6 @@
     "lat": 41.889,
     "lon": 12.487,
     "z": 14,
-    "ly": {
-     "lyBorders": true
-    },
     "t": "Huts on the Palatine",
     "c": "Legend says Romulus founded Rome in 753 BCE, a date fixed later by the scholar Varro. Archaeology shows hilltop villages with huts on the Palatine in the 9th–8th centuries BCE that slowly grew together.",
     "w": "Founding of Rome",
@@ -761,6 +822,437 @@
     "w": "Fall of Constantinople",
     "src": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
    }
-  ]
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyEvents": true,
+   "lyMigr": true,
+   "lyPop": false,
+   "lyFauna": false
+  }
+ },
+ {
+  "id": "mongols",
+  "title": "The Mongol conquests",
+  "blurb": "How the steppe tribes united under Genghis Khan built the largest contiguous land empire in history, from Korea to Hungary, and how it split into four khanates.",
+  "steps": [
+   {
+    "y": 1206,
+    "lat": 47.5,
+    "lon": 106,
+    "z": 4,
+    "t": "Temüjin becomes Genghis Khan",
+    "c": "After uniting the Mongol and Turkic tribes of the steppe, Temüjin was proclaimed Genghis Khan at a kurultai (great assembly) at the source of the Onon River in 1206. This is the usual founding date of the Mongol Empire.",
+    "w": "Genghis Khan",
+    "src": "https://en.wikipedia.org/wiki/Genghis_Khan",
+    "span": 60
+   },
+   {
+    "y": 1215,
+    "lat": 40,
+    "lon": 110,
+    "z": 6,
+    "t": "Western Xia and Jin campaigns",
+    "c": "The Mongols invaded Western Xia in 1209, which became a vassal in 1210, then turned on the Jin dynasty of northern China. The Jin capital Zhongdu, today's Beijing, surrendered on 31 May 1215.",
+    "w": "Mongol conquest of the Jin dynasty",
+    "src": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Jin_dynasty",
+    "span": 60
+   },
+   {
+    "y": 1220,
+    "lat": 40.5,
+    "lon": 63,
+    "z": 8,
+    "t": "The fall of Khwarazm",
+    "c": "After the Khwarazmian Empire executed his envoys, Genghis Khan invaded in 1219. Bukhara, Samarkand (March 1220) and Urgench fell, with huge massacres; medieval death tolls in the millions are considered exaggerated by modern historians, but the losses were enormous.",
+    "w": "Mongol invasion of the Khwarazmian Empire",
+    "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+    "span": 40
+   },
+   {
+    "y": 1223,
+    "lat": 45,
+    "lon": 44,
+    "z": 6,
+    "t": "Subutai and Jebe ride west",
+    "c": "Two generals, Subutai and Jebe, led a long raid around the Caspian Sea and through the Caucasus. On 31 May 1223 they defeated an army of Rus' princes and Cumans at the Kalka River, in today's eastern Ukraine.",
+    "w": "Battle of the Kalka River",
+    "src": "https://en.wikipedia.org/wiki/Battle_of_the_Kalka_River",
+    "span": 40
+   },
+   {
+    "y": 1235,
+    "lat": 44,
+    "lon": 104,
+    "z": 6,
+    "t": "Ögedei and Karakorum",
+    "c": "Genghis Khan died in August 1227 while campaigning against Western Xia; his burial place is unknown. His son Ögedei was elected Great Khan in 1229, conquered the Jin by 1234, and in 1235 walled Karakorum as the imperial capital.",
+    "w": "Karakorum",
+    "src": "https://en.wikipedia.org/wiki/Karakorum",
+    "span": 40
+   },
+   {
+    "y": 1241,
+    "lat": 50,
+    "lon": 28,
+    "z": 6,
+    "t": "Invasion of Rus' and Europe",
+    "c": "Batu and Subutai conquered the Rus' principalities, sacking Kyiv on 6 December 1240. In April 1241 they crushed a Polish army at Legnica and the Hungarians at Mohi, two days apart.",
+    "w": "Mongol invasion of Europe",
+    "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe",
+    "span": 40
+   },
+   {
+    "y": 1242,
+    "lat": 48,
+    "lon": 30,
+    "z": 4,
+    "t": "The sudden withdrawal",
+    "c": "In 1242 the Mongols pulled back from Central Europe. The traditional reason is Ögedei's death in December 1241; historians debate this and also point to losses, strong stone castles, supply problems and wet, poor pasture.",
+    "w": "Mongol invasion of Europe",
+    "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe",
+    "span": 40
+   },
+   {
+    "y": 1258,
+    "lat": 34,
+    "lon": 46,
+    "z": 8,
+    "t": "The sack of Baghdad",
+    "c": "Hulagu, a grandson of Genghis Khan, besieged Baghdad, and the last Abbasid caliph surrendered on 10 February 1258. The city was sacked; estimates of the dead range from about 200,000 to over a million and are debated.",
+    "w": "Siege of Baghdad (1258)",
+    "src": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
+    "span": 40
+   },
+   {
+    "y": 1260,
+    "lat": 32.5,
+    "lon": 35.4,
+    "z": 12,
+    "t": "Defeat at Ain Jalut",
+    "c": "On 3 September 1260 the Mamluks of Egypt under Qutuz and Baybars defeated a Mongol army in the Jezreel Valley. It was the first major halt to the Mongol advance, and the Mongols withdrew from the Levant.",
+    "w": "Battle of Ain Jalut",
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
+    "span": 40
+   },
+   {
+    "y": 1264,
+    "lat": 45,
+    "lon": 80,
+    "z": 2,
+    "t": "One empire, four khanates",
+    "c": "After Möngke died in 1259, a civil war between his brothers Kublai and Ariq Böke (1260–1264) broke the empire's unity. It split into the Golden Horde, the Chagatai Khanate, the Ilkhanate in Iran and Kublai's realm in China.",
+    "w": "Division of the Mongol Empire",
+    "src": "https://en.wikipedia.org/wiki/Division_of_the_Mongol_Empire",
+    "span": 60
+   },
+   {
+    "y": 1279,
+    "lat": 30,
+    "lon": 115,
+    "z": 6,
+    "t": "Kublai's Yuan conquers Song",
+    "c": "Kublai proclaimed the Yuan dynasty in 1271 and took the Song capital Hangzhou in 1276. The last Song forces were destroyed in the naval Battle of Yamen on 19 March 1279, uniting China under Mongol rule.",
+    "w": "Battle of Yamen",
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
+    "span": 40
+   },
+   {
+    "y": 1281,
+    "lat": 35,
+    "lon": 129,
+    "z": 8,
+    "t": "Failed invasions of Japan",
+    "c": "Yuan fleets attacked Hakata Bay in Kyushu in 1274 and 1281. Japanese defences, including a stone wall, held, and in 1281 a typhoon wrecked the fleet: the 'kamikaze' or divine wind. Traditional army sizes are thought exaggerated.",
+    "w": "Mongol invasions of Japan",
+    "src": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+    "span": 40
+   },
+   {
+    "y": 1290,
+    "lat": 40,
+    "lon": 75,
+    "z": 2,
+    "t": "Pax Mongolica",
+    "c": "Mongol rule made the Silk Road safer for trade, envoys and ideas. Marco Polo left Venice in 1271 and returned in 1295 after years at Kublai's court; how much of his book is first-hand is debated.",
+    "w": "Pax Mongolica",
+    "src": "https://en.wikipedia.org/wiki/Pax_Mongolica",
+    "span": 60
+   }
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyMigr": true,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  }
+ },
+ {
+  "id": "black-death",
+  "title": "The Black Death",
+  "blurb": "Follow the deadliest pandemic in recorded history from Central Asia across the Black Sea and the Mediterranean to every corner of Europe and the Middle East, 1338–1353.",
+  "steps": [
+   {
+    "y": 1338,
+    "lat": 42.7,
+    "lon": 76,
+    "z": 8,
+    "t": "Where it began",
+    "c": "Ancient DNA from graves near Lake Issyk-Kul in Kyrgyzstan, where inscriptions record 'pestilence' deaths in 1338–1339, contains the plague bacterium Yersinia pestis. This strain is the direct ancestor of the Black Death strains (Spyrou et al. 2022).",
+    "w": "Black Death",
+    "src": "https://doi.org/10.1038/s41586-022-04800-3",
+    "span": 40
+   },
+   {
+    "y": 1346,
+    "lat": 45.0,
+    "lon": 35.4,
+    "z": 8,
+    "t": "The siege of Caffa",
+    "c": "The Golden Horde besieged the Genoese port of Caffa in Crimea. One Italian writer, who was not there, reported that the Mongols catapulted plague corpses over the walls; historians debate this, and grain ships may have spread it instead.",
+    "w": "Siege of Caffa",
+    "src": "https://en.wikipedia.org/wiki/Siege_of_Caffa",
+    "span": 40
+   },
+   {
+    "y": 1347,
+    "lat": 37,
+    "lon": 30,
+    "z": 6,
+    "t": "Constantinople and Alexandria",
+    "c": "Ships carried the disease across the Black Sea. It reached Constantinople in summer 1347 and Alexandria in Egypt that autumn, and spread along the trade routes of the eastern Mediterranean.",
+    "w": "Black Death",
+    "src": "https://en.wikipedia.org/wiki/Black_Death",
+    "span": 40
+   },
+   {
+    "y": 1348,
+    "lat": 41,
+    "lon": 10,
+    "z": 8,
+    "t": "Sicily, Italy and Marseille",
+    "c": "Twelve Genoese galleys brought plague to Messina in Sicily in October 1347. By early 1348 it was in Marseille, Pisa and Florence, and Venice by April. Boccaccio described the horror in Florence.",
+    "w": "Black Death in Italy",
+    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
+    "span": 40
+   },
+   {
+    "y": 1348,
+    "lat": 31,
+    "lon": 33,
+    "z": 8,
+    "t": "Cairo and the Middle East",
+    "c": "Damascus, Aleppo and Mecca were struck. In Cairo, plague arrived in September 1348 and killed about a third of the people. Estimates for the Middle East are about one third overall.",
+    "w": "Black Death in the Middle East",
+    "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
+    "span": 40
+   },
+   {
+    "y": 1348,
+    "lat": 50,
+    "lon": 0,
+    "z": 8,
+    "t": "Paris and England",
+    "c": "The plague reached the Paris area in June 1348 and Melcombe (Weymouth) in England shortly before 24 June. London was hit that autumn. For England, 40–60% mortality is a widely accepted estimate.",
+    "w": "Black Death in England",
+    "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+    "span": 40
+   },
+   {
+    "y": 1349,
+    "lat": 49,
+    "lon": 9,
+    "z": 8,
+    "t": "Massacres of Jews",
+    "c": "Jews were falsely accused of poisoning wells. On 14 February 1349 much of Strasbourg's Jewish community, reportedly about 2,000 people, was burned; communities in Mainz, Cologne and hundreds of other towns were destroyed.",
+    "w": "Black Death Jewish persecutions",
+    "src": "https://en.wikipedia.org/wiki/Strasbourg_massacre",
+    "span": 40
+   },
+   {
+    "y": 1349,
+    "lat": 60,
+    "lon": 9,
+    "z": 8,
+    "t": "Scandinavia",
+    "c": "Plague reached Oslo and, in late summer 1349, Bergen by ship from England, then spread north to Trondheim. Norway may have lost up to about 60% of its people and took centuries to recover.",
+    "w": "Black Death in Norway",
+    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway",
+    "span": 40
+   },
+   {
+    "y": 1353,
+    "lat": 56.5,
+    "lon": 33,
+    "z": 8,
+    "t": "Russia, 1352–1353",
+    "c": "Plague reached Pskov and Novgorod in 1352 and Moscow in 1353. Grand Prince Simeon the Proud, his sons and the Metropolitan of Moscow all died of it.",
+    "w": "Simeon of Moscow",
+    "src": "https://en.wikipedia.org/wiki/Simeon_of_Moscow",
+    "span": 40
+   },
+   {
+    "y": 1353,
+    "lat": 48,
+    "lon": 15,
+    "z": 4,
+    "t": "The toll and the aftermath",
+    "c": "Estimates for Europe range from about 25% to 60% of the population, tens of millions of people. Labour became scarce and wages rose; England's Statute of Labourers (1351) tried to freeze them. Plague returned again and again until the 1600s–1700s.",
+    "w": "Black Death",
+    "src": "https://en.wikipedia.org/wiki/Black_Death",
+    "span": 40
+   }
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyPop": true,
+   "lyBorders": true,
+   "lyEvents": true,
+   "lyMigr": false,
+   "lyFauna": false
+  }
+ },
+ {
+  "id": "vikings",
+  "title": "Vikings: from the Rus to Vinland",
+  "blurb": "Raiders, traders and settlers from Scandinavia, 793 to 1066: from Lindisfarne and Paris to Novgorod, Baghdad's envoys on the Volga, Constantinople, Iceland, Greenland and North America.",
+  "steps": [
+   {
+    "y": 793,
+    "lat": 56.0,
+    "lon": 2.0,
+    "z": 8,
+    "t": "Raid on Lindisfarne",
+    "c": "On 8 June 793 Norse raiders sacked the monastery on Lindisfarne, off the coast of Northumbria. The attack shocked Christian Europe and is often taken as the start of the Viking Age.",
+    "w": "Lindisfarne",
+    "src": "https://en.wikipedia.org/wiki/Lindisfarne"
+   },
+   {
+    "y": 795,
+    "lat": 54.0,
+    "lon": -6.5,
+    "z": 12,
+    "t": "Raids on Ireland",
+    "c": "The Norse are first recorded in Ireland in 795, when they sacked Rathlin Island. Raids on monasteries continued, and from the 830s they built fortified bases; Vikings probably first wintered at Dublin in 840–841.",
+    "w": "Norse–Gaels",
+    "src": "https://en.wikipedia.org/wiki/Norse%E2%80%93Gaels"
+   },
+   {
+    "y": 862,
+    "lat": 55.0,
+    "lon": 31.0,
+    "z": 8,
+    "t": "Rurik and the Rus'",
+    "c": "According to the Primary Chronicle, Rurik was invited to rule Novgorod in 862; around 882 his successor Oleg seized Kyiv. The chronicle's account, and how Scandinavian the early Rus' were, are debated.",
+    "w": "Rurik",
+    "src": "https://en.wikipedia.org/wiki/Rurik"
+   },
+   {
+    "y": 865,
+    "lat": 53.5,
+    "lon": -1.0,
+    "z": 12,
+    "t": "Great Heathen Army and Danelaw",
+    "c": "In 865 a large Danish army landed in East Anglia and soon took York. After Alfred the Great defeated Guthrum in 878, eastern and northern England became the Danelaw, where Danish law applied.",
+    "w": "Danelaw",
+    "src": "https://en.wikipedia.org/wiki/Danelaw"
+   },
+   {
+    "y": 874,
+    "lat": 64.9,
+    "lon": -19.0,
+    "z": 12,
+    "t": "Settling Iceland",
+    "c": "Tradition says Ingólfr Arnarson settled Iceland in 874. Settlers came from Norway and the British Isles, many of the latter probably enslaved. By 930 the land was 'fully settled' and the Althing assembly met at Þingvellir.",
+    "w": "Settlement of Iceland",
+    "src": "https://en.wikipedia.org/wiki/Settlement_of_Iceland"
+   },
+   {
+    "y": 885,
+    "lat": 49.3,
+    "lon": 2.0,
+    "z": 12,
+    "t": "Siege of Paris",
+    "c": "Vikings had sacked Paris in 845. From November 885 to October 886 a large fleet besieged the city but could not take it; Emperor Charles the Fat paid them silver and let them raid Burgundy instead.",
+    "w": "Siege of Paris (885–886)",
+    "src": "https://en.wikipedia.org/wiki/Siege_of_Paris_(885%E2%80%93886)"
+   },
+   {
+    "y": 911,
+    "lat": 49.3,
+    "lon": 0.5,
+    "z": 12,
+    "t": "Rollo founds Normandy",
+    "c": "In 911 the Frankish king Charles the Simple granted the Viking leader Rollo land around Rouen, in return for baptism and defending the Seine. This became Normandy. The treaty's exact terms are known only from a later writer.",
+    "w": "Treaty of Saint-Clair-sur-Epte",
+    "src": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte"
+   },
+   {
+    "y": 922,
+    "lat": 44.0,
+    "lon": 47.0,
+    "z": 6,
+    "t": "Ibn Fadlan meets the Rus'",
+    "c": "In 921–922 Ahmad ibn Fadlan travelled with a caliph's embassy from Baghdad to the Volga Bulgars. There he described Rus' traders, likely of Scandinavian origin, and a chieftain's ship burial.",
+    "w": "Ahmad ibn Fadlan",
+    "src": "https://en.wikipedia.org/wiki/Ahmad_ibn_Fadlan"
+   },
+   {
+    "y": 985,
+    "lat": 62.5,
+    "lon": -42.0,
+    "z": 8,
+    "t": "Erik the Red's Greenland",
+    "c": "In the summer of 985 Erik the Red led colonists from Iceland to Greenland. He farmed at Brattahlíð in the Eastern Settlement, near today's Narsarsuaq; a Western Settlement grew near today's Nuuk.",
+    "w": "Erik the Red",
+    "src": "https://en.wikipedia.org/wiki/Erik_the_Red"
+   },
+   {
+    "y": 988,
+    "lat": 46.0,
+    "lon": 30.0,
+    "z": 8,
+    "t": "The Varangian Guard",
+    "c": "Rus' warriors travelled the rivers to Constantinople. In 988 Vladimir of Kyiv sent about 6,000 men to Emperor Basil II; they became the core of the Varangian Guard, the emperor's Norse bodyguard.",
+    "w": "Varangian Guard",
+    "src": "https://en.wikipedia.org/wiki/Varangian_Guard"
+   },
+   {
+    "y": 1021,
+    "lat": 56.0,
+    "lon": -52.0,
+    "z": 8,
+    "t": "Vinland: L'Anse aux Meadows",
+    "c": "At L'Anse aux Meadows, Newfoundland, Norse visitors cut wood with metal tools. Tree rings tied to a solar storm of 993 date that cutting to 1021, the only exact year for Europeans in America before Columbus.",
+    "w": "L'Anse aux Meadows",
+    "src": "https://doi.org/10.1038/s41586-021-03972-8"
+   },
+   {
+    "y": 1066,
+    "lat": 54.0,
+    "lon": -0.9,
+    "z": 12,
+    "t": "Stamford Bridge, 1066",
+    "c": "On 25 September 1066 King Harold of England defeated the Norwegian king Harald Hardrada at Stamford Bridge. It is traditionally seen as the end of the Viking Age, though Scandinavian campaigns in Britain continued for decades.",
+    "w": "Battle of Stamford Bridge",
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge"
+   }
+  ],
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyMigr": true,
+   "lyMarks": true,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  }
  }
 ]
