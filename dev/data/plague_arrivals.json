@@ -1,5 +1,5 @@
 {
- "source_note": "First recorded arrivals of the Black Death, 1338-1353, from English Wikipedia (Black Death and its country articles, plus city/ruler articles); fetched 2026-10-13. t = decimal year, month m -> year+(m-0.5)/12; seasons -> middle month (spring Apr, summer Jul, autumn Oct); year-only -> mid-year, approx. Dates from deaths or outbreak reports are 'present by' dates, so arrival may be earlier. Where Wikipedia articles disagree, the chosen date and the alternative are in 'note' (notably Gaza/Damascus/Aleppo: the Black Death article says 1347, Black Death in the Middle East says 1348, used here). No Wikipedia dates were found for Milan (incl. its sparing), Sardinia, Corsica, Mallorca, Barcelona, Valencia, Seville, Santiago, Bristol, Calais, Cyprus, Crete or Baghdad's first arrival. Extended 2026-10-13 with Catalan/Valencian dates from the Enciclopèdia Catalana ('La pesta del 1348 als Països Catalans'), year-only places from Biraben's inventory (Büntgen et al. 2012, EnviDat 'Digitizing historical plague', ODbL), and single dates from French/Italian Wikipedia and local-history sources (see each 'src'); Santiago/Galicia, Corsica and Anatolia still have no accessible dated source.",
+ "source_note": "First recorded arrivals of the Black Death, 1338-1353, from English Wikipedia (Black Death and its country articles, plus city/ruler articles); fetched 2026-10-13. t = decimal year, month m -> year+(m-0.5)/12; seasons -> middle month (spring Apr, summer Jul, autumn Oct); year-only -> mid-year, approx. Dates from deaths or outbreak reports are 'present by' dates, so arrival may be earlier. Where Wikipedia articles disagree, the chosen date and the alternative are in 'note' (notably Gaza/Damascus/Aleppo: the Black Death article says 1347, Black Death in the Middle East says 1348, used here). No Wikipedia dates were found for Milan (incl. its sparing), Sardinia, Corsica, Mallorca, Barcelona, Valencia, Seville, Santiago, Bristol, Calais, Cyprus, Crete or Baghdad's first arrival. Extended 2026-10-13 with Catalan/Valencian dates from the Enciclopèdia Catalana ('La pesta del 1348 als Països Catalans'), year-only places from Biraben's inventory (Büntgen et al. 2012, EnviDat 'Digitizing historical plague', ODbL), and single dates from French/Italian Wikipedia and local-history sources (see each 'src'); Santiago/Galicia, Corsica and Anatolia still have no accessible dated source. Population and mortality ('pop', 'died', 'mort_src', 'mort_note'; added 2026-10-13): pop = estimate just before the plague (some only c. 1300, said so in mort_note), died = share dying 1346–1353, midpoint of the range given; only where a source gives a figure for the town itself (Wikipedia en/it/fr, Jedwab, Johnson & Koyama 2022 'Pandemics and Cities' incl. web appendix). Highly uncertain: sources often differ by 20+ points.",
  "places": [
   {
    "n": "Chüy Valley (Issyk-Kul region)",
@@ -114,7 +114,11 @@
    "approx": false,
    "w": "Marseille",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
-   "note": "Black Death in France also cites December 1347; the Black Death article says end of January 1348"
+   "note": "Black Death in France also cites December 1347; the Black Death article says end of January 1348",
+   "pop": 35000,
+   "died": 0.55,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~35,000 c. 1300; ~55% died; both Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Cagliari (Sardinia)",
@@ -136,7 +140,11 @@
    "approx": true,
    "w": "Naples",
    "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
-   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; placed late 1347 (after Messina) rather than mid-year"
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; placed late 1347 (after Messina) rather than mid-year",
+   "pop": 60000,
+   "died": 0.65,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~60,000 c. 1300 (Bairoch, via Jedwab et al.); ~65% died per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Ragusa (Dubrovnik)",
@@ -167,7 +175,11 @@
    "approx": false,
    "w": "Venice",
    "src": "https://en.wikipedia.org/wiki/Black_Death",
-   "note": "Black Death in Italy gives April 1348"
+   "note": "Black Death in Italy gives April 1348",
+   "pop": 135000,
+   "died": 0.6,
+   "mort_src": "https://it.wikipedia.org/wiki/Peste_nera",
+   "mort_note": "pop 120,000–150,000, about 60% died Dec 1347–May 1349 (it.wikipedia Peste nera); 60% also in Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Pisa",
@@ -177,7 +189,10 @@
    "when": "January 1348",
    "approx": false,
    "w": "Pisa",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
+   "died": 0.35,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "~35% per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); chroniclers claimed nearly 80% (Malanima, EHS)"
   },
   {
    "n": "Carcassonne",
@@ -228,7 +243,11 @@
    "when": "March 1348",
    "approx": false,
    "w": "Florence",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
+   "pop": 115000,
+   "died": 0.6,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop 110,000–120,000 in 1338, 50,000 in 1351 (Wikipedia Black Death; History of Florence gives ~80,000); died ~60% per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); Wikipedia: over half; tax records suggest up to 80%"
   },
   {
    "n": "Bologna",
@@ -238,7 +257,11 @@
    "when": "March–September 1348",
    "approx": true,
    "w": "Bologna",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
+   "pop": 45000,
+   "died": 0.5,
+   "mort_src": "https://en.wikipedia.org/wiki/Bologna",
+   "mort_note": "40,000–50,000 inhabitants in 1348, reduced to 20,000–25,000 (Wikipedia Bologna); it.wikipedia: ~17,000 dead"
   },
   {
    "n": "Avignon",
@@ -249,7 +272,10 @@
    "approx": true,
    "w": "Avignon",
    "src": "https://en.wikipedia.org/wiki/History_of_Avignon",
-   "note": "Wikipedia gives the year 1348; Black Death in France places executions for well-poisoning there in April 1348"
+   "note": "Wikipedia gives the year 1348; Black Death in France places executions for well-poisoning there in April 1348",
+   "died": 0.65,
+   "mort_src": "https://en.wikipedia.org/wiki/History_of_Avignon",
+   "mort_note": "almost two-thirds died (History of Avignon, after Girard 1958); de.wikipedia: city had no more than 50,000 inhabitants"
   },
   {
    "n": "Mallorca (Palma)",
@@ -270,7 +296,11 @@
    "when": "by April 1348",
    "approx": true,
    "w": "Toulouse",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "pop": 37500,
+   "died": 0.5,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop 35,000–40,000 in 1335 (Wikipedia Toulouse); ~50% died per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Lyon",
@@ -365,7 +395,11 @@
    "when": "May 1348",
    "approx": false,
    "w": "Siena",
-   "src": "https://en.wikipedia.org/wiki/Black_Death"
+   "src": "https://en.wikipedia.org/wiki/Black_Death",
+   "pop": 50000,
+   "died": 0.5,
+   "mort_src": "https://it.wikipedia.org/wiki/Storia_di_Siena",
+   "mort_note": "pop ~50,000 before 1348 (en.wikipedia Siena; Jedwab et al. give only ~20,000 c. 1300); population halved (it.wikipedia Storia di Siena)"
   },
   {
    "n": "Barcelona",
@@ -376,7 +410,11 @@
    "approx": false,
    "w": "Barcelona",
    "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
-   "note": "procession 14 May 1348; Tarragona about the same time"
+   "note": "procession 14 May 1348; Tarragona about the same time",
+   "pop": 50000,
+   "died": 0.36,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~50,000 c. 1300; ~36% died, recovered by ~1355; both Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Tarragona",
@@ -408,7 +446,10 @@
    "approx": false,
    "w": "Valencia",
    "src": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/la-pesta-del-1348-als-paisos-catalans",
-   "note": "chronicle of Peter IV, confirmed by local records; deaths in the city by end of May; often given as June"
+   "note": "chronicle of Peter IV, confirmed by local records; deaths in the city by end of May; often given as June",
+   "pop": 45000,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~45,000 c. 1300 per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); no city mortality figure found"
   },
   {
    "n": "Sagunt (Morvedre)",
@@ -429,7 +470,11 @@
    "approx": true,
    "w": "Lisbon",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Portugal",
-   "note": "Portugal reached around April or May 1348"
+   "note": "Portugal reached around April or May 1348",
+   "pop": 35000,
+   "died": 0.5,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death_in_Portugal",
+   "mort_note": "pop ~35,000 c. 1300 (Jedwab et al. 2022); ~50% died (Wikipedia Black Death in Portugal table, after Jedwab et al. data; History of Lisbon: half)"
   },
   {
    "n": "Bordeaux",
@@ -439,7 +484,10 @@
    "when": "by June 1348 (likely present by March)",
    "approx": true,
    "w": "Bordeaux",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "pop": 30000,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~30,000 c. 1300 per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); no city mortality figure found"
   },
   {
    "n": "Melcombe (Weymouth)",
@@ -470,7 +518,11 @@
    "when": "24 June 1348",
    "approx": false,
    "w": "Rouen",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "pop": 35000,
+   "died": 0.45,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~35,000 c. 1300; ~45% died; both Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Trento",
@@ -534,7 +586,10 @@
    "approx": true,
    "w": "Damascus",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
-   "note": "the Black Death article says July 1347"
+   "note": "the Black Death article says July 1347",
+   "died": 0.315,
+   "mort_src": "https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death",
+   "mort_note": "estimates 25–38% (Wikipedia Consequences of the Black Death); Damascus article: as much as half"
   },
   {
    "n": "Vic",
@@ -567,7 +622,10 @@
    "approx": true,
    "w": "Granada",
    "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
-   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; described by Ibn al-Khatib"
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only; described by Ibn al-Khatib",
+   "died": 0.3,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "~30% per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Seville",
@@ -589,7 +647,10 @@
    "approx": true,
    "w": "Coimbra",
    "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
-   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only",
+   "died": 0.5,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death_in_Portugal",
+   "mort_note": "50% (Wikipedia Black Death in Portugal table, after Jedwab et al. data)"
   },
   {
    "n": "Tlemcen",
@@ -600,7 +661,10 @@
    "approx": true,
    "w": "Tlemcen",
    "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
-   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only",
+   "pop": 40000,
+   "mort_src": "https://en.wikipedia.org/wiki/Tlemcen",
+   "mort_note": "perhaps 40,000 inhabitants in the first half of the 14th century (Wikipedia Tlemcen); no city mortality figure found"
   },
   {
    "n": "Tangier",
@@ -644,7 +708,11 @@
    "approx": true,
    "w": "Paris",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
-   "note": "no arrival month on Wikipedia; placed after Roissy (June) and before the Nov–Dec peak"
+   "note": "no arrival month on Wikipedia; placed after Roissy (June) and before the Nov–Dec peak",
+   "pop": 100000,
+   "died": 0.5,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death",
+   "mort_note": "Wikipedia Black Death: half of 100,000 died; estimates of pop range 80,000–300,000 and History of Paris says 40,000–50,000 dead, a quarter; Jedwab et al.: Paris 20 points below London"
   },
   {
    "n": "Rome",
@@ -654,7 +722,10 @@
    "when": "August 1348",
    "approx": false,
    "w": "Rome",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
+   "pop": 30000,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~30,000 c. 1300 per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); no city mortality figure found"
   },
   {
    "n": "Givry (Burgundy)",
@@ -664,7 +735,11 @@
    "when": "August–November 1348",
    "approx": true,
    "w": "Givry",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_France",
+   "pop": 1350,
+   "died": 0.45,
+   "mort_src": "https://fr.wikipedia.org/wiki/Peste_noire",
+   "mort_note": "1,200–1,500 people in the 1340s (fr.wikipedia Givry); 649 burials in 1348 = 40.6% (fr.wikipedia Peste noire) vs 50% (en.wikipedia Black Death in France)"
   },
   {
    "n": "Bristol",
@@ -675,7 +750,11 @@
    "approx": false,
    "w": "Bristol",
    "src": "https://www.brh.org.uk/site/?p=10840",
-   "note": "Knighton's chronicle via Boucher; Bristol Radical History Group; often called the first English city hit after Melcombe"
+   "note": "Knighton's chronicle via Boucher; Bristol Radical History Group; often called the first English city hit after Melcombe",
+   "pop": 17500,
+   "died": 0.415,
+   "mort_src": "https://en.wikipedia.org/wiki/Bristol",
+   "mort_note": "pop 15,000–20,000 on the eve of the Black Death (History of Bristol); one third to one half died (Wikipedia Bristol)"
   },
   {
    "n": "Cairo",
@@ -686,7 +765,11 @@
    "approx": false,
    "w": "Cairo",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
-   "note": "the Black Death article: by late summer 1348"
+   "note": "the Black Death article: by late summer 1348",
+   "pop": 550000,
+   "died": 0.365,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death",
+   "mort_note": "pop close to half a million by 1340 (Wikipedia Cairo) to as many as 600,000 (Black Death); one third to 40% died (~200,000)"
   },
   {
    "n": "London",
@@ -696,7 +779,11 @@
    "when": "autumn 1348 (29 Sept in some accounts, certainly by November)",
    "approx": true,
    "w": "London",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "pop": 70000,
+   "died": 0.5,
+   "mort_src": "https://en.wikipedia.org/wiki/History_of_London",
+   "mort_note": "pop perhaps as many as 70,000 (Wikipedia Black Death in England); died: estimates one third (London) to at least half (History of London) to ~60% or two-thirds (Black Death; Consequences)"
   },
   {
    "n": "Aleppo",
@@ -770,7 +857,10 @@
    "when": "May 1349",
    "approx": false,
    "w": "York",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "pop": 10000,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "mort_note": "pop around 10,000 (Wikipedia Black Death in England); no city mortality figure found"
   },
   {
    "n": "Vienna",
@@ -780,7 +870,10 @@
    "when": "May 1349",
    "approx": false,
    "w": "Vienna",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "died": 0.333,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Holy_Roman_Empire",
+   "mort_note": "about one third died, May–Sept 1349 (Wikipedia Black Death in the Holy Roman Empire)"
   },
   {
    "n": "Oslo",
@@ -834,7 +927,10 @@
    "approx": true,
    "w": "Zürich",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Switzerland",
-   "note": "year only"
+   "note": "year only",
+   "died": 0.6,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "~60% per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Bern",
@@ -888,7 +984,10 @@
    "approx": true,
    "w": "Évora",
    "src": "https://www.envidat.ch/metadata/digitizing-historical-plague",
-   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only"
+   "note": "Biraben inventory as digitized by Büntgen et al. 2012 (Clin Infect Dis, doi:10.1093/cid/cis723); year only",
+   "died": 0.35,
+   "mort_src": "https://en.wikipedia.org/wiki/Black_Death_in_Portugal",
+   "mort_note": "35% (Wikipedia Black Death in Portugal table, after Christakos et al. 2006)"
   },
   {
    "n": "Valenciennes (Hainaut)",
@@ -961,7 +1060,11 @@
    "approx": false,
    "w": "Cologne",
    "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
-   "note": "a local chronicle suggests 1347 (uncertain)"
+   "note": "a local chronicle suggests 1347 (uncertain)",
+   "pop": 52500,
+   "died": 0.325,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop 50,000–55,000 by 1300 (Wikipedia Cologne); 30% (main text) or 35% (appendix) died per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005)"
   },
   {
    "n": "Gibraltar (Castilian siege camp)",
@@ -992,7 +1095,10 @@
    "when": "early summer 1350",
    "approx": true,
    "w": "Lübeck",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "died": 0.3,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "~30% per Jedwab, Johnson & Koyama 2022 (Pandemics and Cities, incl. web appendix; city mortality after Christakos et al. 2005); it.wikipedia: 25% of households vanished"
   },
   {
    "n": "Hamburg",
@@ -1002,7 +1108,11 @@
    "when": "early summer 1350",
    "approx": true,
    "w": "Hamburg",
-   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany"
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Germany",
+   "pop": 8000,
+   "died": 0.58,
+   "mort_src": "https://cmepr.gmu.edu/wp-content/uploads/2022/02/BBB_Combined_Revision_1_FINAL.pdf",
+   "mort_note": "pop ~8,000 c. 1300 per Jedwab et al. (History of Hamburg implies ~12,000: 6,000 dead = half); ~58% died (Ziegler: half to two-thirds); Wikipedia: at least 60%"
   },
   {
    "n": "Magdeburg",
