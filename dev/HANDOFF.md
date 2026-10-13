@@ -59,7 +59,7 @@ Serve locally (`python3 -m http.server 8765`), Playwright (Chromium preinstalled
 ## 7. Backlog / ideas
 - Verify the ~2,000 remaining culture names (rate-limited), refine imperfect matches noted in research reports.
 - HYDE population density layer (needs data files from the user).
-- Embedding images: user-supplied figure files → artifact assets with credit lines.
+- Pictures (parked 2026-10-13, user happy with current state): era "See it" galleries still mix in maps/charts — could re-curate toward paintings (Vasnetsov *Stone Age* frieze, Paul Jamin, Knight; all PD on Commons); show the picture title in popup credit lines; swap the few dull popup photos (e.g. Cattle, Star Carr field) only for paintings or notable finds.
 - Performance: `buildBase` is CPU per-pixel at 2.3 MP — consider WebGL or tiling for smoother scrubbing.
 - More regions in the forest model; Holocene sea-level regional rebound (GIA) for northern coasts.
 - Tartessos, Sanxingdui, Great Zimbabwe, Cucuteni–Trypillia, Lapita (in Reddit threads but not yet citable).
