@@ -276,6 +276,7 @@ ol.know a:hover{border-bottom-color:var(--accent)}
     <div class="atlas-head">
       <h2>Atlas &amp; timeline <small id="atlasYear"></small></h2>
       <div class="layers" id="layers">
+        <label title="Hal Shelton-style natural colours, sea by depth, relief from ETOPO 2022 (needs WebGL2)"><input type="checkbox" id="lyPaint" checked>Painted map</label>
         <label><input type="checkbox" id="lyBiome" checked>Biomes</label>
         <label><input type="checkbox" id="lyIce" checked>Ice sheets</label>
         <label><input type="checkbox" id="lyFarm" checked>Farmland</label>
@@ -1072,8 +1073,9 @@ const FW=720, FH=360;                       // evidence (fade) layer at 1/2 degr
 const landC=document.createElement('canvas'); landC.width=FW; landC.height=FH; const lctx=landC.getContext('2d'); const landImg=lctx.createImageData(FW,FH);
 const fadeC=document.createElement('canvas'); fadeC.width=FW; fadeC.height=FH; const fctx=fadeC.getContext('2d'); let fadeKey='', fadeStrength=0;
 let c14=null, hbYears=[], hbCache={}, hbCur=null, hbYear=null, hbLoading={}, coast=null, rivers=null, greenW=null;
-const LY={homo:true,fauna:true,pop:false,migr:true,figs:true,forest:true,biome:true,ice:true,farm:true,coast:true,rivers:true,climate:true,fade:true,marks:true,borders:true,c14:false,events:true,plague:true};
-['Homo','Fauna','Pop','Migr','Figs','Forest','Biome','Ice','Farm','Coast','Rivers','Climate','Fade','Marks','Borders','C14','Events','Plague'].forEach(n=>{ const el=$('ly'+n); el.addEventListener('change',()=>{ LY[n.toLowerCase()]=el.checked; baseKey=''; fadeKey=''; drawMap(); }); });
+const LY={paint:true,homo:true,fauna:true,pop:false,migr:true,figs:true,forest:true,biome:true,ice:true,farm:true,coast:true,rivers:true,climate:true,fade:true,marks:true,borders:true,c14:false,events:true,plague:true};
+['Paint','Homo','Fauna','Pop','Migr','Figs','Forest','Biome','Ice','Farm','Coast','Rivers','Climate','Fade','Marks','Borders','C14','Events','Plague'].forEach(n=>{ const el=$('ly'+n); el.addEventListener('change',()=>{ LY[n.toLowerCase()]=el.checked; baseKey=''; fadeKey=''; drawMap(); }); });
+if(/[?&]classic/.test(location.search)){ LY.paint=false; $('lyPaint').checked=false; }   // ?classic: the original map colours (check.py compares these with ?cpu)
 // biome snapshots (precomputed estimates) and their years
 const CDP=JSON.parse(document.getElementById('climdeep').textContent);   // Krapp et al. 2021 snapshots before 42 ka (5 kyr), build_climate_deep.py
 const ND=CDP.years.length, DEEPICE=-45000;    // ND is a multiple of 3, so each image block holds whole snapshots
@@ -1202,6 +1204,14 @@ let regIdx=null;
 function buildRegIdx(){ const c=document.createElement('canvas'); c.width=GW; c.height=GH; const g=c.getContext('2d',{willReadFrequently:true}); regIdx=new Uint8Array(NPX);
   FREG.forEach((r,i)=>{ g.clearRect(0,0,GW,GH); g.fillStyle='#fff'; g.beginPath(); r.pts.forEach((p,j)=>{ const x=(p[0]+180)*GR, yy=(90-p[1])*GR; j?g.lineTo(x,yy):g.moveTo(x,yy); }); g.closePath(); g.fill();
     const a=g.getImageData(0,0,GW,GH).data; for(let p=0;p<NPX;p++) if(a[p*4+3]>127) regIdx[p]=i+1; }); }
+// Painted map style (Hal Shelton-like natural colours): biome classes 0-10, farmland, cleared forest, sea shallow/shelf/deep, shadow, light, rock, snow
+const PAINT={cls:['#b5b07a','#4f8a3c','#bdb86a','#e6d3a0','#c9c47e','#a9b267','#86ad55','#5f8f52','#a8ad8c','#f4f6f8','#c2bb7c'],
+  c:{pFM:'#c9b765',pCL:'#b8995c',pS0:'#bfe0ee',pS1:'#93c3e3',pS2:'#5f9cd0',pSH:'#2e3f30',pHL:'#fffbe6',pRK:'#c3b293',pSN:'#fbfbfc'}};
+const darkTheme=()=>{ const c=hex(col.surface||'#fff'); return c[0]+c[1]+c[2]<384; };
+// legend swatches follow the active map style
+function legendPaint(){ const L=$('legend'); if(!L) return; const on=LY.paint&&GLB&&!GLB.lost;
+  ['b1','b2','b3','b4','b5','b6','b7','b8',null,'b10'].forEach((n,i)=>{ if(n) on?L.style.setProperty('--'+n,PAINT.cls[i+1]):L.style.removeProperty('--'+n); });
+  for(const [n,v] of [['farm',PAINT.c.pFM],['cleared',PAINT.c.pCL],['ice',PAINT.c.pSN],['forest','#5d7f45']]) on?L.style.setProperty('--'+n,v):L.style.removeProperty('--'+n); }
 // GPU version of buildBase: the same per-pixel rules as the CPU loop below, run as a WebGL2 fragment shader.
 // Data stays in the PNG encodings (elevation code, ice onset/retreat codes, farming start code, biome snapshots);
 // the year arrives as uniforms, so redrawing for a new year costs about a millisecond instead of ~200 ms.
@@ -1219,6 +1229,7 @@ uniform usampler2D uT,uI,uR,uS; uniform usampler2DArray uB; uniform bool uHasS; 
 uniform isampler2D uE,uEc; uniform bool uHasE; uniform float uES,uH; uniform vec3 uV;   // fine elevation (m), its cell means; view: lon at left, lat at top, degrees per device pixel
 uniform float uD,uCC,uBt,uGf,uY,uLate,uGEff; uniform int uSi,uNb; uniform bool uBio,uFarm,uIce,uForest,uHasBio,uHasReg,uDeep;
 uniform vec3 cSD,cSS,cLL,cLH,cSH,cIC,cGR,cFM,cFO,cCL; uniform vec3 cB[11]; uniform float uFS[11],uFP[11]; uniform vec2 uRF[24];
+uniform bool uPaint; uniform vec3 cP[11]; uniform vec3 pFM,pCL,pS0,pS1,pS2,pSH,pHL,pRK,pSN; uniform float uSea,uTA,uDim;   // painted (Hal Shelton-like) style
 out vec4 o;
 uint h1(uint p){ uint h=(p^(p>>13u))*0x5bd1e995u; h=(h^(h>>15u))*0x27d4eb2du; return (h^(h>>16u))>>24u; }
 uint h2(uint p){ uint h=(p^(p>>11u))*0x2c1b3c6du; h=(h^(h>>13u))*0x297a2d39u; return (h^(h>>16u))>>24u; }
@@ -1242,13 +1253,17 @@ Cell cellAt(ivec2 c, ivec2 bo){   // bo: extra offset (cells) for the 0.5-degree
   if(land){ bool farmed=false;
     if(uHasBio){ int L=Bn<uBt?uNb:uSi; int x=c.x+bo.x+((int(t.g)*7)>>8)-3, yy=c.y+bo.y+((int(t.b)*7)>>8)-3;
       x=(x+${GW})%${GW}; yy=clamp(yy,0,${GH-1}); cls=int(texelFetch(uB,ivec3(x/3,yy/3,L/3),0)[L%3]); }
-    if(uBio){ if(cls>0) col=cB[cls]; if(R>215.) col+=(cB[8]-col)*min(1.,(R-215.)/40.); }
-    else if(uGf>0.){ float w=green(c); if(w>0.) col+=(cGR-col)*(uGf*w*.85); }
-    if(uFarm && I.b>0u){ float sy=farmY(float(I.b)); if(uY>sy){ float dens=uFS[cls>0?cls:6]*min(1.,(uY-sy)/2500.)*uLate;
-      if(float(h1(p))<dens*255.){ col+=(cFM-col)*.85; farmed=true; } } }
+    if(uBio){ if(cls>0) col=uPaint?cP[cls]:cB[cls]; else if(uPaint) col=cP[0]; if(R>215.&&!(uPaint&&uHasE)) col+=((uPaint?cP[8]:cB[8])-col)*min(1.,(R-215.)/40.); }
+    else { if(uPaint) col=cP[0]; if(uGf>0.){ float w=green(c); if(w>0.) col+=((uPaint?cP[2]:cGR)-col)*(uGf*w*.85); } }
+    float dens=0.;
+    if(uFarm && I.b>0u){ float sy=farmY(float(I.b)); if(uY>sy){ dens=uFS[cls>0?cls:6]*min(1.,(uY-sy)/2500.)*uLate;
+      if(uPaint) col=mix(col,pFM,min(1.,dens)*.75);                  // painted: farmed share as a continuous tint
+      else if(float(h1(p))<dens*255.){ col+=(cFM-col)*.85; farmed=true; } } }
     if(uForest && !farmed && cls!=9){ float pNat=uFP[cls], pNow=pNat*uGEff; int ri=uHasReg?int(texelFetch(uR,c,0).r):0;
       if(ri>0 && uRF[ri-1].y>=0.){ pNat=max(pNat,uRF[ri-1].x); pNow=uRF[ri-1].y; }
-      if(pNat>.01){ float v=.62*(Bn/255.)+.38*(float(h2(p))/255.);
+      if(uPaint){ float rest=1.-min(1.,dens);                       // painted: tree cover darkens, cleared land warms, both continuous
+        col=mix(col,col*vec3(.70,.80,.62),pNow*rest*.6); col=mix(col,pCL,max(0.,pNat-pNow)*rest*.35); }
+      else if(pNat>.01){ float v=.62*(Bn/255.)+.38*(float(h2(p))/255.);
         if(v<pNow) col+=(cFO-col)*.62; else if(v<pNat) col+=(cCL-col)*.5; } } }
   float ice=0.;
   if(uIce){ float on=float(I.r), off=float(I.g);
@@ -1288,7 +1303,19 @@ void main(){
   else { s=.74+Gs/255.*.46; si=.88+Gs/255.*.18; }
   float aa=clamp(fwidth(lf)*.7,1e-4,.2), A=smoothstep(.5-aa,.5+aa,lf);
   vec3 col=mix(seaC,landC*s,A);
-  float ai=clamp(fwidth(iw)*.7,1e-4,.2); col=mix(col,cIC*si,smoothstep(.5-ai,.5+ai,iw));
+  float ai=clamp(fwidth(iw)*.7,1e-4,.2), IA=smoothstep(.5-ai,.5+ai,iw); col=mix(col,cIC*si,IA);
+  if(uPaint){   // painted: sea by true depth, snow line by elevation, warm light and green-grey shadows
+    float hh, E=0.;
+    if(uHasE){ E=eAt(lon,lat); float dep=max(0.,uSea-E), ts=clamp(log(1.+dep/15.)/log(1.+4000./15.),0.,1.);
+      seaC=mix(mix(pS0,pS1,clamp(ts*1.7,0.,1.)),pS2,clamp((ts-.6)/.4,0.,1.));
+      float sz=3100.-(abs(lat)-42.)*95.+uTA*154.;                     // snow line: lower toward the poles and in colder times (~154 m per degree)
+      landC=mix(landC,pRK,smoothstep(sz-1400.,sz-500.,E)*.6);
+      landC=mix(landC,pSN,smoothstep(sz-150.,sz+250.,E+(vn(g0*3.)-.5)*300.)*.95);
+      hh=h*1.9+clamp((E-eLo(g0))/500.,-1.,.5)*.35; }
+    else { seaC=pS1; hh=(Gs-127.)/128.*1.2; }
+    vec3 lS = hh<0. ? mix(landC,pSH,min(.6,-hh*1.2)) : mix(landC,pHL,min(.45,hh*1.1));
+    vec3 iS = hh<0. ? mix(pSN,vec3(150.,175.,195.),min(.6,-hh*1.4)) : pSN;
+    col=mix(mix(seaC,lS,A),iS,IA)*uDim; }
   o=vec4(col/255.,1.);
 }`;
   const sh=(type,src)=>{ const s=gl.createShader(type); gl.shaderSource(s,src); gl.compileShader(s); if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
@@ -1324,11 +1351,12 @@ void main(){
       for(const [n,v] of Object.entries(P.i)) gl.uniform1i(u(n),v);
       for(const [n,v] of Object.entries(P.c)) gl.uniform3f(u(n),v[0],v[1],v[2]);
       gl.uniform1i(u('uHasReg'),has.R?1:0); gl.uniform1i(u('uHasS'),has.S?1:0); if(!has.I){ gl.uniform1i(u('uIce'),0); gl.uniform1i(u('uFarm'),0); }
-      gl.uniform3fv(u('cB'),P.cB.flat()); gl.uniform1fv(u('uFS'),FSUIT); gl.uniform1fv(u('uFP'),FPOT);
+      gl.uniform3fv(u('cB'),P.cB.flat()); gl.uniform3fv(u('cP'),PAINT.cls.map(hex).flat()); gl.uniform1fv(u('uFS'),FSUIT); gl.uniform1fv(u('uFP'),FPOT);
       const rf=new Float32Array(48).fill(-1); P.RF.forEach((r,i)=>{ if(i<24){ rf[i*2]=r.f0; rf[i*2+1]=r.now===null?-1:r.now; } }); gl.uniform2fv(u('uRF'),rf);
       gl.drawArrays(gl.TRIANGLES,0,3); return true; } };
   return api;
 } catch(err){ console.warn('WebGL2 base map unavailable, using CPU fallback:',err); return null; } })();
+legendPaint(); $('lyPaint').addEventListener('change',legendPaint);
 // land (1), ice (2) or sea (0) for a raster cell, with the parameters of the last base build
 function flagAt(p){
   if(baseP.ice){ const on=iceD[p*4], off=iceD[p*4+1]; if((baseP.deep ? bio&&landCell(p,baseP.D,baseP.bp)&&bioCls(terr[p*4+2]<baseP.b.bt255?baseP.b.nb:baseP.b.si,p,terr[p*4+1],terr[p*4+2])===9 : on>0&&on<=baseP.cc&&(off===255||off>baseP.cc))||p>=GW*(GH-48)) return 2; }
@@ -1342,7 +1370,7 @@ function buildBase(y,sea){
   // GPU: zoomed out, the whole world at grid resolution (canvas scales it down smoothly); zoomed in (cells > 2 px), only the visible view at device resolution
   const Wd=360*mv.k*dpr, Ww=Wd<=GW?GW:GW*2;
   const view = Wd<=GW*2 ? {w:Ww, h:Ww/2, lon0:-180, lat0:90, dpp:360/Ww, world:1} : {w:Math.round(MW*dpr), h:Math.round(MH*dpr), lon0:UNX(0), lat0:UNY(0), dpp:1/(mv.k*dpr), world:0};
-  const key = gpu ? [D.toFixed(2),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?1:0,useFarm?1:0,useForest?1:0,y,col['sea-deep'],col.b1,view.w,view.h,view.lon0,view.lat0,view.dpp,elevOK].join('|')
+  const key = gpu ? [LY.paint?'P':'C',D.toFixed(2),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?1:0,useFarm?1:0,useForest?1:0,y,col['sea-deep'],col.b1,view.w,view.h,view.lon0,view.lat0,view.dpp,elevOK].join('|')
       : [D.toFixed(1),slw?Math.round(yearBP(y)/50):'',useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',useBio?b.si+':'+b.bt.toFixed(2):'r',gf.toFixed(2),useFarm?fy:'f',useForest?Math.round(y/(y<1500?100:10))+':'+b.si+':'+b.bt.toFixed(2):'n',col['sea-deep'],col.b1].join('|');
   if(key===baseKey) return;
   const now=performance.now();
@@ -1352,9 +1380,9 @@ function buildBase(y,sea){
   const sd=hex(col['sea-deep']), ss=hex(col['sea-shallow']), ll=hex(col['land-low']), lh=hex(col['land-high']), sh=hex(col.shelf), ic=hex(col.ice), gr=hex(col.green), fm=hex(col.farm);
   if(gpu){ const gK=ke(y), gRatio = y< -8000 ? 1 : interp(FORESTG,gK)/6.0;
     const ok=GLB.draw({ view,
-      f:{uBP:bp,uD:D,uCC:cc,uBt:b.bt255,uGf:gf,uY:y,uLate:y>1850?1+Math.min(1,(y-1850)/100)*0.45:1,uGEff:1-(1-gRatio)*0.6},
-      i:{uSi:b.si,uNb:b.nb,uBio:useBio?1:0,uFarm:useFarm?1:0,uIce:useIce?1:0,uForest:useForest?1:0,uHasBio:bio?1:0,uDeep:deep?1:0},
-      c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared)},
+      f:{uBP:bp,uD:D,uCC:cc,uBt:b.bt255,uGf:gf,uY:y,uLate:y>1850?1+Math.min(1,(y-1850)/100)*0.45:1,uGEff:1-(1-gRatio)*0.6,uSea:sea,uTA:Math.min(0,interp(TMP,ke(y))||0),uDim:darkTheme()?.8:1},
+      i:{uSi:b.si,uNb:b.nb,uBio:useBio?1:0,uFarm:useFarm?1:0,uIce:useIce?1:0,uForest:useForest?1:0,uHasBio:bio?1:0,uDeep:deep?1:0,uPaint:LY.paint?1:0},
+      c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared),...Object.fromEntries(Object.entries(PAINT.c).map(([n,v])=>[n,hex(v)]))},
       cB:[ll,hex(col.b1),hex(col.b2),hex(col.b3),hex(col.b4),hex(col.b5),hex(col.b6),hex(col.b7),hex(col.b8),ic,hex(col.b10)],
       RF:FREG.map(r=>({f0:fregAt(r,-8000), now:y<-8000?null:fregAt(r,y)})) });
     if(ok){ baseSrc=glc; baseWorld=view.world; mc.dataset.renderer='webgl2'; if(landChanged) buildLand(); return; } }

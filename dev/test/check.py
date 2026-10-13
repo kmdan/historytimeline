@@ -4,7 +4,7 @@ Needs the local server running:  python -m http.server 8765   (from the project 
 Run:  python dev/test/check.py [outdir]
 
 1. errors: loads the page, collects console errors / failed requests
-2. compare: GPU (WebGL2) vs ?cpu renderer, mean pixel difference of the map canvas at several years
+2. compare: GPU (WebGL2, ?classic colours) vs ?cpu renderer, mean pixel difference of the map canvas at several years
 3. scrub: drags the timeline through the Ice Age and reports main-thread long tasks + map redraws
 4. screenshots: atlas at a few years, light and dark, plus a 375 px phone view
 """
@@ -37,7 +37,7 @@ def main():
     report = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(channel='msedge', headless=True, args=['--use-angle=swiftshader', '--enable-unsafe-swiftshader'])
-        gpu, e1 = open_page(browser)
+        gpu, e1 = open_page(browser, '?classic')   # Classic colours: the Painted style (default) is GPU-only by design
         report['renderer'] = gpu.evaluate("() => document.getElementById('map').dataset.renderer")
         cpu, e2 = open_page(browser, '?cpu')
         report['renderer_cpu_page'] = cpu.evaluate("() => document.getElementById('map').dataset.renderer")
