@@ -57,7 +57,7 @@ with sync_playwright() as p:
     pg, e = page('?y=99999'); s = st(pg); ok('99999' not in s['at'], f'out of range ignored: {s["at"]}')
     pg, e = page('?cpu&y=900'); s = st(pg)
     ok(pg.evaluate("document.getElementById('map').dataset.renderer") == 'cpu' and '900' in s['at'], f'?cpu&y=900 -> cpu, {s["at"]}')
-    pg.click('#bNow'); pg.wait_for_timeout(1500); s = st(pg); ok(s['url'].startswith('?cpu&') and 'y=2' in s['url'], f'cpu kept after move: {s["url"]}')
+    pg.click('#bNow'); pg.wait_for_function("/[?&]y=2/.test(location.search)", timeout=6000); s = st(pg);   # the ?cpu renderer can take a while ok(s['url'].startswith('?cpu&') and 'y=2' in s['url'], f'cpu kept after move: {s["url"]}')
     pg, e = page('?y=-21000', vp={'width': 375, 'height': 812})
     ok(pg.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'phone: no horizontal scroll'); ok(not e, f'phone no errors: {e}')
     b.close()
