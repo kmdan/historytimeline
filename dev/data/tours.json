@@ -1891,7 +1891,7 @@
     ]
    },
    {
-    "y": 1346,
+    "y": 1346.6,
     "lat": 45.0,
     "lon": 35.4,
     "z": 8,
@@ -1909,7 +1909,7 @@
     ]
    },
    {
-    "y": 1347,
+    "y": 1347.84,
     "lat": 37,
     "lon": 30,
     "z": 6,
@@ -1932,7 +1932,7 @@
     ]
    },
    {
-    "y": 1348,
+    "y": 1348.26,
     "lat": 41,
     "lon": 10,
     "z": 8,
@@ -1960,7 +1960,7 @@
     ]
    },
    {
-    "y": 1348,
+    "y": 1348.76,
     "lat": 31,
     "lon": 33,
     "z": 8,
@@ -1988,7 +1988,7 @@
     ]
    },
    {
-    "y": 1348,
+    "y": 1348.8,
     "lat": 50,
     "lon": 0,
     "z": 8,
@@ -2016,7 +2016,7 @@
     ]
    },
    {
-    "y": 1349,
+    "y": 1349.13,
     "lat": 49,
     "lon": 9,
     "z": 8,
@@ -2044,7 +2044,7 @@
     ]
    },
    {
-    "y": 1349,
+    "y": 1349.84,
     "lat": 60,
     "lon": 9,
     "z": 8,
@@ -2072,7 +2072,7 @@
     ]
    },
    {
-    "y": 1353,
+    "y": 1353.34,
     "lat": 56.5,
     "lon": 33,
     "z": 8,
@@ -2100,7 +2100,7 @@
     ]
    },
    {
-    "y": 1353,
+    "y": 1353.6,
     "lat": 48,
     "lon": 15,
     "z": 4,
@@ -2846,6 +2846,441 @@
       "Pinatubo"
      ]
     ]
+   }
+  ]
+ },
+ {
+  "id": "drought-4200",
+  "title": "The 4.2-kiloyear drought",
+  "blurb": "Around 2200 BCE a dry, cool spell hit many regions, and several early states and cities declined at about the same time, though how much the climate caused is debated.",
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  },
+  "steps": [
+   {
+    "y": -2300,
+    "lat": 30.4,
+    "lon": 120.0,
+    "z": 12,
+    "t": "Liangzhu's water city empties",
+    "c": "Liangzhu, a walled city with large dams near Hangzhou, was abandoned around 2300 BCE. Flood layers point to a very wet spell, not drought; whether this belongs to the 4.2 ka event is debated.",
+    "w": "Archaeological ruins of Liangzhu City",
+    "src": "https://en.wikipedia.org/wiki/Archaeological_ruins_of_Liangzhu_City",
+    "look": [
+     [
+      30.3956,
+      119.9908,
+      "Liangzhu City"
+     ]
+    ],
+    "span": 800
+   },
+   {
+    "y": -2250,
+    "lat": 25,
+    "lon": 75,
+    "z": 2,
+    "t": "A climate shift named in stone",
+    "c": "Since 2018 geologists start the Meghalayan stage, our current one, about 4,200 years ago. Its marker is a stalagmite in Mawmluh Cave, India, recording a drier monsoon. Whether the drought was truly global is debated.",
+    "w": "Meghalayan",
+    "src": "https://en.wikipedia.org/wiki/Meghalayan",
+    "look": [
+     [
+      25.2622,
+      91.715,
+      "Mawmluh Cave"
+     ]
+    ],
+    "span": 800
+   },
+   {
+    "y": -2200,
+    "lat": 37.55,
+    "lon": 22.72,
+    "z": 12,
+    "t": "Greece: Early Helladic II ends",
+    "c": "Around 2200 BCE the Early Helladic II culture of mainland Greece ended; at Lerna the 'House of the Tiles' burned. Climate change may have contributed, but destructions were uneven and the link is uncertain.",
+    "w": "Helladic chronology",
+    "src": "https://en.wikipedia.org/wiki/Helladic_chronology",
+    "look": [
+     [
+      37.55,
+      22.717,
+      "Lerna"
+     ]
+    ],
+    "span": 600
+   },
+   {
+    "y": -2170,
+    "lat": 35.5,
+    "lon": 42.5,
+    "z": 8,
+    "t": "Northern Mesopotamia goes quiet",
+    "c": "Harvey Weiss found Tell Leilan in Syria abandoned during a long dry spell around 2200 BCE and linked it to the Akkadian Empire's fall (c. 2154 BCE). Many historians see the collapse as multi-causal; debated.",
+    "w": "Tell Leilan",
+    "src": "https://en.wikipedia.org/wiki/Tell_Leilan",
+    "look": [
+     [
+      36.9572,
+      41.5053,
+      "Tell Leilan"
+     ]
+    ],
+    "span": 600
+   },
+   {
+    "y": -2150,
+    "lat": 28,
+    "lon": 31.5,
+    "z": 6,
+    "t": "Egypt's Old Kingdom breaks apart",
+    "c": "After about 2181 BCE Egypt split into rival centres at Herakleopolis and Thebes: the First Intermediate Period. Very low Nile floods may have caused famine, but scholars have no consensus on that link.",
+    "w": "First Intermediate Period of Egypt",
+    "src": "https://en.wikipedia.org/wiki/First_Intermediate_Period_of_Egypt",
+    "look": [
+     [
+      29.085,
+      30.934,
+      "Herakleopolis"
+     ],
+     [
+      25.7,
+      32.64,
+      "Thebes"
+     ]
+    ],
+    "span": 600
+   },
+   {
+    "y": -2112,
+    "lat": 31.5,
+    "lon": 45.5,
+    "z": 12,
+    "t": "After the Gutians: Ur rises",
+    "c": "Mesopotamian tradition blamed the Gutians for ending Akkad. Utu-hengal of Uruk drove them out around 2119 BCE, and Ur-Nammu founded the Third Dynasty of Ur about 2112 BCE (middle chronology).",
+    "w": "Third Dynasty of Ur",
+    "src": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
+    "look": [
+     [
+      30.9625,
+      46.1031,
+      "Ur"
+     ],
+     [
+      31.322,
+      45.636,
+      "Uruk"
+     ]
+    ],
+    "span": 600
+   },
+   {
+    "y": -2000,
+    "lat": 35,
+    "lon": 113,
+    "z": 6,
+    "t": "Longshan China changes",
+    "c": "Around 2000 BCE population fell and big Longshan centres were abandoned in most areas, possibly through environmental change; Taosi was deserted by about 1900 BCE. The central area led on to Erlitou. Causes are debated.",
+    "w": "Longshan culture",
+    "src": "https://en.wikipedia.org/wiki/Longshan_culture",
+    "look": [
+     [
+      35.8906,
+      111.4972,
+      "Taosi"
+     ]
+    ],
+    "span": 800
+   },
+   {
+    "y": -1900,
+    "lat": 27.5,
+    "lon": 70,
+    "z": 6,
+    "t": "Indus cities thin out",
+    "c": "From about 1900 BCE big Indus cities such as Mohenjo-daro emptied and people moved east into villages. A weaker monsoon and a shrinking Ghaggar-Hakra river are leading explanations, but their role is debated.",
+    "w": "Indus Valley Civilisation",
+    "src": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+    "look": [
+     [
+      27.3292,
+      68.1389,
+      "Mohenjo-daro"
+     ]
+    ],
+    "span": 800
+   }
+  ]
+ },
+ {
+  "id": "little-ice-age",
+  "title": "The Little Ice Age",
+  "blurb": "From roughly 1300 to 1850 the Northern Hemisphere was often colder than before or since, with frozen rivers, advancing glaciers and famines; its dates and causes are still argued over.",
+  "ly": {
+   "lyFigs": false,
+   "lyC14": false,
+   "lyBorders": true,
+   "lyEvents": true,
+   "lyPop": false,
+   "lyFauna": false
+  },
+  "steps": [
+   {
+    "y": 1257,
+    "lat": 10,
+    "lon": 60,
+    "z": 1,
+    "t": "A cold age with fuzzy edges",
+    "c": "There is no agreed start or end: many use about 1300–1850, others the 16th–19th centuries. The huge 1257 Samalas eruption in Indonesia may have helped trigger it, though that is debated.",
+    "w": "1257 Samalas eruption",
+    "src": "https://en.wikipedia.org/wiki/1257_Samalas_eruption",
+    "look": [
+     [
+      -8.41,
+      116.4083,
+      "Samalas"
+     ]
+    ],
+    "span": 800
+   },
+   {
+    "y": 1315,
+    "lat": 51,
+    "lon": 3,
+    "z": 6,
+    "t": "Rain and the Great Famine",
+    "c": "From 1315 to 1317 endless rain and cold ruined harvests across northern Europe; perhaps 10–25% of many towns' people died. It is often linked to the start of the Little Ice Age.",
+    "w": "Great Famine of 1315–1317",
+    "src": "https://en.wikipedia.org/wiki/Great_Famine_of_1315%E2%80%931317",
+    "look": [
+     [
+      51,
+      4.5,
+      "Low Countries"
+     ],
+     [
+      52.5,
+      -1.5,
+      "England"
+     ],
+     [
+      49.5,
+      2.5,
+      "Northern France"
+     ]
+    ],
+    "span": 300
+   },
+   {
+    "y": 1408,
+    "lat": 61,
+    "lon": -45.5,
+    "z": 12,
+    "t": "Norse Greenland falls silent",
+    "c": "A wedding at Hvalsey Church in 1408 is the last written record of the Greenland Norse; the settlements faded during the 1400s. Colder, stormier seas, a falling ivory trade and rising sea level are all proposed; debated.",
+    "w": "Hvalsey Church",
+    "src": "https://en.wikipedia.org/wiki/Hvalsey_Church",
+    "look": [
+     [
+      60.8287,
+      -45.7817,
+      "Hvalsey Church"
+     ]
+    ],
+    "span": 300
+   },
+   {
+    "y": 1600,
+    "lat": 46.6,
+    "lon": 8,
+    "z": 20,
+    "t": "Glaciers push into Grindelwald",
+    "c": "In the 'Grindelwald Fluctuation' (about 1560–1630) Alpine glaciers grew sharply and threatened farms. Volcanic eruptions such as Huaynaputina (1600) are one suspected cause.",
+    "w": "Grindelwald Fluctuation",
+    "src": "https://en.wikipedia.org/wiki/Grindelwald_Fluctuation",
+    "look": [
+     [
+      46.5694,
+      8.0558,
+      "Grindelwald Glacier"
+     ]
+    ],
+    "span": 300
+   },
+   {
+    "y": 1644,
+    "lat": 37,
+    "lon": 113,
+    "z": 6,
+    "t": "Drought and the fall of Ming",
+    "c": "Severe drought hit north China in the 1630s amid famine and revolts. Li Zicheng's rebels took Beijing in April 1644 and the Qing soon followed. Climate was one factor among many; its weight is debated.",
+    "w": "Transition from Ming to Qing",
+    "src": "https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing",
+    "look": [
+     [
+      39.9042,
+      116.4074,
+      "Beijing"
+     ],
+     [
+      34.34,
+      108.94,
+      "Shaanxi"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1648,
+    "lat": 48,
+    "lon": 10,
+    "z": 4,
+    "t": "A 'General Crisis'?",
+    "c": "Wars, revolts and famines peaked across Eurasia in the mid-1600s, including the Thirty Years' War, ended in 1648. Geoffrey Parker links this to Little Ice Age cooling; whether there was one general crisis is debated.",
+    "w": "General Crisis",
+    "src": "https://en.wikipedia.org/wiki/General_Crisis",
+    "look": [
+     [
+      51.9625,
+      7.6256,
+      "Münster"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1658,
+    "lat": 55.4,
+    "lon": 11,
+    "z": 20,
+    "t": "An army marches over the sea",
+    "c": "In February 1658 the winter was so hard that Charles X Gustav's Swedish army crossed the frozen Little and Great Belts to threaten Copenhagen. Denmark gave up Scania and other lands at Roskilde.",
+    "w": "March across the Belts",
+    "src": "https://en.wikipedia.org/wiki/March_across_the_Belts",
+    "look": [
+     [
+      55.35,
+      11.0,
+      "Great Belt"
+     ],
+     [
+      55.6761,
+      12.5683,
+      "Copenhagen"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1684,
+    "lat": 51.5,
+    "lon": -0.1,
+    "z": 20,
+    "t": "Frost fairs on the Thames",
+    "c": "London held fairs on the frozen Thames from 1608 to 1814; the most famous was the Great Frost of 1683–84. It fell in the Maunder Minimum (1645–1715), when sunspots almost vanished; its role in the cooling is debated.",
+    "w": "River Thames frost fairs",
+    "src": "https://en.wikipedia.org/wiki/River_Thames_frost_fairs",
+    "look": [
+     [
+      51.5079,
+      -0.0877,
+      "London Bridge"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1696,
+    "lat": 61,
+    "lon": 24,
+    "z": 8,
+    "t": "Finland loses a third",
+    "c": "Cold summers and early frosts in 1695–97 brought the Great Famine: about a third of Finland's people and a fifth of Estonia's died. Sweden and Norway suffered too.",
+    "w": "Great Famine of 1695–1697",
+    "src": "https://en.wikipedia.org/wiki/Great_Famine_of_1695%E2%80%931697",
+    "look": [
+     [
+      62,
+      25,
+      "Finland"
+     ],
+     [
+      58.6,
+      25,
+      "Estonia"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1698,
+    "lat": 57,
+    "lon": -3.5,
+    "z": 12,
+    "t": "Scotland's 'ill years'",
+    "c": "In the 1690s, Scotland's coldest decade in 750 years, harvests failed again and again; perhaps 5–15% of Scots starved. The crisis helped push Scotland towards union with England in 1707.",
+    "w": "Seven ill years",
+    "src": "https://en.wikipedia.org/wiki/Seven_ill_years",
+    "look": [
+     [
+      57.1497,
+      -2.0943,
+      "Aberdeen"
+     ]
+    ],
+    "span": 200
+   },
+   {
+    "y": 1816,
+    "lat": 20,
+    "lon": 0,
+    "z": 1,
+    "t": "The Year Without a Summer",
+    "c": "The 1815 eruption of Tambora cooled the globe for a year: June snow in New England and crop failures in Europe and China. See the Tambora tour for the full story.",
+    "w": "Year Without a Summer",
+    "src": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "look": [
+     [
+      -8.25,
+      118,
+      "Tambora"
+     ],
+     [
+      43.5,
+      -71.5,
+      "New England"
+     ]
+    ],
+    "span": 100
+   },
+   {
+    "y": 1870,
+    "lat": 46.3,
+    "lon": 7.5,
+    "z": 12,
+    "t": "Glaciers start to retreat",
+    "c": "After about 1850 glaciers worldwide began to shrink as the climate warmed; industrial soot may have sped up early Alpine retreat. Since the late 20th century, human greenhouse gases are the main driver.",
+    "w": "Retreat of glaciers since 1850",
+    "src": "https://en.wikipedia.org/wiki/Retreat_of_glaciers_since_1850",
+    "look": [
+     [
+      46.5694,
+      8.0558,
+      "Grindelwald Glacier"
+     ],
+     [
+      45.9167,
+      6.9333,
+      "Mer de Glace"
+     ]
+    ],
+    "span": 300
    }
   ]
  }

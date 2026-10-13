@@ -20,7 +20,7 @@ for fn, key, sid, (t0, t1) in JOBS:
     places = []
     for q in sorted(json.loads(f.read_text(encoding='utf-8'))[key], key=lambda q: q['t']):
         assert t0 <= q['t'] <= t1 and -90 <= q['lat'] <= 90 and -180 <= q['lon'] <= 180, q
-        places.append({k: q[k] for k in ('n', 'lat', 'lon', 't', 'when', 'approx', 'w') if k in q})
+        places.append({k: q[k] for k in ('n', 'lat', 'lon', 't', 'when', 'approx', 'w', 'pop', 'died', 'mort_note') if k in q})
     blob = json.dumps({'places': places}, ensure_ascii=False, separators=(',', ':')).replace('</', r'<\/')
     html, n = re.subn(rf'(<script id="{sid}" type="application/json">).*?(</script>)', lambda m: m.group(1) + blob + m.group(2), html, flags=re.S)
     assert n == 1, sid

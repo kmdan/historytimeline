@@ -1,5 +1,5 @@
 {
- "source_note": "Earliest farming (Neolithic) dates per site, from English Wikipedia article text and Wikipedia coordinates (fetched 2026-10-13 via the MediaWiki API). t = signed year (BCE negative): start of the farming/Neolithic occupation as stated; midpoint when the start itself is a range or a millennium; years BP converted as 1950-BP (no calibration). 'src' = article the date comes from; 'coords_src' given when coordinates come from a different article (or town/region page, see note). 'spread' = diffusion from the Fertile Crescent; 'centres' = independent domestication centres (not part of the spread surface). Gaps (no Wikipedia site with both coordinates and a date): southern Scandinavia (Funnelbeaker from c. 4100 BCE, replacing Ertebolle c. 3950), Portugal, Paris Basin, Hungary/Slovakia LBK start (c. 5500), Koros sites, Bug-Dniester, Eastern North America (EAC, squash c. 5000 BCE), Ethiopia, Shangshan, Xinglonggou.",
+ "source_note": "Earliest farming (Neolithic) dates per site, from English Wikipedia article text and Wikipedia coordinates (fetched 2026-10-13 via the MediaWiki API). t = signed year (BCE negative): start of the farming/Neolithic occupation as stated; midpoint when the start itself is a range or a millennium; years BP converted as 1950-BP (no calibration). 'src' = article the date comes from; 'coords_src' given when coordinates come from a different article (or town/region page, see note). 'spread' = diffusion from the Fertile Crescent; 'centres' = independent domestication centres (not part of the spread surface). Added 2026-10-13: 20 sites from Pinhasi, Fort & Ammerman 2005, PLoS Biol 3(12):e410, Table S1 (earliest calibrated date per site; t = 1950 - cal BP, 'when' gives the lab number; single dates, some old, hence approx; obviously wrong Table S1 coordinates replaced from Wikidata) and 16 sites from Wikipedia (en/sv/fr/uk) for Scandinavia, Low Countries, Bug-Dniester, Trypillia, Caucasus, Iran, Afghanistan, Indus/Baluchistan, Morocco. Remaining gaps: eastern Maghreb (Neolithic of Capsian tradition), North Caucasus, Eastern North America (EAC, squash c. 5000 BCE), Ethiopia, Shangshan, Xinglonggou.",
  "spread": [
   {
    "n": "Jericho (Tell es-Sultan)",
@@ -403,6 +403,57 @@
    "src": "https://en.wikipedia.org/wiki/Aknashen"
   },
   {
+   "n": "Gyálarét (Körös)",
+   "lat": 46.22,
+   "lon": 20.08,
+   "t": -5945,
+   "when": "Körös; uncal 7090 BP, 7895±95 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
+  },
+  {
+   "n": "Gadachrili Gora (Shulaveri–Shomu)",
+   "lat": 41.3989,
+   "lon": 44.8283,
+   "t": -5877,
+   "when": "bread wheat in Neolithic deposits dated 5922–5832 cal BC",
+   "approx": true,
+   "w": "Gadachrili Gora",
+   "src": "https://en.wikipedia.org/wiki/Gadachrili_Gora",
+   "coords_src": "Wikidata Q4200274 (Imiri village, approximate)"
+  },
+  {
+   "n": "Hacı Elamxanlı Tepe (Azerbaijan)",
+   "lat": 40.97,
+   "lon": 45.705,
+   "t": -5875,
+   "when": "Haci Elamxanli Tepe 5950–5800 BC, a century before Göytepe",
+   "approx": true,
+   "w": "Goytepe archaeological complex",
+   "src": "https://en.wikipedia.org/wiki/Goytepe_archaeological_complex",
+   "coords_src": "Goytepe article (neighbouring site)"
+  },
+  {
+   "n": "Chagylly Depe (Jeitun culture)",
+   "lat": 37.4426,
+   "lon": 59.5134,
+   "t": -5871,
+   "when": "Pottery Neolithic (Jeitun); LE-592, 7821±100 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
+  },
+  {
+   "n": "Endrőd (Körös)",
+   "lat": 46.9536,
+   "lon": 20.7505,
+   "t": -5815,
+   "when": "Körös; GrN-10319, 7765±53 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q18980200 (Endrőd); Table S1 coordinates are wrong",
+   "note": "Körös culture c. 5800–5300 BC (Wikipedia)"
+  },
+  {
    "n": "Arukhlo (Shulaveri–Shomu)",
    "lat": 41.4533,
    "lon": 44.6957,
@@ -433,6 +484,27 @@
    "src": "https://en.wikipedia.org/wiki/Vin%C4%8Da-Belo_Brdo"
   },
   {
+   "n": "Brunn am Gebirge (earliest LBK)",
+   "lat": 48.1069,
+   "lon": 16.2842,
+   "t": -5687,
+   "when": "LBK (Brunn-Wolfholz); ETH-11148, 7637±55 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "w": "Brunn am Gebirge",
+   "note": "Wikipedia calls it the earliest known farming settlement in Austria"
+  },
+  {
+   "n": "Bylany (LBK)",
+   "lat": 49.92,
+   "lon": 15.33,
+   "t": -5654,
+   "when": "LBK; BM-569, 7604±81 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "note": "single early charcoal date; main LBK occupation later"
+  },
+  {
    "n": "Faiyum A",
    "lat": 29.3084,
    "lon": 30.8441,
@@ -445,6 +517,69 @@
    "note": "Coordinates of Faiyum city (Faiyum depression)"
   },
   {
+   "n": "Soroca (Bug–Dniester)",
+   "lat": 48.1558,
+   "lon": 28.2975,
+   "t": -5600,
+   "when": "Körös farmers in the upper Seret/Prut c. 5800–5700 BC; Bug–Dniester people then adopt einkorn, emmer, spelt and cattle",
+   "approx": true,
+   "w": "Bug–Dniester culture",
+   "src": "https://en.wikipedia.org/wiki/Bug–Dniester_culture",
+   "coords_src": "Wikidata Q853785 (town; Soroki sites)",
+   "note": "estimate: t placed after the Körös arrival"
+  },
+  {
+   "n": "Trestiana (Starčevo–Criș, Moldavia)",
+   "lat": 46.1908,
+   "lon": 27.673,
+   "t": -5589,
+   "when": "Starčevo–Criș; uncal 6665 BP, 7539±83 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q12162318 (Trestiana, Vaslui)"
+  },
+  {
+   "n": "Tepe Yahya (Kerman)",
+   "lat": 28.3309,
+   "lon": 56.8674,
+   "t": -5500,
+   "when": "period VII (Neolithic) 5500–4500 BC",
+   "approx": true,
+   "w": "Tepe Yahya",
+   "src": "https://en.wikipedia.org/wiki/Tepe_Yahya",
+   "coords_src": "Wikidata Q384077"
+  },
+  {
+   "n": "Elsloo (LBK)",
+   "lat": 50.9503,
+   "lon": 5.7686,
+   "t": -5466,
+   "when": "LBK; GrN-2311, 7416±94 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q1916586",
+   "note": "old date; Dutch LBK usually put c. 5300 BC"
+  },
+  {
+   "n": "Omal (LBK, Hesbaye)",
+   "lat": 50.65,
+   "lon": 5.2,
+   "t": -5462,
+   "when": "LBK; Hv-9285, 7412±97 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
+  },
+  {
+   "n": "Sion, Planta (Valais)",
+   "lat": 46.2305,
+   "lon": 7.3661,
+   "t": -5455,
+   "when": "Early Neolithic; CRG-280, 7405±79 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q68136 (Sion)"
+  },
+  {
    "n": "Eridu",
    "lat": 30.8158,
    "lon": 45.9961,
@@ -453,6 +588,27 @@
    "approx": true,
    "w": "Eridu",
    "src": "https://en.wikipedia.org/wiki/Eridu"
+  },
+  {
+   "n": "Tall-e Bakun (Fars)",
+   "lat": 29.9133,
+   "lon": 52.8867,
+   "t": -5400,
+   "when": "Bakun period dated 5400–4100 BC",
+   "approx": true,
+   "w": "Tall-e Bakun",
+   "src": "https://en.wikipedia.org/wiki/Tall-e_Bakun",
+   "note": "Chalcolithic; earlier Fars Neolithic (Tall-e Mushki) not dated on Wikipedia"
+  },
+  {
+   "n": "Olszanica (LBK, Kraków)",
+   "lat": 50.0728,
+   "lon": 19.8343,
+   "t": -5398,
+   "when": "LBK; GrN-5384, 7348±63 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q11798100"
   },
   {
    "n": "Ifri Oudadane (Morocco)",
@@ -464,6 +620,18 @@
    "w": "Ifri Oudadane",
    "src": "https://en.wikipedia.org/wiki/Ifri_Oudadane",
    "note": "BP value as given; earliest dated crop in North Africa"
+  },
+  {
+   "n": "Kaf Taht el-Ghar (Morocco)",
+   "lat": 35.55,
+   "lon": -5.4,
+   "t": -5350,
+   "when": "first pottery, domestic cereals and herding in northern Morocco c. 5350 BC",
+   "approx": true,
+   "w": "Préhistoire du Maroc",
+   "src": "https://fr.wikipedia.org/wiki/Pr%C3%A9histoire_du_Maroc",
+   "coords_src": "approximate (cave near Tétouan)",
+   "note": "European-farmer ancestry: Simões et al. 2023, Nature, doi:10.1038/s41586-023-06166-6"
   },
   {
    "n": "Merimde Beni Salama",
@@ -488,6 +656,17 @@
    "note": "Coordinates of the municipality"
   },
   {
+   "n": "Gruta do Caldeirão (Cardial)",
+   "lat": 39.6471,
+   "lon": -8.4167,
+   "t": -5293,
+   "when": "Cardial; OxA-1035, 7243±106 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q66815000",
+   "note": "pt Wikipedia: funerary use from the second half of the 6th millennium BC"
+  },
+  {
    "n": "Cave of El Toro",
    "lat": 36.6272,
    "lon": -4.5183,
@@ -496,6 +675,83 @@
    "approx": false,
    "w": "Cave of El Toro",
    "src": "https://en.wikipedia.org/wiki/Cave_of_El_Toro"
+  },
+  {
+   "n": "Teppe Zagheh (Qazvin plain)",
+   "lat": 35.8233,
+   "lon": 49.975,
+   "t": -5220,
+   "when": "radiocarbon c. 5370–5070 BC (tokens typologically c. 6000 BC)",
+   "approx": true,
+   "w": "Teppe Zagheh",
+   "src": "https://en.wikipedia.org/wiki/Teppe_Zagheh"
+  },
+  {
+   "n": "Armeau (LBK, Paris Basin)",
+   "lat": 48.0458,
+   "lon": 3.3233,
+   "t": -5200,
+   "when": "LBK / Rubané du Bassin parisien; GrN-6781, 7150±95 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q220540 (commune)"
+  },
+  {
+   "n": "Štúrovo (LBK)",
+   "lat": 47.7992,
+   "lon": 18.7181,
+   "t": -5196,
+   "when": "LBK; Bln-559, 7146±123 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikidata Q60038 (town)"
+  },
+  {
+   "n": "Zollchow (LBK, Havelland)",
+   "lat": 52.53,
+   "lon": 12.22,
+   "t": -5195,
+   "when": "LBK; Bln-4199, 7145±86 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
+  },
+  {
+   "n": "Târpești (LBK, Moldavia)",
+   "lat": 47.17,
+   "lon": 26.33,
+   "t": -5183,
+   "when": "LBK / Precucuteni; uncal 6240 BP, 7133±97 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
+  },
+  {
+   "n": "Brześć Kujawski (LBK)",
+   "lat": 52.605,
+   "lon": 18.8981,
+   "t": -5137,
+   "when": "LBK; GrN-9255, 7087±65 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "w": "Brześć Kujawski"
+  },
+  {
+   "n": "Eilsleben (early LBK)",
+   "lat": 52.15,
+   "lon": 11.2167,
+   "t": -5128,
+   "when": "Early LBK; OxA-1627, 7078±121 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "coords_src": "Wikipedia Eilsleben (Table S1 coordinates are off)"
+  },
+  {
+   "n": "Les Grands Traquiers (LBK, Champagne)",
+   "lat": 49.01,
+   "lon": 4.26,
+   "t": -5121,
+   "when": "LBK; Ly-4453, 7071±169 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001"
   },
   {
    "n": "Kückhoven well (LBK)",
@@ -581,6 +837,39 @@
    "src": "https://en.wikipedia.org/wiki/Cueva_de_los_Murci%C3%A9lagos"
   },
   {
+   "n": "Bernashivka (early Trypillia)",
+   "lat": 48.5806,
+   "lon": 27.4831,
+   "t": -4800,
+   "when": "early Trypillia (A) settlement; Cucuteni–Trypillia c. 5050/4800 BC",
+   "approx": true,
+   "w": "Cucuteni–Trypillia culture",
+   "src": "https://en.wikipedia.org/wiki/Cucuteni–Trypillia_culture",
+   "coords_src": "uk Wikipedia Бернашівка (village)",
+   "note": "estimate; earlier farmers (Criș, LBK) were already in Moldavia"
+  },
+  {
+   "n": "Swifterbant (cattle farming)",
+   "lat": 52.5675,
+   "lon": 5.6417,
+   "t": -4650,
+   "when": "transition to cattle farming around 4800–4500 BC; agricultural field 4300–4000 BC",
+   "approx": true,
+   "w": "Swifterbant culture",
+   "src": "https://en.wikipedia.org/wiki/Swifterbant_culture",
+   "coords_src": "Wikidata Q2376829 (village)"
+  },
+  {
+   "n": "Mundigak (Kandahar)",
+   "lat": 31.9039,
+   "lon": 65.5246,
+   "t": -4500,
+   "when": "lowest layer of Period I probably fifth millennium BC",
+   "approx": true,
+   "w": "Mundigak",
+   "src": "https://en.wikipedia.org/wiki/Mundigak"
+  },
+  {
    "n": "Badari",
    "lat": 27,
    "lon": 31.4167,
@@ -603,6 +892,16 @@
    "note": "Earliest (contested) evidence of farming in Ireland; possibly imported animals"
   },
   {
+   "n": "Christiansholm Mose (Zealand, TRB)",
+   "lat": 55.6667,
+   "lon": 12.5833,
+   "t": -4189,
+   "when": "Funnelbeaker; K-750, 6139±117 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "note": "coordinates approximate (Copenhagen area); Funnelbeaker c. 4100 BCE (Wikipedia)"
+  },
+  {
    "n": "Balbridie",
    "lat": 57.0536,
    "lon": -2.4432,
@@ -611,6 +910,18 @@
    "approx": true,
    "w": "Balbridie",
    "src": "https://en.wikipedia.org/wiki/Balbridie"
+  },
+  {
+   "n": "Almhov (Malmö, TRB)",
+   "lat": 55.56,
+   "lon": 12.99,
+   "t": -3950,
+   "when": "farming and herding across Scandinavia from about 3950 BC (C14); cattle at Almhov in the first Neolithic centuries",
+   "approx": true,
+   "w": "Trattbägarkulturen",
+   "src": "https://sv.wikipedia.org/wiki/Trattb%C3%A4garkulturen",
+   "coords_src": "approximate (Hyllie, Malmö)",
+   "note": "sv Wikipedia: Trattbägarkulturen, Sverige under neolitikum"
   },
   {
    "n": "Sarazm",
@@ -655,6 +966,36 @@
    "note": "Neolithic farmstead"
   },
   {
+   "n": "Sohr Damb (Nal, Balochistan)",
+   "lat": 27.6889,
+   "lon": 66.3083,
+   "t": -3800,
+   "when": "c. 3800–2300 BC; Period I 4000/3800–3200 BC",
+   "approx": true,
+   "w": "Sohr Damb",
+   "src": "https://en.wikipedia.org/wiki/Sohr_Damb"
+  },
+  {
+   "n": "Südensee-Damm (Schleswig, early TRB)",
+   "lat": 54.83,
+   "lon": 9.65,
+   "t": -3773,
+   "when": "Neolithic (Funnelbeaker); uncal 4950 BP, 5723±121 cal BP (Pinhasi et al. 2005, Table S1)",
+   "approx": true,
+   "src": "https://doi.org/10.1371/journal.pbio.0030410.st001",
+   "note": "listed under Netherlands in Table S1; coordinates are in Schleswig-Holstein"
+  },
+  {
+   "n": "Amri (Sindh)",
+   "lat": 25.9097,
+   "lon": 67.9236,
+   "t": -3600,
+   "when": "earliest phase 3600–3300 BC",
+   "approx": true,
+   "w": "Amri, Sindh",
+   "src": "https://en.wikipedia.org/wiki/Amri,_Sindh"
+  },
+  {
    "n": "Céide Fields",
    "lat": 54.3069,
    "lon": -9.4578,
@@ -664,6 +1005,36 @@
    "w": "Céide Fields",
    "src": "https://en.wikipedia.org/wiki/C%C3%A9ide_Fields",
    "note": "Millennium midpoint; Bronze/Iron Age reinterpretation proposed"
+  },
+  {
+   "n": "Kalibangan (proto-Harappan)",
+   "lat": 29.4742,
+   "lon": 74.1303,
+   "t": -3500,
+   "when": "proto-Harappan 3500–2500 BC; ploughed field c. 2800 BC",
+   "approx": true,
+   "w": "Kalibangan",
+   "src": "https://en.wikipedia.org/wiki/Kalibangan"
+  },
+  {
+   "n": "Harappa (Ravi phase)",
+   "lat": 30.6289,
+   "lon": 72.8639,
+   "t": -3300,
+   "when": "earliest recognisably Harappan sites c. 3300 BC",
+   "approx": true,
+   "w": "Harappa",
+   "src": "https://en.wikipedia.org/wiki/Harappa"
+  },
+  {
+   "n": "Rehman Dheri (Gomal plain)",
+   "lat": 31.9459,
+   "lon": 70.8851,
+   "t": -3300,
+   "when": "pre-Kot Diji phase RHD I 3300–2800 BC",
+   "approx": true,
+   "w": "Rehman Dheri",
+   "src": "https://en.wikipedia.org/wiki/Rehman_Dheri"
   },
   {
    "n": "Burzahom (Kashmir)",

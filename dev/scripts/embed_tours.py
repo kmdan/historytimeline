@@ -20,7 +20,7 @@ for t in tours:
     assert re.fullmatch(r'[a-z0-9-]+', t['id']), t['id']
     steps = []
     for s in t['steps']:
-        assert isinstance(s['y'], int) and s['y'] != 0 and -500000 <= s['y'] <= 2030, (t['id'], s)
+        assert (isinstance(s['y'], int) or s['y'] > 0) and s['y'] != 0 and -500000 <= s['y'] <= 2030, (t['id'], s)   # CE steps may be fractional (months)
         assert -90 <= s['lat'] <= 90 and -180 <= s['lon'] <= 180, (t['id'], s)
         assert s['t'] and s['c'], (t['id'], s)
         steps.append({k: s[k] for k in KEEP if k in s})
