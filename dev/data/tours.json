@@ -12,7 +12,14 @@
     "t": "Earliest Homo sapiens in Morocco",
     "c": "Fossils from Jebel Irhoud are the oldest known remains with modern-human features. Burnt flint tools found with them are dated to about 315,000 years ago (± 34,000).",
     "w": "Jebel Irhoud",
-    "src": "https://en.wikipedia.org/wiki/Jebel_Irhoud"
+    "src": "https://en.wikipedia.org/wiki/Jebel_Irhoud",
+    "look": [
+     [
+      31.855,
+      -8.8725,
+      "Jebel Irhoud"
+     ]
+    ]
    },
    {
     "y": -128050,
@@ -22,7 +29,14 @@
     "t": "Nesher Ramla: archaic people",
     "c": "Near Ramla, Israel, a skull fragment and jaw about 140,000–120,000 years old belong to archaic humans, not Homo sapiens. Whether they were a distinct population or early Neanderthals is debated.",
     "w": "Nesher Ramla Homo",
-    "src": "https://en.wikipedia.org/wiki/Nesher_Ramla_Homo"
+    "src": "https://en.wikipedia.org/wiki/Nesher_Ramla_Homo",
+    "look": [
+     [
+      31.92,
+      34.87,
+      "Nesher Ramla"
+     ]
+    ]
    },
    {
     "y": -98050,
@@ -32,7 +46,19 @@
     "t": "Early visits to the Levant",
     "c": "Modern humans reached the Levant long before the main dispersal: the Skhul and Qafzeh fossils in Israel are about 120,000–80,000 years old. These early groups seem to have died out or retreated.",
     "w": "Skhul and Qafzeh hominins",
-    "src": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+    "src": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins",
+    "look": [
+     [
+      32.67,
+      34.97,
+      "Skhul"
+     ],
+     [
+      32.68,
+      35.32,
+      "Qafzeh"
+     ]
+    ]
    },
    {
     "y": -88050,
@@ -42,7 +68,14 @@
     "t": "Denny, a hybrid child",
     "c": "A bone fragment from Denisova Cave in Siberia belonged to a girl who died about 90,000 years ago, aged around 13. Her genome shows a Neanderthal mother and a Denisovan father.",
     "w": "Denny (hybrid hominin)",
-    "src": "https://doi.org/10.1038/s41586-018-0455-x"
+    "src": "https://doi.org/10.1038/s41586-018-0455-x",
+    "look": [
+     [
+      51.3975,
+      84.6761,
+      "Denisova Cave"
+     ]
+    ]
    },
    {
     "y": -58050,
@@ -52,7 +85,19 @@
     "t": "The main dispersal begins",
     "c": "Most ancestry of people living outside Africa today comes from one expansion about 70,000–50,000 years ago. Low sea levels narrowed the Bab-el-Mandeb strait; a northern route through Sinai and the Levant is also possible.",
     "w": "Recent African origin of modern humans",
-    "src": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans"
+    "src": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans",
+    "look": [
+     [
+      12.58,
+      43.33,
+      "Bab-el-Mandeb"
+     ],
+     [
+      29.5,
+      33.8,
+      "Sinai"
+     ]
+    ]
    },
    {
     "y": -53050,
@@ -62,7 +107,14 @@
     "t": "Meeting the Neanderthals",
     "c": "Outside Africa, modern humans interbred with Neanderthals, probably in western Asia. Everyone with non-African ancestry carries about 1–4% Neanderthal DNA; the last major gene flow is estimated at about 65,000–47,000 years ago.",
     "w": "Interbreeding between archaic and modern humans",
-    "src": "https://en.wikipedia.org/wiki/Interbreeding_between_archaic_and_modern_humans"
+    "src": "https://en.wikipedia.org/wiki/Interbreeding_between_archaic_and_modern_humans",
+    "look": [
+     [
+      33.0,
+      40.0,
+      "Western Asia"
+     ]
+    ]
    },
    {
     "y": -52050,
@@ -72,7 +124,14 @@
     "t": "Mandrin: an early incursion?",
     "c": "A child's tooth and modern-style tools at Grotte Mandrin, France, are dated to about 54,000 years ago, between Neanderthal layers. Whether this marks a short-lived visit by modern humans is debated.",
     "w": "Grotte Mandrin",
-    "src": "https://en.wikipedia.org/wiki/Grotte_Mandrin"
+    "src": "https://en.wikipedia.org/wiki/Grotte_Mandrin",
+    "look": [
+     [
+      44.469,
+      4.771,
+      "Grotte Mandrin"
+     ]
+    ]
    },
    {
     "y": -50050,
@@ -82,7 +141,14 @@
     "t": "Denisovans of Asia",
     "c": "Denisovans are known mainly from DNA in Denisova Cave, Siberia. Modern humans also mixed with them: about 4–6% of the genome of Melanesians comes from Denisovans, with admixture estimated at about 54,000–44,000 years ago.",
     "w": "Denisovan",
-    "src": "https://en.wikipedia.org/wiki/Denisova_Cave"
+    "src": "https://en.wikipedia.org/wiki/Denisova_Cave",
+    "look": [
+     [
+      51.3975,
+      84.6761,
+      "Denisova Cave"
+     ]
+    ]
    },
    {
     "y": -48050,
@@ -92,7 +158,24 @@
     "t": "Crossing the sea to Sahul",
     "c": "Australia and New Guinea, joined as Sahul by low seas, still required sea crossings. People arrived about 50,000 years ago; an earlier date of about 65,000 years at Madjedbebe is debated.",
     "w": "Madjedbebe",
-    "src": "https://en.wikipedia.org/wiki/Madjedbebe"
+    "src": "https://en.wikipedia.org/wiki/Madjedbebe",
+    "look": [
+     [
+      -12.5,
+      132.9,
+      "Madjedbebe"
+     ],
+     [
+      -6.0,
+      144.0,
+      "New Guinea"
+     ],
+     [
+      -25.0,
+      134.0,
+      "Australia"
+     ]
+    ]
    },
    {
     "y": -44050,
@@ -102,7 +185,19 @@
     "t": "Into Europe",
     "c": "Modern human remains at Bacho Kiro Cave, Bulgaria, date to about 46,000–44,000 years ago, and the Zlatý kůň woman in Czechia to about 45,000 years. The Bacho Kiro people had Neanderthal ancestors only a few generations back.",
     "w": "Bacho Kiro cave",
-    "src": "https://en.wikipedia.org/wiki/Bacho_Kiro_cave"
+    "src": "https://en.wikipedia.org/wiki/Bacho_Kiro_cave",
+    "look": [
+     [
+      42.947,
+      25.43,
+      "Bacho Kiro"
+     ],
+     [
+      49.915,
+      14.07,
+      "Zlatý kůň"
+     ]
+    ]
    },
    {
     "y": -38050,
@@ -112,7 +207,14 @@
     "t": "East Asia: Tianyuan",
     "c": "Bones from Tianyuan Cave near Beijing are 42,000–39,000 years old. The genome belongs to an early branch of the East Asian lineage, related to people in East Asia and some in the Americas.",
     "w": "Tianyuan man",
-    "src": "https://en.wikipedia.org/wiki/Tianyuan_man"
+    "src": "https://en.wikipedia.org/wiki/Tianyuan_man",
+    "look": [
+     [
+      39.66,
+      115.87,
+      "Tianyuan Cave"
+     ]
+    ]
    },
    {
     "y": -30050,
@@ -122,7 +224,19 @@
     "t": "Into the Arctic and Beringia",
     "c": "The Yana site, north of the Arctic Circle in Siberia, shows people living there about 32,000 years ago. From this cold far north, groups later moved into Beringia, the gateway to the Americas.",
     "w": "Yana Rhinoceros Horn Site",
-    "src": "https://en.wikipedia.org/wiki/Yana_Rhinoceros_Horn_Site"
+    "src": "https://en.wikipedia.org/wiki/Yana_Rhinoceros_Horn_Site",
+    "look": [
+     [
+      70.724,
+      135.43,
+      "Yana site"
+     ],
+     [
+      66.0,
+      172.0,
+      "Beringia"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -134,6 +248,10 @@
    "lyFauna": false,
    "lyPop": false,
    "lyEvents": false
+  },
+  "fx": {
+   "walk": true,
+   "hyp": true
   }
  },
  {
@@ -149,7 +267,14 @@
     "t": "Waiting in Beringia",
     "c": "Low seas joined Siberia and Alaska into Beringia, up to 1,000 km wide. Genetics suggests the ancestors of Native Americans split from Siberians about 36,000 years ago and were isolated for thousands of years, perhaps in Beringia.",
     "w": "Beringia",
-    "src": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas"
+    "src": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas",
+    "look": [
+     [
+      65.0,
+      -168.0,
+      "Beringia"
+     ]
+    ]
    },
    {
     "y": -20050,
@@ -159,7 +284,19 @@
     "t": "A wall of ice",
     "c": "At the Last Glacial Maximum, about 26,000–20,000 years ago, ice sheets covered most of Canada. By 21,000 years ago the Cordilleran and Laurentide sheets had joined, blocking an inland route south.",
     "w": "Last Glacial Maximum",
-    "src": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum"
+    "src": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum",
+    "look": [
+     [
+      58.0,
+      -90.0,
+      "Laurentide ice"
+     ],
+     [
+      55.0,
+      -125.0,
+      "Cordilleran ice"
+     ]
+    ]
    },
    {
     "y": -19050,
@@ -169,7 +306,14 @@
     "t": "Footprints at White Sands",
     "c": "Human footprints on the shore of ancient Lake Otero, New Mexico, were dated to about 23,000–21,000 years ago. If correct, people were south of the ice during the glacial maximum; the dates are debated.",
     "w": "White Sands footprints",
-    "src": "https://en.wikipedia.org/wiki/White_Sands_footprints"
+    "src": "https://en.wikipedia.org/wiki/White_Sands_footprints",
+    "look": [
+     [
+      32.9,
+      -106.3,
+      "White Sands"
+     ]
+    ]
    },
    {
     "y": -14050,
@@ -179,7 +323,19 @@
     "t": "The kelp highway",
     "c": "As the ice retreated, the Pacific coast of Alaska and British Columbia opened up, roughly 16,000–15,000 years ago. Rich kelp forests may have fed people travelling south by boat.",
     "w": "Coastal migration (Americas)",
-    "src": "https://en.wikipedia.org/wiki/Coastal_migration_(Americas)"
+    "src": "https://en.wikipedia.org/wiki/Coastal_migration_(Americas)",
+    "look": [
+     [
+      58.0,
+      -136.0,
+      "Alaska coast"
+     ],
+     [
+      52.5,
+      -129.5,
+      "BC coast"
+     ]
+    ]
    },
    {
     "y": -12550,
@@ -189,7 +345,14 @@
     "t": "Monte Verde, Chile",
     "c": "A campsite with wooden structures in southern Chile, usually dated to about 14,500 years ago, showed people had reached South America before Clovis. A 2026 study argues for a much younger age; this is debated.",
     "w": "Monte Verde",
-    "src": "https://en.wikipedia.org/wiki/Monte_Verde"
+    "src": "https://en.wikipedia.org/wiki/Monte_Verde",
+    "look": [
+     [
+      -41.505,
+      -73.204,
+      "Monte Verde"
+     ]
+    ]
    },
    {
     "y": -12350,
@@ -199,7 +362,14 @@
     "t": "Paisley Caves, Oregon",
     "c": "Human coprolites (preserved dung) with human DNA from Paisley Caves are dated to about 14,300 years ago, evidence for people before Clovis. Some of these dates are contested.",
     "w": "Paisley Caves",
-    "src": "https://en.wikipedia.org/wiki/Paisley_Caves"
+    "src": "https://en.wikipedia.org/wiki/Paisley_Caves",
+    "look": [
+     [
+      42.7613,
+      -120.5514,
+      "Paisley Caves"
+     ]
+    ]
    },
    {
     "y": -11850,
@@ -209,7 +379,14 @@
     "t": "The ice-free corridor opens",
     "c": "A passage opened between the shrinking ice sheets east of the Rockies about 13,800 years ago. It may only have been usable for people somewhat later, so it probably was not the first route south.",
     "w": "Ice-free corridor",
-    "src": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas"
+    "src": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas",
+    "look": [
+     [
+      56.0,
+      -116.0,
+      "Ice-free corridor"
+     ]
+    ]
    },
    {
     "y": -11050,
@@ -219,7 +396,19 @@
     "t": "Clovis hunters",
     "c": "Clovis points, first found at Blackwater Draw, New Mexico, spread widely about 13,050–12,750 years ago. The Anzick child in Montana, buried with Clovis tools, is closely related to living Native Americans.",
     "w": "Clovis culture",
-    "src": "https://en.wikipedia.org/wiki/Clovis_culture"
+    "src": "https://en.wikipedia.org/wiki/Clovis_culture",
+    "look": [
+     [
+      34.28,
+      -103.33,
+      "Blackwater Draw"
+     ],
+     [
+      46.0,
+      -110.6,
+      "Anzick site"
+     ]
+    ]
    },
    {
     "y": 1200,
@@ -229,7 +418,19 @@
     "t": "Later Arctic migrations",
     "c": "Paleo-Eskimo peoples spread across the Arctic from about 3900 BCE. The Thule, ancestors of the Inuit, expanded east from Alaska after about 1000 CE and reached Greenland by the 13th century, replacing the Dorset.",
     "w": "Thule people",
-    "src": "https://en.wikipedia.org/wiki/Thule_people"
+    "src": "https://en.wikipedia.org/wiki/Thule_people",
+    "look": [
+     [
+      71.0,
+      -156.0,
+      "Alaska"
+     ],
+     [
+      72.0,
+      -40.0,
+      "Greenland"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -241,6 +442,9 @@
    "lyCoast": true,
    "lyPop": false,
    "lyHomo": false
+  },
+  "fx": {
+   "walk": true
   }
  },
  {
@@ -256,7 +460,19 @@
     "t": "A land bridge to Britain",
     "c": "With sea level about 120 m lower, dry land linked Britain to the continent. Ice covered the northern half of the British Isles and crossed Doggerland towards Denmark.",
     "w": "Doggerland",
-    "src": "https://en.wikipedia.org/wiki/Doggerland"
+    "src": "https://en.wikipedia.org/wiki/Doggerland",
+    "look": [
+     [
+      54.7,
+      2.5,
+      "Doggerland"
+     ],
+     [
+      57.0,
+      -4.0,
+      "British ice sheet"
+     ]
+    ]
    },
    {
     "y": -10550,
@@ -266,7 +482,14 @@
     "t": "Reindeer hunters",
     "c": "During the cold Younger Dryas, about 12,900–11,700 years ago, Ahrensburg hunters followed reindeer across the North European plain, now partly under the sea. At Stellmoor, bones of about 650 reindeer were found.",
     "w": "Ahrensburg culture",
-    "src": "https://en.wikipedia.org/wiki/Ahrensburg_culture"
+    "src": "https://en.wikipedia.org/wiki/Ahrensburg_culture",
+    "look": [
+     [
+      53.63,
+      10.18,
+      "Stellmoor"
+     ]
+    ]
    },
    {
     "y": -9000,
@@ -276,7 +499,14 @@
     "t": "Star Carr, Yorkshire",
     "c": "Hunter-gatherers lived by a lake at Star Carr from about 9300 to 8500 BCE. Finds include antler headdresses, a timber platform and one of Britain's oldest known houses.",
     "w": "Star Carr",
-    "src": "https://en.wikipedia.org/wiki/Star_Carr"
+    "src": "https://en.wikipedia.org/wiki/Star_Carr",
+    "look": [
+     [
+      54.214,
+      -0.423,
+      "Star Carr"
+     ]
+    ]
    },
    {
     "y": -7500,
@@ -286,7 +516,14 @@
     "t": "Mesolithic Doggerland",
     "c": "Doggerland was a lowland of rivers, marshes and lagoons, used by Mesolithic hunters and fishers. Between 10,000 and 7,000 years ago rising seas broke it into islands.",
     "w": "Doggerland",
-    "src": "https://en.wikipedia.org/wiki/Doggerland"
+    "src": "https://en.wikipedia.org/wiki/Doggerland",
+    "look": [
+     [
+      54.5,
+      3.0,
+      "Doggerland"
+     ]
+    ]
    },
    {
     "y": -6500,
@@ -296,7 +533,14 @@
     "t": "Britain becomes an island",
     "c": "By about 6500 BCE the sea had cut Britain off from the mainland.",
     "w": "Doggerland",
-    "src": "https://en.wikipedia.org/wiki/Doggerland"
+    "src": "https://en.wikipedia.org/wiki/Doggerland",
+    "look": [
+     [
+      53.0,
+      -1.5,
+      "Britain"
+     ]
+    ]
    },
    {
     "y": -6200,
@@ -306,7 +550,24 @@
     "t": "The Storegga tsunami",
     "c": "About 6200 BCE an undersea landslide off Norway sent a tsunami across the North Sea, leaving sediment up to 29 km inland in Scotland. Its effect on the remaining Doggerland is debated.",
     "w": "Storegga Slide",
-    "src": "https://en.wikipedia.org/wiki/Storegga_Slide"
+    "src": "https://en.wikipedia.org/wiki/Storegga_Slide",
+    "look": [
+     [
+      64.87,
+      1.3,
+      "Storegga Slide"
+     ],
+     [
+      57.5,
+      -4.0,
+      "Scotland"
+     ],
+     [
+      54.8,
+      2.5,
+      "Doggerland"
+     ]
+    ]
    },
    {
     "y": -5000,
@@ -316,7 +577,14 @@
     "t": "Last island: Dogger Bank",
     "c": "The higher ground of Dogger Bank survived as an island until at least about 5000 BCE, before it too disappeared below the waves.",
     "w": "Dogger Bank",
-    "src": "https://en.wikipedia.org/wiki/Doggerland"
+    "src": "https://en.wikipedia.org/wiki/Doggerland",
+    "look": [
+     [
+      54.75,
+      2.25,
+      "Dogger Bank"
+     ]
+    ]
    },
    {
     "y": 1931,
@@ -326,7 +594,14 @@
     "t": "Trawled from the seabed",
     "c": "In 1931 the trawler Colinda hauled up a lump of peat near the Leman and Ower banks, off Norfolk. Inside was a barbed antler point, proof that people once lived on what is now sea floor.",
     "w": "Doggerland",
-    "src": "https://en.wikipedia.org/wiki/Doggerland"
+    "src": "https://en.wikipedia.org/wiki/Doggerland",
+    "look": [
+     [
+      53.1,
+      2.0,
+      "Leman and Ower"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -353,7 +628,19 @@
     "t": "Seafarers leave Taiwan",
     "c": "Austronesian-speaking farmers and seafarers spread south from Taiwan from about 3000 BCE. They reached the Batanes Islands of the northern Philippines by about 2200 BCE and went on to settle island Southeast Asia.",
     "w": "Austronesian peoples",
-    "src": "https://en.wikipedia.org/wiki/Austronesian_peoples"
+    "src": "https://en.wikipedia.org/wiki/Austronesian_peoples",
+    "look": [
+     [
+      23.7,
+      121.0,
+      "Taiwan"
+     ],
+     [
+      20.45,
+      121.97,
+      "Batanes Islands"
+     ]
+    ]
    },
    {
     "y": -1500,
@@ -363,7 +650,19 @@
     "t": "Lapita in the Bismarck Archipelago",
     "c": "About 1500 BCE the Lapita culture, known for finely stamped pottery, appears in the Bismarck Archipelago. Its seafarers then crossed into islands no humans had reached, such as Vanuatu, where the Teouma cemetery was in use about 1000 BCE.",
     "w": "Lapita culture",
-    "src": "https://en.wikipedia.org/wiki/Lapita_culture"
+    "src": "https://en.wikipedia.org/wiki/Lapita_culture",
+    "look": [
+     [
+      -4.0,
+      151.0,
+      "Bismarck Archipelago"
+     ],
+     [
+      -17.78,
+      168.38,
+      "Teouma"
+     ]
+    ]
    },
    {
     "y": -850,
@@ -373,7 +672,24 @@
     "t": "Fiji, Tonga and Samoa",
     "c": "By about 900–800 BCE Lapita seafarers had settled Fiji, Tonga and Samoa, the first islands of what is now called Polynesia.",
     "w": "Austronesian expansion",
-    "src": "https://en.wikipedia.org/wiki/Austronesian_expansion"
+    "src": "https://en.wikipedia.org/wiki/Austronesian_expansion",
+    "look": [
+     [
+      -17.7,
+      178.0,
+      "Fiji"
+     ],
+     [
+      -21.2,
+      -175.2,
+      "Tonga"
+     ],
+     [
+      -13.8,
+      -172.0,
+      "Samoa"
+     ]
+    ]
    },
    {
     "y": 300,
@@ -383,7 +699,14 @@
     "t": "The long pause",
     "c": "Then the eastward movement stopped. For about 1,500 years or more, West Polynesia remained the edge of the settled Pacific, and Lapita pottery-making faded. Why voyaging paused so long is debated.",
     "w": "Polynesians",
-    "src": "https://en.wikipedia.org/wiki/Polynesians"
+    "src": "https://en.wikipedia.org/wiki/Polynesians",
+    "look": [
+     [
+      -17.0,
+      -174.0,
+      "West Polynesia"
+     ]
+    ]
    },
    {
     "y": 1000,
@@ -393,7 +716,14 @@
     "t": "East Polynesia at last",
     "c": "Around 1000 CE voyagers reached the Society Islands and their neighbours. Radiocarbon studies (Wilmshurst et al. 2011) suggest East Polynesia was settled later and faster than once thought; older estimates are centuries earlier.",
     "w": "Society Islands",
-    "src": "https://en.wikipedia.org/wiki/Society_Islands"
+    "src": "https://en.wikipedia.org/wiki/Society_Islands",
+    "look": [
+     [
+      -17.6,
+      -149.5,
+      "Society Islands"
+     ]
+    ]
    },
    {
     "y": 1050,
@@ -403,7 +733,14 @@
     "t": "Hawaiʻi settled",
     "c": "Far to the north, Polynesians settled Hawaiʻi. A recent survey of radiocarbon dates puts first arrival at about 940–1130 CE; other estimates range from the 1200s to centuries earlier.",
     "w": "History of Hawaii",
-    "src": "https://en.wikipedia.org/wiki/History_of_Hawaii"
+    "src": "https://en.wikipedia.org/wiki/History_of_Hawaii",
+    "look": [
+     [
+      19.6,
+      -155.5,
+      "Hawaiʻi"
+     ]
+    ]
    },
    {
     "y": 1200,
@@ -413,7 +750,14 @@
     "t": "Rapa Nui, far to the east",
     "c": "Rapa Nui (Easter Island) was colonised late, about 1200 CE according to current best estimates. Earlier researchers often cited about 800 CE.",
     "w": "Easter Island",
-    "src": "https://en.wikipedia.org/wiki/Easter_Island"
+    "src": "https://en.wikipedia.org/wiki/Easter_Island",
+    "look": [
+     [
+      -27.12,
+      -109.35,
+      "Rapa Nui"
+     ]
+    ]
    },
    {
     "y": 1200,
@@ -423,7 +767,19 @@
     "t": "Contact with South America",
     "c": "East Polynesians carry a trace of Native American ancestry, closest to the Zenú of Colombia, from contact about 1150–1230 CE (Ioannidis et al. 2020). The South American sweet potato also reached Polynesia before Europeans. Where contact happened is debated.",
     "w": "Pre-Columbian transoceanic contact theories",
-    "src": "https://doi.org/10.1038/s41586-020-2487-2"
+    "src": "https://doi.org/10.1038/s41586-020-2487-2",
+    "look": [
+     [
+      8.75,
+      -75.88,
+      "Zenú, Colombia"
+     ],
+     [
+      -15.0,
+      -140.0,
+      "East Polynesia"
+     ]
+    ]
    },
    {
     "y": 1280,
@@ -433,7 +789,19 @@
     "t": "Aotearoa New Zealand",
     "c": "New Zealand was settled from East Polynesia about 1250–1300 CE. No human traces can be safely dated before the Kaharoa ash of about 1314 CE, and mitochondrial DNA points to 1250–1300.",
     "w": "History of New Zealand",
-    "src": "https://en.wikipedia.org/wiki/History_of_New_Zealand"
+    "src": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+    "look": [
+     [
+      -41.0,
+      174.0,
+      "Aotearoa"
+     ],
+     [
+      -38.23,
+      176.51,
+      "Kaharoa ash"
+     ]
+    ]
    },
    {
     "y": 1976,
@@ -443,7 +811,19 @@
     "t": "Hōkūleʻa revives wayfinding",
     "c": "In 1976 the voyaging canoe Hōkūleʻa sailed from Maui to Tahiti in about 34 days, navigated without instruments by Mau Piailug of Satawal. The voyage helped revive traditional Polynesian wayfinding.",
     "w": "Hōkūleʻa",
-    "src": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%ABle%CA%BBa"
+    "src": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%ABle%CA%BBa",
+    "look": [
+     [
+      20.8,
+      -156.33,
+      "Maui"
+     ],
+     [
+      -17.65,
+      -149.43,
+      "Tahiti"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -453,6 +833,9 @@
    "lyMarks": true,
    "lyPop": false,
    "lyFauna": false
+  },
+  "fx": {
+   "walk": true
   }
  },
  {
@@ -468,7 +851,14 @@
     "t": "Natufian villages",
     "c": "From about 12,500 BCE, Natufian people of the Levant lived in settled villages, harvesting wild cereals and hunting gazelle. The cold, dry Younger Dryas (about 10,900–9,700 BCE) may have pushed them toward cultivation; this idea is debated.",
     "w": "Natufian culture",
-    "src": "https://en.wikipedia.org/wiki/Natufian_culture"
+    "src": "https://en.wikipedia.org/wiki/Natufian_culture",
+    "look": [
+     [
+      32.5,
+      35.5,
+      "Natufian Levant"
+     ]
+    ]
    },
    {
     "y": -9500,
@@ -478,7 +868,14 @@
     "t": "Göbekli Tepe",
     "c": "Around 9500 BCE people at Göbekli Tepe raised huge carved stone pillars. They were hunter-gatherers who may already have used early domestic cereals. Whether settled life led to farming or the reverse is still debated.",
     "w": "Göbekli Tepe",
-    "src": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    "src": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+    "look": [
+     [
+      37.223,
+      38.922,
+      "Göbekli Tepe"
+     ]
+    ]
    },
    {
     "y": -8500,
@@ -488,7 +885,14 @@
     "t": "First crops and herds",
     "c": "In the Fertile Crescent, people domesticated the 'founder crops': einkorn and emmer wheat, barley, lentils, peas and flax. Sheep, goats, cattle and pigs were domesticated here about 10,000–11,000 years ago.",
     "w": "Neolithic founder crops",
-    "src": "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+    "src": "https://en.wikipedia.org/wiki/Neolithic_founder_crops",
+    "look": [
+     [
+      35.5,
+      40.5,
+      "Fertile Crescent"
+     ]
+    ]
    },
    {
     "y": -7000,
@@ -498,7 +902,14 @@
     "t": "Çatalhöyük",
     "c": "Çatalhöyük in central Anatolia, founded about 7100 BCE, flourished around 7000 BCE as one of the largest early farming settlements. Recent work suggests 600–800 residents at a time, far fewer than once estimated.",
     "w": "Çatalhöyük",
-    "src": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk"
+    "src": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk",
+    "look": [
+     [
+      37.667,
+      32.828,
+      "Çatalhöyük"
+     ]
+    ]
    },
    {
     "y": -7000,
@@ -508,7 +919,14 @@
     "t": "Kuk Swamp, New Guinea",
     "c": "Farming was invented independently in the New Guinea highlands. At Kuk Swamp, drainage ditches go back about 9,000 years, and bananas were deliberately planted by about 6,900–6,400 years ago. Earlier dates for taro are debated.",
     "w": "Kuk Swamp",
-    "src": "https://en.wikipedia.org/wiki/Kuk_Swamp"
+    "src": "https://en.wikipedia.org/wiki/Kuk_Swamp",
+    "look": [
+     [
+      -5.78,
+      144.33,
+      "Kuk Swamp"
+     ]
+    ]
    },
    {
     "y": -7000,
@@ -518,7 +936,19 @@
     "t": "Maize and potatoes",
     "c": "In Mexico, maize was domesticated from wild teosinte about 9,000 years ago, most likely in the Balsas River valley. In the Andes, farmers around Lake Titicaca domesticated the potato about 10,000–7,000 years ago.",
     "w": "Maize",
-    "src": "https://en.wikipedia.org/wiki/Maize"
+    "src": "https://en.wikipedia.org/wiki/Maize",
+    "look": [
+     [
+      18.2,
+      -100.0,
+      "Balsas valley"
+     ],
+     [
+      -15.8,
+      -69.4,
+      "Lake Titicaca"
+     ]
+    ]
    },
    {
     "y": -6500,
@@ -528,7 +958,19 @@
     "t": "Rice and millet in China",
     "c": "Rice was first domesticated in the Yangtze valley, probably about 9,000 years ago (estimates vary widely). In the north, the Cishan culture (6500–5000 BCE) grew broomcorn millet and stored it in hundreds of pits.",
     "w": "Cishan culture",
-    "src": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+    "src": "https://en.wikipedia.org/wiki/Neolithic_Revolution",
+    "look": [
+     [
+      30.0,
+      114.0,
+      "Yangtze valley"
+     ],
+     [
+      36.57,
+      114.1,
+      "Cishan"
+     ]
+    ]
    },
    {
     "y": -6200,
@@ -538,7 +980,24 @@
     "t": "Farmers enter Europe",
     "c": "Farming reached Greece about 7000–6500 BCE, brought by farmers expanding from the Aegean and the Near East. The Karanovo culture in Bulgaria and the Starčevo–Körös–Criș culture spread village farming across the Balkans.",
     "w": "Neolithic Europe",
-    "src": "https://en.wikipedia.org/wiki/Neolithic_Europe"
+    "src": "https://en.wikipedia.org/wiki/Neolithic_Europe",
+    "look": [
+     [
+      39.5,
+      22.0,
+      "Greece"
+     ],
+     [
+      42.51,
+      25.91,
+      "Karanovo"
+     ],
+     [
+      44.82,
+      20.7,
+      "Starčevo"
+     ]
+    ]
    },
    {
     "y": -5500,
@@ -548,7 +1007,24 @@
     "t": "Two routes across Europe",
     "c": "Cardial (impressed-ware) farmers spread by sea along the Mediterranean, from western Greece about 6400 BCE to Portugal. From about 5500 BCE, Linear Pottery (LBK) farmers settled central Europe from Hungary to the Paris Basin.",
     "w": "Linear Pottery culture",
-    "src": "https://en.wikipedia.org/wiki/Linear_Pottery_culture"
+    "src": "https://en.wikipedia.org/wiki/Linear_Pottery_culture",
+    "look": [
+     [
+      39.6,
+      -8.3,
+      "Portugal"
+     ],
+     [
+      47.2,
+      19.5,
+      "Hungary"
+     ],
+     [
+      48.8,
+      2.5,
+      "Paris Basin"
+     ]
+    ]
    },
    {
     "y": -4000,
@@ -558,7 +1034,24 @@
     "t": "Britain and Scandinavia",
     "c": "Farming reached Britain and Ireland about 4000 BCE with incoming farmers who largely replaced local hunter-gatherers. In southern Scandinavia the Funnelbeaker culture took up farming from about 4100 BCE.",
     "w": "Neolithic British Isles",
-    "src": "https://en.wikipedia.org/wiki/Neolithic_British_Isles"
+    "src": "https://en.wikipedia.org/wiki/Neolithic_British_Isles",
+    "look": [
+     [
+      53.0,
+      -1.5,
+      "Britain"
+     ],
+     [
+      53.3,
+      -8.0,
+      "Ireland"
+     ],
+     [
+      56.0,
+      10.0,
+      "Southern Scandinavia"
+     ]
+    ]
    },
    {
     "y": -2500,
@@ -568,7 +1061,14 @@
     "t": "Pearl millet in the Sahel",
     "c": "Africa's Sahel had its own crops. Domesticated pearl millet appears in northern Mali by about 2500–2000 BCE, and the Sahel is its suggested area of domestication.",
     "w": "Pearl millet",
-    "src": "https://en.wikipedia.org/wiki/Pearl_millet"
+    "src": "https://en.wikipedia.org/wiki/Pearl_millet",
+    "look": [
+     [
+      17.5,
+      -1.0,
+      "Northern Mali"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -579,6 +1079,10 @@
    "lyMigr": true,
    "lyFauna": false,
    "lyHomo": false
+  },
+  "fx": {
+   "spread": "farming",
+   "walk": true
   }
  },
  {
@@ -594,7 +1098,24 @@
     "t": "The Great Powers club",
     "c": "In the mid-14th century BCE the pharaohs at Amarna exchanged letters and gifts with the kings of Babylon, Assyria, Mitanni, the Hittites and Cyprus, calling one another 'brother'. The archive covers only about 15–30 years.",
     "w": "Amarna letters",
-    "src": "https://en.wikipedia.org/wiki/Amarna_letters"
+    "src": "https://en.wikipedia.org/wiki/Amarna_letters",
+    "look": [
+     [
+      27.645,
+      30.896,
+      "Amarna"
+     ],
+     [
+      32.54,
+      44.42,
+      "Babylon"
+     ],
+     [
+      35.0,
+      33.2,
+      "Cyprus"
+     ]
+    ]
    },
    {
     "y": -1320,
@@ -604,7 +1125,19 @@
     "t": "A ship full of metal",
     "c": "About 1320 BCE a merchant ship sank off Uluburun in southern Turkey. It carried about 10 tons of Cypriot copper and 1 ton of tin, enough for 11 tons of bronze, plus goods from across the region.",
     "w": "Uluburun shipwreck",
-    "src": "https://en.wikipedia.org/wiki/Uluburun_shipwreck"
+    "src": "https://en.wikipedia.org/wiki/Uluburun_shipwreck",
+    "look": [
+     [
+      36.13,
+      29.68,
+      "Uluburun"
+     ],
+     [
+      35.0,
+      33.2,
+      "Cyprus"
+     ]
+    ]
    },
    {
     "y": -1274,
@@ -614,7 +1147,14 @@
     "t": "Battle of Kadesh",
     "c": "In 1274 BCE Ramesses II of Egypt and the Hittite king Muwatalli II fought at Kadesh on the Orontes, one of the largest chariot battles known. Both sides claimed victory; historians see a stalemate.",
     "w": "Battle of Kadesh",
-    "src": "https://en.wikipedia.org/wiki/Battle_of_Kadesh"
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+    "look": [
+     [
+      34.557,
+      36.519,
+      "Kadesh"
+     ]
+    ]
    },
    {
     "y": -1259,
@@ -624,7 +1164,19 @@
     "t": "The oldest surviving peace treaty",
     "c": "About 1259 BCE Ramesses II and Hattusili III agreed a treaty of peace and mutual help. It is the oldest known surviving peace treaty; a copy hangs at the United Nations.",
     "w": "Egyptian–Hittite peace treaty",
-    "src": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
+    "src": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+    "look": [
+     [
+      40.02,
+      34.62,
+      "Hattusa"
+     ],
+     [
+      27.0,
+      31.0,
+      "Egypt"
+     ]
+    ]
    },
    {
     "y": -1198,
@@ -634,7 +1186,14 @@
     "t": "Drought and other strains",
     "c": "Tree rings from Anatolia point to a severe dry spell around 1198–1196 BCE. Drought, famine, earthquakes, raiders and fragile palace economies are all proposed causes; how much each mattered is debated.",
     "w": "Late Bronze Age collapse",
-    "src": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+    "src": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+    "look": [
+     [
+      39.65,
+      31.98,
+      "Anatolia (Gordion)"
+     ]
+    ]
    },
    {
     "y": -1190,
@@ -644,7 +1203,14 @@
     "t": "Ugarit burns",
     "c": "The rich trading port of Ugarit in Syria was destroyed about 1190–1185 BCE and never rebuilt. Its scribes had used one of the earliest alphabets, written in cuneiform signs on clay.",
     "w": "Ugarit",
-    "src": "https://en.wikipedia.org/wiki/Ugarit"
+    "src": "https://en.wikipedia.org/wiki/Ugarit",
+    "look": [
+     [
+      35.602,
+      35.782,
+      "Ugarit"
+     ]
+    ]
    },
    {
     "y": -1180,
@@ -654,7 +1220,14 @@
     "t": "The Hittite capital empties",
     "c": "Hattusa, capital of the Hittite empire, was abandoned around 1180 BCE. Archaeologists think the court and elite left over decades; the fire found in the ruins probably came after.",
     "w": "Hattusa",
-    "src": "https://en.wikipedia.org/wiki/Hattusa"
+    "src": "https://en.wikipedia.org/wiki/Hattusa",
+    "look": [
+     [
+      40.02,
+      34.62,
+      "Hattusa"
+     ]
+    ]
    },
    {
     "y": -1180,
@@ -664,7 +1237,14 @@
     "t": "Mycenaean palaces fall",
     "c": "Around 1180 BCE fire destroyed the palace at Pylos in Greece, as other Mycenaean palaces fell. The blaze baked its clay Linear B tablets, preserving the palace's records.",
     "w": "Pylos",
-    "src": "https://en.wikipedia.org/wiki/Pylos"
+    "src": "https://en.wikipedia.org/wiki/Pylos",
+    "look": [
+     [
+      37.027,
+      21.695,
+      "Pylos"
+     ]
+    ]
    },
    {
     "y": -1175,
@@ -674,7 +1254,19 @@
     "t": "Sea Peoples reach Egypt",
     "c": "In his 8th year, about 1179–1175 BCE, Ramesses III fought invaders by land and sea near the Nile Delta. His temple at Medinet Habu shows the battle; who the 'Sea Peoples' were is still debated.",
     "w": "Battle of the Delta",
-    "src": "https://en.wikipedia.org/wiki/Battle_of_the_Delta"
+    "src": "https://en.wikipedia.org/wiki/Battle_of_the_Delta",
+    "look": [
+     [
+      25.72,
+      32.6,
+      "Medinet Habu"
+     ],
+     [
+      31.0,
+      31.0,
+      "Nile Delta"
+     ]
+    ]
    },
    {
     "y": -1000,
@@ -684,7 +1276,19 @@
     "t": "Iron, Phoenicians and the alphabet",
     "c": "Greece entered a 'Dark Age' (about 1180–800 BCE) and lost writing. Phoenician cities such as Byblos thrived; by about 1000 BCE they used an alphabet that the Greeks later adapted, ancestor of Latin letters.",
     "w": "Phoenician alphabet",
-    "src": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+    "src": "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+    "look": [
+     [
+      34.12,
+      35.65,
+      "Byblos"
+     ],
+     [
+      38.0,
+      23.0,
+      "Greece"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -695,6 +1299,9 @@
    "lyMigr": true,
    "lyPop": false,
    "lyFauna": false
+  },
+  "fx": {
+   "walk": true
   }
  },
  {
@@ -710,7 +1317,14 @@
     "t": "Huts on the Palatine",
     "c": "Legend says Romulus founded Rome in 753 BCE, a date fixed later by the scholar Varro. Archaeology shows hilltop villages with huts on the Palatine in the 9th–8th centuries BCE that slowly grew together.",
     "w": "Founding of Rome",
-    "src": "https://en.wikipedia.org/wiki/Founding_of_Rome"
+    "src": "https://en.wikipedia.org/wiki/Founding_of_Rome",
+    "look": [
+     [
+      41.8894,
+      12.4875,
+      "Palatine"
+     ]
+    ]
    },
    {
     "y": -509,
@@ -720,7 +1334,14 @@
     "t": "Kings out, Republic in",
     "c": "Tradition dates the overthrow of the last king and the start of the Republic to 509 BCE. Many historians think the real story was an aristocratic coup and the date is approximate.",
     "w": "Roman Republic",
-    "src": "https://en.wikipedia.org/wiki/Roman_Republic"
+    "src": "https://en.wikipedia.org/wiki/Roman_Republic",
+    "look": [
+     [
+      41.8925,
+      12.4853,
+      "Rome"
+     ]
+    ]
    },
    {
     "y": -216,
@@ -730,7 +1351,24 @@
     "t": "Italy, Carthage and Cannae",
     "c": "By 264 BCE Rome dominated Italy south of the Po and began the Punic Wars with Carthage. In 216 BCE Hannibal destroyed a Roman army at Cannae, yet Rome fought on and won.",
     "w": "Battle of Cannae",
-    "src": "https://en.wikipedia.org/wiki/Battle_of_Cannae"
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Cannae",
+    "look": [
+     [
+      41.306,
+      16.132,
+      "Cannae"
+     ],
+     [
+      36.853,
+      10.323,
+      "Carthage"
+     ],
+     [
+      41.9,
+      12.5,
+      "Rome"
+     ]
+    ]
    },
    {
     "y": -146,
@@ -740,7 +1378,14 @@
     "t": "Carthage destroyed",
     "c": "In spring 146 BCE, after a three-year siege, Roman troops destroyed Carthage and sold about 50,000 survivors into slavery. Its land became the province of Africa.",
     "w": "Third Punic War",
-    "src": "https://en.wikipedia.org/wiki/Third_Punic_War"
+    "src": "https://en.wikipedia.org/wiki/Third_Punic_War",
+    "look": [
+     [
+      36.853,
+      10.323,
+      "Carthage"
+     ]
+    ]
    },
    {
     "y": -52,
@@ -750,7 +1395,14 @@
     "t": "Caesar conquers Gaul",
     "c": "From 58 to 50 BCE Julius Caesar conquered Gaul, defeating Vercingetorix at Alesia in 52 BCE. Ancient figures of a million dead are seen as exaggerated, but the toll was huge.",
     "w": "Gallic Wars",
-    "src": "https://en.wikipedia.org/wiki/Gallic_Wars"
+    "src": "https://en.wikipedia.org/wiki/Gallic_Wars",
+    "look": [
+     [
+      47.537,
+      4.5,
+      "Alesia"
+     ]
+    ]
    },
    {
     "y": -27,
@@ -760,7 +1412,14 @@
     "t": "Augustus, first emperor",
     "c": "In January 27 BCE the Senate gave Octavian the title Augustus. Rome kept the forms of the Republic but was ruled by one man, and a long era of relative peace, the Pax Romana, began.",
     "w": "Augustus",
-    "src": "https://en.wikipedia.org/wiki/Augustus"
+    "src": "https://en.wikipedia.org/wiki/Augustus",
+    "look": [
+     [
+      41.9,
+      12.5,
+      "Rome"
+     ]
+    ]
    },
    {
     "y": 117,
@@ -770,7 +1429,24 @@
     "t": "The empire at its largest",
     "c": "Under Trajan (98–117 CE) the empire reached its greatest size, adding Dacia and, briefly, Armenia and Mesopotamia. His successor Hadrian soon gave up the eastern conquests.",
     "w": "Trajan",
-    "src": "https://en.wikipedia.org/wiki/Trajan"
+    "src": "https://en.wikipedia.org/wiki/Trajan",
+    "look": [
+     [
+      45.62,
+      23.31,
+      "Dacia"
+     ],
+     [
+      40.2,
+      44.5,
+      "Armenia"
+     ],
+     [
+      33.0,
+      44.0,
+      "Mesopotamia"
+     ]
+    ]
    },
    {
     "y": 270,
@@ -780,7 +1456,14 @@
     "t": "Crisis of the Third Century",
     "c": "Between 235 and 284 CE dozens of emperors rose and fell amid civil wars, invasions, plague and a debased currency. The empire split into three parts until Aurelian reunited it by 274.",
     "w": "Crisis of the Third Century",
-    "src": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century"
+    "src": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+    "look": [
+     [
+      41.9,
+      12.5,
+      "Rome"
+     ]
+    ]
    },
    {
     "y": 330,
@@ -790,7 +1473,14 @@
     "t": "A new Rome in the East",
     "c": "Diocletian (from 284) shared power among four rulers. Constantine reunited the empire and on 11 May 330 dedicated Constantinople, the rebuilt Byzantium, as its new capital.",
     "w": "Constantinople",
-    "src": "https://en.wikipedia.org/wiki/Constantinople"
+    "src": "https://en.wikipedia.org/wiki/Constantinople",
+    "look": [
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ]
+    ]
    },
    {
     "y": 410,
@@ -800,7 +1490,19 @@
     "t": "Divided empire, Rome sacked",
     "c": "After Theodosius I died in 395 the empire was split between his sons, East and West. On 24 August 410 Alaric's Visigoths sacked Rome, the first foreign capture of the city in almost 800 years.",
     "w": "Sack of Rome (410)",
-    "src": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+    "src": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+    "look": [
+     [
+      41.9,
+      12.5,
+      "Rome"
+     ],
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ]
+    ]
    },
    {
     "y": 476,
@@ -810,7 +1512,19 @@
     "t": "The end of the West",
     "c": "In 476 Odoacer deposed the boy emperor Romulus Augustulus and sent the regalia to Constantinople. Historians debate whether this was a 'fall' or a gradual transformation into new kingdoms.",
     "w": "Fall of the Western Roman Empire",
-    "src": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"
+    "src": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+    "look": [
+     [
+      42.5,
+      12.5,
+      "Western Empire"
+     ],
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ]
+    ]
    },
    {
     "y": 1453,
@@ -820,7 +1534,14 @@
     "t": "The last Roman capital falls",
     "c": "The Eastern Roman (Byzantine) Empire lasted almost a thousand years more. On 29 May 1453 the Ottoman sultan Mehmed II captured Constantinople, ending it.",
     "w": "Fall of Constantinople",
-    "src": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+    "src": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "look": [
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -847,7 +1568,14 @@
     "c": "After uniting the Mongol and Turkic tribes of the steppe, Temüjin was proclaimed Genghis Khan at a kurultai (great assembly) at the source of the Onon River in 1206. This is the usual founding date of the Mongol Empire.",
     "w": "Genghis Khan",
     "src": "https://en.wikipedia.org/wiki/Genghis_Khan",
-    "span": 60
+    "span": 60,
+    "look": [
+     [
+      48.8,
+      108.7,
+      "Onon source"
+     ]
+    ]
    },
    {
     "y": 1215,
@@ -858,7 +1586,19 @@
     "c": "The Mongols invaded Western Xia in 1209, which became a vassal in 1210, then turned on the Jin dynasty of northern China. The Jin capital Zhongdu, today's Beijing, surrendered on 31 May 1215.",
     "w": "Mongol conquest of the Jin dynasty",
     "src": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Jin_dynasty",
-    "span": 60
+    "span": 60,
+    "look": [
+     [
+      39.9,
+      116.4,
+      "Zhongdu (Beijing)"
+     ],
+     [
+      38.47,
+      106.27,
+      "Western Xia"
+     ]
+    ]
    },
    {
     "y": 1220,
@@ -869,7 +1609,24 @@
     "c": "After the Khwarazmian Empire executed his envoys, Genghis Khan invaded in 1219. Bukhara, Samarkand (March 1220) and Urgench fell, with huge massacres; medieval death tolls in the millions are considered exaggerated by modern historians, but the losses were enormous.",
     "w": "Mongol invasion of the Khwarazmian Empire",
     "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      39.77,
+      64.42,
+      "Bukhara"
+     ],
+     [
+      39.65,
+      66.96,
+      "Samarkand"
+     ],
+     [
+      42.33,
+      59.15,
+      "Urgench"
+     ]
+    ]
    },
    {
     "y": 1223,
@@ -880,7 +1637,24 @@
     "c": "Two generals, Subutai and Jebe, led a long raid around the Caspian Sea and through the Caucasus. On 31 May 1223 they defeated an army of Rus' princes and Cumans at the Kalka River, in today's eastern Ukraine.",
     "w": "Battle of the Kalka River",
     "src": "https://en.wikipedia.org/wiki/Battle_of_the_Kalka_River",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      47.3,
+      37.6,
+      "Kalka River"
+     ],
+     [
+      42.5,
+      44.5,
+      "Caucasus"
+     ],
+     [
+      42.0,
+      50.5,
+      "Caspian Sea"
+     ]
+    ]
    },
    {
     "y": 1235,
@@ -891,7 +1665,14 @@
     "c": "Genghis Khan died in August 1227 while campaigning against Western Xia; his burial place is unknown. His son Ögedei was elected Great Khan in 1229, conquered the Jin by 1234, and in 1235 walled Karakorum as the imperial capital.",
     "w": "Karakorum",
     "src": "https://en.wikipedia.org/wiki/Karakorum",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      47.2,
+      102.82,
+      "Karakorum"
+     ]
+    ]
    },
    {
     "y": 1241,
@@ -902,7 +1683,24 @@
     "c": "Batu and Subutai conquered the Rus' principalities, sacking Kyiv on 6 December 1240. In April 1241 they crushed a Polish army at Legnica and the Hungarians at Mohi, two days apart.",
     "w": "Mongol invasion of Europe",
     "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      50.45,
+      30.52,
+      "Kyiv"
+     ],
+     [
+      51.21,
+      16.16,
+      "Legnica"
+     ],
+     [
+      47.95,
+      20.97,
+      "Mohi"
+     ]
+    ]
    },
    {
     "y": 1242,
@@ -913,7 +1711,14 @@
     "c": "In 1242 the Mongols pulled back from Central Europe. The traditional reason is Ögedei's death in December 1241; historians debate this and also point to losses, strong stone castles, supply problems and wet, poor pasture.",
     "w": "Mongol invasion of Europe",
     "src": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      48.0,
+      19.0,
+      "Central Europe"
+     ]
+    ]
    },
    {
     "y": 1258,
@@ -924,7 +1729,14 @@
     "c": "Hulagu, a grandson of Genghis Khan, besieged Baghdad, and the last Abbasid caliph surrendered on 10 February 1258. The city was sacked; estimates of the dead range from about 200,000 to over a million and are debated.",
     "w": "Siege of Baghdad (1258)",
     "src": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      33.315,
+      44.366,
+      "Baghdad"
+     ]
+    ]
    },
    {
     "y": 1260,
@@ -935,7 +1747,14 @@
     "c": "On 3 September 1260 the Mamluks of Egypt under Qutuz and Baybars defeated a Mongol army in the Jezreel Valley. It was the first major halt to the Mongol advance, and the Mongols withdrew from the Levant.",
     "w": "Battle of Ain Jalut",
     "src": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      32.55,
+      35.36,
+      "Ain Jalut"
+     ]
+    ]
    },
    {
     "y": 1264,
@@ -946,7 +1765,24 @@
     "c": "After Möngke died in 1259, a civil war between his brothers Kublai and Ariq Böke (1260–1264) broke the empire's unity. It split into the Golden Horde, the Chagatai Khanate, the Ilkhanate in Iran and Kublai's realm in China.",
     "w": "Division of the Mongol Empire",
     "src": "https://en.wikipedia.org/wiki/Division_of_the_Mongol_Empire",
-    "span": 60
+    "span": 60,
+    "look": [
+     [
+      50.0,
+      48.0,
+      "Golden Horde"
+     ],
+     [
+      35.0,
+      52.0,
+      "Ilkhanate"
+     ],
+     [
+      40.0,
+      112.0,
+      "Kublai's realm"
+     ]
+    ]
    },
    {
     "y": 1279,
@@ -957,7 +1793,19 @@
     "c": "Kublai proclaimed the Yuan dynasty in 1271 and took the Song capital Hangzhou in 1276. The last Song forces were destroyed in the naval Battle of Yamen on 19 March 1279, uniting China under Mongol rule.",
     "w": "Battle of Yamen",
     "src": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      30.27,
+      120.16,
+      "Hangzhou"
+     ],
+     [
+      22.2,
+      113.1,
+      "Yamen"
+     ]
+    ]
    },
    {
     "y": 1281,
@@ -968,7 +1816,14 @@
     "c": "Yuan fleets attacked Hakata Bay in Kyushu in 1274 and 1281. Japanese defences, including a stone wall, held, and in 1281 a typhoon wrecked the fleet: the 'kamikaze' or divine wind. Traditional army sizes are thought exaggerated.",
     "w": "Mongol invasions of Japan",
     "src": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      33.62,
+      130.38,
+      "Hakata Bay"
+     ]
+    ]
    },
    {
     "y": 1290,
@@ -979,7 +1834,24 @@
     "c": "Mongol rule made the Silk Road safer for trade, envoys and ideas. Marco Polo left Venice in 1271 and returned in 1295 after years at Kublai's court; how much of his book is first-hand is debated.",
     "w": "Pax Mongolica",
     "src": "https://en.wikipedia.org/wiki/Pax_Mongolica",
-    "span": 60
+    "span": 60,
+    "look": [
+     [
+      45.44,
+      12.33,
+      "Venice"
+     ],
+     [
+      39.47,
+      75.99,
+      "Silk Road"
+     ],
+     [
+      39.9,
+      116.4,
+      "Kublai's court"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -990,6 +1862,9 @@
    "lyEvents": true,
    "lyPop": false,
    "lyFauna": false
+  },
+  "fx": {
+   "walk": true
   }
  },
  {
@@ -1006,7 +1881,14 @@
     "c": "Ancient DNA from graves near Lake Issyk-Kul in Kyrgyzstan, where inscriptions record 'pestilence' deaths in 1338–1339, contains the plague bacterium Yersinia pestis. This strain is the direct ancestor of the Black Death strains (Spyrou et al. 2022).",
     "w": "Black Death",
     "src": "https://doi.org/10.1038/s41586-022-04800-3",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      42.43,
+      77.27,
+      "Lake Issyk-Kul"
+     ]
+    ]
    },
    {
     "y": 1346,
@@ -1017,7 +1899,14 @@
     "c": "The Golden Horde besieged the Genoese port of Caffa in Crimea. One Italian writer, who was not there, reported that the Mongols catapulted plague corpses over the walls; historians debate this, and grain ships may have spread it instead.",
     "w": "Siege of Caffa",
     "src": "https://en.wikipedia.org/wiki/Siege_of_Caffa",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      45.03,
+      35.38,
+      "Caffa"
+     ]
+    ]
    },
    {
     "y": 1347,
@@ -1028,7 +1917,19 @@
     "c": "Ships carried the disease across the Black Sea. It reached Constantinople in summer 1347 and Alexandria in Egypt that autumn, and spread along the trade routes of the eastern Mediterranean.",
     "w": "Black Death",
     "src": "https://en.wikipedia.org/wiki/Black_Death",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ],
+     [
+      31.2,
+      29.92,
+      "Alexandria"
+     ]
+    ]
    },
    {
     "y": 1348,
@@ -1039,7 +1940,24 @@
     "c": "Twelve Genoese galleys brought plague to Messina in Sicily in October 1347. By early 1348 it was in Marseille, Pisa and Florence, and Venice by April. Boccaccio described the horror in Florence.",
     "w": "Black Death in Italy",
     "src": "https://en.wikipedia.org/wiki/Black_Death_in_Italy",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      38.19,
+      15.55,
+      "Messina"
+     ],
+     [
+      43.3,
+      5.37,
+      "Marseille"
+     ],
+     [
+      43.77,
+      11.26,
+      "Florence"
+     ]
+    ]
    },
    {
     "y": 1348,
@@ -1050,7 +1968,24 @@
     "c": "Damascus, Aleppo and Mecca were struck. In Cairo, plague arrived in September 1348 and killed about a third of the people. Estimates for the Middle East are about one third overall.",
     "w": "Black Death in the Middle East",
     "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      30.04,
+      31.24,
+      "Cairo"
+     ],
+     [
+      33.51,
+      36.29,
+      "Damascus"
+     ],
+     [
+      21.42,
+      39.83,
+      "Mecca"
+     ]
+    ]
    },
    {
     "y": 1348,
@@ -1061,7 +1996,24 @@
     "c": "The plague reached the Paris area in June 1348 and Melcombe (Weymouth) in England shortly before 24 June. London was hit that autumn. For England, 40–60% mortality is a widely accepted estimate.",
     "w": "Black Death in England",
     "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      48.857,
+      2.35,
+      "Paris"
+     ],
+     [
+      50.61,
+      -2.46,
+      "Melcombe"
+     ],
+     [
+      51.507,
+      -0.128,
+      "London"
+     ]
+    ]
    },
    {
     "y": 1349,
@@ -1072,7 +2024,24 @@
     "c": "Jews were falsely accused of poisoning wells. On 14 February 1349 much of Strasbourg's Jewish community, reportedly about 2,000 people, was burned; communities in Mainz, Cologne and hundreds of other towns were destroyed.",
     "w": "Black Death Jewish persecutions",
     "src": "https://en.wikipedia.org/wiki/Strasbourg_massacre",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      48.58,
+      7.75,
+      "Strasbourg"
+     ],
+     [
+      49.99,
+      8.27,
+      "Mainz"
+     ],
+     [
+      50.94,
+      6.96,
+      "Cologne"
+     ]
+    ]
    },
    {
     "y": 1349,
@@ -1083,7 +2052,24 @@
     "c": "Plague reached Oslo and, in late summer 1349, Bergen by ship from England, then spread north to Trondheim. Norway may have lost up to about 60% of its people and took centuries to recover.",
     "w": "Black Death in Norway",
     "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      59.91,
+      10.75,
+      "Oslo"
+     ],
+     [
+      60.39,
+      5.32,
+      "Bergen"
+     ],
+     [
+      63.43,
+      10.4,
+      "Trondheim"
+     ]
+    ]
    },
    {
     "y": 1353,
@@ -1094,7 +2080,24 @@
     "c": "Plague reached Pskov and Novgorod in 1352 and Moscow in 1353. Grand Prince Simeon the Proud, his sons and the Metropolitan of Moscow all died of it.",
     "w": "Simeon of Moscow",
     "src": "https://en.wikipedia.org/wiki/Simeon_of_Moscow",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      57.82,
+      28.33,
+      "Pskov"
+     ],
+     [
+      58.52,
+      31.27,
+      "Novgorod"
+     ],
+     [
+      55.76,
+      37.62,
+      "Moscow"
+     ]
+    ]
    },
    {
     "y": 1353,
@@ -1105,7 +2108,19 @@
     "c": "Estimates for Europe range from about 25% to 60% of the population, tens of millions of people. Labour became scarce and wages rose; England's Statute of Labourers (1351) tried to freeze them. Plague returned again and again until the 1600s–1700s.",
     "w": "Black Death",
     "src": "https://en.wikipedia.org/wiki/Black_Death",
-    "span": 40
+    "span": 40,
+    "look": [
+     [
+      50.0,
+      12.0,
+      "Europe"
+     ],
+     [
+      52.5,
+      -1.5,
+      "England"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -1133,7 +2148,14 @@
     "t": "Raid on Lindisfarne",
     "c": "On 8 June 793 Norse raiders sacked the monastery on Lindisfarne, off the coast of Northumbria. The attack shocked Christian Europe and is often taken as the start of the Viking Age.",
     "w": "Lindisfarne",
-    "src": "https://en.wikipedia.org/wiki/Lindisfarne"
+    "src": "https://en.wikipedia.org/wiki/Lindisfarne",
+    "look": [
+     [
+      55.68,
+      -1.8,
+      "Lindisfarne"
+     ]
+    ]
    },
    {
     "y": 795,
@@ -1143,7 +2165,19 @@
     "t": "Raids on Ireland",
     "c": "The Norse are first recorded in Ireland in 795, when they sacked Rathlin Island. Raids on monasteries continued, and from the 830s they built fortified bases; Vikings probably first wintered at Dublin in 840–841.",
     "w": "Norse–Gaels",
-    "src": "https://en.wikipedia.org/wiki/Norse%E2%80%93Gaels"
+    "src": "https://en.wikipedia.org/wiki/Norse%E2%80%93Gaels",
+    "look": [
+     [
+      55.29,
+      -6.2,
+      "Rathlin Island"
+     ],
+     [
+      53.35,
+      -6.26,
+      "Dublin"
+     ]
+    ]
    },
    {
     "y": 862,
@@ -1153,7 +2187,19 @@
     "t": "Rurik and the Rus'",
     "c": "According to the Primary Chronicle, Rurik was invited to rule Novgorod in 862; around 882 his successor Oleg seized Kyiv. The chronicle's account, and how Scandinavian the early Rus' were, are debated.",
     "w": "Rurik",
-    "src": "https://en.wikipedia.org/wiki/Rurik"
+    "src": "https://en.wikipedia.org/wiki/Rurik",
+    "look": [
+     [
+      58.52,
+      31.27,
+      "Novgorod"
+     ],
+     [
+      50.45,
+      30.52,
+      "Kyiv"
+     ]
+    ]
    },
    {
     "y": 865,
@@ -1163,7 +2209,19 @@
     "t": "Great Heathen Army and Danelaw",
     "c": "In 865 a large Danish army landed in East Anglia and soon took York. After Alfred the Great defeated Guthrum in 878, eastern and northern England became the Danelaw, where Danish law applied.",
     "w": "Danelaw",
-    "src": "https://en.wikipedia.org/wiki/Danelaw"
+    "src": "https://en.wikipedia.org/wiki/Danelaw",
+    "look": [
+     [
+      52.6,
+      1.0,
+      "East Anglia"
+     ],
+     [
+      53.96,
+      -1.08,
+      "York"
+     ]
+    ]
    },
    {
     "y": 874,
@@ -1173,7 +2231,19 @@
     "t": "Settling Iceland",
     "c": "Tradition says Ingólfr Arnarson settled Iceland in 874. Settlers came from Norway and the British Isles, many of the latter probably enslaved. By 930 the land was 'fully settled' and the Althing assembly met at Þingvellir.",
     "w": "Settlement of Iceland",
-    "src": "https://en.wikipedia.org/wiki/Settlement_of_Iceland"
+    "src": "https://en.wikipedia.org/wiki/Settlement_of_Iceland",
+    "look": [
+     [
+      64.256,
+      -21.13,
+      "Þingvellir"
+     ],
+     [
+      64.9,
+      -18.5,
+      "Iceland"
+     ]
+    ]
    },
    {
     "y": 885,
@@ -1183,7 +2253,19 @@
     "t": "Siege of Paris",
     "c": "Vikings had sacked Paris in 845. From November 885 to October 886 a large fleet besieged the city but could not take it; Emperor Charles the Fat paid them silver and let them raid Burgundy instead.",
     "w": "Siege of Paris (885–886)",
-    "src": "https://en.wikipedia.org/wiki/Siege_of_Paris_(885%E2%80%93886)"
+    "src": "https://en.wikipedia.org/wiki/Siege_of_Paris_(885%E2%80%93886)",
+    "look": [
+     [
+      48.857,
+      2.35,
+      "Paris"
+     ],
+     [
+      47.0,
+      4.8,
+      "Burgundy"
+     ]
+    ]
    },
    {
     "y": 911,
@@ -1193,7 +2275,19 @@
     "t": "Rollo founds Normandy",
     "c": "In 911 the Frankish king Charles the Simple granted the Viking leader Rollo land around Rouen, in return for baptism and defending the Seine. This became Normandy. The treaty's exact terms are known only from a later writer.",
     "w": "Treaty of Saint-Clair-sur-Epte",
-    "src": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte"
+    "src": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Clair-sur-Epte",
+    "look": [
+     [
+      49.44,
+      1.1,
+      "Rouen"
+     ],
+     [
+      49.0,
+      0.0,
+      "Normandy"
+     ]
+    ]
    },
    {
     "y": 922,
@@ -1203,7 +2297,19 @@
     "t": "Ibn Fadlan meets the Rus'",
     "c": "In 921–922 Ahmad ibn Fadlan travelled with a caliph's embassy from Baghdad to the Volga Bulgars. There he described Rus' traders, likely of Scandinavian origin, and a chieftain's ship burial.",
     "w": "Ahmad ibn Fadlan",
-    "src": "https://en.wikipedia.org/wiki/Ahmad_ibn_Fadlan"
+    "src": "https://en.wikipedia.org/wiki/Ahmad_ibn_Fadlan",
+    "look": [
+     [
+      54.98,
+      49.06,
+      "Volga Bulgars"
+     ],
+     [
+      33.315,
+      44.366,
+      "Baghdad"
+     ]
+    ]
    },
    {
     "y": 985,
@@ -1213,7 +2319,19 @@
     "t": "Erik the Red's Greenland",
     "c": "In the summer of 985 Erik the Red led colonists from Iceland to Greenland. He farmed at Brattahlíð in the Eastern Settlement, near today's Narsarsuaq; a Western Settlement grew near today's Nuuk.",
     "w": "Erik the Red",
-    "src": "https://en.wikipedia.org/wiki/Erik_the_Red"
+    "src": "https://en.wikipedia.org/wiki/Erik_the_Red",
+    "look": [
+     [
+      61.15,
+      -45.52,
+      "Brattahlíð"
+     ],
+     [
+      64.18,
+      -51.72,
+      "Western Settlement"
+     ]
+    ]
    },
    {
     "y": 988,
@@ -1223,7 +2341,19 @@
     "t": "The Varangian Guard",
     "c": "Rus' warriors travelled the rivers to Constantinople. In 988 Vladimir of Kyiv sent about 6,000 men to Emperor Basil II; they became the core of the Varangian Guard, the emperor's Norse bodyguard.",
     "w": "Varangian Guard",
-    "src": "https://en.wikipedia.org/wiki/Varangian_Guard"
+    "src": "https://en.wikipedia.org/wiki/Varangian_Guard",
+    "look": [
+     [
+      41.0086,
+      28.98,
+      "Constantinople"
+     ],
+     [
+      50.45,
+      30.52,
+      "Kyiv"
+     ]
+    ]
    },
    {
     "y": 1021,
@@ -1233,7 +2363,14 @@
     "t": "Vinland: L'Anse aux Meadows",
     "c": "At L'Anse aux Meadows, Newfoundland, Norse visitors cut wood with metal tools. Tree rings tied to a solar storm of 993 date that cutting to 1021, the only exact year for Europeans in America before Columbus.",
     "w": "L'Anse aux Meadows",
-    "src": "https://doi.org/10.1038/s41586-021-03972-8"
+    "src": "https://doi.org/10.1038/s41586-021-03972-8",
+    "look": [
+     [
+      51.596,
+      -55.533,
+      "L'Anse aux Meadows"
+     ]
+    ]
    },
    {
     "y": 1066,
@@ -1243,7 +2380,14 @@
     "t": "Stamford Bridge, 1066",
     "c": "On 25 September 1066 King Harold of England defeated the Norwegian king Harald Hardrada at Stamford Bridge. It is traditionally seen as the end of the Viking Age, though Scandinavian campaigns in Britain continued for decades.",
     "w": "Battle of Stamford Bridge",
-    "src": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge"
+    "src": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
+    "look": [
+     [
+      53.99,
+      -0.91,
+      "Stamford Bridge"
+     ]
+    ]
    }
   ],
   "ly": {
@@ -1255,6 +2399,9 @@
    "lyEvents": true,
    "lyPop": false,
    "lyFauna": false
+  },
+  "fx": {
+   "walk": true
   }
  }
 ]
