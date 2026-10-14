@@ -245,9 +245,11 @@
    "lyHomo": true,
    "lyMigr": true,
    "lyIce": true,
-   "lyFauna": false,
+   "lyFauna": true,
    "lyPop": false,
-   "lyEvents": false
+   "lyEvents": false,
+   "lyMarks": true,
+   "lyBiome": true
   },
   "fx": {
    "walk": true,
