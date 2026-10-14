@@ -1862,7 +1862,7 @@ const tnoteEl=document.getElementById('tnote');
 function drawTips(){ if(!storyTips){ if(tipCur){ tipCur=null; tnoteEl.hidden=true; } return false; }
   const q=storyTips.q, u=(performance.now()-storyTips.t0)/1000;
   if(tipCur!==q){ tipCur=q; const m=picFor(q.img), [C,R]=PIMG?PIMG._grid:[1,1];
-    tnoteEl.innerHTML=`${m?`<i style="background-image:url(atlas/pimg/s${m.s}.webp);background-size:${C*100}% ${R*100}%;background-position:${m.c%C/(C-1)*100}% ${Math.floor(m.c/C)/(R-1)*100}%"></i>`:''}<span><b>${esc(q.h)}</b>${esc(q.t)}</span>`; tnoteEl.hidden=false; }
+    tnoteEl.innerHTML=`${m?`<i style="background-image:url(atlas/pimg/s${m.s}.webp${PIMG._v?'?v='+PIMG._v[m.s]:''});background-size:${C*100}% ${R*100}%;background-position:${m.c%C/(C-1)*100}% ${Math.floor(m.c/C)/(R-1)*100}%"></i>`:''}<span><b>${esc(q.h)}</b>${esc(q.t)}</span>`; tnoteEl.hidden=false; }
   const a=Math.max(0,Math.min(1,(u-0.5)/0.4)); tnoteEl.style.opacity=a;
   const x=PX(q.lon), yy=PY(q.lat), w=tnoteEl.offsetWidth, h=tnoteEl.offsetHeight;
   // beside the place, kept inside the map and off the tour card
@@ -2260,11 +2260,11 @@ function showTip(x,y,text){ tip.textContent=text; tip.style.left=x+'px'; tip.sty
 
 // pictures: lead image of the item's Wikipedia article, shipped as small files (dev/scripts/build_popup_images.py)
 let PIMG={};
-fetch('atlas/pimg/index.json').then(r=>r.json()).then(d=>{ PIMG=d; if(selected) select(selected); if(tourRun) tourRender(); }).catch(()=>{});
+fetch('atlas/pimg/index.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{ PIMG=d; if(selected) select(selected); if(tourRun) tourRender(); }).catch(()=>{});
 const picFor = t => t&&t!=='_grid'&&PIMG[t]||null;
 // pictures are cells of sprite sheets (the artifact allows only 511 files): background sized to the grid, positioned on the cell
 const picHTML = (m,alt) => { const [C,R]=PIMG._grid, x=m.c%C, y=Math.floor(m.c/C);
-  return `<a class="pphoto" href="${commonsUrl(m.file)}" target="_blank" rel="noopener"><i role="img" aria-label="${esc(alt)}" style="background-image:url(atlas/pimg/s${m.s}.webp);background-size:${C*100}% ${R*100}%;background-position:${x/(C-1)*100}% ${y/(R-1)*100}%"></i><span>${esc([m.artist,m.lic].filter(Boolean).join(' · '))} ↗</span></a>`; };
+  return `<a class="pphoto" href="${commonsUrl(m.file)}" target="_blank" rel="noopener"><i role="img" aria-label="${esc(alt)}" style="background-image:url(atlas/pimg/s${m.s}.webp${PIMG._v?'?v='+PIMG._v[m.s]:''});background-size:${C*100}% ${R*100}%;background-position:${x/(C-1)*100}% ${y/(R-1)*100}%"></i><span>${esc([m.artist,m.lic].filter(Boolean).join(' · '))} ↗</span></a>`; };
 // popup with description, picture and Wikipedia link
 let popTimer=0, popCur=null, overPop=false, popK=null, popSticky=false;
 function popHTML(i){ const links=[], pic=picFor(i.img)||picFor(i.w);
