@@ -1,3 +1,34 @@
+# Tier list (merged 2026-10-14: university syllabi + 15 European school curricula)
+
+Score = how widely taught (school + university) x dated map data exists x missing from the page.
+
+**Done:** cities (Reba 2016 + Buringh 2021), trade routes, voyages of exploration, crops (wild ancestor -> crop, journeys),
+Silk Roads tour, farming spread, Black Death, migrations before 1900, human origins / Ice Ages.
+
+**S tier (taught almost everywhere, missing, map-friendly)**
+1. Spread of religions: Reformation (1517 -> dated adoptions, SPREADS front; Hussites prelude), plus Christianity, Islam, Buddhism fronts.
+2. Columbian Exchange & Age of Exploration tour (voyages + crops already on the map; Americas population collapse, debated ranges).
+3. Age of revolutions 1775–1849: American, French, Haitian, Latin American independence, 1848 uprisings (dated points + tour).
+4. Industrialisation / Great Divergence: first railways by year, coalfields, Maddison GDP per head (CC BY 4.0).
+5. Atlantic slave trade + abolition dates (SlaveVoyages, CC BY-NC; careful wording).
+6. Colonial empires and independence years per territory (pre-1900 on the map; 20th-c. decolonisation as events).
+
+**A tier (common, good data)**
+7. Animal domestication centres + dates (Larson et al. 2014): archaeology's #1 topic, companion to crops.
+8. Dated campaigns/routes: Crusades, Migration Period, Magyar conquest 895, Mongol and Ottoman expansion, Alexander + Greek colonies.
+9. First cities / early states tour (cities layer exists): Uruk, Egypt, Indus, Shang, Mesoamerica.
+10. Writing, metallurgy and technology firsts (writing systems, bronze/iron spread).
+11. Renaissance and Enlightenment as timeline events (none on the page today).
+
+**B tier (narrower audience or weaker data)**
+12. Cholera pandemics 1817–1899 (plague-layer method).
+13. Border-change moments: Congress of Vienna, unifications, partitions of Poland (Cliopatria covers states).
+14. Ancient DNA ancestry (AADR, licence unstated); tours: Bantu expansion, Indo-European languages.
+15. Method explainers: radiocarbon dating, dating methods by age range.
+16. Social history layers: literacy, life expectancy, heights, real wages (Clio-Infra, licences to check).
+
+**Scope (user to confirm):** world wars, Holocaust, Cold War: taught everywhere but after 1900; timeline events only.
+
 # Curriculum gap check (2026-10-14)
 
 What top universities teach in world history, archaeology and historical sociology/economic history, compared with
