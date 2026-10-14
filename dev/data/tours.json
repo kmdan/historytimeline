@@ -490,6 +490,49 @@
       "lon": 135.43
      }
     ]
+   },
+   {
+    "y": -28050,
+    "lat": 20,
+    "lon": 70,
+    "z": 1,
+    "t": "The last ones standing",
+    "c": "By about 30,000 years ago, as far as the fossils show, Homo sapiens was the only human left. Neanderthals disappeared around 40,000 years ago and the Flores humans by about 50,000; the youngest Denisovan bone, from Tibet, is 48,000–32,000 years old. Why the others vanished (competition, climate, small populations, or being absorbed through interbreeding) is debated. Their genes live on in us.",
+    "w": "Neanderthal extinction",
+    "src": "https://en.wikipedia.org/wiki/Neanderthal_extinction",
+    "look": [
+     [
+      45.0,
+      5.0,
+      "Neanderthals"
+     ],
+     [
+      35.45,
+      102.57,
+      "Last Denisovans"
+     ],
+     [
+      -8.53,
+      120.46,
+      "Flores"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Neanderthals in us",
+      "t": "People outside Africa carry about 2% Neanderthal DNA on average; East Asians slightly more than Europeans.",
+      "lat": 48.0,
+      "lon": 10.0,
+      "img": "Neanderthal"
+     },
+     {
+      "h": "Denisovans in us",
+      "t": "Melanesians carry roughly 5% Denisovan DNA; the Ayta Magbukon of the Philippines carry the most known, about a third more than Papuans.",
+      "lat": -6.0,
+      "lon": 144.0,
+      "img": "Denisovan"
+     }
+    ]
    }
   ],
   "ly": {
