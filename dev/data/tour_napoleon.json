@@ -1,0 +1,850 @@
+{
+ "id": "napoleon",
+ "title": "The rise and fall of Napoleon",
+ "blurb": "From the coup of 1799 to Waterloo and St Helena: the battles, the reforms that outlived him, and the cost in lives across Europe and beyond.",
+ "cat": "Revolutions & empires",
+ "steps": [
+  {
+   "y": 1799.859,
+   "lat": 48.85,
+   "lon": 2.25,
+   "z": 7,
+   "t": "A general takes power",
+   "c": "Back from his Egyptian expedition, General Bonaparte overthrew the Directory on 9–10 November 1799 (18–19 Brumaire). When the Council of Five Hundred at Saint-Cloud shouted him down, his brother Lucien called in the grenadiers. A new constitution made him First Consul, and a plebiscite approved it. Ten years of revolution ended in the rule of one man.",
+   "w": "Coup of 18 Brumaire",
+   "look": [
+    [
+     48.845,
+     2.218,
+     "Saint-Cloud"
+    ],
+    [
+     48.862,
+     2.33,
+     "Tuileries"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A stone left behind",
+     "t": "In July 1799 French soldiers found the Rosetta Stone near Rashid in Egypt. The British took it in 1801; it has been in the British Museum since 1802.",
+     "lat": 31.4,
+     "lon": 30.42
+    },
+    {
+     "h": "A bank for the state",
+     "t": "The Banque de France was founded in January 1800. With the franc germinal of 1803 it gave France a stable currency for over a century.",
+     "lat": 48.865,
+     "lon": 2.338
+    }
+   ],
+   "img_alt": {
+    "file": "File:Bouchot - Le general Bonaparte au Conseil des Cinq-Cents.jpg",
+    "by": "François Bouchot, 1840",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
+    "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "https://en.wikipedia.org/wiki/Bank_of_France"
+   ]
+  },
+  {
+   "y": 1800.451,
+   "lat": 45.3,
+   "lon": 8.0,
+   "z": 5,
+   "t": "Over the Alps to Marengo",
+   "c": "In May 1800 Bonaparte led an army over the Great St Bernard Pass into Austrian-held Italy. At Marengo on 14 June the battle was nearly lost by midday; Desaix's division arrived in the evening and turned it, though Desaix was killed. Moreau's victory at Hohenlinden in December forced Austria to make peace at Lunéville in 1801.",
+   "w": "Battle of Marengo",
+   "look": [
+    [
+     44.886,
+     8.678,
+     "Marengo"
+    ],
+    [
+     45.869,
+     7.17,
+     "Great St Bernard"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Hohenlinden",
+     "t": "On 3 December 1800 Moreau beat the Austrians in the snowy forests east of Munich; Austria lost 13,550–15,500 men, most of them captured.",
+     "lat": 48.16,
+     "lon": 12.0
+    },
+    {
+     "h": "The famous portrait",
+     "t": "David's 'Napoleon Crossing the Alps' shows him on a rearing horse in a storm; in reality the crossing was made in fine weather, led by a guide on a mule.",
+     "lat": 45.869,
+     "lon": 7.17
+    }
+   ],
+   "img_alt": {
+    "file": "File:Lejeune - Bataille de Marengo.jpg",
+    "by": "Louis-François Lejeune, 1800–1801",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Marengo",
+    "https://en.wikipedia.org/wiki/Battle_of_Hohenlinden",
+    "https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps"
+   ]
+  },
+  {
+   "y": 1804.001,
+   "lat": 19.0,
+   "lon": -72.5,
+   "z": 6,
+   "t": "Haiti: the empire's first defeat",
+   "c": "To restore French control of Saint-Domingue, Napoleon sent his brother-in-law Leclerc with about 30,000 men in 1801–02. Toussaint Louverture was tricked, deported and died in a Jura prison in April 1803, and a law of May 1802 kept slavery in other French colonies and was forced back on Guadeloupe. But yellow fever destroyed the army, including Leclerc. After Vertières (18 November 1803) Dessalines declared Haiti independent on 1 January 1804 - the first state born of a successful slave revolt.",
+   "w": "Saint-Domingue expedition",
+   "look": [
+    [
+     19.45,
+     -72.69,
+     "Gonaïves"
+    ],
+    [
+     19.75,
+     -72.2,
+     "Vertières"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Guadeloupe 1802",
+     "t": "Rather than surrender to the troops restoring slavery, Louis Delgrès and his followers blew themselves up at Matouba on 28 May 1802.",
+     "lat": 16.04,
+     "lon": -61.7
+    },
+    {
+     "h": "Selling Louisiana",
+     "t": "With Saint-Domingue lost, Napoleon sold Louisiana to the United States for $15 million in 1803, doubling the size of the country.",
+     "lat": 29.95,
+     "lon": -90.07
+    }
+   ],
+   "img_alt": {
+    "file": "File:Battle for Palm Tree Hill.jpg",
+    "by": "January Suchodolski, 1845",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Saint-Domingue_expedition",
+    "https://en.wikipedia.org/wiki/Haitian_Revolution",
+    "https://en.wikipedia.org/wiki/Law_of_20_May_1802",
+    "https://en.wikipedia.org/wiki/Battle_of_Vertières"
+   ]
+  },
+  {
+   "y": 1804.221,
+   "lat": 48.86,
+   "lon": 2.34,
+   "z": 6,
+   "t": "Order at home: Concordat and Code civil",
+   "c": "The Consulate rebuilt the state. The Concordat of 1801 made peace with the Catholic Church: the state paid and appointed bishops, and church lands sold in the Revolution stayed sold. The Code civil of 21 March 1804 gave all men equality before the law, secure property and civil marriage - but made wives subordinate to their husbands. Prefects, lycées (1802) and the Légion d'honneur (1802) still shape France today.",
+   "w": "Napoleonic Code",
+   "look": [
+    [
+     48.856,
+     2.341,
+     "Paris"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Peace with the Pope",
+     "t": "The Concordat was signed on 15 July 1801. It lasted until 1905 and is still in force in Alsace and Moselle, which were German in 1905.",
+     "lat": 48.853,
+     "lon": 2.35
+    },
+    {
+     "h": "A code in Louisiana",
+     "t": "Louisiana's civil law, unlike that of other US states, still follows the French civil-law tradition shaped by the Code.",
+     "lat": 29.95,
+     "lon": -90.07
+    }
+   ],
+   "img_alt": {
+    "file": "File:Napoleon mauzaisse-1833.jpg",
+    "by": "Jean-Baptiste Mauzaisse, 1833",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Napoleonic_Code",
+    "https://en.wikipedia.org/wiki/Concordat_of_1801",
+    "https://en.wikipedia.org/wiki/Legion_of_Honour"
+   ]
+  },
+  {
+   "y": 1804.922,
+   "lat": 48.853,
+   "lon": 2.35,
+   "z": 8,
+   "t": "An emperor crowns himself",
+   "c": "On 2 December 1804 Napoleon was crowned Emperor of the French in Notre-Dame. Pope Pius VII had come from Rome, but Napoleon placed the crown on his own head and then crowned Joséphine. A plebiscite had approved the empire by a huge majority. David's painting of the scene is almost 10 metres wide.",
+   "w": "Coronation of Napoleon",
+   "look": [
+    [
+     48.853,
+     2.35,
+     "Notre-Dame"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A torn-out dedication",
+     "t": "Beethoven had meant his Third Symphony for Bonaparte; by his pupil Ries' account he withdrew the dedication when he heard of the empire. It premiered in Vienna as the 'Eroica' in 1805.",
+     "lat": 48.208,
+     "lon": 16.37
+    },
+    {
+     "h": "King of Italy too",
+     "t": "On 26 May 1805 Napoleon took the Iron Crown of Lombardy in Milan Cathedral and became King of Italy.",
+     "lat": 45.464,
+     "lon": 9.19
+    }
+   ],
+   "img_alt": {
+    "file": "File:Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg",
+    "by": "Jacques-Louis David, 1805–1807",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Coronation_of_Napoleon",
+    "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+    "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)"
+   ]
+  },
+  {
+   "y": 1805.804,
+   "lat": 40.0,
+   "lon": -6.0,
+   "z": 4,
+   "t": "Trafalgar: the sea stays British",
+   "c": "For two years an army of up to about 200,000 men waited at Boulogne to invade England. It never crossed. On 21 October 1805 Nelson's 27 ships of the line met 33 French and Spanish ships off Cape Trafalgar: 18 were taken or destroyed, about 4,400 Franco-Spanish sailors were killed, and Nelson died of a musket wound. Britain ruled the seas for the rest of the war.",
+   "w": "Battle of Trafalgar",
+   "look": [
+    [
+     36.25,
+     -6.2,
+     "Trafalgar"
+    ],
+    [
+     50.73,
+     1.61,
+     "Boulogne"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Medals at Boulogne",
+     "t": "The first Légion d'honneur awards to soldiers were handed out at the Boulogne camp on 16 August 1804.",
+     "lat": 50.73,
+     "lon": 1.61
+    },
+    {
+     "h": "The storm after",
+     "t": "A gale after the battle wrecked or scattered most of the captured ships off Cádiz.",
+     "lat": 36.53,
+     "lon": -6.29
+    }
+   ],
+   "img_alt": {
+    "file": "File:Turner, The Battle of Trafalgar (1822).jpg",
+    "by": "J. M. W. Turner, 1822–1824",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Trafalgar",
+    "https://en.wikipedia.org/wiki/Camp_of_Boulogne"
+   ]
+  },
+  {
+   "y": 1805.919,
+   "lat": 49.0,
+   "lon": 13.5,
+   "z": 4,
+   "t": "Ulm and Austerlitz",
+   "c": "The Grande Armée marched from the Channel to the Danube in about a month and trapped an Austrian army at Ulm, where about 27,000 men surrendered on 20 October. On 2 December, a year after the coronation, Napoleon beat the Russian and Austrian emperors at Austerlitz: about 9,000 French against 27,000–36,000 allied losses. In 1806 he organised the Confederation of the Rhine, and Francis II ended the thousand-year Holy Roman Empire.",
+   "w": "Battle of Austerlitz",
+   "look": [
+    [
+     48.4,
+     9.99,
+     "Ulm"
+    ],
+    [
+     49.128,
+     16.763,
+     "Austerlitz"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "End of an empire",
+     "t": "Francis II laid down the crown of the Holy Roman Empire on 6 August 1806; he remained Emperor of Austria.",
+     "lat": 48.208,
+     "lon": 16.37
+    },
+    {
+     "h": "An arch for the army",
+     "t": "The Arc de Triomphe was ordered in 1806 after Austerlitz; it was finished only in 1836.",
+     "lat": 48.874,
+     "lon": 2.295
+    }
+   ],
+   "img_alt": {
+    "file": "File:La bataille d'Austerlitz. 2 decembre 1805 (François Gérard).jpg",
+    "by": "François Gérard, 1810",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Austerlitz",
+    "https://en.wikipedia.org/wiki/Battle_of_Ulm",
+    "https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire"
+   ]
+  },
+  {
+   "y": 1806.821,
+   "lat": 51.8,
+   "lon": 12.5,
+   "z": 5,
+   "t": "Jena and Berlin",
+   "c": "Prussia went to war in 1806 and was crushed in a single day: on 14 October Napoleon won at Jena while Davout, outnumbered more than two to one, beat the main Prussian army at Auerstedt. Napoleon entered Berlin on 27 October. From there, on 21 November, he issued the Berlin Decree, closing the Continent to British trade.",
+   "w": "Battle of Jena–Auerstedt",
+   "look": [
+    [
+     50.927,
+     11.586,
+     "Jena"
+    ],
+    [
+     52.52,
+     13.4,
+     "Berlin"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The world-soul on horseback",
+     "t": "The philosopher Hegel, finishing his 'Phenomenology of Spirit' in Jena, wrote on 13 October 1806 that he had seen the emperor, 'this world-soul', ride through the town.",
+     "lat": 50.927,
+     "lon": 11.586
+    },
+    {
+     "h": "A goddess to Paris",
+     "t": "Napoleon had the Quadriga taken from the Brandenburg Gate to Paris; it came back to Berlin in 1814.",
+     "lat": 52.516,
+     "lon": 13.378
+    }
+   ],
+   "img_alt": {
+    "file": "File:Charles Meynier - Entrée de Napoléon à Berlin. 27 octobre 1806.jpg",
+    "by": "Charles Meynier, 1810",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Jena–Auerstedt",
+    "https://en.wikipedia.org/wiki/Continental_System",
+    "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+   ]
+  },
+  {
+   "y": 1807.514,
+   "lat": 53.5,
+   "lon": 16.0,
+   "z": 4,
+   "t": "Tilsit, the blockade and sugar from beets",
+   "c": "After the bloody draw at Eylau and victory at Friedland, Napoleon and Tsar Alexander met on a raft on the Niemen. At Tilsit Prussia lost about half its land, new states appeared (the Duchy of Warsaw, Jérôme's Kingdom of Westphalia), and Russia joined the Continental System. Cut off from cane sugar, Europe turned to sugar beet: Achard's first beet-sugar factory had opened in Silesia in 1801, and France built up a beet-sugar industry that still exists. Smugglers ran British goods in through hubs like Heligoland.",
+   "w": "Treaties of Tilsit",
+   "look": [
+    [
+     55.08,
+     21.88,
+     "Tilsit"
+    ],
+    [
+     54.45,
+     21.02,
+     "Friedland"
+    ],
+    [
+     54.4,
+     20.63,
+     "Eylau"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Smugglers' island",
+     "t": "Britain took Heligoland from Denmark in 1807 and used it as a depot for goods smuggled into the Continent.",
+     "lat": 54.18,
+     "lon": 7.89
+    },
+    {
+     "h": "The emperor tastes sugar",
+     "t": "Napoleon visited Benjamin Delessert's refinery at Passy in 1812, where Quéruel had developed industrial beet-sugar making; Delessert was made a baron.",
+     "lat": 48.857,
+     "lon": 2.28
+    }
+   ],
+   "img_alt": {
+    "file": "File:Treaty of Tilsit.jpg",
+    "by": "Nicolas Gosse, 1837",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaties_of_Tilsit",
+    "https://en.wikipedia.org/wiki/Continental_System",
+    "https://en.wikipedia.org/wiki/Sugar_beet",
+    "https://en.wikipedia.org/wiki/Benjamin_Delessert"
+   ]
+  },
+  {
+   "y": 1808.338,
+   "lat": 40.4,
+   "lon": -3.7,
+   "z": 5,
+   "t": "Spain: guerrilla and Goya",
+   "c": "In 1808 Napoleon forced the Spanish Bourbons to abdicate at Bayonne and made his brother Joseph king. Madrid rose on 2 May; the next day hundreds of people were shot. All Spain revolted: at Bailén in July about 17,000 French soldiers surrendered, and Zaragoza resisted two sieges street by street. Partisan bands fought a 'little war', a guerrilla, and the war cost Spain about 300,000 dead. Goya painted 'The Third of May 1808' in 1814.",
+   "w": "Peninsular War",
+   "look": [
+    [
+     40.417,
+     -3.703,
+     "Madrid"
+    ],
+    [
+     38.096,
+     -3.776,
+     "Bailén"
+    ],
+    [
+     41.65,
+     -0.88,
+     "Zaragoza"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Moore's retreat",
+     "t": "In the winter of 1808–09 a British army retreated over the Galician mountains to Corunna and was taken off by sea; its commander Sir John Moore was killed.",
+     "lat": 43.333,
+     "lon": -8.413
+    },
+    {
+     "h": "Disasters of War",
+     "t": "Goya also etched 'The Disasters of War', 82 prints of atrocities on both sides; they were published only in 1863, after his death.",
+     "lat": 40.414,
+     "lon": -3.692
+    }
+   ],
+   "img_alt": {
+    "file": "File:El Tres de Mayo, by Francisco de Goya, from Prado (cropped).jpg",
+    "by": "Francisco de Goya, 1814",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Peninsular_War",
+    "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+    "https://en.wikipedia.org/wiki/Battle_of_Bailén",
+    "https://en.wikipedia.org/wiki/Napoleonic_Wars_casualties"
+   ]
+  },
+  {
+   "y": 1809.511,
+   "lat": 48.25,
+   "lon": 16.4,
+   "z": 6,
+   "t": "Aspern and Wagram",
+   "c": "Austria tried again in 1809. Napoleon took Vienna but was thrown back across the Danube at Aspern-Essling in May, his first personal defeat in a decade. Six weeks later, at Wagram, about 300,000 men fought for two days and each side lost some 35,000-39,000. In 1810 he married the Austrian emperor's daughter Marie Louise; his empire reached its greatest extent in 1811-12.",
+   "w": "Battle of Wagram",
+   "look": [
+    [
+     48.213,
+     16.502,
+     "Aspern"
+    ],
+    [
+     48.3,
+     16.56,
+     "Wagram"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Tyrol rises",
+     "t": "Tyrolean peasants under the innkeeper Andreas Hofer rose against Bavarian rule in 1809; he was shot in Mantua in February 1810.",
+     "lat": 47.27,
+     "lon": 11.39
+    },
+    {
+     "h": "Illyria",
+     "t": "After Wagram Austria's Adriatic lands became France's Illyrian Provinces, with their capital at Ljubljana.",
+     "lat": 46.05,
+     "lon": 14.51
+    }
+   ],
+   "img_alt": {
+    "file": "File:Napoléon à Wagram - Horace Vernet.jpg",
+    "by": "Horace Vernet, 1836",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Wagram",
+    "https://en.wikipedia.org/wiki/Battle_of_Aspern–Essling",
+    "https://en.wikipedia.org/wiki/Marie_Louise,_Duchess_of_Parma"
+   ]
+  },
+  {
+   "y": 1811.508,
+   "lat": -5.0,
+   "lon": -65.0,
+   "z": 2,
+   "t": "Spanish America breaks away",
+   "c": "Napoleon's seizure of the Spanish crown in 1808 left Spain's American empire without a legitimate king. Towns set up their own juntas - Caracas on 19 April 1810, Buenos Aires on 25 May 1810 - and on 5 July 1811 Venezuela declared independence. The Spanish American wars of independence had begun; by 1826 almost all of mainland Spanish America was free.",
+   "w": "Spanish American wars of independence",
+   "look": [
+    [
+     10.5,
+     -66.91,
+     "Caracas"
+    ],
+    [
+     -34.608,
+     -58.372,
+     "Buenos Aires"
+    ],
+    [
+     21.16,
+     -100.93,
+     "Dolores"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A court in Rio",
+     "t": "Fleeing Junot's army in 1807, the Portuguese royal family sailed to Brazil; Rio de Janeiro was the capital of the Portuguese empire until 1821.",
+     "lat": -22.9,
+     "lon": -43.17
+    },
+    {
+     "h": "The cry of Dolores",
+     "t": "On 16 September 1810 the priest Miguel Hidalgo called his parishioners to revolt, starting Mexico's war of independence.",
+     "lat": 21.16,
+     "lon": -100.93
+    }
+   ],
+   "img_alt": {
+    "file": "File:Firma del acta de independencia de Venezuela.jpg",
+    "by": "Martín Tovar y Tovar, 1876",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence",
+    "https://en.wikipedia.org/wiki/Venezuelan_Declaration_of_Independence",
+    "https://en.wikipedia.org/wiki/May_Revolution",
+    "https://en.wikipedia.org/wiki/Transfer_of_the_Portuguese_court_to_Brazil"
+   ]
+  },
+  {
+   "y": 1812.686,
+   "lat": 55.2,
+   "lon": 31.0,
+   "z": 4,
+   "t": "Into Russia: Borodino and Moscow",
+   "c": "When Russia left the Continental System, Napoleon invaded. On 24 June 1812 his main army - 422,000 men by Minard's count, part of some 600,000 or more in all - crossed the Niemen. Heat, hunger, typhus and desertion shrank it to about 100,000 by Moscow. At Borodino on 7 September, the bloodiest day of the wars, the two armies lost roughly 70,000-95,000 men (debated). Napoleon entered Moscow on 14 September; fires destroyed much of the city.",
+   "w": "French invasion of Russia",
+   "look": [
+    [
+     54.9,
+     23.9,
+     "Kovno"
+    ],
+    [
+     55.52,
+     35.82,
+     "Borodino"
+    ],
+    [
+     55.75,
+     37.62,
+     "Moscow"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Smolensk burns",
+     "t": "The French took Smolensk on 17-18 August after a bombardment that set the old city on fire.",
+     "lat": 54.78,
+     "lon": 32.05
+    },
+    {
+     "h": "Moscow in flames",
+     "t": "Fires raged from 14 to 18 September 1812 in the mostly wooden city; the governor Rostopchin is often held responsible.",
+     "lat": 55.75,
+     "lon": 37.62
+    }
+   ],
+   "img_alt": {
+    "file": "File:Battle of Borodino.jpg",
+    "by": "Louis-François Lejeune, 1822",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+    "https://en.wikipedia.org/wiki/Battle_of_Borodino",
+    "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+   ]
+  },
+  {
+   "y": 1812.911,
+   "lat": 55.0,
+   "lon": 30.0,
+   "z": 4,
+   "t": "The retreat, as Minard drew it",
+   "c": "Napoleon left Moscow on 19 October. Forced back on the stripped road he had come by, the army starved and froze; at the Berezina (26-29 November) pontonniers stood in icy water to build two bridges. In 1869 Charles Minard drew the campaign as a band whose width shows the men: 422,000 out, 100,000 at Moscow, 4,000 back at the Niemen (10,000 with a northern corps). His figures are debated - Riehn counts 685,000 men entering Russia and fewer than 70,000 known survivors - but the shape of the disaster is clear.",
+   "w": "Charles Joseph Minard",
+   "look": [
+    [
+     54.325,
+     28.355,
+     "Berezina"
+    ],
+    [
+     54.69,
+     25.28,
+     "Vilnius"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Lice and fever",
+     "t": "A mass grave of Grande Armée soldiers found in Vilnius in 2001 held lice carrying the bacteria of trench fever and typhus.",
+     "lat": 54.7,
+     "lon": 25.27
+    },
+    {
+     "h": "War and Peace",
+     "t": "Tolstoy's novel, published 1865-1869 and written at Yasnaya Polyana, follows Russian families through 1805-1812 and the burning of Moscow.",
+     "lat": 54.07,
+     "lon": 37.52
+    }
+   ],
+   "img_alt": {
+    "file": "File:Napoleons retreat from Moscow by Adolph Northen.jpg",
+    "by": "Adolph Northen, 1851",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Charles_Joseph_Minard",
+    "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+    "https://en.wikipedia.org/wiki/Battle_of_Berezina",
+    "https://en.wikipedia.org/wiki/War_and_Peace"
+   ]
+  },
+  {
+   "y": 1813.796,
+   "lat": 50.5,
+   "lon": 8.0,
+   "z": 4,
+   "t": "Leipzig and the fall of Paris",
+   "c": "Prussia rose in 1813, with volunteers and a new citizen army inspired by German nationalism; Austria and Sweden joined Russia and Britain. At Leipzig on 16-19 October more than half a million men fought the 'Battle of the Nations', the largest battle in Europe before 1914. The allies invaded France in 1814 and Paris capitulated on 31 March. Napoleon abdicated at Fontainebleau on 6 April and was sent to rule the island of Elba.",
+   "w": "Battle of Leipzig",
+   "look": [
+    [
+     51.31,
+     12.41,
+     "Leipzig"
+    ],
+    [
+     48.86,
+     2.35,
+     "Paris"
+    ],
+    [
+     48.4,
+     2.7,
+     "Fontainebleau"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Farewell to the Guard",
+     "t": "On 20 April 1814 Napoleon said goodbye to the Old Guard in the courtyard of Fontainebleau, kissing the flag before leaving for Elba.",
+     "lat": 48.4,
+     "lon": 2.7
+    },
+    {
+     "h": "Spain lost too",
+     "t": "Wellington routed Joseph Bonaparte's army at Vitoria on 21 June 1813, capturing 151 guns and the king's baggage; the French were driven back over the Pyrenees.",
+     "lat": 42.85,
+     "lon": -2.68
+    }
+   ],
+   "img_alt": {
+    "file": "File:Declaration of victory after the Battle of Leipzig, 1813 (by Johann Peter Krafft).jpg",
+    "by": "Johann Peter Krafft, 1839",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Leipzig",
+    "https://en.wikipedia.org/wiki/Battle_of_Paris_(1814)",
+    "https://en.wikipedia.org/wiki/Treaty_of_Fontainebleau_(1814)",
+    "https://en.wikipedia.org/wiki/German_campaign_of_1813"
+   ]
+  },
+  {
+   "y": 1815.215,
+   "lat": 46.0,
+   "lon": 9.0,
+   "z": 4,
+   "t": "Vienna redraws Europe; Napoleon returns",
+   "c": "From November 1814 the Congress of Vienna redrew the map: a German Confederation of 39 states, a united Netherlands, a Russian-ruled Kingdom of Poland, Austria back in northern Italy. On 26 February 1815 Napoleon slipped away from Elba with about 1,000 men and landed at Golfe-Juan. At Laffrey the troops sent to stop him went over to him; on 20 March he was back in the Tuileries. The Congress declared him an outlaw and the allies mobilised again.",
+   "w": "Hundred Days",
+   "look": [
+    [
+     43.565,
+     7.075,
+     "Golfe-Juan"
+    ],
+    [
+     45.0,
+     5.77,
+     "Laffrey"
+    ],
+    [
+     48.208,
+     16.365,
+     "Vienna"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Route Napoléon",
+     "t": "His road over the Alps via Digne, Sisteron and Gap to Grenoble is now the N85 'Route Napoléon'.",
+     "lat": 44.2,
+     "lon": 5.94
+    },
+    {
+     "h": "Against the slave trade",
+     "t": "In February 1815 the Congress powers declared the Atlantic slave trade 'repugnant to the principles of humanity', though without a date for ending it.",
+     "lat": 48.208,
+     "lon": 16.365
+    }
+   ],
+   "img_alt": {
+    "file": "File:Retour de Napoleon d' Isle d'Elbe, by Charles de Steuben.jpg",
+    "by": "Charles de Steuben, 1818",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Hundred_Days",
+    "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+    "https://en.wikipedia.org/wiki/Route_Napoléon"
+   ]
+  },
+  {
+   "y": 1815.462,
+   "lat": 50.6,
+   "lon": 4.45,
+   "z": 8,
+   "t": "Waterloo",
+   "c": "Napoleon struck into Belgium to beat his enemies one by one. He beat the Prussians at Ligny on 16 June, but they retreated towards Wavre, not home. On 18 June at Waterloo, Wellington's army held the ridge of Mont-Saint-Jean all afternoon until Blücher's Prussians arrived on the French flank; the Imperial Guard's last attack failed and the army broke. About 24,000 allied and 26,000 French soldiers were killed or wounded. Napoleon abdicated again on 22 June.",
+   "w": "Battle of Waterloo",
+   "look": [
+    [
+     50.68,
+     4.41,
+     "Waterloo"
+    ],
+    [
+     50.52,
+     4.58,
+     "Ligny"
+    ],
+    [
+     50.571,
+     4.453,
+     "Quatre Bras"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Hougoumont",
+     "t": "At the walled farm of Hougoumont alone the French lost about 5,000 of 12,700 men engaged.",
+     "lat": 50.67,
+     "lon": 4.39
+    },
+    {
+     "h": "Surrender at sea",
+     "t": "On 15 July 1815 Napoleon surrendered to Captain Maitland of HMS Bellerophon off Rochefort.",
+     "lat": 46.01,
+     "lon": -1.17
+    }
+   ],
+   "img_alt": {
+    "file": "File:Battle of Waterloo 1815.PNG",
+    "by": "William Sadler II, 19th century",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "https://en.wikipedia.org/wiki/Battle_of_Ligny",
+    "https://en.wikipedia.org/wiki/Hundred_Days"
+   ]
+  },
+  {
+   "y": 1821.341,
+   "lat": 20.0,
+   "lon": 0.0,
+   "z": 2,
+   "t": "St Helena and the legacy",
+   "c": "Napoleon spent his last years at Longwood House on St Helena, in the South Atlantic, dictating the memoirs that built his legend; he died on 5 May 1821, aged 51. His Code shaped civil law across Europe, Latin America and the Middle East, and his wars stirred nationalism in Germany, Italy and Spain and set Latin America on the road to independence. They also killed an estimated 3.5 to 7 million soldiers and civilians (figures debated), and about 2.3 million Frenchmen were called up in 1800-1815.",
+   "w": "Napoleon's exile to St. Helena",
+   "look": [
+    [
+     -15.947,
+     -5.68,
+     "Longwood"
+    ],
+    [
+     48.855,
+     2.312,
+     "Les Invalides"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Return of the ashes",
+     "t": "In December 1840 Napoleon's body was brought back from St Helena and buried under the dome of Les Invalides in Paris.",
+     "lat": 48.855,
+     "lon": 2.312
+    },
+    {
+     "h": "The stone speaks",
+     "t": "In 1822 Champollion, working from the Rosetta Stone found during Bonaparte's Egyptian campaign, announced how hieroglyphs work.",
+     "lat": 48.856,
+     "lon": 2.34
+    }
+   ],
+   "img_alt": {
+    "file": "File:Carl von Steuben - Mort de Napoléon - Arenenberg.jpg",
+    "by": "Charles de Steuben, 1828",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Napoleon's_exile_to_St._Helena",
+    "https://en.wikipedia.org/wiki/Longwood_House",
+    "https://en.wikipedia.org/wiki/Napoleonic_Code",
+    "https://en.wikipedia.org/wiki/Napoleonic_Wars_casualties",
+    "https://en.wikipedia.org/wiki/Napoleonic_Wars"
+   ]
+  }
+ ]
+}

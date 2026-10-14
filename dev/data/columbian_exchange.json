@@ -1,0 +1,937 @@
+{
+ "places": [
+  {
+   "n": "Ceuta",
+   "lat": 35.89,
+   "lon": -5.32,
+   "y": 1415.64,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Portugal captures Ceuta on 21 August 1415, the first European overseas conquest of the age of expansion; Prince Henry takes part.",
+   "w": "Conquest of Ceuta",
+   "src": [
+    "https://en.wikipedia.org/wiki/Conquest_of_Ceuta"
+   ]
+  },
+  {
+   "n": "Madeira (Funchal)",
+   "lat": 32.65,
+   "lon": -16.91,
+   "y": 1420.5,
+   "approx": true,
+   "kind": "colony",
+   "who": "Portugal",
+   "what": "Uninhabited Madeira, claimed in 1419, is settled from c. 1420; by the late 15th century it is a major exporter of sugar grown by enslaved workers.",
+   "w": "Madeira",
+   "src": [
+    "https://en.wikipedia.org/wiki/Madeira"
+   ]
+  },
+  {
+   "n": "Lagos slave market",
+   "lat": 37.1,
+   "lon": -8.67,
+   "y": 1444.6,
+   "approx": false,
+   "kind": "other",
+   "who": "Portugal",
+   "what": "In 1444 captives taken on the West African coast are sold at Lagos, the gateway of the Portuguese Atlantic slave trade into Europe.",
+   "w": "Lagos, Portugal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lagos,_Portugal",
+    "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+   ]
+  },
+  {
+   "n": "Arguin",
+   "lat": 20.6,
+   "lon": -16.45,
+   "y": 1445.5,
+   "approx": true,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "A Portuguese trading post on Arguin island (from 1445, fort c. 1448) buys gold and captives from Saharan traders.",
+   "w": "Arguin",
+   "src": [
+    "https://en.wikipedia.org/wiki/Arguin"
+   ]
+  },
+  {
+   "n": "Elmina (São Jorge da Mina)",
+   "lat": 5.08,
+   "lon": -1.35,
+   "y": 1482.05,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Built from 19 January 1482, the castle trades cloth, brass and enslaved people for Akan gold; the Dutch take it in 1637.",
+   "w": "Elmina Castle",
+   "src": [
+    "https://en.wikipedia.org/wiki/Elmina_Castle"
+   ]
+  },
+  {
+   "n": "São Tomé",
+   "lat": 0.34,
+   "lon": 6.73,
+   "y": 1493.5,
+   "approx": true,
+   "kind": "colony",
+   "who": "Portugal",
+   "what": "Settled from 1493, São Tomé becomes the model of the plantation island: sugar grown by enslaved Africans for export.",
+   "w": "São Tomé",
+   "src": [
+    "https://en.wikipedia.org/wiki/São_Tomé",
+    "https://en.wikipedia.org/wiki/History_of_São_Tomé_and_Príncipe"
+   ]
+  },
+  {
+   "n": "Goa",
+   "lat": 15.5,
+   "lon": 73.83,
+   "y": 1510.9,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Afonso de Albuquerque takes Goa on 25 November 1510; it becomes the capital of Portuguese Asia and an entry point for American plants such as chili.",
+   "w": "Portuguese conquest of Goa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Portuguese_conquest_of_Goa",
+    "https://en.wikipedia.org/wiki/Goa"
+   ]
+  },
+  {
+   "n": "Malacca",
+   "lat": 2.19,
+   "lon": 102.25,
+   "y": 1511.65,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Portugal captures Malacca in August 1511, gaining the strait between the Indian Ocean and the South China Sea.",
+   "w": "Capture of Malacca (1511)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Capture_of_Malacca_(1511)"
+   ]
+  },
+  {
+   "n": "Hormuz",
+   "lat": 27.06,
+   "lon": 56.46,
+   "y": 1515.2,
+   "end": 1622.3,
+   "approx": true,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "After a failed attempt in 1507, Portugal takes Hormuz, gateway to the Persian Gulf, in 1515 and holds it as a client state until 1622.",
+   "w": "Capture of Ormuz (1507)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Capture_of_Ormuz_(1507)",
+    "https://en.wikipedia.org/wiki/Hormuz_Island"
+   ]
+  },
+  {
+   "n": "Macau",
+   "lat": 22.19,
+   "lon": 113.54,
+   "y": 1557.5,
+   "approx": true,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Portuguese merchants settle at Macau around 1557 with Ming permission; it links China with Nagasaki, Malacca and Goa.",
+   "w": "Portuguese Macau",
+   "src": [
+    "https://en.wikipedia.org/wiki/Portuguese_Macau"
+   ]
+  },
+  {
+   "n": "Nagasaki",
+   "lat": 32.75,
+   "lon": 129.87,
+   "y": 1571.5,
+   "end": 1639.6,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "The port opens to Portuguese ships in 1571; Japanese silver and Chinese silk pass through it until the Portuguese are expelled in 1639.",
+   "w": "Nagasaki",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nagasaki",
+    "https://en.wikipedia.org/wiki/Nanban_trade"
+   ]
+  },
+  {
+   "n": "Luanda",
+   "lat": -8.84,
+   "lon": 13.23,
+   "y": 1576.1,
+   "approx": false,
+   "kind": "post",
+   "who": "Portugal",
+   "what": "Founded in 1576, Luanda becomes the main port of the Angolan slave trade to Brazil.",
+   "w": "Luanda",
+   "src": [
+    "https://en.wikipedia.org/wiki/Luanda"
+   ]
+  },
+  {
+   "n": "Batavia",
+   "lat": -6.13,
+   "lon": 106.81,
+   "y": 1619.4,
+   "approx": false,
+   "kind": "post",
+   "who": "VOC",
+   "what": "The Dutch East India Company founds Batavia (Jakarta) in 1619 as its Asian headquarters.",
+   "w": "Batavia, Dutch East Indies",
+   "src": [
+    "https://en.wikipedia.org/wiki/Batavia,_Dutch_East_Indies"
+   ]
+  },
+  {
+   "n": "Seville, Casa de Contratación",
+   "lat": 37.38,
+   "lon": -5.99,
+   "y": 1503.1,
+   "approx": false,
+   "kind": "other",
+   "who": "Spain",
+   "what": "From 1503 the House of Trade in Seville controls Spanish shipping and silver from the Americas.",
+   "w": "Casa de Contratación",
+   "src": [
+    "https://en.wikipedia.org/wiki/Casa_de_Contratación"
+   ]
+  },
+  {
+   "n": "Treaty of Tordesillas",
+   "lat": 41.5,
+   "lon": -5.0,
+   "y": 1494.43,
+   "approx": false,
+   "kind": "other",
+   "who": "Spain, Portugal",
+   "what": "On 7 June 1494 Spain and Portugal divide the newly found lands along a meridian 370 leagues west of Cape Verde.",
+   "w": "Treaty of Tordesillas",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas"
+   ]
+  },
+  {
+   "n": "La Isabela",
+   "lat": 19.89,
+   "lon": -71.08,
+   "y": 1494.02,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Columbus's second voyage (17 ships, over 1,000 men) founds the first Spanish town in January 1494 and lands horses, cattle, pigs, sheep, goats and sugarcane.",
+   "w": "La Isabela",
+   "src": [
+    "https://en.wikipedia.org/wiki/La_Isabela",
+    "https://en.wikipedia.org/wiki/Second_voyage_of_Christopher_Columbus"
+   ]
+  },
+  {
+   "n": "Santo Domingo",
+   "lat": 18.47,
+   "lon": -69.89,
+   "y": 1496.6,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Founded by Bartholomew Columbus in 1496, the oldest continuously inhabited European city in the Americas.",
+   "w": "Santo Domingo",
+   "src": [
+    "https://en.wikipedia.org/wiki/Santo_Domingo"
+   ]
+  },
+  {
+   "n": "First sugar mills on Hispaniola",
+   "lat": 18.47,
+   "lon": -70.05,
+   "y": 1516.5,
+   "approx": true,
+   "kind": "crop",
+   "who": "Spain",
+   "what": "By around 1516 the first sugar mills on Hispaniola grind cane brought by Columbus in 1493; enslaved Africans replace a dying Taíno workforce.",
+   "w": "History of sugar",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_sugar",
+    "https://en.wikipedia.org/wiki/Colony_of_Santo_Domingo"
+   ]
+  },
+  {
+   "n": "Havana",
+   "lat": 23.13,
+   "lon": -82.36,
+   "y": 1519.9,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Havana moves to its present harbour in 1519 and becomes the gathering port of the Spanish treasure fleets.",
+   "w": "Havana",
+   "src": [
+    "https://en.wikipedia.org/wiki/Havana",
+    "https://en.wikipedia.org/wiki/Spanish_treasure_fleet"
+   ]
+  },
+  {
+   "n": "Tenochtitlan falls",
+   "lat": 19.43,
+   "lon": -99.13,
+   "y": 1521.62,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "After a siege of about 80 days, Tenochtitlan, weakened by smallpox, falls to Cortés and his Tlaxcalan and other Indigenous allies on 13 August 1521; Mexico City is built on its ruins.",
+   "w": "Fall of Tenochtitlan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+   ]
+  },
+  {
+   "n": "Wheat sown in New Spain",
+   "lat": 19.43,
+   "lon": -99.15,
+   "y": 1523,
+   "approx": true,
+   "kind": "crop",
+   "who": "Spain",
+   "what": "Juan Garrido, an African-born conquistador, is credited with the first wheat harvest in New Spain (early 1520s).",
+   "w": "Juan Garrido",
+   "src": [
+    "https://en.wikipedia.org/wiki/Juan_Garrido"
+   ]
+  },
+  {
+   "n": "Cajamarca",
+   "lat": -7.16,
+   "lon": -78.51,
+   "y": 1532.87,
+   "approx": false,
+   "kind": "other",
+   "who": "Spain",
+   "what": "On 16 November 1532 Pizarro's 168 men capture the Inca ruler Atahualpa, whose empire was split by civil war after an epidemic.",
+   "w": "Battle of Cajamarca",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Cajamarca"
+   ]
+  },
+  {
+   "n": "Cartagena de Indias",
+   "lat": 10.42,
+   "lon": -75.53,
+   "y": 1533.42,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Founded on 1 June 1533; a fortified treasure-fleet port and one of the main slave markets of Spanish America.",
+   "w": "Cartagena, Colombia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cartagena,_Colombia"
+   ]
+  },
+  {
+   "n": "Cusco taken",
+   "lat": -13.53,
+   "lon": -71.97,
+   "y": 1533.87,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Spanish forces enter the Inca capital on 15 November 1533.",
+   "w": "Cusco",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cusco",
+    "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+   ]
+  },
+  {
+   "n": "Lima",
+   "lat": -12.05,
+   "lon": -77.04,
+   "y": 1535.05,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Pizarro founds Lima on 18 January 1535; it becomes the capital of the Viceroyalty of Peru.",
+   "w": "Lima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lima"
+   ]
+  },
+  {
+   "n": "Potosí",
+   "lat": -19.59,
+   "lon": -65.75,
+   "y": 1545.3,
+   "approx": false,
+   "kind": "silver",
+   "who": "Spain",
+   "what": "Silver is found at the Cerro Rico in 1545; worked largely by Indigenous mita labour, it yields an estimated 60% of the world's silver in the late 16th century and the town grows past 200,000 people (estimate).",
+   "w": "Potosí",
+   "src": [
+    "https://en.wikipedia.org/wiki/Potosí",
+    "https://en.wikipedia.org/wiki/Mit'a"
+   ]
+  },
+  {
+   "n": "Zacatecas",
+   "lat": 22.77,
+   "lon": -102.58,
+   "y": 1546.7,
+   "approx": false,
+   "kind": "silver",
+   "who": "Spain",
+   "what": "Silver is discovered at Zacatecas in 1546, the start of northern Mexico's silver boom.",
+   "w": "Zacatecas",
+   "src": [
+    "https://en.wikipedia.org/wiki/Zacatecas"
+   ]
+  },
+  {
+   "n": "Huancavelica mercury",
+   "lat": -12.79,
+   "lon": -74.97,
+   "y": 1564,
+   "approx": true,
+   "kind": "silver",
+   "who": "Spain",
+   "what": "The Santa Bárbara mercury mine (from the 1560s) supplies mercury for amalgamating Potosí silver; mita workers suffer mercury poisoning.",
+   "w": "Huancavelica",
+   "src": [
+    "https://en.wikipedia.org/wiki/Huancavelica",
+    "https://en.wikipedia.org/wiki/Patio_process"
+   ]
+  },
+  {
+   "n": "Acapulco",
+   "lat": 16.85,
+   "lon": -99.89,
+   "y": 1565.77,
+   "end": 1815,
+   "approx": false,
+   "kind": "silver",
+   "who": "Spain",
+   "what": "Urdaneta reaches Acapulco on 8 October 1565, opening the return route from Asia; galleons sail between Acapulco and Manila until 1815.",
+   "w": "Manila galleon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Manila_galleon"
+   ]
+  },
+  {
+   "n": "Yuegang (Moon Harbour)",
+   "lat": 24.44,
+   "lon": 117.83,
+   "y": 1567.5,
+   "approx": true,
+   "kind": "silver",
+   "who": "Ming China",
+   "what": "In 1567 the Ming allow private overseas trade from Yuegang (Haicheng), Fujian; much American silver enters China here via Manila.",
+   "w": "Haicheng, Fujian",
+   "src": [
+    "https://en.wikipedia.org/wiki/Haicheng,_Fujian",
+    "https://en.wikipedia.org/wiki/Haijin"
+   ]
+  },
+  {
+   "n": "Manila",
+   "lat": 14.59,
+   "lon": 120.98,
+   "y": 1571.48,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Legazpi founds Spanish Manila on 24 June 1571; American silver buys Chinese silk and porcelain brought by Fujianese merchants.",
+   "w": "Manila",
+   "src": [
+    "https://en.wikipedia.org/wiki/Manila",
+    "https://en.wikipedia.org/wiki/Manila_galleon"
+   ]
+  },
+  {
+   "n": "Olinda (Pernambuco sugar)",
+   "lat": -8.01,
+   "lon": -34.86,
+   "y": 1535.5,
+   "approx": true,
+   "kind": "colony",
+   "who": "Portugal",
+   "what": "Pernambuco, founded in the 1530s, becomes the world's leading sugar region by c. 1600, worked by enslaved Africans.",
+   "w": "Olinda",
+   "src": [
+    "https://en.wikipedia.org/wiki/Olinda",
+    "https://en.wikipedia.org/wiki/Captaincy_of_Pernambuco"
+   ]
+  },
+  {
+   "n": "Salvador da Bahia",
+   "lat": -12.97,
+   "lon": -38.51,
+   "y": 1549.25,
+   "approx": false,
+   "kind": "colony",
+   "who": "Portugal",
+   "what": "Founded in 1549 as the capital of Portuguese Brazil and a main port of the slave trade.",
+   "w": "Salvador, Bahia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Salvador,_Bahia"
+   ]
+  },
+  {
+   "n": "St. Augustine",
+   "lat": 29.89,
+   "lon": -81.31,
+   "y": 1565.69,
+   "approx": false,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Founded on 8 September 1565, the oldest continuously occupied European-founded settlement in the continental United States.",
+   "w": "St. Augustine, Florida",
+   "src": [
+    "https://en.wikipedia.org/wiki/St._Augustine,_Florida"
+   ]
+  },
+  {
+   "n": "Jamestown",
+   "lat": 37.21,
+   "lon": -76.78,
+   "y": 1607.37,
+   "approx": false,
+   "kind": "colony",
+   "who": "England",
+   "what": "The first lasting English colony (14 May 1607), in the Powhatan paramount chiefdom; tobacco becomes its cash crop from 1612.",
+   "w": "Jamestown, Virginia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jamestown,_Virginia"
+   ]
+  },
+  {
+   "n": "Quebec",
+   "lat": 46.81,
+   "lon": -71.21,
+   "y": 1608.5,
+   "approx": false,
+   "kind": "colony",
+   "who": "France",
+   "what": "Champlain founds Quebec on 3 July 1608 as a fur-trading post allied with the Wendat and Innu.",
+   "w": "Quebec City",
+   "src": [
+    "https://en.wikipedia.org/wiki/Quebec_City"
+   ]
+  },
+  {
+   "n": "Santa Fe",
+   "lat": 35.69,
+   "lon": -105.94,
+   "y": 1610,
+   "end": 1680.6,
+   "approx": true,
+   "kind": "colony",
+   "who": "Spain",
+   "what": "Capital of New Mexico from 1610; in the Pueblo Revolt of 1680 the Pueblos drive out the Spanish and take their horses.",
+   "w": "Santa Fe, New Mexico",
+   "src": [
+    "https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+    "https://en.wikipedia.org/wiki/Pueblo_Revolt"
+   ]
+  },
+  {
+   "n": "Barbados",
+   "lat": 13.1,
+   "lon": -59.62,
+   "y": 1627.15,
+   "approx": false,
+   "kind": "colony",
+   "who": "England",
+   "what": "Settled in 1627; in the 1640s it turns to sugar and enslaved African labour, the 'sugar revolution' of the English Caribbean.",
+   "w": "History of Barbados",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_Barbados",
+    "https://en.wikipedia.org/wiki/Sugar_plantations_in_the_Caribbean"
+   ]
+  },
+  {
+   "n": "Syphilis at Naples",
+   "lat": 40.85,
+   "lon": 14.27,
+   "y": 1495.1,
+   "approx": false,
+   "kind": "disease",
+   "who": "Europe",
+   "what": "The first recorded syphilis epidemic in Europe breaks out among the armies at Naples in 1495; most evidence supports an American origin, but a pre-Columbian presence in Europe is debated.",
+   "w": "History of syphilis",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_syphilis",
+    "https://en.wikipedia.org/wiki/Syphilis"
+   ]
+  },
+  {
+   "n": "Smallpox on Hispaniola",
+   "lat": 18.6,
+   "lon": -70.2,
+   "y": 1518.95,
+   "approx": false,
+   "kind": "disease",
+   "who": "Taíno",
+   "what": "The first recorded smallpox epidemic in the Americas strikes Hispaniola in December 1518, killing much of the surviving Taíno population.",
+   "w": "History of smallpox",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_smallpox",
+    "https://en.wikipedia.org/wiki/Taíno_genocide"
+   ]
+  },
+  {
+   "n": "Smallpox reaches Mexico",
+   "lat": 19.45,
+   "lon": -96.4,
+   "y": 1520.35,
+   "approx": false,
+   "kind": "disease",
+   "who": "Totonac, Mexica",
+   "what": "Smallpox arrives from Hispaniola with Narváez's expedition in spring 1520 and spreads inland; tradition names an enslaved African man, Francisco de Eguía, as the first case.",
+   "w": "History of smallpox",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_smallpox",
+    "https://en.wikipedia.org/wiki/Pánfilo_de_Narváez"
+   ]
+  },
+  {
+   "n": "Smallpox in Tenochtitlan",
+   "lat": 19.43,
+   "lon": -99.13,
+   "y": 1520.8,
+   "approx": false,
+   "kind": "disease",
+   "who": "Mexica",
+   "what": "Smallpox (huey zahuatl, 'great rash') ravages Tenochtitlan from autumn 1520 for about 70 days, killing the new ruler Cuitláhuac.",
+   "w": "Cuitláhuac",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cuitláhuac",
+    "https://en.wikipedia.org/wiki/History_of_smallpox"
+   ]
+  },
+  {
+   "n": "Plague in the Guatemalan highlands",
+   "lat": 14.73,
+   "lon": -90.99,
+   "y": 1520,
+   "approx": true,
+   "kind": "disease",
+   "who": "Kaqchikel",
+   "what": "The Kaqchikel annals record a deadly plague around 1519–1521, before the Spanish reached the highlands; that it was smallpox is likely but debated.",
+   "w": "Annals of the Cakchiquels",
+   "src": [
+    "https://en.wikipedia.org/wiki/Annals_of_the_Cakchiquels",
+    "https://en.wikipedia.org/wiki/Iximche"
+   ]
+  },
+  {
+   "n": "Epidemic in Inca lands (Quito)",
+   "lat": -0.22,
+   "lon": -78.51,
+   "y": 1527,
+   "approx": true,
+   "kind": "disease",
+   "who": "Inca",
+   "what": "An epidemic, often said to be smallpox (debated: measles or another fever), kills the ruler Huayna Capac and his heir c. 1527, opening a civil war between Huáscar and Atahualpa.",
+   "w": "Huayna Capac",
+   "src": [
+    "https://en.wikipedia.org/wiki/Huayna_Capac",
+    "https://en.wikipedia.org/wiki/Inca_Civil_War"
+   ]
+  },
+  {
+   "n": "Measles in Mexico",
+   "lat": 19.43,
+   "lon": -99.13,
+   "y": 1531.5,
+   "approx": true,
+   "kind": "disease",
+   "who": "Nahua",
+   "what": "A measles epidemic, called 'small leprosy' in Nahuatl, sweeps central Mexico in 1531.",
+   "w": "Measles",
+   "src": [
+    "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas",
+    "https://en.wikipedia.org/wiki/Measles"
+   ]
+  },
+  {
+   "n": "Cocoliztli 1545",
+   "lat": 17.52,
+   "lon": -97.48,
+   "y": 1545.5,
+   "end": 1548.9,
+   "approx": false,
+   "kind": "disease",
+   "who": "Mixtec, Nahua",
+   "what": "The great cocoliztli of 1545–48 kills an estimated 5–15 million in New Spain; ancient DNA from Teposcolula-Yucundaa points to Salmonella Paratyphi C, but the cause is debated.",
+   "w": "Cocoliztli epidemics",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+   ]
+  },
+  {
+   "n": "Smallpox reaches Chile",
+   "lat": -29.9,
+   "lon": -71.25,
+   "y": 1561.9,
+   "approx": false,
+   "kind": "disease",
+   "who": "Mapuche, Diaguita",
+   "what": "Smallpox lands at La Serena with a ship in late 1561 and ravages Chile's native population into 1562.",
+   "w": "History of smallpox",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_smallpox"
+   ]
+  },
+  {
+   "n": "Epidemics in Bahia",
+   "lat": -12.97,
+   "lon": -38.6,
+   "y": 1562.5,
+   "approx": true,
+   "kind": "disease",
+   "who": "Tupinambá",
+   "what": "Smallpox and other epidemics in the early 1560s kill large numbers of Indigenous people around Bahia, according to Jesuit reports.",
+   "w": "Population history of the Indigenous peoples of the Americas",
+   "src": [
+    "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas"
+   ]
+  },
+  {
+   "n": "Cocoliztli 1576",
+   "lat": 19.43,
+   "lon": -99.13,
+   "y": 1576.4,
+   "end": 1580.9,
+   "approx": false,
+   "kind": "disease",
+   "who": "Nahua",
+   "what": "A second great cocoliztli (1576–80), after a severe drought, kills about 2 million; the physician Francisco Hernández describes it; the cause is debated.",
+   "w": "Cocoliztli epidemics",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+   ]
+  },
+  {
+   "n": "New England epidemic (Patuxet)",
+   "lat": 41.96,
+   "lon": -70.67,
+   "y": 1617,
+   "approx": true,
+   "kind": "disease",
+   "who": "Wampanoag, Massachusett",
+   "what": "An epidemic of 1616–1619 (cause debated) empties coastal villages such as Patuxet; the Pilgrims settle on its site in 1620.",
+   "w": "Tisquantum",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tisquantum",
+    "https://en.wikipedia.org/wiki/Plymouth_Colony"
+   ]
+  },
+  {
+   "n": "Smallpox in New England",
+   "lat": 42.0,
+   "lon": -72.6,
+   "y": 1633.7,
+   "approx": true,
+   "kind": "disease",
+   "who": "Wampanoag, Pequot, Mohawk",
+   "what": "Smallpox spreads through New England and the Connecticut valley in 1633–34.",
+   "w": "History of smallpox",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_smallpox"
+   ]
+  },
+  {
+   "n": "Wendat epidemics",
+   "lat": 44.6,
+   "lon": -79.8,
+   "y": 1634.6,
+   "end": 1640.9,
+   "approx": false,
+   "kind": "disease",
+   "who": "Wendat (Huron)",
+   "what": "Measles and smallpox in 1634–40 kill half to two-thirds of the Wendat, leaving about 12,000; Haudenosaunee attacks in 1649 destroy Wendake.",
+   "w": "Wendat",
+   "src": [
+    "https://en.wikipedia.org/wiki/Wendat"
+   ]
+  },
+  {
+   "n": "Yellow fever on Barbados",
+   "lat": 13.1,
+   "lon": -59.62,
+   "y": 1647.5,
+   "approx": false,
+   "kind": "disease",
+   "who": "Barbados",
+   "what": "The first definite yellow fever epidemic in the Americas (1647), probably arriving with mosquitoes on slave ships from Africa; Yucatán follows in 1648.",
+   "w": "Yellow fever",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yellow_fever",
+    "https://en.wikipedia.org/wiki/History_of_yellow_fever"
+   ]
+  },
+  {
+   "n": "Cacao at the Spanish court",
+   "lat": 41.65,
+   "lon": -4.72,
+   "y": 1544.9,
+   "approx": false,
+   "kind": "crop",
+   "who": "Spain",
+   "what": "Q'eqchi' Maya nobles bring chocolate to Prince Philip's court in 1544, the earliest documented chocolate in Europe; the first recorded cacao shipment follows in 1585.",
+   "w": "History of chocolate",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_chocolate"
+   ]
+  },
+  {
+   "n": "Maize in China",
+   "lat": 34.75,
+   "lon": 112.98,
+   "y": 1555,
+   "approx": true,
+   "kind": "crop",
+   "who": "Ming China",
+   "what": "Maize appears in Chinese local records from the mid-16th century (often dated c. 1555; approximate) and later spreads to hill land unsuited to rice.",
+   "w": "Maize",
+   "src": [
+    "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "https://en.wikipedia.org/wiki/Maize"
+   ]
+  },
+  {
+   "n": "Tobacco to the French court",
+   "lat": 38.72,
+   "lon": -9.14,
+   "y": 1560.5,
+   "approx": false,
+   "kind": "crop",
+   "who": "France",
+   "what": "Jean Nicot, French ambassador in Lisbon, sends tobacco and seeds to Paris in 1560 as a medicine; nicotine is named after him.",
+   "w": "Jean Nicot",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jean_Nicot"
+   ]
+  },
+  {
+   "n": "Potato via the Canaries",
+   "lat": 28.12,
+   "lon": -15.43,
+   "y": 1567.9,
+   "approx": false,
+   "kind": "crop",
+   "who": "Spain",
+   "what": "A receipt of 28 November 1567 for potatoes shipped from Gran Canaria to Antwerp is the first written record of potatoes outside the Americas.",
+   "w": "History of the potato",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_the_potato"
+   ]
+  },
+  {
+   "n": "Sweet potato in Fujian",
+   "lat": 26.07,
+   "lon": 119.3,
+   "y": 1594,
+   "approx": false,
+   "kind": "crop",
+   "who": "Ming China",
+   "what": "Sweet potato is brought from Spanish Luzon to Fujian around 1594, after a major crop failure, and becomes a famine food.",
+   "w": "Sweet potato",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sweet_potato",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ]
+  },
+  {
+   "n": "Potato in Ireland",
+   "lat": 52.0,
+   "lon": -9.5,
+   "y": 1600,
+   "approx": true,
+   "kind": "crop",
+   "who": "Ireland",
+   "what": "Potatoes reach the British Isles between 1588 and 1593; Ireland is probably the first part of Europe to grow them widely, in the early 17th century.",
+   "w": "History of the potato",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_the_potato"
+   ]
+  },
+  {
+   "n": "Chili in India (Goa)",
+   "lat": 15.5,
+   "lon": 73.85,
+   "y": 1540,
+   "approx": true,
+   "kind": "crop",
+   "who": "Portugal",
+   "what": "The Portuguese bring chili peppers to Goa and other Asian ports in the 16th century (details unrecorded); in 1543 the German botanist Fuchs already calls one kind 'Calicut pepper'.",
+   "w": "Chili pepper",
+   "src": [
+    "https://en.wikipedia.org/wiki/Chili_pepper",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ]
+  },
+  {
+   "n": "Chili in Korea",
+   "lat": 37.57,
+   "lon": 126.98,
+   "y": 1614,
+   "approx": false,
+   "kind": "crop",
+   "who": "Joseon Korea",
+   "what": "The encyclopedia Jibong yuseol (1614) is the first Korean mention of chili peppers, said to have come via Japan; they later transform kimchi and gochujang.",
+   "w": "Gochujang",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gochujang"
+   ]
+  },
+  {
+   "n": "Cassava in Kongo",
+   "lat": -6.27,
+   "lon": 14.24,
+   "y": 1600,
+   "approx": true,
+   "kind": "crop",
+   "who": "Kongo",
+   "what": "Portuguese traders bring cassava from Brazil to West-Central Africa in the 16th century; it slowly replaces sorghum and millet as a staple.",
+   "w": "Cassava",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cassava",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ]
+  },
+  {
+   "n": "Virginia tobacco",
+   "lat": 37.3,
+   "lon": -77.3,
+   "y": 1612.5,
+   "approx": false,
+   "kind": "crop",
+   "who": "England",
+   "what": "John Rolfe plants sweeter Caribbean tobacco in 1612; tobacco exports make the colony and drive demand for land and labour.",
+   "w": "John Rolfe",
+   "src": [
+    "https://en.wikipedia.org/wiki/John_Rolfe",
+    "https://en.wikipedia.org/wiki/History_of_tobacco"
+   ]
+  },
+  {
+   "n": "Honey bees to Virginia",
+   "lat": 37.15,
+   "lon": -76.6,
+   "y": 1622.2,
+   "approx": false,
+   "kind": "other",
+   "who": "England",
+   "what": "The first colonies of European honey bees are shipped from England to Virginia in 1622.",
+   "w": "Western honey bee",
+   "src": [
+    "https://en.wikipedia.org/wiki/Western_honey_bee"
+   ]
+  }
+ ]
+}

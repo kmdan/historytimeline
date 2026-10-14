@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 src = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / 'dev/data/tours.json'
 page = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / 'karahan-era.html'
-KEEP = ('y', 'lat', 'lon', 'z', 't', 'c', 'w', 'span', 'dur', 'ly', 'fx', 'look')
+KEEP = ('y', 'lat', 'lon', 'z', 't', 'c', 'w', 'span', 'dur', 'ly', 'fx', 'look', 'img', 'tips')
 
 tours = json.loads(src.read_text(encoding='utf-8'))
 out = []
@@ -24,7 +24,7 @@ for t in tours:
         assert -90 <= s['lat'] <= 90 and -180 <= s['lon'] <= 180, (t['id'], s)
         assert s['t'] and s['c'], (t['id'], s)
         steps.append({k: s[k] for k in KEEP if k in s})
-    out.append({'id': t['id'], 'title': t['title'], 'blurb': t.get('blurb', ''), 'ly': t.get('ly', {}), **({'fx': t['fx']} if t.get('fx') else {}), 'steps': steps})
+    out.append({'id': t['id'], 'title': t['title'], 'blurb': t.get('blurb', ''), 'cat': t.get('cat', 'More tours'), 'ly': t.get('ly', {}), **({'fx': t['fx']} if t.get('fx') else {}), 'steps': steps})
 
 blob = json.dumps(out, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 html = page.read_bytes().decode('utf-8')   # keep line endings byte-exact

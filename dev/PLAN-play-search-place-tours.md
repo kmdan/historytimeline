@@ -59,3 +59,10 @@ Vikings from the Rus to Vinland; Polynesian wayfinding; Columbian Exchange & the
 language story; Ice Age land bridges (Beringia, Sunda, Sahul, Doggerland). Medium: Green Sahara; Silk Roads; White Sands
 / first Americans; Göbekli Tepe & first monuments; whole history in two minutes; Alexander; Zheng He vs the Iberian
 voyages. Still planned from before: spread of farming, Austronesian voyages, Bantu expansion.
+
+## Five ice ages (2026-10-13, requested via the Migrations session)
+- 15 steps, 480 ka → 4.2 ka (`ice-ages`), facts checked against Wikipedia + cited papers (scratch research by a subagent);
+  debated: Dye 3 DNA age, Toba catastrophe, D-O cause, Sahara drying speed, 4.2 ka and Akkad. Younger Dryas impact idea left out.
+- Tour cards show a picture when a step has `img` (a title in `atlas/pimg/index.json`); 10 new picks in
+  `dev/data/popup_images_pick.json` (Stokkermans, Zsoldos paintings; photos where no free painting exists).
+- Rebuild sprites with `build_popup_images.py --cultures` (without the flag ~100 culture pictures drop out).

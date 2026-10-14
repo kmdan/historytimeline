@@ -1,0 +1,2972 @@
+{
+ "places": [
+  {
+   "n": "Mecca",
+   "lat": 21.4225,
+   "lon": 39.8262,
+   "y": 610,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "revelation",
+   "what": "Muhammad begins preaching after his first revelation in the cave of Hira (traditionally 610); persecuted, his followers leave in 622",
+   "w": "Muhammad",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muhammad",
+    "https://en.wikipedia.org/wiki/Mecca",
+    "https://en.wikipedia.org/wiki/Hira"
+   ]
+  },
+  {
+   "n": "Medina (Yathrib)",
+   "lat": 24.4672,
+   "lon": 39.6111,
+   "y": 622.73,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Hijra",
+   "what": "Muhammad and his followers emigrate from Mecca (the Hijra, September 622, year 1 of the Islamic calendar); Medina becomes the first Muslim community-state",
+   "w": "Hijrah",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hijrah",
+    "https://en.wikipedia.org/wiki/Medina",
+    "https://en.wikipedia.org/wiki/Constitution_of_Medina"
+   ]
+  },
+  {
+   "n": "Conquest of Mecca",
+   "lat": 21.4225,
+   "lon": 39.8262,
+   "y": 630.03,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Mecca opens its gates to Muslim forces almost without fighting (January 630); the idols of the Kaaba are destroyed",
+   "w": "Conquest of Mecca",
+   "src": [
+    "https://en.wikipedia.org/wiki/Conquest_of_Mecca"
+   ]
+  },
+  {
+   "n": "Yemen (Sana'a)",
+   "lat": 15.35,
+   "lon": 44.21,
+   "y": 628,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Badhan, the Persian governor of Yemen, accepts Islam (c. 628); Yemeni tribes join in the 'Year of Delegations' (630-631)",
+   "w": "Badhan (Persian governor)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Badhan_(Persian_governor)"
+   ]
+  },
+  {
+   "n": "Oman (Sohar)",
+   "lat": 24.35,
+   "lon": 56.71,
+   "y": 630,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "The Julanda rulers of Oman accept Islam (c. 630); Oman later becomes the heartland of Ibadi Islam",
+   "w": "Islam in Oman",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Oman",
+    "https://en.wikipedia.org/wiki/Ibadism"
+   ]
+  },
+  {
+   "n": "Damascus",
+   "lat": 33.511,
+   "lon": 36.306,
+   "y": 634.7,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Arab armies take Damascus (634, again 636); Umayyad capital from 661. Christians remained the majority of Syria for centuries",
+   "w": "Siege of Damascus (634)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Damascus_(634)",
+    "https://en.wikipedia.org/wiki/Damascus"
+   ]
+  },
+  {
+   "n": "Umayyad Mosque, Damascus",
+   "lat": 33.5116,
+   "lon": 36.3066,
+   "y": 715,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Caliph al-Walid I builds the Great Mosque of Damascus (705-715) on the site of the church of St John the Baptist",
+   "w": "Umayyad Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Umayyad_Mosque"
+   ]
+  },
+  {
+   "n": "Jerusalem",
+   "lat": 31.778,
+   "lon": 35.235,
+   "y": 637.3,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Jerusalem surrenders to Caliph Umar after a siege (637 or 638; dates vary)",
+   "w": "First Muslim conquest of Jerusalem",
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Muslim_conquest_of_Jerusalem",
+    "https://en.wikipedia.org/wiki/Jerusalem"
+   ]
+  },
+  {
+   "n": "Dome of the Rock",
+   "lat": 31.7781,
+   "lon": 35.2354,
+   "y": 691.5,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Caliph Abd al-Malik completes the Dome of the Rock (691-692), the oldest surviving major Islamic monument",
+   "w": "Dome of the Rock",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dome_of_the_Rock"
+   ]
+  },
+  {
+   "n": "Basra",
+   "lat": 30.5,
+   "lon": 47.81,
+   "y": 636,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Founded as an Arab garrison town (c. 636-638); later a centre of Arabic grammar and theology",
+   "w": "Basra",
+   "src": [
+    "https://en.wikipedia.org/wiki/Basra"
+   ]
+  },
+  {
+   "n": "Kufa",
+   "lat": 32.03,
+   "lon": 44.4,
+   "y": 638,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Founded as a garrison town (638); Ali's capital (656-661) and an early centre of Shia Islam",
+   "w": "Kufa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kufa"
+   ]
+  },
+  {
+   "n": "Karbala",
+   "lat": 32.616,
+   "lon": 44.024,
+   "y": 680.78,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Husayn, grandson of Muhammad, is killed by Umayyad troops (10 October 680); his martyrdom becomes central to Shia Islam",
+   "w": "Battle of Karbala",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Karbala"
+   ]
+  },
+  {
+   "n": "Egypt (Babylon fortress)",
+   "lat": 30.006,
+   "lon": 31.23,
+   "y": 641.3,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Amr ibn al-As takes the Byzantine fortress of Babylon (April 641); Egypt's Coptic Christians remained the majority for centuries (when Muslims became the majority is debated)",
+   "w": "Arab conquest of Egypt",
+   "src": [
+    "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt",
+    "https://en.wikipedia.org/wiki/Babylon_Fortress"
+   ]
+  },
+  {
+   "n": "Fustat",
+   "lat": 30.006,
+   "lon": 31.233,
+   "y": 641.8,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Founded as the Arab garrison capital of Egypt (641-642), around the Mosque of Amr ibn al-As",
+   "w": "Fustat",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fustat"
+   ]
+  },
+  {
+   "n": "Baghdad",
+   "lat": 33.33,
+   "lon": 44.39,
+   "y": 762.58,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Caliph al-Mansur founds the Round City of Baghdad (30 July 762), the Abbasid capital",
+   "w": "Baghdad",
+   "src": [
+    "https://en.wikipedia.org/wiki/Baghdad",
+    "https://en.wikipedia.org/wiki/Round_City_of_Baghdad"
+   ]
+  },
+  {
+   "n": "House of Wisdom",
+   "lat": 33.34,
+   "lon": 44.38,
+   "y": 830,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Abbasid library and translation centre: Greek, Persian and Indian works are translated into Arabic (flourished c. 830s)",
+   "w": "House of Wisdom",
+   "src": [
+    "https://en.wikipedia.org/wiki/House_of_Wisdom"
+   ]
+  },
+  {
+   "n": "Cairo",
+   "lat": 30.045,
+   "lon": 31.262,
+   "y": 969.5,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "Shia (Ismaili)",
+   "what": "The Ismaili Fatimids conquer Egypt and found Cairo (969); al-Azhar mosque 970-972",
+   "w": "Cairo",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cairo",
+    "https://en.wikipedia.org/wiki/Fatimid_Caliphate"
+   ]
+  },
+  {
+   "n": "Sa'dah (Zaydi Yemen)",
+   "lat": 16.94,
+   "lon": 43.76,
+   "y": 897,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Shia (Zaydi)",
+   "what": "Al-Hadi ila'l-Haqq Yahya founds the Zaydi imamate in northern Yemen (897), which lasted until 1962",
+   "w": "Imams of Yemen",
+   "src": [
+    "https://en.wikipedia.org/wiki/Imams_of_Yemen",
+    "https://en.wikipedia.org/wiki/Al-Hadi_ila'l-Haqq_Yahya"
+   ]
+  },
+  {
+   "n": "Isfahan",
+   "lat": 32.65,
+   "lon": 51.67,
+   "y": 642.5,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Taken after the battle of Nahavand (c. 642-643); most Iranians converted only over the next two to three centuries (Bulliet; debated)",
+   "w": "Muslim conquest of Persia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
+    "https://en.wikipedia.org/wiki/Isfahan"
+   ]
+  },
+  {
+   "n": "Nishapur",
+   "lat": 36.21,
+   "lon": 58.8,
+   "y": 651,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Surrenders in 651; its biographical dictionaries are the main source for Richard Bulliet's conversion curve (Iran majority Muslim c. 9th-10th century, debated)",
+   "w": "Nishapur",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nishapur",
+    "https://en.wikipedia.org/wiki/Richard_W._Bulliet"
+   ]
+  },
+  {
+   "n": "Merv",
+   "lat": 37.6,
+   "lon": 61.83,
+   "y": 651.5,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "The last Sasanian king Yazdegerd III is killed near Merv (651); base for Arab conquests in Central Asia",
+   "w": "Merv",
+   "src": [
+    "https://en.wikipedia.org/wiki/Merv",
+    "https://en.wikipedia.org/wiki/Yazdegerd_III"
+   ]
+  },
+  {
+   "n": "Bukhara",
+   "lat": 39.775,
+   "lon": 64.42,
+   "y": 709,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Qutayba ibn Muslim takes Bukhara (709) and builds a mosque in the citadel; capital of the Persian Samanids (819-999)",
+   "w": "Bukhara",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bukhara",
+    "https://en.wikipedia.org/wiki/Qutayba_ibn_Muslim",
+    "https://en.wikipedia.org/wiki/Samanid_Empire"
+   ]
+  },
+  {
+   "n": "Samarkand",
+   "lat": 39.65,
+   "lon": 66.96,
+   "y": 712,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Qutayba ibn Muslim takes Samarkand (712); later famous for paper-making",
+   "w": "Samarkand",
+   "src": [
+    "https://en.wikipedia.org/wiki/Samarkand",
+    "https://en.wikipedia.org/wiki/Qutayba_ibn_Muslim"
+   ]
+  },
+  {
+   "n": "Kabul",
+   "lat": 34.53,
+   "lon": 69.17,
+   "y": 870,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Kabul resisted Arab armies for two centuries; the Saffarid Ya'qub ibn al-Layth takes it (c. 870)",
+   "w": "Saffarid dynasty",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saffarid_dynasty",
+    "https://en.wikipedia.org/wiki/Kabul"
+   ]
+  },
+  {
+   "n": "Kashgar",
+   "lat": 39.47,
+   "lon": 75.99,
+   "y": 934,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Satuq Bughra Khan, first Muslim ruler of the Turkic Kara-Khanids, converts (c. 934; date debated)",
+   "w": "Sultan Satuq Bughra Khan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultan_Satuq_Bughra_Khan",
+    "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   ]
+  },
+  {
+   "n": "Balasagun (Kara-Khanids)",
+   "lat": 42.75,
+   "lon": 75.25,
+   "y": 960,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Turks",
+   "what": "Ibn al-Athir records that '200,000 tents of Turks' converted in 960; the Kara-Khanid realm becomes Muslim",
+   "w": "Kara-Khanid Khanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   ]
+  },
+  {
+   "n": "Khotan",
+   "lat": 37.11,
+   "lon": 79.93,
+   "y": 1006,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "The Kara-Khanids conquer the Buddhist kingdom of Khotan after a long war (c. 1006)",
+   "w": "Kingdom of Khotan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kingdom_of_Khotan"
+   ]
+  },
+  {
+   "n": "Turkestan (Yasawi shrine)",
+   "lat": 43.29,
+   "lon": 68.27,
+   "y": 1166,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi",
+   "what": "The Sufi Khoja Ahmed Yasawi (d. 1166) preaches among the steppe Turks; Timur builds his mausoleum (1389-1405)",
+   "w": "Ahmad Yasawi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ahmad_Yasawi",
+    "https://en.wikipedia.org/wiki/Mausoleum_of_Khoja_Ahmed_Yasawi"
+   ]
+  },
+  {
+   "n": "Volga Bulgaria (Bolghar)",
+   "lat": 54.98,
+   "lon": 49.06,
+   "y": 922.37,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Ibn Fadlan arrives with an Abbasid embassy (May 922); the Volga Bulgar ruler Almış adopts Islam as state religion",
+   "w": "Volga Bulgaria",
+   "src": [
+    "https://en.wikipedia.org/wiki/Volga_Bulgaria",
+    "https://en.wikipedia.org/wiki/Ahmad_ibn_Fadlan"
+   ]
+  },
+  {
+   "n": "Sarai (Golden Horde)",
+   "lat": 47.14,
+   "lon": 47.33,
+   "y": 1313,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Özbeg Khan makes Islam the religion of the Golden Horde (1313); Berke (r. 1257-1266) had been the first Muslim khan",
+   "w": "Özbeg Khan",
+   "src": [
+    "https://en.wikipedia.org/wiki/%C3%96zbeg_Khan",
+    "https://en.wikipedia.org/wiki/Berke"
+   ]
+  },
+  {
+   "n": "Solkhat (Crimea)",
+   "lat": 45.03,
+   "lon": 35.09,
+   "y": 1314,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Golden Horde",
+   "what": "Özbeg's mosque at Solkhat (Staryi Krym) is built (1314); the Crimean Khanate (1441-1783) remains Muslim",
+   "w": "Crimean Khanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Crimean_Khanate",
+    "https://en.wikipedia.org/wiki/%C3%96zbeg_Khan"
+   ]
+  },
+  {
+   "n": "Kazan",
+   "lat": 55.796,
+   "lon": 49.106,
+   "y": 1438,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "The Kazan Khanate is founded (c. 1438); Russia conquers it in 1552 and destroys its mosques, but the Volga Tatars remain Muslim",
+   "w": "Khanate of Kazan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Khanate_of_Kazan",
+    "https://en.wikipedia.org/wiki/Siege_of_Kazan"
+   ]
+  },
+  {
+   "n": "Qarshi (Chagatai Khanate)",
+   "lat": 38.86,
+   "lon": 65.79,
+   "y": 1326,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Tarmashirin, Chagatai khan, converts (c. 1326); Ibn Battuta visits his camp",
+   "w": "Tarmashirin",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tarmashirin"
+   ]
+  },
+  {
+   "n": "Turpan",
+   "lat": 42.95,
+   "lon": 89.18,
+   "y": 1450,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Moghul khans",
+   "what": "Buddhist Turpan becomes Muslim under the Moghul (Chagatai) khans during the 15th century",
+   "w": "Turpan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Turpan"
+   ]
+  },
+  {
+   "n": "Derbent",
+   "lat": 42.06,
+   "lon": 48.29,
+   "y": 734,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Arab frontier fortress against the Khazars; Juma Mosque founded 734; Dagestan converts gradually over centuries",
+   "w": "Derbent",
+   "src": [
+    "https://en.wikipedia.org/wiki/Derbent",
+    "https://en.wikipedia.org/wiki/Juma_Mosque_of_Derbent"
+   ]
+  },
+  {
+   "n": "Aldy (Chechnya)",
+   "lat": 43.29,
+   "lon": 45.67,
+   "y": 1785,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi (Naqshbandi)",
+   "what": "Sheikh Mansur calls the Chechens to Islam and resistance against Russia (1785); Islam had spread there gradually in the 16th-18th centuries",
+   "w": "Sheikh Mansur",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sheikh_Mansur"
+   ]
+  },
+  {
+   "n": "Konya",
+   "lat": 37.87,
+   "lon": 32.49,
+   "y": 1084,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Turks (Seljuk)",
+   "what": "Seljuk Turks take Konya (c. 1084), later capital of the Sultanate of Rum; the Sufi poet Rumi dies here (1273)",
+   "w": "Sultanate of Rum",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
+    "https://en.wikipedia.org/wiki/Konya",
+    "https://en.wikipedia.org/wiki/Rumi"
+   ]
+  },
+  {
+   "n": "Bursa",
+   "lat": 40.19,
+   "lon": 29.06,
+   "y": 1326.3,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Ottomans take Bursa (1326), their first capital",
+   "w": "Bursa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bursa"
+   ]
+  },
+  {
+   "n": "Edirne",
+   "lat": 41.68,
+   "lon": 26.56,
+   "y": 1369,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Ottomans take Adrianople/Edirne (1360s; date debated) and make it their capital",
+   "w": "Edirne",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edirne"
+   ]
+  },
+  {
+   "n": "Hagia Sophia",
+   "lat": 41.0086,
+   "lon": 28.98,
+   "y": 1453.41,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "After the fall of Constantinople (29 May 1453) Hagia Sophia becomes a mosque",
+   "w": "Hagia Sophia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hagia_Sophia"
+   ]
+  },
+  {
+   "n": "Sarajevo (Bosnia)",
+   "lat": 43.86,
+   "lon": 18.43,
+   "y": 1463.4,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest; gradual conversion",
+   "what": "Ottomans conquer Bosnia (1463); much of the population converts over the 1500s-1600s (speed and causes debated)",
+   "w": "Islam in Bosnia and Herzegovina",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Bosnia_and_Herzegovina",
+    "https://en.wikipedia.org/wiki/Sarajevo"
+   ]
+  },
+  {
+   "n": "Krujë (Albania)",
+   "lat": 41.51,
+   "lon": 19.79,
+   "y": 1478.45,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest; gradual conversion",
+   "what": "Skanderbeg's fortress falls (1478); most Albanians convert in the 1600s-1700s",
+   "w": "Islam in Albania",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Albania",
+    "https://en.wikipedia.org/wiki/Kruj%C3%AB"
+   ]
+  },
+  {
+   "n": "Buda (Ottoman Hungary)",
+   "lat": 47.5,
+   "lon": 19.04,
+   "y": 1541.66,
+   "end": 1686.67,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Ottomans take Buda (August 1541); its Muslim population is killed or expelled when the Habsburgs retake it (September 1686)",
+   "w": "Ottoman Hungary",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ottoman_Hungary",
+    "https://en.wikipedia.org/wiki/Siege_of_Buda_(1686)"
+   ]
+  },
+  {
+   "n": "Chandax (Emirate of Crete)",
+   "lat": 35.34,
+   "lon": 25.13,
+   "y": 824,
+   "end": 961.2,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Andalusi exiles conquer Crete and found Chandax (c. 824-827); Byzantines retake it (March 961)",
+   "w": "Emirate of Crete",
+   "src": [
+    "https://en.wikipedia.org/wiki/Emirate_of_Crete"
+   ]
+  },
+  {
+   "n": "Gibraltar",
+   "lat": 36.14,
+   "lon": -5.35,
+   "y": 711.3,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Tariq ibn Ziyad lands with Berber and Arab troops (April 711); the rock is named after him (Jabal Tariq)",
+   "w": "Tariq ibn Ziyad",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tariq_ibn_Ziyad",
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula"
+   ]
+  },
+  {
+   "n": "Córdoba",
+   "lat": 37.879,
+   "lon": -4.78,
+   "y": 711.8,
+   "end": 1236.49,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Taken in 711; capital of al-Andalus, a caliphate from 929; Castile takes it in June 1236",
+   "w": "Córdoba, Spain",
+   "src": [
+    "https://en.wikipedia.org/wiki/C%C3%B3rdoba,_Spain",
+    "https://en.wikipedia.org/wiki/Umayyad_state_of_C%C3%B3rdoba"
+   ]
+  },
+  {
+   "n": "Great Mosque of Córdoba",
+   "lat": 37.8789,
+   "lon": -4.7794,
+   "y": 785,
+   "end": 1236.49,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Abd al-Rahman I begins the Great Mosque (785); it became a cathedral after 1236",
+   "w": "Mosque–Cathedral of Córdoba",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+   ]
+  },
+  {
+   "n": "Toledo",
+   "lat": 39.86,
+   "lon": -4.02,
+   "y": 711.9,
+   "end": 1085.4,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "The Visigothic capital falls (711-712); Alfonso VI of Castile takes it (May 1085)",
+   "w": "Toledo, Spain",
+   "src": [
+    "https://en.wikipedia.org/wiki/Toledo,_Spain",
+    "https://en.wikipedia.org/wiki/Taifa_of_Toledo"
+   ]
+  },
+  {
+   "n": "Seville",
+   "lat": 37.39,
+   "lon": -5.99,
+   "y": 712.5,
+   "end": 1248.9,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Taken 712-713; Almohad capital in al-Andalus; Castile takes it (November 1248)",
+   "w": "Seville",
+   "src": [
+    "https://en.wikipedia.org/wiki/Seville",
+    "https://en.wikipedia.org/wiki/Siege_of_Seville"
+   ]
+  },
+  {
+   "n": "Lisbon",
+   "lat": 38.71,
+   "lon": -9.14,
+   "y": 714,
+   "end": 1147.8,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Taken c. 714; Portuguese and crusaders take it (October 1147)",
+   "w": "Siege of Lisbon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Lisbon"
+   ]
+  },
+  {
+   "n": "Valencia",
+   "lat": 39.47,
+   "lon": -0.38,
+   "y": 714,
+   "end": 1238.75,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Taken c. 714; Aragon takes it (1238), but Muslim peasants (later Moriscos) remain numerous in the countryside until 1609",
+   "w": "Valencia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Valencia"
+   ]
+  },
+  {
+   "n": "Granada",
+   "lat": 37.18,
+   "lon": -3.59,
+   "y": 713,
+   "end": 1492.0,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Last Muslim state in Iberia (Nasrid emirate 1238-1492) surrenders on 2 January 1492; Muslims forced to convert from 1501-1502",
+   "w": "Emirate of Granada",
+   "src": [
+    "https://en.wikipedia.org/wiki/Emirate_of_Granada",
+    "https://en.wikipedia.org/wiki/Granada_War"
+   ]
+  },
+  {
+   "n": "Expulsion of the Moriscos",
+   "lat": 39.45,
+   "lon": -0.32,
+   "y": 1609.75,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Some 275,000-300,000 Moriscos, descendants of converted Muslims, are expelled from Spain (1609-1614); how many avoided expulsion is debated",
+   "w": "Expulsion of the Moriscos",
+   "src": [
+    "https://en.wikipedia.org/wiki/Expulsion_of_the_Moriscos"
+   ]
+  },
+  {
+   "n": "Narbonne (Septimania)",
+   "lat": 43.18,
+   "lon": 3.0,
+   "y": 719,
+   "end": 759,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Arab-Berber forces take Narbonne (c. 719); the Franks retake it (759)",
+   "w": "Umayyad invasion of Gaul",
+   "src": [
+    "https://en.wikipedia.org/wiki/Umayyad_invasion_of_Gaul",
+    "https://en.wikipedia.org/wiki/Narbonne"
+   ]
+  },
+  {
+   "n": "Palma (Majorca)",
+   "lat": 39.57,
+   "lon": 2.65,
+   "y": 903,
+   "end": 1229.95,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Cordoban forces take the Balearics (902-903); James I of Aragon conquers Majorca (31 December 1229)",
+   "w": "Conquest of Majorca",
+   "src": [
+    "https://en.wikipedia.org/wiki/Conquest_of_Majorca"
+   ]
+  },
+  {
+   "n": "Palermo (Emirate of Sicily)",
+   "lat": 38.116,
+   "lon": 13.36,
+   "y": 831.7,
+   "end": 1250,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Palermo falls (831) and becomes the emirate's capital; Normans take it (1072); Islam ends as the main faith when Frederick II deports Sicily's Muslims (1220s-1240s)",
+   "w": "Muslim Sicily",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muslim_Sicily",
+    "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy"
+   ]
+  },
+  {
+   "n": "Lucera",
+   "lat": 41.51,
+   "lon": 15.33,
+   "y": 1223,
+   "end": 1300.6,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "deported Sicilian Muslims",
+   "what": "Frederick II deports Sicily's Muslims (about 60,000) to Lucera (from 1223); Charles II of Naples destroys the colony and enslaves its people (August 1300)",
+   "w": "Lucera",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lucera"
+   ]
+  },
+  {
+   "n": "Malta (Mdina)",
+   "lat": 35.886,
+   "lon": 14.4,
+   "y": 870,
+   "end": 1224,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Aghlabids conquer Malta (870); Normans take it (1091); the end of the Muslim community (c. 1224 or later) is debated; Maltese still descends from Siculo-Arabic",
+   "w": "Arabs in Malta",
+   "src": [
+    "https://en.wikipedia.org/wiki/Arabs_in_Malta"
+   ]
+  },
+  {
+   "n": "Kairouan",
+   "lat": 35.68,
+   "lon": 10.1,
+   "y": 670,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Uqba ibn Nafi founds Kairouan (670) as the base for the conquest of the Maghreb; its Great Mosque dates in its present form from the 9th century",
+   "w": "Kairouan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kairouan",
+    "https://en.wikipedia.org/wiki/Great_Mosque_of_Kairouan"
+   ]
+  },
+  {
+   "n": "Tangier",
+   "lat": 35.77,
+   "lon": -5.81,
+   "y": 708,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest; Berber conversion",
+   "what": "Musa ibn Nusayr takes Tangier (c. 708); many Berbers convert and join the armies, but unequal treatment leads to the Berber Revolt (740)",
+   "w": "Musa ibn Nusayr",
+   "src": [
+    "https://en.wikipedia.org/wiki/Musa_ibn_Nusayr",
+    "https://en.wikipedia.org/wiki/Berber_Revolt"
+   ]
+  },
+  {
+   "n": "Sijilmasa",
+   "lat": 31.28,
+   "lon": -4.27,
+   "y": 757,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "Kharijite (Sufri)",
+   "what": "Founded 757 by Sufri Kharijite Berbers; northern port of the trans-Saharan gold trade",
+   "w": "Sijilmasa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sijilmasa"
+   ]
+  },
+  {
+   "n": "Tahert",
+   "lat": 35.37,
+   "lon": 1.32,
+   "y": 777,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "Ibadi",
+   "what": "Capital of the Ibadi Rustamid imamate (c. 777-909), linked to trans-Saharan trade",
+   "w": "Rustamid dynasty",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rustamid_dynasty"
+   ]
+  },
+  {
+   "n": "Fez",
+   "lat": 34.06,
+   "lon": -4.97,
+   "y": 789,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Idris I founds Fez (789); al-Qarawiyyin mosque-university founded 859",
+   "w": "Fez, Morocco",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fez,_Morocco",
+    "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin"
+   ]
+  },
+  {
+   "n": "Mahdia",
+   "lat": 35.5,
+   "lon": 11.06,
+   "y": 916,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "Shia (Ismaili)",
+   "what": "The Ismaili Fatimids found Mahdia as their capital (916-921)",
+   "w": "Mahdia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mahdia"
+   ]
+  },
+  {
+   "n": "Marrakesh",
+   "lat": 31.63,
+   "lon": -7.99,
+   "y": 1070,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "Sunni (Maliki), Almoravid",
+   "what": "The Almoravids, a Sanhaja Berber reform movement, found Marrakesh (c. 1070)",
+   "w": "Marrakesh",
+   "src": [
+    "https://en.wikipedia.org/wiki/Marrakesh",
+    "https://en.wikipedia.org/wiki/Almoravid_dynasty"
+   ]
+  },
+  {
+   "n": "Koumbi Saleh (Ghana)",
+   "lat": 15.66,
+   "lon": -8.0,
+   "y": 1068,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Al-Bakri (1068) describes Ghana's capital with a separate Muslim merchants' town of 12 mosques; whether the Almoravids conquered Ghana (1076) is debated",
+   "w": "Koumbi Saleh",
+   "src": [
+    "https://en.wikipedia.org/wiki/Koumbi_Saleh",
+    "https://en.wikipedia.org/wiki/Ghana_Empire"
+   ]
+  },
+  {
+   "n": "Gao",
+   "lat": 16.27,
+   "lon": -0.04,
+   "y": 1010,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Al-Sadi's chronicle names Zuwa Kusoy (1009-1010) as the first ruler of Gao to convert",
+   "w": "Gao",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gao",
+    "https://en.wikipedia.org/wiki/Gao_Empire"
+   ]
+  },
+  {
+   "n": "Takrur",
+   "lat": 16.5,
+   "lon": -14.5,
+   "y": 1035,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "King War Jabi (d. 1040/41) makes Takrur on the Senegal River one of the first Muslim states of West Africa",
+   "w": "Takrur",
+   "src": [
+    "https://en.wikipedia.org/wiki/Takrur"
+   ]
+  },
+  {
+   "n": "Kanem (Njimi)",
+   "lat": 14.2,
+   "lon": 15.3,
+   "y": 1085,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Mai Hu (11th century) is Kanem's first Muslim ruler; Hummay (r. c. 1085-1097) founds the Sayfawa dynasty that rules for over seven centuries; location of the capital Njimi uncertain",
+   "w": "Kanem–Bornu Empire",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kanem%E2%80%93Bornu_Empire",
+    "https://en.wikipedia.org/wiki/Hummay"
+   ]
+  },
+  {
+   "n": "Niani (Mali)",
+   "lat": 11.38,
+   "lon": -8.38,
+   "y": 1324,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Capital of Mali (location debated); Mansa Musa leaves for Mecca (1324)",
+   "w": "Mansa Musa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "https://en.wikipedia.org/wiki/Mali_Empire",
+    "https://en.wikipedia.org/wiki/Niani,_Guinea"
+   ]
+  },
+  {
+   "n": "Timbuktu",
+   "lat": 16.775,
+   "lon": -3.008,
+   "y": 1100,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Islam",
+   "sub": "traders, scholars",
+   "what": "Founded by Tuareg c. 1100; under Mali and Songhai a centre of scholarship with its Sankore, Sidi Yahya and Djinguereber mosques",
+   "w": "Timbuktu",
+   "src": [
+    "https://en.wikipedia.org/wiki/Timbuktu",
+    "https://en.wikipedia.org/wiki/Timbuktu_Manuscripts"
+   ]
+  },
+  {
+   "n": "Djinguereber Mosque",
+   "lat": 16.771,
+   "lon": -3.009,
+   "y": 1327,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Built c. 1325-1327 after Mansa Musa's return from Mecca; traditionally credited to the Andalusi poet al-Sahili (doubted today)",
+   "w": "Djinguereber Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+   ]
+  },
+  {
+   "n": "Djenné",
+   "lat": 13.906,
+   "lon": -4.555,
+   "y": 1240,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "King Koi Konboro converts (13th century; date debated) and turns his palace into the first mosque",
+   "w": "Great Mosque of Djenné",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+    "https://en.wikipedia.org/wiki/Djenn%C3%A9"
+   ]
+  },
+  {
+   "n": "Kano",
+   "lat": 12.0,
+   "lon": 8.52,
+   "y": 1370,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders (Wangara)",
+   "what": "Wangara scholars from Mali help Ali Yaji (r. 1349-1385) make Islam Kano's main faith; Muhammad Rumfa (r. 1463-1499) invites the scholar al-Maghili",
+   "w": "Kano",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kano",
+    "https://en.wikipedia.org/wiki/Ali_Yaji",
+    "https://en.wikipedia.org/wiki/Muhammad_Rumfa"
+   ]
+  },
+  {
+   "n": "Katsina",
+   "lat": 12.99,
+   "lon": 7.6,
+   "y": 1450,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders, rulers",
+   "what": "Islamic centre of the Hausa states; the Gobarau minaret dates from the 15th-16th century",
+   "w": "Katsina (city)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Katsina_(city)",
+    "https://en.wikipedia.org/wiki/Gobarau_Minaret"
+   ]
+  },
+  {
+   "n": "Gudu (Sokoto jihad)",
+   "lat": 13.35,
+   "lon": 5.05,
+   "y": 1804.14,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Usman dan Fodio withdraws to Gudu (February 1804) and launches the Fulani jihad against the Hausa kings",
+   "w": "Jihad of Usman dan Fodio",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jihad_of_Usman_dan_Fodio",
+    "https://en.wikipedia.org/wiki/Usman_dan_Fodio"
+   ]
+  },
+  {
+   "n": "Sokoto",
+   "lat": 13.06,
+   "lon": 5.24,
+   "y": 1809,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Islam",
+   "what": "Capital of the Sokoto Caliphate (founded 1809), one of Africa's largest 19th-century states",
+   "w": "Sokoto Caliphate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+    "https://en.wikipedia.org/wiki/Sokoto_(city)"
+   ]
+  },
+  {
+   "n": "Hamdullahi (Massina)",
+   "lat": 14.35,
+   "lon": -4.07,
+   "y": 1818,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "jihad",
+   "what": "Seku Amadu leads a jihad (1818) and founds the Massina Caliphate with its capital Hamdullahi",
+   "w": "Caliphate of Hamdullahi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Caliphate_of_Hamdullahi"
+   ]
+  },
+  {
+   "n": "Timbo (Futa Jallon)",
+   "lat": 10.63,
+   "lon": -11.83,
+   "y": 1725,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "jihad",
+   "what": "A Fulani jihad founds the Imamate of Futa Jallon (c. 1725)",
+   "w": "Imamate of Futa Jallon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon"
+   ]
+  },
+  {
+   "n": "Futa Toro",
+   "lat": 16.0,
+   "lon": -13.5,
+   "y": 1776,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "jihad",
+   "what": "The Torodbe revolution creates the Imamate of Futa Toro (1776)",
+   "w": "Imamate of Futa Toro",
+   "src": [
+    "https://en.wikipedia.org/wiki/Imamate_of_Futa_Toro"
+   ]
+  },
+  {
+   "n": "Salvador (Bahia)",
+   "lat": -12.97,
+   "lon": -38.51,
+   "y": 1835.07,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Malê revolt: enslaved African Muslims rise in Salvador (January 1835)",
+   "w": "Malê revolt",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mal%C3%AA_revolt"
+   ]
+  },
+  {
+   "n": "Aksum (first Hijra)",
+   "lat": 14.13,
+   "lon": 38.72,
+   "y": 615,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Early Muslims persecuted in Mecca find refuge with the Christian king (Najashi) of Aksum (c. 615)",
+   "w": "Migration to Abyssinia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Migration_to_Abyssinia"
+   ]
+  },
+  {
+   "n": "Zeila",
+   "lat": 11.35,
+   "lon": 43.47,
+   "y": 640,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Its Masjid al-Qiblatayn is traditionally dated to the 7th century (debated); Zeila later becomes a port of the Adal Sultanate",
+   "w": "Zeila",
+   "src": [
+    "https://en.wikipedia.org/wiki/Zeila"
+   ]
+  },
+  {
+   "n": "Shanga (Pate Island)",
+   "lat": -2.13,
+   "lon": 41.0,
+   "y": 780,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Muslim trading community of the 8th century; Mark Horton dates the first excavated timber mosque to c. 780, the earliest evidence of Islam on the Swahili coast",
+   "w": "Shanga, Pate Island",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shanga,_Pate_Island",
+    "https://en.wikipedia.org/wiki/Swahili_coast"
+   ]
+  },
+  {
+   "n": "Mogadishu",
+   "lat": 2.04,
+   "lon": 45.34,
+   "y": 1000,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Muslim trading town of the Somali coast; the Fakr ad-Din and Arba'a Rukun mosques date from 1268-1269",
+   "w": "Mogadishu",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mogadishu",
+    "https://en.wikipedia.org/wiki/Sultanate_of_Mogadishu"
+   ]
+  },
+  {
+   "n": "Kilwa Kisiwani",
+   "lat": -8.957,
+   "lon": 39.51,
+   "y": 1000,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Swahili city-state (sultanate from c. 10th century); its Great Mosque begun in the 11th century; Ibn Battuta visits in 1331",
+   "w": "Kilwa Kisiwani",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kilwa_Kisiwani",
+    "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+   ]
+  },
+  {
+   "n": "Kizimkazi (Zanzibar)",
+   "lat": -6.43,
+   "lon": 39.47,
+   "y": 1107,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "A Kufic inscription dates the Kizimkazi mosque to 1107, one of the oldest in East Africa",
+   "w": "Kizimkazi Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kizimkazi_Mosque"
+   ]
+  },
+  {
+   "n": "Harar",
+   "lat": 9.31,
+   "lon": 42.12,
+   "y": 1520,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Becomes capital of the Adal Sultanate (1520); its imam Ahmad 'Gragn' invades Christian Ethiopia (1529-1543)",
+   "w": "Harar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Harar",
+    "https://en.wikipedia.org/wiki/Ahmad_ibn_Ibrahim_al-Ghazi"
+   ]
+  },
+  {
+   "n": "Dongola (Makuria)",
+   "lat": 18.22,
+   "lon": 30.74,
+   "y": 1317,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "The throne hall of Christian Makuria is turned into a mosque (1317); Nubia becomes Muslim during the following centuries",
+   "w": "Makuria",
+   "src": [
+    "https://en.wikipedia.org/wiki/Makuria",
+    "https://en.wikipedia.org/wiki/Throne_Hall_of_Dongola"
+   ]
+  },
+  {
+   "n": "Sennar",
+   "lat": 13.55,
+   "lon": 33.62,
+   "y": 1504,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler",
+   "what": "The Funj Sultanate is founded (1504); its rulers become Muslim and Islam spreads in the Sudan",
+   "w": "Funj Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Funj_Sultanate"
+   ]
+  },
+  {
+   "n": "Cape Town",
+   "lat": -33.92,
+   "lon": 18.41,
+   "y": 1794,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Cape Malays",
+   "what": "The Auwal Mosque, South Africa's first (1794), serves Muslims brought from Southeast Asia as exiles and slaves",
+   "w": "Auwal Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Auwal_Mosque",
+    "https://en.wikipedia.org/wiki/Cape_Malays"
+   ]
+  },
+  {
+   "n": "Debal (Sindh)",
+   "lat": 24.75,
+   "lon": 67.52,
+   "y": 711.9,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Muhammad ibn al-Qasim storms the port of Debal (711-712); Banbhore's mosque (727) is among the oldest in South Asia",
+   "w": "Muhammad ibn al-Qasim",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muhammad_ibn_al-Qasim",
+    "https://en.wikipedia.org/wiki/Banbhore"
+   ]
+  },
+  {
+   "n": "Multan",
+   "lat": 30.2,
+   "lon": 71.47,
+   "y": 713,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Muhammad ibn al-Qasim takes Multan (713)",
+   "w": "Multan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Multan"
+   ]
+  },
+  {
+   "n": "Malabar coast (Kodungallur)",
+   "lat": 10.22,
+   "lon": 76.2,
+   "y": 800,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Arab traders settle on the Malabar coast; tradition dates the Cheraman Juma Mosque to 629, historians generally later (debated)",
+   "w": "Cheraman Juma Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cheraman_Juma_Mosque",
+    "https://en.wikipedia.org/wiki/Mappila"
+   ]
+  },
+  {
+   "n": "Lahore",
+   "lat": 31.55,
+   "lon": 74.34,
+   "y": 1021,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Ghaznavids take Lahore (c. 1021); the Sufi Ali Hujwiri (Data Ganj Bakhsh) settles there (11th century)",
+   "w": "Lahore",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lahore",
+    "https://en.wikipedia.org/wiki/Ali_Hujwiri"
+   ]
+  },
+  {
+   "n": "Delhi",
+   "lat": 28.52,
+   "lon": 77.185,
+   "y": 1206,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Delhi Sultanate founded (1206); the Qutb Minar is begun c. 1199. Hindus remained the large majority in north India",
+   "w": "Delhi Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+    "https://en.wikipedia.org/wiki/Qutb_Minar"
+   ]
+  },
+  {
+   "n": "Ajmer",
+   "lat": 26.46,
+   "lon": 74.63,
+   "y": 1215,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi (Chishti)",
+   "what": "The Sufi Mu'in al-Din Chishti (d. 1236) settles in Ajmer in the early 13th century; his shrine draws pilgrims of many faiths",
+   "w": "Mu'in al-Din Chishti",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mu'in_al-Din_Chishti"
+   ]
+  },
+  {
+   "n": "Lakhnauti (Bengal)",
+   "lat": 24.87,
+   "lon": 88.13,
+   "y": 1204.5,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "conquest",
+   "what": "Bakhtiyar Khalji takes Nadia and Lakhnauti (c. 1204-1205), beginning Muslim rule in Bengal",
+   "w": "Muhammad Bakhtiyar Khalji",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muhammad_Bakhtiyar_Khalji"
+   ]
+  },
+  {
+   "n": "Sylhet",
+   "lat": 24.9,
+   "lon": 91.87,
+   "y": 1303,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi",
+   "what": "The Sufi Shah Jalal arrives with the conquest of Sylhet (1303)",
+   "w": "Shah Jalal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shah_Jalal"
+   ]
+  },
+  {
+   "n": "Bagerhat",
+   "lat": 22.67,
+   "lon": 89.79,
+   "y": 1450,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi (Khan Jahan Ali)",
+   "what": "Khan Jahan Ali clears the Sundarbans fringe and builds the Sixty Dome Mosque (15th century)",
+   "w": "Sixty Dome Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sixty_Dome_Mosque",
+    "https://en.wikipedia.org/wiki/Khan_Jahan_Ali"
+   ]
+  },
+  {
+   "n": "Dhaka",
+   "lat": 23.71,
+   "lon": 90.41,
+   "y": 1610,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Mughal capital of Bengal (1610); Eaton argues eastern Bengal's peasants became Muslim as forests were cleared for rice under Mughal rule (16th-18th c.; debated)",
+   "w": "Islam in Bangladesh",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Bangladesh",
+    "https://en.wikipedia.org/wiki/Dhaka"
+   ]
+  },
+  {
+   "n": "Srinagar (Kashmir)",
+   "lat": 34.08,
+   "lon": 74.8,
+   "y": 1339,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler; Sufi",
+   "what": "Shah Mir founds Kashmir's first Muslim dynasty (1339); the Sufi Mir Sayyid Ali Hamadani preaches there (1370s-80s)",
+   "w": "Shah Mir dynasty",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shah_Mir_dynasty",
+    "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali_Hamadani"
+   ]
+  },
+  {
+   "n": "Fatehpur Sikri",
+   "lat": 27.09,
+   "lon": 77.66,
+   "y": 1571,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Akbar builds his new capital (1571-1585) beside the shrine of the Sufi Salim Chishti",
+   "w": "Fatehpur Sikri",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fatehpur_Sikri",
+    "https://en.wikipedia.org/wiki/Akbar"
+   ]
+  },
+  {
+   "n": "Beruwala (Sri Lanka)",
+   "lat": 6.48,
+   "lon": 79.98,
+   "y": 900,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Arab traders settle on Sri Lanka's west coast; tradition makes Beruwala the first Muslim settlement (date debated)",
+   "w": "Islam in Sri Lanka",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Sri_Lanka"
+   ]
+  },
+  {
+   "n": "Malé (Maldives)",
+   "lat": 4.175,
+   "lon": 73.51,
+   "y": 1153,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "King Dhovemi converts (1153) and the Maldives become Muslim",
+   "w": "Islam in the Maldives",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_the_Maldives"
+   ]
+  },
+  {
+   "n": "Samudera Pasai",
+   "lat": 5.18,
+   "lon": 97.13,
+   "y": 1297,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "The tombstone of Sultan Malik al-Salih (1297) is the oldest dated evidence of a Muslim ruler in Southeast Asia",
+   "w": "Samudera Pasai Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate"
+   ]
+  },
+  {
+   "n": "Trowulan (Majapahit)",
+   "lat": -7.56,
+   "lon": 112.38,
+   "y": 1368,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Muslim gravestones from 1368 onward at the Hindu-Buddhist Majapahit capital show Muslims at court",
+   "w": "Trowulan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Trowulan"
+   ]
+  },
+  {
+   "n": "Gresik",
+   "lat": -7.16,
+   "lon": 112.65,
+   "y": 1419,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders; Sufi",
+   "what": "Tomb of Malik Ibrahim (d. 1419), first of the Wali Sanga, the 'nine saints' of Javanese tradition",
+   "w": "Malik Ibrahim",
+   "src": [
+    "https://en.wikipedia.org/wiki/Malik_Ibrahim",
+    "https://en.wikipedia.org/wiki/Wali_Sanga"
+   ]
+  },
+  {
+   "n": "Malacca",
+   "lat": 2.19,
+   "lon": 102.25,
+   "y": 1414,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Malacca's ruling house adopts Islam in the early 15th century (traditionally c. 1414; which ruler and when is debated); the port spreads Islam along Malay trade routes; Portugal takes the city in 1511",
+   "w": "Malacca Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+   ]
+  },
+  {
+   "n": "Demak",
+   "lat": -6.89,
+   "lon": 110.64,
+   "y": 1475,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler; Wali Sanga",
+   "what": "Raden Patah founds Demak, Java's first Muslim sultanate (c. 1475); Great Mosque c. 1479",
+   "w": "Demak Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Demak_Sultanate",
+    "https://en.wikipedia.org/wiki/Demak_Great_Mosque"
+   ]
+  },
+  {
+   "n": "Banda Aceh",
+   "lat": 5.55,
+   "lon": 95.32,
+   "y": 1496,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler",
+   "what": "The Aceh Sultanate is founded (c. 1496), later called 'Mecca's veranda'",
+   "w": "Aceh Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aceh_Sultanate"
+   ]
+  },
+  {
+   "n": "Patani",
+   "lat": 6.87,
+   "lon": 101.25,
+   "y": 1457,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "The king of Patani converts (traditionally 1457; debated)",
+   "w": "Patani Kingdom",
+   "src": [
+    "https://en.wikipedia.org/wiki/Patani_Kingdom"
+   ]
+  },
+  {
+   "n": "Brunei",
+   "lat": 4.89,
+   "lon": 114.94,
+   "y": 1368,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Brunei's ruler Muhammad Shah converts (traditionally 1368; some historians date it c. 1515)",
+   "w": "Sultanate of Brunei (1368–1888)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Brunei_(1368%E2%80%931888)"
+   ]
+  },
+  {
+   "n": "Jolo (Sulu)",
+   "lat": 6.05,
+   "lon": 121.0,
+   "y": 1380,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Sufi missionaries",
+   "what": "Makhdum Karim brings Islam to Sulu (c. 1380, traditional); the Sultanate of Sulu is founded in the 15th century (1405 or 1457)",
+   "w": "Sultanate of Sulu",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Sulu"
+   ]
+  },
+  {
+   "n": "Cotabato (Maguindanao)",
+   "lat": 7.22,
+   "lon": 124.25,
+   "y": 1515,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Shariff Kabungsuwan",
+   "what": "Shariff Kabungsuwan from Johor brings Islam to Mindanao (c. 1515) and founds the Sultanate of Maguindanao",
+   "w": "Sultanate of Maguindanao",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Maguindanao"
+   ]
+  },
+  {
+   "n": "Manila",
+   "lat": 14.59,
+   "lon": 120.97,
+   "y": 1500,
+   "end": 1571.4,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Bruneian ties",
+   "what": "The Muslim kingdom of Maynila (Rajah Sulayman) is linked to Brunei; Spain takes it (1571) and Catholicism replaces Islam",
+   "w": "Maynila (historical polity)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maynila_(historical_polity)"
+   ]
+  },
+  {
+   "n": "Ternate",
+   "lat": 0.79,
+   "lon": 127.38,
+   "y": 1486,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "Ternate's royal family converts under Marhum (r. 1465-1486); his son Zainal Abidin makes it a sultanate (1486)",
+   "w": "Sultanate of Ternate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Ternate"
+   ]
+  },
+  {
+   "n": "Makassar (Gowa)",
+   "lat": -5.19,
+   "lon": 119.42,
+   "y": 1605,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "ruler converts",
+   "what": "The rulers of Gowa and Tallo convert (1605) and spread Islam across southern Sulawesi",
+   "w": "Sultanate of Gowa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Gowa"
+   ]
+  },
+  {
+   "n": "Bonjol (Padri War)",
+   "lat": 0.03,
+   "lon": 100.2,
+   "y": 1803,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Padri reformists back from Mecca start a war with Minangkabau traditional leaders (1803-1837) that draws in the Dutch",
+   "w": "Padri Wars",
+   "src": [
+    "https://en.wikipedia.org/wiki/Padri_Wars"
+   ]
+  },
+  {
+   "n": "Guangzhou",
+   "lat": 23.13,
+   "lon": 113.26,
+   "y": 750,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Arab and Persian merchants live in Guangzhou by the 8th century; tradition dates the Huaisheng Mosque to 627 (likely later)",
+   "w": "Huaisheng Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Huaisheng_Mosque",
+    "https://en.wikipedia.org/wiki/Islam_in_China"
+   ]
+  },
+  {
+   "n": "Xi'an",
+   "lat": 34.26,
+   "lon": 108.94,
+   "y": 742,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "The Great Mosque of Xi'an is traditionally dated to 742 (debated); the present buildings date from 1384 onward",
+   "w": "Great Mosque of Xi'an",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Mosque_of_Xi'an"
+   ]
+  },
+  {
+   "n": "Beijing (Niujie)",
+   "lat": 39.88,
+   "lon": 116.36,
+   "y": 996,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Islam",
+   "what": "Niujie Mosque, traditionally founded 996, Beijing's oldest mosque",
+   "w": "Niujie Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Niujie_Mosque"
+   ]
+  },
+  {
+   "n": "Quanzhou",
+   "lat": 24.91,
+   "lon": 118.59,
+   "y": 1009,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "traders",
+   "what": "Qingjing Mosque founded 1009 by Arab merchants of the great port",
+   "w": "Qingjing Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Qingjing_Mosque",
+    "https://en.wikipedia.org/wiki/Quanzhou"
+   ]
+  },
+  {
+   "n": "Kunming (Yunnan)",
+   "lat": 25.04,
+   "lon": 102.71,
+   "y": 1274,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "governor",
+   "what": "The Muslim Sayyid Ajjal becomes the Yuan governor of Yunnan (1274); Muslim (Hui) communities grow under the Mongols",
+   "w": "Ajall Shams al-Din Omar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ajall_Shams_al-Din_Omar",
+    "https://en.wikipedia.org/wiki/Hui_people"
+   ]
+  },
+  {
+   "n": "Tabriz",
+   "lat": 38.08,
+   "lon": 46.29,
+   "y": 1501.5,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Islam",
+   "sub": "Shia (Twelver)",
+   "what": "Ismail I takes Tabriz (1501) and proclaims Twelver Shia Islam the state religion; Iran becomes mostly Shia over two centuries",
+   "w": "Safavid conversion of Iran to Shia Islam",
+   "src": [
+    "https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam",
+    "https://en.wikipedia.org/wiki/Ismail_I"
+   ]
+  },
+  {
+   "n": "Isfahan (Safavid capital)",
+   "lat": 32.657,
+   "lon": 51.677,
+   "y": 1598,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Shah Abbas I makes Isfahan his capital (1598) and builds the Naqsh-e Jahan square and Shah Mosque",
+   "w": "Naqsh-e Jahan Square",
+   "src": [
+    "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square"
+   ]
+  },
+  {
+   "n": "Adelaide",
+   "lat": -34.93,
+   "lon": 138.6,
+   "y": 1889,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Afghan cameleers build the Adelaide Mosque (1888-1889), Australia's oldest surviving city mosque",
+   "w": "Central Adelaide Mosque",
+   "src": [
+    "https://en.wikipedia.org/wiki/Central_Adelaide_Mosque",
+    "https://en.wikipedia.org/wiki/Afghan_cameleers_in_Australia"
+   ]
+  },
+  {
+   "n": "Woking",
+   "lat": 51.32,
+   "lon": -0.56,
+   "y": 1889,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Islam",
+   "what": "The Shah Jahan Mosque, first purpose-built mosque in Britain (1889)",
+   "w": "Shah Jahan Mosque, Woking",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shah_Jahan_Mosque,_Woking"
+   ]
+  },
+  {
+   "n": "Fayetteville (Omar ibn Said)",
+   "lat": 35.05,
+   "lon": -78.88,
+   "y": 1831,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Islam",
+   "what": "Omar ibn Said, an enslaved West African scholar, writes his autobiography in Arabic (1831)",
+   "w": "Omar ibn Said",
+   "src": [
+    "https://en.wikipedia.org/wiki/Omar_ibn_Said"
+   ]
+  }
+ ],
+ "battles": [
+  {
+   "n": "Battle of Badr",
+   "y": 624.2,
+   "date": "13 March 624",
+   "lat": 23.73,
+   "lon": 38.77,
+   "war": "Muslim–Quraysh War",
+   "a": "Muslims of Medina",
+   "b": "Quraysh of Mecca",
+   "won": "a",
+   "men": [
+    313,
+    1000
+   ],
+   "loss": [
+    14,
+    70
+   ],
+   "men_note": "Quraysh 600-1,000; 70 Meccans also captured",
+   "what": "Muhammad's small force defeats a larger Meccan army; the first great Muslim victory",
+   "w": "Battle of Badr",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Badr"
+   ]
+  },
+  {
+   "n": "Battle of Uhud",
+   "y": 625.22,
+   "date": "23 March 625",
+   "lat": 24.5,
+   "lon": 39.61,
+   "war": "Muslim–Quraysh War",
+   "a": "Muslims of Medina",
+   "b": "Quraysh of Mecca",
+   "won": "b",
+   "men": [
+    754,
+    3000
+   ],
+   "loss": [
+    75,
+    35
+   ],
+   "men_note": "Muslim dead 62-75, Meccan dead 22-35",
+   "what": "The Meccans defeat the Muslims below Mount Uhud but do not take Medina",
+   "w": "Battle of Uhud",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Uhud"
+   ]
+  },
+  {
+   "n": "Battle of the Trench",
+   "y": 627.25,
+   "date": "627 (Shawwal-Dhu al-Qadah 5 AH)",
+   "lat": 24.48,
+   "lon": 39.6,
+   "war": "Muslim–Quraysh War",
+   "a": "Muslims of Medina",
+   "b": "Confederates (Quraysh and allies)",
+   "won": "a",
+   "men": [
+    3000,
+    10000
+   ],
+   "loss": [
+    6,
+    3
+   ],
+   "men_note": "Confederates 7,500-12,000 in other estimates",
+   "what": "A ditch dug around Medina defeats a month-long siege by a tribal confederation",
+   "w": "Battle of the Trench",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Trench"
+   ]
+  },
+  {
+   "n": "Battle of the Yarmuk",
+   "y": 636.63,
+   "date": "15-20 August 636",
+   "lat": 32.81,
+   "lon": 35.95,
+   "war": "Muslim conquest of the Levant",
+   "a": "Rashidun Caliphate",
+   "b": "Byzantine Empire",
+   "won": "a",
+   "men": [
+    27500,
+    27500
+   ],
+   "loss": [
+    4000,
+    50000
+   ],
+   "men_note": "Modern estimates 15,000-40,000 on each side; Byzantine dead '50,000+' (modern) - all debated",
+   "what": "Arab victory that ends Byzantine rule in Syria",
+   "w": "Battle of the Yarmuk",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk"
+   ]
+  },
+  {
+   "n": "Battle of al-Qadisiyyah",
+   "y": 636.88,
+   "date": "16-19 November 636",
+   "lat": 31.58,
+   "lon": 44.5,
+   "war": "Muslim conquest of Persia",
+   "a": "Rashidun Caliphate",
+   "b": "Sasanian Empire",
+   "won": "a",
+   "men": [
+    30000,
+    75000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Sasanians 50,000-100,000; losses heavy on both sides",
+   "what": "Arab victory that opens Iraq and the Sasanian capital Ctesiphon",
+   "w": "Battle of al-Qadisiyyah",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_al-Qadisiyyah"
+   ]
+  },
+  {
+   "n": "Battle of Nahavand",
+   "y": 642.5,
+   "date": "642",
+   "lat": 34.19,
+   "lon": 48.37,
+   "war": "Muslim conquest of Persia",
+   "a": "Rashidun Caliphate",
+   "b": "Sasanian Empire",
+   "won": "a",
+   "men": [
+    30000,
+    100000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Sasanians 50,000-150,000; losses heavy",
+   "what": "The 'victory of victories' that breaks Sasanian resistance on the Iranian plateau",
+   "w": "Battle of Nahavand",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Nahavand"
+   ]
+  },
+  {
+   "n": "Battle of Guadalete",
+   "y": 711.55,
+   "date": "July 711",
+   "lat": 36.55,
+   "lon": -5.95,
+   "war": "Umayyad conquest of Hispania",
+   "a": "Umayyad Caliphate",
+   "b": "Visigothic Kingdom",
+   "won": "a",
+   "men": [
+    12000,
+    33000
+   ],
+   "loss": [
+    3000,
+    null
+   ],
+   "men_note": "Lewis: 12,000 vs 33,000; Collins: c. 1,900 vs 2,500; site debated",
+   "what": "Tariq ibn Ziyad defeats King Roderic, who is killed; the Visigothic kingdom collapses",
+   "w": "Battle of Guadalete",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Guadalete"
+   ]
+  },
+  {
+   "n": "Battle of Tours",
+   "y": 732.77,
+   "date": "10 October 732",
+   "lat": 46.78,
+   "lon": 0.54,
+   "war": "Umayyad invasion of Gaul",
+   "a": "Umayyad Caliphate",
+   "b": "Franks",
+   "won": "b",
+   "men": [
+    25000,
+    22500
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Umayyads c. 20,000-30,000, Franks c. 15,000-30,000; losses unknown",
+   "what": "Charles Martel defeats Abd al-Rahman al-Ghafiqi, who is killed; its long-term importance is debated",
+   "w": "Battle of Tours",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tours"
+   ]
+  },
+  {
+   "n": "Battle of Talas",
+   "y": 751.55,
+   "date": "July 751",
+   "lat": 42.9,
+   "lon": 71.4,
+   "war": "Abbasid–Tang conflict",
+   "a": "Abbasid Caliphate",
+   "b": "Tang dynasty",
+   "won": "a",
+   "men": [
+    30000,
+    30000
+   ],
+   "loss": [
+    null,
+    25000
+   ],
+   "men_note": "Modern estimates c. 30,000 each; Tang dead 20,000-30,000 (Chinese sources); site approximate",
+   "what": "The Abbasids defeat a Tang army near the Talas River after its Karluk allies defect",
+   "w": "Battle of Talas",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Talas"
+   ]
+  },
+  {
+   "n": "Battle of Manzikert",
+   "y": 1071.65,
+   "date": "26 August 1071",
+   "lat": 39.14,
+   "lon": 42.54,
+   "war": "Byzantine–Seljuk wars",
+   "a": "Seljuk Empire",
+   "b": "Byzantine Empire",
+   "won": "a",
+   "men": [
+    42500,
+    40000
+   ],
+   "loss": [
+    null,
+    8000
+   ],
+   "men_note": "Seljuks 35,000-50,000; Byzantine dead 2,000-8,000 plus 4,000 captured",
+   "what": "Alp Arslan captures Emperor Romanos IV; Turks then settle across Anatolia",
+   "w": "Battle of Manzikert",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+   ]
+  },
+  {
+   "n": "Battle of Hattin",
+   "y": 1187.51,
+   "date": "4 July 1187",
+   "lat": 32.8,
+   "lon": 35.44,
+   "war": "Crusades",
+   "a": "Ayyubid Sultanate",
+   "b": "Kingdom of Jerusalem",
+   "won": "a",
+   "men": [
+    30000,
+    19000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Ayyubids 20,000-40,000; most of the crusader army killed or captured",
+   "what": "Saladin destroys the crusader army and retakes Jerusalem in October 1187",
+   "w": "Battle of Hattin",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Hattin"
+   ]
+  },
+  {
+   "n": "Siege of Baghdad",
+   "y": 1258.11,
+   "date": "29 January - 10 February 1258",
+   "lat": 33.34,
+   "lon": 44.34,
+   "war": "Mongol invasions",
+   "a": "Mongols (Hülegü)",
+   "b": "Abbasid Caliphate",
+   "won": "a",
+   "men": [
+    200000,
+    50000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Mongols 138,000-300,000 incl. allies; civilian deaths uncertain, tens of thousands to several hundred thousand (debated)",
+   "what": "The Mongols sack Baghdad and kill the last Abbasid caliph of Baghdad",
+   "w": "Siege of Baghdad",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Baghdad"
+   ]
+  },
+  {
+   "n": "Battle of Ain Jalut",
+   "y": 1260.67,
+   "date": "3 September 1260",
+   "lat": 32.55,
+   "lon": 35.36,
+   "war": "Mongol invasions of the Levant",
+   "a": "Mamluk Sultanate",
+   "b": "Mongols (Ilkhanate)",
+   "won": "a",
+   "men": [
+    17500,
+    15000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Mamluks 15,000-20,000, Mongols 10,000-20,000",
+   "what": "The Mamluks of Egypt halt the Mongol advance into Syria and Egypt",
+   "w": "Battle of Ain Jalut",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+   ]
+  },
+  {
+   "n": "Battle of Kosovo",
+   "y": 1389.46,
+   "date": "15 June 1389 (Julian)",
+   "lat": 42.72,
+   "lon": 21.09,
+   "war": "Serbian–Ottoman wars",
+   "a": "Ottoman Empire",
+   "b": "Moravian Serbia and allies",
+   "won": "draw",
+   "men": [
+    28500,
+    16000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Ottomans 27,000-30,000, Serbs 12,000-20,000; both rulers killed",
+   "what": "Inconclusive, but Serbia soon becomes an Ottoman vassal",
+   "w": "Battle of Kosovo",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Kosovo"
+   ]
+  },
+  {
+   "n": "Fall of Constantinople",
+   "y": 1453.41,
+   "date": "6 April - 29 May 1453",
+   "lat": 41.03,
+   "lon": 28.94,
+   "war": "Byzantine–Ottoman wars",
+   "a": "Ottoman Empire",
+   "b": "Byzantine Empire",
+   "won": "a",
+   "men": [
+    100000,
+    8000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Losses heavy on both sides",
+   "what": "Mehmed II takes Constantinople after a 53-day siege; the Byzantine Empire ends",
+   "w": "Fall of Constantinople",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+   ]
+  },
+  {
+   "n": "Battle of Chaldiran",
+   "y": 1514.64,
+   "date": "23 August 1514",
+   "lat": 39.09,
+   "lon": 44.33,
+   "war": "Ottoman–Safavid wars",
+   "a": "Ottoman Empire",
+   "b": "Safavid Iran",
+   "won": "a",
+   "men": [
+    60000,
+    40000
+   ],
+   "loss": [
+    null,
+    null
+   ],
+   "men_note": "Ottomans 60,000 or 100,000; Safavids 40,000-80,000; losses from c. 2,000 to tens of thousands",
+   "what": "Ottoman guns defeat Shah Ismail; the Sunni Ottoman - Shia Safavid frontier hardens",
+   "w": "Battle of Chaldiran",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Chaldiran"
+   ]
+  },
+  {
+   "n": "First Battle of Panipat",
+   "y": 1526.3,
+   "date": "21 April 1526",
+   "lat": 29.4,
+   "lon": 76.97,
+   "war": "Mughal conquests",
+   "a": "Babur (Mughals)",
+   "b": "Delhi Sultanate (Lodi)",
+   "won": "a",
+   "men": [
+    12000,
+    60000
+   ],
+   "loss": [
+    null,
+    20000
+   ],
+   "men_note": "Lodi army 50,000-70,000 with 1,000 elephants",
+   "what": "Babur's guns defeat Ibrahim Lodi; the Mughal Empire begins",
+   "w": "First Battle of Panipat",
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Battle_of_Panipat"
+   ]
+  },
+  {
+   "n": "Battle of Mohács",
+   "y": 1526.66,
+   "date": "29 August 1526",
+   "lat": 45.94,
+   "lon": 18.68,
+   "war": "Ottoman–Hungarian wars",
+   "a": "Ottoman Empire",
+   "b": "Kingdom of Hungary",
+   "won": "a",
+   "men": [
+    75000,
+    27500
+   ],
+   "loss": [
+    1750,
+    19000
+   ],
+   "men_note": "Ottomans 50,000-100,000; Hungarian dead 14,000-24,000",
+   "what": "Suleiman defeats Hungary; King Louis II dies; most of Hungary falls to the Ottomans by 1541",
+   "w": "Battle of Mohács",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs"
+   ]
+  },
+  {
+   "n": "Battle of Vienna",
+   "y": 1683.7,
+   "date": "12 September 1683",
+   "lat": 48.27,
+   "lon": 16.33,
+   "war": "Great Turkish War",
+   "a": "Ottoman Empire",
+   "b": "Holy Roman Empire, Poland-Lithuania",
+   "won": "b",
+   "men": [
+    50000,
+    86000
+   ],
+   "loss": [
+    14000,
+    4500
+   ],
+   "men_note": "Ottomans c. 50,000 in the battle; relief army 70,000 plus c. 16,000 garrison; Ottoman battle losses 8,000-20,000",
+   "what": "Jan Sobieski's relief army breaks the siege; the Ottomans begin to lose Hungary",
+   "w": "Battle of Vienna",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+   ]
+  }
+ ],
+ "campaigns": [
+  {
+   "n": "The Hijra",
+   "who": "Muhammad and Abu Bakr",
+   "side": "Muslims",
+   "pts": [
+    [
+     39.826,
+     21.423,
+     622.69,
+     null
+    ],
+    [
+     39.85,
+     21.377,
+     622.695,
+     null
+    ],
+    [
+     39.6,
+     21.6,
+     622.705,
+     null
+    ],
+    [
+     39.25,
+     22.1,
+     622.71,
+     null
+    ],
+    [
+     39.05,
+     22.7,
+     622.715,
+     null
+    ],
+    [
+     38.95,
+     23.3,
+     622.72,
+     null
+    ],
+    [
+     39.25,
+     23.95,
+     622.725,
+     null
+    ],
+    [
+     39.617,
+     24.439,
+     622.728,
+     null
+    ],
+    [
+     39.611,
+     24.467,
+     622.73,
+     null
+    ]
+   ],
+   "what": "Muhammad and Abu Bakr hide three days in the cave of Thawr, then travel by a little-used coastal route to Quba and Medina (September 622); exact route approximate.",
+   "w": "Hijrah",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hijrah",
+    "https://en.wikipedia.org/wiki/Jabal_Thawr"
+   ]
+  },
+  {
+   "n": "Arab conquests westward (632-712)",
+   "who": "Rashidun and Umayyad armies",
+   "side": "Caliphate",
+   "pts": [
+    [
+     39.611,
+     24.467,
+     632.5,
+     null
+    ],
+    [
+     36.306,
+     33.511,
+     634.7,
+     null
+    ],
+    [
+     35.95,
+     32.81,
+     636.63,
+     null
+    ],
+    [
+     35.235,
+     31.778,
+     637.3,
+     null
+    ],
+    [
+     31.23,
+     30.006,
+     641.3,
+     null
+    ],
+    [
+     29.92,
+     31.2,
+     641.9,
+     null
+    ],
+    [
+     20.07,
+     32.12,
+     643,
+     null
+    ],
+    [
+     13.18,
+     32.89,
+     643.5,
+     null
+    ],
+    [
+     10.1,
+     35.68,
+     670,
+     null
+    ],
+    [
+     10.33,
+     36.85,
+     698,
+     null
+    ],
+    [
+     -5.81,
+     35.77,
+     708,
+     null
+    ],
+    [
+     -5.35,
+     36.14,
+     711.3,
+     7000
+    ],
+    [
+     -5.95,
+     36.55,
+     711.55,
+     null
+    ],
+    [
+     -4.78,
+     37.879,
+     711.8,
+     null
+    ],
+    [
+     -4.02,
+     39.86,
+     711.9,
+     null
+    ],
+    [
+     -0.88,
+     41.65,
+     714,
+     null
+    ]
+   ],
+   "what": "From Medina through Syria, Egypt and North Africa to Spain in eighty years; Tariq crossed to Spain with about 7,000 men (later reinforced). Dates approximate where the sources differ.",
+   "w": "Early Muslim conquests",
+   "src": [
+    "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Maghreb",
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula"
+   ]
+  },
+  {
+   "n": "Conquest of Persia (636-651)",
+   "who": "Rashidun armies",
+   "side": "Caliphate",
+   "pts": [
+    [
+     44.5,
+     31.58,
+     636.88,
+     30000
+    ],
+    [
+     44.58,
+     33.09,
+     637.2,
+     null
+    ],
+    [
+     45.17,
+     34.27,
+     637.9,
+     null
+    ],
+    [
+     48.37,
+     34.19,
+     642.5,
+     30000
+    ],
+    [
+     51.67,
+     32.65,
+     643,
+     null
+    ],
+    [
+     51.44,
+     35.59,
+     643.5,
+     null
+    ],
+    [
+     52.91,
+     29.98,
+     650,
+     null
+    ],
+    [
+     58.8,
+     36.21,
+     651,
+     null
+    ],
+    [
+     61.83,
+     37.6,
+     651.5,
+     null
+    ]
+   ],
+   "what": "Al-Qadisiyyah, Ctesiphon, Jalula and Nahavand broke the Sasanian Empire; its last king, Yazdegerd III, was killed near Merv in 651. Strengths are rough estimates.",
+   "w": "Muslim conquest of Persia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+   ]
+  },
+  {
+   "n": "Conquest of Sindh (711-713)",
+   "who": "Muhammad ibn al-Qasim",
+   "side": "Umayyad Caliphate",
+   "pts": [
+    [
+     52.53,
+     29.61,
+     710.8,
+     6000
+    ],
+    [
+     64.1,
+     26.97,
+     711.3,
+     null
+    ],
+    [
+     66.6,
+     26.23,
+     711.6,
+     null
+    ],
+    [
+     67.52,
+     24.75,
+     711.9,
+     null
+    ],
+    [
+     68.37,
+     25.39,
+     712.1,
+     null
+    ],
+    [
+     67.86,
+     26.42,
+     712.2,
+     null
+    ],
+    [
+     68.75,
+     25.88,
+     712.5,
+     null
+    ],
+    [
+     68.97,
+     27.62,
+     712.8,
+     null
+    ],
+    [
+     71.47,
+     30.2,
+     713.5,
+     null
+    ]
+   ],
+   "what": "From Shiraz through Makran to Debal, Nerun, Sehwan, Brahmanabad, Alor and Multan; Raja Dahir was killed in 712. Starting force about 6,000 Syrian cavalry; points and dates approximate.",
+   "w": "Umayyad campaigns in India",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muhammad_ibn_al-Qasim",
+    "https://en.wikipedia.org/wiki/Umayyad_campaigns_in_India"
+   ]
+  },
+  {
+   "n": "Mansa Musa's hajj (1324-1325)",
+   "who": "Mansa Musa of Mali",
+   "side": "Mali Empire",
+   "pts": [
+    [
+     -8.38,
+     11.38,
+     1324.0,
+     null
+    ],
+    [
+     -7.02,
+     17.3,
+     1324.15,
+     null
+    ],
+    [
+     -0.29,
+     27.87,
+     1324.35,
+     null
+    ],
+    [
+     31.24,
+     30.04,
+     1324.55,
+     null
+    ],
+    [
+     39.61,
+     24.47,
+     1324.8,
+     null
+    ],
+    [
+     39.83,
+     21.42,
+     1324.88,
+     null
+    ],
+    [
+     31.24,
+     30.04,
+     1325.1,
+     null
+    ],
+    [
+     -0.04,
+     16.27,
+     1325.5,
+     null
+    ],
+    [
+     -3.0,
+     16.77,
+     1325.6,
+     null
+    ],
+    [
+     -8.38,
+     11.38,
+     1325.8,
+     null
+    ]
+   ],
+   "what": "Mansa Musa reached Cairo in July 1324 with an enormous entourage, including many thousands of enslaved people (numbers in later accounts vary widely), and spent so much gold that its value fell; the outward and return routes are approximate (return via Gao and Timbuktu per tradition).",
+   "w": "Mansa Musa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "https://en.wikipedia.org/wiki/Mali_Empire"
+   ]
+  }
+ ]
+}

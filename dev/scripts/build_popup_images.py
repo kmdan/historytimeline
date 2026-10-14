@@ -171,7 +171,8 @@ def pack(idx):
             x0, y0 = (im.width - CW) // 2, round((im.height - CH) * 0.3)
             sheet.paste(im.crop((x0, y0, x0 + CW, y0 + CH)), ((i % COLS) * CW, (i // COLS) * CH))
         sheet.save(OUT / f's{n // per}.webp', 'WEBP', quality=74, method=6)
-    out = {'_grid': [COLS, ROWS]}
+    # _v: content hash per sheet; the page asks for s<n>.webp?v=<hash> so a browser never pairs a new index with an old cached sheet
+    out = {'_grid': [COLS, ROWS], '_v': [hashlib.sha1((OUT / f's{k}.webp').read_bytes()).hexdigest()[:8] for k in range(-(-len(files) // per))]}
     for t, v in sorted(idx.items()):
         c = cell[v['file']]
         out[t] = {'s': c // per, 'c': c % per, 'file': v['file'], 'lic': v['lic'], 'artist': v['artist']}

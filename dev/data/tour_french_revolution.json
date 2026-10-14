@@ -1,0 +1,820 @@
+{
+ "id": "french_revolution",
+ "title": "The French Revolution",
+ "blurb": "From an empty treasury and a ruined harvest to the Rights of Man, the Terror and Bonaparte's coup: France and Europe 1788-1799.",
+ "cat": "Revolutions & empires",
+ "steps": [
+  {
+   "y": 1788.533,
+   "lat": 48.6,
+   "lon": 2.4,
+   "z": 5,
+   "t": "An empty treasury and a ruined harvest",
+   "c": "France helped win the American War of Independence but paid with borrowed money: by 1788 half of all state revenue went on servicing the debt, and nobles and clergy blocked new taxes. Then on 13 July 1788 a hailstorm flattened crops across northern France, the harvest failed and an exceptionally cold winter followed. Bread, the main food of the poor, became so dear that many families spent most of their income on it. In August the king gave in and called the Estates-General for May 1789.",
+   "w": "Causes of the French Revolution",
+   "look": [
+    [
+     48.86,
+     2.35,
+     "Paris"
+    ],
+    [
+     48.8,
+     2.12,
+     "Versailles"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A volcano in Iceland?",
+     "t": "The Laki fissure eruption of 1783-84 spread a sulphurous haze over Europe and brought extreme weather. Some historians link it to the poor harvests before 1789, but the link is debated: the eruption was five years earlier.",
+     "lat": 64.07,
+     "lon": -18.23
+    },
+    {
+     "h": "Day of the Tiles",
+     "t": "On 7 June 1788 people in Grenoble threw roof tiles at royal troops sent to close their law court, an early open revolt.",
+     "lat": 45.19,
+     "lon": 5.72
+    }
+   ],
+   "img_alt": {
+    "file": "File:Louis XVI Aumônes.jpg",
+    "by": "Louis Hersent, 1817 (Louis XVI giving alms in the winter of 1788)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Causes_of_the_French_Revolution",
+    "https://en.wikipedia.org/wiki/French_Revolution",
+    "https://en.wikipedia.org/wiki/1788",
+    "https://en.wikipedia.org/wiki/Laki",
+    "https://en.wikipedia.org/wiki/Day_of_the_Tiles"
+   ]
+  },
+  {
+   "y": 1789.467,
+   "lat": 48.8,
+   "lon": 2.13,
+   "z": 8,
+   "t": "Three estates at Versailles",
+   "c": "On 5 May 1789 about 1,200 deputies met at Versailles: clergy, nobles and the Third Estate, which spoke for some 97% of the people and had been given double the seats. They arrived with 'cahiers', lists of grievances written in towns and villages across France. When the king kept voting by estate, the Third Estate declared itself the National Assembly on 17 June. Three days later, locked out of its hall, it swore in a tennis court not to separate until France had a constitution.",
+   "w": "Tennis Court Oath",
+   "look": [
+    [
+     48.8,
+     2.134,
+     "Menus-Plaisirs hall"
+    ],
+    [
+     48.802,
+     2.124,
+     "Tennis court"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Vizille, 1788",
+     "t": "A year earlier, the estates of Dauphiné met in the château of Vizille and demanded exactly what Paris later fought for: a doubled Third Estate and voting by head.",
+     "lat": 45.08,
+     "lon": 5.77
+    },
+    {
+     "h": "Riot in the wallpaper works",
+     "t": "On 28 April 1789 Paris workers sacked the Réveillon wallpaper factory over rumoured wage cuts; troops fired and dozens to hundreds died (estimates vary).",
+     "lat": 48.851,
+     "lon": 2.375
+    }
+   ],
+   "img_alt": {
+    "file": "File:Couder Stati generali.jpg",
+    "by": "Auguste Couder, 1839",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Estates_General_of_1789",
+    "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+    "https://en.wikipedia.org/wiki/National_Assembly_(French_Revolution)",
+    "https://en.wikipedia.org/wiki/Réveillon_riots",
+    "https://en.wikipedia.org/wiki/Assembly_of_Vizille"
+   ]
+  },
+  {
+   "y": 1789.533,
+   "lat": 48.853,
+   "lon": 2.369,
+   "z": 9,
+   "t": "The fall of the Bastille",
+   "c": "The king's dismissal of the popular finance minister Necker on 11 July and troops gathering around Paris made the city fear a crackdown. On 14 July a crowd that had taken some 30,000 muskets from the Invalides went to the Bastille fortress for gunpowder. After hours of fighting, in which about 98 attackers died, the garrison surrendered; the governor de Launay was killed. The fortress held only seven prisoners, but its fall became the symbol of the Revolution, and 14 July is France's national day.",
+   "w": "Storming of the Bastille",
+   "look": [
+    [
+     48.853,
+     2.369,
+     "Bastille"
+    ],
+    [
+     48.856,
+     2.313,
+     "Invalides"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Souvenir stones",
+     "t": "A building contractor, Pierre-François Palloy, demolished the Bastille and sold its stones carved into small models of the fortress all over France.",
+     "lat": 48.86,
+     "lon": 2.36
+    },
+    {
+     "h": "The king's cockade",
+     "t": "On 17 July Louis XVI came to Paris and accepted the red-and-blue cockade of the city, to which the white of the monarchy was added: the origin of the tricolour.",
+     "lat": 48.857,
+     "lon": 2.352
+    }
+   ],
+   "img_alt": {
+    "file": "File:Prise de la Bastille.jpg",
+    "by": "Jean-Pierre Houël, 1789 (watercolour)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "https://en.wikipedia.org/wiki/Bastille",
+    "https://en.wikipedia.org/wiki/Flag_of_France"
+   ]
+  },
+  {
+   "y": 1789.651,
+   "lat": 47.0,
+   "lon": 2.5,
+   "z": 5,
+   "t": "Great Fear and the Rights of Man",
+   "c": "In late July 1789 rumours of brigands paid by nobles swept the countryside; peasants armed themselves and burned the manor records listing their dues. On the night of 4 August the Assembly answered by abolishing feudal privileges and the church tithe. On 26 August it adopted the Declaration of the Rights of Man and of the Citizen: 'men are born and remain free and equal in rights'. In the debates that followed, supporters of a strong king sat to the president's right and their opponents to the left, which is where 'left' and 'right' in politics come from.",
+   "w": "Declaration of the Rights of Man and of the Citizen",
+   "look": [
+    [
+     47.62,
+     6.15,
+     "Franche-Comté"
+    ],
+    [
+     46.03,
+     0.2,
+     "Ruffec"
+    ],
+    [
+     46.31,
+     4.83,
+     "Mâconnais"
+    ],
+    [
+     48.8,
+     2.13,
+     "Versailles"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ruffec",
+     "t": "One of the starting points of the Great Fear: a rumour of brigands here on 28 July spread across the south-west in a few days.",
+     "lat": 46.03,
+     "lon": 0.2
+    },
+    {
+     "h": "Mâconnais",
+     "t": "In the hills around Mâcon peasants attacked dozens of châteaux and abbeys, burning title deeds rather than killing their lords.",
+     "lat": 46.31,
+     "lon": 4.83
+    }
+   ],
+   "img_alt": {
+    "file": "File:Jean-Jacques Le Barbier - Déclaration des droits de l'homme et du citoyen - P708 - Musée Carnavalet.jpg",
+    "by": "Jean-Jacques-François Le Barbier, 1789",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear",
+    "https://en.wikipedia.org/wiki/Abolition_of_feudalism_in_France",
+    "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+    "https://en.wikipedia.org/wiki/Left–right_political_spectrum"
+   ]
+  },
+  {
+   "y": 1789.76,
+   "lat": 48.83,
+   "lon": 2.24,
+   "z": 9,
+   "t": "Women march for bread",
+   "c": "On 5 October 1789, angry at the price and shortage of bread, thousands of Paris market women marched about 20 km in the rain to Versailles, followed by some 20,000 National Guards under Lafayette. The next morning part of the crowd broke into the palace. The king agreed to move to Paris, and the royal family travelled to the Tuileries surrounded by the crowd. The Assembly followed, and from then on Paris crowds could press directly on government.",
+   "w": "Women's March on Versailles",
+   "look": [
+    [
+     48.857,
+     2.352,
+     "Hôtel de Ville"
+    ],
+    [
+     48.805,
+     2.12,
+     "Versailles"
+    ],
+    [
+     48.862,
+     2.33,
+     "Tuileries"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The baker and his family",
+     "t": "The crowd taking the king to Paris called the royal family 'the baker, the baker's wife and the baker's boy', expecting them to provide bread.",
+     "lat": 48.862,
+     "lon": 2.33
+    },
+    {
+     "h": "Sèvres on the way",
+     "t": "The road from Paris ran through Sèvres, famous for its royal porcelain works, which had been moved there from Vincennes in 1756.",
+     "lat": 48.82,
+     "lon": 2.21
+    }
+   ],
+   "img_alt": {
+    "file": "File:Marche des femmes sur Versailles 5 et 6 oct 1789.jpg",
+    "by": "Valentine Cameron Prinsep, c. 1895",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Women's_March_on_Versailles",
+    "https://en.wikipedia.org/wiki/Lafayette"
+   ]
+  },
+  {
+   "y": 1791.471,
+   "lat": 49.1,
+   "lon": 4.2,
+   "z": 6,
+   "t": "The king runs away",
+   "c": "Many nobles had already left France; these émigrés gathered around the king's brothers in Koblenz and urged foreign rulers to intervene. On the night of 20 June 1791 Louis XVI and his family slipped out of the Tuileries in disguise, heading for the loyal army at Montmédy. The postmaster of Sainte-Menehould recognised the king, and the family was stopped at Varennes, 50 km from the frontier, and brought back to a silent Paris. Trust in the king collapsed; on 17 July the National Guard fired on republican petitioners at the Champ de Mars, killing roughly a dozen to 50 (estimates vary).",
+   "w": "Flight to Varennes",
+   "look": [
+    [
+     48.862,
+     2.33,
+     "Tuileries"
+    ],
+    [
+     49.091,
+     4.896,
+     "Sainte-Menehould"
+    ],
+    [
+     49.226,
+     5.031,
+     "Varennes"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Émigrés in Koblenz",
+     "t": "Thousands of émigré nobles and officers formed an army in Koblenz on the Rhine. Their property in France was later confiscated.",
+     "lat": 50.36,
+     "lon": 7.59
+    },
+    {
+     "h": "Pillnitz",
+     "t": "On 27 August 1791 the Emperor and the King of Prussia declared their support for Louis XVI, a vague threat that made many French people expect war.",
+     "lat": 51.01,
+     "lon": 13.87
+    }
+   ],
+   "img_alt": {
+    "file": "File:Arrest of Louis XVI and his Family, Varennes, 1791.jpg",
+    "by": "Thomas Falcon Marshall, 1854",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Flight_to_Varennes",
+    "https://en.wikipedia.org/wiki/Champ_de_Mars_massacre",
+    "https://en.wikipedia.org/wiki/Émigré",
+    "https://en.wikipedia.org/wiki/Declaration_of_Pillnitz"
+   ]
+  },
+  {
+   "y": 1792.722,
+   "lat": 49.08,
+   "lon": 4.77,
+   "z": 6,
+   "t": "War, a new republic and Valmy",
+   "c": "France declared war on Austria in April 1792, and Prussia joined in. With invasion threatened, Paris crowds and volunteers stormed the Tuileries on 10 August; about 600 of the 900 Swiss Guards died and the king was deposed. In early September crowds killed about 1,100-1,600 prisoners in Paris, most of them common criminals. On 20 September an artillery duel at Valmy turned back the Prussian army, and on 21-22 September the new National Convention abolished the monarchy: Year I of the Republic began.",
+   "w": "Battle of Valmy",
+   "look": [
+    [
+     49.08,
+     4.77,
+     "Valmy"
+    ],
+    [
+     48.862,
+     2.33,
+     "Tuileries"
+    ],
+    [
+     49.16,
+     5.38,
+     "Verdun"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "La Marseillaise",
+     "t": "Written in Strasbourg in April 1792 as a war song for the Army of the Rhine, it got its name from volunteers from Marseille who sang it marching into Paris.",
+     "lat": 48.58,
+     "lon": 7.75
+    },
+    {
+     "h": "Verdun falls",
+     "t": "The Prussians took Verdun on 2 September; the news set off the September Massacres in Paris.",
+     "lat": 49.16,
+     "lon": 5.38
+    }
+   ],
+   "img_alt": {
+    "file": "File:Valmy Battle painting.jpg",
+    "by": "Horace Vernet, 1826",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Valmy",
+    "https://en.wikipedia.org/wiki/Insurrection_of_10_August_1792",
+    "https://en.wikipedia.org/wiki/September_Massacres",
+    "https://en.wikipedia.org/wiki/La_Marseillaise",
+    "https://en.wikipedia.org/wiki/French_First_Republic"
+   ]
+  },
+  {
+   "y": 1793.193,
+   "lat": 47.5,
+   "lon": -0.5,
+   "z": 5,
+   "t": "The king executed, France at war with itself",
+   "c": "Tried by the Convention, Louis XVI was guillotined on 21 January 1793 after a narrow majority voted for death. Britain, the Dutch Republic and Spain joined the war, and the Republic called up 300,000 men. In March the Catholic west rose against conscription and the attack on its priests: the Vendée war. After the radical Montagnards purged their Girondin rivals on 2 June, Lyon, Marseille, Bordeaux, Caen and Toulon rose too. The repression of the Vendée was the bloodiest episode of the Revolution: estimates of the dead on both sides range from about 117,000 to 450,000 (debated, as is calling it a genocide).",
+   "w": "War in the Vendée",
+   "look": [
+    [
+     48.866,
+     2.321,
+     "Place de la Révolution"
+    ],
+    [
+     47.06,
+     -0.88,
+     "Cholet"
+    ],
+    [
+     45.76,
+     4.83,
+     "Lyon"
+    ],
+    [
+     43.12,
+     5.93,
+     "Toulon"
+    ],
+    [
+     44.84,
+     -0.58,
+     "Bordeaux"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Toulon",
+     "t": "Royalists handed the naval port to a British-Spanish fleet in August 1793. The young artillery captain Napoleon Bonaparte helped retake it in December.",
+     "lat": 43.12,
+     "lon": 5.93
+    },
+    {
+     "h": "Caen and Charlotte Corday",
+     "t": "Fugitive Girondins tried to raise an army in Caen. A young woman from the town, Charlotte Corday, travelled to Paris and stabbed the radical journalist Marat on 13 July.",
+     "lat": 49.18,
+     "lon": -0.37
+    }
+   ],
+   "img_alt": {
+    "file": "File:Charles Benazech - Exécution de Louis XVI, le 21 janvier 1793 - P2766 - Musée Carnavalet.jpg",
+    "by": "Charles Benazech, 1793",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+    "https://en.wikipedia.org/wiki/War_in_the_Vendée",
+    "https://en.wikipedia.org/wiki/Federalist_revolts",
+    "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)",
+    "https://en.wikipedia.org/wiki/Jean-Paul_Marat"
+   ]
+  },
+  {
+   "y": 1793.607,
+   "lat": 48.861,
+   "lon": 2.338,
+   "z": 8,
+   "t": "A museum for everyone and a measure for all",
+   "c": "On 10 August 1793, the first anniversary of the fall of the monarchy, the former royal palace of the Louvre opened as a public museum with 537 paintings, most from the royal collection and confiscated church property. The Revolution also wanted the same measures everywhere instead of hundreds of local units: the metre was defined as one ten-millionth of the distance from the North Pole to the Equator. A law of April 1795 created the metre, gram and litre, and the final platinum metre was deposited in the Archives in June 1799. Today almost every country uses the system.",
+   "w": "Louvre",
+   "look": [
+    [
+     48.861,
+     2.338,
+     "Louvre"
+    ],
+    [
+     48.86,
+     2.357,
+     "Archives"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Measuring the meridian",
+     "t": "From 1792 to 1798 the astronomers Delambre and Méchain measured the meridian from Dunkirk to Barcelona by triangulation, despite war and arrests as suspected spies.",
+     "lat": 51.03,
+     "lon": 2.37
+    },
+    {
+     "h": "Barcelona",
+     "t": "Méchain worked the southern end of the survey from Barcelona; a small error he found in his own measurements troubled him for the rest of his life.",
+     "lat": 41.39,
+     "lon": 2.17
+    }
+   ],
+   "img_alt": {
+    "file": "File:Hubert Robert, Project for the Transformation of the Grande Galerie of the Louvre, 1796.jpg",
+    "by": "Hubert Robert, 1796",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Louvre",
+    "https://en.wikipedia.org/wiki/History_of_the_metre",
+    "https://en.wikipedia.org/wiki/Metric_system"
+   ]
+  },
+  {
+   "y": 1793.812,
+   "lat": 48.86,
+   "lon": 2.35,
+   "z": 7,
+   "t": "Sans-culottes, bread and a new calendar",
+   "c": "The sans-culottes, Paris artisans and shopkeepers who wore long trousers instead of the breeches of the rich, pushed for cheap bread and harsh measures against 'hoarders'. In September 1793 the Law of the General Maximum capped the prices of bread and other goods, and the Law of Suspects allowed mass arrests. In October the Convention adopted a revolutionary calendar: years counted from 22 September 1792, ten-day weeks and months named after nature, such as Brumaire (mist) and Thermidor (heat). In the dechristianisation campaign churches were closed and Notre-Dame became a 'Temple of Reason'; citizens called each other 'citoyen' and 'tu'.",
+   "w": "Sans-culottes",
+   "look": [
+    [
+     48.853,
+     2.35,
+     "Notre-Dame"
+    ],
+    [
+     48.856,
+     2.345,
+     "Revolutionary Tribunal"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Freed Town",
+     "t": "After its revolt was crushed, the Convention decreed that Lyon would lose its name and be called 'Ville-Affranchie' (Freed Town); only about 50 of 600 houses ordered destroyed were demolished.",
+     "lat": 45.76,
+     "lon": 4.83
+    },
+    {
+     "h": "Ten-day weeks",
+     "t": "The calendar gave workers one rest day in ten instead of one in seven. It was used officially until Napoleon abolished it on 1 January 1806.",
+     "lat": 47.0,
+     "lon": 2.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Louis Léopold Boilly - Portrait du chanteur Simon Chenard (1758-1832), en costume de sans-culotte, portant un drapeau à la - P8 - Musée Carnavalet.jpg",
+    "by": "Louis-Léopold Boilly, 1792 (the singer Chenard as a sans-culotte)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Sans-culottes",
+    "https://en.wikipedia.org/wiki/Law_of_Maximum",
+    "https://en.wikipedia.org/wiki/Law_of_Suspects",
+    "https://en.wikipedia.org/wiki/French_Republican_calendar",
+    "https://en.wikipedia.org/wiki/Dechristianization_of_France_during_the_French_Revolution"
+   ]
+  },
+  {
+   "y": 1793.84,
+   "lat": 48.86,
+   "lon": 2.34,
+   "z": 8,
+   "t": "Women in the Revolution",
+   "c": "Women led bread riots, sat in the galleries of the clubs and formed their own societies; a 1792 law allowed divorce. In 1791 the playwright Olympe de Gouges answered the Declaration of the Rights of Man with a Declaration of the Rights of Woman and of the Female Citizen. But women never got the vote. On 30 October 1793 the Convention banned all women's clubs, and on 3 November Olympe de Gouges, who had attacked Robespierre in print, was guillotined. Marie Antoinette had been executed on 16 October.",
+   "w": "Olympe de Gouges",
+   "look": [
+    [
+     48.866,
+     2.321,
+     "Place de la Révolution"
+    ],
+    [
+     48.856,
+     2.345,
+     "Conciergerie"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Montauban",
+     "t": "Olympe de Gouges was born Marie Gouze in Montauban in 1748; she also wrote against slavery, in the play Zamore and Mirza.",
+     "lat": 44.02,
+     "lon": 1.35
+    },
+    {
+     "h": "Revolutionary Republican Women",
+     "t": "Founded in May 1793 by Pauline Léon and Claire Lacombe, this Paris society campaigned for bread price controls; it was dissolved with the ban on women's clubs.",
+     "lat": 48.85,
+     "lon": 2.34
+    }
+   ],
+   "img_alt": {
+    "file": "File:Lesueur - Club Patriotique de Femmes.jpg",
+    "by": "Jean-Baptiste and Pierre-Étienne Lesueur, c. 1792-94 (gouache)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Olympe_de_Gouges",
+    "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Woman_and_of_the_Female_Citizen",
+    "https://en.wikipedia.org/wiki/Society_of_Revolutionary_Republican_Women",
+    "https://en.wikipedia.org/wiki/Women_in_the_French_Revolution"
+   ]
+  },
+  {
+   "y": 1794.095,
+   "lat": 30.0,
+   "lon": -40.0,
+   "z": 2,
+   "t": "Freedom for the enslaved, then taken back",
+   "c": "In August 1791 enslaved people in Saint-Domingue, France's richest sugar colony, rose in revolt; within a week some 1,800 plantations were destroyed. In 1793 the commissioner Sonthonax freed the slaves of the colony, and on 4 February 1794 the Convention, after welcoming three deputies from Saint-Domingue including Jean-Baptiste Belley, born in Africa and formerly enslaved, abolished slavery in all French colonies. Napoleon restored it by the law of 20 May 1802. Saint-Domingue fought on and became independent Haiti in 1804; France finally abolished slavery in 1848.",
+   "w": "Law of 4 February 1794",
+   "look": [
+    [
+     48.862,
+     2.332,
+     "Convention"
+    ],
+    [
+     19.76,
+     -72.2,
+     "Cap-Français"
+    ],
+    [
+     16.25,
+     -61.58,
+     "Guadeloupe"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Guadeloupe, 1802",
+     "t": "When Napoleon's troops came to restore slavery, the officer Louis Delgrès and his men resisted and blew themselves up at Matouba rather than surrender (28 May 1802).",
+     "lat": 16.06,
+     "lon": -61.68
+    },
+    {
+     "h": "Bois Caïman",
+     "t": "A gathering at Bois Caïman in August 1791 is remembered as the start of the slave revolt; its details come from later accounts and are debated.",
+     "lat": 19.7,
+     "lon": -72.25
+    }
+   ],
+   "img_alt": {
+    "file": "File:Anne-Louis Girodet De Roucy-Trioson - Portrait of J. B. Belley, Deputy for Saint-Domingue - WGA09508.jpg",
+    "by": "Anne-Louis Girodet, 1797 (Jean-Baptiste Belley)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Law_of_4_February_1794",
+    "https://en.wikipedia.org/wiki/1791_slave_rebellion",
+    "https://en.wikipedia.org/wiki/Haitian_Revolution",
+    "https://en.wikipedia.org/wiki/Jean-Baptiste_Belley",
+    "https://en.wikipedia.org/wiki/Law_of_20_May_1802"
+   ]
+  },
+  {
+   "y": 1794.568,
+   "lat": 47.5,
+   "lon": 1.5,
+   "z": 5,
+   "t": "The Terror and its end",
+   "c": "Ruled by the Committee of Public Safety, the Republic used terror against 'enemies of the people'. At least 300,000 suspects were arrested; about 17,000 were officially executed and perhaps 10,000 died in prison, and many more died in the Vendée repression (totals debated). In Nantes, prisoners were drowned in the Loire (estimates 1,800 to over 4,000); in Lyon about 2,000 were executed. In Paris the Revolutionary Tribunal condemned 1,376 people in the last 49 days alone. With the war going better after Fleurus, the Convention turned on Robespierre on 9 Thermidor (27 July 1794); he was guillotined the next day.",
+   "w": "Reign of Terror",
+   "look": [
+    [
+     48.857,
+     2.352,
+     "Paris"
+    ],
+    [
+     47.21,
+     -1.56,
+     "Nantes"
+    ],
+    [
+     45.77,
+     4.86,
+     "Lyon"
+    ],
+    [
+     50.29,
+     2.78,
+     "Arras"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Arras",
+     "t": "Robespierre's home town, where the deputy Joseph Le Bon ran a revolutionary tribunal that sent hundreds to the guillotine (figures vary).",
+     "lat": 50.29,
+     "lon": 2.78
+    },
+    {
+     "h": "Festival of the Supreme Being",
+     "t": "On 8 June 1794 Robespierre led a huge festival for a new civic religion on the Champ de Mars; seven weeks later he was dead.",
+     "lat": 48.856,
+     "lon": 2.298
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Fall of Robespierre in the Convention on 27 July 1794, by Max Adamo (Alte Nationalgalerie, Berlin).jpg",
+    "by": "Max Adamo, 1870",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Reign_of_Terror",
+    "https://en.wikipedia.org/wiki/Drownings_at_Nantes",
+    "https://en.wikipedia.org/wiki/Revolt_of_Lyon_against_the_National_Convention",
+    "https://en.wikipedia.org/wiki/Revolutionary_Tribunal",
+    "https://en.wikipedia.org/wiki/Thermidorian_Reaction",
+    "https://en.wikipedia.org/wiki/Joseph_Le_Bon"
+   ]
+  },
+  {
+   "y": 1796.881,
+   "lat": 45.4,
+   "lon": 10.5,
+   "z": 5,
+   "t": "Bonaparte in Italy and the sister republics",
+   "c": "After Thermidor a five-man Directory ruled from 1795. The mass conscription of 1793 had created a citizen army that now carried the Revolution abroad. In 1796-97 General Bonaparte, aged 26 when he took command, beat Sardinia and four Austrian armies in Italy, at Lodi, Arcole and Rivoli, and sent paintings and statues back to the Louvre. France surrounded itself with 'sister republics': Batavian (1795), Cisalpine and Ligurian (1797), Roman and Helvetic (1798), Parthenopean (1799).",
+   "w": "Italian campaigns of the French Revolutionary Wars",
+   "look": [
+    [
+     45.314,
+     9.503,
+     "Lodi"
+    ],
+    [
+     45.357,
+     11.278,
+     "Arcole"
+    ],
+    [
+     45.567,
+     10.817,
+     "Rivoli"
+    ],
+    [
+     45.16,
+     10.8,
+     "Mantua"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The horses of St Mark",
+     "t": "In 1797 the French took the four bronze horses of St Mark's Basilica from Venice to Paris; they were returned in 1815.",
+     "lat": 45.434,
+     "lon": 12.34
+    },
+    {
+     "h": "Helvetic Republic",
+     "t": "In 1798 France invaded Switzerland and replaced the loose confederation of cantons with a centralised republic, governed at first from Aarau.",
+     "lat": 47.39,
+     "lon": 8.04
+    }
+   ],
+   "img_alt": {
+    "file": "File:Antoine-Jean Gros - Bonaparte au pont d'Arcole(1796).jpg",
+    "by": "Antoine-Jean Gros, 1796",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Italian_campaigns_of_the_French_Revolutionary_Wars",
+    "https://en.wikipedia.org/wiki/Battle_of_Arcole",
+    "https://en.wikipedia.org/wiki/Sister_republic",
+    "https://en.wikipedia.org/wiki/French_Directory",
+    "https://en.wikipedia.org/wiki/Levée_en_masse"
+   ]
+  },
+  {
+   "y": 1798.552,
+   "lat": 30.5,
+   "lon": 30.5,
+   "z": 6,
+   "t": "The expedition to Egypt",
+   "c": "To strike at Britain's route to India, Bonaparte sailed from Toulon in May 1798 with about 36,000 soldiers and 167 scholars and scientists. He seized Malta on the way, took Alexandria and defeated the Mamluks at the Battle of the Pyramids on 21 July. On 1 August Nelson destroyed the French fleet in Aboukir Bay, trapping the army in Egypt. The scholars' work led to the Description de l'Égypte, and in 1799 French soldiers found the Rosetta Stone.",
+   "w": "French invasion of Egypt and Syria",
+   "look": [
+    [
+     31.2,
+     29.92,
+     "Alexandria"
+    ],
+    [
+     30.08,
+     31.2,
+     "Pyramids"
+    ],
+    [
+     31.33,
+     30.12,
+     "Aboukir Bay"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Malta",
+     "t": "On 11 June 1798 the Knights of St John surrendered Malta to Bonaparte's fleet after more than 260 years of rule.",
+     "lat": 35.9,
+     "lon": 14.51
+    },
+    {
+     "h": "Rosetta Stone",
+     "t": "Found in July 1799 near Rashid (Rosetta), it carries the same decree in hieroglyphs, Demotic and Greek, the key to Champollion's decipherment in 1822. The British took it in 1801.",
+     "lat": 31.4,
+     "lon": 30.42
+    }
+   ],
+   "img_alt": {
+    "file": "File:Battle of the Pyramids (by Louis-François Lejeune).jpg",
+    "by": "Louis-François Lejeune, 1808",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Pyramids",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Nile",
+    "https://en.wikipedia.org/wiki/Commission_des_Sciences_et_des_Arts",
+    "https://en.wikipedia.org/wiki/Rosetta_Stone"
+   ]
+  },
+  {
+   "y": 1799.859,
+   "lat": 48.844,
+   "lon": 2.219,
+   "z": 8,
+   "t": "18 Brumaire: the Revolution ends in a coup",
+   "c": "Bonaparte left his army in Egypt and returned to a France tired of war, inflation and weak government. On 9-10 November 1799 (18-19 Brumaire, Year VIII), with the help of the Director Sieyès, his grenadiers cleared the Council of Five Hundred at Saint-Cloud, and the Consulate replaced the Directory with Bonaparte as First Consul. The Revolution left lasting legacies: the Rights of Man, citizens equal before the law, the nation as source of sovereignty, the metric system, left and right in politics, and modern nationalism, but also the example of revolutionary terror.",
+   "w": "Coup of 18 Brumaire",
+   "look": [
+    [
+     48.844,
+     2.219,
+     "Saint-Cloud"
+    ],
+    [
+     48.862,
+     2.33,
+     "Tuileries"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Fréjus landing",
+     "t": "Bonaparte landed at Fréjus on 9 October 1799 and was cheered on his way north, a month before the coup.",
+     "lat": 43.43,
+     "lon": 6.74
+    },
+    {
+     "h": "A brother's help",
+     "t": "His brother Lucien Bonaparte, president of the Five Hundred, saved the coup by telling the troops the deputies had threatened the general with daggers.",
+     "lat": 48.87,
+     "lon": 2.33
+    }
+   ],
+   "img_alt": {
+    "file": "File:Bouchot - Le general Bonaparte au Conseil des Cinq-Cents.jpg",
+    "by": "François Bouchot, 1840",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
+    "https://en.wikipedia.org/wiki/French_Consulate",
+    "https://en.wikipedia.org/wiki/Lucien_Bonaparte",
+    "https://en.wikipedia.org/wiki/French_Revolution"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,863 @@
+{
+ "id": "columbian_exchange",
+ "title": "The Columbian Exchange",
+ "blurb": "How ships from Portugal and Spain joined the hemispheres after 1492, moving crops, animals, silver, diseases and enslaved people, and changing life on every continent.",
+ "cat": "Trade & exploration",
+ "steps": [
+  {
+   "y": 1420.5,
+   "lat": 34.5,
+   "lon": -11.0,
+   "z": 4,
+   "t": "Prince Henry and the sugar island",
+   "c": "Portugal took Ceuta in North Africa in 1415, and Prince Henry, later called 'the Navigator', sponsored voyages down the African coast and into the Atlantic. Uninhabited Madeira was claimed in 1419 and settled from about 1420. With Genoese money, Sicilian know-how and water mills, it became Europe's great sugar island by the late 1400s, and the cane was cut and milled by enslaved Canary Islanders and Africans: the first Atlantic plantation.",
+   "w": "Prince Henry the Navigator",
+   "look": [
+    [
+     32.65,
+     -16.91,
+     "Funchal"
+    ],
+    [
+     35.89,
+     -5.32,
+     "Ceuta"
+    ],
+    [
+     37.0,
+     -8.94,
+     "Sagres"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ceuta, 1415",
+     "t": "Portugal's capture of the Moroccan port on 21 August 1415 is often taken as the start of European overseas expansion.",
+     "lat": 35.89,
+     "lon": -5.32
+    },
+    {
+     "h": "Levadas",
+     "t": "Madeira's sugar needed water: settlers cut irrigation channels (levadas) along steep cliffs, some built by enslaved workers hanging on ropes.",
+     "lat": 32.75,
+     "lon": -17.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Henry the Navigator1.jpg",
+    "by": "attributed to Nuno Gonçalves, c. 1450–1470 (Panels of Saint Vincent)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator",
+    "https://en.wikipedia.org/wiki/Madeira",
+    "https://en.wikipedia.org/wiki/Conquest_of_Ceuta",
+    "https://en.wikipedia.org/wiki/History_of_sugar"
+   ],
+   "fx": {
+    "crops": [
+     "Sugarcane"
+    ]
+   }
+  },
+  {
+   "y": 1482.05,
+   "lat": 9.0,
+   "lon": -6.0,
+   "z": 4,
+   "t": "Gold, castles and captives",
+   "c": "In 1444 captives seized on the West African coast were sold at Lagos in Portugal, the start of the Portuguese Atlantic slave trade. In January 1482 Portugal began building São Jorge da Mina (Elmina) on the Gold Coast, trading cloth, brass and horses for Akan gold. Captives bought in Benin and elsewhere were shipped to São Tomé, settled from 1493, where sugar plantations worked by enslaved Africans set the pattern later used in the Americas.",
+   "w": "Elmina Castle",
+   "look": [
+    [
+     5.08,
+     -1.35,
+     "Elmina"
+    ],
+    [
+     0.34,
+     6.73,
+     "São Tomé"
+    ],
+    [
+     20.6,
+     -16.45,
+     "Arguin"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "African partners",
+     "t": "Coastal states and merchants controlled who and what was sold; the Portuguese needed their permission to build and paid rent and gifts to local rulers.",
+     "lat": 6.3,
+     "lon": 5.6
+    },
+    {
+     "h": "Dutch Elmina",
+     "t": "The Dutch West India Company took the castle in 1637 and ran it as the capital of the Dutch Gold Coast until 1872.",
+     "lat": 5.08,
+     "lon": -1.35
+    }
+   ],
+   "img_alt": {
+    "file": "File:Pieter de Wit, Portrait of Dirck Wilre in the slave-fort at Elmina, 1669.jpg",
+    "by": "Pieter de Wit, 1669",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Elmina_Castle",
+    "https://en.wikipedia.org/wiki/Lagos,_Portugal",
+    "https://en.wikipedia.org/wiki/São_Tomé",
+    "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+   ]
+  },
+  {
+   "y": 1492.78,
+   "lat": 23.0,
+   "lon": -75.0,
+   "z": 5,
+   "t": "Two worlds meet",
+   "c": "On 12 October 1492 Columbus's three ships reached an island of the Bahamas that its Lucayan Taíno people called Guanahani. Columbus believed he was near Asia and called the people 'Indians'. The Taíno of the Caribbean lived in farming chiefdoms growing cassava, maize and sweet potato; their words hammock, canoe, hurricane and barbecue passed into European languages. Within a few decades Taíno society on the large islands had collapsed.",
+   "w": "Voyages of Christopher Columbus",
+   "look": [
+    [
+     24.05,
+     -74.5,
+     "Guanahani"
+    ],
+    [
+     19.75,
+     -72.2,
+     "Hispaniola"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "La Navidad",
+     "t": "When the Santa María ran aground on Christmas Day 1492, Columbus left 39 men in a fort on Hispaniola; on his return all had been killed.",
+     "lat": 19.75,
+     "lon": -72.0
+    },
+    {
+     "h": "Taíno words",
+     "t": "Spanish borrowed Taíno words such as huracán (hurricane), canoa (canoe), hamaca (hammock) and barbacoa (barbecue).",
+     "lat": 21.5,
+     "lon": -78.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Landing of Columbus (2).jpg",
+    "by": "John Vanderlyn, 1847",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
+    "https://en.wikipedia.org/wiki/Taíno",
+    "https://en.wikipedia.org/wiki/Lucayan_people"
+   ]
+  },
+  {
+   "y": 1494.02,
+   "lat": 19.3,
+   "lon": -71.0,
+   "z": 6,
+   "t": "Horses, cattle, pigs and cane",
+   "c": "Columbus's second voyage of 17 ships reached Hispaniola in November 1493 and founded La Isabela in January 1494. It brought horses, cattle, pigs, sheep, goats, dogs, wheat and sugarcane. Pigs and cattle ran wild and multiplied, trampling Taíno gardens. Forced labour, violence, hunger and disease shrank the Taíno population: a count in 1514 reportedly found about 32,000 (pre-contact estimates vary from about 100,000 to over a million, debated). The first sugar mills worked from about 1516, and enslaved Africans replaced the dying Taíno.",
+   "w": "Second voyage of Christopher Columbus",
+   "look": [
+    [
+     19.89,
+     -71.08,
+     "La Isabela"
+    ],
+    [
+     18.47,
+     -69.89,
+     "Santo Domingo"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Feral herds",
+     "t": "Cattle and pigs multiplied fast and ran wild; beef and hides became staple exports of the Spanish colony.",
+     "lat": 18.8,
+     "lon": -70.5
+    },
+    {
+     "h": "Santo Domingo",
+     "t": "Founded in 1496, it is the oldest continuously inhabited European city in the Americas.",
+     "lat": 18.47,
+     "lon": -69.89
+    }
+   ],
+   "img_alt": {
+    "file": "File:Frans Post - Sugar Mill with Two Rollers Pulled by Oxen, c. 1640.jpg",
+    "by": "Frans Post, c. 1640 (a sugar mill in Brazil)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_voyage_of_Christopher_Columbus",
+    "https://en.wikipedia.org/wiki/La_Isabela",
+    "https://en.wikipedia.org/wiki/Taíno_genocide",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ],
+   "fx": {
+    "crops": [
+     "Horse",
+     "Taurine cattle",
+     "Pig",
+     "Sugarcane"
+    ]
+   }
+  },
+  {
+   "y": 1520.8,
+   "lat": 19.4,
+   "lon": -97.5,
+   "z": 6,
+   "t": "The great rash",
+   "c": "The first recorded smallpox epidemic in the Americas struck Hispaniola in December 1518. In spring 1520 it reached Mexico with the expedition of Pánfilo de Narváez and spread inland. In Tenochtitlan it raged for about 70 days from autumn 1520 and killed the new ruler Cuitláhuac. Nahua elders later told the friar Sahagún how people lay covered in sores, unable to move, and many starved because no one could cook for them. Indigenous Americans had no immunity to this and other Old World diseases.",
+   "w": "History of smallpox",
+   "look": [
+    [
+     19.45,
+     -96.4,
+     "Cempoala"
+    ],
+    [
+     19.43,
+     -99.13,
+     "Tenochtitlan"
+    ],
+    [
+     18.47,
+     -69.89,
+     "Hispaniola"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Kaqchikel annals",
+     "t": "Maya chronicles in Guatemala record a deadly plague around 1519–1521, before the Spanish arrived there: disease ran ahead of the conquerors.",
+     "lat": 14.73,
+     "lon": -90.99
+    },
+    {
+     "h": "Florentine Codex",
+     "t": "The 12-book encyclopedia compiled by Sahagún with Nahua scholars (completed 1577) tells the conquest from the Mexica side, in Nahuatl and Spanish with over 2,000 pictures.",
+     "lat": 19.35,
+     "lon": -99.16
+    }
+   ],
+   "img_alt": {
+    "file": "File:FlorentineCodex BK12 F54 smallpox.jpg",
+    "by": "Nahua artists for Bernardino de Sahagún, Florentine Codex Book 12, c. 1577",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_smallpox",
+    "https://en.wikipedia.org/wiki/Cuitláhuac",
+    "https://en.wikipedia.org/wiki/Florentine_Codex",
+    "https://en.wikipedia.org/wiki/Annals_of_the_Cakchiquels"
+   ]
+  },
+  {
+   "y": 1521.62,
+   "lat": 19.43,
+   "lon": -99.13,
+   "z": 8,
+   "t": "The fall of Tenochtitlan",
+   "c": "Tenochtitlan, an island city of perhaps 200,000 people (estimate), fell on 13 August 1521 after a siege of about 80 days. Cortés had a few hundred to about 1,000 Spaniards; the decisive force was tens of thousands of Indigenous allies, above all Tlaxcalans, who fought to break Mexica rule. Smallpox had already killed many defenders. Mexico City was built on the ruins, and allies like Tlaxcala won privileges from the Spanish crown, but soon also suffered epidemics and tribute.",
+   "w": "Fall of Tenochtitlan",
+   "look": [
+    [
+     19.43,
+     -99.13,
+     "Tenochtitlan"
+    ],
+    [
+     19.32,
+     -98.24,
+     "Tlaxcala"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Wheat in New Spain",
+     "t": "Juan Garrido, an African-born conquistador who fought at Tenochtitlan, is credited with the first wheat harvest in New Spain.",
+     "lat": 19.4,
+     "lon": -99.2
+    },
+    {
+     "h": "Cuauhtémoc",
+     "t": "The last Mexica ruler was captured on the lake as the city fell; he was executed in 1525.",
+     "lat": 19.45,
+     "lon": -99.06
+    }
+   ],
+   "img_alt": {
+    "file": "File:Enconchado Conquista de México.JPG",
+    "by": "anonymous New Spanish painter, enconchado (oil with mother-of-pearl), late 17th century",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+    "https://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)",
+    "https://en.wikipedia.org/wiki/Juan_Garrido"
+   ]
+  },
+  {
+   "y": 1527.5,
+   "lat": -6.0,
+   "lon": -78.0,
+   "z": 4,
+   "t": "An empire hit before the conquerors came",
+   "c": "Around 1527 an epidemic swept the Inca Empire, possibly smallpox spreading south ahead of the Spanish (the disease is debated). It killed the ruler Huayna Capac at Quito and his chosen heir, and his sons Huáscar and Atahualpa fought a civil war for the throne. When Francisco Pizarro and 168 men reached Cajamarca in November 1532, they captured the victorious Atahualpa, took a room's worth of gold and silver as ransom, and executed him in 1533. Cusco fell that November.",
+   "w": "Huayna Capac",
+   "look": [
+    [
+     -0.22,
+     -78.51,
+     "Quito"
+    ],
+    [
+     -7.16,
+     -78.51,
+     "Cajamarca"
+    ],
+    [
+     -13.53,
+     -71.97,
+     "Cusco"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ransom room",
+     "t": "Atahualpa offered to fill a room once with gold and twice with silver; most of it was melted down.",
+     "lat": -7.16,
+     "lon": -78.52
+    },
+    {
+     "h": "Resistance",
+     "t": "Inca rulers held out at Vilcabamba until 1572, when the last Sapa Inca, Túpac Amaru, was captured and executed.",
+     "lat": -13.1,
+     "lon": -73.2
+    }
+   ],
+   "img_alt": {
+    "file": "File:Brooklyn Museum - Huayna Capac, Twelfth Inca.jpg",
+    "by": "Cusco School, 1750–1800",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Huayna_Capac",
+    "https://en.wikipedia.org/wiki/Inca_Civil_War",
+    "https://en.wikipedia.org/wiki/Battle_of_Cajamarca",
+    "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+   ]
+  },
+  {
+   "y": 1545.3,
+   "lat": -19.59,
+   "lon": -65.75,
+   "z": 6,
+   "t": "The mountain of silver",
+   "c": "In 1545 silver was found at the Cerro Rico of Potosí, 4,000 m up in the Andes. With mercury from Huancavelica and the forced labour draft (mita), which took up to 13,500 Indigenous men a year, it produced an estimated 60% of the world's silver in the late 1500s, and the town grew past 200,000 people (estimate). The work was deadly: many miners died underground or from mercury poisoning. Spanish silver dollars, the 'pieces of eight', became the first global currency.",
+   "w": "Potosí",
+   "look": [
+    [
+     -19.59,
+     -65.75,
+     "Potosí"
+    ],
+    [
+     -12.79,
+     -74.97,
+     "Huancavelica"
+    ],
+    [
+     22.77,
+     -102.58,
+     "Zacatecas"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Mercury from Huancavelica",
+     "t": "From the 1560s mercury from this Andean mine was used to extract silver from lower-grade ore by amalgamation.",
+     "lat": -12.79,
+     "lon": -74.97
+    },
+    {
+     "h": "Zacatecas",
+     "t": "Northern Mexico's silver boom began here in 1546, a year after Potosí.",
+     "lat": 22.77,
+     "lon": -102.58
+    }
+   ],
+   "img_alt": {
+    "file": "File:Panorama Villa Imperial de Potosí en 1758 por Gaspar de Berrio.jpg",
+    "by": "Gaspar Miguel de Berrío, 1758",
+    "lic": "CC0 (photo of a public-domain painting)"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Potosí",
+    "https://en.wikipedia.org/wiki/Mit'a",
+    "https://en.wikipedia.org/wiki/Huancavelica",
+    "https://en.wikipedia.org/wiki/Spanish_dollar"
+   ]
+  },
+  {
+   "y": 1571.48,
+   "lat": 17.0,
+   "lon": 122.0,
+   "z": 4,
+   "t": "Silver crosses the Pacific",
+   "c": "In 1565 Andrés de Urdaneta found the return route from the Philippines to Mexico, and on 24 June 1571 Legazpi founded Spanish Manila. For 250 years galleons carried American silver from Acapulco to Manila, where Chinese merchants from Fujian traded it for silk and porcelain. Ming China, which taxed in silver, absorbed a large share of the world's silver. For the first time every inhabited continent was linked in one trade. The galleons also carried American crops such as maize, sweet potato and tobacco to Asia.",
+   "w": "Manila galleon",
+   "look": [
+    [
+     14.59,
+     120.98,
+     "Manila"
+    ],
+    [
+     24.44,
+     117.83,
+     "Yuegang"
+    ],
+    [
+     22.19,
+     113.54,
+     "Macau"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Moon Harbour",
+     "t": "In 1567 the Ming allowed private overseas trade from Yuegang in Fujian; junks from here carried silk to Manila and brought back silver.",
+     "lat": 24.44,
+     "lon": 117.83
+    },
+    {
+     "h": "Sangleys",
+     "t": "Manila's Chinese traders and craftsmen, called Sangleys, numbered about 25,000 before a massacre in 1603; their trade kept the colony alive.",
+     "lat": 14.59,
+     "lon": 120.97
+    }
+   ],
+   "img_alt": {
+    "file": "File:Sangley in Boxer Codex.jpg",
+    "by": "unknown artist, Boxer Codex, c. 1590",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Manila_galleon",
+    "https://en.wikipedia.org/wiki/Manila",
+    "https://en.wikipedia.org/wiki/Haicheng,_Fujian",
+    "https://en.wikipedia.org/wiki/Sangley"
+   ],
+   "fx": {
+    "crops": [
+     "Maize",
+     "Chili pepper"
+    ]
+   }
+  },
+  {
+   "y": 1576.4,
+   "lat": 5.0,
+   "lon": -75.0,
+   "z": 2,
+   "t": "The Great Dying",
+   "c": "Estimates of the population of the Americas in 1492 range from about 8 to over 100 million; many scholars now put it at 45–60 million. Within about a century perhaps 90% had died from wave after wave of disease, together with war, enslavement, forced labour and famine. In Mexico the cocoliztli epidemics of 1545 and 1576 killed millions; their cause is debated (one study found Salmonella in victims). A 2019 study (Koch et al.) argues that forest regrowing on abandoned fields lowered atmospheric CO2 by 7–10 ppm around 1610 and added to Little Ice Age cooling; this effect is debated.",
+   "w": "Population history of the Indigenous peoples of the Americas",
+   "look": [
+    [
+     19.43,
+     -99.13,
+     "Mexico City"
+    ],
+    [
+     17.52,
+     -97.48,
+     "Teposcolula"
+    ],
+    [
+     -13.53,
+     -71.97,
+     "Cusco"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Teposcolula-Yucundaa",
+     "t": "Ancient DNA from victims buried in this Mixtec town in 1545–48 contained Salmonella enterica Paratyphi C, a possible cause of cocoliztli.",
+     "lat": 17.52,
+     "lon": -97.48
+    },
+    {
+     "h": "Antarctic ice",
+     "t": "Air bubbles in the Law Dome ice core record the CO2 dip of about 1610 sometimes called the 'Orbis spike'.",
+     "lat": -66.77,
+     "lon": 112.8
+    }
+   ],
+   "img_alt": {
+    "file": "File:Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+    "by": "Pieter Bruegel the Elder, 1565 (a Little Ice Age winter)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas",
+    "https://en.wikipedia.org/wiki/Cocoliztli_epidemics",
+    "https://en.wikipedia.org/wiki/Orbis_spike",
+    "https://en.wikipedia.org/wiki/Little_Ice_Age",
+    "https://doi.org/10.1016/j.quascirev.2018.12.004"
+   ]
+  },
+  {
+   "y": 1594.5,
+   "lat": 25.0,
+   "lon": 40.0,
+   "z": 1,
+   "t": "New staples for the Old World",
+   "c": "American crops travelled fast. Potatoes were shipped from the Canaries to Antwerp in 1567 and became an Irish staple in the 1600s. Portuguese traders took cassava from Brazil to West-Central Africa, where it slowly replaced sorghum and millet. Maize spread through Africa and appeared in Chinese records from the mid-1500s, and in 1594 the sweet potato was brought from Luzon to Fujian after a crop failure. Nunn and Qian (2011) estimate that the potato alone explains about a quarter of Old World population growth in 1700–1900; the size of such effects is debated.",
+   "w": "Columbian exchange",
+   "look": [
+    [
+     28.12,
+     -15.43,
+     "Gran Canaria"
+    ],
+    [
+     -6.27,
+     14.24,
+     "Mbanza Kongo"
+    ],
+    [
+     26.07,
+     119.3,
+     "Fuzhou"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Sweet potato in Fujian",
+     "t": "Brought from Spanish Luzon in about 1594, it became a famine food that grew on poor hill soils; China now grows over half the world's sweet potatoes.",
+     "lat": 26.07,
+     "lon": 119.3
+    },
+    {
+     "h": "Maize in Africa",
+     "t": "Introduced by the Portuguese in the 1500s, maize is today Africa's most important staple food crop.",
+     "lat": 6.0,
+     "lon": 0.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Vertumnus årstidernas gud målad av Giuseppe Arcimboldo 1591 - Skoklosters slott - 91503.jpg",
+    "by": "Giuseppe Arcimboldo, 1591 (an ear of maize forms Rudolf II's ear)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "https://en.wikipedia.org/wiki/History_of_the_potato",
+    "https://en.wikipedia.org/wiki/Sweet_potato",
+    "https://en.wikipedia.org/wiki/Cassava",
+    "https://doi.org/10.1093/qje/qjr009",
+    "https://doi.org/10.1257/jep.24.2.163"
+   ],
+   "fx": {
+    "crops": [
+     "Maize",
+     "Potato",
+     "Cassava (manioc)",
+     "Tomato"
+    ]
+   }
+  },
+  {
+   "y": 1614.5,
+   "lat": 20.0,
+   "lon": 95.0,
+   "z": 2,
+   "t": "Chili conquers Asia",
+   "c": "Chili peppers came from the Americas, but within a century they were so common in Asia that Europeans thought they were Asian: the German botanist Leonhart Fuchs in 1543 called one kind 'Calicut pepper'. Portuguese traders carried them to Africa, Goa, Sri Lanka and Malacca; the details are unrecorded. The first Korean mention is in an encyclopedia of 1614, and chili later turned kimchi red. Sichuan, Thai and Indian cooking, now unthinkable without chili, all took it up after 1500.",
+   "w": "Chili pepper",
+   "look": [
+    [
+     15.5,
+     73.83,
+     "Goa"
+    ],
+    [
+     37.57,
+     126.98,
+     "Seoul"
+    ],
+    [
+     30.66,
+     104.07,
+     "Chengdu"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Vindaloo",
+     "t": "Goa's vindaloo takes its name from the Portuguese carne de vinha d'alhos (meat in wine and garlic), with chili added.",
+     "lat": 15.5,
+     "lon": 73.83
+    },
+    {
+     "h": "Gochujang",
+     "t": "Korean red chili paste developed after chili arrived in the 1600s; earlier fermented pastes used other spices.",
+     "lat": 37.57,
+     "lon": 126.98
+    }
+   ],
+   "img_alt": {
+    "file": "File:Calechutischer Pfeffer Leonhart Fuchs 1543.jpg",
+    "by": "Leonhart Fuchs, De historia stirpium, 1543 (hand-coloured woodcut)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Chili_pepper",
+    "https://en.wikipedia.org/wiki/Gochujang",
+    "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "https://en.wikipedia.org/wiki/Vindaloo"
+   ],
+   "fx": {
+    "crops": [
+     "Chili pepper"
+    ]
+   }
+  },
+  {
+   "y": 1622.2,
+   "lat": 40.0,
+   "lon": -60.0,
+   "z": 3,
+   "t": "Stowaways: worms, bees and weeds",
+   "c": "Not everything that crossed the ocean was planned. Much of glaciated northern North America had no native earthworms; European earthworms, probably carried in soil, ballast and plant roots, now change its forest floors. Honey bees were shipped from England to Virginia in 1622; Native people reportedly called them the 'white man's fly'. Greater plantain was called 'white man's footprint' because it grew wherever settlers went, and dandelions, black rats, clover and grasses spread with them.",
+   "w": "Columbian exchange",
+   "look": [
+    [
+     37.21,
+     -76.78,
+     "Jamestown"
+    ],
+    [
+     41.96,
+     -70.67,
+     "Plymouth"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "White man's footprint",
+     "t": "Greater plantain is believed to be one of the first European plants to reach North America after colonisation.",
+     "lat": 41.96,
+     "lon": -70.67
+    },
+    {
+     "h": "Earthworms today",
+     "t": "About a third of the earthworm species in the US and Canada are introduced, and in northern forests they eat the leaf litter that native plants need.",
+     "lat": 46.5,
+     "lon": -92.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Albrecht Dürer - The Large Piece of Turf, 1503 - Google Art Project.jpg",
+    "by": "Albrecht Dürer, 1503 (dandelion and greater plantain)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Earthworms_as_invasive_species",
+    "https://en.wikipedia.org/wiki/Western_honey_bee",
+    "https://en.wikipedia.org/wiki/Plantago_major",
+    "https://en.wikipedia.org/wiki/Taraxacum_officinale",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ],
+   "fx": {
+    "crops": [
+     "Honey bee (managed)"
+    ]
+   }
+  },
+  {
+   "y": 1645.5,
+   "lat": 10.0,
+   "lon": -45.0,
+   "z": 2,
+   "t": "Sugar, tobacco, chocolate: new drugs, new slavery",
+   "c": "Europeans developed a taste for stimulants: sugar, tobacco from the Americas, chocolate (first documented at the Spanish court in 1544), and coffee and tea from the Old World. Tobacco made the Virginia colony after 1612, and from the 1640s Barbados turned to sugar. The plantations that grew these crops were worked by enslaved Africans: about 12.5 million people were embarked on slave ships between the 1500s and 1860s, and roughly 1.8 million died at sea. Enslaved people still built families, faiths and cultures that shaped the Americas.",
+   "w": "Atlantic slave trade",
+   "look": [
+    [
+     13.1,
+     -59.62,
+     "Barbados"
+    ],
+    [
+     -8.01,
+     -34.86,
+     "Pernambuco"
+    ],
+    [
+     37.21,
+     -76.78,
+     "Virginia"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Dutch Brazil",
+     "t": "The Dutch held the sugar coast of Pernambuco from 1630 to 1654; painters such as Frans Post and Albert Eckhout recorded its plantations.",
+     "lat": -8.05,
+     "lon": -34.9
+    },
+    {
+     "h": "Chocolate",
+     "t": "In 1544 Q'eqchi' Maya nobles brought chocolate to Prince Philip's court; the first recorded cacao shipment to Spain followed in 1585.",
+     "lat": 15.5,
+     "lon": -90.3
+    }
+   ],
+   "img_alt": {
+    "file": "File:Dirk Valkenburg - Ritual Slave Party on a Sugar Plantation in Surinam - KMS376 - Statens Museum for Kunst.jpg",
+    "by": "Dirk Valkenburg, 1707",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+    "https://en.wikipedia.org/wiki/History_of_Barbados",
+    "https://en.wikipedia.org/wiki/History_of_chocolate",
+    "https://en.wikipedia.org/wiki/John_Rolfe",
+    "https://en.wikipedia.org/wiki/Sugar_plantations_in_the_Caribbean"
+   ],
+   "fx": {
+    "crops": [
+     "Sugarcane",
+     "Cacao",
+     "Coffee (arabica)"
+    ]
+   }
+  },
+  {
+   "y": 1700.0,
+   "lat": 40.0,
+   "lon": -103.0,
+   "z": 4,
+   "t": "The horse returns to the Plains",
+   "c": "Horses had died out in the Americas at the end of the last ice age. Spanish horses spread north from New Mexico through trade, raids and runaways, and in the Pueblo Revolt of 1680 the Pueblos seized thousands of horses and other livestock. A 2023 genetic and archaeological study, made with Indigenous scholars, found horses already widespread on the Plains and in the Rockies in the first half of the 1600s, as Native oral histories say. The Shoshone had horses by about 1700, the Comanche were fully mounted bison hunters by the 1730s, and peoples like the Lakota and Cheyenne later left farming for life on horseback.",
+   "w": "Plains Indians",
+   "look": [
+    [
+     35.69,
+     -105.94,
+     "Santa Fe"
+    ],
+    [
+     34.5,
+     -100.0,
+     "Comanchería"
+    ],
+    [
+     43.0,
+     -109.0,
+     "Shoshone"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Pueblo Revolt",
+     "t": "On 10 August 1680 the Pueblos rose, drove the Spanish out of New Mexico for twelve years and took their horses.",
+     "lat": 35.69,
+     "lon": -105.94
+    },
+    {
+     "h": "Bows on horseback",
+     "t": "Plains hunters shortened their bows to about three feet to shoot from a galloping horse.",
+     "lat": 44.0,
+     "lon": -101.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Comanche Feats of Horsemanship-George Catlin.jpg",
+    "by": "George Catlin, 1834–1835",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Plains_Indians",
+    "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+    "https://en.wikipedia.org/wiki/Horses_in_the_United_States",
+    "https://doi.org/10.1126/science.adc9691"
+   ],
+   "fx": {
+    "crops": [
+     "Horse"
+    ]
+   }
+  },
+  {
+   "y": 1700.5,
+   "lat": 20.0,
+   "lon": 0.0,
+   "z": 1,
+   "t": "One world, unequally joined",
+   "c": "By 1700 the Columbian exchange had remade the planet. Maize, potatoes, cassava and sweet potatoes fed growing populations in Africa, Europe and Asia; wheat, cattle, horses and sugar remade the Americas. American silver tied Europe, the Americas and China into one economy. The costs were vast and uneven: the deaths of most Indigenous Americans, the enslavement of millions of Africans, and new weeds, pests and diseases. Indigenous and African peoples were not only victims: they adapted, resisted and shaped the new societies.",
+   "w": "Columbian exchange",
+   "look": [
+    [
+     -19.59,
+     -65.75,
+     "Potosí"
+    ],
+    [
+     14.59,
+     120.98,
+     "Manila"
+    ],
+    [
+     5.08,
+     -1.35,
+     "Elmina"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A word coined in 1972",
+     "t": "The historian Alfred W. Crosby named the 'Columbian exchange' in his 1972 book of that title.",
+     "lat": 42.36,
+     "lon": -71.06
+    },
+    {
+     "h": "Two-way traffic",
+     "t": "Old World diseases, animals and weeds went west; American crops and silver went east. Syphilis, first recorded in Europe at Naples in 1495, probably went east too (debated).",
+     "lat": 40.85,
+     "lon": 14.27
+    }
+   ],
+   "img_alt": {
+    "file": "File:Albert Eckhout 1610-1666 Brazilian fruits.jpg",
+    "by": "Albert Eckhout, c. 1640–1650",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "https://en.wikipedia.org/wiki/Alfred_W._Crosby",
+    "https://en.wikipedia.org/wiki/History_of_syphilis"
+   ],
+   "fx": {
+    "crops": [
+     "Maize",
+     "Potato",
+     "Horse",
+     "Sugarcane"
+    ]
+   }
+  }
+ ]
+}

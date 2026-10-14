@@ -1,0 +1,3295 @@
+{
+ "places": [
+  {
+   "n": "Roanoke Colony",
+   "lat": 35.93,
+   "lon": -75.7,
+   "y": 1585.626,
+   "end": 1590.629,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "First English colony attempt in North America (Ralph Lane's garrison 1585-86); the 1587 'Lost Colony' was found deserted in 1590",
+   "w": "Roanoke Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Roanoke_Colony"
+   ]
+  },
+  {
+   "n": "St John's, Newfoundland",
+   "lat": 47.56,
+   "lon": -52.71,
+   "y": 1583.593,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Humphrey Gilbert claims Newfoundland for Elizabeth I; English sovereignty over the island recognised at Utrecht 1713",
+   "w": "Newfoundland Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Newfoundland_Colony"
+   ]
+  },
+  {
+   "n": "Jamestown (Colony of Virginia)",
+   "lat": 37.21,
+   "lon": -76.78,
+   "y": 1607.366,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Virginia Company settlement; tobacco exports from 1614; first elected assembly 1619; colony independent 1776, recognised 1783",
+   "w": "Jamestown, Virginia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jamestown,_Virginia",
+    "https://en.wikipedia.org/wiki/Colony_of_Virginia"
+   ]
+  },
+  {
+   "n": "Bermuda (St George's)",
+   "lat": 32.38,
+   "lon": -64.68,
+   "y": 1612.527,
+   "approx": true,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Settled after the wreck of the Sea Venture (1609) on its way to Jamestown; still a British Overseas Territory",
+   "w": "Bermuda",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bermuda"
+   ]
+  },
+  {
+   "n": "Royal Naval Dockyard, Bermuda",
+   "lat": 32.33,
+   "lon": -64.83,
+   "y": 1809,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Main Royal Navy base of the western Atlantic after the loss of the American ports",
+   "w": "Royal Naval Dockyard, Bermuda",
+   "src": [
+    "https://en.wikipedia.org/wiki/Royal_Naval_Dockyard,_Bermuda"
+   ]
+  },
+  {
+   "n": "Plymouth Colony",
+   "lat": 41.96,
+   "lon": -70.67,
+   "y": 1620.974,
+   "end": 1691.766,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Founded by the Mayflower Pilgrims; merged into Massachusetts Bay in 1691",
+   "w": "Plymouth Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Plymouth_Colony"
+   ]
+  },
+  {
+   "n": "Massachusetts Bay (Boston)",
+   "lat": 42.36,
+   "lon": -71.06,
+   "y": 1630.711,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Puritan colony around Boston; the Boston Tea Party (1773) and Lexington (1775) began the Revolution",
+   "w": "Massachusetts Bay Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Massachusetts_Bay_Colony",
+    "https://en.wikipedia.org/wiki/Province_of_Massachusetts_Bay"
+   ]
+  },
+  {
+   "n": "St Kitts",
+   "lat": 17.3,
+   "lon": -62.72,
+   "y": 1624.075,
+   "approx": true,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Thomas Warner's settlement, the first English colony in the Caribbean",
+   "w": "Saint Kitts",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saint_Kitts",
+    "https://en.wikipedia.org/wiki/Thomas_Warner_(explorer)"
+   ]
+  },
+  {
+   "n": "Barbados (Holetown)",
+   "lat": 13.19,
+   "lon": -59.64,
+   "y": 1627.13,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Settled 1627; the 'sugar revolution' of the 1640s made it a slave plantation society",
+   "w": "Barbados",
+   "src": [
+    "https://en.wikipedia.org/wiki/Barbados",
+    "https://en.wikipedia.org/wiki/History_of_Barbados"
+   ]
+  },
+  {
+   "n": "Antigua (St John's)",
+   "lat": 17.12,
+   "lon": -61.85,
+   "y": 1632,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "English sugar colony settled from St Kitts in 1632",
+   "w": "Antigua",
+   "src": [
+    "https://en.wikipedia.org/wiki/Antigua",
+    "https://en.wikipedia.org/wiki/History_of_Antigua_and_Barbuda"
+   ]
+  },
+  {
+   "n": "English Harbour (Nelson's Dockyard), Antigua",
+   "lat": 17.0,
+   "lon": -61.76,
+   "y": 1725,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Royal Navy dockyard for the Leeward Islands station from the 1720s",
+   "w": "Nelson's Dockyard",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nelson's_Dockyard"
+   ]
+  },
+  {
+   "n": "Nassau, Bahamas",
+   "lat": 25.06,
+   "lon": -77.34,
+   "y": 1718,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Ex-pirate haven made a Crown colony under Woodes Rogers in 1718",
+   "w": "Colony of the Bahamas",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colony_of_the_Bahamas",
+    "https://en.wikipedia.org/wiki/Woodes_Rogers"
+   ]
+  },
+  {
+   "n": "Jamaica (Port Royal)",
+   "lat": 17.94,
+   "lon": -76.84,
+   "y": 1655.355,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Taken from Spain in 1655; became Britain's richest sugar colony, worked by enslaved Africans",
+   "w": "Colony of Jamaica",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colony_of_Jamaica",
+    "https://en.wikipedia.org/wiki/Invasion_of_Jamaica"
+   ]
+  },
+  {
+   "n": "Belize (British Honduras)",
+   "lat": 17.5,
+   "lon": -88.2,
+   "y": 1638,
+   "approx": true,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Logwood cutters' settlement from the 17th century; Crown colony of British Honduras from 1862",
+   "w": "British Honduras",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Honduras"
+   ]
+  },
+  {
+   "n": "New York (New Amsterdam)",
+   "lat": 40.7,
+   "lon": -74.01,
+   "y": 1664.689,
+   "end": 1783.9,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Dutch New Amsterdam surrendered to an English fleet and renamed New York; British troops left on 25 November 1783",
+   "w": "Province of New York",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_New_York",
+    "https://en.wikipedia.org/wiki/New_Amsterdam",
+    "https://en.wikipedia.org/wiki/Evacuation_Day_(New_York)"
+   ]
+  },
+  {
+   "n": "Charles Town (Carolina)",
+   "lat": 32.78,
+   "lon": -79.93,
+   "y": 1670,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Carolina colony founded by settlers from Barbados; rice plantations worked by enslaved Africans",
+   "w": "Province of Carolina",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_Carolina",
+    "https://en.wikipedia.org/wiki/Charleston,_South_Carolina"
+   ]
+  },
+  {
+   "n": "Philadelphia (Pennsylvania)",
+   "lat": 39.95,
+   "lon": -75.16,
+   "y": 1681.171,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "William Penn's charter; Philadelphia hosted the Declaration of Independence in 1776",
+   "w": "Province of Pennsylvania",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_Pennsylvania"
+   ]
+  },
+  {
+   "n": "Savannah (Georgia)",
+   "lat": 32.08,
+   "lon": -81.09,
+   "y": 1733.116,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Last of the Thirteen Colonies, founded by James Oglethorpe",
+   "w": "Province of Georgia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_Georgia"
+   ]
+  },
+  {
+   "n": "Moose Factory",
+   "lat": 51.26,
+   "lon": -80.61,
+   "y": 1673,
+   "approx": false,
+   "kind": "post",
+   "who": "HBC",
+   "what": "One of the first Hudson's Bay Company fur-trading posts on James Bay (company chartered 2 May 1670)",
+   "w": "Moose Factory",
+   "src": [
+    "https://en.wikipedia.org/wiki/Moose_Factory",
+    "https://en.wikipedia.org/wiki/Hudson's_Bay_Company"
+   ]
+  },
+  {
+   "n": "York Factory",
+   "lat": 57.0,
+   "lon": -92.3,
+   "y": 1684,
+   "approx": false,
+   "kind": "post",
+   "who": "HBC",
+   "what": "Hudson's Bay Company headquarters on Hudson Bay for the fur trade of Rupert's Land",
+   "w": "York Factory",
+   "src": [
+    "https://en.wikipedia.org/wiki/York_Factory",
+    "https://en.wikipedia.org/wiki/Rupert's_Land"
+   ]
+  },
+  {
+   "n": "Rupert's Land transfer (Red River)",
+   "lat": 49.9,
+   "lon": -97.14,
+   "y": 1870.536,
+   "approx": false,
+   "kind": "treaty",
+   "who": "HBC",
+   "what": "HBC sells Rupert's Land to the new Dominion of Canada; Métis Red River Resistance under Louis Riel",
+   "w": "Rupert's Land",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rupert's_Land",
+    "https://en.wikipedia.org/wiki/Red_River_Rebellion"
+   ]
+  },
+  {
+   "n": "Fort Victoria (Vancouver Island)",
+   "lat": 48.43,
+   "lon": -123.37,
+   "y": 1843,
+   "approx": false,
+   "kind": "post",
+   "who": "HBC",
+   "what": "HBC fort; colony of Vancouver Island 1849, British Columbia 1858, joined Canada 1871",
+   "w": "Fort Victoria (British Columbia)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fort_Victoria_(British_Columbia)"
+   ]
+  },
+  {
+   "n": "Esquimalt naval base",
+   "lat": 48.43,
+   "lon": -123.43,
+   "y": 1865,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Royal Navy Pacific station base",
+   "w": "CFB Esquimalt",
+   "src": [
+    "https://en.wikipedia.org/wiki/CFB_Esquimalt"
+   ]
+  },
+  {
+   "n": "Annapolis Royal (Nova Scotia)",
+   "lat": 44.74,
+   "lon": -65.52,
+   "y": 1710.782,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "French Port-Royal captured 1710; Acadia ceded at Utrecht 1713; Acadians expelled 1755-64",
+   "w": "Nova Scotia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nova_Scotia",
+    "https://en.wikipedia.org/wiki/Siege_of_Port_Royal_(1710)",
+    "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians"
+   ]
+  },
+  {
+   "n": "Halifax",
+   "lat": 44.65,
+   "lon": -63.57,
+   "y": 1749.47,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Founded as a fortified naval base facing French Louisbourg",
+   "w": "Halifax, Nova Scotia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Halifax,_Nova_Scotia"
+   ]
+  },
+  {
+   "n": "Quebec",
+   "lat": 46.81,
+   "lon": -71.21,
+   "y": 1759.714,
+   "approx": false,
+   "kind": "city",
+   "who": "Britain",
+   "what": "Surrenders after the Battle of the Plains of Abraham; Canada ceded by France in the Treaty of Paris, 10 February 1763",
+   "w": "Province of Quebec (1763–1791)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_Quebec_(1763–1791)",
+    "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1763)"
+   ]
+  },
+  {
+   "n": "Montreal",
+   "lat": 45.5,
+   "lon": -73.55,
+   "y": 1760.689,
+   "approx": false,
+   "kind": "city",
+   "who": "Britain",
+   "what": "Capitulation of Montreal ends French rule in Canada",
+   "w": "Montreal campaign",
+   "src": [
+    "https://en.wikipedia.org/wiki/Montreal_campaign"
+   ]
+  },
+  {
+   "n": "Ottawa (Dominion of Canada)",
+   "lat": 45.42,
+   "lon": -75.7,
+   "y": 1867.497,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Confederation: the self-governing Dominion of Canada",
+   "w": "Canadian Confederation",
+   "src": [
+    "https://en.wikipedia.org/wiki/Canadian_Confederation"
+   ]
+  },
+  {
+   "n": "St Augustine (British East Florida)",
+   "lat": 29.9,
+   "lon": -81.31,
+   "y": 1763.111,
+   "end": 1783.673,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Florida taken from Spain in 1763; returned to Spain in 1783",
+   "w": "East Florida",
+   "src": [
+    "https://en.wikipedia.org/wiki/East_Florida"
+   ]
+  },
+  {
+   "n": "Havana (British occupation)",
+   "lat": 23.14,
+   "lon": -82.36,
+   "y": 1762.615,
+   "end": 1763.511,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Captured from Spain after a two-month siege; swapped back for Florida in 1763",
+   "w": "British occupation of Havana",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_occupation_of_Havana"
+   ]
+  },
+  {
+   "n": "Kingston, Jamaica (Morant Bay)",
+   "lat": 17.88,
+   "lon": -76.41,
+   "y": 1865.777,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Britain",
+   "what": "Morant Bay rebellion crushed under Governor Eyre: troops kill more than 400 Black Jamaicans, many others are executed or flogged; a scandal in Britain",
+   "w": "Morant Bay rebellion",
+   "src": [
+    "https://en.wikipedia.org/wiki/Morant_Bay_rebellion"
+   ]
+  },
+  {
+   "n": "Port of Spain (Trinidad)",
+   "lat": 10.65,
+   "lon": -61.51,
+   "y": 1797.133,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Spanish Trinidad captured 1797, ceded 1802",
+   "w": "Crown Colony of Trinidad and Tobago",
+   "src": [
+    "https://en.wikipedia.org/wiki/Crown_Colony_of_Trinidad_and_Tobago",
+    "https://en.wikipedia.org/wiki/Invasion_of_Trinidad_(1797)"
+   ]
+  },
+  {
+   "n": "Georgetown (British Guiana)",
+   "lat": 6.8,
+   "lon": -58.16,
+   "y": 1796,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Dutch Demerara-Essequibo taken 1796 and 1803, ceded 1814; Demerara slave rising 1823",
+   "w": "British Guiana",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Guiana",
+    "https://en.wikipedia.org/wiki/Demerara_rebellion_of_1823"
+   ]
+  },
+  {
+   "n": "Falkland Islands (Port Stanley)",
+   "lat": -51.69,
+   "lon": -57.86,
+   "y": 1833.007,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Britain reasserts control and expels the Argentine garrison; sovereignty still disputed by Argentina",
+   "w": "History of the Falkland Islands",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands"
+   ]
+  },
+  {
+   "n": "Gibraltar",
+   "lat": 36.14,
+   "lon": -5.35,
+   "y": 1704.593,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Captured by an Anglo-Dutch fleet in 1704, ceded by Spain at Utrecht in 1713; survived the Great Siege 1779-83",
+   "w": "History of Gibraltar",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_Gibraltar",
+    "https://en.wikipedia.org/wiki/Capture_of_Gibraltar",
+    "https://en.wikipedia.org/wiki/Treaty_of_Utrecht"
+   ]
+  },
+  {
+   "n": "Minorca (Port Mahon)",
+   "lat": 39.89,
+   "lon": 4.27,
+   "y": 1708.716,
+   "end": 1782.097,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Captured 1708, ceded 1713; lost 1756 (French), regained 1763, lost to Spain 1782; held again 1798-1802",
+   "w": "Minorca",
+   "src": [
+    "https://en.wikipedia.org/wiki/Minorca",
+    "https://en.wikipedia.org/wiki/Capture_of_Minorca_(1708)",
+    "https://en.wikipedia.org/wiki/Invasion_of_Minorca_(1781)"
+   ]
+  },
+  {
+   "n": "Malta (Valletta)",
+   "lat": 35.9,
+   "lon": 14.51,
+   "y": 1800.681,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "French garrison surrenders after a Maltese-British blockade; British by the Treaty of Paris 1814; Mediterranean Fleet base",
+   "w": "Crown Colony of Malta",
+   "src": [
+    "https://en.wikipedia.org/wiki/Crown_Colony_of_Malta",
+    "https://en.wikipedia.org/wiki/Siege_of_Malta_(1798–1800)"
+   ]
+  },
+  {
+   "n": "Corfu (Ionian Islands)",
+   "lat": 39.62,
+   "lon": 19.92,
+   "y": 1815,
+   "end": 1864.421,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "United States of the Ionian Islands, a British protectorate; handed to Greece in 1864",
+   "w": "United States of the Ionian Islands",
+   "src": [
+    "https://en.wikipedia.org/wiki/United_States_of_the_Ionian_Islands"
+   ]
+  },
+  {
+   "n": "Heligoland",
+   "lat": 54.18,
+   "lon": 7.89,
+   "y": 1807.681,
+   "end": 1890.604,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Seized from Denmark 1807, ceded 1814; exchanged with Germany for Zanzibar in 1890",
+   "w": "Heligoland",
+   "src": [
+    "https://en.wikipedia.org/wiki/Heligoland",
+    "https://en.wikipedia.org/wiki/Heligoland–Zanzibar_Treaty"
+   ]
+  },
+  {
+   "n": "Cyprus (Nicosia)",
+   "lat": 35.17,
+   "lon": 33.36,
+   "y": 1878.423,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "Cyprus Convention: the Ottomans let Britain administer the island; annexed 1914",
+   "w": "British Cyprus",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Cyprus",
+    "https://en.wikipedia.org/wiki/Cyprus_Convention"
+   ]
+  },
+  {
+   "n": "James Island, Gambia",
+   "lat": 13.32,
+   "lon": -16.36,
+   "y": 1661,
+   "approx": false,
+   "kind": "fort",
+   "who": "RAC",
+   "what": "English fort on the Gambia River, a slave-trading post of the Royal African Company",
+   "w": "Kunta Kinteh Island",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kunta_Kinteh_Island"
+   ]
+  },
+  {
+   "n": "Bathurst (Banjul)",
+   "lat": 13.45,
+   "lon": -16.58,
+   "y": 1816,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Founded as a base against the slave trade on the Gambia; Gambia colony",
+   "w": "Banjul",
+   "src": [
+    "https://en.wikipedia.org/wiki/Banjul",
+    "https://en.wikipedia.org/wiki/Gambia_Colony_and_Protectorate"
+   ]
+  },
+  {
+   "n": "Cape Coast Castle",
+   "lat": 5.1,
+   "lon": -1.24,
+   "y": 1664,
+   "approx": false,
+   "kind": "fort",
+   "who": "RAC",
+   "what": "Swedish/Dutch fort taken by the English; headquarters of the British slave trade on the Gold Coast",
+   "w": "Cape Coast Castle",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
+    "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)"
+   ]
+  },
+  {
+   "n": "Gold Coast Colony",
+   "lat": 5.56,
+   "lon": -0.2,
+   "y": 1874.56,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Coastal forts made a Crown colony after the Anglo-Ashanti war of 1873-74; capital Accra from 1877",
+   "w": "Gold Coast (British colony)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)"
+   ]
+  },
+  {
+   "n": "Kumasi",
+   "lat": 6.69,
+   "lon": -1.62,
+   "y": 1874.095,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "British troops burn the Asante capital; Asante annexed in 1901 after the War of the Golden Stool",
+   "w": "Third Anglo-Ashanti War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Third_Anglo-Ashanti_War",
+    "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool"
+   ]
+  },
+  {
+   "n": "Freetown (Sierra Leone)",
+   "lat": 8.48,
+   "lon": -13.23,
+   "y": 1792.193,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Settled by Black Loyalists from Nova Scotia (after the failed Province of Freedom, 1787); Crown colony 1 January 1808 and base of the West Africa Squadron",
+   "w": "Freetown",
+   "src": [
+    "https://en.wikipedia.org/wiki/Freetown",
+    "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+    "https://en.wikipedia.org/wiki/Nova_Scotian_Settlers"
+   ]
+  },
+  {
+   "n": "Lagos",
+   "lat": 6.45,
+   "lon": 3.4,
+   "y": 1861.596,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Lagos ceded under threat of force after a British bombardment (1851), justified as anti-slave-trade",
+   "w": "Lagos Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lagos_Colony",
+    "https://en.wikipedia.org/wiki/Lagos_Treaty_of_Cession"
+   ]
+  },
+  {
+   "n": "Benin City",
+   "lat": 6.34,
+   "lon": 5.63,
+   "y": 1897.133,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Punitive expedition burns the city and loots the Benin Bronzes",
+   "w": "Benin Expedition of 1897",
+   "src": [
+    "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+   ]
+  },
+  {
+   "n": "St Helena (Jamestown)",
+   "lat": -15.93,
+   "lon": -5.72,
+   "y": 1659,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "EIC watering station on the route home from India; Napoleon's exile 1815-21",
+   "w": "Saint Helena",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saint_Helena",
+    "https://en.wikipedia.org/wiki/History_of_Saint_Helena"
+   ]
+  },
+  {
+   "n": "Ascension Island",
+   "lat": -7.93,
+   "lon": -14.41,
+   "y": 1815.807,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Garrisoned while Napoleon was on St Helena; later a West Africa Squadron supply base",
+   "w": "Ascension Island",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ascension_Island"
+   ]
+  },
+  {
+   "n": "Cape Town (Cape Colony)",
+   "lat": -33.92,
+   "lon": 18.42,
+   "y": 1806.026,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Dutch Cape taken at Blaauwberg 1806 (first occupation 1795), ceded 1814; key stop on the route to India",
+   "w": "Cape Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cape_Colony",
+    "https://en.wikipedia.org/wiki/Battle_of_Blaauwberg",
+    "https://en.wikipedia.org/wiki/Anglo-Dutch_Treaty_of_1814"
+   ]
+  },
+  {
+   "n": "Simon's Town naval base",
+   "lat": -34.19,
+   "lon": 18.43,
+   "y": 1814,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Royal Navy South Atlantic base",
+   "w": "Simon's Town",
+   "src": [
+    "https://en.wikipedia.org/wiki/Simon's_Town"
+   ]
+  },
+  {
+   "n": "Durban (Natal)",
+   "lat": -29.86,
+   "lon": 31.03,
+   "y": 1843,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Boer republic of Natalia annexed as the Colony of Natal",
+   "w": "Colony of Natal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colony_of_Natal"
+   ]
+  },
+  {
+   "n": "Pretoria (Transvaal annexation)",
+   "lat": -25.75,
+   "lon": 28.19,
+   "y": 1877.278,
+   "end": 1881.588,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Transvaal annexed; the Boers' First War of Independence restores self-rule (Pretoria Convention 1881)",
+   "w": "First Boer War",
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Boer_War"
+   ]
+  },
+  {
+   "n": "Salisbury (Rhodesia)",
+   "lat": -17.83,
+   "lon": 31.05,
+   "y": 1890.697,
+   "approx": false,
+   "kind": "colony",
+   "who": "BSAC",
+   "what": "Cecil Rhodes's British South Africa Company Pioneer Column founds Fort Salisbury",
+   "w": "Pioneer Column",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pioneer_Column",
+    "https://en.wikipedia.org/wiki/British_South_Africa_Company"
+   ]
+  },
+  {
+   "n": "Zanzibar",
+   "lat": -6.16,
+   "lon": 39.19,
+   "y": 1890.842,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "British protectorate; the 1896 Anglo-Zanzibar war lasted about 40 minutes",
+   "w": "Sultanate of Zanzibar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+    "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+   ]
+  },
+  {
+   "n": "Mombasa (East Africa Protectorate)",
+   "lat": -4.05,
+   "lon": 39.67,
+   "y": 1895.497,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "East Africa Protectorate (later Kenya); the Uganda Railway starts at Mombasa in 1896",
+   "w": "East Africa Protectorate",
+   "src": [
+    "https://en.wikipedia.org/wiki/East_Africa_Protectorate",
+    "https://en.wikipedia.org/wiki/Uganda_Railway"
+   ]
+  },
+  {
+   "n": "Kampala (Uganda Protectorate)",
+   "lat": 0.32,
+   "lon": 32.58,
+   "y": 1894,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Buganda becomes a British protectorate",
+   "w": "Uganda Protectorate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Uganda_Protectorate"
+   ]
+  },
+  {
+   "n": "Berbera (British Somaliland)",
+   "lat": 10.44,
+   "lon": 45.01,
+   "y": 1884,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Protectorate supplying meat to the Aden garrison",
+   "w": "British Somaliland",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Somaliland"
+   ]
+  },
+  {
+   "n": "Khartoum (Anglo-Egyptian Sudan)",
+   "lat": 15.6,
+   "lon": 32.53,
+   "y": 1898.675,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Retaken after Omdurman; Anglo-Egyptian condominium from 1899",
+   "w": "Anglo-Egyptian Sudan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Anglo-Egyptian_Sudan"
+   ]
+  },
+  {
+   "n": "Cairo (British occupation of Egypt)",
+   "lat": 30.05,
+   "lon": 31.24,
+   "y": 1882.703,
+   "end": 1922.16,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Occupied after Tel el-Kebir; Britain ran Egypt behind the Khedive until nominal independence in 1922",
+   "w": "History of Egypt under the British",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_Egypt_under_the_British"
+   ]
+  },
+  {
+   "n": "Ismailia (Suez Canal shares)",
+   "lat": 30.59,
+   "lon": 32.27,
+   "y": 1875.9,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Disraeli buys the Khedive's 176,602 Suez Canal Company shares (44%) for £4 million",
+   "w": "Suez Canal Company",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suez_Canal_Company",
+    "https://en.wikipedia.org/wiki/Benjamin_Disraeli"
+   ]
+  },
+  {
+   "n": "Mauritius (Port Louis)",
+   "lat": -20.16,
+   "lon": 57.5,
+   "y": 1810.922,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Taken from France to end raids on East Indiamen; ceded 1814; indentured Indian labour after 1834",
+   "w": "British Mauritius",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Mauritius",
+    "https://en.wikipedia.org/wiki/Invasion_of_Isle_de_France"
+   ]
+  },
+  {
+   "n": "Seychelles (Victoria)",
+   "lat": -4.62,
+   "lon": 55.45,
+   "y": 1814.41,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "French islands under British control from 1794 (by capitulation), ceded 1814",
+   "w": "Seychelles",
+   "src": [
+    "https://en.wikipedia.org/wiki/Seychelles",
+    "https://en.wikipedia.org/wiki/History_of_Seychelles"
+   ]
+  },
+  {
+   "n": "Aden",
+   "lat": 12.78,
+   "lon": 45.03,
+   "y": 1839.051,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "EIC",
+   "what": "Captured by the EIC as a coaling station on the steam route to India",
+   "w": "Aden Province",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aden_Province",
+    "https://en.wikipedia.org/wiki/Colony_of_Aden"
+   ]
+  },
+  {
+   "n": "Surat",
+   "lat": 21.17,
+   "lon": 72.83,
+   "y": 1613.029,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "First lasting EIC factory in India, after a Mughal farman (1612-13) and the sea fight off Swally",
+   "w": "Surat",
+   "src": [
+    "https://en.wikipedia.org/wiki/Surat",
+    "https://en.wikipedia.org/wiki/Battle_of_Swally"
+   ]
+  },
+  {
+   "n": "Masulipatnam",
+   "lat": 16.17,
+   "lon": 81.13,
+   "y": 1611,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "EIC factory on the Coromandel coast for textiles",
+   "w": "Machilipatnam",
+   "src": [
+    "https://en.wikipedia.org/wiki/Machilipatnam"
+   ]
+  },
+  {
+   "n": "Madras (Fort St George)",
+   "lat": 13.08,
+   "lon": 80.29,
+   "y": 1639.64,
+   "approx": false,
+   "kind": "fort",
+   "who": "EIC",
+   "what": "Land granted 1639, fort from 1640; headquarters of the Madras Presidency",
+   "w": "Fort St. George, India",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fort_St._George,_India",
+    "https://en.wikipedia.org/wiki/Madras_Presidency"
+   ]
+  },
+  {
+   "n": "Bombay",
+   "lat": 18.94,
+   "lon": 72.84,
+   "y": 1668.237,
+   "approx": false,
+   "kind": "colony",
+   "who": "EIC",
+   "what": "Portuguese dowry of Catherine of Braganza (1661) to Charles II, leased to the EIC in 1668",
+   "w": "Bombay Presidency",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bombay_Presidency",
+    "https://en.wikipedia.org/wiki/Seven_Islands_of_Bombay"
+   ]
+  },
+  {
+   "n": "Calcutta (Fort William)",
+   "lat": 22.56,
+   "lon": 88.34,
+   "y": 1690.645,
+   "approx": false,
+   "kind": "fort",
+   "who": "EIC",
+   "what": "Job Charnock's post 1690; Fort William 1696; capital of British India 1772-1911",
+   "w": "Fort William, India",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fort_William,_India",
+    "https://en.wikipedia.org/wiki/Kolkata",
+    "https://en.wikipedia.org/wiki/Job_Charnock"
+   ]
+  },
+  {
+   "n": "Bantam (Banten)",
+   "lat": -6.03,
+   "lon": 106.16,
+   "y": 1603,
+   "end": 1682,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "First EIC factory in Asia (pepper), from Lancaster's first voyage; expelled by the Dutch in 1682",
+   "w": "Banten Sultanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Banten_Sultanate",
+    "https://en.wikipedia.org/wiki/James_Lancaster"
+   ]
+  },
+  {
+   "n": "Hirado",
+   "lat": 33.37,
+   "lon": 129.55,
+   "y": 1613,
+   "end": 1623,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "EIC factory in Japan, closed at a loss in 1623",
+   "w": "Hirado, Nagasaki",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hirado,_Nagasaki",
+    "https://en.wikipedia.org/wiki/Richard_Cocks"
+   ]
+  },
+  {
+   "n": "Bencoolen (Fort Marlborough)",
+   "lat": -3.79,
+   "lon": 102.25,
+   "y": 1685,
+   "end": 1825,
+   "approx": false,
+   "kind": "fort",
+   "who": "EIC",
+   "what": "Pepper post in Sumatra; swapped to the Dutch for Malacca under the 1824 treaty",
+   "w": "Bencoolen",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bencoolen",
+    "https://en.wikipedia.org/wiki/Fort_Marlborough",
+    "https://en.wikipedia.org/wiki/Anglo-Dutch_Treaty_of_1824"
+   ]
+  },
+  {
+   "n": "Allahabad (Bengal diwani)",
+   "lat": 25.44,
+   "lon": 81.85,
+   "y": 1765.612,
+   "approx": false,
+   "kind": "treaty",
+   "who": "EIC",
+   "what": "Treaty of Allahabad: the Mughal emperor grants the EIC the diwani (tax rights) of Bengal, Bihar and Orissa",
+   "w": "Treaty of Allahabad",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Allahabad"
+   ]
+  },
+  {
+   "n": "Murshidabad (Bengal famine)",
+   "lat": 24.18,
+   "lon": 88.27,
+   "y": 1770,
+   "approx": false,
+   "kind": "other",
+   "who": "EIC",
+   "what": "Famine of 1769-70: an estimated 7-10 million died in company-run Bengal (figures debated)",
+   "w": "Bengal famine of 1770",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bengal_famine_of_1770"
+   ]
+  },
+  {
+   "n": "Seringapatam (Treaty of 1792)",
+   "lat": 12.42,
+   "lon": 76.69,
+   "y": 1792.212,
+   "approx": false,
+   "kind": "treaty",
+   "who": "EIC",
+   "what": "Tipu Sultan cedes half of Mysore after the Third Anglo-Mysore War",
+   "w": "Treaty of Seringapatam",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam",
+    "https://en.wikipedia.org/wiki/Anglo-Mysore_wars"
+   ]
+  },
+  {
+   "n": "Penang (George Town)",
+   "lat": 5.42,
+   "lon": 100.34,
+   "y": 1786.61,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "Francis Light founds George Town, the first British base in Malaya",
+   "w": "George Town, Penang",
+   "src": [
+    "https://en.wikipedia.org/wiki/George_Town,_Penang",
+    "https://en.wikipedia.org/wiki/Francis_Light"
+   ]
+  },
+  {
+   "n": "Colombo (Ceylon)",
+   "lat": 6.93,
+   "lon": 79.85,
+   "y": 1796.127,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Dutch Ceylon taken 1796, Crown colony 1802; Kandy annexed 1815; coffee, then tea plantations",
+   "w": "British Ceylon",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Ceylon",
+    "https://en.wikipedia.org/wiki/Kandyan_Convention"
+   ]
+  },
+  {
+   "n": "Trincomalee",
+   "lat": 8.57,
+   "lon": 81.23,
+   "y": 1795,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Deep natural harbour; Royal Navy East Indies base",
+   "w": "Trincomalee",
+   "src": [
+    "https://en.wikipedia.org/wiki/Trincomalee",
+    "https://en.wikipedia.org/wiki/Trincomalee_Harbour"
+   ]
+  },
+  {
+   "n": "Delhi (1803)",
+   "lat": 28.66,
+   "lon": 77.23,
+   "y": 1803.695,
+   "approx": false,
+   "kind": "city",
+   "who": "EIC",
+   "what": "After the Battle of Delhi the Mughal emperor becomes a company pensioner",
+   "w": "Battle of Delhi (1803)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Delhi_(1803)",
+    "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+   ]
+  },
+  {
+   "n": "Hyderabad, Sindh",
+   "lat": 25.39,
+   "lon": 68.37,
+   "y": 1843,
+   "approx": false,
+   "kind": "other",
+   "who": "EIC",
+   "what": "Sindh conquered by Charles Napier after Miani (February 1843)",
+   "w": "Battle of Miani",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Miani",
+    "https://en.wikipedia.org/wiki/Sindh"
+   ]
+  },
+  {
+   "n": "Lahore (Punjab annexed)",
+   "lat": 31.55,
+   "lon": 74.34,
+   "y": 1849.24,
+   "approx": false,
+   "kind": "other",
+   "who": "EIC",
+   "what": "Sikh Empire annexed after the Second Anglo-Sikh War",
+   "w": "Second Anglo-Sikh War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War",
+    "https://en.wikipedia.org/wiki/Sikh_Empire"
+   ]
+  },
+  {
+   "n": "Lucknow (Awadh annexed)",
+   "lat": 26.85,
+   "lon": 80.95,
+   "y": 1856.103,
+   "approx": false,
+   "kind": "other",
+   "who": "EIC",
+   "what": "Awadh annexed under the doctrine of 'misrule'; a grievance behind the 1857 rising",
+   "w": "Oudh State",
+   "src": [
+    "https://en.wikipedia.org/wiki/Oudh_State",
+    "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+   ]
+  },
+  {
+   "n": "Allahabad (Crown rule)",
+   "lat": 25.44,
+   "lon": 81.85,
+   "y": 1858.834,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "Queen Victoria's proclamation read by Lord Canning: the Crown replaces the EIC (Government of India Act 1858)",
+   "w": "Government of India Act 1858",
+   "src": [
+    "https://en.wikipedia.org/wiki/Government_of_India_Act_1858",
+    "https://en.wikipedia.org/wiki/Company_rule_in_India"
+   ]
+  },
+  {
+   "n": "Port Blair (Andaman penal colony)",
+   "lat": 11.62,
+   "lon": 92.73,
+   "y": 1858.188,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Penal settlement for rebels of 1857 and later political prisoners",
+   "w": "Cellular Jail",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cellular_Jail",
+    "https://en.wikipedia.org/wiki/Port_Blair"
+   ]
+  },
+  {
+   "n": "Delhi Durbar 1877",
+   "lat": 28.72,
+   "lon": 77.2,
+   "y": 1877.001,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Imperial Assemblage proclaims Victoria Empress of India during the Great Famine",
+   "w": "Delhi Durbar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Delhi_Durbar",
+    "https://en.wikipedia.org/wiki/Great_Famine_of_1876–1878"
+   ]
+  },
+  {
+   "n": "Assam tea gardens",
+   "lat": 27.48,
+   "lon": 94.91,
+   "y": 1839,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Assam Company starts tea plantations after the 1826 annexation, worked largely by indentured labour",
+   "w": "Assam tea",
+   "src": [
+    "https://en.wikipedia.org/wiki/Assam_tea",
+    "https://en.wikipedia.org/wiki/Treaty_of_Yandabo"
+   ]
+  },
+  {
+   "n": "Ras al-Khaimah (General Maritime Treaty)",
+   "lat": 25.79,
+   "lon": 55.94,
+   "y": 1820.021,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "Treaty with Gulf sheikhdoms after a British expedition; start of the Trucial States system",
+   "w": "General Maritime Treaty of 1820",
+   "src": [
+    "https://en.wikipedia.org/wiki/General_Maritime_Treaty_of_1820"
+   ]
+  },
+  {
+   "n": "Canton factories",
+   "lat": 23.11,
+   "lon": 113.25,
+   "y": 1715,
+   "end": 1856.955,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "EIC factory among the Thirteen Factories; from 1757 all Western trade confined to Canton; burned in 1856",
+   "w": "Thirteen Factories",
+   "src": [
+    "https://en.wikipedia.org/wiki/Thirteen_Factories",
+    "https://en.wikipedia.org/wiki/Canton_System"
+   ]
+  },
+  {
+   "n": "Singapore",
+   "lat": 1.29,
+   "lon": 103.85,
+   "y": 1819.1,
+   "approx": false,
+   "kind": "post",
+   "who": "EIC",
+   "what": "Stamford Raffles signs a treaty for a trading post; free port",
+   "w": "Founding of modern Singapore",
+   "src": [
+    "https://en.wikipedia.org/wiki/Founding_of_modern_Singapore"
+   ]
+  },
+  {
+   "n": "Malacca",
+   "lat": 2.19,
+   "lon": 102.25,
+   "y": 1824.21,
+   "approx": false,
+   "kind": "treaty",
+   "who": "EIC",
+   "what": "Anglo-Dutch Treaty swaps Bencoolen for Malacca; Straits Settlements 1826",
+   "w": "Anglo-Dutch Treaty of 1824",
+   "src": [
+    "https://en.wikipedia.org/wiki/Anglo-Dutch_Treaty_of_1824",
+    "https://en.wikipedia.org/wiki/Straits_Settlements"
+   ]
+  },
+  {
+   "n": "Hong Kong",
+   "lat": 22.28,
+   "lon": 114.16,
+   "y": 1841.07,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Occupied in 1841 and ceded by the Treaty of Nanking (1842); Kowloon added 1860, New Territories leased 1898",
+   "w": "British Hong Kong",
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Hong_Kong",
+    "https://en.wikipedia.org/wiki/Treaty_of_Nanking"
+   ]
+  },
+  {
+   "n": "Nanjing (Treaty of Nanking)",
+   "lat": 32.06,
+   "lon": 118.78,
+   "y": 1842.659,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "First 'unequal treaty': Hong Kong, five treaty ports, 21 million dollars indemnity",
+   "w": "Treaty of Nanking",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Nanking"
+   ]
+  },
+  {
+   "n": "Shanghai International Settlement",
+   "lat": 31.24,
+   "lon": 121.49,
+   "y": 1843.878,
+   "end": 1943.029,
+   "approx": false,
+   "kind": "post",
+   "who": "Britain",
+   "what": "Treaty port opened 1843; British (later International) Settlement until 1943",
+   "w": "Shanghai International Settlement",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shanghai_International_Settlement"
+   ]
+  },
+  {
+   "n": "Weihaiwei",
+   "lat": 37.5,
+   "lon": 122.12,
+   "y": 1898.497,
+   "end": 1930.749,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Leased naval base in north China, returned in 1930",
+   "w": "Weihaiwei under British rule",
+   "src": [
+    "https://en.wikipedia.org/wiki/Weihaiwei_under_British_rule"
+   ]
+  },
+  {
+   "n": "Labuan",
+   "lat": 5.28,
+   "lon": 115.24,
+   "y": 1846,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Island ceded by Brunei as a coaling station",
+   "w": "Crown Colony of Labuan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Crown_Colony_of_Labuan"
+   ]
+  },
+  {
+   "n": "Yandabo (Arakan and Tenasserim)",
+   "lat": 21.68,
+   "lon": 95.03,
+   "y": 1826.149,
+   "approx": false,
+   "kind": "treaty",
+   "who": "EIC",
+   "what": "First Anglo-Burmese War ends: Burma cedes Assam, Arakan and Tenasserim",
+   "w": "Treaty of Yandabo",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Yandabo"
+   ]
+  },
+  {
+   "n": "Rangoon (Lower Burma)",
+   "lat": 16.78,
+   "lon": 96.16,
+   "y": 1852.971,
+   "approx": false,
+   "kind": "colony",
+   "who": "EIC",
+   "what": "Pegu annexed after the Second Anglo-Burmese War",
+   "w": "Second Anglo-Burmese War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_Anglo-Burmese_War"
+   ]
+  },
+  {
+   "n": "Mandalay (Upper Burma)",
+   "lat": 21.97,
+   "lon": 96.08,
+   "y": 1885.908,
+   "approx": false,
+   "kind": "other",
+   "who": "Britain",
+   "what": "King Thibaw deposed; Burma annexed to British India on 1 January 1886",
+   "w": "Third Anglo-Burmese War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Third_Anglo-Burmese_War"
+   ]
+  },
+  {
+   "n": "Sydney Cove",
+   "lat": -33.86,
+   "lon": 151.21,
+   "y": 1788.07,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "First Fleet founds the penal colony of New South Wales on Eora land",
+   "w": "Colony of New South Wales",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colony_of_New_South_Wales",
+    "https://en.wikipedia.org/wiki/First_Fleet"
+   ]
+  },
+  {
+   "n": "Hobart (Van Diemen's Land)",
+   "lat": -42.88,
+   "lon": 147.33,
+   "y": 1804,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Penal colony; the 'Black War' of the 1820s devastates Aboriginal Tasmanians",
+   "w": "Van Diemen's Land",
+   "src": [
+    "https://en.wikipedia.org/wiki/Van_Diemen's_Land",
+    "https://en.wikipedia.org/wiki/Black_War"
+   ]
+  },
+  {
+   "n": "Perth (Swan River Colony)",
+   "lat": -31.95,
+   "lon": 115.86,
+   "y": 1829.612,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Free-settler colony in Western Australia",
+   "w": "Swan River Colony",
+   "src": [
+    "https://en.wikipedia.org/wiki/Swan_River_Colony"
+   ]
+  },
+  {
+   "n": "Adelaide (South Australia)",
+   "lat": -34.93,
+   "lon": 138.6,
+   "y": 1836.993,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Planned free colony",
+   "w": "Province of South Australia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Province_of_South_Australia"
+   ]
+  },
+  {
+   "n": "Waitangi",
+   "lat": -35.27,
+   "lon": 174.08,
+   "y": 1840.1,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "Treaty of Waitangi with Māori chiefs; the English and Māori texts differ on sovereignty (debated)",
+   "w": "Treaty of Waitangi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Waitangi"
+   ]
+  },
+  {
+   "n": "Levuka (Fiji)",
+   "lat": -17.68,
+   "lon": 178.83,
+   "y": 1874.774,
+   "approx": false,
+   "kind": "colony",
+   "who": "Britain",
+   "what": "Deed of Cession: Fiji becomes a Crown colony; Indian indentured labourers arrive from 1879",
+   "w": "Colony of Fiji",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colony_of_Fiji"
+   ]
+  }
+ ],
+ "battles": [
+  {
+   "n": "Battle of Swally",
+   "y": 1612.914,
+   "date": "29-30 November 1612",
+   "lat": 21.17,
+   "lon": 72.62,
+   "war": "Anglo-Portuguese rivalry",
+   "a": "EIC",
+   "b": "Portugal",
+   "won": "a",
+   "men": null,
+   "loss": null,
+   "what": "Four EIC ships beat a larger Portuguese squadron off Surat, winning Mughal favour for an English factory",
+   "w": "Battle of Swally",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Swally"
+   ]
+  },
+  {
+   "n": "Battle of Gravelines (Spanish Armada)",
+   "y": 1588.604,
+   "date": "8 August 1588",
+   "lat": 51.05,
+   "lon": 2.05,
+   "war": "Anglo-Spanish War (1585-1604)",
+   "a": "England",
+   "b": "Spain",
+   "won": "a",
+   "men": null,
+   "loss": [
+    500,
+    1400
+   ],
+   "what": "After fireships scatter the Armada off Calais, the English fleet mauls it at Gravelines (losses: English 50-100 dead and ~400 wounded; Spanish 600+ dead, 800 wounded)",
+   "w": "Spanish Armada",
+   "src": [
+    "https://en.wikipedia.org/wiki/Spanish_Armada",
+    "https://en.wikipedia.org/wiki/Battle_of_Gravelines"
+   ]
+  },
+  {
+   "n": "Raid on the Medway",
+   "y": 1667.464,
+   "date": "19-24 June 1667",
+   "lat": 51.4,
+   "lon": 0.53,
+   "war": "Second Anglo-Dutch War",
+   "a": "Dutch Republic",
+   "b": "England",
+   "won": "a",
+   "men": null,
+   "loss": [
+    150,
+    500
+   ],
+   "what": "A Dutch fleet breaks into the Medway, burns ships at Chatham and tows away the flagship Royal Charles (Dutch 50-150 casualties, English about 500)",
+   "w": "Raid on the Medway",
+   "src": [
+    "https://en.wikipedia.org/wiki/Raid_on_the_Medway"
+   ]
+  },
+  {
+   "n": "Battle of Plassey",
+   "y": 1757.475,
+   "date": "23 June 1757",
+   "lat": 23.8,
+   "lon": 88.25,
+   "war": "Seven Years' War / Carnatic Wars",
+   "a": "EIC",
+   "b": "Bengal (Siraj ud-Daulah), French",
+   "won": "a",
+   "men": [
+    3100,
+    50000
+   ],
+   "loss": [
+    77,
+    500
+   ],
+   "what": "Clive's small army wins after Mir Jafar's troops stand aside; Bengal becomes a company puppet state",
+   "w": "Battle of Plassey",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Plassey"
+   ]
+  },
+  {
+   "n": "Battle of the Plains of Abraham",
+   "y": 1759.7,
+   "date": "13 September 1759",
+   "lat": 46.8,
+   "lon": -71.22,
+   "war": "Seven Years' War",
+   "a": "Britain",
+   "b": "France",
+   "won": "a",
+   "men": [
+    4400,
+    3400
+   ],
+   "loss": [
+    658,
+    1066
+   ],
+   "what": "Wolfe's army climbs to the plateau above Quebec and defeats Montcalm; both generals are killed",
+   "w": "Battle of the Plains of Abraham",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Plains_of_Abraham"
+   ]
+  },
+  {
+   "n": "Battle of Quiberon Bay",
+   "y": 1759.886,
+   "date": "20 November 1759",
+   "lat": 47.52,
+   "lon": -3.0,
+   "war": "Seven Years' War",
+   "a": "Britain",
+   "b": "France",
+   "won": "a",
+   "men": null,
+   "loss": [
+    300,
+    2520
+   ],
+   "what": "Hawke chases the French fleet into a rocky bay in a gale (24 v 21 ships of the line) and ends French invasion plans",
+   "w": "Battle of Quiberon Bay",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Quiberon_Bay"
+   ]
+  },
+  {
+   "n": "Battle of Buxar",
+   "y": 1764.81,
+   "date": "22 October 1764",
+   "lat": 25.57,
+   "lon": 83.98,
+   "war": "Bengal War",
+   "a": "EIC",
+   "b": "Mughal Empire, Awadh, Bengal (Mir Qasim)",
+   "won": "a",
+   "men": [
+    7072,
+    40112
+   ],
+   "loss": [
+    873,
+    6000
+   ],
+   "what": "Hector Munro beats the allied Indian rulers; leads to the diwani of Bengal (1765)",
+   "w": "Battle of Buxar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Buxar"
+   ]
+  },
+  {
+   "n": "Siege of Yorktown",
+   "y": 1781.799,
+   "date": "28 September - 19 October 1781",
+   "lat": 37.23,
+   "lon": -76.5,
+   "war": "American Revolutionary War",
+   "a": "United States, France",
+   "b": "Britain",
+   "won": "a",
+   "men": [
+    19800,
+    8500
+   ],
+   "loss": [
+    389,
+    8000
+   ],
+   "what": "Cornwallis's army surrenders (about 7,500 captured), deciding the war in America",
+   "w": "Siege of Yorktown",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Yorktown"
+   ]
+  },
+  {
+   "n": "Battle of the Saintes",
+   "y": 1782.278,
+   "date": "12 April 1782",
+   "lat": 15.78,
+   "lon": -61.6,
+   "war": "American Revolutionary War",
+   "a": "Britain",
+   "b": "France",
+   "won": "a",
+   "men": null,
+   "loss": [
+    1059,
+    8000
+   ],
+   "what": "Rodney's 36 ships of the line defeat de Grasse and save Jamaica from invasion (French: ~3,000 killed or wounded, 5,000+ captured)",
+   "w": "Battle of the Saintes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Saintes"
+   ]
+  },
+  {
+   "n": "Siege of Seringapatam",
+   "y": 1799.338,
+   "date": "5 April - 4 May 1799",
+   "lat": 12.42,
+   "lon": 76.69,
+   "war": "Fourth Anglo-Mysore War",
+   "a": "EIC, Hyderabad",
+   "b": "Mysore (Tipu Sultan)",
+   "won": "a",
+   "men": [
+    50000,
+    30000
+   ],
+   "loss": [
+    1400,
+    8000
+   ],
+   "what": "The fortress is stormed and Tipu Sultan killed; Mysore becomes a subsidiary state (Mysorean losses 6,000-10,000)",
+   "w": "Siege of Seringapatam (1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Seringapatam_(1799)"
+   ]
+  },
+  {
+   "n": "Battle of Trafalgar",
+   "y": 1805.804,
+   "date": "21 October 1805",
+   "lat": 36.25,
+   "lon": -6.2,
+   "war": "Napoleonic Wars",
+   "a": "Britain",
+   "b": "France, Spain",
+   "won": "a",
+   "men": null,
+   "loss": [
+    1666,
+    14000
+   ],
+   "what": "Nelson's 27 ships of the line take or destroy 18 of 33; Nelson is killed. British naval supremacy for a century",
+   "w": "Battle of Trafalgar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Trafalgar"
+   ]
+  },
+  {
+   "n": "Battle of Navarino",
+   "y": 1827.801,
+   "date": "20 October 1827",
+   "lat": 36.94,
+   "lon": 21.69,
+   "war": "Greek War of Independence",
+   "a": "Britain, France, Russia",
+   "b": "Ottoman Empire, Egypt",
+   "won": "a",
+   "men": null,
+   "loss": [
+    661,
+    8000
+   ],
+   "what": "Last great battle of sailing ships: the allied fleet destroys the Ottoman-Egyptian fleet, securing Greek independence",
+   "w": "Battle of Navarino",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Navarino"
+   ]
+  },
+  {
+   "n": "Second Battle of Chuenpi",
+   "y": 1841.018,
+   "date": "7 January 1841",
+   "lat": 22.76,
+   "lon": 113.66,
+   "war": "First Opium War",
+   "a": "Britain",
+   "b": "Qing China",
+   "won": "a",
+   "men": [
+    1500,
+    2000
+   ],
+   "loss": [
+    38,
+    844
+   ],
+   "what": "British ships and the EIC steamer Nemesis take the Bocca Tigris forts and destroy 11 war junks",
+   "w": "Second Battle of Chuenpi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_Battle_of_Chuenpi"
+   ]
+  },
+  {
+   "n": "Battle of Chinkiang",
+   "y": 1842.552,
+   "date": "21 July 1842",
+   "lat": 32.19,
+   "lon": 119.42,
+   "war": "First Opium War",
+   "a": "Britain",
+   "b": "Qing China",
+   "won": "a",
+   "men": [
+    6907,
+    3500
+   ],
+   "loss": [
+    168,
+    1000
+   ],
+   "what": "Storm of Zhenjiang on the Grand Canal; many Manchu defenders killed their families rather than surrender. China sues for peace",
+   "w": "Battle of Chinkiang",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Chinkiang"
+   ]
+  },
+  {
+   "n": "Battle of Sobraon",
+   "y": 1846.111,
+   "date": "10 February 1846",
+   "lat": 31.18,
+   "lon": 74.85,
+   "war": "First Anglo-Sikh War",
+   "a": "EIC",
+   "b": "Sikh Empire",
+   "won": "a",
+   "men": [
+    20000,
+    26000
+   ],
+   "loss": [
+    2383,
+    6500
+   ],
+   "what": "Decisive defeat of the Sikh army on the Sutlej (Sikh losses 5,000-8,000)",
+   "w": "Battle of Sobraon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Sobraon"
+   ]
+  },
+  {
+   "n": "Siege of Delhi",
+   "y": 1857.722,
+   "date": "8 June - 21 September 1857",
+   "lat": 28.66,
+   "lon": 77.23,
+   "war": "Indian Rebellion of 1857",
+   "a": "EIC",
+   "b": "Rebel sepoys, Mughal court",
+   "won": "a",
+   "men": [
+    11200,
+    42000
+   ],
+   "loss": [
+    5747,
+    5000
+   ],
+   "what": "British and loyal Indian troops storm Delhi; looting and mass killings of civilians follow; Bahadur Shah Zafar exiled",
+   "w": "Siege of Delhi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Delhi"
+   ]
+  },
+  {
+   "n": "Siege of Lucknow",
+   "y": 1857.878,
+   "date": "30 June - 27 November 1857",
+   "lat": 26.86,
+   "lon": 80.94,
+   "war": "Indian Rebellion of 1857",
+   "a": "Rebel forces",
+   "b": "EIC",
+   "won": "b",
+   "men": [
+    30000,
+    8000
+   ],
+   "loss": [
+    null,
+    2500
+   ],
+   "what": "The Residency holds out for 87 days until relief, and is evacuated after a second relief in November",
+   "w": "Siege of Lucknow",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Lucknow"
+   ]
+  },
+  {
+   "n": "Battle of Isandlwana",
+   "y": 1879.059,
+   "date": "22 January 1879",
+   "lat": -28.36,
+   "lon": 30.65,
+   "war": "Anglo-Zulu War",
+   "a": "Zulu Kingdom",
+   "b": "Britain",
+   "won": "a",
+   "men": [
+    20000,
+    1837
+   ],
+   "loss": [
+    3000,
+    1300
+   ],
+   "what": "A Zulu army destroys a British column, the worst British defeat against an African army; Zululand is still conquered by July",
+   "w": "Battle of Isandlwana",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Isandlwana"
+   ]
+  },
+  {
+   "n": "Battle of Majuba Hill",
+   "y": 1881.158,
+   "date": "27 February 1881",
+   "lat": -27.48,
+   "lon": 29.85,
+   "war": "First Boer War",
+   "a": "Transvaal Boers",
+   "b": "Britain",
+   "won": "a",
+   "men": [
+    400,
+    405
+   ],
+   "loss": [
+    6,
+    285
+   ],
+   "what": "Boer riflemen drive the British off the hill; Britain restores Transvaal self-rule",
+   "w": "Battle of Majuba Hill",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Majuba_Hill"
+   ]
+  },
+  {
+   "n": "Battle of Tel el-Kebir",
+   "y": 1882.7,
+   "date": "13 September 1882",
+   "lat": 30.55,
+   "lon": 31.83,
+   "war": "Anglo-Egyptian War",
+   "a": "Britain",
+   "b": "Egypt (Urabi)",
+   "won": "a",
+   "men": [
+    13000,
+    18000
+   ],
+   "loss": [
+    459,
+    2000
+   ],
+   "what": "A night march and dawn attack crush Urabi's army; Britain occupies Egypt",
+   "w": "Battle of Tel el-Kebir",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tel_el-Kebir"
+   ]
+  },
+  {
+   "n": "Battle of Omdurman",
+   "y": 1898.67,
+   "date": "2 September 1898",
+   "lat": 15.7,
+   "lon": 32.5,
+   "war": "Mahdist War",
+   "a": "Britain, Egypt",
+   "b": "Mahdist Sudan",
+   "won": "a",
+   "men": [
+    25800,
+    50000
+   ],
+   "loss": [
+    430,
+    25000
+   ],
+   "what": "Kitchener's Maxim guns and rifles kill about 12,000 Mahdists (13,000 wounded) for 47 British-Egyptian dead",
+   "w": "Battle of Omdurman",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Omdurman"
+   ]
+  }
+ ],
+ "campaigns": [
+  {
+   "n": "Drake's circumnavigation",
+   "who": "Francis Drake (Golden Hind)",
+   "side": "England",
+   "pts": [
+    [
+     -4.14,
+     50.37,
+     1577.949,
+     164
+    ],
+    [
+     -9.77,
+     31.51,
+     1577.988,
+     null
+    ],
+    [
+     -23.6,
+     15.0,
+     1578.084,
+     null
+    ],
+    [
+     -56.0,
+     -35.5,
+     1578.284,
+     null
+    ],
+    [
+     -67.7,
+     -49.3,
+     1578.467,
+     null
+    ],
+    [
+     -70.9,
+     -53.3,
+     1578.662,
+     null
+    ],
+    [
+     -70.0,
+     -56.5,
+     1578.788,
+     null
+    ],
+    [
+     -71.6,
+     -33.0,
+     1578.927,
+     null
+    ],
+    [
+     -77.15,
+     -12.05,
+     1579.119,
+     null
+    ],
+    [
+     -80.1,
+     0.7,
+     1579.163,
+     null
+    ],
+    [
+     -96.1,
+     15.75,
+     1579.281,
+     null
+    ],
+    [
+     -122.95,
+     38.0,
+     1579.459,
+     null
+    ],
+    [
+     127.4,
+     0.8,
+     1579.84,
+     null
+    ],
+    [
+     120.5,
+     -1.5,
+     1580.023,
+     null
+    ],
+    [
+     111.0,
+     -8.3,
+     1580.196,
+     null
+    ],
+    [
+     18.5,
+     -34.4,
+     1580.464,
+     null
+    ],
+    [
+     -13.2,
+     8.4,
+     1580.558,
+     null
+    ],
+    [
+     -4.14,
+     50.37,
+     1580.738,
+     null
+    ]
+   ],
+   "what": "Second circumnavigation of the world (after Magellan-Elcano): five ships and about 164 men left Plymouth; only the Golden Hind returned, laden with Spanish silver from raids along the Pacific coast (dates of some stops approximate)",
+   "w": "Francis Drake's circumnavigation",
+   "src": [
+    "https://en.wikipedia.org/wiki/Francis_Drake's_circumnavigation"
+   ]
+  },
+  {
+   "n": "Spanish Armada 1588",
+   "who": "Grande y Felicísima Armada (Medina Sidonia)",
+   "side": "Spain",
+   "pts": [
+    [
+     -9.14,
+     38.7,
+     1588.407,
+     29453
+    ],
+    [
+     -8.4,
+     43.37,
+     1588.467,
+     null
+    ],
+    [
+     -8.4,
+     43.37,
+     1588.555,
+     null
+    ],
+    [
+     -5.2,
+     49.9,
+     1588.577,
+     null
+    ],
+    [
+     -4.27,
+     50.18,
+     1588.582,
+     null
+    ],
+    [
+     -2.45,
+     50.45,
+     1588.588,
+     null
+    ],
+    [
+     -1.3,
+     50.55,
+     1588.593,
+     null
+    ],
+    [
+     1.8,
+     50.98,
+     1588.599,
+     null
+    ],
+    [
+     2.05,
+     51.1,
+     1588.604,
+     null
+    ],
+    [
+     2.8,
+     54.0,
+     1588.61,
+     null
+    ],
+    [
+     0.5,
+     56.0,
+     1588.615,
+     null
+    ],
+    [
+     -1.63,
+     59.53,
+     1588.637,
+     null
+    ],
+    [
+     -8.0,
+     59.0,
+     1588.659,
+     null
+    ],
+    [
+     -12.0,
+     56.0,
+     1588.681,
+     null
+    ],
+    [
+     -10.5,
+     54.0,
+     1588.725,
+     null
+    ],
+    [
+     -11.0,
+     51.5,
+     1588.744,
+     null
+    ],
+    [
+     -3.8,
+     43.46,
+     1588.763,
+     null
+    ]
+   ],
+   "what": "141 ships with 10,138 sailors and 19,315 soldiers left Lisbon to escort Parma's army from Flanders; beaten in the Channel, the fleet fled around Scotland and Ireland, where storms wrecked dozens of ships. About 44 ships were lost; the number of men who died is uncertain but ran to many thousands (late dates approximate)",
+   "w": "Spanish Armada",
+   "src": [
+    "https://en.wikipedia.org/wiki/Spanish_Armada"
+   ]
+  },
+  {
+   "n": "Anson's voyage",
+   "who": "George Anson (Centurion and squadron)",
+   "side": "Britain",
+   "pts": [
+    [
+     -1.1,
+     50.78,
+     1740.716,
+     1854
+    ],
+    [
+     -16.9,
+     32.6,
+     1740.818,
+     null
+    ],
+    [
+     -48.5,
+     -27.6,
+     1740.966,
+     null
+    ],
+    [
+     -67.7,
+     -49.3,
+     1741.136,
+     null
+    ],
+    [
+     -66.0,
+     -57.0,
+     1741.179,
+     null
+    ],
+    [
+     -80.0,
+     -55.0,
+     1741.3,
+     null
+    ],
+    [
+     -78.83,
+     -33.64,
+     1741.437,
+     null
+    ],
+    [
+     -81.11,
+     -5.08,
+     1741.867,
+     null
+    ],
+    [
+     -99.9,
+     16.8,
+     1742.163,
+     null
+    ],
+    [
+     145.6,
+     15.0,
+     1742.653,
+     null
+    ],
+    [
+     113.55,
+     22.2,
+     1742.864,
+     null
+    ],
+    [
+     125.0,
+     12.5,
+     1743.467,
+     null
+    ],
+    [
+     113.3,
+     23.0,
+     1743.536,
+     null
+    ],
+    [
+     18.5,
+     -33.9,
+     1744.193,
+     null
+    ],
+    [
+     -1.1,
+     50.78,
+     1744.456,
+     188
+    ]
+   ],
+   "what": "A squadron sent to raid Spain's Pacific empire: scurvy and storms killed most of the 1,854 men and only the Centurion came home, after capturing the Manila galleon Covadonga with 1,313,843 pieces of eight - 188 of the original men survived (dates of some stops approximate)",
+   "w": "George Anson's voyage around the world",
+   "src": [
+    "https://en.wikipedia.org/wiki/George_Anson's_voyage_around_the_world"
+   ]
+  },
+  {
+   "n": "Cook's second voyage",
+   "who": "James Cook (Resolution and Adventure)",
+   "side": "Britain",
+   "pts": [
+    [
+     -4.14,
+     50.37,
+     1772.533,
+     null
+    ],
+    [
+     18.42,
+     -33.92,
+     1772.832,
+     null
+    ],
+    [
+     39.6,
+     -66.5,
+     1773.045,
+     null
+    ],
+    [
+     166.6,
+     -45.75,
+     1773.232,
+     null
+    ],
+    [
+     174.3,
+     -41.1,
+     1773.377,
+     null
+    ],
+    [
+     -149.5,
+     -17.6,
+     1773.626,
+     null
+    ],
+    [
+     -175.2,
+     -21.1,
+     1773.752,
+     null
+    ],
+    [
+     174.3,
+     -41.1,
+     1773.84,
+     null
+    ],
+    [
+     -106.9,
+     -71.17,
+     1774.081,
+     null
+    ],
+    [
+     -109.4,
+     -27.1,
+     1774.196,
+     null
+    ],
+    [
+     -139.0,
+     -9.8,
+     1774.264,
+     null
+    ],
+    [
+     -149.5,
+     -17.6,
+     1774.305,
+     null
+    ],
+    [
+     167.5,
+     -16.0,
+     1774.582,
+     null
+    ],
+    [
+     164.7,
+     -20.5,
+     1774.675,
+     null
+    ],
+    [
+     174.3,
+     -41.1,
+     1774.796,
+     null
+    ],
+    [
+     -70.0,
+     -55.0,
+     1774.968,
+     null
+    ],
+    [
+     -36.5,
+     -54.3,
+     1775.045,
+     null
+    ],
+    [
+     18.42,
+     -33.92,
+     1775.221,
+     null
+    ],
+    [
+     -5.72,
+     -15.93,
+     1775.368,
+     null
+    ],
+    [
+     -1.1,
+     50.78,
+     1775.577,
+     null
+    ]
+   ],
+   "what": "Cook circled the far south, crossing the Antarctic Circle and reaching 71°10'S without finding the supposed great southern continent; his ships avoided serious scurvy thanks partly to diet and hygiene (approximate positions)",
+   "w": "Second voyage of James Cook",
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_voyage_of_James_Cook"
+   ]
+  },
+  {
+   "n": "First Fleet to Botany Bay",
+   "who": "Arthur Phillip (11 ships)",
+   "side": "Britain",
+   "pts": [
+    [
+     -1.1,
+     50.78,
+     1787.363,
+     1420
+    ],
+    [
+     -16.25,
+     28.47,
+     1787.421,
+     null
+    ],
+    [
+     -43.17,
+     -22.9,
+     1787.596,
+     null
+    ],
+    [
+     -43.17,
+     -22.9,
+     1787.675,
+     null
+    ],
+    [
+     18.42,
+     -33.92,
+     1787.782,
+     null
+    ],
+    [
+     18.42,
+     -33.92,
+     1787.864,
+     null
+    ],
+    [
+     60.0,
+     -40.0,
+     1787.941,
+     null
+    ],
+    [
+     120.0,
+     -43.0,
+     1787.996,
+     null
+    ],
+    [
+     147.5,
+     -43.8,
+     1788.018,
+     null
+    ],
+    [
+     151.2,
+     -33.99,
+     1788.048,
+     null
+    ],
+    [
+     151.21,
+     -33.86,
+     1788.07,
+     1373
+    ]
+   ],
+   "what": "Eleven ships carried about 1,420 identified people, more than half of them convicts, 24,000 km in over 250 days to found the penal colony of New South Wales",
+   "w": "First Fleet",
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Fleet"
+   ]
+  },
+  {
+   "n": "East Indiaman round trip (typical, 1790s)",
+   "who": "EIC chartered East Indiaman",
+   "side": "EIC",
+   "pts": [
+    [
+     0.5,
+     51.45,
+     1793.04,
+     null
+    ],
+    [
+     1.45,
+     51.2,
+     1793.067,
+     null
+    ],
+    [
+     -16.9,
+     32.6,
+     1793.125,
+     null
+    ],
+    [
+     -25.0,
+     0.0,
+     1793.215,
+     null
+    ],
+    [
+     -20.0,
+     -30.0,
+     1793.286,
+     null
+    ],
+    [
+     18.4,
+     -34.5,
+     1793.355,
+     null
+    ],
+    [
+     60.0,
+     -15.0,
+     1793.453,
+     null
+    ],
+    [
+     80.29,
+     13.08,
+     1793.536,
+     null
+    ],
+    [
+     95.0,
+     6.0,
+     1793.607,
+     null
+    ],
+    [
+     103.8,
+     1.25,
+     1793.648,
+     null
+    ],
+    [
+     113.4,
+     23.1,
+     1793.733,
+     null
+    ],
+    [
+     113.4,
+     23.1,
+     1794.026,
+     null
+    ],
+    [
+     105.8,
+     -6.0,
+     1794.097,
+     null
+    ],
+    [
+     18.4,
+     -34.5,
+     1794.248,
+     null
+    ],
+    [
+     -5.72,
+     -15.93,
+     1794.314,
+     null
+    ],
+    [
+     -28.0,
+     38.0,
+     1794.426,
+     null
+    ],
+    [
+     0.5,
+     51.45,
+     1794.522,
+     null
+    ]
+   ],
+   "what": "Schematic 18-month trade voyage of a company ship: woollens, metals and silver out, Indian cotton cloth, tea, silk and porcelain home, sailing with the monsoons via Madras and Whampoa (Canton); dates are typical, not one dated voyage",
+   "w": "East Indiaman",
+   "src": [
+    "https://en.wikipedia.org/wiki/East_Indiaman",
+    "https://en.wikipedia.org/wiki/Canton_System"
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "n": "EIC Cape route to India",
+   "from": 1601,
+   "to": 1874,
+   "kind": "sea",
+   "path": [
+    [
+     0.5,
+     51.45
+    ],
+    [
+     1.45,
+     51.2
+    ],
+    [
+     -5.5,
+     49.8
+    ],
+    [
+     -12.0,
+     43.0
+    ],
+    [
+     -17.0,
+     32.5
+    ],
+    [
+     -24.0,
+     15.0
+    ],
+    [
+     -25.0,
+     0.0
+    ],
+    [
+     -28.0,
+     -18.0
+    ],
+    [
+     -15.0,
+     -33.0
+    ],
+    [
+     18.4,
+     -35.0
+    ],
+    [
+     32.0,
+     -35.0
+    ],
+    [
+     43.0,
+     -24.0
+    ],
+    [
+     50.0,
+     -10.0
+    ],
+    [
+     60.0,
+     5.0
+    ],
+    [
+     72.8,
+     18.9
+    ],
+    [
+     73.5,
+     10.0
+    ],
+    [
+     77.3,
+     7.5
+    ],
+    [
+     80.2,
+     5.9
+    ],
+    [
+     81.5,
+     8.5
+    ],
+    [
+     80.3,
+     13.1
+    ],
+    [
+     86.0,
+     19.0
+    ],
+    [
+     88.0,
+     21.6
+    ],
+    [
+     88.3,
+     22.55
+    ]
+   ],
+   "goods": [
+    "silver",
+    "woollens",
+    "cotton textiles",
+    "indigo",
+    "saltpetre",
+    "pepper"
+   ],
+   "d": "The East India Company's long haul around the Cape of Good Hope, using the wide Atlantic loop and the monsoons, until the company was dissolved in 1874",
+   "w": "East India Company",
+   "src": [
+    "https://en.wikipedia.org/wiki/East_India_Company",
+    "https://en.wikipedia.org/wiki/Cape_Route",
+    "https://en.wikipedia.org/wiki/East_Indiaman"
+   ]
+  },
+  {
+   "n": "Tea route Canton-London",
+   "from": 1715,
+   "to": 1869,
+   "kind": "sea",
+   "path": [
+    [
+     113.25,
+     23.1
+    ],
+    [
+     113.6,
+     22.1
+    ],
+    [
+     112.0,
+     12.0
+    ],
+    [
+     107.0,
+     3.0
+    ],
+    [
+     105.8,
+     -6.0
+    ],
+    [
+     90.0,
+     -15.0
+    ],
+    [
+     60.0,
+     -28.0
+    ],
+    [
+     18.5,
+     -35.0
+    ],
+    [
+     -5.7,
+     -15.9
+    ],
+    [
+     -14.4,
+     -7.9
+    ],
+    [
+     -28.0,
+     38.0
+    ],
+    [
+     -5.0,
+     49.8
+    ],
+    [
+     0.5,
+     51.45
+    ]
+   ],
+   "goods": [
+    "tea",
+    "silk",
+    "porcelain",
+    "silver (outbound)"
+   ],
+   "d": "Tea from Canton via the Sunda Strait and St Helena; by 1800 tea made up most of the EIC's China cargo and the clipper 'tea races' ended once steamers used Suez",
+   "w": "Tea clipper",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tea_clipper",
+    "https://en.wikipedia.org/wiki/Canton_System",
+    "https://en.wikipedia.org/wiki/Great_Tea_Race_of_1866"
+   ]
+  },
+  {
+   "n": "Opium route Calcutta-Canton",
+   "from": 1773,
+   "to": 1917,
+   "kind": "sea",
+   "path": [
+    [
+     88.3,
+     22.5
+    ],
+    [
+     88.0,
+     21.0
+    ],
+    [
+     92.0,
+     14.0
+    ],
+    [
+     95.0,
+     7.0
+    ],
+    [
+     100.3,
+     5.4
+    ],
+    [
+     102.2,
+     2.2
+    ],
+    [
+     103.8,
+     1.25
+    ],
+    [
+     107.0,
+     5.0
+    ],
+    [
+     112.0,
+     14.0
+    ],
+    [
+     113.78,
+     22.42
+    ],
+    [
+     113.25,
+     23.1
+    ]
+   ],
+   "goods": [
+    "opium",
+    "silver",
+    "raw cotton"
+   ],
+   "d": "Bengal opium (an EIC monopoly from 1773) sold at Calcutta to private 'country traders' and smuggled into China via Lintin; legalised in 1858, ended by agreement in 1917",
+   "w": "Opium trade",
+   "src": [
+    "https://en.wikipedia.org/wiki/Opium_trade",
+    "https://en.wikipedia.org/wiki/First_Opium_War"
+   ]
+  },
+  {
+   "n": "Liverpool-New York packet and emigrant route",
+   "from": 1818,
+   "to": 1900,
+   "kind": "sea",
+   "path": [
+    [
+     -2.99,
+     53.41
+    ],
+    [
+     -4.5,
+     53.6
+    ],
+    [
+     -5.8,
+     52.0
+    ],
+    [
+     -9.6,
+     51.3
+    ],
+    [
+     -20.0,
+     50.5
+    ],
+    [
+     -35.0,
+     47.5
+    ],
+    [
+     -50.0,
+     43.5
+    ],
+    [
+     -65.0,
+     41.5
+    ],
+    [
+     -74.0,
+     40.47
+    ],
+    [
+     -74.01,
+     40.7
+    ]
+   ],
+   "goods": [
+    "emigrants",
+    "mail",
+    "raw cotton",
+    "manufactured goods",
+    "grain"
+   ],
+   "d": "From the Black Ball Line's first scheduled sailing (1818) to the Cunard and White Star steamers, the main road for millions of British, Irish and European emigrants",
+   "w": "Black Ball Line",
+   "src": [
+    "https://en.wikipedia.org/wiki/Black_Ball_Line",
+    "https://en.wikipedia.org/wiki/Cunard_Line",
+    "https://en.wikipedia.org/wiki/Irish_emigration"
+   ]
+  },
+  {
+   "n": "P&O overland mail route to India",
+   "from": 1840,
+   "to": 1869,
+   "kind": "sea",
+   "path": [
+    [
+     -1.4,
+     50.9
+    ],
+    [
+     -5.5,
+     48.5
+    ],
+    [
+     -9.8,
+     43.0
+    ],
+    [
+     -9.5,
+     38.7
+    ],
+    [
+     -5.4,
+     36.0
+    ],
+    [
+     5.0,
+     37.5
+    ],
+    [
+     14.5,
+     35.9
+    ],
+    [
+     29.9,
+     31.2
+    ],
+    [
+     31.24,
+     30.05
+    ],
+    [
+     32.55,
+     29.97
+    ],
+    [
+     34.5,
+     26.5
+    ],
+    [
+     38.5,
+     20.0
+    ],
+    [
+     42.5,
+     14.0
+    ],
+    [
+     43.4,
+     12.6
+    ],
+    [
+     45.0,
+     12.78
+    ],
+    [
+     60.0,
+     10.0
+    ],
+    [
+     80.2,
+     6.0
+    ],
+    [
+     81.5,
+     8.5
+    ],
+    [
+     80.3,
+     13.1
+    ],
+    [
+     88.3,
+     22.55
+    ]
+   ],
+   "goods": [
+    "mail",
+    "passengers",
+    "bullion"
+   ],
+   "d": "P&O steamers to Alexandria, overland by Nile boat and carriage to Suez, then steamers via Aden and Galle to India (overland section across Egypt)",
+   "w": "P&O (company)",
+   "src": [
+    "https://en.wikipedia.org/wiki/P&O_(company)",
+    "https://en.wikipedia.org/wiki/Overland_route"
+   ]
+  },
+  {
+   "n": "Suez route London-Bombay",
+   "from": 1869,
+   "to": 1956,
+   "kind": "sea",
+   "path": [
+    [
+     0.5,
+     51.45
+    ],
+    [
+     -5.5,
+     48.5
+    ],
+    [
+     -9.8,
+     43.0
+    ],
+    [
+     -5.4,
+     36.0
+    ],
+    [
+     5.0,
+     37.5
+    ],
+    [
+     14.5,
+     35.9
+    ],
+    [
+     25.0,
+     33.5
+    ],
+    [
+     32.3,
+     31.27
+    ],
+    [
+     32.55,
+     29.95
+    ],
+    [
+     34.5,
+     26.5
+    ],
+    [
+     38.5,
+     20.0
+    ],
+    [
+     42.5,
+     14.0
+    ],
+    [
+     43.4,
+     12.6
+    ],
+    [
+     45.0,
+     12.78
+    ],
+    [
+     55.0,
+     14.5
+    ],
+    [
+     65.0,
+     17.0
+    ],
+    [
+     72.8,
+     18.95
+    ]
+   ],
+   "goods": [
+    "mail",
+    "passengers",
+    "troops",
+    "cotton",
+    "jute",
+    "tea",
+    "manufactured goods"
+   ],
+   "d": "After the Suez Canal opened on 17 November 1869 the sea road to India was about 40% shorter; it became the empire's 'lifeline' until the 1956 Suez crisis",
+   "w": "Suez Canal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suez_Canal",
+    "https://en.wikipedia.org/wiki/Suez_Crisis"
+   ]
+  },
+  {
+   "n": "Coaling stations chain to the Far East",
+   "from": 1869,
+   "to": 1914,
+   "kind": "sea",
+   "path": [
+    [
+     -5.35,
+     36.13
+    ],
+    [
+     5.0,
+     37.5
+    ],
+    [
+     14.51,
+     35.9
+    ],
+    [
+     25.0,
+     33.5
+    ],
+    [
+     32.3,
+     31.27
+    ],
+    [
+     32.55,
+     29.95
+    ],
+    [
+     38.5,
+     20.0
+    ],
+    [
+     43.4,
+     12.6
+    ],
+    [
+     45.0,
+     12.78
+    ],
+    [
+     60.0,
+     10.0
+    ],
+    [
+     79.85,
+     6.93
+    ],
+    [
+     92.0,
+     6.5
+    ],
+    [
+     98.0,
+     4.5
+    ],
+    [
+     103.85,
+     1.29
+    ],
+    [
+     108.0,
+     8.0
+    ],
+    [
+     114.16,
+     22.28
+    ]
+   ],
+   "goods": [
+    "Welsh steam coal",
+    "mail",
+    "naval fuel"
+   ],
+   "d": "British-held coaling ports at Gibraltar, Malta, Port Said, Aden, Colombo, Singapore and Hong Kong let steamships and warships cross half the world under the British flag",
+   "w": "Coaling station",
+   "src": [
+    "https://en.wikipedia.org/wiki/Coaling_station"
+   ]
+  }
+ ]
+}

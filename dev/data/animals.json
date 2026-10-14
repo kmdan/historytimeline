@@ -1,0 +1,1915 @@
+{
+ "animals": [
+  {
+   "n": "Dog",
+   "sci": "Canis familiaris (C. lupus familiaris)",
+   "wild": "Grey wolf (Canis lupus), a Late Pleistocene wolf population that is now extinct",
+   "wild_look": "Pack-living hunters of the Ice Age steppe-tundra, larger and stronger-jawed than most dogs; they followed the same big game as human hunters.",
+   "changes": "Smaller teeth and skull, shorter snout, tameness and a long puppy-like phase; later starch digestion (more AMY2B copies) and hundreds of shapes and coats.",
+   "centre": "Northern Eurasia, exact place unknown; Siberia proposed (Perri et al. 2021), Europe and East Asia also argued (debated)",
+   "lat": 56.0,
+   "lon": 100.0,
+   "cult": -21000,
+   "dom": -12200,
+   "spread": [
+    {
+     "place": "Ain Mallaha, Levant",
+     "lat": 33.09,
+     "lon": 35.57,
+     "y": -10000,
+     "note": "Natufian burial of a woman with a puppy, c. 12,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "Lawyer's Cave, SE Alaska",
+     "lat": 56.4,
+     "lon": -132.3,
+     "y": -8150,
+     "note": "Oldest dated dog remains in North America, c. 10,150 years ago; dogs probably came with the first Americans (debated)",
+     "approx": true
+    },
+    {
+     "place": "Zhokhov Island, Arctic Siberia",
+     "lat": 76.15,
+     "lon": 152.7,
+     "y": -7500,
+     "note": "Sled dogs bred for hauling c. 9,500 years ago",
+     "approx": true
+    },
+    {
+     "place": "Madura Cave, Australia",
+     "lat": -31.9,
+     "lon": 127.0,
+     "y": -1250,
+     "note": "Oldest dingo remains, c. 3,300–3,100 years ago; dingoes came by sea from Southeast Asia",
+     "approx": true
+    },
+    {
+     "place": "Greenland",
+     "lat": 69.2,
+     "lon": -51.1,
+     "y": 1170,
+     "note": "Greenland sled dogs arrive with the Inuit c. 850 years ago and stay isolated since",
+     "approx": true
+    }
+   ],
+   "today": "Some 700 million to 1 billion dogs live worldwide, most of them free-ranging village and street dogs.",
+   "fact": "The dog was domesticated by Ice Age hunter-gatherers, thousands of years before anyone farmed a plant or herded a sheep.",
+   "img": [
+    {
+     "file": "File:George Stubbs - The Pointer - WGA21950.jpg",
+     "lic": "Public domain",
+     "artist": "George Stubbs",
+     "shows": "A pointer in a landscape, painting by George Stubbs (domestic)"
+    },
+    {
+     "file": "File:Dogs, jackals, wolves, and foxes (Plate I).png",
+     "lic": "Public domain",
+     "artist": "J. G. Keulemans (in St. George Mivart, 1890)",
+     "shows": "Wild grey wolf, colour plate by J. G. Keulemans in Mivart's monograph (1890)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Origin_of_the_domestic_dog",
+    "https://en.wikipedia.org/wiki/Dog",
+    "https://en.wikipedia.org/wiki/Bonn%E2%80%93Oberkassel_dog",
+    "https://doi.org/10.1073/pnas.2010083118",
+    "https://doi.org/10.1126/science.aba9572",
+    "https://en.wikipedia.org/wiki/Ain_Mallaha",
+    "https://en.wikipedia.org/wiki/Dingo",
+    "https://en.wikipedia.org/wiki/Zhokhov_Island"
+   ],
+   "cult_note": "Genetic estimates: dog lineage split from wolves 20,000–40,000 years ago; Perri et al. 2021 place domestication in Siberia c. 23,000 years ago. Older 'Palaeolithic dogs' (Goyet, Razboinichya, up to 36,000 years) are disputed. Debated.",
+   "dom_note": "Bonn–Oberkassel dog, buried with two humans c. 14,200 years ago, is the earliest widely accepted dog (Erralla, Spain, c. 17,500 years has also been proposed)."
+  },
+  {
+   "n": "Sheep",
+   "sci": "Ovis aries",
+   "wild": "Asiatic mouflon (Ovis gmelini, syn. O. orientalis)",
+   "wild_look": "Short-haired, reddish-brown wild sheep of the rocky hills of Anatolia and Iran; rams carry heavy curled horns, and the coat is hair with only a short woolly undercoat that moults.",
+   "changes": "Smaller body and horns (many ewes hornless), floppy ears and long tails, white and spotted coats, and a fleece of continuously growing wool that must be shorn.",
+   "centre": "Upper Euphrates–Tigris and Zagros foothills (SE Turkey, N Iraq, W Iran)",
+   "lat": 37.5,
+   "lon": 41.0,
+   "cult": -9000,
+   "dom": -8500,
+   "spread": [
+    {
+     "place": "Cyprus",
+     "lat": 34.73,
+     "lon": 33.35,
+     "y": -8600,
+     "note": "Sheep, goats, dogs and probably cattle and pigs shipped to Cyprus by the first farmers, c. 8800–8600 BCE",
+     "approx": true
+    },
+    {
+     "place": "Mehrgarh, Pakistan",
+     "lat": 29.38,
+     "lon": 67.62,
+     "y": -7000,
+     "note": "Sheep reach the Indus borderlands c. 7000 BCE (Mehrgarh dating debated; newer dates c. 5250 BCE)",
+     "approx": true
+    },
+    {
+     "place": "Thessaly, Greece",
+     "lat": 39.5,
+     "lon": 22.4,
+     "y": -6500,
+     "note": "Farmers bring sheep and goats into Europe",
+     "approx": true
+    },
+    {
+     "place": "Iran",
+     "lat": 33.0,
+     "lon": 52.0,
+     "y": -6000,
+     "note": "Figurines suggest selection for woolly sheep; woven wool garments by c. 4000 BCE",
+     "approx": true
+    },
+    {
+     "place": "Gansu, NW China",
+     "lat": 36.0,
+     "lon": 103.8,
+     "y": -2800,
+     "note": "Sheep reach northern China c. 5,000–4,500 years ago, probably via the Hexi Corridor",
+     "approx": true
+    },
+    {
+     "place": "Sydney, Australia",
+     "lat": -33.86,
+     "lon": 151.21,
+     "y": 1788,
+     "note": "Sheep arrive with the First Fleet; Australia later becomes the world's wool giant",
+     "approx": false
+    }
+   ],
+   "today": "About 540 million sheep are slaughtered for meat each year; the living flock is about 1.2 billion (2019).",
+   "fact": "Early sheep were kept for meat, milk and hides; the woolly fleece only appeared thousands of years after domestication.",
+   "img": [
+    {
+     "file": "File:Rosa Bonheur - Sheep by the Sea (1865).jpg",
+     "lic": "Public domain",
+     "artist": "Rosa Bonheur",
+     "shows": "Sheep by the sea, painting by Rosa Bonheur, 1865 (domestic)"
+    },
+    {
+     "file": "File:Cyprus mouflon (Ovis gmelini ophion).jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Charles J. Sharp",
+     "shows": "Cyprus mouflon ram, a subspecies of the wild Asiatic mouflon (it descends from early sheep taken to Cyprus and went wild)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Sheep",
+    "https://en.wikipedia.org/wiki/Domestication_of_animals",
+    "https://en.wikipedia.org/wiki/Mouflon",
+    "https://doi.org/10.1073/pnas.1323926111",
+    "https://en.wikipedia.org/wiki/Prehistoric_Cyprus",
+    "https://en.wikipedia.org/wiki/Mehrgarh",
+    "https://en.wikipedia.org/wiki/Neolithic_Greece",
+    "https://en.wikipedia.org/wiki/Majiayao_culture",
+    "https://en.wikipedia.org/wiki/First_Fleet",
+    "https://en.wikipedia.org/wiki/Wool_industry_in_Australia"
+   ],
+   "cult_note": "Kill-off patterns (young males culled) in SE Anatolia and the Zagros c. 9000–8500 BCE; Wikipedia gives 11,000–9000 BC for domestication in Mesopotamia.",
+   "dom_note": "Larson et al. 2014: domestic sheep c. 10,500 years ago (c. 8500 BCE)."
+  },
+  {
+   "n": "Goat",
+   "sci": "Capra hircus",
+   "wild": "Bezoar ibex (Capra aegagrus), the wild goat",
+   "wild_look": "Agile wild goat of the cliffs of the Zagros, Taurus and Caucasus; bucks have long scimitar-shaped horns and a dark beard and shoulder stripe.",
+   "changes": "Smaller, with twisted or shorter horns, floppy ears and all colours; bred for milk, meat, hair (cashmere, mohair) and hardiness.",
+   "centre": "Zagros Mountains, western Iran (Ganj Dareh); probably several sources in the Fertile Crescent",
+   "lat": 34.35,
+   "lon": 47.47,
+   "cult": -8000,
+   "dom": -7500,
+   "spread": [
+    {
+     "place": "Mehrgarh, Pakistan",
+     "lat": 29.38,
+     "lon": 67.62,
+     "y": -7000,
+     "note": "Goats, sheep and cattle herded at Mehrgarh (dating debated: c. 7000 or c. 5250 BCE)",
+     "approx": true
+    },
+    {
+     "place": "Thessaly, Greece",
+     "lat": 39.5,
+     "lon": 22.4,
+     "y": -6500,
+     "note": "Goats enter Europe with the first farmers",
+     "approx": true
+    },
+    {
+     "place": "Nile valley, Egypt",
+     "lat": 30.3,
+     "lon": 31.0,
+     "y": -6000,
+     "note": "Goats and sheep from the Levant reach Egypt c. 6000 BCE, probably via Sinai",
+     "approx": true
+    },
+    {
+     "place": "Lake Turkana, Kenya",
+     "lat": 3.5,
+     "lon": 36.0,
+     "y": -3000,
+     "note": "Herders bring goats, sheep and cattle into East Africa",
+     "approx": true
+    },
+    {
+     "place": "Spanish Americas",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1500,
+     "note": "Spanish conquistadors bring goats to the Americas in the 16th century",
+     "approx": true
+    }
+   ],
+   "today": "About 1.18 billion goats lived worldwide in 2024, most in India, China and Nigeria.",
+   "fact": "At Ganj Dareh the herd profile shows that people culled young males 10,000 years ago, while the bones still looked fully wild.",
+   "img": [
+    {
+     "file": "File:10.36 Ziegenherde am Tell.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Gerhard Haubold",
+     "shows": "Goat herd grazing beside an ancient settlement mound (tell) in the Near East (domestic)"
+    },
+    {
+     "file": "File:Wild Goat, Zagros, Behbahan.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Photogir",
+     "shows": "Wild bezoar goat in the Zagros Mountains, Iran"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Goat",
+    "https://en.wikipedia.org/wiki/Wild_goat",
+    "https://doi.org/10.1126/science.287.5461.2254",
+    "https://doi.org/10.1126/science.aas9411",
+    "https://en.wikipedia.org/wiki/Mehrgarh",
+    "https://en.wikipedia.org/wiki/Neolithic_Greece",
+    "https://en.wikipedia.org/wiki/Faiyum_A_culture",
+    "https://en.wikipedia.org/wiki/Pastoral_Neolithic",
+    "https://en.wikipedia.org/wiki/Spanish_goat"
+   ],
+   "cult_note": "Zeder & Hesse 2000: managed goat herds (young-male cull) at Ganj Dareh c. 10,000 years ago.",
+   "dom_note": "Size reduction and domestic goats at Jericho, Çayönü and others c. 8,000–9,000 years ago; aDNA shows several wild source populations (Daly et al. 2018)."
+  },
+  {
+   "n": "Pig",
+   "sci": "Sus domesticus (S. scrofa domesticus)",
+   "wild": "Wild boar (Sus scrofa)",
+   "wild_look": "Bristly dark forest pig with a long snout, tusks and striped piglets; lives in family groups and roots for food in woods and marshes.",
+   "changes": "Shorter snout and legs, curly tails, floppy ears, pink or spotted skin, fast growth and big litters; behaviour calmer around people.",
+   "centre": "Upper Tigris, SE Turkey (Çayönü); a second, independent centre in China",
+   "lat": 38.22,
+   "lon": 39.73,
+   "cult": -9400,
+   "dom": -8500,
+   "spread": [
+    {
+     "place": "Yellow River, China",
+     "lat": 33.6,
+     "lon": 113.67,
+     "y": -6000,
+     "note": "Pigs domesticated independently from East Asian wild boar c. 8,000 years ago (second centre)",
+     "approx": true
+    },
+    {
+     "place": "Balkans and Greece",
+     "lat": 40.6,
+     "lon": 22.9,
+     "y": -6500,
+     "note": "Near Eastern pigs reach Europe at least 8,500 years ago, then mix with local wild boar",
+     "approx": true
+    },
+    {
+     "place": "Island Southeast Asia",
+     "lat": 15.0,
+     "lon": 121.0,
+     "y": -2000,
+     "note": "Austronesian seafarers carry pigs, chickens and dogs into the Pacific",
+     "approx": true
+    },
+    {
+     "place": "Hawaii",
+     "lat": 20.8,
+     "lon": -156.3,
+     "y": 1000,
+     "note": "Polynesians bring pigs to Hawaii",
+     "approx": true
+    },
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1493,
+     "note": "Columbus's second voyage lands pigs in the Americas",
+     "approx": false
+    }
+   ],
+   "today": "About 1 billion domestic pigs live today; China produces nearly half of the world’s pork.",
+   "fact": "European pigs kept their domestic looks but today carry less than 5% Near Eastern DNA, because they interbred with local wild boar for 3,000 years.",
+   "img": [
+    {
+     "file": "File:Paulus Potter - A Landscape with a Herd of Pigs, The Swineherd Conversing with Another Man - 2017.48 - Minneapolis Institute of Art.jpg",
+     "lic": "Public domain",
+     "artist": "Paulus Potter",
+     "shows": "Herd of pigs with swineherds in a landscape, painting by Paulus Potter (domestic)"
+    },
+    {
+     "file": "File:Wild Boar Habbitat 2.jpg",
+     "lic": "CC BY-SA 2.5",
+     "artist": "Richard Bartz, Munich Makro Freak",
+     "shows": "Wild boar in its forest habitat"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_pig",
+    "https://en.wikipedia.org/wiki/Wild_boar",
+    "https://doi.org/10.1126/science.aav1002",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples",
+    "https://en.wikipedia.org/wiki/Settlement_of_Hawaii",
+    "https://en.wikipedia.org/wiki/Feral_pig"
+   ],
+   "cult_note": "Wild boar shipped to Cyprus more than 11,400 years ago, implying management on the mainland (Vigne et al.).",
+   "dom_note": "Larson et al. 2014: domestic pigs c. 10,500 years ago in SW Asia (Çayönü); China c. 8,000 years ago."
+  },
+  {
+   "n": "Taurine cattle",
+   "sci": "Bos taurus",
+   "wild": "Aurochs (Bos primigenius), extinct since 1627",
+   "wild_look": "Huge wild ox, bulls up to 1.8 m at the shoulder, black with a pale back stripe and long forward-curving horns; lived in open woods and river valleys across Eurasia and North Africa.",
+   "changes": "Much smaller and calmer, many coat colours, smaller horns (or none); later bred for milk, meat and pulling ploughs and carts.",
+   "centre": "Upper Euphrates and Tigris valleys (N Syria, SE Turkey; Dja'de, Çayönü)",
+   "lat": 36.6,
+   "lon": 38.3,
+   "cult": -8800,
+   "dom": -8300,
+   "spread": [
+    {
+     "place": "Cyprus",
+     "lat": 34.73,
+     "lon": 33.35,
+     "y": -8200,
+     "note": "Early farmers ship cattle to Cyprus by boat (Shillourokambos); they die out there in the 8th millennium BCE",
+     "approx": true
+    },
+    {
+     "place": "Thessaly, Greece",
+     "lat": 39.5,
+     "lon": 22.4,
+     "y": -6500,
+     "note": "Cattle enter Europe with the first farmers",
+     "approx": true
+    },
+    {
+     "place": "Central Europe (LBK)",
+     "lat": 49.5,
+     "lon": 10.0,
+     "y": -5500,
+     "note": "Linear Pottery farmers keep cattle across central Europe",
+     "approx": true
+    },
+    {
+     "place": "Eastern Sahara",
+     "lat": 22.5,
+     "lon": 30.7,
+     "y": -5500,
+     "note": "Cattle herders in a green Sahara; claims of a separate African domestication c. 8000 BCE (Nabta Playa) are debated",
+     "approx": true
+    },
+    {
+     "place": "Britain",
+     "lat": 52.5,
+     "lon": -1.5,
+     "y": -4000,
+     "note": "Cattle arrive with Neolithic farmers",
+     "approx": true
+    },
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1493,
+     "note": "Columbus's second voyage brings cattle to the Americas",
+     "approx": false
+    }
+   ],
+   "today": "Over 940 million cattle were counted in 2022 (taurine and zebu together).",
+   "fact": "All taurine cattle may descend from only about 80 wild aurochs cows captured in the Near East.",
+   "img": [
+    {
+     "file": "File:Paulus Potter - Der Stier - 1649.jpeg",
+     "lic": "Public domain",
+     "artist": "Paulus Potter",
+     "shows": "The Young Bull, painting by Paulus Potter (domestic)"
+    },
+    {
+     "file": "File:Long horned european wild ox.jpg",
+     "lic": "Public domain",
+     "artist": "Heinrich Harder (1858-1935)",
+     "shows": "Wild aurochs, painting by Heinrich Harder (c. 1920)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Cattle",
+    "https://en.wikipedia.org/wiki/Aurochs",
+    "https://doi.org/10.1093/molbev/mss092",
+    "https://en.wikipedia.org/wiki/Prehistoric_Cyprus",
+    "https://en.wikipedia.org/wiki/Neolithic_Greece",
+    "https://en.wikipedia.org/wiki/Linear_Pottery_culture",
+    "https://en.wikipedia.org/wiki/Nabta_Playa",
+    "https://en.wikipedia.org/wiki/Neolithic_British_Isles",
+    "https://en.wikipedia.org/wiki/Texas_Longhorn"
+   ],
+   "cult_note": "Size change and management of aurochs at Dja'de el-Mughara and Çayönü c. 8800–8300 BCE (Helmer et al.).",
+   "dom_note": "Wikipedia: taurine cattle domesticated c. 10,500 years ago in Anatolia, the Levant and W Iran; Bollongino et al. 2012: c. 80 founding cows."
+  },
+  {
+   "n": "Zebu (humped cattle)",
+   "sci": "Bos indicus (B. taurus indicus)",
+   "wild": "Indian aurochs (Bos primigenius namadicus), extinct",
+   "wild_look": "South Asian form of the aurochs, a huge wild ox of the Indian plains; its last remains date to about 3,800 years ago.",
+   "changes": "Shoulder hump, big dewlap and drooping ears, loose skin; tolerant of heat, drought and ticks.",
+   "centre": "Mehrgarh, Baluchistan (Pakistan)",
+   "lat": 29.38,
+   "lon": 67.62,
+   "cult": -7000,
+   "dom": -6000,
+   "spread": [
+    {
+     "place": "Indus valley",
+     "lat": 27.3,
+     "lon": 68.1,
+     "y": -2500,
+     "note": "Humped bulls on Harappan seals",
+     "approx": true
+    },
+    {
+     "place": "Mesopotamia and Levant",
+     "lat": 33.0,
+     "lon": 44.0,
+     "y": -2200,
+     "note": "Zebu bulls spread west and mix with taurine cattle during the 4.2-ka drought (Verdugo et al. 2019)",
+     "approx": true
+    },
+    {
+     "place": "Horn of Africa",
+     "lat": 9.0,
+     "lon": 40.0,
+     "y": 1000,
+     "note": "Zebu reaches the Horn c. 1000 CE and the rest of sub-Saharan Africa after 700 CE (Zebu article); arrival in East Africa 3,500–2,500 years ago is also proposed (debated)",
+     "approx": true
+    },
+    {
+     "place": "Brazil",
+     "lat": -15.8,
+     "lon": -47.9,
+     "y": 1870,
+     "note": "Indian zebu breeds imported; Nelore type now dominates Brazilian beef",
+     "approx": true
+    }
+   ],
+   "today": "Zebu and zebu-cross cattle make up most of the herds of India, Africa and tropical South America; India alone had 65.7 million draft cattle in 1998.",
+   "fact": "More than 80% of Brazil’s beef cattle are Nelore or Nelore crosses, descended from Ongole cattle of southern India.",
+   "img": [
+    {
+     "file": "File:Zébus de Madagascar 02.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Bernard Gagnon",
+     "shows": "Zebu cattle at a market in Madagascar (domestic)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Zebu",
+    "https://doi.org/10.1126/science.aay6826",
+    "https://doi.org/10.1073/pnas.1323926111",
+    "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+    "https://en.wikipedia.org/wiki/Aurochs",
+    "https://en.wikipedia.org/wiki/Nelore"
+   ],
+   "cult_note": "Cattle bones at Mehrgarh from the 7th millennium BCE; size decrease of local cattle (Meadow).",
+   "dom_note": "Larson et al. 2014: zebu c. 8,000 years ago; Wikipedia Zebu gives 6,000–7,000 years ago at Mehrgarh (estimates differ)."
+  },
+  {
+   "n": "Water buffalo",
+   "sci": "Bubalus bubalis",
+   "wild": "Wild water buffalo (Bubalus arnee)",
+   "wild_look": "Massive grey-black wild ox of swamps and river floodplains of India and Southeast Asia, with very wide sweeping horns; spends hot hours wallowing in mud.",
+   "changes": "Calmer and smaller-horned; two types: river buffalo (India, bred for milk) and swamp buffalo (SE Asia, ploughing paddies), domesticated separately.",
+   "centre": "River buffalo: western India; swamp buffalo: mainland Southeast Asia (separate domestication)",
+   "lat": 22.5,
+   "lon": 72.0,
+   "cult": -4300,
+   "dom": -2500,
+   "spread": [
+    {
+     "place": "Mesopotamia (Akkad)",
+     "lat": 32.5,
+     "lon": 44.4,
+     "y": -2250,
+     "note": "Water buffalo shown on Akkadian cylinder seals, brought from the Indus",
+     "approx": true
+    },
+    {
+     "place": "Mainland Southeast Asia",
+     "lat": 14.8,
+     "lon": 100.6,
+     "y": -2300,
+     "note": "Swamp buffalo in mainland Southeast Asia, domesticated separately 3,000–7,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "Northern Philippines",
+     "lat": 18.3,
+     "lon": 121.6,
+     "y": -500,
+     "note": "Butchered domestic buffalo at Nagsabaran, at least 2,500 years ago",
+     "approx": true
+    },
+    {
+     "place": "Southern Italy",
+     "lat": 40.5,
+     "lon": 15.0,
+     "y": 800,
+     "note": "River buffalo reach southern Italy in the early Middle Ages (perhaps via Arab Sicily; origin debated); buffalo-milk cheeses recorded from the 12th century",
+     "approx": true
+    }
+   ],
+   "today": "About 208 million water buffalo live in 77 countries and give 72 million tonnes of milk a year.",
+   "fact": "River and swamp buffalo have different numbers of chromosomes (50 and 48); they do not readily interbreed, yet their hybrids can be fertile.",
+   "img": [
+    {
+     "file": "File:Child and ox ploughing, Laos (1).jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Paulrudd",
+     "shows": "Child ploughing with a swamp buffalo in Laos (domestic)"
+    },
+    {
+     "file": "File:Wild water buffalo at Koshi Tappu Wildlife Reserve.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Aditya Pal",
+     "shows": "Wild water buffalo at Koshi Tappu, Nepal"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Water_buffalo",
+    "https://en.wikipedia.org/wiki/Wild_water_buffalo",
+    "https://en.wikipedia.org/wiki/Mozzarella_di_bufala_campana"
+   ],
+   "cult_note": "Phylogenetic estimate: river buffalo domesticated in western India c. 6,300 years ago (c. 4300 BCE); genetic, not archaeological.",
+   "dom_note": "Water buffalo on Indus (Harappan) seals c. 2500 BCE; swamp buffalo separately in SE Asia."
+  },
+  {
+   "n": "Cat",
+   "sci": "Felis catus",
+   "wild": "African wildcat (Felis lybica), Near Eastern and North African form",
+   "wild_look": "Sandy-grey, faintly striped wildcat with long legs and a ringed tail; a solitary hunter of rodents in dry scrub and around villages.",
+   "changes": "Hardly changed in body: tamer, smaller brain, more coat colours and patterns (tabby blotches, white, ginger); they largely domesticated themselves by hunting mice in grain stores.",
+   "centre": "Near East / Fertile Crescent, later Egypt",
+   "lat": 35.5,
+   "lon": 38.5,
+   "cult": -7500,
+   "dom": -1950,
+   "spread": [
+    {
+     "place": "Beni Hasan, Egypt",
+     "lat": 27.93,
+     "lon": 30.88,
+     "y": -2050,
+     "note": "A tomb painting of Baqet III (11th Dynasty) shows a cat facing a rodent; Egypt’s cats later spread around the Mediterranean",
+     "approx": true
+    },
+    {
+     "place": "Greece",
+     "lat": 37.98,
+     "lon": 23.73,
+     "y": -1200,
+     "note": "Earliest domestic cat in Greece c. 1200 BCE",
+     "approx": true
+    },
+    {
+     "place": "Roman Europe",
+     "lat": 41.9,
+     "lon": 12.5,
+     "y": 1,
+     "note": "Domestic cats spread through Europe with Roman trade, c. 2,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "Baltic coast, N Germany",
+     "lat": 54.3,
+     "lon": 10.1,
+     "y": 450,
+     "note": "Egyptian cat lineage reaches a Baltic port by the end of the Western Roman Empire",
+     "approx": true
+    },
+    {
+     "place": "China",
+     "lat": 34.3,
+     "lon": 108.9,
+     "y": 730,
+     "note": "Domestic cats reach China along the Silk Roads (earlier Chinese 'cats' were tamed leopard cats)",
+     "approx": true
+    }
+   ],
+   "today": "An estimated 600 million domestic cats live worldwide, 400 million of them in Asia.",
+   "fact": "A cat buried beside a person at Shillourokambos, Cyprus, c. 7500 BCE must have been brought by boat, because Cyprus had no wildcats.",
+   "img": [
+    {
+     "file": "File:Felis Lybica Sarda 05.JPG",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Gurtuju",
+     "shows": "Wild African wildcat (Sardinian population) in Mediterranean scrub"
+    },
+    {
+     "file": "File:Cat November 2010-1a.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Alvesgaspar",
+     "shows": "Domestic cat"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Cat",
+    "https://en.wikipedia.org/wiki/African_wildcat",
+    "https://doi.org/10.1038/s41559-017-0139",
+    "https://en.wikipedia.org/wiki/Cats_in_ancient_Egypt",
+    "https://en.wikipedia.org/wiki/Domestication_of_the_cat"
+   ],
+   "cult_note": "Shillourokambos, Cyprus, c. 7500–7200 BCE: wildcat buried near a human grave (taming, not necessarily domestication). Debated.",
+   "dom_note": "Cats in Egyptian Middle Kingdom art c. 1950 BCE; Ottoni et al. 2017 aDNA: Near Eastern and Egyptian lineages. When cats became fully domestic is debated."
+  },
+  {
+   "n": "Chicken",
+   "sci": "Gallus gallus domesticus",
+   "wild": "Red junglefowl (Gallus gallus), mainly the subspecies G. g. spadiceus",
+   "wild_look": "Shy, slender forest-edge bird of Southeast Asia; cocks have red combs, golden hackles and green-black tails, hens are brown; flies well.",
+   "changes": "Larger and heavier, lays eggs all year (a junglefowl hen lays only a few clutches), many plumage colours, many no longer fly.",
+   "centre": "Mainland Southeast Asia (central Thailand; Ban Non Wat)",
+   "lat": 15.27,
+   "lon": 102.29,
+   "cult": -1650,
+   "dom": -1650,
+   "spread": [
+    {
+     "place": "Mediterranean (Etruria, Greece)",
+     "lat": 41.0,
+     "lon": 13.0,
+     "y": -800,
+     "note": "Chickens reach the Mediterranean c. 800 BCE, first as exotic birds",
+     "approx": true
+    },
+    {
+     "place": "Teouma, Vanuatu",
+     "lat": -17.73,
+     "lon": 168.4,
+     "y": -1000,
+     "note": "Lapita seafarers carry chickens into Remote Oceania",
+     "approx": true
+    },
+    {
+     "place": "Hawaii",
+     "lat": 20.8,
+     "lon": -156.3,
+     "y": 1000,
+     "note": "Polynesians bring chickens to Hawaii",
+     "approx": true
+    },
+    {
+     "place": "Caribbean and Americas",
+     "lat": 18.5,
+     "lon": -69.9,
+     "y": 1500,
+     "note": "European ships bring chickens; pre-Columbian chickens in Chile are debated",
+     "approx": true
+    }
+   ],
+   "today": "About 74 billion chickens are slaughtered for meat every year, by far the most numerous farm animal.",
+   "fact": "For centuries after reaching Europe, chickens were kept for cockfighting and as sacred birds, not for eggs or meat.",
+   "img": [
+    {
+     "file": "File:Feeding the chickens, by Walter Frederick Osborne.jpg",
+     "lic": "Public domain",
+     "artist": "Walter Osborne",
+     "shows": "Feeding the chickens, painting by Walter Osborne (domestic)"
+    },
+    {
+     "file": "File:Red Junglefowl.jpg",
+     "lic": "CC BY 2.0",
+     "artist": "Jason Thompson",
+     "shows": "Wild red junglefowl cock at Kaeng Krachan, Thailand"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Chicken",
+    "https://en.wikipedia.org/wiki/Red_junglefowl",
+    "https://doi.org/10.1073/pnas.2121978119",
+    "https://doi.org/10.15184/aqy.2022.85",
+    "https://en.wikipedia.org/wiki/Lapita_culture",
+    "https://en.wikipedia.org/wiki/Settlement_of_Hawaii",
+    "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "https://en.wikipedia.org/wiki/Domestic_duck"
+   ],
+   "cult_note": "Peters et al. 2022 (PNAS): earliest probable chicken bones at Ban Non Wat, central Thailand, c. 1650–1250 BCE, tied to rice and millet farming.",
+   "dom_note": "Same evidence; genomic estimates (up to 8,000 years ago) and older claims from China are debated."
+  },
+  {
+   "n": "Horse",
+   "sci": "Equus caballus (E. ferus caballus)",
+   "wild": "Wild horse (Equus ferus) of the western Eurasian steppe; the European tarpan survived to the 19th century",
+   "wild_look": "Stocky dun wild horse with a big head and upright mane, living in herds on the steppe and hunted by Ice Age people.",
+   "changes": "Calmer temperament and a stronger back for riding (genes GSDMC and ZFPM1 selected, Librado 2021); later all sizes, coat colours and gaits.",
+   "centre": "Lower Volga–Don, Pontic–Caspian steppe (aDNA: DOM2 lineage)",
+   "lat": 48.7,
+   "lon": 44.5,
+   "cult": -3500,
+   "dom": -2200,
+   "spread": [
+    {
+     "place": "Sintashta, S Urals",
+     "lat": 52.5,
+     "lon": 60.0,
+     "y": -2000,
+     "note": "Spoke-wheeled chariots and horse burials c. 2000 BCE",
+     "approx": true
+    },
+    {
+     "place": "Anatolia and Near East",
+     "lat": 38.0,
+     "lon": 35.0,
+     "y": -2000,
+     "note": "DOM2 horses spread across Eurasia within a few centuries, replacing other horses",
+     "approx": true
+    },
+    {
+     "place": "Egypt",
+     "lat": 30.8,
+     "lon": 31.8,
+     "y": -1650,
+     "note": "Horses and chariots arrive in the Hyksos period",
+     "approx": true
+    },
+    {
+     "place": "Anyang, China",
+     "lat": 36.1,
+     "lon": 114.3,
+     "y": -1200,
+     "note": "Shang-dynasty chariot burials",
+     "approx": true
+    },
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1493,
+     "note": "Columbus's second voyage brings horses back to the Americas, where native horses had died out c. 10,000 years earlier",
+     "approx": false
+    },
+    {
+     "place": "Sydney, Australia",
+     "lat": -33.86,
+     "lon": 151.21,
+     "y": 1788,
+     "note": "Horses arrive with the First Fleet",
+     "approx": false
+    }
+   ],
+   "today": "An estimated 100 million horses, donkeys and mules still work in agriculture and transport.",
+   "fact": "The famous Botai horses of Kazakhstan turned out to be ancestors of Przewalski's horses, not of today's domestic horses.",
+   "img": [
+    {
+     "file": "File:Rosa Bonheur, The Horse Fair, 1852–55.jpg",
+     "lic": "Public domain",
+     "artist": "Rosa Bonheur",
+     "shows": "The Horse Fair, painting by Rosa Bonheur, 1852–55 (domestic)"
+    },
+    {
+     "file": "File:Charles Hamilton Smith - The Tarpan Wild Horse Native to Russia - B1981.25.2215 - Yale Center for British Art.jpg",
+     "lic": "CC0",
+     "artist": "Charles Hamilton Smith",
+     "shows": "Wild tarpan horse of the Russian steppe, watercolour by Charles Hamilton Smith"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestication_of_the_horse",
+    "https://en.wikipedia.org/wiki/Horse",
+    "https://doi.org/10.1038/s41586-021-04018-9",
+    "https://doi.org/10.1126/science.aao3297",
+    "https://en.wikipedia.org/wiki/Hyksos",
+    "https://en.wikipedia.org/wiki/Chariot",
+    "https://en.wikipedia.org/wiki/Mustang",
+    "https://en.wikipedia.org/wiki/First_Fleet"
+   ],
+   "cult_note": "Botai culture, Kazakhstan, 3700–3500 BCE: possible bit wear and horse milk; aDNA (Gaunitz 2018) shows these horses fed into Przewalski's horses; management vs. domestication is debated.",
+   "dom_note": "Librado et al. 2021 (Nature): DOM2 horses arose in the Volga–Don region c. 2200 BCE and spread rapidly with chariots."
+  },
+  {
+   "n": "Donkey",
+   "sci": "Equus asinus (E. africanus asinus)",
+   "wild": "African wild ass (Equus africanus), Nubian and probably other now-lost populations",
+   "wild_look": "Grey desert ass with long ears, a dark shoulder cross and zebra-striped legs (Somali form); survives on little water in rocky deserts of NE Africa.",
+   "changes": "Calm, sure-footed pack and riding animal; varied size and colour; wild ass now critically endangered.",
+   "centre": "East Africa / Horn of Africa (genomics, Todd et al. 2022)",
+   "lat": 4.0,
+   "lon": 38.0,
+   "cult": -5000,
+   "dom": -3000,
+   "spread": [
+    {
+     "place": "Abydos, Egypt",
+     "lat": 26.18,
+     "lon": 31.92,
+     "y": -3000,
+     "note": "Ten donkeys buried beside an early pharaoh's tomb, with backs worn by loads",
+     "approx": true
+    },
+    {
+     "place": "Mesopotamia and Levant",
+     "lat": 33.0,
+     "lon": 40.0,
+     "y": -2600,
+     "note": "Donkeys carry loads across the Near East; kunga hybrids (donkey × Syrian wild ass) pull Sumerian war wagons, c. 2600–2000 BCE",
+     "approx": true
+    },
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1495,
+     "note": "First donkeys in the Americas, from Columbus's second voyage",
+     "approx": false
+    },
+    {
+     "place": "Australia",
+     "lat": -25.0,
+     "lon": 134.0,
+     "y": 1866,
+     "note": "Pack donkeys imported; up to 5 million feral donkeys today",
+     "approx": true
+    }
+   ],
+   "today": "Almost 54 million donkeys lived worldwide in 2024, most in Ethiopia and other African countries.",
+   "fact": "The donkey is the only major livestock animal domesticated in Africa from a wild animal of Africa (cattle there came from the Near East).",
+   "img": [
+    {
+     "file": "File:Paulus Potter - Spring Landscape with Donkeys and Goats 6688.jpg",
+     "lic": "Public domain",
+     "artist": "Paulus Potter",
+     "shows": "Donkeys and goats in a spring landscape, painting by Paulus Potter (domestic)"
+    },
+    {
+     "file": "File:Somali Wild Ass.JPG",
+     "lic": "CC BY-SA 2.5",
+     "artist": "Robert Lawton",
+     "shows": "Wild African wild ass (Somali form), St. Louis Zoo"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Donkey",
+    "https://en.wikipedia.org/wiki/African_wild_ass",
+    "https://doi.org/10.1126/science.abo3503",
+    "https://doi.org/10.1073/pnas.0712386105",
+    "https://en.wikipedia.org/wiki/Kunga_(equid)",
+    "https://en.wikipedia.org/wiki/Feral_donkeys_in_Australia"
+   ],
+   "cult_note": "Todd et al. 2022 (Science): genomes point to a single domestication in East Africa c. 5000 BCE (estimate).",
+   "dom_note": "Abydos donkey burials c. 3000 BCE (Rossel et al. 2008); Wikipedia: domesticated 5,000–7,000 years ago."
+  },
+  {
+   "n": "Dromedary (Arabian camel)",
+   "sci": "Camelus dromedarius",
+   "wild": "Wild dromedary, extinct (hunted in Arabia until c. 1000 BCE)",
+   "wild_look": "One-humped wild camel of the Arabian coasts and deserts, known only from bones and rock art; hunted for meat by Neolithic Arabians.",
+   "changes": "Tame load-carrier and milk animal able to cross deserts for weeks; still interbreeds little with other camels.",
+   "centre": "South-east Arabian Peninsula",
+   "lat": 23.0,
+   "lon": 56.0,
+   "cult": -3000,
+   "dom": -1100,
+   "spread": [
+    {
+     "place": "Timna, Aravah valley",
+     "lat": 29.78,
+     "lon": 34.98,
+     "y": -930,
+     "note": "Earliest domestic camels in the southern Levant, at copper mines c. 930 BCE",
+     "approx": true
+    },
+    {
+     "place": "Sahara",
+     "lat": 25.0,
+     "lon": 10.0,
+     "y": 250,
+     "note": "Dromedaries are in use south of the Sahara, in the Senegal valley, by the 3rd century CE; later they carry trans-Saharan trade",
+     "approx": true
+    },
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1020,
+     "note": "Dromedaries introduced to Spain",
+     "approx": false
+    },
+    {
+     "place": "Australia",
+     "lat": -25.0,
+     "lon": 134.0,
+     "y": 1840,
+     "note": "Dromedaries imported for desert exploration; today the world's largest feral herd",
+     "approx": true
+    }
+   ],
+   "today": "FAO counted about 10 million dromedaries in eastern Africa alone already in 1984; Somalia and Sudan hold the biggest herds.",
+   "fact": "The only wild dromedaries left are feral, mainly in Australia, descended from 19th-century imports.",
+   "img": [
+    {
+     "file": "File:Domestic Dromedary Merzouga.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Bjørn Christian Tørrissen",
+     "shows": "Domestic dromedary in the Sahara near Merzouga, Morocco"
+    },
+    {
+     "file": "File:Camel milking in Niger.jpg",
+     "lic": "CC BY-SA 2.0",
+     "artist": "ACEI Cheung (4Cheungs) from Flickr",
+     "shows": "Woman milking a dromedary in Niger (domestic)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Dromedary",
+    "https://doi.org/10.1073/pnas.1519508113",
+    "https://doi.org/10.1080/03344355.2013.11500083",
+    "https://en.wikipedia.org/wiki/Australian_feral_camel"
+   ],
+   "cult_note": "Wikipedia: first domesticated in southern Arabia c. 4000–3000 BC (early, wild-or-tame camel bones are hard to tell apart).",
+   "dom_note": "Almathen et al. 2016: domestic camels in SE Arabia by c. 3,000 years ago; clear domestic remains from the end of the 2nd millennium BCE (estimate)."
+  },
+  {
+   "n": "Bactrian camel",
+   "sci": "Camelus bactrianus",
+   "wild": "An extinct wild two-humped camel of Central Asia (the living wild Bactrian camel, C. ferus, is a separate species, not the ancestor)",
+   "wild_look": "Shaggy two-humped camel of cold Central Asian deserts and steppes, able to drink brackish water and survive harsh winters.",
+   "changes": "Tame pack and riding animal for the Silk Roads; thick moulting wool; larger and calmer than its wild relatives.",
+   "centre": "Central Asia, probably NE Iran / Turkmenistan",
+   "lat": 37.5,
+   "lon": 60.5,
+   "cult": -3000,
+   "dom": -2500,
+   "spread": [
+    {
+     "place": "Shahr-i Sokhta, Iran",
+     "lat": 30.6,
+     "lon": 61.3,
+     "y": -2500,
+     "note": "Early domestic Bactrian camels at the Bronze Age ‘Burnt City’, c. 2500 BCE",
+     "approx": true
+    },
+    {
+     "place": "Assyria",
+     "lat": 36.4,
+     "lon": 43.3,
+     "y": -825,
+     "note": "Assyrian kings receive Bactrian camels as tribute from Median lands; the camels spread to the Near East during the 2nd millennium BCE",
+     "approx": true
+    },
+    {
+     "place": "Mongolia and N China",
+     "lat": 44.0,
+     "lon": 105.0,
+     "y": -1200,
+     "note": "Camel saddles appear by c. 1200 BCE; Bactrian camels become riding and pack animals of the steppe",
+     "approx": true
+    },
+    {
+     "place": "Silk Roads (Dunhuang)",
+     "lat": 40.1,
+     "lon": 94.7,
+     "y": 100,
+     "note": "Caravans of Bactrian camels link China and the West",
+     "approx": true
+    }
+   ],
+   "today": "About 2 million Bactrian camels live, almost all domestic, across the cold deserts and steppes of Central Asia, Mongolia and China.",
+   "fact": "The truly wild Bactrian camel of the Gobi split from the domestic camel’s ancestors some 0.7–1.1 million years ago; only about 1,000 survive.",
+   "img": [
+    {
+     "file": "File:Camelus bactrianus in western Mongolia 01.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Alexandr frolov",
+     "shows": "Domestic Bactrian camels in western Mongolia"
+    },
+    {
+     "file": "File:Wild Bactrian camel on road east of Yarkand.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "John Hill",
+     "shows": "Bactrian camel near Yarkand, Xinjiang (described as wild; the wild species is a relative, not the ancestor)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Bactrian_camel",
+    "https://en.wikipedia.org/wiki/Wild_Bactrian_camel",
+    "https://en.wikipedia.org/wiki/Camel",
+    "https://en.wikipedia.org/wiki/Median_kingdom",
+    "https://en.wikipedia.org/wiki/Animals_in_the_Ancient_Near_East"
+   ],
+   "cult_note": "Estimate from Bronze Age Central Asian sites, c. 3000 BCE (approximate).",
+   "dom_note": "Wikipedia: Bactrian camel domesticated c. 2500 BCE."
+  },
+  {
+   "n": "Llama",
+   "sci": "Lama glama",
+   "wild": "Guanaco (Lama guanicoe)",
+   "wild_look": "Slender, reddish-brown wild camelid of Andean grasslands and Patagonian steppe, living in herds led by a territorial male.",
+   "changes": "Larger and stronger pack animal, many coat colours, coarse wool; carries 25–30 kg over mountain trails.",
+   "centre": "Central Andes puna, Peru (Junín; Telarmachay)",
+   "lat": -11.2,
+   "lon": -75.9,
+   "cult": -5000,
+   "dom": -4000,
+   "spread": [
+    {
+     "place": "Moche, north coast of Peru",
+     "lat": -8.1,
+     "lon": -79.0,
+     "y": 400,
+     "note": "The Moche bury llamas with important people and model them realistically in pottery",
+     "approx": true
+    },
+    {
+     "place": "Inca Empire",
+     "lat": -13.5,
+     "lon": -72.0,
+     "y": 1450,
+     "note": "Llamas are the only beasts of burden of the Inca Empire",
+     "approx": true
+    },
+    {
+     "place": "Potosí, Bolivia",
+     "lat": -19.6,
+     "lon": -65.75,
+     "y": 1550,
+     "note": "Up to 300,000 llamas haul produce from the Potosí mines (Spanish estimate)",
+     "approx": true
+    },
+    {
+     "place": "United States",
+     "lat": 39.0,
+     "lon": -105.0,
+     "y": 1890,
+     "note": "First llamas imported to the US as zoo animals in the late 1800s; herds grow from the late 20th century",
+     "approx": true
+    }
+   ],
+   "today": "Over 7 million llamas and alpacas lived in South America in 2007.",
+   "fact": "One scholar argues that Andean farming only became possible because llama dung was used as fertilizer (Chepstow-Lusty; debated).",
+   "img": [
+    {
+     "file": "File:Llamas, Laguna Milluni y Nevado Huayna Potosí (La Paz - Bolivia).jpg",
+     "lic": "CC BY 2.0",
+     "artist": "Christopher Walker from Krakow, Poland",
+     "shows": "Llamas below Huayna Potosí in the Bolivian Andes (domestic)"
+    },
+    {
+     "file": "File:Guanaco (Lama guanicoe) Leona Amarga.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Charles J. Sharp",
+     "shows": "Wild guanaco at Torres del Paine, Chile"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Llama",
+    "https://en.wikipedia.org/wiki/Alpaca",
+    "https://en.wikipedia.org/wiki/Guanaco",
+    "https://doi.org/10.1073/pnas.1323926111"
+   ],
+   "cult_note": "Shift from hunting to herding of camelids at Telarmachay and Junín c. 6,000–7,000 years ago (Wheeler).",
+   "dom_note": "Llama and alpaca domesticated at least 5,000–6,000 years ago (Wikipedia; Larson et al. 2014)."
+  },
+  {
+   "n": "Alpaca",
+   "sci": "Vicugna pacos",
+   "wild": "Vicuña (Vicugna vicugna)",
+   "wild_look": "Small, graceful, cinnamon-coloured camelid of the high puna above 3,500 m, with extremely fine wool.",
+   "changes": "Larger, with much more and longer fine wool in many colours; bred for fibre rather than loads.",
+   "centre": "Central Andes puna, Peru (Junín; Telarmachay)",
+   "lat": -11.2,
+   "lon": -75.9,
+   "cult": -5000,
+   "dom": -4000,
+   "spread": [
+    {
+     "place": "Moquegua valley, Peru",
+     "lat": -17.2,
+     "lon": -70.9,
+     "y": 1000,
+     "note": "Mummified llamas and alpacas of two breeds, c. 900–1000 years old",
+     "approx": true
+    },
+    {
+     "place": "Inca Empire",
+     "lat": -13.5,
+     "lon": -72.0,
+     "y": 1450,
+     "note": "Alpaca wool for fine textiles of the Inca state",
+     "approx": true
+    },
+    {
+     "place": "Australia",
+     "lat": -34.0,
+     "lon": 151.0,
+     "y": 1858,
+     "note": "Charles Ledger lands 256 alpacas, llamas and vicuñas in Sydney after driving them across the Andes to Chile; the flock later dwindled",
+     "approx": false
+    },
+    {
+     "place": "North America and Europe",
+     "lat": 40.0,
+     "lon": -100.0,
+     "y": 1984,
+     "note": "Alpacas reach North America in 1984 and are now farmed worldwide",
+     "approx": true
+    }
+   ],
+   "today": "Over 7 million llamas and alpacas lived in South America in 2007, most alpacas in Peru.",
+   "fact": "After the Spanish conquest of 1532 about 98% of alpacas were destroyed; the survivors were pushed into the high Andes.",
+   "img": [
+    {
+     "file": "File:Alpacas.JPG",
+     "lic": "Public domain",
+     "artist": "Philippe Lavoie",
+     "shows": "Alpacas in Ecuador (domestic)"
+    },
+    {
+     "file": "File:Group of vicuña in Arequipa Region, Peru.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Marshallhenrie",
+     "shows": "Wild vicuñas in the Arequipa region, Peru"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Alpaca",
+    "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
+    "https://en.wikipedia.org/wiki/Alpaca_fiber",
+    "https://adb.anu.edu.au/biography/ledger-charles-4004"
+   ],
+   "cult_note": "Shift from hunting to herding of camelids at Telarmachay and Junín c. 6,000–7,000 years ago (Wheeler).",
+   "dom_note": "Llama and alpaca domesticated at least 5,000–6,000 years ago (Wikipedia; DNA shows the vicuña as alpaca ancestor, Kadwell et al. 2001)."
+  },
+  {
+   "n": "Guinea pig",
+   "sci": "Cavia porcellus",
+   "wild": "Montane guinea pig (Cavia tschudii)",
+   "wild_look": "Small brown, grass-eating cavy of Andean valleys and grasslands, living in groups under shrubs and rocks.",
+   "changes": "Larger and heavier, many coat colours and long-haired forms, calmer; bred as food and ritual animal, kept in homes.",
+   "centre": "Andes of southern Colombia, Ecuador, Peru and Bolivia",
+   "lat": -12.0,
+   "lon": -75.5,
+   "cult": -5000,
+   "dom": -5000,
+   "spread": [
+    {
+     "place": "Caribbean",
+     "lat": 18.2,
+     "lon": -66.5,
+     "y": -500,
+     "note": "Ceramic-making migrants bring guinea pigs to the West Indies",
+     "approx": true
+    },
+    {
+     "place": "Europe",
+     "lat": 47.4,
+     "lon": 8.5,
+     "y": 1554,
+     "note": "Conrad Gessner describes the guinea pig, newly brought from South America",
+     "approx": false
+    },
+    {
+     "place": "England",
+     "lat": 51.5,
+     "lon": -0.13,
+     "y": 1580,
+     "note": "Earliest European painting of a pet guinea pig",
+     "approx": false
+    },
+    {
+     "place": "Nagasaki, Japan",
+     "lat": 32.75,
+     "lon": 129.88,
+     "y": 1843,
+     "note": "Dutch traders bring guinea pigs to Japan",
+     "approx": false
+    }
+   ],
+   "today": "Peruvians eat an estimated 65 million guinea pigs (cuy) each year.",
+   "fact": "An Elizabethan portrait of c. 1580 shows a girl holding a tortoiseshell guinea pig, only decades after Europeans first saw one.",
+   "img": [
+    {
+     "file": "File:Three Unknown Elizabethan Children.jpg",
+     "lic": "Public domain",
+     "artist": "unknown Anglo-Netherlandish artist",
+     "shows": "Three Elizabethan children, one holding a pet guinea pig, painting c. 1580 (domestic)"
+    },
+    {
+     "file": "File:Cavia tschudii 104314763 (cropped).jpg",
+     "lic": "CC BY 4.0",
+     "artist": "Pirataber",
+     "shows": "Wild montane guinea pig"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Guinea_pig",
+    "https://en.wikipedia.org/wiki/Montane_guinea_pig"
+   ],
+   "cult_note": "Wikipedia: first domesticated as early as 5000 BC in the Andes (estimate).",
+   "dom_note": "Same estimate; selective breeding of many varieties c. 1200–1532 CE. The early date is uncertain."
+  },
+  {
+   "n": "Turkey",
+   "sci": "Meleagris gallopavo (domestic)",
+   "wild": "Wild turkey (Meleagris gallopavo), south Mexican subspecies M. g. gallopavo",
+   "wild_look": "Large, bronze-green woodland bird of North American forests; flies short distances and roosts in trees.",
+   "changes": "Heavier, slower, many cannot fly or breed naturally; white feathers in most modern breeds.",
+   "centre": "Central and southern Mexico (Mesoamerica); a separate domestication among the Ancestral Puebloans in the US Southwest",
+   "lat": 19.0,
+   "lon": -99.0,
+   "cult": -300,
+   "dom": -300,
+   "spread": [
+    {
+     "place": "El Mirador, Guatemala",
+     "lat": 17.75,
+     "lon": -89.92,
+     "y": -300,
+     "note": "Mexican turkeys traded far outside their wild range, 300 BCE–100 CE",
+     "approx": true
+    },
+    {
+     "place": "US Southwest (Ancestral Puebloans)",
+     "lat": 37.0,
+     "lon": -108.5,
+     "y": 200,
+     "note": "Turkeys kept for feathers, separate domestication (Speller et al. 2010)",
+     "approx": true
+    },
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1520,
+     "note": "Spaniards bring domestic turkeys from Mexico to Europe",
+     "approx": true
+    },
+    {
+     "place": "England",
+     "lat": 54.0,
+     "lon": -0.2,
+     "y": 1550,
+     "note": "The navigator William Strickland is credited with bringing turkeys to England; by 1573 they are Christmas fare",
+     "approx": true
+    },
+    {
+     "place": "Jamestown, Virginia",
+     "lat": 37.21,
+     "lon": -76.78,
+     "y": 1608,
+     "note": "European domestic turkeys shipped back to North America",
+     "approx": false
+    }
+   ],
+   "today": "About 620 million turkeys are slaughtered for meat each year.",
+   "fact": "Domestic turkeys descend from Mexican birds; some went to Europe and were shipped back across the Atlantic to Jamestown in 1608.",
+   "img": [
+    {
+     "file": "File:Black Spanish toms and hen.jpg",
+     "lic": "CC BY 2.0",
+     "artist": "Hunter Desportes",
+     "shows": "Black Spanish turkeys, an old domestic breed"
+    },
+    {
+     "file": "File:Wild Turkey (Audubon).jpg",
+     "lic": "Public domain",
+     "artist": "John James Audubon",
+     "shows": "Wild turkey, plate by John James Audubon, Birds of America"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_turkey",
+    "https://en.wikipedia.org/wiki/Wild_turkey",
+    "https://doi.org/10.1073/pnas.0909724107",
+    "https://doi.org/10.1371/journal.pone.0042630"
+   ],
+   "cult_note": "Thornton et al. 2012: south-Mexican turkeys at El Mirador, Guatemala, 300 BCE–100 CE, outside their wild range.",
+   "dom_note": "Wikipedia: domesticated in Mesoamerica at least 2,000 years ago (estimate; 2,200–2,700 years in 'Domestication of animals')."
+  },
+  {
+   "n": "Muscovy duck",
+   "sci": "Cairina moschata (domestic)",
+   "wild": "Wild Muscovy duck (Cairina moschata)",
+   "wild_look": "Large, black, glossy-green duck of tropical South and Central American forest rivers; perches and nests in trees.",
+   "changes": "Heavier, often white or pied, larger red face caruncles; quiet and tame.",
+   "centre": "Northern South America",
+   "lat": -2.0,
+   "lon": -79.0,
+   "cult": 50,
+   "dom": 50,
+   "spread": [
+    {
+     "place": "Andes and Pacific coast",
+     "lat": -8.0,
+     "lon": -78.0,
+     "y": 500,
+     "note": "Kept by many South American peoples before 1492",
+     "approx": true
+    },
+    {
+     "place": "Europe",
+     "lat": 40.4,
+     "lon": -3.7,
+     "y": 1550,
+     "note": "Brought to Europe in the 16th century; the 'Muscovy' name is unexplained",
+     "approx": true
+    }
+   ],
+   "today": "Muscovy ducks and the mule-duck hybrids bred from them supply much of France's duck meat and foie gras.",
+   "fact": "Despite its name, the Muscovy duck has nothing to do with Moscow; it is one of only two birds domesticated in the Americas.",
+   "img": [
+    {
+     "file": "File:Canards de Barbarie.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Uikitireza",
+     "shows": "Domestic Muscovy ducks (canards de Barbarie)"
+    },
+    {
+     "file": "File:Muscovy Duck (Cairina moschata) male.jpg",
+     "lic": "CC BY-SA 2.0",
+     "artist": "Bernard DUPONT",
+     "shows": "Wild Muscovy drake in the Pantanal, Brazil"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Muscovy_duck",
+    "https://en.wikipedia.org/wiki/Domestication_of_animals",
+    "https://en.wikipedia.org/wiki/Foie_gras"
+   ],
+   "cult_note": "Wikipedia 'Domestication of animals': domesticated as early as 50 CE (estimate, poorly dated).",
+   "dom_note": "Same; archaeological record is thin (estimate)."
+  },
+  {
+   "n": "Domestic duck",
+   "sci": "Anas platyrhynchos domesticus",
+   "wild": "Mallard (Anas platyrhynchos)",
+   "wild_look": "Common wild dabbling duck of wetlands across the Northern Hemisphere; drakes have glossy green heads; strong flyers and migrants.",
+   "changes": "Heavier, many lay far more eggs, white or varied plumage, upright 'runner' forms; most cannot fly well.",
+   "centre": "Southern China (rice-paddy farmers)",
+   "lat": 25.0,
+   "lon": 113.0,
+   "cult": -2000,
+   "dom": -2000,
+   "spread": [
+    {
+     "place": "Southern China and Southeast Asia",
+     "lat": 24.0,
+     "lon": 110.0,
+     "y": -2000,
+     "note": "Rice farmers of southern China domesticate ducks c. 2000 BCE (few finds; date uncertain) and spread them outward",
+     "approx": true
+    },
+    {
+     "place": "Roman Italy",
+     "lat": 41.9,
+     "lon": 12.5,
+     "y": -150,
+     "note": "Romans keep ducks in netted pens (nessotrophia), raised from wild-caught eggs rather than bred",
+     "approx": true
+    },
+    {
+     "place": "United States",
+     "lat": 40.9,
+     "lon": -72.7,
+     "y": 1873,
+     "note": "Pekin ducks shipped from China reach New York; Long Island becomes the centre of US duck farming",
+     "approx": false
+    }
+   ],
+   "today": "About 4.3 billion ducks were slaughtered in 2021, over 80% of them in China.",
+   "fact": "In rice–duck farming in East and Southeast Asia, ducks eat pests and weeds in the paddy and manure the rice, so one field yields both.",
+   "img": [
+    {
+     "file": "File:Runner-ducks.jpg",
+     "lic": "CC BY-SA 2.5",
+     "artist": "Bjoern Clauss",
+     "shows": "Indian Runner ducks, an upright domestic breed"
+    },
+    {
+     "file": "File:Ferdinand von Wright - Mallards - A-2002-608 - Finnish National Gallery.jpg",
+     "lic": "Public domain",
+     "artist": "Ferdinand von Wright",
+     "shows": "Wild mallards, painting by Ferdinand von Wright"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_duck",
+    "https://en.wikipedia.org/wiki/Mallard",
+    "https://en.wikipedia.org/wiki/American_Pekin"
+   ],
+   "cult_note": "Wikipedia: mallard domesticated in southern China around 2000 BC (estimate).",
+   "dom_note": "Same estimate."
+  },
+  {
+   "n": "Goose",
+   "sci": "Anser cygnoides domesticus and Anser anser domesticus",
+   "wild": "Swan goose (Anser cygnoides) in East Asia; greylag goose (Anser anser) in Europe and the Near East",
+   "wild_look": "Large grey wild geese of marshes and lakes, grazing grass in flocks and migrating in V-shaped skeins.",
+   "changes": "Heavier and flightless, white or pied forms; Chinese geese keep a knob on the bill; good guards and egg layers.",
+   "centre": "Lower Yangtze, China (Tianluoshan, Hemudu culture)",
+   "lat": 30.0,
+   "lon": 121.4,
+   "cult": -5000,
+   "dom": -5000,
+   "spread": [
+    {
+     "place": "Egypt",
+     "lat": 29.4,
+     "lon": 31.2,
+     "y": -2000,
+     "note": "Geese kept in Egypt over 4,000 years ago; fully domestic by the New Kingdom",
+     "approx": true
+    },
+    {
+     "place": "Greece",
+     "lat": 39.0,
+     "lon": 22.0,
+     "y": -750,
+     "note": "Domestic geese in Homer's Odyssey",
+     "approx": true
+    },
+    {
+     "place": "Rome",
+     "lat": 41.89,
+     "lon": 12.48,
+     "y": -390,
+     "note": "Sacred geese of Juno said to have warned Rome of the Gallic attack (legend)",
+     "approx": true
+    },
+    {
+     "place": "Scandinavia",
+     "lat": 59.0,
+     "lon": 15.0,
+     "y": 200,
+     "note": "Domestic geese reach Scandinavia in the Early Iron Age",
+     "approx": true
+    }
+   ],
+   "today": "About 750 million geese are slaughtered for meat each year.",
+   "fact": "The domestic geese of China and of Europe come from two different wild species, yet they interbreed freely.",
+   "img": [
+    {
+     "file": "File:Hermann Baisch Gänse am Dorfweiher.jpg",
+     "lic": "Public domain",
+     "artist": "Hermann Baisch",
+     "shows": "Geese at the village pond, painting by Hermann Baisch (domestic)"
+    },
+    {
+     "file": "File:Swan geese in Beijing Olympic Forest Park 01 (cropped).jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "星外之神",
+     "shows": "Wild swan geese in Beijing"
+    },
+    {
+     "file": "File:Greylag Goose - St James's Park, London - Nov 2006.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Diliff",
+     "shows": "Greylag goose, the wild ancestor of European geese"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_goose",
+    "https://doi.org/10.1073/pnas.2117064119",
+    "https://en.wikipedia.org/wiki/Domestic_duck",
+    "https://en.wikipedia.org/wiki/Juno_(mythology)"
+   ],
+   "cult_note": "Eda et al. 2022 (PNAS): geese raised at Tianluoshan, Hemudu culture, c. 7,000 years ago.",
+   "dom_note": "Same; European/Egyptian greylag domestication later and less clear (debated)."
+  },
+  {
+   "n": "Yak",
+   "sci": "Bos grunniens",
+   "wild": "Wild yak (Bos mutus)",
+   "wild_look": "Huge black wild ox of the high Tibetan Plateau with a long shaggy skirt of hair, living above 4,000 m.",
+   "changes": "Smaller, often pied or white, calmer; gives milk, butter, wool and dung fuel, and carries loads at extreme altitude.",
+   "centre": "Tibetan Plateau (Qinghai)",
+   "lat": 35.0,
+   "lon": 97.0,
+   "cult": -5300,
+   "dom": -500,
+   "spread": [],
+   "today": "Domestic yaks live across the Himalaya, the Tibetan Plateau and the Pamirs and north into Mongolia and Siberia; their dried dung is often the only fuel on the treeless plateau.",
+   "fact": "Wild yak bulls can weigh a tonne, about twice as much as domestic yaks.",
+   "img": [
+    {
+     "file": "File:Yak herds.jpg",
+     "lic": "CC0",
+     "artist": "RaiNJL",
+     "shows": "Domestic yak herd in Muguthang valley, Sikkim"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_yak",
+    "https://en.wikipedia.org/wiki/Wild_yak",
+    "https://doi.org/10.1038/ncomms10283"
+   ],
+   "cult_note": "Qiu et al. 2015: genomic estimate of domestication c. 7,300 years ago (genetic only, debated).",
+   "dom_note": "Wikipedia: oldest dated physical evidence of yak domestication c. 2,500 years ago."
+  },
+  {
+   "n": "Reindeer",
+   "sci": "Rangifer tarandus (domestic)",
+   "wild": "Wild reindeer / caribou (Rangifer tarandus)",
+   "wild_look": "Antlered deer of tundra and taiga, both sexes antlered; migrates in huge herds and digs lichen from under snow.",
+   "changes": "Only semi-domesticated: tamer, often lighter or spotted, used for milk, meat, riding and pulling sleds; still mixes with wild herds.",
+   "centre": "Sayan Mountains, S Siberia (rock art, proposed; debated)",
+   "lat": 52.0,
+   "lon": 96.0,
+   "cult": -500,
+   "dom": 1,
+   "spread": [
+    {
+     "place": "Ust-Polui, Yamal",
+     "lat": 66.5,
+     "lon": 66.6,
+     "y": 1,
+     "note": "Harness pieces and draught-worn bones of reindeer, c. 2,000 years ago (Losey et al. 2021)",
+     "approx": true
+    },
+    {
+     "place": "Northern Norway",
+     "lat": 69.5,
+     "lon": 18.0,
+     "y": 890,
+     "note": "Ohthere tells King Alfred he owns 600 tame reindeer",
+     "approx": true
+    },
+    {
+     "place": "Northern Scandinavia (Sámi)",
+     "lat": 68.0,
+     "lon": 20.0,
+     "y": 1500,
+     "note": "Mountain Sámi take up the semi-nomadic reindeer-herding way of life from around 1500",
+     "approx": true
+    },
+    {
+     "place": "Alaska",
+     "lat": 64.5,
+     "lon": -165.4,
+     "y": 1892,
+     "note": "Reindeer brought from Siberia for Alaska Natives",
+     "approx": false
+    }
+   ],
+   "today": "About 100,000 people herd reindeer across the circumpolar north.",
+   "fact": "The reindeer is the only deer semi-domesticated on a large scale, and herders still let many of their animals roam half-wild.",
+   "img": [
+    {
+     "file": "File:Reindeer of Mongolia 02.jpg",
+     "lic": "CC0",
+     "artist": "Bernard Gagnon",
+     "shows": "Reindeer near Lake Khövsgöl, Mongolia (herded)"
+    },
+    {
+     "file": "File:Barren ground caribou grazing with autumn foliage in background.jpg",
+     "lic": "Public domain",
+     "artist": "Bauer, Erwin and Peggy, U.S. Fish and Wildlife Service",
+     "shows": "Wild barren-ground caribou in autumn tundra"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Reindeer_herding",
+    "https://en.wikipedia.org/wiki/Reindeer",
+    "https://doi.org/10.15184/aqy.2021.83",
+    "https://en.wikipedia.org/wiki/Ohthere_of_H%C3%A5logaland",
+    "https://en.wikipedia.org/wiki/S%C3%A1mi_people",
+    "https://en.wikipedia.org/wiki/Alaska_Reindeer_Service"
+   ],
+   "cult_note": "Wikipedia: rock art suggests first domestication in the Sayan Mountains, 2–3 thousand years ago (debated).",
+   "dom_note": "Losey et al. 2021: reindeer used for draught at Ust-Polui, Yamal, c. 2,000 years ago (debated)."
+  },
+  {
+   "n": "Honey bee (managed)",
+   "sci": "Apis mellifera",
+   "wild": "Wild colonies of the same species (honey bees were never fully domesticated)",
+   "wild_look": "Colonies of tens of thousands of bees nesting in hollow trees and rock crevices across Africa, Europe and western Asia.",
+   "changes": "Little genetic change: people supply hives and select calmer, productive colonies; bees still swarm and go wild easily.",
+   "centre": "Nile valley, Egypt (earliest hives in art)",
+   "lat": 29.9,
+   "lon": 31.2,
+   "cult": -7000,
+   "dom": -2450,
+   "spread": [
+    {
+     "place": "Tel Rehov, Israel",
+     "lat": 32.46,
+     "lon": 35.5,
+     "y": -900,
+     "note": "An apiary of about 100 clay hives, c. 900 BCE",
+     "approx": true
+    },
+    {
+     "place": "Virginia",
+     "lat": 37.2,
+     "lon": -76.8,
+     "y": 1622,
+     "note": "Honey bees shipped to the English colony",
+     "approx": true
+    },
+    {
+     "place": "Australia",
+     "lat": -33.86,
+     "lon": 151.21,
+     "y": 1822,
+     "note": "First honey bees arrive",
+     "approx": true
+    },
+    {
+     "place": "New Zealand",
+     "lat": -35.3,
+     "lon": 174.1,
+     "y": 1839,
+     "note": "Honey bees introduced",
+     "approx": true
+    }
+   ],
+   "today": "The world had about 83 million managed beehives in 2014 (FAO).",
+   "fact": "People took wild honey long before any hive: Spanish rock paintings about 8,000 years old show honey collecting.",
+   "img": [
+    {
+     "file": "File:Die Bienenzüchter (Bruegel).jpg",
+     "lic": "Public domain",
+     "artist": "Pieter Brueghel the Elder",
+     "shows": "The Beekeepers, drawing by Pieter Bruegel the Elder (managed hives)"
+    },
+    {
+     "file": "File:Western honey bee on a honeycomb.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Matthew T Rader",
+     "shows": "Western honey bee on its comb (wild and kept colonies are the same species)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Beekeeping",
+    "https://en.wikipedia.org/wiki/Western_honey_bee",
+    "https://doi.org/10.1038/nature15757",
+    "https://en.wikipedia.org/wiki/Beekeeping_in_Australia",
+    "https://en.wikipedia.org/wiki/Beekeeping_in_New_Zealand"
+   ],
+   "cult_note": "Beeswax residues in Near Eastern pottery from c. 7000 BCE (Roffet-Salque et al. 2015) - exploitation, not necessarily hives.",
+   "dom_note": "Beekeeping scenes (smoke at hives) in the sun temple of Nyuserre, Egypt, before 2422 BCE."
+  },
+  {
+   "n": "Silkworm",
+   "sci": "Bombyx mori",
+   "wild": "Wild silk moth (Bombyx mandarina)",
+   "wild_look": "Brown moth of East Asia whose caterpillars feed on wild mulberry; adults fly well and caterpillars are camouflaged.",
+   "changes": "Completely dependent on people: moths are white, cannot fly, caterpillars do not wander, and cocoons are bigger.",
+   "centre": "Yellow River / Yangtze, China (Yangshao and Liangzhu cultures)",
+   "lat": 34.5,
+   "lon": 111.0,
+   "cult": -3450,
+   "dom": -2700,
+   "spread": [
+    {
+     "place": "Khotan, Tarim Basin",
+     "lat": 37.1,
+     "lon": 79.9,
+     "y": 50,
+     "note": "Sericulture reaches Khotan c. 50 CE (legend: a Chinese princess hid silkworms in her hair)",
+     "approx": true
+    },
+    {
+     "place": "Constantinople",
+     "lat": 41.01,
+     "lon": 28.98,
+     "y": 553,
+     "note": "Monks smuggle silkworm eggs to the Byzantine Empire for Justinian I (c. 553–54)",
+     "approx": true
+    },
+    {
+     "place": "Sicily",
+     "lat": 38.1,
+     "lon": 13.36,
+     "y": 1147,
+     "note": "Roger II brings Greek silk weavers to Palermo",
+     "approx": true
+    },
+    {
+     "place": "Lyon, France",
+     "lat": 45.76,
+     "lon": 4.84,
+     "y": 1536,
+     "note": "Francis I grants Lyon’s silk weavers royal privileges; Lyon becomes Europe’s silk capital",
+     "approx": false
+    }
+   ],
+   "today": "One cocoon yields about 900 m of silk filament.",
+   "fact": "The domestic silk moth cannot fly; males even need human help to find a mate, and it no longer lives in the wild.",
+   "img": [
+    {
+     "file": "File:Women placing silkworms on trays together with mulberry leaves (Sericulture by Liang Kai, 1200s).jpg",
+     "lic": "Public domain",
+     "artist": "Attributed to Liang Kai",
+     "shows": "Women placing silkworms on trays with mulberry leaves, painting attributed to Liang Kai, 13th century"
+    },
+    {
+     "file": "File:Bombyx mandarina formosana (35848743764).jpg",
+     "lic": "CC BY 2.0",
+     "artist": "LiCheng Shih",
+     "shows": "Wild silk moth (Bombyx mandarina), Taiwan"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Sericulture",
+    "https://en.wikipedia.org/wiki/Bombyx_mori",
+    "https://en.wikipedia.org/wiki/Bombyx_mandarina",
+    "https://en.wikipedia.org/wiki/Silk",
+    "https://en.wikipedia.org/wiki/Byzantine_silk",
+    "https://en.wikipedia.org/wiki/Silk_industry_in_Lyon"
+   ],
+   "cult_note": "Silkworm-shaped ceramic from Nancun, Hebei, 5,400–5,500 years ago; earlier silk residues at Jiahu (c. 6500 BCE) are debated.",
+   "dom_note": "Silk fabric of domesticated silkworms at Qianshanyang, Zhejiang, c. 2700 BCE (Liangzhu); Confucian tradition also gives c. 2700 BCE."
+  },
+  {
+   "n": "Rabbit",
+   "sci": "Oryctolagus cuniculus domesticus",
+   "wild": "European rabbit (Oryctolagus cuniculus), originally only in Iberia and southern France",
+   "wild_look": "Small grey-brown rabbit living in colonies in burrow systems (warrens) in the dry scrub of Iberia.",
+   "changes": "Larger and smaller breeds, lop ears, many colours and long fur (angora); tame, breeds year-round in hutches.",
+   "centre": "Southern France (medieval monasteries); wild rabbits from Iberia",
+   "lat": 43.5,
+   "lon": 3.5,
+   "cult": -50,
+   "dom": 1150,
+   "spread": [
+    {
+     "place": "Roman Iberia and Italy",
+     "lat": 40.0,
+     "lon": -4.0,
+     "y": -50,
+     "note": "Romans keep rabbits in walled leporaria and spread them around the Mediterranean",
+     "approx": true
+    },
+    {
+     "place": "England",
+     "lat": 51.0,
+     "lon": -1.0,
+     "y": 1150,
+     "note": "Normans bring rabbits for warrens; they become established in the 12th–13th centuries (Lundy: 2,000 caught a year by 1274)",
+     "approx": true
+    },
+    {
+     "place": "Australia (Barwon Park)",
+     "lat": -38.1,
+     "lon": 144.2,
+     "y": 1859,
+     "note": "Thomas Austin releases 24 wild rabbits; they spread across the continent",
+     "approx": false
+    },
+    {
+     "place": "New Zealand",
+     "lat": -45.0,
+     "lon": 170.0,
+     "y": 1858,
+     "note": "Rabbits released on the mainland (Blenheim 1858, 1865) become one of the worst pests",
+     "approx": true
+    }
+   ],
+   "today": "Rabbits are farmed for meat and fur worldwide and are among the most popular pets.",
+   "fact": "The tale that monks domesticated rabbits c. 600 CE because unborn rabbits counted as 'fish' at Lent is a myth (Irving-Pease et al. 2018).",
+   "img": [
+    {
+     "file": "File:Lapin geant des flandres 2.JPG",
+     "lic": "Public domain",
+     "artist": "Lucile Petit",
+     "shows": "Flemish Giant, a large domestic rabbit breed"
+    },
+    {
+     "file": "File:Oryctolagus cuniculus, Beja, PT.jpg",
+     "lic": "CC BY 4.0",
+     "artist": "Nuno Fialho",
+     "shows": "Wild European rabbit in Beja, Portugal"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Domestic_rabbit",
+    "https://en.wikipedia.org/wiki/European_rabbit",
+    "https://doi.org/10.1016/j.tree.2017.12.009",
+    "https://en.wikipedia.org/wiki/Rabbits_in_Australia",
+    "https://en.wikipedia.org/wiki/Rabbits_in_New_Zealand"
+   ],
+   "cult_note": "Roman authors (Varro, Pliny) describe rabbits kept in walled enclosures; captive rabbits exploited for over 2,000 years (Wikipedia).",
+   "dom_note": "Monks in southern France were crossbreeding rabbits at least by the 12th century; clear skeletal differences only from the 1800s. Gradual process (Irving-Pease et al. 2018)."
+  },
+  {
+   "n": "Ferret",
+   "sci": "Mustela furo",
+   "wild": "European polecat (Mustela putorius), possibly with steppe polecat",
+   "wild_look": "Dark-brown, masked wild weasel of European woods and farmland, hunting rabbits, rodents and frogs at night.",
+   "changes": "Tamer, often albino or pale, depends on people; used to drive rabbits from burrows and to kill rats.",
+   "centre": "Mediterranean (probably Iberia / North Africa)",
+   "lat": 38.0,
+   "lon": -3.0,
+   "cult": -500,
+   "dom": -500,
+   "spread": [
+    {
+     "place": "Balearic Islands",
+     "lat": 39.6,
+     "lon": 2.9,
+     "y": -6,
+     "note": "Augustus sends ‘viverrae’ from Libya against the Balearic rabbit plague (Strabo, Pliny); possibly ferrets (debated)",
+     "approx": true
+    },
+    {
+     "place": "England",
+     "lat": 52.0,
+     "lon": -1.0,
+     "y": 1390,
+     "note": "An English law of 1390 restricts hunting with ferrets to the well-off",
+     "approx": false
+    },
+    {
+     "place": "North America",
+     "lat": 40.0,
+     "lon": -100.0,
+     "y": 1650,
+     "note": "Ferrets reach the Americas in the 17th century",
+     "approx": true
+    },
+    {
+     "place": "New Zealand",
+     "lat": -45.0,
+     "lon": 170.0,
+     "y": 1884,
+     "note": "Ferrets imported from 1879 and some 4,000 released in 1884–86 to control rabbits; they turned to native birds",
+     "approx": true
+    }
+   ],
+   "today": "Over five million pet ferrets live in the United States alone.",
+   "fact": "Ferrets were released in New Zealand to kill the introduced rabbits, and instead began eating native birds.",
+   "img": [
+    {
+     "file": "File:Women hunting rabbits with a ferret.jpg",
+     "lic": "Public domain",
+     "artist": "Unknown",
+     "shows": "Women hunting rabbits with a ferret, medieval illumination (domestic ferret)"
+    },
+    {
+     "file": "File:Thorburn Polecat.jpg",
+     "lic": "Public domain",
+     "artist": "Archibald Thorburn",
+     "shows": "Wild European polecat, painting by Archibald Thorburn"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Ferret",
+    "https://en.wikipedia.org/wiki/European_polecat",
+    "https://en.wikipedia.org/wiki/European_rabbit"
+   ],
+   "cult_note": "mtDNA estimate: ferrets domesticated c. 2,500 years ago (Wikipedia).",
+   "dom_note": "Same; ancient texts confirm use against rabbits by Roman times."
+  }
+ ],
+ "tips": [
+  {
+   "h": "First herders",
+   "t": "In the Zagros and upper Euphrates hunters began sparing female goats, sheep and aurochs and culling young males. Bones still looked wild for centuries, but the herd profile shows herding.",
+   "lat": 34.35,
+   "lon": 47.47,
+   "step_hint": "first herders in the Zagros, c. 8000 BCE"
+  },
+  {
+   "h": "Animals on boats",
+   "t": "Early farmers shipped sheep, goats, pigs, cattle and even a cat to Cyprus, an island with none of them. Domestic animals travelled with people from the start.",
+   "lat": 34.73,
+   "lon": 33.35,
+   "step_hint": "farming reaches Cyprus, c. 8200–7500 BCE"
+  },
+  {
+   "h": "Milk, wool and muscle",
+   "t": "Thousands of years after domestication, people learned to use living animals: milk, wool, ploughing and carts. Wool sheep and milking spread across Eurasia in the 4th millennium BCE.",
+   "lat": 37.0,
+   "lon": 43.0,
+   "step_hint": "secondary products and the plough, c. 4000–3500 BCE"
+  },
+  {
+   "h": "Andean herds",
+   "t": "In the high Andes, llamas, alpacas and guinea pigs were domesticated independently of the Old World; llama dung fuelled and fertilised life above 4,000 m.",
+   "lat": -11.2,
+   "lon": -75.9,
+   "step_hint": "Andean farming and herding, c. 4000 BCE"
+  }
+ ],
+ "notes": "Dates are signed years (BCE negative). 'cult' = earliest evidence of management or close association; 'dom' = earliest clear domestic form (morphology, genetics or depictions). Domestication was a slow process, so both dates are approximate; genetic clock estimates are estimates, not observations. Debated: dog origin place and age (Siberia vs Europe vs East Asia; 'Palaeolithic dogs'); horse at Botai (managed wild horses, ancestors of Przewalski's horse, not DOM2); cat at Shillourokambos (tamed, not proven domestic) and when cats became fully domestic; chicken age (Ban Non Wat c. 1650 BCE vs older genomic estimates); African cattle domestication at Nabta Playa; yak (genetic 7,300 years vs physical 2,500 years); reindeer (only semi-domestic, place uncertain); goose (China vs Egypt/Europe); guinea pig and Muscovy duck dates are poorly constrained. Honey bee is managed rather than domesticated. Pig and goose/water buffalo have two centres; the main centre is in 'centre', the second appears in a spread entry or the 'centre' text. Living wild Bactrian camels and Przewalski's horses are relatives, not ancestors. Present-day numbers are from Wikipedia/FAO and differ by year and source. Images verified on Wikimedia Commons (licence and artist from Commons metadata, 2026-10-14)."
+}

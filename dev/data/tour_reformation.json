@@ -1,0 +1,703 @@
+{
+ "id": "reformation",
+ "title": "The Reformation",
+ "blurb": "How a dispute over indulgences split Western Christianity, redrew Europe's religious map and set off a century of reform, persecution and war.",
+ "cat": "Faith & ideas",
+ "steps": [
+  {
+   "y": 1415.51,
+   "lat": 49.0,
+   "lon": 12.0,
+   "z": 4,
+   "t": "A preacher burned at Constance",
+   "c": "A century before Luther, the Prague preacher Jan Hus attacked the sale of indulgences and the wealth of the clergy, inspired by the English theologian John Wycliffe. He came to the Council of Constance under a promise of safe conduct, was arrested, and was burned as a heretic on 6 July 1415. Bohemia rose in the Hussite revolt, and in 1436 the Church accepted that Hussites could take communion in both bread and wine. Their church lasted until the Habsburgs suppressed it after 1620.",
+   "w": "Jan Hus",
+   "look": [
+    [
+     47.66,
+     9.18,
+     "Constance"
+    ],
+    [
+     50.09,
+     14.42,
+     "Prague"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Wycliffe's bones",
+     "t": "The Council of Constance also condemned John Wycliffe, who had died in 1384. In 1428 his remains (or a neighbour's) were dug up at Lutterworth, burned and thrown into a river.",
+     "lat": 52.456,
+     "lon": -1.2
+    },
+    {
+     "h": "A town called Tábor",
+     "t": "Radical Hussites founded their own town in 1420 and named it after the biblical Mount Tabor. In Czech, 'tábor' later came to mean 'camp'.",
+     "lat": 49.414,
+     "lon": 14.658
+    }
+   ],
+   "img": "Council of Constance",
+   "img_alt": {
+    "file": "File:Brožík, Václav - Hus před koncilem 6. července 1415.jpg",
+    "by": "Václav Brožík, 1883",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Jan_Hus",
+    "https://en.wikipedia.org/wiki/John_Wycliffe",
+    "https://en.wikipedia.org/wiki/Compacts_of_Basel",
+    "https://en.wikipedia.org/wiki/Tábor"
+   ]
+  },
+  {
+   "y": 1517.83,
+   "lat": 51.0,
+   "lon": 11.0,
+   "z": 5,
+   "t": "Ninety-five theses and a printing press",
+   "c": "On 31 October 1517 Martin Luther, a monk and professor at the small university of Wittenberg, sent 95 theses against the sale of indulgences to the Archbishop of Mainz. Whether he also nailed them to a church door is debated. Printing made him famous: the movable-type press, introduced by Gutenberg in Mainz around 1450, had spread across Europe, and by 1520 Luther was Europe's most published author, with about 300,000 copies of his works in print.",
+   "w": "Ninety-five Theses",
+   "look": [
+    [
+     51.866,
+     12.646,
+     "Wittenberg"
+    ],
+    [
+     49.999,
+     8.271,
+     "Mainz"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Gutenberg's Bible",
+     "t": "Gutenberg's first Bibles were finished in Mainz in 1454 or 1455. Of about 160 to 185 copies, 49 survive at least in large part.",
+     "lat": 49.999,
+     "lon": 8.271
+    },
+    {
+     "h": "Building St Peter's",
+     "t": "The indulgences sold by the friar Johann Tetzel, which provoked Luther, partly paid for the new St Peter's Basilica in Rome.",
+     "lat": 41.902,
+     "lon": 12.453
+    }
+   ],
+   "img": "Ninety-five Theses",
+   "img_alt": {
+    "file": "File:Luther95theses.jpg",
+    "by": "Ferdinand Pauwels, 1872",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+    "https://en.wikipedia.org/wiki/Printing_press",
+    "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+    "https://en.wikipedia.org/wiki/Johann_Tetzel"
+   ]
+  },
+  {
+   "y": 1521.29,
+   "lat": 50.3,
+   "lon": 9.5,
+   "z": 6,
+   "t": "Here I stand",
+   "c": "In April 1521 Luther was summoned before the 21-year-old Emperor Charles V at the Diet of Worms and refused to recant his writings. The famous words 'Here I stand, I can do no other' may not be his: scholars consider the evidence for them unreliable. The Edict of Worms made him an outlaw, and his protector, Elector Frederick the Wise, had him secretly taken to the Wartburg castle for his safety.",
+   "w": "Diet of Worms",
+   "look": [
+    [
+     49.632,
+     8.359,
+     "Worms"
+    ],
+    [
+     50.966,
+     10.306,
+     "Wartburg"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ten weeks",
+     "t": "Hidden at the Wartburg as 'Junker Jörg' (Knight George), Luther translated the New Testament from Greek into German in about ten weeks; it was printed in September 1522.",
+     "lat": 50.966,
+     "lon": 10.306
+    },
+    {
+     "h": "Communion in both kinds",
+     "t": "While Luther was hidden, Andreas Karlstadt held the first Protestant communion in Wittenberg on Christmas Day 1521.",
+     "lat": 51.866,
+     "lon": 12.646
+    }
+   ],
+   "img": "Diet of Worms",
+   "img_alt": {
+    "file": "File:Luther at the Diet of Worms.jpg",
+    "by": "Anton von Werner, 1877",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Diet_of_Worms",
+    "https://en.wikipedia.org/wiki/Martin_Luther",
+    "https://en.wikipedia.org/wiki/Wartburg",
+    "https://en.wikipedia.org/wiki/Luther_Bible",
+    "https://en.wikipedia.org/wiki/Andreas_Karlstadt"
+   ]
+  },
+  {
+   "y": 1525.06,
+   "lat": 47.4,
+   "lon": 8.6,
+   "z": 7,
+   "t": "Zürich goes further",
+   "c": "In Zürich the priest Huldrych Zwingli, working independently of Luther, won over the city council at a public disputation on 29 January 1523. Images were removed and the Mass abolished; the break had begun in 1522 when Zwingli defended friends who ate sausages during Lent. Some of his students wanted more: in January 1525 they baptised each other as adults, starting the Anabaptist movement. Catholic and Protestant rulers alike persecuted Anabaptists; in 1527 Zürich drowned Felix Manz, the first Swiss Anabaptist martyr.",
+   "w": "Reformation in Zürich",
+   "look": [
+    [
+     47.373,
+     8.542,
+     "Zürich"
+    ],
+    [
+     47.748,
+     8.484,
+     "Schleitheim"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Death at Kappel",
+     "t": "Zwingli went to war with the Catholic cantons and was killed at the Battle of Kappel in 1531; Switzerland stayed divided between Reformed and Catholic cantons.",
+     "lat": 47.23,
+     "lon": 8.53
+    },
+    {
+     "h": "Luther versus Zwingli",
+     "t": "At the Marburg Colloquy of 1529 Luther and Zwingli agreed on 14 of 15 articles but not on the Lord's Supper, and the Protestant camp stayed split.",
+     "lat": 50.81,
+     "lon": 8.77
+    }
+   ],
+   "img": "Reformation in Zürich",
+   "img_alt": {
+    "file": "File:Zürcher-Disputation 1523.jpg",
+    "by": "unknown artist, c. 1600 (coloured chronicle illustration)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Huldrych_Zwingli",
+    "https://en.wikipedia.org/wiki/Reformation_in_Zürich",
+    "https://en.wikipedia.org/wiki/Swiss_Brethren",
+    "https://en.wikipedia.org/wiki/Felix_Manz",
+    "https://en.wikipedia.org/wiki/Marburg_Colloquy",
+    "https://en.wikipedia.org/wiki/Battles_of_Kappel"
+   ]
+  },
+  {
+   "y": 1525.37,
+   "lat": 49.8,
+   "lon": 10.5,
+   "z": 5,
+   "t": "The Peasants' War",
+   "c": "Many peasants heard the new preaching as a call for justice. In March 1525 their Twelve Articles, drafted in Memmingen, demanded the right to choose their own pastors and an end to serfdom. About 300,000 poorly armed peasants rose across southern and central Germany; the princes' armies crushed them and killed up to 100,000. Luther condemned the revolt and urged the princes to strike the rebels down. The radical preacher Thomas Müntzer was captured at Frankenhausen and executed.",
+   "w": "German Peasants' War",
+   "look": [
+    [
+     47.988,
+     10.181,
+     "Memmingen"
+    ],
+    [
+     51.361,
+     11.1,
+     "Frankenhausen"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A bestseller of protest",
+     "t": "The Twelve Articles were printed more than 25,000 times within two months, and they are often called the first draft of human rights in continental Europe.",
+     "lat": 47.988,
+     "lon": 10.181
+    },
+    {
+     "h": "Müntzer's town",
+     "t": "Thomas Müntzer organised an armed militia in the imperial city of Mühlhausen; after the defeat at Frankenhausen he was executed outside its walls on 27 May 1525.",
+     "lat": 51.209,
+     "lon": 10.454
+    }
+   ],
+   "img": "Battle of Frankenhausen",
+   "img_alt": {
+    "file": "File:Hermann Eichler - Episode aus dem deutschen Bauernkrieg (Graf Helfenstein am Fuße seiner brennenden Burg, von Bauern verhöhnt) - 60 - Österreichische Galerie Belvedere.jpg",
+    "by": "Hermann Eichler, 1867 (peasants mock Count Helfenstein, 1525)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/German_Peasants'_War",
+    "https://en.wikipedia.org/wiki/Twelve_Articles",
+    "https://en.wikipedia.org/wiki/Thomas_Müntzer",
+    "https://en.wikipedia.org/wiki/Mühlhausen",
+    "https://en.wikipedia.org/wiki/Battle_of_Frankenhausen"
+   ]
+  },
+  {
+   "y": 1530.48,
+   "lat": 50.5,
+   "lon": 11.0,
+   "z": 4,
+   "t": "Princes and cities protest",
+   "c": "German princes and city councils now introduced the Reformation themselves, issuing church orders and closing monasteries. When the Diet of Speyer tried to stop them in 1529, six princes and 14 imperial cities protested, which gave us the word 'Protestant'. At Augsburg on 25 June 1530 they presented the Augsburg Confession to Charles V. Drafted mainly by Philip Melanchthon, it is still the basic statement of Lutheran faith.",
+   "w": "Augsburg Confession",
+   "look": [
+    [
+     48.369,
+     10.898,
+     "Augsburg"
+    ],
+    [
+     49.317,
+     8.431,
+     "Speyer"
+    ],
+    [
+     49.454,
+     11.078,
+     "Nuremberg"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The first Protestant state",
+     "t": "In 1525 Albert, Grand Master of the Teutonic Knights, turned the order's lands into the Duchy of Prussia, the first state to adopt Lutheranism officially.",
+     "lat": 54.71,
+     "lon": 20.51
+    },
+    {
+     "h": "Fifteen years of truce",
+     "t": "Nuremberg accepted the Reformation in 1525. In 1532 the Nuremberg Religious Peace, signed there, kept Lutherans and Catholics from war for 15 years.",
+     "lat": 49.454,
+     "lon": 11.078
+    }
+   ],
+   "img": "Diet of Augsburg",
+   "img_alt": {
+    "file": "File:Kasendorf St.Johannes Gemälde Augsburger Konfession 041298.jpg",
+    "by": "church painting in St. Johannes, Kasendorf; photo Ermell, 2018",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Augsburg_Confession",
+    "https://en.wikipedia.org/wiki/Protestation_at_Speyer",
+    "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+    "https://en.wikipedia.org/wiki/Nuremberg"
+   ]
+  },
+  {
+   "y": 1534.84,
+   "lat": 53.0,
+   "lon": -2.5,
+   "z": 5,
+   "t": "England breaks with Rome",
+   "c": "Henry VIII wanted his marriage to Catherine of Aragon annulled, and the Pope refused. On 3 November 1534 Parliament's Act of Supremacy made the King head of the Church of England, and between 1536 and 1541 every monastery in England and Wales was dissolved. The country then swung back and forth: Edward VI pushed Protestantism further, Mary I restored Catholicism and burned at least 280 Protestants, and Elizabeth I settled a Protestant Church of England from 1559.",
+   "w": "English Reformation",
+   "look": [
+    [
+     51.507,
+     -0.128,
+     "London"
+    ],
+    [
+     55.953,
+     -3.188,
+     "Edinburgh"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Tyndale's Bible",
+     "t": "William Tyndale's English New Testament had to be printed abroad. He was strangled and burned at Vilvoorde near Brussels in 1536, yet much of the King James Bible's New Testament (estimates 55–83%) keeps his words.",
+     "lat": 50.928,
+     "lon": 4.429
+    },
+    {
+     "h": "Scotland goes Calvinist",
+     "t": "Scotland took a different path: in 1560 its Parliament broke with Rome, and John Knox shaped a Presbyterian, largely Calvinist Church of Scotland.",
+     "lat": 55.953,
+     "lon": -3.188
+    }
+   ],
+   "img": "English Reformation",
+   "img_alt": {
+    "file": "File:Family of Henry VIII, an Allegory of the Tudor Succession.png",
+    "by": "attributed to Lucas de Heere, c. 1572",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/English_Reformation",
+    "https://en.wikipedia.org/wiki/Acts_of_Supremacy",
+    "https://en.wikipedia.org/wiki/Dissolution_of_the_monasteries",
+    "https://en.wikipedia.org/wiki/Marian_persecutions",
+    "https://en.wikipedia.org/wiki/Elizabethan_Religious_Settlement",
+    "https://en.wikipedia.org/wiki/William_Tyndale",
+    "https://en.wikipedia.org/wiki/Scottish_Reformation"
+   ]
+  },
+  {
+   "y": 1536.83,
+   "lat": 61.0,
+   "lon": 15.0,
+   "z": 3,
+   "t": "Kings take over the Nordic churches",
+   "c": "In Scandinavia kings led the Reformation and took over the Church's lands. Gustav Vasa of Sweden broke the bishops' power at the 'Reformation Riksdag' of Västerås in 1527, though Sweden only fixed its Lutheran creed in 1593. Christian III of Denmark arrested his bishops in 1536 after a civil war, the Count's Feud, and made Lutheranism official across Denmark–Norway. These state churches lasted into modern times: Sweden separated church and state only in 2000.",
+   "w": "Reformation in Sweden",
+   "look": [
+    [
+     59.611,
+     16.545,
+     "Västerås"
+    ],
+    [
+     55.676,
+     12.568,
+     "Copenhagen"
+    ],
+    [
+     63.427,
+     10.397,
+     "Trondheim"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Iceland's last bishop",
+     "t": "Jón Arason, the last Catholic bishop in Iceland, fought the Danish Reformation with his sons. He and two of them were captured and beheaded at Skálholt on 7 November 1550.",
+     "lat": 64.127,
+     "lon": -20.524
+    },
+    {
+     "h": "Finland's first book",
+     "t": "Mikael Agricola, later bishop of Turku, printed the first Finnish book, an ABC primer, in 1543, and the Finnish New Testament in 1548. He is called the father of literary Finnish.",
+     "lat": 60.452,
+     "lon": 22.267
+    }
+   ],
+   "img": "Reformation in Denmark–Norway and Holstein",
+   "img_alt": {
+    "file": "File:The Entry of King Gustav Vasa of Sweden into Stockholm - color.jpg",
+    "by": "Carl Larsson, 1908 (Gustav Vasa enters Stockholm, 1523)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Reformation_in_Sweden",
+    "https://en.wikipedia.org/wiki/Reformation_in_Denmark–Norway_and_Holstein",
+    "https://en.wikipedia.org/wiki/Church_of_Sweden",
+    "https://en.wikipedia.org/wiki/Jón_Arason",
+    "https://en.wikipedia.org/wiki/Mikael_Agricola"
+   ]
+  },
+  {
+   "y": 1541.7,
+   "lat": 46.2,
+   "lon": 6.15,
+   "z": 7,
+   "t": "Calvin's Geneva",
+   "c": "Geneva voted for the Reformation in 1536, the year the young French exile John Calvin published his Institutes and arrived in the city. Expelled in 1538, he returned on 13 September 1541 and built a disciplined church, with a Consistory of ministers and elders that judged church matters. Geneva also burned the anti-Trinitarian Michael Servetus in 1553. Its Academy (1559) trained pastors for France, the Netherlands, Scotland and beyond, and Calvinism became an international movement.",
+   "w": "John Calvin",
+   "look": [
+    [
+     46.204,
+     6.143,
+     "Geneva"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Shakespeare's Bible",
+     "t": "English Protestant exiles in Geneva produced the Geneva Bible (1560), the main Bible of Elizabethan England; Shakespeare, Knox and Cromwell used it, and it sailed on the Mayflower.",
+     "lat": 52.192,
+     "lon": -1.708
+    },
+    {
+     "h": "The Calvinist Rome",
+     "t": "Debrecen in eastern Hungary turned Reformed so early and so firmly that it was nicknamed the 'Calvinist Rome'.",
+     "lat": 47.531,
+     "lon": 21.627
+    }
+   ],
+   "img": "John Calvin",
+   "img_alt": {
+    "file": "File:Reformation Wall-02.jpg",
+    "by": "MHM55 (Reformation Wall, Geneva: Farel, Calvin, Beza, Knox)",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/John_Calvin",
+    "https://en.wikipedia.org/wiki/Institutes_of_the_Christian_Religion",
+    "https://en.wikipedia.org/wiki/Michael_Servetus",
+    "https://en.wikipedia.org/wiki/Geneva_Bible",
+    "https://en.wikipedia.org/wiki/University_of_Geneva",
+    "https://en.wikipedia.org/wiki/Debrecen"
+   ]
+  },
+  {
+   "y": 1545.95,
+   "lat": 45.0,
+   "lon": 11.0,
+   "z": 4,
+   "t": "The Catholic Reformation",
+   "c": "The Catholic Church reformed itself too, building on renewal movements older than Luther. The Council of Trent met in 25 sessions between 13 December 1545 and 1563. It restated Catholic doctrine against the Protestants, and it reformed the training of priests and required bishops to live in their dioceses. New orders carried the renewal, above all the Jesuits, approved in 1540, who founded schools throughout Europe and sent missionaries worldwide. Rome also set up the Roman Inquisition in 1542.",
+   "w": "Counter-Reformation",
+   "look": [
+    [
+     46.067,
+     11.121,
+     "Trent"
+    ],
+    [
+     41.902,
+     12.48,
+     "Rome"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A soldier turned priest",
+     "t": "Ignatius of Loyola was a Basque soldier whose leg was shattered by a cannonball at Pamplona on 20 May 1521. Reading the lives of saints while he recovered changed his life.",
+     "lat": 42.817,
+     "lon": -1.643
+    },
+    {
+     "h": "Teresa of Ávila",
+     "t": "In 1562 Teresa of Ávila founded the first of her reformed Carmelite convents. In 1970 she was the first woman named a Doctor of the Church.",
+     "lat": 40.656,
+     "lon": -4.7
+    }
+   ],
+   "img": "Council of Trent",
+   "img_alt": {
+    "file": "File:Pasquale Cati Da Iesi - The Council of Trent - WGA04574.jpg",
+    "by": "Pasquale Cati, 1588",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Council_of_Trent",
+    "https://en.wikipedia.org/wiki/Counter-Reformation",
+    "https://en.wikipedia.org/wiki/Jesuits",
+    "https://en.wikipedia.org/wiki/Regimini_militantis_Ecclesiae",
+    "https://en.wikipedia.org/wiki/Roman_Inquisition",
+    "https://en.wikipedia.org/wiki/Ignatius_of_Loyola",
+    "https://en.wikipedia.org/wiki/Teresa_of_Ávila"
+   ]
+  },
+  {
+   "y": 1555.73,
+   "lat": 50.5,
+   "lon": 11.0,
+   "z": 4,
+   "t": "Whose realm, his religion",
+   "c": "Charles V finally went to war against the Protestant Schmalkaldic League and won at Mühlberg on 24 April 1547, but he could not undo the Reformation. The Peace of Augsburg, signed on 25 September 1555, let each prince choose Lutheranism or Catholicism for his land, later summed up as 'cuius regio, eius religio' (whose realm, his religion). People of the other faith were given time to emigrate. Calvinists were left out, a gap that helped cause the next great war.",
+   "w": "Peace of Augsburg",
+   "look": [
+    [
+     48.369,
+     10.898,
+     "Augsburg"
+    ],
+    [
+     51.434,
+     13.221,
+     "Mühlberg"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A city loses its freedom",
+     "t": "Constance refused the Emperor's interim religious settlement; in 1548 Charles V outlawed it, forced it to surrender, restored Catholicism and ended its status as a free imperial city.",
+     "lat": 47.66,
+     "lon": 9.176
+    },
+    {
+     "h": "An emperor retires",
+     "t": "Charles V gave up his crowns in 1556 and retired in 1557 to the monastery of Yuste in Spain, where he died a year later.",
+     "lat": 40.117,
+     "lon": -5.739
+    }
+   ],
+   "img": "Schmalkaldic War",
+   "img_alt": {
+    "file": "File:Titian - Emperor Charles V at Mühlberg - WGA22965.jpg",
+    "by": "Titian, 1548",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Peace_of_Augsburg",
+    "https://en.wikipedia.org/wiki/Schmalkaldic_War",
+    "https://en.wikipedia.org/wiki/Cuius_regio,_eius_religio",
+    "https://en.wikipedia.org/wiki/Konstanz",
+    "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor"
+   ]
+  },
+  {
+   "y": 1566.61,
+   "lat": 51.6,
+   "lon": 4.6,
+   "z": 6,
+   "t": "Image-breakers in the Low Countries",
+   "c": "Charles V and his son Philip II persecuted Protestants harshly in the Low Countries. On 10 August 1566 image-breaking began at Steenvoorde in Flanders, and by October crowds had stripped churches across the country. Philip sent the Duke of Alba, whose 'Council of Blood' convicted about 9,000 people and carried out about 1,000 death sentences, and the Dutch Revolt began. The northern provinces became a Calvinist-led republic that tolerated private worship; the south stayed Spanish and Catholic.",
+   "w": "Beeldenstorm",
+   "look": [
+    [
+     50.81,
+     2.583,
+     "Steenvoorde"
+    ],
+    [
+     51.219,
+     4.402,
+     "Antwerp"
+    ],
+    [
+     52.373,
+     4.893,
+     "Amsterdam"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Brain drain",
+     "t": "When Spain retook Antwerp in 1585, Protestants were given four years to leave. Only 40,000 of the 100,000 people stayed, and many skilled workers moved north, especially to Amsterdam.",
+     "lat": 51.219,
+     "lon": 4.402
+    },
+    {
+     "h": "Church in the attic",
+     "t": "Catholics in the Dutch Republic worshipped in hidden house churches. Amsterdam's 'Our Lord in the Attic', built in 1661–63 under a canal-house roof, still survives.",
+     "lat": 52.375,
+     "lon": 4.899
+    }
+   ],
+   "img": "Beeldenstorm",
+   "img_alt": {
+    "file": "File:Dirck van Delen - Beeldenstorm in een kerk.jpg",
+    "by": "Dirck van Delen, 1630",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Beeldenstorm",
+    "https://nl.wikipedia.org/wiki/Beeldenstorm",
+    "https://en.wikipedia.org/wiki/Council_of_Troubles",
+    "https://en.wikipedia.org/wiki/Fall_of_Antwerp",
+    "https://en.wikipedia.org/wiki/Ons'_Lieve_Heer_op_Solder"
+   ]
+  },
+  {
+   "y": 1572.65,
+   "lat": 46.5,
+   "lon": 2.5,
+   "z": 4,
+   "t": "France's Wars of Religion",
+   "c": "By 1572 perhaps one French person in ten was a Protestant, called Huguenots, many of them nobles. From 1562 a series of civil wars followed. On St Bartholomew's Day, 24 August 1572, Catholic crowds killed Huguenots in Paris and other towns; modern estimates range from 5,000 to 30,000 dead. There was violence on both sides. The Protestant Henry IV converted to Catholicism in 1593 and in 1598 granted the Huguenots toleration in the Edict of Nantes.",
+   "w": "French Wars of Religion",
+   "look": [
+    [
+     48.86,
+     2.341,
+     "Paris"
+    ],
+    [
+     46.16,
+     -1.151,
+     "La Rochelle"
+    ],
+    [
+     47.218,
+     -1.554,
+     "Nantes"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Paris is worth a Mass",
+     "t": "Henry IV is said to have declared that 'Paris is well worth a Mass' when he converted at Saint-Denis in 1593, but the attribution is doubtful.",
+     "lat": 48.936,
+     "lon": 2.36
+    },
+    {
+     "h": "Toleration revoked",
+     "t": "Louis XIV revoked the Edict of Nantes in 1685. Over the next two decades between 210,000 and 900,000 Protestants (estimates vary) left for the Dutch Republic, England, Prussia, Switzerland and beyond.",
+     "lat": 48.404,
+     "lon": 2.701
+    }
+   ],
+   "img": "St. Bartholomew's Day massacre",
+   "img_alt": {
+    "file": "File:François Dubois - Le massacre de la Saint-Barthélemy - 729 -DUBOIS num4000 nr.jpg",
+    "by": "François Dubois, c. 1572–1584",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/French_Wars_of_Religion",
+    "https://en.wikipedia.org/wiki/Huguenots",
+    "https://en.wikipedia.org/wiki/St._Bartholomew's_Day_massacre",
+    "https://en.wikipedia.org/wiki/Henry_IV_of_France",
+    "https://en.wikipedia.org/wiki/Edict_of_Nantes",
+    "https://en.wikipedia.org/wiki/Edict_of_Fontainebleau"
+   ]
+  },
+  {
+   "y": 1648.81,
+   "lat": 51.0,
+   "lon": 12.0,
+   "z": 3,
+   "t": "Westphalia and a divided Europe",
+   "c": "In 1618 Bohemian Protestants threw two imperial regents out of a window in Prague, starting the Thirty Years' War, in which religion mixed with power politics. An estimated 4.5 to 8 million people died. The Peace of Westphalia (October 1648) recognised Calvinism and fixed each territory's faith as it stood on 1 January 1624. That map is still visible: a mostly Protestant north, a Catholic south, and Bibles in everyday languages, which many historians link to higher literacy in Protestant lands (how much is debated).",
+   "w": "Peace of Westphalia",
+   "look": [
+    [
+     51.962,
+     7.626,
+     "Münster"
+    ],
+    [
+     52.279,
+     8.047,
+     "Osnabrück"
+    ],
+    [
+     50.09,
+     14.4,
+     "Prague"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Out of the window",
+     "t": "All three men thrown from Prague Castle in 1618 survived. Catholics credited angels or the Virgin Mary; the Protestant story that they landed on a dung heap was probably invented later.",
+     "lat": 50.09,
+     "lon": 14.4
+    },
+    {
+     "h": "Reading made compulsory",
+     "t": "Sweden's church law of 1686 made it compulsory to learn to read. By 1800 almost all Swedes could read, though far fewer could write.",
+     "lat": 59.858,
+     "lon": 17.639
+    }
+   ],
+   "img": "Peace of Münster",
+   "img_alt": {
+    "file": "File:Westfaelischer Friede in Muenster (Gerard Terborch 1648).jpg",
+    "by": "Gerard ter Borch, 1648 (oath on the Peace of Münster)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Thirty_Years'_War",
+    "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+    "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+    "https://en.wikipedia.org/wiki/Literacy"
+   ]
+  }
+ ]
+}

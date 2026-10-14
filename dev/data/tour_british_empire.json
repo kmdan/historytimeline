@@ -1,0 +1,929 @@
+{
+ "id": "british_empire",
+ "title": "How Britain became an empire",
+ "blurb": "From Elizabethan privateers to the 1890s: sea power, trading companies, sugar and slavery, abolition, industry, conquest and famine in the making of the British Empire.",
+ "cat": "Revolutions & empires",
+ "steps": [
+  {
+   "y": 1580.738,
+   "lat": 15,
+   "lon": -40,
+   "z": 1,
+   "t": "Sea dogs and Spanish silver",
+   "c": "In the 1570s England was a minor sea power, and Spain and Portugal held the riches of the Americas and Asia. Privateers such as John Hawkins, who also ran England's first slaving voyages (1562-69), and Francis Drake raided Spanish shipping with the Queen's quiet backing. On 26 September 1580 Drake's Golden Hind came home to Plymouth after sailing around the world with a hold full of Spanish silver, much of it taken from the treasure ship Cacafuego off Ecuador. Elizabeth I knighted him on board at Deptford in 1581.",
+   "w": "Francis Drake's circumnavigation",
+   "look": [
+    [
+     50.37,
+     -4.14,
+     "Plymouth"
+    ],
+    [
+     9.55,
+     -79.65,
+     "Nombre de Dios (raided 1572)"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ambush at San Juan de Ulúa",
+     "t": "In 1568 a Spanish fleet attacked Hawkins's slave-trading ships in the Mexican harbour; only Hawkins's and Drake's ships escaped, and Drake swore revenge on Spain.",
+     "lat": 19.21,
+     "lon": -96.13
+    },
+    {
+     "h": "Nova Albion",
+     "t": "In June 1579 Drake beached his ship somewhere on the California coast and claimed the land for Elizabeth as 'Nova Albion'. The exact bay is still debated.",
+     "lat": 38.0,
+     "lon": -122.95
+    }
+   ],
+   "img_alt": {
+    "file": "File:Gheeraerts Francis Drake 1591.jpg",
+    "by": "Marcus Gheeraerts the Younger, 1591 (portrait of Drake)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Francis_Drake's_circumnavigation",
+    "https://en.wikipedia.org/wiki/Francis_Drake",
+    "https://en.wikipedia.org/wiki/John_Hawkins_(naval_commander)",
+    "https://en.wikipedia.org/wiki/Battle_of_San_Juan_de_Ulúa_(1568)"
+   ]
+  },
+  {
+   "y": 1588.604,
+   "lat": 52,
+   "lon": -2,
+   "z": 4,
+   "t": "The Armada",
+   "c": "In 1588 Philip II of Spain sent 141 ships with about 19,000 soldiers and 10,000 sailors to escort an invasion army from Flanders. Smaller, better-gunned English ships harried the Armada up the Channel; on the night of 7-8 August fireships broke its anchorage off Calais, and next day it was mauled at Gravelines. Unable to turn back, the fleet sailed home round Scotland and Ireland, where storms wrecked dozens of ships; about 44 were lost. The victory became a founding legend of English sea power, though Spain rebuilt its navy and the war lasted until 1604.",
+   "w": "Spanish Armada",
+   "look": [
+    [
+     50.96,
+     1.85,
+     "Calais"
+    ],
+    [
+     51.0,
+     2.13,
+     "Gravelines"
+    ],
+    [
+     50.37,
+     -4.14,
+     "Plymouth"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Shipwrecked on Fair Isle",
+     "t": "The supply ship El Gran Grifón was wrecked on Fair Isle between Orkney and Shetland; about 260 Spaniards lived among the islanders for weeks before moving on.",
+     "lat": 59.53,
+     "lon": -1.63
+    },
+    {
+     "h": "Streedagh Strand",
+     "t": "Three Armada ships were wrecked on this Irish beach in September 1588; well over a thousand men drowned or were killed ashore.",
+     "lat": 54.4,
+     "lon": -8.57
+    }
+   ],
+   "img_alt": {
+    "file": "File:Loutherbourg-Spanish Armada.jpg",
+    "by": "Philip James de Loutherbourg, 1796",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Spanish_Armada",
+    "https://en.wikipedia.org/wiki/Battle_of_Gravelines",
+    "https://en.wikipedia.org/wiki/Spanish_Armada_in_Ireland"
+   ]
+  },
+  {
+   "y": 1601.001,
+   "lat": 20,
+   "lon": 60,
+   "z": 1,
+   "t": "A company for the East Indies",
+   "c": "On 31 December 1600 Elizabeth I gave a charter to the 'Governor and Company of Merchants of London trading into the East Indies', a monopoly on English trade east of the Cape of Good Hope. Its first fleet under James Lancaster reached Aceh and Bantam on Java in 1602 for pepper, but the richer Dutch East India Company (1602) pushed the English out of the Spice Islands. The company turned to India: after its ships beat a Portuguese squadron off Swally in 1612, it won Mughal permission for a trading post at Surat, followed by Madras (1639), Bombay (1668) and Calcutta (1690).",
+   "w": "East India Company",
+   "look": [
+    [
+     51.51,
+     -0.08,
+     "London"
+    ],
+    [
+     -6.03,
+     106.16,
+     "Bantam"
+    ],
+    [
+     21.17,
+     72.83,
+     "Surat"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Amboyna, 1623",
+     "t": "Dutch officials on Ambon tortured and executed ten English company men (with nine Japanese and a Portuguese) for an alleged plot; it ended English hopes in the Spice Islands.",
+     "lat": -3.69,
+     "lon": 128.18
+    },
+    {
+     "h": "An English post in Japan",
+     "t": "The company kept a trading house at Hirado in Japan from 1613 to 1623, but English woollens did not sell and it closed at a loss.",
+     "lat": 33.37,
+     "lon": 129.55
+    }
+   ],
+   "img_alt": {
+    "file": "File:British (English) School - East India Company Ships at Deptford - BHC1873 - Royal Museums Greenwich.jpg",
+    "by": "British School, c. 1683 (Royal Museums Greenwich)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/East_India_Company",
+    "https://en.wikipedia.org/wiki/James_Lancaster",
+    "https://en.wikipedia.org/wiki/Battle_of_Swally",
+    "https://en.wikipedia.org/wiki/Amboyna_massacre"
+   ]
+  },
+  {
+   "y": 1619.634,
+   "lat": 38,
+   "lon": -73,
+   "z": 4,
+   "t": "Jamestown and tobacco",
+   "c": "After the failed 'Lost Colony' of Roanoke (1585-90), the Virginia Company founded Jamestown on 14 May 1607. Most early settlers died: of about 500 people at the start of the 'Starving Time' winter of 1609-10, only 61 were alive in spring. The colony survived by growing sweet tobacco, exported by John Rolfe from 1614, on land taken from the Powhatan peoples. In 1619 Virginia held the first elected assembly in English America, and the first recorded enslaved Africans were landed at Point Comfort; a year later the Pilgrims founded Plymouth in New England.",
+   "w": "Jamestown, Virginia",
+   "look": [
+    [
+     37.21,
+     -76.78,
+     "Jamestown"
+    ],
+    [
+     37.0,
+     -76.31,
+     "Point Comfort"
+    ],
+    [
+     41.96,
+     -70.67,
+     "Plymouth"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Lost Colony",
+     "t": "When John White returned to Roanoke in 1590, the 115 settlers he had left in 1587 were gone; only the word 'CROATOAN' was carved on a post.",
+     "lat": 35.93,
+     "lon": -75.7
+    },
+    {
+     "h": "The wreck that settled Bermuda",
+     "t": "The Sea Venture, carrying settlers to Jamestown, was wrecked on Bermuda in 1609; the story is thought to have inspired Shakespeare's 'The Tempest'.",
+     "lat": 32.37,
+     "lon": -64.68
+    }
+   ],
+   "img_alt": {
+    "file": "File:Baptism of Pocahontas.jpg",
+    "by": "John Gadsby Chapman, 1840",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Jamestown,_Virginia",
+    "https://en.wikipedia.org/wiki/Starving_Time",
+    "https://en.wikipedia.org/wiki/Roanoke_Colony",
+    "https://en.wikipedia.org/wiki/House_of_Burgesses",
+    "https://en.wikipedia.org/wiki/Pocahontas"
+   ]
+  },
+  {
+   "y": 1667.473,
+   "lat": 52,
+   "lon": 2,
+   "z": 4,
+   "t": "Navigation Acts and a navy",
+   "c": "The Navigation Acts (1651, 1660 and later) said colonial goods such as sugar and tobacco must travel in English ships to English ports - a blow aimed at the Dutch, who dominated European shipping. Three Anglo-Dutch wars followed. In June 1667 the Dutch raided the Medway, burned ships at Chatham and towed away the flagship Royal Charles, but England kept New Amsterdam, taken in 1664 and renamed New York. Funded by taxes and from 1694 by loans through the Bank of England, the Royal Navy became the world's strongest from the mid-18th century; the acts lasted until 1849.",
+   "w": "Navigation Acts",
+   "look": [
+    [
+     51.4,
+     0.53,
+     "Chatham (Medway)"
+    ],
+    [
+     40.7,
+     -74.01,
+     "New York"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Gibraltar",
+     "t": "An Anglo-Dutch fleet took Gibraltar on 4 August 1704; Spain ceded it at Utrecht in 1713 and it remains British.",
+     "lat": 36.14,
+     "lon": -5.35
+    },
+    {
+     "h": "A bank for a war",
+     "t": "The Bank of England was founded in 1694 to lend £1.2 million to the government of William III for the war against France.",
+     "lat": 51.514,
+     "lon": -0.089
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Raid on the Medway by Willem Schellinks Rijksmuseum Amsterdam SK-C-1737.jpg",
+    "by": "Willem Schellinks, c. 1668",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Navigation_Acts",
+    "https://en.wikipedia.org/wiki/Raid_on_the_Medway",
+    "https://en.wikipedia.org/wiki/Anglo-Dutch_Wars",
+    "https://en.wikipedia.org/wiki/Royal_Navy",
+    "https://en.wikipedia.org/wiki/Bank_of_England"
+   ]
+  },
+  {
+   "y": 1700.5,
+   "lat": 12,
+   "lon": -40,
+   "z": 2,
+   "t": "Sugar and the slave trade",
+   "c": "Barbados, settled in 1627, switched to sugar in the 1640s, and Jamaica, taken from Spain in 1655, became Britain's richest colony. The plantations ran on enslaved Africans. The Royal African Company (1672) and then private traders from London, Bristol and Liverpool carried about 3.1 million Africans across the Atlantic on British ships before 1807 - in the 18th century more than any other nation (SlaveVoyages estimate; exact totals debated). Roughly one in seven died at sea, and deaths on the plantations were so high that the enslaved population only grew through new arrivals.",
+   "w": "Atlantic slave trade",
+   "look": [
+    [
+     13.1,
+     -59.62,
+     "Barbados"
+    ],
+    [
+     17.94,
+     -76.84,
+     "Jamaica"
+    ],
+    [
+     5.1,
+     -1.24,
+     "Cape Coast Castle"
+    ],
+    [
+     4.43,
+     7.17,
+     "Bonny"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Port Royal sinks",
+     "t": "On 7 June 1692 an earthquake sank much of Port Royal, Jamaica's rich buccaneer and trading town, killing about 2,000 people.",
+     "lat": 17.94,
+     "lon": -76.84
+    },
+    {
+     "h": "Liverpool's slave ships",
+     "t": "By the late 18th century most British slaving voyages started from Liverpool, which grew rich on the trade.",
+     "lat": 53.41,
+     "lon": -2.99
+    }
+   ],
+   "img_alt": {
+    "file": "File:Slaves cutting the sugar cane - Ten Views in the Island of Antigua (1823), plate IV - BL.jpg",
+    "by": "William Clark, 1823 (Ten Views in the Island of Antigua)",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+    "https://en.wikipedia.org/wiki/Sugar_plantations_in_the_Caribbean",
+    "https://en.wikipedia.org/wiki/Royal_African_Company",
+    "https://en.wikipedia.org/wiki/Middle_Passage",
+    "https://en.wikipedia.org/wiki/1692_Jamaica_earthquake"
+   ]
+  },
+  {
+   "y": 1759.7,
+   "lat": 35,
+   "lon": -20,
+   "z": 1,
+   "t": "The Seven Years' War",
+   "c": "Britain and France fought the Seven Years' War (1756-63) across the globe. In Bengal, Robert Clive's 3,000 company troops beat the Nawab Siraj ud-Daulah at Plassey on 23 June 1757 after the Nawab's general Mir Jafar held his troops back; Clive made him Nawab. In 1759, Britain's 'year of victories', James Wolfe took Quebec (he and the French general Montcalm both died) and Hawke wrecked the French fleet at Quiberon Bay. The 1763 Treaty of Paris gave Britain Canada and Florida, and in 1765 the company won the right to collect the taxes of Bengal, Bihar and Orissa.",
+   "w": "Seven Years' War",
+   "look": [
+    [
+     23.8,
+     88.25,
+     "Plassey"
+    ],
+    [
+     46.8,
+     -71.22,
+     "Quebec"
+    ],
+    [
+     47.52,
+     -3.0,
+     "Quiberon Bay"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Manila, 1762",
+     "t": "A British force from Madras captured Spanish Manila in October 1762 and held it until 1764.",
+     "lat": 14.59,
+     "lon": 120.97
+    },
+    {
+     "h": "Havana, 1762",
+     "t": "British troops took Havana after a two-month siege in which disease killed thousands of soldiers; it was swapped back to Spain for Florida.",
+     "lat": 23.14,
+     "lon": -82.36
+    }
+   ],
+   "img_alt": {
+    "file": "File:Benjamin West 005.jpg",
+    "by": "Benjamin West, 1770 (The Death of General Wolfe)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Seven_Years'_War",
+    "https://en.wikipedia.org/wiki/Battle_of_Plassey",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Plains_of_Abraham",
+    "https://en.wikipedia.org/wiki/Battle_of_Quiberon_Bay",
+    "https://en.wikipedia.org/wiki/Treaty_of_Allahabad"
+   ]
+  },
+  {
+   "y": 1781.799,
+   "lat": 38,
+   "lon": -70,
+   "z": 3,
+   "t": "Losing America",
+   "c": "Victory left huge debts, and Britain taxed its American colonies (Stamp Act 1765, tea duty) and closed Boston harbour after the Boston Tea Party of 1773. The Thirteen Colonies declared independence on 4 July 1776 and, with French, Spanish and Dutch help, won: on 19 October 1781 Cornwallis's army of about 8,000 British and German troops surrendered at Yorktown. The Treaty of Paris (3 September 1783) recognised the United States. Tens of thousands of Loyalists left, many for Nova Scotia and Quebec, and Britain turned more towards India and the East.",
+   "w": "American Revolutionary War",
+   "look": [
+    [
+     37.23,
+     -76.5,
+     "Yorktown"
+    ],
+    [
+     42.36,
+     -71.05,
+     "Boston"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Saintes, 1782",
+     "t": "Six months after Yorktown, Admiral Rodney beat the French fleet near Guadeloupe and saved Jamaica from a planned invasion.",
+     "lat": 15.78,
+     "lon": -61.6
+    },
+    {
+     "h": "From Nova Scotia to Freetown",
+     "t": "Black Loyalists who had won freedom by fighting for Britain were settled in Nova Scotia; in 1792 about 1,200 of them sailed to found Freetown in Sierra Leone.",
+     "lat": 43.76,
+     "lon": -65.32
+    }
+   ],
+   "img_alt": {
+    "file": "File:Surrender of Lord Cornwallis.jpg",
+    "by": "John Trumbull, 1820",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+    "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+    "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)",
+    "https://en.wikipedia.org/wiki/Black_Loyalist",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Saintes"
+   ]
+  },
+  {
+   "y": 1788.07,
+   "lat": -32,
+   "lon": 150,
+   "z": 4,
+   "t": "Convicts to Australia",
+   "c": "With America closed to British convicts, the government sent them to New South Wales, charted by James Cook in 1770. The First Fleet's 11 ships carried about 1,400 people, more than half of them convicts, and Arthur Phillip raised the flag at Sydney Cove on 26 January 1788. Until 1868 about 162,000 convicts were transported to Australia. For Aboriginal peoples, starting with the Eora of Sydney, colonisation meant the loss of land, violence and disease - a smallpox epidemic in 1789 killed many (its origin is debated).",
+   "w": "First Fleet",
+   "look": [
+    [
+     -33.86,
+     151.21,
+     "Sydney Cove"
+    ],
+    [
+     -33.99,
+     151.2,
+     "Botany Bay"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Van Diemen's Land",
+     "t": "In Tasmania, settled from 1803-04, the 'Black War' of the 1820s and early 1830s and its aftermath nearly destroyed the island's Aboriginal population.",
+     "lat": -42.0,
+     "lon": 147.0
+    },
+    {
+     "h": "Treaty of Waitangi",
+     "t": "On 6 February 1840 Māori chiefs signed a treaty with Britain; its English and Māori texts differ on sovereignty, and its meaning is still debated in New Zealand.",
+     "lat": -35.27,
+     "lon": 174.08
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Founding of Australia. By Capt. Arthur Phillip R.N. Sydney Cove, Jan. 26th 1788.jpg",
+    "by": "Algernon Talmage, 1937",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Fleet",
+    "https://en.wikipedia.org/wiki/Convicts_in_Australia",
+    "https://en.wikipedia.org/wiki/Smallpox_in_Australia",
+    "https://en.wikipedia.org/wiki/Black_War",
+    "https://en.wikipedia.org/wiki/Treaty_of_Waitangi"
+   ]
+  },
+  {
+   "y": 1807.229,
+   "lat": 15,
+   "lon": -20,
+   "z": 2,
+   "t": "Ruling the waves, ending the trade",
+   "c": "In the wars against Revolutionary and Napoleonic France (1793-1815) the navy won command of the seas, above all at Trafalgar on 21 October 1805, and picked up French and Dutch colonies such as the Cape, Ceylon and Mauritius. At home, abolitionists - Thomas Clarkson, Granville Sharp, the formerly enslaved Olaudah Equiano and William Wilberforce in Parliament - campaigned for twenty years; the Slave Trade Act of 25 March 1807 banned British slave trading. Slavery itself ended in most of the empire on 1 August 1834; slave owners received £20 million in compensation, the freed people nothing and had to work on as 'apprentices' until 1838. The navy's West Africa Squadron captured about 6% of the Atlantic slave ships and freed about 150,000 Africans.",
+   "w": "Slave Trade Act 1807",
+   "look": [
+    [
+     8.48,
+     -13.23,
+     "Freetown"
+    ],
+    [
+     36.18,
+     -6.03,
+     "Trafalgar"
+    ],
+    [
+     51.5,
+     -0.13,
+     "London"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Jamaica's Christmas rising",
+     "t": "In 1831-32 tens of thousands of enslaved Jamaicans, led by the Baptist deacon Samuel Sharpe, went on strike and rebelled; the rising was crushed and hundreds were executed, but it hastened abolition.",
+     "lat": 18.47,
+     "lon": -77.92
+    },
+    {
+     "h": "The Cape changes hands",
+     "t": "Britain took the Dutch Cape Colony in 1806 at the Battle of Blaauwberg to secure the sea route to India; it was formally ceded in 1814.",
+     "lat": -33.92,
+     "lon": 18.42
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Capture of the slaver Gabriel by HMS Acorn, 6 July 1841 RMG BHC0628.jpg",
+    "by": "Nicholas Matthews Condy, 1841",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Slave_Trade_Act_1807",
+    "https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833",
+    "https://en.wikipedia.org/wiki/West_Africa_Squadron",
+    "https://en.wikipedia.org/wiki/Battle_of_Trafalgar",
+    "https://en.wikipedia.org/wiki/Baptist_War"
+   ]
+  },
+  {
+   "y": 1830.705,
+   "lat": 35,
+   "lon": 0,
+   "z": 1,
+   "t": "Cotton and the Industrial Revolution",
+   "c": "Inventions such as Arkwright's water frame (1769) and steam-powered mills made Manchester 'Cottonopolis'. Much of the raw cotton came from enslaved labour on plantations in the American South, shipped through Liverpool. Machines reversed an old trade: India had long exported fine cotton cloth to Europe, but from the 1810s cheap Lancashire cloth, helped by British tariffs on Indian textiles and the end of the company's trade monopoly in 1813, flooded Indian markets and many hand-weavers lost their living (how far India 'deindustrialised' is debated). The Liverpool and Manchester Railway, the first steam inter-city line, opened in 1830.",
+   "w": "Industrial Revolution",
+   "look": [
+    [
+     53.48,
+     -2.24,
+     "Manchester"
+    ],
+    [
+     53.41,
+     -2.99,
+     "Liverpool"
+    ],
+    [
+     23.71,
+     90.41,
+     "Dhaka"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Dhaka muslin",
+     "t": "Dhaka was famous for muslin so fine it was called 'woven air'; the industry collapsed in the 19th century.",
+     "lat": 23.71,
+     "lon": 90.41
+    },
+    {
+     "h": "King Cotton",
+     "t": "By the mid-19th century most of Britain's raw cotton came from the slave states of the American South, much of it shipped from New Orleans.",
+     "lat": 29.95,
+     "lon": -90.07
+    }
+   ],
+   "img_alt": {
+    "file": "File:Wyld, William - Manchester from Kersal Moor, with rustic figures and goats - Google Art Project.jpg",
+    "by": "William Wyld, 1852",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Industrial_Revolution",
+    "https://en.wikipedia.org/wiki/Cottonopolis",
+    "https://en.wikipedia.org/wiki/Liverpool_and_Manchester_Railway",
+    "https://en.wikipedia.org/wiki/De-industrialisation_of_India",
+    "https://en.wikipedia.org/wiki/Dhaka_muslin"
+   ]
+  },
+  {
+   "y": 1842.659,
+   "lat": 26,
+   "lon": 116,
+   "z": 4,
+   "t": "Opium and Hong Kong",
+   "c": "Britain bought huge amounts of Chinese tea but sold little China wanted, so the company grew opium in Bengal and sold it to private traders who smuggled it into China, about 20,000 chests a year by 1831. When the commissioner Lin Zexu seized and destroyed some 1,000 tons of British-owned opium at Humen in June 1839, Britain sent a fleet that included the company's iron steamer Nemesis. The Treaty of Nanking (29 August 1842) ceded Hong Kong, opened five ports to British trade and made China pay 21 million dollars. A Second Opium War (1856-60) forced China to legalise the trade.",
+   "w": "First Opium War",
+   "look": [
+    [
+     23.11,
+     113.25,
+     "Canton"
+    ],
+    [
+     22.28,
+     114.16,
+     "Hong Kong"
+    ],
+    [
+     32.06,
+     118.78,
+     "Nanjing"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Humen",
+     "t": "Lin Zexu had the confiscated opium mixed with lime and salt and flushed into the sea over 23 days in June 1839.",
+     "lat": 22.82,
+     "lon": 113.67
+    },
+    {
+     "h": "Shanghai",
+     "t": "Opened as a treaty port in 1843, Shanghai grew from a county town into China's biggest city, with a British-run settlement until 1943.",
+     "lat": 31.24,
+     "lon": 121.49
+    }
+   ],
+   "img_alt": {
+    "file": "File:Destroying Chinese war junks, by E. Duncan (1843).jpg",
+    "by": "Edward Duncan, 1843",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Opium_War",
+    "https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen",
+    "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
+    "https://en.wikipedia.org/wiki/Nemesis_(1839)",
+    "https://en.wikipedia.org/wiki/Second_Opium_War"
+   ]
+  },
+  {
+   "y": 1857.722,
+   "lat": 26,
+   "lon": 80,
+   "z": 5,
+   "t": "1857 and the Raj",
+   "c": "By 1857 the company ruled most of India directly or through princes, after wars against Mysore, the Marathas and the Sikhs and annexations such as Awadh in 1856. On 10 May 1857 Indian soldiers (sepoys) at Meerut mutinied, marched to Delhi and proclaimed the aged Mughal Bahadur Shah Zafar emperor; revolt spread across the north. Both sides committed atrocities: British women and children were massacred at Kanpur, and British reprisals killed many thousands, including civilians (the total death toll is unknown and debated). In 1858 the Crown took over from the company, and in 1877 Victoria became Empress of India.",
+   "w": "Indian Rebellion of 1857",
+   "look": [
+    [
+     28.98,
+     77.71,
+     "Meerut"
+    ],
+    [
+     28.66,
+     77.23,
+     "Delhi"
+    ],
+    [
+     26.86,
+     80.94,
+     "Lucknow"
+    ],
+    [
+     26.45,
+     80.33,
+     "Kanpur"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Lucknow Residency",
+     "t": "About 1,700 troops and hundreds of civilians held the British Residency for 87 days before the first relief force arrived in September 1857.",
+     "lat": 26.86,
+     "lon": 80.94
+    },
+    {
+     "h": "The last Mughal",
+     "t": "Bahadur Shah Zafar was tried and exiled to Rangoon, where he died in 1862, ending the Mughal dynasty.",
+     "lat": 16.8,
+     "lon": 96.15
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Relief of Lucknow, 1857 by Thomas Jones Barker.jpg",
+    "by": "Thomas Jones Barker, 1859",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857",
+    "https://en.wikipedia.org/wiki/Siege_of_Delhi",
+    "https://en.wikipedia.org/wiki/Siege_of_Lucknow",
+    "https://en.wikipedia.org/wiki/Government_of_India_Act_1858",
+    "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+   ]
+  },
+  {
+   "y": 1866.568,
+   "lat": 45,
+   "lon": -20,
+   "z": 1,
+   "t": "Steam and the wire",
+   "c": "Steam shrank the empire. P&O steamers carried mail towards India from 1840, and the company's iron gunboat Nemesis showed in China what steam warships could do. In July 1866 Brunel's giant Great Eastern laid the first lasting transatlantic telegraph cable, from Valentia in Ireland to Heart's Content in Newfoundland; by 1870 a cable via Suez and Aden linked Britain to Bombay, so messages took hours instead of weeks. Cables were insulated with gutta-percha, a latex from Malayan trees, and by 1902 the 'All Red Line' of British cables circled the globe.",
+   "w": "Transatlantic telegraph cable",
+   "look": [
+    [
+     51.93,
+     -10.35,
+     "Valentia"
+    ],
+    [
+     47.88,
+     -53.37,
+     "Heart's Content"
+    ],
+    [
+     18.94,
+     72.84,
+     "Bombay"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Porthcurno",
+     "t": "This Cornish cove became the landing point of the 1870 cable to India and later the hub of the world's largest cable network.",
+     "lat": 50.04,
+     "lon": -5.66
+    },
+    {
+     "h": "Gutta-percha",
+     "t": "A Scottish surgeon of the East India Company brought gutta-percha to Europe in the 1840s; it made undersea cables possible.",
+     "lat": 1.35,
+     "lon": 103.82
+    }
+   ],
+   "img_alt": {
+    "file": "File:Deck of the Great Eastern, the Cable Trough, etc., 1866 MET DP820957.jpg",
+    "by": "Robert Charles Dudley, 1865-66",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+    "https://en.wikipedia.org/wiki/SS_Great_Eastern",
+    "https://en.wikipedia.org/wiki/All_Red_Line",
+    "https://en.wikipedia.org/wiki/Submarine_communications_cable",
+    "https://en.wikipedia.org/wiki/P&O_(company)"
+   ]
+  },
+  {
+   "y": 1877.001,
+   "lat": 20,
+   "lon": 78,
+   "z": 4,
+   "t": "Railways and famine",
+   "c": "British rule built railways, canals, telegraphs and courts, and ran India largely for trade and revenue. It also saw repeated famines. In the Great Famine of 1876-78 an estimated 5.6 to 9.6 million people died in southern and western India; while it raged, the viceroy Lord Lytton held the lavish Delhi Durbar of 1 January 1877 proclaiming Victoria Empress of India, and grain exports continued. Historians debate how much drought (an El Niño) and how much British policy - low relief, high taxes, free-market dogma - caused the deaths. Famine Codes followed in the 1880s.",
+   "w": "Great Famine of 1876–1878",
+   "look": [
+    [
+     13.08,
+     80.29,
+     "Madras"
+    ],
+    [
+     28.72,
+     77.2,
+     "Delhi Durbar"
+    ],
+    [
+     12.97,
+     77.59,
+     "Bangalore"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Bengal, 1770",
+     "t": "Only five years after the company took over Bengal's taxes, a famine killed an estimated 7-10 million people; how much company policy worsened it is debated.",
+     "lat": 24.18,
+     "lon": 88.27
+    },
+    {
+     "h": "A canal dug by the starving",
+     "t": "Parts of the Buckingham Canal along the Coromandel coast were dug as famine-relief work in 1876-78.",
+     "lat": 13.6,
+     "lon": 80.2
+    }
+   ],
+   "img_alt": {
+    "file": "File:Valentine Cameron Prinsep (1838-1904) - The Imperial Assemblage held at Delhi, 1 January 1877 - RCIN 407181 - Royal Collection.jpg",
+    "by": "Valentine Cameron Prinsep, 1877-80",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Famine_of_1876–1878",
+    "https://en.wikipedia.org/wiki/Delhi_Durbar",
+    "https://en.wikipedia.org/wiki/Famines_in_India",
+    "https://en.wikipedia.org/wiki/Bengal_famine_of_1770",
+    "https://en.wikipedia.org/wiki/Indian_Famine_Codes"
+   ]
+  },
+  {
+   "y": 1882.7,
+   "lat": 29,
+   "lon": 33,
+   "z": 5,
+   "t": "Suez and Egypt",
+   "c": "The French-built Suez Canal opened on 17 November 1869 and cut the sea route from London to Bombay by about 40%. In November 1875 Prime Minister Disraeli bought the Egyptian ruler's 176,602 canal shares (44%) for £4 million, lent by the Rothschilds. When an army revolt under Ahmed Urabi threatened Egypt's European creditors, Britain bombarded Alexandria (July 1882), crushed Urabi at Tel el-Kebir on 13 September 1882 and occupied Egypt, which it ran in practice until 1922 while keeping troops at the canal until 1956.",
+   "w": "Suez Canal",
+   "look": [
+    [
+     31.26,
+     32.3,
+     "Port Said"
+    ],
+    [
+     30.55,
+     31.83,
+     "Tel el-Kebir"
+    ],
+    [
+     31.2,
+     29.92,
+     "Alexandria"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Aden",
+     "t": "The East India Company took Aden in 1839 as a coaling station; after 1869 it became one of the busiest ports on the Suez route.",
+     "lat": 12.78,
+     "lon": 45.03
+    },
+    {
+     "h": "Cyprus, 1878",
+     "t": "At the Congress of Berlin the Ottomans let Britain run Cyprus as a base to guard the route to India.",
+     "lat": 35.17,
+     "lon": 33.36
+    }
+   ],
+   "img_alt": {
+    "file": "File:L'inauguration du canal de Suez, 17 November 1869 Gal18 riou 001f.jpg",
+    "by": "Édouard Riou, 1869",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Suez_Canal",
+    "https://en.wikipedia.org/wiki/Suez_Canal_Company",
+    "https://en.wikipedia.org/wiki/Anglo-Egyptian_War",
+    "https://en.wikipedia.org/wiki/Battle_of_Tel_el-Kebir",
+    "https://en.wikipedia.org/wiki/Cyprus_Convention"
+   ]
+  },
+  {
+   "y": 1898.67,
+   "lat": 2,
+   "lon": 22,
+   "z": 2,
+   "t": "The Scramble for Africa",
+   "c": "At the Berlin Conference (1884-85) European powers agreed rules for claiming Africa; within 30 years almost all of it was colonised. Britain's share ran from Egypt and Sudan to the Cape, often won by chartered companies such as the Royal Niger Company and Cecil Rhodes's British South Africa Company. Africans resisted: a Zulu army destroyed a British column at Isandlwana in 1879, and the Boers won at Majuba in 1881. But machine guns usually decided: at Omdurman on 2 September 1898 about 12,000 Sudanese were killed for under 50 British and Egyptian dead. In 1897 a punitive expedition burned Benin City and carried off the Benin Bronzes.",
+   "w": "Scramble for Africa",
+   "look": [
+    [
+     -28.36,
+     30.65,
+     "Isandlwana"
+    ],
+    [
+     15.7,
+     32.5,
+     "Omdurman"
+    ],
+    [
+     6.34,
+     5.63,
+     "Benin City"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Fashoda, 1898",
+     "t": "Days after Omdurman, Kitchener faced a small French force at Fashoda on the White Nile; France backed down, settling the Nile for Britain.",
+     "lat": 9.88,
+     "lon": 32.07
+    },
+    {
+     "h": "Rhodesia",
+     "t": "Rhodes's company sent a Pioneer Column to found Fort Salisbury in 1890; the Ndebele and Shona risings of 1896-97 were crushed.",
+     "lat": -17.83,
+     "lon": 31.05
+    }
+   ],
+   "img_alt": {
+    "file": "File:Charles Edwin Fripp (1854-1906) - The Battle of Isandlwana, 22 January 1879 - NAM. 1960-11-182 - National Army Museum.jpg",
+    "by": "Charles Edwin Fripp, 1885",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Scramble_for_Africa",
+    "https://en.wikipedia.org/wiki/Berlin_Conference",
+    "https://en.wikipedia.org/wiki/Battle_of_Isandlwana",
+    "https://en.wikipedia.org/wiki/Battle_of_Omdurman",
+    "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+   ]
+  },
+  {
+   "y": 1913.497,
+   "lat": 20,
+   "lon": 30,
+   "z": 1,
+   "t": "The empire at its height",
+   "c": "At Queen Victoria's Diamond Jubilee in June 1897 troops from across the empire paraded through London. By 1913 the empire ruled about 412 million people, 23% of the world's population, and by 1920 it covered 35.5 million km², about 24% of Earth's land - the largest empire in history. It spread railways, ports, English law and language and a world trading system, but also borders drawn without asking local people, famines, and the violence of conquest - in the Boer War (1899-1902) about 28,000 Boers, mostly children, and many thousands of Black Africans died in British concentration camps. Canada, Australia and New Zealand already governed themselves; most colonies won independence after 1945.",
+   "w": "British Empire",
+   "look": [
+    [
+     51.5,
+     -0.13,
+     "London"
+    ],
+    [
+     -29.12,
+     26.21,
+     "Bloemfontein"
+    ],
+    [
+     28.61,
+     77.21,
+     "Delhi"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Dominion of Canada",
+     "t": "Canada became a self-governing dominion on 1 July 1867, the model later followed by Australia (1901) and New Zealand (1907).",
+     "lat": 45.42,
+     "lon": -75.7
+    },
+    {
+     "h": "The camps",
+     "t": "In the Boer War British forces burned farms and held Boer and Black African civilians in camps; disease killed about one in four Boer inmates.",
+     "lat": -29.12,
+     "lon": 26.21
+    }
+   ],
+   "img_alt": {
+    "file": "File:Queen Victoria's Diamond Jubilee Service, 22 June 1897.jpg",
+    "by": "Andrew Carrick Gow, 1899",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/British_Empire",
+    "https://en.wikipedia.org/wiki/Diamond_Jubilee_of_Queen_Victoria",
+    "https://en.wikipedia.org/wiki/Second_Boer_War_concentration_camps",
+    "https://en.wikipedia.org/wiki/Dominion"
+   ]
+  }
+ ]
+}

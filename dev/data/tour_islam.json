@@ -1,0 +1,884 @@
+{
+ "id": "islam",
+ "title": "The spread of Islam",
+ "blurb": "How a faith born in a Meccan cave reached two billion people: conquest and empire, but also merchants, Sufis, scholars and centuries of slow conversion.",
+ "cat": "Faith & ideas",
+ "steps": [
+  {
+   "y": 610,
+   "lat": 21.6,
+   "lon": 39.9,
+   "z": 6,
+   "t": "A merchant town and a revelation",
+   "c": "Around 610 Muhammad, a merchant of Mecca's Quraysh tribe, began to receive revelations that Muslims believe came from God through the angel Gabriel, the first in a cave on Mount Hira. Mecca was a caravan town and a pilgrimage centre whose shrine, the Kaaba, then held images of many gods, while Jews and Christians lived elsewhere in Arabia. His message of one God, a coming judgement and care for the poor won few followers at first and growing hostility from Mecca's leaders.",
+   "w": "Muhammad",
+   "look": [
+    [
+     21.4225,
+     39.8262,
+     "Mecca"
+    ],
+    [
+     21.457,
+     39.859,
+     "Mount Hira"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Refuge in Africa",
+     "t": "Around 615 a group of persecuted Muslims sailed to Aksum, where the Christian king (the Najashi) protected them. Muslims call it the first Hijra.",
+     "lat": 14.13,
+     "lon": 38.72
+    },
+    {
+     "h": "A Jewish kingdom in Yemen",
+     "t": "In the 6th century the kings of Himyar in Yemen had adopted Judaism; Christian Aksum conquered them around 525.",
+     "lat": 15.35,
+     "lon": 44.21
+    }
+   ],
+   "img_alt": {
+    "file": "File:Jabal al-Nour And cave Hira.jpg",
+    "by": "Sadath i, 2023 (photo of Mount Hira)",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Muhammad",
+    "https://en.wikipedia.org/wiki/Mecca",
+    "https://en.wikipedia.org/wiki/Hira",
+    "https://en.wikipedia.org/wiki/Migration_to_Abyssinia",
+    "https://en.wikipedia.org/wiki/Himyar"
+   ]
+  },
+  {
+   "y": 622.73,
+   "lat": 23.0,
+   "lon": 39.4,
+   "z": 5,
+   "t": "The Hijra: a community becomes a state",
+   "c": "In 622, facing a plot against his life, Muhammad left Mecca for the oasis of Yathrib, about 340 km to the north, whose feuding tribes had invited him as arbiter. The town became Medina, 'the city' of the Prophet, and the emigration (Hijra) became year 1 of the Islamic calendar. In Medina the believers formed a political community bound by an agreement known as the Constitution of Medina. War with Mecca followed, at Badr (624), Uhud (625) and the Trench (627), until Mecca opened its gates in 630 almost without a fight.",
+   "w": "Hijrah",
+   "look": [
+    [
+     24.4672,
+     39.6111,
+     "Medina"
+    ],
+    [
+     21.4225,
+     39.8262,
+     "Mecca"
+    ],
+    [
+     23.73,
+     38.77,
+     "Badr"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Badr, 624",
+     "t": "At Badr about 313 Muslims defeated a Meccan force of 600 to 1,000 men. Muslims saw the victory as a sign of divine favour.",
+     "lat": 23.73,
+     "lon": 38.77
+    },
+    {
+     "h": "Back to Mecca",
+     "t": "When Mecca surrendered in January 630, the idols around the Kaaba were destroyed and it became the goal of the pilgrimage, the hajj. Muhammad died in Medina in 632.",
+     "lat": 21.4225,
+     "lon": 39.8262
+    }
+   ],
+   "img_alt": {
+    "file": "File:The Haram Al-Nabawi in Medina - Ottoman period.jpg",
+    "by": "Iznik tile, Ottoman, 17th century",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Hijrah",
+    "https://en.wikipedia.org/wiki/Medina",
+    "https://en.wikipedia.org/wiki/Constitution_of_Medina",
+    "https://en.wikipedia.org/wiki/Battle_of_Badr",
+    "https://en.wikipedia.org/wiki/Conquest_of_Mecca"
+   ]
+  },
+  {
+   "y": 636.8,
+   "lat": 31.5,
+   "lon": 42.0,
+   "z": 3,
+   "t": "Two empires fall",
+   "c": "After Muhammad's death the caliphs sent Arab armies against two empires exhausted by their long war of 602-628. Victories at the Yarmuk in Syria and at al-Qadisiyyah in Iraq (both 636) opened the Middle East: Jerusalem surrendered in 637, Egypt fell in 641-642, and the Sasanian Persian empire ended when its last king was killed near Merv in 651. The conquerors mostly lived apart in new garrison towns such as Basra, Kufa and Fustat. Christians, Jews and Zoroastrians kept their faiths as protected subjects (dhimmi) who paid a poll tax, the jizya.",
+   "w": "Early Muslim conquests",
+   "look": [
+    [
+     32.81,
+     35.95,
+     "Yarmuk"
+    ],
+    [
+     31.58,
+     44.5,
+     "al-Qadisiyyah"
+    ],
+    [
+     31.778,
+     35.235,
+     "Jerusalem"
+    ],
+    [
+     37.6,
+     61.83,
+     "Merv"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A garrison town",
+     "t": "Kufa was founded in 638 as a camp for Arab soldiers. Ali, the fourth caliph, ruled from it, and it became an early centre of Shia Islam.",
+     "lat": 32.03,
+     "lon": 44.4
+    },
+    {
+     "h": "Fustat",
+     "t": "Egypt's new capital grew from the Arab camp beside the Roman fortress of Babylon, around the Mosque of Amr ibn al-As. Cairo later grew up next to it.",
+     "lat": 30.006,
+     "lon": 31.233
+    }
+   ],
+   "img_alt": {
+    "file": "File:Saad ibn Waqqas Kills Rustam (Son of Hormuzd), folio detached from a manuscript of the Shahnameh (Book of Kings), Iran, 1494.jpg",
+    "by": "Shahnameh manuscript, Iran, 1494 (Aga Khan Museum)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+    "https://en.wikipedia.org/wiki/Battle_of_al-Qadisiyyah",
+    "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
+    "https://en.wikipedia.org/wiki/Dhimmi",
+    "https://en.wikipedia.org/wiki/Jizya"
+   ]
+  },
+  {
+   "y": 691.5,
+   "lat": 32.6,
+   "lon": 35.8,
+   "z": 6,
+   "t": "Umayyad Damascus and the Dome of the Rock",
+   "c": "A civil war over the leadership, in which Muhammad's grandson Husayn was killed at Karbala in 680, left the Umayyad family ruling from Damascus. Caliph Abd al-Malik completed the Dome of the Rock in Jerusalem in 691-692, the oldest surviving major Islamic monument, its inscriptions proclaiming the oneness of God. He also made Arabic the language of government and replaced Byzantine and Persian coins with Islamic ones. His son al-Walid built the Great Mosque of Damascus (705-715) on the site of a church of St John the Baptist.",
+   "w": "Dome of the Rock",
+   "look": [
+    [
+     31.778,
+     35.2354,
+     "Dome of the Rock"
+    ],
+    [
+     33.5116,
+     36.3066,
+     "Umayyad Mosque"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Karbala",
+     "t": "Husayn's death on 10 October 680 is mourned every year at Ashura. It became central to Shia Islam, whose followers hold that leadership belonged to Muhammad's family.",
+     "lat": 32.616,
+     "lon": 44.024
+    },
+    {
+     "h": "Kairouan",
+     "t": "In 670 Uqba ibn Nafi founded Kairouan in today's Tunisia as the base for the conquest of North Africa. Its Great Mosque, rebuilt in the 9th century, still stands.",
+     "lat": 35.68,
+     "lon": 10.1
+    }
+   ],
+   "img_alt": {
+    "file": "File:Jerusalem-2013(2)-Temple Mount-Dome of the Rock (SE exposure).jpg",
+    "by": "Godot13, 2013",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dome_of_the_Rock",
+    "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+    "https://en.wikipedia.org/wiki/Umayyad_Mosque",
+    "https://en.wikipedia.org/wiki/Battle_of_Karbala"
+   ]
+  },
+  {
+   "y": 711.6,
+   "lat": 33.0,
+   "lon": 28.0,
+   "z": 2,
+   "t": "From the Atlantic to the Indus",
+   "c": "In 711 about 7,000 mostly Berber troops under Tariq ibn Ziyad crossed to Spain and defeated the Visigothic king Roderic. In the same years Muhammad ibn al-Qasim took Sindh (711-713) and Qutayba ibn Muslim took Bukhara (709) and Samarkand (712). The Umayyad empire now stretched more than 7,000 km. Its advance stalled before Constantinople (717-718) and near Tours (732). In North Africa many Berbers converted early and joined the armies, but unequal treatment set off a great Berber revolt in 740.",
+   "w": "Umayyad Caliphate",
+   "look": [
+    [
+     36.14,
+     -5.35,
+     "Gibraltar"
+    ],
+    [
+     24.75,
+     67.52,
+     "Debal"
+    ],
+    [
+     39.65,
+     66.96,
+     "Samarkand"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Jabal Tariq",
+     "t": "Gibraltar takes its name from Tariq: Jabal Tariq, 'Tariq's mountain'.",
+     "lat": 36.14,
+     "lon": -5.35
+    },
+    {
+     "h": "An early mosque in Sindh",
+     "t": "At Banbhore, probably the port of Debal, archaeologists found a mosque with an inscription of 727, among the oldest in South Asia.",
+     "lat": 24.75,
+     "lon": 67.52
+    }
+   ],
+   "img_alt": {
+    "file": "File:Arcades of the Great Mosque Okba of Kairouan.jpg",
+    "by": "Monaam Ben Fredj, 2018 (Great Mosque of Kairouan)",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Tariq_ibn_Ziyad",
+    "https://en.wikipedia.org/wiki/Muhammad_ibn_al-Qasim",
+    "https://en.wikipedia.org/wiki/Qutayba_ibn_Muslim",
+    "https://en.wikipedia.org/wiki/Battle_of_Tours",
+    "https://en.wikipedia.org/wiki/Berber_Revolt",
+    "https://en.wikipedia.org/wiki/Banbhore"
+   ]
+  },
+  {
+   "y": 830,
+   "lat": 33.3,
+   "lon": 44.4,
+   "z": 4,
+   "t": "Baghdad and the House of Wisdom",
+   "c": "In 750 the Abbasids overthrew the Umayyads and moved the centre east: Caliph al-Mansur founded Baghdad, a round city on the Tigris, in 762. Paper replaced papyrus and parchment; a later story says Chinese prisoners taken at Talas in 751 taught papermaking at Samarkand, but historians doubt it, since paper was already known in Central Asia. In the House of Wisdom and other circles, scholars translated Greek, Persian and Indian works into Arabic. Al-Khwarizmi's book on calculation gave Europe the words 'algebra' and 'algorithm'.",
+   "w": "House of Wisdom",
+   "look": [
+    [
+     33.33,
+     44.39,
+     "Baghdad"
+    ],
+    [
+     42.9,
+     71.4,
+     "Talas"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Talas, 751",
+     "t": "An Abbasid army defeated Tang Chinese forces near the Talas River after the Tang's Karluk allies changed sides. The battle marked the western limit of Tang power.",
+     "lat": 42.9,
+     "lon": 71.4
+    },
+    {
+     "h": "Córdoba's rival",
+     "t": "One Umayyad prince escaped the 750 massacre of his family. As Abd al-Rahman I he ruled al-Andalus from Córdoba (756), independent of Baghdad.",
+     "lat": 37.879,
+     "lon": -4.78
+    }
+   ],
+   "img_alt": {
+    "file": "File:Maqamat hariri.jpg",
+    "by": "Yahya ibn Mahmud al-Wasiti, Maqamat of al-Hariri, 1237 (BnF)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Baghdad",
+    "https://en.wikipedia.org/wiki/Round_City_of_Baghdad",
+    "https://en.wikipedia.org/wiki/House_of_Wisdom",
+    "https://en.wikipedia.org/wiki/Battle_of_Talas",
+    "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+   ]
+  },
+  {
+   "y": 900,
+   "lat": 37.5,
+   "lon": 60.0,
+   "z": 4,
+   "t": "Conversion took centuries",
+   "c": "Conquest did not mean conversion. Counting Muslim names in medieval biographical dictionaries, especially from Nishapur, the historian Richard Bulliet drew a 'conversion curve' (1979): few non-Arab subjects converted under the Umayyads (about 10%), and Iran became mostly Muslim only in the 9th and 10th centuries, some three centuries after the conquest. His method and dates are debated. Converts gained access to careers, trade networks and city life. The Persian Samanids of Bukhara (819-999) ruled as Muslims while reviving the Persian language.",
+   "w": "Spread of Islam",
+   "look": [
+    [
+     36.21,
+     58.8,
+     "Nishapur"
+    ],
+    [
+     39.775,
+     64.42,
+     "Bukhara"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The Book of Kings",
+     "t": "Ferdowsi finished the Shahnameh, the Persian national epic, around 1010 in Tus near Nishapur, keeping pre-Islamic Iran's legends alive in a Muslim society.",
+     "lat": 36.48,
+     "lon": 59.52
+    },
+    {
+     "h": "Parsis",
+     "t": "Some Zoroastrians left Iran for Gujarat, where their descendants are the Parsis. The date of their arrival (8th to 10th century) is debated.",
+     "lat": 20.2,
+     "lon": 72.75
+    }
+   ],
+   "img_alt": {
+    "file": "File:Samanid Mausoleum, Bukhara.jpg",
+    "by": "Bgag, 2023 (Samanid Mausoleum, 10th century)",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Spread_of_Islam",
+    "https://en.wikipedia.org/wiki/Richard_W._Bulliet",
+    "https://en.wikipedia.org/wiki/Nishapur",
+    "https://en.wikipedia.org/wiki/Samanid_Empire",
+    "https://en.wikipedia.org/wiki/Shahnameh",
+    "https://en.wikipedia.org/wiki/Parsis"
+   ]
+  },
+  {
+   "y": 950,
+   "lat": 38.0,
+   "lon": -4.0,
+   "z": 5,
+   "t": "Al-Andalus",
+   "c": "In 929 Abd al-Rahman III of Córdoba declared himself caliph. Córdoba, probably with more than 100,000 people, was with Constantinople the largest city in Europe, and its Great Mosque, begun in 785, was enlarged again and again. Many Iberians converted over the centuries (debated pace), while Christians and Jews lived as protected minorities. After the caliphate broke apart in 1031, Christian kingdoms advanced: Toledo fell in 1085, Córdoba in 1236 and Granada, the last Muslim kingdom, in 1492. Muslims who stayed were forced to convert, and in 1609-1614 their descendants, the Moriscos, were expelled.",
+   "w": "Al-Andalus",
+   "look": [
+    [
+     37.879,
+     -4.78,
+     "Córdoba"
+    ],
+    [
+     39.86,
+     -4.02,
+     "Toledo"
+    ],
+    [
+     37.18,
+     -3.59,
+     "Granada"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Sicily",
+     "t": "Muslims ruled Sicily from the 820s; Normans conquered it by 1091. Frederick II deported the last Sicilian Muslims to Lucera from 1223, and that colony was destroyed in 1300.",
+     "lat": 38.116,
+     "lon": 13.36
+    },
+    {
+     "h": "Toledo's translators",
+     "t": "After 1085 scholars in Christian Toledo translated Arabic science and philosophy into Latin, bringing Aristotle and Arabic mathematics to Europe.",
+     "lat": 39.86,
+     "lon": -4.02
+    }
+   ],
+   "img_alt": {
+    "file": "File:Great Mosque of Cordoba, interior, 8th - 10th centuries (38) (29721130342).jpg",
+    "by": "Richard Mortel, 2016",
+    "lic": "CC BY 2.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Al-Andalus",
+    "https://en.wikipedia.org/wiki/Umayyad_state_of_C%C3%B3rdoba",
+    "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+    "https://en.wikipedia.org/wiki/Reconquista",
+    "https://en.wikipedia.org/wiki/Expulsion_of_the_Moriscos",
+    "https://en.wikipedia.org/wiki/Muslim_Sicily"
+   ]
+  },
+  {
+   "y": 1071.65,
+   "lat": 39.0,
+   "lon": 40.0,
+   "z": 4,
+   "t": "Turks and the Seljuks",
+   "c": "Turkic nomads of Central Asia converted from the 10th century, through traders, Sufi preachers and their own rulers; the Kara-Khanids led the way around 960. Turks entered the Islamic world as soldiers and then as rulers: the Seljuks took Baghdad in 1055 and ruled as sultans in the caliph's name. On 26 August 1071 Sultan Alp Arslan defeated and captured the Byzantine emperor at Manzikert. Turkish groups settled across Anatolia, which over the next four centuries slowly became Muslim and Turkish-speaking. Byzantine appeals for help led to the First Crusade.",
+   "w": "Battle of Manzikert",
+   "look": [
+    [
+     39.14,
+     42.54,
+     "Manzikert"
+    ],
+    [
+     37.87,
+     32.49,
+     "Konya"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Rumi",
+     "t": "The Persian Sufi poet Jalal al-Din Rumi lived in Konya, capital of the Seljuk Sultanate of Rum, and died there in 1273. His followers became the Mevlevi order, the 'whirling dervishes'.",
+     "lat": 37.87,
+     "lon": 32.49
+    },
+    {
+     "h": "Hattin, 1187",
+     "t": "Saladin destroyed the crusader army at Hattin and retook Jerusalem three months later, 88 years after the crusaders had taken it.",
+     "lat": 32.8,
+     "lon": 35.44
+    }
+   ],
+   "img_alt": {
+    "file": "File:131 Bataille de Malazgirt.jpg",
+    "by": "French miniature, 15th century",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Seljuk_Empire",
+    "https://en.wikipedia.org/wiki/Battle_of_Manzikert",
+    "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate",
+    "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
+    "https://en.wikipedia.org/wiki/Rumi",
+    "https://en.wikipedia.org/wiki/Battle_of_Hattin"
+   ]
+  },
+  {
+   "y": 1258.11,
+   "lat": 34.0,
+   "lon": 48.0,
+   "z": 3,
+   "t": "The Mongols: destroyers, then converts",
+   "c": "In February 1258 Hülegü's Mongol army took Baghdad after a 13-day siege, sacked it and killed the caliph; estimates of the dead range from tens of thousands to several hundred thousand (debated). The Mamluks of Egypt stopped the Mongols at Ain Jalut in 1260. Yet the conquerors soon adopted the faith of the conquered: Berke of the Golden Horde became a Muslim in the 1250s, the Ilkhan Ghazan converted in 1295, and Özbeg Khan made Islam the Golden Horde's religion in 1313.",
+   "w": "Siege of Baghdad",
+   "look": [
+    [
+     33.34,
+     44.34,
+     "Baghdad"
+    ],
+    [
+     32.55,
+     35.36,
+     "Ain Jalut"
+    ],
+    [
+     38.08,
+     46.29,
+     "Tabriz"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Ghazan's Tabriz",
+     "t": "Ghazan's vizier Rashid al-Din wrote the Jami al-tawarikh, a world history illustrated in Tabriz with paintings that mix Chinese, Persian and European styles.",
+     "lat": 38.08,
+     "lon": 46.29
+    },
+    {
+     "h": "Islam on the Volga",
+     "t": "The Volga Bulgars had adopted Islam in 922, when Ibn Fadlan arrived with an embassy from Baghdad. Their Tatar descendants remain Muslim today.",
+     "lat": 54.98,
+     "lon": 49.06
+    }
+   ],
+   "img_alt": {
+    "file": "File:GhazanConversionToIslam.JPG",
+    "by": "Jami al-tawarikh of Rashid al-Din, 14th century (BnF)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Baghdad",
+    "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
+    "https://en.wikipedia.org/wiki/Ghazan",
+    "https://en.wikipedia.org/wiki/%C3%96zbeg_Khan",
+    "https://en.wikipedia.org/wiki/Berke",
+    "https://en.wikipedia.org/wiki/Volga_Bulgaria"
+   ]
+  },
+  {
+   "y": 1324.55,
+   "lat": 18.0,
+   "lon": 8.0,
+   "z": 2,
+   "t": "Gold across the Sahara",
+   "c": "Islam crossed the Sahara with camel caravans of Berber and Arab merchants who traded salt and cloth for West African gold. Rulers converted first, at Gao around 1009-1010, Takrur by 1035 and Kanem in the 11th century, while most farmers kept older religions for centuries. In July 1324 Mansa Musa of Mali reached Cairo on his way to Mecca with an enormous entourage and gave away so much gold that its value in Egypt fell. Back home he built mosques, and Timbuktu became a centre of Islamic scholarship whose libraries still hold many thousands of manuscripts.",
+   "w": "Mansa Musa",
+   "look": [
+    [
+     11.38,
+     -8.38,
+     "Niani"
+    ],
+    [
+     16.775,
+     -3.008,
+     "Timbuktu"
+    ],
+    [
+     30.04,
+     31.24,
+     "Cairo"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Djinguereber",
+     "t": "Timbuktu's great mud mosque dates from about 1327, after Mansa Musa's return. It is one of three mosques of the 'University of Timbuktu'.",
+     "lat": 16.771,
+     "lon": -3.009
+    },
+    {
+     "h": "Ghana's Muslim town",
+     "t": "In 1068 the Andalusi geographer al-Bakri described Ghana's capital as two towns, one of them Muslim with twelve mosques.",
+     "lat": 15.66,
+     "lon": -8.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Catalan Atlas BNF Sheet 6 Mansa Musa.jpg",
+    "by": "Catalan Atlas, attributed to Abraham Cresques, 1375 (BnF)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "https://en.wikipedia.org/wiki/Mali_Empire",
+    "https://en.wikipedia.org/wiki/Timbuktu",
+    "https://en.wikipedia.org/wiki/Trans-Saharan_trade",
+    "https://en.wikipedia.org/wiki/Koumbi_Saleh",
+    "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+   ]
+  },
+  {
+   "y": 1414,
+   "lat": 3.0,
+   "lon": 78.0,
+   "z": 2,
+   "t": "Monsoon merchants",
+   "c": "Around the Indian Ocean, Islam spread mostly through trade, intermarriage and Sufi teachers rather than conquest. Muslims were trading at Shanga on the Kenyan coast in the 8th century, and Swahili towns such as Kilwa, Mogadishu and Zanzibar became Muslim city-states. The Maldives' king converted in 1153, and a tombstone of 1297 marks Sultan Malik al-Salih of Samudera Pasai in Sumatra. Malacca's rulers adopted Islam in the early 15th century (traditionally around 1414), and the port's prestige carried the faith along Malay trade routes; on Java, Demak became the first Muslim sultanate around 1475.",
+   "w": "Islam in Southeast Asia",
+   "look": [
+    [
+     -8.957,
+     39.51,
+     "Kilwa"
+    ],
+    [
+     4.175,
+     73.51,
+     "Malé"
+    ],
+    [
+     5.18,
+     97.13,
+     "Pasai"
+    ],
+    [
+     2.19,
+     102.25,
+     "Malacca"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Kilwa",
+     "t": "Ibn Battuta visited Kilwa in 1331 and described it as one of the most beautiful cities in the world.",
+     "lat": -8.957,
+     "lon": 39.51
+    },
+    {
+     "h": "Nine saints",
+     "t": "Javanese tradition credits Islam's spread to the Wali Sanga, nine saints. The first, Malik Ibrahim, died at Gresik in 1419.",
+     "lat": -7.16,
+     "lon": 112.65
+    }
+   ],
+   "img_alt": {
+    "file": "File:Great Mosque Kilwa Kisiwani.jpg",
+    "by": "Halidtz, 2021",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_in_Southeast_Asia",
+    "https://en.wikipedia.org/wiki/Swahili_coast",
+    "https://en.wikipedia.org/wiki/Shanga,_Pate_Island",
+    "https://en.wikipedia.org/wiki/Kilwa_Kisiwani",
+    "https://en.wikipedia.org/wiki/Islam_in_the_Maldives",
+    "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate",
+    "https://en.wikipedia.org/wiki/Malacca_Sultanate",
+    "https://en.wikipedia.org/wiki/Demak_Sultanate"
+   ]
+  },
+  {
+   "y": 1453.41,
+   "lat": 42.0,
+   "lon": 25.0,
+   "z": 4,
+   "t": "Ottomans and the Balkans",
+   "c": "The Ottomans began around 1300 as a small Turkish emirate in northwest Anatolia, crossed into Europe in the 1350s and took Constantinople on 29 May 1453 after a 53-day siege; Hagia Sophia became a mosque. Most Balkan Christians stayed Orthodox or Catholic, but in Bosnia and Albania many people converted during the 1500s and 1600s, for reasons and at a speed historians debate. Towns such as Sarajevo grew around mosques, markets and baths. Christian boys taken in the devshirme levy were raised as Muslims for the army and administration.",
+   "w": "Fall of Constantinople",
+   "look": [
+    [
+     41.03,
+     28.94,
+     "Constantinople"
+    ],
+    [
+     43.86,
+     18.43,
+     "Sarajevo"
+    ],
+    [
+     41.51,
+     19.79,
+     "Krujë"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Mohács, 1526",
+     "t": "Suleiman the Magnificent defeated Hungary at Mohács; Buda was Ottoman from 1541 until 1686.",
+     "lat": 45.94,
+     "lon": 18.68
+    },
+    {
+     "h": "Vienna, 1683",
+     "t": "The second Ottoman siege of Vienna was broken by Jan Sobieski's relief army on 12 September 1683, and the Ottomans began to lose Hungary.",
+     "lat": 48.27,
+     "lon": 16.33
+    }
+   ],
+   "img_alt": {
+    "file": "File:Zonaro GatesofConst.jpg",
+    "by": "Fausto Zonaro (1854-1929)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "https://en.wikipedia.org/wiki/Ottoman_Empire",
+    "https://en.wikipedia.org/wiki/Islam_in_Bosnia_and_Herzegovina",
+    "https://en.wikipedia.org/wiki/Islam_in_Albania",
+    "https://en.wikipedia.org/wiki/Devshirme"
+   ]
+  },
+  {
+   "y": 1501.5,
+   "lat": 35.0,
+   "lon": 50.0,
+   "z": 4,
+   "t": "Iran turns Shia",
+   "c": "In 1501 the young Ismail, head of the Safavid Sufi order and backed by Turkmen Qizilbash warriors, took Tabriz and proclaimed Twelver Shia Islam the religion of his state. Most Iranians were then Sunni. Over the next two centuries, with scholars brought from Lebanon and Iraq and pressure on Sunnis, Iran became the Shia-majority country it is today. The rivalry with the Sunni Ottomans, who defeated Ismail at Chaldiran in 1514, hardened the frontier between the two branches; Shah Abbas I made Isfahan his splendid capital from 1598.",
+   "w": "Safavid conversion of Iran to Shia Islam",
+   "look": [
+    [
+     38.08,
+     46.29,
+     "Tabriz"
+    ],
+    [
+     39.09,
+     44.33,
+     "Chaldiran"
+    ],
+    [
+     32.657,
+     51.677,
+     "Isfahan"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Half the world",
+     "t": "Isfahan's Naqsh-e Jahan square, laid out under Shah Abbas, inspired the saying 'Isfahan is half the world'.",
+     "lat": 32.657,
+     "lon": 51.677
+    },
+    {
+     "h": "Zaydis in Yemen",
+     "t": "Not all Shia are Twelvers: the Zaydi imams ruled parts of northern Yemen from 897 until 1962.",
+     "lat": 16.94,
+     "lon": 43.76
+    }
+   ],
+   "img_alt": {
+    "file": "File:Shah Mosque (Isfahan).jpg",
+    "by": "Amir Pashaei, 2019",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam",
+    "https://en.wikipedia.org/wiki/Ismail_I",
+    "https://en.wikipedia.org/wiki/Battle_of_Chaldiran",
+    "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square",
+    "https://en.wikipedia.org/wiki/Imams_of_Yemen"
+   ]
+  },
+  {
+   "y": 1600,
+   "lat": 25.0,
+   "lon": 82.0,
+   "z": 3,
+   "t": "India: sultans, Sufis and the Bengal delta",
+   "c": "Muslim rule in north India began with the Delhi Sultanate (1206), and Sufis such as Mu'in al-Din Chishti of Ajmer drew followers of many faiths. Babur founded the Mughal Empire after Panipat in 1526; his grandson Akbar (r. 1556-1605) ruled a Hindu-majority empire and abolished the jizya in 1564. The largest Muslim population grew on a frontier: the historian Richard Eaton argues that peasants of eastern Bengal became Muslim gradually in the 1500s-1700s as forests were cleared for rice, often around mosques and shrines, rather than by force (influential, debated).",
+   "w": "Islam in South Asia",
+   "look": [
+    [
+     28.52,
+     77.185,
+     "Delhi"
+    ],
+    [
+     27.09,
+     77.66,
+     "Fatehpur Sikri"
+    ],
+    [
+     23.71,
+     90.41,
+     "Dhaka"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Sixty Dome Mosque",
+     "t": "In the 15th century Khan Jahan Ali settled the forest edge of the Sundarbans and built the Sixty Dome Mosque at Bagerhat, now a World Heritage site.",
+     "lat": 22.67,
+     "lon": 89.79
+    },
+    {
+     "h": "Kashmir",
+     "t": "Kashmir's first Muslim dynasty began in 1339; the Persian Sufi Mir Sayyid Ali Hamadani preached there in the late 14th century.",
+     "lat": 34.08,
+     "lon": 74.8
+    }
+   ],
+   "img_alt": {
+    "file": "File:Balchand. Akbar inspecting construction for his new capital Fatehpur Sikri, Akbarnama, 1603-5, Chester Beatty Library.jpg",
+    "by": "Balchand, Akbarnama, 1603-1605 (Chester Beatty Library)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+    "https://en.wikipedia.org/wiki/Mughal_Empire",
+    "https://en.wikipedia.org/wiki/Akbar",
+    "https://en.wikipedia.org/wiki/Jizya",
+    "https://en.wikipedia.org/wiki/Islam_in_Bangladesh",
+    "https://en.wikipedia.org/wiki/Richard_M._Eaton",
+    "https://en.wikipedia.org/wiki/Mu'in_al-Din_Chishti"
+   ]
+  },
+  {
+   "y": 1804.14,
+   "lat": 13.0,
+   "lon": 5.0,
+   "z": 3,
+   "t": "Reform and jihad in West Africa",
+   "c": "From the 1700s, reformers in West Africa denounced rulers who mixed Islam with older customs. Fulani-led movements founded states in Futa Jallon (around 1725) and Futa Toro (1776). In 1804 the scholar Usman dan Fodio began a jihad against the Hausa kings; the Sokoto Caliphate he founded had perhaps 10-20 million people by the 1830s, the most populous state in West Africa, and much of its population converted. It also had one of the largest slave populations of the 19th century. Massina (1818) and Umar Tall's empire (1850s) followed.",
+   "w": "Sokoto Caliphate",
+   "look": [
+    [
+     13.06,
+     5.24,
+     "Sokoto"
+    ],
+    [
+     12.0,
+     8.52,
+     "Kano"
+    ],
+    [
+     14.35,
+     -4.07,
+     "Hamdullahi"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Kano",
+     "t": "The German explorer Heinrich Barth visited Kano, a great trading city of the Sokoto Caliphate, in 1851; this step's view from Mount Dala is based on his sketch.",
+     "lat": 12.0,
+     "lon": 8.52
+    },
+    {
+     "h": "Padri War",
+     "t": "In Sumatra, Padri reformers back from Mecca fought Minangkabau traditional leaders from 1803 until 1837, drawing in the Dutch.",
+     "lat": 0.03,
+     "lon": 100.2
+    }
+   ],
+   "img_alt": {
+    "file": "File:Barth 1857 Kano from Mount Dala.jpg",
+    "by": "Martin Bernatz after Heinrich Barth, 1857",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+    "https://en.wikipedia.org/wiki/Usman_dan_Fodio",
+    "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon",
+    "https://en.wikipedia.org/wiki/Imamate_of_Futa_Toro",
+    "https://en.wikipedia.org/wiki/Heinrich_Barth",
+    "https://en.wikipedia.org/wiki/Padri_Wars"
+   ]
+  },
+  {
+   "y": 2020,
+   "lat": 20.0,
+   "lon": 60.0,
+   "z": 1,
+   "t": "Two billion Muslims",
+   "c": "Today about 2 billion people, a quarter of humanity, are Muslims: roughly 85-90% Sunni and 10-15% Shia. About 62% live in the Asia-Pacific region, and the largest Muslim populations are in Indonesia, Pakistan, India and Bangladesh, not in the Arab world. Over fourteen centuries the faith spread by conquest and empire, but also by trade, migration, marriage, schools and Sufi devotion, at very different speeds in different places. Muslim communities in Europe, the Americas and Australia go back to the 19th century or earlier.",
+   "w": "Islam by country",
+   "look": [
+    [
+     -6.17,
+     106.83,
+     "Jakarta"
+    ],
+    [
+     21.4225,
+     39.8262,
+     "Mecca"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Cameleers' mosque",
+     "t": "Afghan and Indian camel drivers who opened up Australia's interior built the Adelaide Mosque in 1888-1889, the country's oldest permanent mosque.",
+     "lat": -34.93,
+     "lon": 138.6
+    },
+    {
+     "h": "Woking",
+     "t": "Britain's first purpose-built mosque, the Shah Jahan Mosque, opened at Woking in Surrey in 1889.",
+     "lat": 51.32,
+     "lon": -0.56
+    }
+   ],
+   "img_alt": {
+    "file": "File:Jakarta - Istiqlal Mosque, interior.jpg",
+    "by": "P. Hughes, 2024 (Istiqlal Mosque, Jakarta)",
+    "lic": "CC BY 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Islam_by_country",
+    "https://en.wikipedia.org/wiki/Islam",
+    "https://en.wikipedia.org/wiki/Islam_in_Indonesia",
+    "https://en.wikipedia.org/wiki/Central_Adelaide_Mosque",
+    "https://en.wikipedia.org/wiki/Shah_Jahan_Mosque,_Woking"
+   ]
+  }
+ ]
+}

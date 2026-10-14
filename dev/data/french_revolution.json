@@ -1,0 +1,1940 @@
+{
+ "places": [
+  {
+   "n": "Assembly of Notables (Versailles)",
+   "lat": 48.805,
+   "lon": 2.12,
+   "y": 1787.144,
+   "end": 1787.396,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "Louis XVI's finance minister Calonne asked hand-picked nobles and clergy to accept a land tax on everyone; they refused.",
+   "w": "Assembly of Notables",
+   "src": [
+    "https://en.wikipedia.org/wiki/Assembly_of_Notables"
+   ]
+  },
+  {
+   "n": "Day of the Tiles (Grenoble)",
+   "lat": 45.188,
+   "lon": 5.724,
+   "y": 1788.434,
+   "end": 1788.434,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Grenoble townspeople",
+   "what": "Townspeople threw roof tiles at royal troops sent to close the local parlement, an early open revolt against royal power.",
+   "w": "Day of the Tiles",
+   "src": [
+    "https://en.wikipedia.org/wiki/Day_of_the_Tiles"
+   ]
+  },
+  {
+   "n": "Vizille Assembly",
+   "lat": 45.078,
+   "lon": 5.771,
+   "y": 1788.555,
+   "end": 1788.555,
+   "approx": false,
+   "kind": "other",
+   "who": "Dauphiné estates",
+   "what": "Nobles, clergy and commoners of Dauphiné demanded an Estates-General with a doubled Third Estate voting by head.",
+   "w": "Assembly of Vizille",
+   "src": [
+    "https://en.wikipedia.org/wiki/Assembly_of_Vizille",
+    "https://en.wikipedia.org/wiki/Day_of_the_Tiles"
+   ]
+  },
+  {
+   "n": "Hailstorm of 13 July 1788 (northern France)",
+   "lat": 48.6,
+   "lon": 2.0,
+   "y": 1788.533,
+   "end": 1788.533,
+   "approx": true,
+   "kind": "other",
+   "who": "",
+   "what": "A hailstorm swept across northern France and the Low Countries, flattening crops just before harvest; bread prices climbed through the harsh winter of 1788-89.",
+   "w": "1788",
+   "src": [
+    "https://en.wikipedia.org/wiki/1788",
+    "https://en.wikipedia.org/wiki/Causes_of_the_French_Revolution"
+   ]
+  },
+  {
+   "n": "Réveillon riots (Faubourg Saint-Antoine, Paris)",
+   "lat": 48.851,
+   "lon": 2.375,
+   "y": 1789.322,
+   "end": 1789.322,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Paris workers",
+   "what": "Workers sacked a wallpaper factory after rumours its owner wanted lower wages; troops fired and dozens to hundreds died (estimates vary).",
+   "w": "Réveillon riots",
+   "src": [
+    "https://en.wikipedia.org/wiki/Réveillon_riots"
+   ]
+  },
+  {
+   "n": "Estates-General opens (Hôtel des Menus-Plaisirs, Versailles)",
+   "lat": 48.8,
+   "lon": 2.134,
+   "y": 1789.341,
+   "end": 1789.459,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "The three estates met for the first time since 1614; the Third Estate refused to vote by order and on 17 June declared itself the National Assembly.",
+   "w": "Estates General of 1789",
+   "src": [
+    "https://en.wikipedia.org/wiki/Estates_General_of_1789"
+   ]
+  },
+  {
+   "n": "Tennis Court Oath (Versailles)",
+   "lat": 48.802,
+   "lon": 2.124,
+   "y": 1789.467,
+   "end": 1789.467,
+   "approx": false,
+   "kind": "other",
+   "who": "National Assembly",
+   "what": "Locked out of their hall, the deputies swore in an indoor tennis court not to separate until France had a constitution.",
+   "w": "Tennis Court Oath",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tennis_Court_Oath"
+   ]
+  },
+  {
+   "n": "Storming of the Bastille (Paris)",
+   "lat": 48.853,
+   "lon": 2.369,
+   "y": 1789.533,
+   "end": 1789.533,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Paris crowd, French Guards",
+   "what": "A crowd seeking gunpowder took the royal fortress-prison, which held seven prisoners; about 98 attackers and several defenders died.",
+   "w": "Storming of the Bastille",
+   "src": [
+    "https://en.wikipedia.org/wiki/Storming_of_the_Bastille"
+   ]
+  },
+  {
+   "n": "Great Fear: Franche-Comté",
+   "lat": 47.62,
+   "lon": 6.15,
+   "y": 1789.549,
+   "end": 1789.596,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Peasants",
+   "what": "Rumours of brigands hired by nobles set off panic and attacks on châteaux; peasants burned manorial records of dues.",
+   "w": "Great Fear",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear"
+   ]
+  },
+  {
+   "n": "Great Fear: Ruffec (Poitou)",
+   "lat": 46.03,
+   "lon": 0.2,
+   "y": 1789.571,
+   "end": 1789.596,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Peasants",
+   "what": "One of the starting points of the panic, which spread within days across Poitou and the south-west.",
+   "w": "Great Fear",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear"
+   ]
+  },
+  {
+   "n": "Great Fear: Mâconnais",
+   "lat": 46.31,
+   "lon": 4.83,
+   "y": 1789.566,
+   "end": 1789.596,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Peasants",
+   "what": "Peasants in the Mâconnais attacked dozens of châteaux and abbeys, burning title deeds.",
+   "w": "Great Fear",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear"
+   ]
+  },
+  {
+   "n": "Great Fear: Dauphiné",
+   "lat": 45.59,
+   "lon": 5.27,
+   "y": 1789.568,
+   "end": 1789.596,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Peasants",
+   "what": "The panic reached the Dauphiné, where châteaux were burned around Bourgoin.",
+   "w": "Great Fear",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear"
+   ]
+  },
+  {
+   "n": "Great Fear: Soissonnais",
+   "lat": 49.38,
+   "lon": 3.32,
+   "y": 1789.566,
+   "end": 1789.596,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Peasants",
+   "what": "Fear of brigands and of hoarders of grain spread through the grain lands north-east of Paris.",
+   "w": "Great Fear",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Fear"
+   ]
+  },
+  {
+   "n": "Abolition of feudalism (night of 4 August, Versailles)",
+   "lat": 48.8,
+   "lon": 2.134,
+   "y": 1789.59,
+   "end": 1789.61,
+   "approx": false,
+   "kind": "other",
+   "who": "National Assembly",
+   "what": "In one night the Assembly voted to end feudal privileges, the church tithe and the sale of offices.",
+   "w": "Abolition of feudalism in France",
+   "src": [
+    "https://en.wikipedia.org/wiki/Abolition_of_feudalism_in_France"
+   ]
+  },
+  {
+   "n": "Declaration of the Rights of Man and of the Citizen (Versailles)",
+   "lat": 48.8,
+   "lon": 2.134,
+   "y": 1789.651,
+   "end": 1789.651,
+   "approx": false,
+   "kind": "other",
+   "who": "National Assembly",
+   "what": "Seventeen articles declared that men are born free and equal in rights and that sovereignty lies with the nation.",
+   "w": "Declaration of the Rights of Man and of the Citizen",
+   "src": [
+    "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen"
+   ]
+  },
+  {
+   "n": "Women's March on Versailles",
+   "lat": 48.805,
+   "lon": 2.12,
+   "y": 1789.76,
+   "end": 1789.763,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Paris market women, National Guard",
+   "what": "Thousands of women marched from Paris demanding bread; the next day the royal family was taken to the Tuileries in Paris.",
+   "w": "Women's March on Versailles",
+   "src": [
+    "https://en.wikipedia.org/wiki/Women's_March_on_Versailles"
+   ]
+  },
+  {
+   "n": "Civil Constitution of the Clergy (Paris)",
+   "lat": 48.865,
+   "lon": 2.326,
+   "y": 1790.527,
+   "end": 1801.536,
+   "approx": false,
+   "kind": "other",
+   "who": "National Assembly",
+   "what": "Priests became elected state employees who had to swear an oath; about half refused, splitting the Church and the country.",
+   "w": "Civil Constitution of the Clergy",
+   "src": [
+    "https://en.wikipedia.org/wiki/Civil_Constitution_of_the_Clergy"
+   ]
+  },
+  {
+   "n": "Fête de la Fédération (Champ de Mars, Paris)",
+   "lat": 48.856,
+   "lon": 2.298,
+   "y": 1790.533,
+   "end": 1790.533,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "A huge festival of national unity on the first anniversary of the Bastille; the king swore to uphold the laws.",
+   "w": "Fête de la Fédération",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fête_de_la_Fédération"
+   ]
+  },
+  {
+   "n": "Royal family arrested at Varennes",
+   "lat": 49.226,
+   "lon": 5.031,
+   "y": 1791.471,
+   "end": 1791.473,
+   "approx": false,
+   "kind": "other",
+   "who": "Louis XVI",
+   "what": "The fleeing royal family was recognised and stopped at Varennes, 50 km from the frontier, and taken back to Paris.",
+   "w": "Flight to Varennes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flight_to_Varennes"
+   ]
+  },
+  {
+   "n": "Champ de Mars massacre (Paris)",
+   "lat": 48.856,
+   "lon": 2.298,
+   "y": 1791.541,
+   "end": 1791.541,
+   "approx": false,
+   "kind": "uprising",
+   "who": "National Guard vs petitioners",
+   "what": "The National Guard fired on a crowd petitioning for the king's removal; roughly a dozen to 50 died (estimates vary).",
+   "w": "Champ de Mars massacre",
+   "src": [
+    "https://en.wikipedia.org/wiki/Champ_de_Mars_massacre"
+   ]
+  },
+  {
+   "n": "Émigré army at Koblenz",
+   "lat": 50.356,
+   "lon": 7.594,
+   "y": 1791.497,
+   "end": 1792.722,
+   "approx": true,
+   "kind": "other",
+   "who": "Émigrés",
+   "what": "Thousands of émigré nobles and officers gathered around the king's brothers in Koblenz, hoping to restore the old order by force.",
+   "w": "Émigré",
+   "src": [
+    "https://en.wikipedia.org/wiki/Émigré",
+    "https://en.wikipedia.org/wiki/Army_of_Condé"
+   ]
+  },
+  {
+   "n": "Declaration of Pillnitz",
+   "lat": 51.009,
+   "lon": 13.869,
+   "y": 1791.653,
+   "end": 1791.653,
+   "approx": false,
+   "kind": "treaty",
+   "who": "Austria, Prussia",
+   "what": "The Emperor and the King of Prussia declared support for Louis XVI, a vague threat that inflamed French opinion.",
+   "w": "Declaration of Pillnitz",
+   "src": [
+    "https://en.wikipedia.org/wiki/Declaration_of_Pillnitz"
+   ]
+  },
+  {
+   "n": "Saint-Domingue slave revolt (Plaine du Nord)",
+   "lat": 19.68,
+   "lon": -72.25,
+   "y": 1791.64,
+   "end": 1804.0,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Enslaved Africans",
+   "what": "Enslaved people rose in the north of France's richest colony; within a week some 1,800 plantations were destroyed. It became the Haitian Revolution.",
+   "w": "1791 slave rebellion",
+   "src": [
+    "https://en.wikipedia.org/wiki/1791_slave_rebellion",
+    "https://en.wikipedia.org/wiki/Haitian_Revolution"
+   ]
+  },
+  {
+   "n": "La Marseillaise written (Strasbourg)",
+   "lat": 48.583,
+   "lon": 7.746,
+   "y": 1792.316,
+   "end": 1792.316,
+   "approx": false,
+   "kind": "other",
+   "who": "Rouget de Lisle",
+   "what": "An army engineer wrote a war song for the Army of the Rhine; volunteers from Marseille made it famous in Paris.",
+   "w": "La Marseillaise",
+   "src": [
+    "https://en.wikipedia.org/wiki/La_Marseillaise"
+   ]
+  },
+  {
+   "n": "Storming of the Tuileries (Paris)",
+   "lat": 48.862,
+   "lon": 2.33,
+   "y": 1792.61,
+   "end": 1792.61,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Paris sections, fédérés",
+   "what": "Insurgents stormed the palace and killed most of the Swiss Guards; the monarchy was suspended.",
+   "w": "10 August (French Revolution)",
+   "src": [
+    "https://en.wikipedia.org/wiki/10_August_(French_Revolution)"
+   ]
+  },
+  {
+   "n": "September Massacres (Paris prisons)",
+   "lat": 48.854,
+   "lon": 2.334,
+   "y": 1792.673,
+   "end": 1792.684,
+   "approx": false,
+   "kind": "other",
+   "who": "Paris crowds",
+   "what": "Fearing a plot as Prussian troops advanced, crowds killed about 1,100-1,600 prisoners, most of them common criminals.",
+   "w": "September Massacres",
+   "src": [
+    "https://en.wikipedia.org/wiki/September_Massacres"
+   ]
+  },
+  {
+   "n": "French First Republic proclaimed (Paris)",
+   "lat": 48.865,
+   "lon": 2.326,
+   "y": 1792.725,
+   "end": 1804.38,
+   "approx": false,
+   "kind": "republic",
+   "who": "National Convention",
+   "what": "The new National Convention abolished the monarchy; 22 September 1792 became day one of Year I.",
+   "w": "French First Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/French_First_Republic"
+   ]
+  },
+  {
+   "n": "Execution of Louis XVI (Place de la Révolution)",
+   "lat": 48.866,
+   "lon": 2.321,
+   "y": 1793.056,
+   "end": 1793.056,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "Louis XVI was guillotined after the Convention voted for death by a narrow majority.",
+   "w": "Execution of Louis XVI",
+   "src": [
+    "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI"
+   ]
+  },
+  {
+   "n": "Mainz Republic",
+   "lat": 49.999,
+   "lon": 8.273,
+   "y": 1793.21,
+   "end": 1793.558,
+   "approx": false,
+   "kind": "republic",
+   "who": "Mainz Jacobins, France",
+   "what": "The first democratic state on German soil, set up under French occupation and ended by the Prussian siege.",
+   "w": "Republic of Mainz",
+   "src": [
+    "https://en.wikipedia.org/wiki/Republic_of_Mainz"
+   ]
+  },
+  {
+   "n": "Revolutionary Tribunal (Palais de Justice, Paris)",
+   "lat": 48.856,
+   "lon": 2.345,
+   "y": 1793.188,
+   "end": 1795.412,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "A special court for political crimes; it pronounced about 2,600 death sentences by Thermidor, 1,376 of them in the last 49 days.",
+   "w": "Revolutionary Tribunal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Revolutionary_Tribunal"
+   ]
+  },
+  {
+   "n": "Vendée rising: Machecoul",
+   "lat": 46.993,
+   "lon": -1.822,
+   "y": 1793.19,
+   "end": 1793.19,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Vendéens",
+   "what": "Against conscription of 300,000 men, peasants rose in the west; at Machecoul insurgents massacred republicans.",
+   "w": "First Massacre of Machecoul",
+   "src": [
+    "https://en.wikipedia.org/wiki/First_Massacre_of_Machecoul",
+    "https://en.wikipedia.org/wiki/War_in_the_Vendée"
+   ]
+  },
+  {
+   "n": "Vendée rising: Saint-Florent-le-Vieil",
+   "lat": 47.362,
+   "lon": -1.016,
+   "y": 1793.193,
+   "end": 1793.193,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Vendéens",
+   "what": "Young men called up for the army chased off the officials; the Catholic and Royal Army grew from here.",
+   "w": "War in the Vendée",
+   "src": [
+    "https://en.wikipedia.org/wiki/War_in_the_Vendée"
+   ]
+  },
+  {
+   "n": "Vendée rising: Cholet taken",
+   "lat": 47.06,
+   "lon": -0.879,
+   "y": 1793.199,
+   "end": 1793.793,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Vendéens",
+   "what": "The insurgents took Cholet, which became their main town until the republican victory there in October 1793.",
+   "w": "War in the Vendée",
+   "src": [
+    "https://en.wikipedia.org/wiki/War_in_the_Vendée"
+   ]
+  },
+  {
+   "n": "Infernal columns (Les Lucs-sur-Boulogne)",
+   "lat": 46.845,
+   "lon": -1.495,
+   "y": 1794.16,
+   "end": 1794.16,
+   "approx": false,
+   "kind": "other",
+   "who": "Republican army",
+   "what": "General Turreau's columns burned villages across the Vendée in early 1794; at Les Lucs hundreds of civilians were killed (numbers debated).",
+   "w": "Infernal columns",
+   "src": [
+    "https://en.wikipedia.org/wiki/Infernal_columns",
+    "https://en.wikipedia.org/wiki/Les_Lucs-sur-Boulogne"
+   ]
+  },
+  {
+   "n": "Insurrection of 31 May - 2 June 1793 (Paris)",
+   "lat": 48.862,
+   "lon": 2.332,
+   "y": 1793.412,
+   "end": 1793.418,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Sans-culottes, Montagnards",
+   "what": "Armed Parisians surrounded the Convention and forced the arrest of the Girondin deputies.",
+   "w": "Insurrection of 31 May – 2 June 1793",
+   "src": [
+    "https://en.wikipedia.org/wiki/Insurrection_of_31_May_–_2_June_1793"
+   ]
+  },
+  {
+   "n": "Federalist revolt: Lyon",
+   "lat": 45.76,
+   "lon": 4.835,
+   "y": 1793.407,
+   "end": 1793.771,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Federalists",
+   "what": "Lyon overthrew its Jacobin council and resisted a two-month siege; afterwards the Convention ordered the city destroyed and renamed it 'Freed Town'.",
+   "w": "Revolt of Lyon against the National Convention",
+   "src": [
+    "https://en.wikipedia.org/wiki/Revolt_of_Lyon_against_the_National_Convention",
+    "https://en.wikipedia.org/wiki/Siege_of_Lyon",
+    "https://en.wikipedia.org/wiki/Federalist_revolts"
+   ]
+  },
+  {
+   "n": "Federalist revolt: Marseille",
+   "lat": 43.297,
+   "lon": 5.37,
+   "y": 1793.415,
+   "end": 1793.648,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Federalists",
+   "what": "Marseille's sections rose against the Paris Jacobins until Carteaux's army retook the city.",
+   "w": "Federalist revolts",
+   "src": [
+    "https://en.wikipedia.org/wiki/Federalist_revolts"
+   ]
+  },
+  {
+   "n": "Federalist revolt: Bordeaux",
+   "lat": 44.838,
+   "lon": -0.579,
+   "y": 1793.432,
+   "end": 1793.79,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Federalists",
+   "what": "Home of many Girondin leaders, Bordeaux declared itself in revolt; the Convention's envoys retook it in October.",
+   "w": "Federalist revolts",
+   "src": [
+    "https://en.wikipedia.org/wiki/Federalist_revolts"
+   ]
+  },
+  {
+   "n": "Federalist revolt: Caen",
+   "lat": 49.183,
+   "lon": -0.37,
+   "y": 1793.437,
+   "end": 1793.579,
+   "approx": true,
+   "kind": "uprising",
+   "who": "Federalists",
+   "what": "Fugitive Girondins raised a small army in Normandy, routed at Brécourt on 13 July 1793.",
+   "w": "Federalist revolts",
+   "src": [
+    "https://en.wikipedia.org/wiki/Federalist_revolts"
+   ]
+  },
+  {
+   "n": "Toulon hands its port to the British",
+   "lat": 43.117,
+   "lon": 5.93,
+   "y": 1793.656,
+   "end": 1793.966,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Royalists, Britain",
+   "what": "Royalists opened Toulon and the French Mediterranean fleet to an Anglo-Spanish fleet; the Republic besieged the city.",
+   "w": "Siege of Toulon (1793)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)"
+   ]
+  },
+  {
+   "n": "Assassination of Marat (Paris)",
+   "lat": 48.851,
+   "lon": 2.339,
+   "y": 1793.53,
+   "end": 1793.53,
+   "approx": false,
+   "kind": "other",
+   "who": "Charlotte Corday",
+   "what": "Charlotte Corday, a Girondin sympathiser from Caen, stabbed the radical journalist Jean-Paul Marat in his bath.",
+   "w": "Jean-Paul Marat",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jean-Paul_Marat"
+   ]
+  },
+  {
+   "n": "Louvre opens as a public museum",
+   "lat": 48.861,
+   "lon": 2.338,
+   "y": 1793.607,
+   "end": 2026.0,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "The former royal palace opened with 537 paintings, on the first anniversary of the fall of the monarchy.",
+   "w": "Louvre",
+   "src": [
+    "https://en.wikipedia.org/wiki/Louvre"
+   ]
+  },
+  {
+   "n": "Levée en masse decreed (Paris)",
+   "lat": 48.865,
+   "lon": 2.326,
+   "y": 1793.642,
+   "end": 1793.642,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "All unmarried men aged 18-25 were called up and the whole nation put on a war footing.",
+   "w": "Levée en masse",
+   "src": [
+    "https://en.wikipedia.org/wiki/Levée_en_masse"
+   ]
+  },
+  {
+   "n": "Drownings at Nantes (noyades)",
+   "lat": 47.207,
+   "lon": -1.56,
+   "y": 1793.875,
+   "end": 1794.158,
+   "approx": false,
+   "kind": "other",
+   "who": "Jean-Baptiste Carrier",
+   "what": "On the orders of the deputy Carrier, prisoners were drowned in the Loire; estimates range from 1,800 to over 4,000 victims (debated).",
+   "w": "Drownings at Nantes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Drownings_at_Nantes"
+   ]
+  },
+  {
+   "n": "Mass shootings at Lyon (Brotteaux)",
+   "lat": 45.769,
+   "lon": 4.857,
+   "y": 1793.925,
+   "end": 1794.248,
+   "approx": false,
+   "kind": "other",
+   "who": "Fouché, Collot d'Herbois",
+   "what": "After the siege, prisoners were shot with grapeshot and by firing squads; a special commission ordered 1,684 executions, and some 2,000 people were executed in Lyon in all.",
+   "w": "Revolt of Lyon against the National Convention",
+   "src": [
+    "https://en.wikipedia.org/wiki/Revolt_of_Lyon_against_the_National_Convention"
+   ]
+  },
+  {
+   "n": "Terror in Arras (Joseph Le Bon)",
+   "lat": 50.291,
+   "lon": 2.777,
+   "y": 1793.834,
+   "end": 1794.568,
+   "approx": false,
+   "kind": "other",
+   "who": "Joseph Le Bon",
+   "what": "The deputy on mission Le Bon ran a revolutionary tribunal at Arras and Cambrai that sent hundreds of people to the guillotine (figures vary).",
+   "w": "Joseph Le Bon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Joseph_Le_Bon"
+   ]
+  },
+  {
+   "n": "Festival of Reason (Notre-Dame, Paris)",
+   "lat": 48.853,
+   "lon": 2.35,
+   "y": 1793.859,
+   "end": 1794.347,
+   "approx": false,
+   "kind": "other",
+   "who": "Paris Commune",
+   "what": "Notre-Dame was turned into a 'Temple of Reason' during the dechristianisation campaign.",
+   "w": "Cult of Reason",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cult_of_Reason"
+   ]
+  },
+  {
+   "n": "Abolition of slavery (National Convention, Paris)",
+   "lat": 48.862,
+   "lon": 2.332,
+   "y": 1794.095,
+   "end": 1802.382,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "The Convention abolished slavery in all French colonies; Bonaparte restored it by the law of 20 May 1802.",
+   "w": "Law of 4 February 1794",
+   "src": [
+    "https://en.wikipedia.org/wiki/Law_of_4_February_1794"
+   ]
+  },
+  {
+   "n": "Festival of the Supreme Being (Paris)",
+   "lat": 48.856,
+   "lon": 2.298,
+   "y": 1794.434,
+   "end": 1794.434,
+   "approx": false,
+   "kind": "other",
+   "who": "Robespierre",
+   "what": "Robespierre led a state festival for a new civic religion of a Supreme Being, seven weeks before his fall.",
+   "w": "Cult of the Supreme Being",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cult_of_the_Supreme_Being"
+   ]
+  },
+  {
+   "n": "9 Thermidor: fall of Robespierre (Paris)",
+   "lat": 48.857,
+   "lon": 2.352,
+   "y": 1794.568,
+   "end": 1794.571,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "The Convention outlawed Robespierre and his allies; he was arrested at the Hôtel de Ville and guillotined the next day.",
+   "w": "Thermidorian Reaction",
+   "src": [
+    "https://en.wikipedia.org/wiki/Thermidorian_Reaction"
+   ]
+  },
+  {
+   "n": "Batavian Republic (The Hague)",
+   "lat": 52.08,
+   "lon": 4.31,
+   "y": 1795.051,
+   "end": 1806.426,
+   "approx": false,
+   "kind": "republic",
+   "who": "France, Dutch Patriots",
+   "what": "French armies and Dutch Patriots replaced the Dutch Republic with a French sister republic.",
+   "w": "Batavian Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Batavian_Republic"
+   ]
+  },
+  {
+   "n": "Metric system made law (Paris)",
+   "lat": 48.86,
+   "lon": 2.357,
+   "y": 1795.264,
+   "end": 1799.473,
+   "approx": false,
+   "kind": "other",
+   "who": "National Convention",
+   "what": "The law of 18 Germinal Year III created the metre, gram and litre; the definitive platinum metre was deposited in the Archives on 22 June 1799.",
+   "w": "History of the metre",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_the_metre",
+    "https://en.wikipedia.org/wiki/Metric_system"
+   ]
+  },
+  {
+   "n": "13 Vendémiaire (Saint-Roch, Paris)",
+   "lat": 48.865,
+   "lon": 2.333,
+   "y": 1795.76,
+   "end": 1795.76,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Royalists vs Convention",
+   "what": "A royalist rising in Paris was crushed with cannon fire organised by General Bonaparte.",
+   "w": "13 Vendémiaire",
+   "src": [
+    "https://en.wikipedia.org/wiki/13_Vendémiaire"
+   ]
+  },
+  {
+   "n": "Conspiracy of the Equals (Paris)",
+   "lat": 48.86,
+   "lon": 2.35,
+   "y": 1796.358,
+   "end": 1797.401,
+   "approx": true,
+   "kind": "other",
+   "who": "Babeuf",
+   "what": "Gracchus Babeuf's plot for a society of common property was betrayed; he was executed in 1797.",
+   "w": "Conspiracy of the Equals",
+   "src": [
+    "https://en.wikipedia.org/wiki/Conspiracy_of_the_Equals"
+   ]
+  },
+  {
+   "n": "Cisalpine Republic (Milan)",
+   "lat": 45.464,
+   "lon": 9.19,
+   "y": 1797.492,
+   "end": 1802.07,
+   "approx": false,
+   "kind": "republic",
+   "who": "France",
+   "what": "Bonaparte merged conquered Lombardy and neighbouring lands into a sister republic.",
+   "w": "Cisalpine Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cisalpine_Republic"
+   ]
+  },
+  {
+   "n": "Ligurian Republic (Genoa)",
+   "lat": 44.407,
+   "lon": 8.934,
+   "y": 1797.451,
+   "end": 1805.423,
+   "approx": false,
+   "kind": "republic",
+   "who": "France",
+   "what": "The old aristocratic Republic of Genoa became a French-style democratic republic.",
+   "w": "Ligurian Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ligurian_Republic"
+   ]
+  },
+  {
+   "n": "Coup of 18 Fructidor (Paris)",
+   "lat": 48.862,
+   "lon": 2.33,
+   "y": 1797.675,
+   "end": 1797.675,
+   "approx": false,
+   "kind": "other",
+   "who": "Directory",
+   "what": "Backed by the army, three Directors annulled royalist election wins and deported opponents to Guiana.",
+   "w": "Coup of 18 Fructidor",
+   "src": [
+    "https://en.wikipedia.org/wiki/Coup_of_18_Fructidor"
+   ]
+  },
+  {
+   "n": "Treaty of Campo Formio",
+   "lat": 46.02,
+   "lon": 13.16,
+   "y": 1797.793,
+   "end": 1797.793,
+   "approx": false,
+   "kind": "treaty",
+   "who": "France, Austria",
+   "what": "Austria ceded Belgium and recognised the Cisalpine Republic; Venice was handed to Austria.",
+   "w": "Treaty of Campo Formio",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Campo_Formio"
+   ]
+  },
+  {
+   "n": "Roman Republic",
+   "lat": 41.893,
+   "lon": 12.483,
+   "y": 1798.125,
+   "end": 1799.747,
+   "approx": false,
+   "kind": "republic",
+   "who": "France",
+   "what": "French troops occupied Rome, exiled Pope Pius VI and set up a republic.",
+   "w": "Roman Republic (1798–1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Roman_Republic_(1798–1799)"
+   ]
+  },
+  {
+   "n": "Helvetic Republic (Aarau)",
+   "lat": 47.392,
+   "lon": 8.044,
+   "y": 1798.278,
+   "end": 1803.188,
+   "approx": false,
+   "kind": "republic",
+   "who": "France",
+   "what": "After a French invasion, the loose Swiss Confederacy was replaced by a centralised republic.",
+   "w": "Helvetic Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Helvetic_Republic"
+   ]
+  },
+  {
+   "n": "French landing at Killala (Ireland)",
+   "lat": 54.213,
+   "lon": -9.217,
+   "y": 1798.64,
+   "end": 1798.686,
+   "approx": false,
+   "kind": "other",
+   "who": "France, United Irishmen",
+   "what": "About 1,000 French troops under Humbert landed to support the Irish rebellion; they surrendered at Ballinamuck.",
+   "w": "Irish Rebellion of 1798",
+   "src": [
+    "https://en.wikipedia.org/wiki/Irish_Rebellion_of_1798",
+    "https://en.wikipedia.org/wiki/Jean_Joseph_Amable_Humbert"
+   ]
+  },
+  {
+   "n": "Parthenopean Republic (Naples)",
+   "lat": 40.852,
+   "lon": 14.268,
+   "y": 1799.056,
+   "end": 1799.448,
+   "approx": false,
+   "kind": "republic",
+   "who": "France, Neapolitan patriots",
+   "what": "A short-lived republic in Naples, overthrown by a royalist peasant army; many of its leaders were executed.",
+   "w": "Parthenopean Republic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Parthenopean_Republic"
+   ]
+  },
+  {
+   "n": "Rosetta Stone found",
+   "lat": 31.404,
+   "lon": 30.417,
+   "y": 1799.536,
+   "end": 1799.536,
+   "approx": false,
+   "kind": "other",
+   "who": "French army",
+   "what": "French soldiers found the inscribed stone that later let Champollion decipher hieroglyphs (1822).",
+   "w": "Rosetta Stone",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rosetta_Stone"
+   ]
+  },
+  {
+   "n": "Coup of 18 Brumaire (Saint-Cloud)",
+   "lat": 48.844,
+   "lon": 2.219,
+   "y": 1799.856,
+   "end": 1799.859,
+   "approx": false,
+   "kind": "other",
+   "who": "Bonaparte",
+   "what": "Grenadiers cleared the Council of Five Hundred; the Directory was replaced by the Consulate with Bonaparte as First Consul.",
+   "w": "Coup of 18 Brumaire",
+   "src": [
+    "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire"
+   ]
+  }
+ ],
+ "battles": [
+  {
+   "n": "Battle of Valmy",
+   "y": 1792.722,
+   "date": "20 September 1792",
+   "lat": 49.08,
+   "lon": 4.767,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Prussia, Austria, émigrés",
+   "won": "a",
+   "men": [
+    36000,
+    34000
+   ],
+   "loss": [
+    300,
+    200
+   ],
+   "what": "An artillery duel in the rain turned back the Prussian invasion; the Republic was proclaimed the next day.",
+   "w": "Battle of Valmy",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Valmy"
+   ]
+  },
+  {
+   "n": "Battle of Jemappes",
+   "y": 1792.851,
+   "date": "6 November 1792",
+   "lat": 50.456,
+   "lon": 3.889,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    40000,
+    13200
+   ],
+   "loss": [
+    2000,
+    1241
+   ],
+   "what": "Dumouriez's victory opened the Austrian Netherlands (Belgium) to French conquest.",
+   "w": "Battle of Jemappes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Jemappes"
+   ]
+  },
+  {
+   "n": "Battle of Neerwinden",
+   "y": 1793.21,
+   "date": "18 March 1793",
+   "lat": 50.767,
+   "lon": 5.05,
+   "war": "War of the First Coalition",
+   "a": "Austria, Dutch Republic",
+   "b": "France",
+   "won": "a",
+   "men": [
+    39000,
+    40000
+   ],
+   "loss": [
+    2859,
+    4000
+   ],
+   "what": "Defeat drove the French out of Belgium; their general Dumouriez defected to the Austrians soon after.",
+   "w": "Battle of Neerwinden (1793)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Neerwinden_(1793)"
+   ]
+  },
+  {
+   "n": "Siege of Toulon",
+   "y": 1793.966,
+   "date": "29 August – 19 December 1793",
+   "lat": 43.117,
+   "lon": 5.93,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Britain, Spain, Naples, Sardinia, French royalists",
+   "won": "a",
+   "men": [
+    32000,
+    null
+   ],
+   "loss": [
+    1700,
+    null
+   ],
+   "what": "The Republic retook the port; the young artillery officer Napoleon Bonaparte made his name in the siege.",
+   "w": "Siege of Toulon (1793)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)"
+   ]
+  },
+  {
+   "n": "Battle of Hondschoote",
+   "y": 1793.686,
+   "date": "6–8 September 1793",
+   "lat": 50.98,
+   "lon": 2.586,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Britain, Hanover, Hesse-Kassel",
+   "won": "a",
+   "men": [
+    40000,
+    24000
+   ],
+   "loss": [
+    3000,
+    4000
+   ],
+   "what": "Houchard relieved Dunkirk from the Duke of York's siege; he was still guillotined for failing to follow up.",
+   "w": "Battle of Hondschoote",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Hondschoote"
+   ]
+  },
+  {
+   "n": "Battle of Wattignies",
+   "y": 1793.79,
+   "date": "15–16 October 1793",
+   "lat": 50.201,
+   "lon": 4.013,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    45000,
+    22400
+   ],
+   "loss": [
+    3000,
+    3000
+   ],
+   "what": "Jourdan and Carnot forced the Austrians to lift the siege of Maubeuge.",
+   "w": "Battle of Wattignies",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Wattignies"
+   ]
+  },
+  {
+   "n": "Battle of Kaiserslautern",
+   "y": 1793.914,
+   "date": "28–30 November 1793",
+   "lat": 49.47,
+   "lon": 7.764,
+   "war": "War of the First Coalition",
+   "a": "Prussia, Saxony",
+   "b": "France",
+   "won": "a",
+   "men": [
+    26000,
+    36000
+   ],
+   "loss": [
+    806,
+    2000
+   ],
+   "what": "Hoche's attack on the Prussians in the Palatinate failed.",
+   "w": "Battle of Kaiserslautern",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Kaiserslautern"
+   ]
+  },
+  {
+   "n": "Battle of Savenay",
+   "y": 1793.977,
+   "date": "23 December 1793",
+   "lat": 47.361,
+   "lon": -1.95,
+   "war": "War in the Vendée",
+   "a": "French Republic",
+   "b": "Vendéens",
+   "won": "a",
+   "men": [
+    18000,
+    6000
+   ],
+   "loss": [
+    230,
+    4000
+   ],
+   "what": "The last stand of the Vendéen army after its march north of the Loire; most prisoners were executed.",
+   "w": "Battle of Savenay",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Savenay"
+   ]
+  },
+  {
+   "n": "Glorious First of June",
+   "y": 1794.415,
+   "date": "1 June 1794",
+   "lat": 47.4,
+   "lon": -17.45,
+   "war": "War of the First Coalition",
+   "a": "Britain",
+   "b": "France",
+   "won": "a",
+   "men": [
+    null,
+    null
+   ],
+   "loss": [
+    1200,
+    7000
+   ],
+   "what": "Howe's fleet (25 ships of the line) took six French ships, but the grain convoy the French were guarding reached France (outcome debated).",
+   "w": "Glorious First of June",
+   "src": [
+    "https://en.wikipedia.org/wiki/Glorious_First_of_June"
+   ]
+  },
+  {
+   "n": "Battle of Fleurus",
+   "y": 1794.484,
+   "date": "26 June 1794",
+   "lat": 50.483,
+   "lon": 4.533,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria, Dutch Republic",
+   "won": "a",
+   "men": [
+    82000,
+    59000
+   ],
+   "loss": [
+    5000,
+    5000
+   ],
+   "what": "Jourdan's victory, watched from a reconnaissance balloon, gave France Belgium for 20 years.",
+   "w": "Battle of Fleurus (1794)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Fleurus_(1794)"
+   ]
+  },
+  {
+   "n": "Quiberon expedition",
+   "y": 1795.552,
+   "date": "23 June – 21 July 1795",
+   "lat": 47.484,
+   "lon": -3.119,
+   "war": "War of the First Coalition",
+   "a": "French Republic",
+   "b": "Émigrés, Chouans, Britain",
+   "won": "a",
+   "men": [
+    13000,
+    20000
+   ],
+   "loss": [
+    null,
+    11300
+   ],
+   "what": "A British-landed émigré army was trapped on the Quiberon peninsula by Hoche; about 750 captured émigrés, including their leader Sombreuil, were shot at Auray.",
+   "w": "Invasion of France (1795)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Invasion_of_France_(1795)",
+    "https://en.wikipedia.org/wiki/Quiberon"
+   ]
+  },
+  {
+   "n": "Battle of Lodi",
+   "y": 1796.358,
+   "date": "10 May 1796",
+   "lat": 45.314,
+   "lon": 9.503,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    17500,
+    9500
+   ],
+   "loss": [
+    350,
+    2035
+   ],
+   "what": "Bonaparte stormed the Adda bridge; Milan fell five days later.",
+   "w": "Battle of Lodi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Lodi"
+   ]
+  },
+  {
+   "n": "Battle of Würzburg",
+   "y": 1796.675,
+   "date": "3 September 1796",
+   "lat": 49.793,
+   "lon": 9.929,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "b",
+   "men": [
+    30000,
+    30000
+   ],
+   "loss": [
+    3000,
+    1500
+   ],
+   "what": "Archduke Charles defeated Jourdan and drove the French back across the Rhine.",
+   "w": "Battle of Würzburg",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Würzburg"
+   ]
+  },
+  {
+   "n": "Battle of Arcole",
+   "y": 1796.881,
+   "date": "15–17 November 1796",
+   "lat": 45.357,
+   "lon": 11.278,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    20000,
+    24000
+   ],
+   "loss": [
+    4800,
+    6200
+   ],
+   "what": "Three days of fighting in the marshes east of Verona; Bonaparte's charge on the bridge became a legend.",
+   "w": "Battle of Arcole",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Arcole"
+   ]
+  },
+  {
+   "n": "Battle of Rivoli",
+   "y": 1797.04,
+   "date": "14–15 January 1797",
+   "lat": 45.567,
+   "lon": 10.817,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    22000,
+    28000
+   ],
+   "loss": [
+    4200,
+    12000
+   ],
+   "what": "The decisive victory of the Italian campaign; Mantua surrendered two weeks later.",
+   "w": "Battle of Rivoli",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Rivoli"
+   ]
+  },
+  {
+   "n": "Siege of Mantua",
+   "y": 1797.089,
+   "date": "4 June 1796 – 2 February 1797",
+   "lat": 45.16,
+   "lon": 10.8,
+   "war": "War of the First Coalition",
+   "a": "France",
+   "b": "Austria",
+   "won": "a",
+   "men": [
+    16000,
+    25000
+   ],
+   "loss": [
+    7000,
+    32000
+   ],
+   "what": "Four Austrian relief armies failed; the fortress fell, with about 16,000 Austrian dead or sick and 16,000 captured.",
+   "w": "Siege of Mantua (1796–1797)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Mantua_(1796–1797)"
+   ]
+  },
+  {
+   "n": "Battle of Cape St. Vincent",
+   "y": 1797.122,
+   "date": "14 February 1797",
+   "lat": 37.025,
+   "lon": -8.994,
+   "war": "War of the First Coalition",
+   "a": "Britain",
+   "b": "Spain",
+   "won": "a",
+   "men": [
+    null,
+    null
+   ],
+   "loss": [
+    300,
+    4286
+   ],
+   "what": "Jervis's 15 ships of the line beat a Spanish fleet of 25 and took four; Nelson won fame here.",
+   "w": "Battle of Cape St. Vincent (1797)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Cape_St._Vincent_(1797)"
+   ]
+  },
+  {
+   "n": "Battle of Camperdown",
+   "y": 1797.777,
+   "date": "11 October 1797",
+   "lat": 52.75,
+   "lon": 4.2,
+   "war": "War of the First Coalition",
+   "a": "Britain",
+   "b": "Batavian Republic",
+   "won": "a",
+   "men": [
+    null,
+    null
+   ],
+   "loss": [
+    825,
+    4935
+   ],
+   "what": "Duncan's fleet captured nine Dutch ships of the line, ending the Batavian navy as a threat.",
+   "w": "Battle of Camperdown",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Camperdown"
+   ]
+  },
+  {
+   "n": "Battle of the Pyramids",
+   "y": 1798.552,
+   "date": "21 July 1798",
+   "lat": 30.083,
+   "lon": 31.2,
+   "war": "French invasion of Egypt and Syria",
+   "a": "France",
+   "b": "Mamluks, Ottoman Egypt",
+   "won": "a",
+   "men": [
+    25000,
+    21000
+   ],
+   "loss": [
+    289,
+    10000
+   ],
+   "what": "French infantry squares broke the Mamluk cavalry; Bonaparte entered Cairo three days later.",
+   "w": "Battle of the Pyramids",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Pyramids"
+   ]
+  },
+  {
+   "n": "Battle of the Nile",
+   "y": 1798.585,
+   "date": "1–3 August 1798",
+   "lat": 31.333,
+   "lon": 30.117,
+   "war": "French invasion of Egypt and Syria",
+   "a": "Britain",
+   "b": "France",
+   "won": "a",
+   "men": [
+    null,
+    null
+   ],
+   "loss": [
+    895,
+    5000
+   ],
+   "what": "Nelson destroyed the French fleet in Aboukir Bay (11 of 13 ships of the line taken or destroyed), stranding the army in Egypt.",
+   "w": "Battle of the Nile",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Nile"
+   ]
+  },
+  {
+   "n": "Siege of Acre",
+   "y": 1799.385,
+   "date": "20 March – 21 May 1799",
+   "lat": 32.922,
+   "lon": 35.07,
+   "war": "French invasion of Egypt and Syria",
+   "a": "Ottoman Empire, Britain",
+   "b": "France",
+   "won": "a",
+   "men": [
+    5000,
+    12000
+   ],
+   "loss": [
+    2000,
+    4000
+   ],
+   "what": "Bonaparte's army, hit by plague, failed to take the fortress and retreated to Egypt.",
+   "w": "Siege of Acre (1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Acre_(1799)"
+   ]
+  },
+  {
+   "n": "Battle of Abukir",
+   "y": 1799.563,
+   "date": "25 July 1799",
+   "lat": 31.317,
+   "lon": 30.067,
+   "war": "French invasion of Egypt and Syria",
+   "a": "France",
+   "b": "Ottoman Empire",
+   "won": "a",
+   "men": [
+    10000,
+    7000
+   ],
+   "loss": [
+    820,
+    20000
+   ],
+   "what": "Bonaparte destroyed an Ottoman landing force, then sailed secretly for France a month later.",
+   "w": "Battle of Abukir (1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Abukir_(1799)"
+   ]
+  },
+  {
+   "n": "Battle of Novi",
+   "y": 1799.621,
+   "date": "15 August 1799",
+   "lat": 44.762,
+   "lon": 8.791,
+   "war": "War of the Second Coalition",
+   "a": "Russia, Austria",
+   "b": "France",
+   "won": "a",
+   "men": [
+    50000,
+    35000
+   ],
+   "loss": [
+    8000,
+    9663
+   ],
+   "what": "Suvorov's victory, in which the French commander Joubert was killed, completed the loss of Italy.",
+   "w": "Battle of Novi (1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Novi_(1799)"
+   ]
+  },
+  {
+   "n": "Battle of Bergen",
+   "y": 1799.716,
+   "date": "19 September 1799",
+   "lat": 52.67,
+   "lon": 4.7,
+   "war": "War of the Second Coalition",
+   "a": "France, Batavian Republic",
+   "b": "Britain, Russia",
+   "won": "a",
+   "men": [
+    22000,
+    23300
+   ],
+   "loss": [
+    3427,
+    4027
+   ],
+   "what": "Brune defeated the Anglo-Russian invasion of North Holland.",
+   "w": "Battle of Bergen (1799)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Bergen_(1799)"
+   ]
+  },
+  {
+   "n": "Second Battle of Zurich",
+   "y": 1799.736,
+   "date": "25–26 September 1799",
+   "lat": 47.367,
+   "lon": 8.55,
+   "war": "War of the Second Coalition",
+   "a": "France",
+   "b": "Russia, Austria",
+   "won": "a",
+   "men": [
+    35448,
+    27116
+   ],
+   "loss": [
+    4000,
+    8000
+   ],
+   "what": "Masséna's victory forced the Russians out of Switzerland and the war.",
+   "w": "Second Battle of Zurich",
+   "src": [
+    "https://en.wikipedia.org/wiki/Second_Battle_of_Zurich"
+   ]
+  }
+ ],
+ "campaigns": [
+  {
+   "n": "Flight to Varennes",
+   "who": "Louis XVI and the royal family",
+   "side": "France (royal family)",
+   "pts": [
+    [
+     2.33,
+     48.862,
+     1791.469,
+     null
+    ],
+    [
+     2.481,
+     48.903,
+     1791.469,
+     null
+    ],
+    [
+     2.879,
+     48.96,
+     1791.469,
+     null
+    ],
+    [
+     3.126,
+     48.952,
+     1791.47,
+     null
+    ],
+    [
+     3.535,
+     48.866,
+     1791.47,
+     null
+    ],
+    [
+     4.365,
+     48.957,
+     1791.47,
+     null
+    ],
+    [
+     4.896,
+     49.091,
+     1791.471,
+     null
+    ],
+    [
+     5.031,
+     49.226,
+     1791.471,
+     null
+    ],
+    [
+     4.896,
+     49.091,
+     1791.472,
+     null
+    ],
+    [
+     4.365,
+     48.957,
+     1791.474,
+     null
+    ],
+    [
+     3.955,
+     49.04,
+     1791.476,
+     null
+    ],
+    [
+     3.4,
+     49.046,
+     1791.477,
+     null
+    ],
+    [
+     2.879,
+     48.96,
+     1791.479,
+     null
+    ],
+    [
+     2.33,
+     48.862,
+     1791.482,
+     null
+    ]
+   ],
+   "what": "The royal family fled the Tuileries in disguise towards the fortress of Montmédy, was recognised at Sainte-Menehould and stopped at Varennes, then brought back to a silent Paris on 25 June. Intermediate times are approximate.",
+   "w": "Flight to Varennes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flight_to_Varennes"
+   ]
+  },
+  {
+   "n": "Brunswick's invasion of France, 1792",
+   "who": "Prussian, Austrian, Hessian and émigré army",
+   "side": "Prussia, Austria",
+   "pts": [
+    [
+     7.594,
+     50.356,
+     1792.579,
+     null
+    ],
+    [
+     6.64,
+     49.756,
+     1792.61,
+     null
+    ],
+    [
+     5.763,
+     49.52,
+     1792.645,
+     null
+    ],
+    [
+     5.384,
+     49.16,
+     1792.673,
+     null
+    ],
+    [
+     4.87,
+     49.4,
+     1792.705,
+     null
+    ],
+    [
+     4.767,
+     49.08,
+     1792.722,
+     34000
+    ],
+    [
+     4.896,
+     49.091,
+     1792.752,
+     null
+    ],
+    [
+     5.384,
+     49.16,
+     1792.788,
+     null
+    ],
+    [
+     5.763,
+     49.52,
+     1792.81,
+     null
+    ],
+    [
+     6.64,
+     49.756,
+     1792.832,
+     null
+    ]
+   ],
+   "what": "The Duke of Brunswick's army marched on Paris, took Longwy and Verdun, was halted at Valmy and retreated in rain and dysentery. Dates of intermediate points are approximate.",
+   "w": "Battle of Valmy",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Valmy",
+    "https://en.wikipedia.org/wiki/Brunswick_Manifesto",
+    "https://en.wikipedia.org/wiki/War_of_the_First_Coalition"
+   ]
+  },
+  {
+   "n": "Bonaparte's Italian campaign, 1796-97",
+   "who": "Army of Italy",
+   "side": "France",
+   "pts": [
+    [
+     7.266,
+     43.703,
+     1796.237,
+     null
+    ],
+    [
+     8.481,
+     44.308,
+     1796.275,
+     null
+    ],
+    [
+     8.375,
+     44.4,
+     1796.281,
+     null
+    ],
+    [
+     8.204,
+     44.38,
+     1796.286,
+     null
+    ],
+    [
+     7.818,
+     44.391,
+     1796.305,
+     null
+    ],
+    [
+     7.858,
+     44.574,
+     1796.325,
+     null
+    ],
+    [
+     9.503,
+     45.314,
+     1796.358,
+     17500
+    ],
+    [
+     9.19,
+     45.464,
+     1796.371,
+     null
+    ],
+    [
+     10.693,
+     45.354,
+     1796.412,
+     null
+    ],
+    [
+     10.8,
+     45.16,
+     1796.426,
+     null
+    ],
+    [
+     10.497,
+     45.392,
+     1796.596,
+     null
+    ],
+    [
+     11.733,
+     45.766,
+     1796.689,
+     null
+    ],
+    [
+     11.278,
+     45.357,
+     1796.881,
+     20000
+    ],
+    [
+     10.817,
+     45.567,
+     1797.037,
+     22000
+    ],
+    [
+     10.8,
+     45.16,
+     1797.089,
+     null
+    ],
+    [
+     12.99,
+     45.95,
+     1797.204,
+     null
+    ],
+    [
+     14.306,
+     46.624,
+     1797.242,
+     null
+    ],
+    [
+     15.097,
+     47.383,
+     1797.295,
+     null
+    ]
+   ],
+   "what": "From Nice to within 150 km of Vienna: Bonaparte knocked Sardinia out of the war, took Lombardy, beat four Austrian relief armies around Mantua and forced Austria to the peace preliminaries of Leoben.",
+   "w": "Italian campaigns of the French Revolutionary Wars",
+   "src": [
+    "https://en.wikipedia.org/wiki/Italian_campaigns_of_the_French_Revolutionary_Wars",
+    "https://en.wikipedia.org/wiki/Montenotte_campaign",
+    "https://en.wikipedia.org/wiki/Siege_of_Mantua_(1796–1797)",
+    "https://en.wikipedia.org/wiki/Peace_of_Leoben"
+   ]
+  },
+  {
+   "n": "Egyptian expedition, 1798",
+   "who": "Armée d'Orient and fleet",
+   "side": "France",
+   "pts": [
+    [
+     5.93,
+     43.117,
+     1798.379,
+     36000
+    ],
+    [
+     8.7,
+     42.0,
+     1798.404,
+     null
+    ],
+    [
+     12.5,
+     38.3,
+     1798.426,
+     null
+    ],
+    [
+     14.514,
+     35.899,
+     1798.442,
+     null
+    ],
+    [
+     20.0,
+     34.6,
+     1798.473,
+     null
+    ],
+    [
+     29.919,
+     31.2,
+     1798.5,
+     null
+    ],
+    [
+     30.708,
+     31.01,
+     1798.53,
+     null
+    ],
+    [
+     31.2,
+     30.083,
+     1798.552,
+     25000
+    ],
+    [
+     31.236,
+     30.044,
+     1798.56,
+     null
+    ]
+   ],
+   "what": "Bonaparte's fleet left Toulon with about 36,000 soldiers and 167 scholars, seized Malta from the Knights of St John, landed at Alexandria and took Cairo; Nelson destroyed the fleet at Aboukir on 1 August. Sea points between ports are approximate.",
+   "w": "French invasion of Egypt and Syria",
+   "src": [
+    "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
+    "https://en.wikipedia.org/wiki/French_occupation_of_Malta",
+    "https://en.wikipedia.org/wiki/Commission_des_Sciences_et_des_Arts"
+   ]
+  }
+ ]
+}
