@@ -550,7 +550,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true,
@@ -881,7 +883,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true
@@ -1169,7 +1173,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   }
  },
  {
@@ -1524,7 +1530,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true
@@ -1550,7 +1558,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -2523,7 +2533,9 @@
    "lyCrops": true,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "spread": "farming",
@@ -2532,8 +2544,8 @@
  },
  {
   "id": "wild-to-dinner",
-  "title": "From wild plants to dinner",
-  "blurb": "How foragers' wild grasses, pods and tubers became wheat, rice, maize and potatoes, and how crops travelled the world.",
+  "title": "From wild plants and animals to dinner",
+  "blurb": "How foragers' wild grasses, pods and tubers became wheat, rice, maize and potatoes, how wild sheep, aurochs and boars became farm animals, and how both travelled the world.",
   "cat": "Food & farming",
   "ly": {
    "lyCrops": true,
@@ -2547,7 +2559,9 @@
    "lyFauna": false,
    "lyHomo": false,
    "lyEvents": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -3682,7 +3696,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true
@@ -4104,7 +4120,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": true,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   }
  },
  {
@@ -4602,7 +4620,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true
@@ -5012,7 +5032,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   }
  },
  {
@@ -5660,7 +5682,2451 @@
    "lyEvents": true,
    "lyFauna": false,
    "lyHomo": false,
-   "lyPlague": false
+   "lyPlague": false,
+   "lyHist": false,
+   "lyWars": false
+  }
+ },
+ {
+  "id": "french-revolution",
+  "title": "The French Revolution",
+  "blurb": "From an empty treasury and a ruined harvest to the Rights of Man, the Terror and Bonaparte's coup: France and Europe 1788-1799.",
+  "cat": "Revolutions & empires",
+  "steps": [
+   {
+    "y": 1788.533,
+    "lat": 48.6,
+    "lon": 2.4,
+    "z": 5,
+    "t": "An empty treasury and a ruined harvest",
+    "c": "France helped win the American War of Independence but paid with borrowed money: by 1788 half of all state revenue went on servicing the debt, and nobles and clergy blocked new taxes. Then on 13 July 1788 a hailstorm flattened crops across northern France, the harvest failed and an exceptionally cold winter followed. Bread, the main food of the poor, became so dear that many families spent most of their income on it. In August the king gave in and called the Estates-General for May 1789.",
+    "w": "Causes of the French Revolution",
+    "look": [
+     [
+      48.86,
+      2.35,
+      "Paris"
+     ],
+     [
+      48.8,
+      2.12,
+      "Versailles"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A volcano in Iceland?",
+      "t": "The Laki fissure eruption of 1783-84 spread a sulphurous haze over Europe and brought extreme weather. Some historians link it to the poor harvests before 1789, but the link is debated: the eruption was five years earlier.",
+      "lat": 64.07,
+      "lon": -18.23
+     },
+     {
+      "h": "Day of the Tiles",
+      "t": "On 7 June 1788 people in Grenoble threw roof tiles at royal troops sent to close their law court, an early open revolt.",
+      "lat": 45.19,
+      "lon": 5.72
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Causes_of_the_French_Revolution",
+     "https://en.wikipedia.org/wiki/French_Revolution",
+     "https://en.wikipedia.org/wiki/1788",
+     "https://en.wikipedia.org/wiki/Laki",
+     "https://en.wikipedia.org/wiki/Day_of_the_Tiles"
+    ],
+    "img": "Tour: french-revolution: An empty treasury and a ruined harvest"
+   },
+   {
+    "y": 1789.467,
+    "lat": 48.8,
+    "lon": 2.13,
+    "z": 8,
+    "t": "Three estates at Versailles",
+    "c": "On 5 May 1789 about 1,200 deputies met at Versailles: clergy, nobles and the Third Estate, which spoke for some 97% of the people and had been given double the seats. They arrived with 'cahiers', lists of grievances written in towns and villages across France. When the king kept voting by estate, the Third Estate declared itself the National Assembly on 17 June. Three days later, locked out of its hall, it swore in a tennis court not to separate until France had a constitution.",
+    "w": "Tennis Court Oath",
+    "look": [
+     [
+      48.8,
+      2.134,
+      "Menus-Plaisirs hall"
+     ],
+     [
+      48.802,
+      2.124,
+      "Tennis court"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Vizille, 1788",
+      "t": "A year earlier, the estates of Dauphiné met in the château of Vizille and demanded exactly what Paris later fought for: a doubled Third Estate and voting by head.",
+      "lat": 45.08,
+      "lon": 5.77
+     },
+     {
+      "h": "Riot in the wallpaper works",
+      "t": "On 28 April 1789 Paris workers sacked the Réveillon wallpaper factory over rumoured wage cuts; troops fired and dozens to hundreds died (estimates vary).",
+      "lat": 48.851,
+      "lon": 2.375
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Estates_General_of_1789",
+     "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+     "https://en.wikipedia.org/wiki/National_Assembly_(French_Revolution)",
+     "https://en.wikipedia.org/wiki/Réveillon_riots",
+     "https://en.wikipedia.org/wiki/Assembly_of_Vizille"
+    ],
+    "img": "Tour: french-revolution: Three estates at Versailles"
+   },
+   {
+    "y": 1789.533,
+    "lat": 48.853,
+    "lon": 2.369,
+    "z": 9,
+    "t": "The fall of the Bastille",
+    "c": "The king's dismissal of the popular finance minister Necker on 11 July and troops gathering around Paris made the city fear a crackdown. On 14 July a crowd that had taken some 30,000 muskets from the Invalides went to the Bastille fortress for gunpowder. After hours of fighting, in which about 98 attackers died, the garrison surrendered; the governor de Launay was killed. The fortress held only seven prisoners, but its fall became the symbol of the Revolution, and 14 July is France's national day.",
+    "w": "Storming of the Bastille",
+    "look": [
+     [
+      48.853,
+      2.369,
+      "Bastille"
+     ],
+     [
+      48.856,
+      2.313,
+      "Invalides"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Souvenir stones",
+      "t": "A building contractor, Pierre-François Palloy, demolished the Bastille and sold its stones carved into small models of the fortress all over France.",
+      "lat": 48.86,
+      "lon": 2.36
+     },
+     {
+      "h": "The king's cockade",
+      "t": "On 17 July Louis XVI came to Paris and accepted the red-and-blue cockade of the city, to which the white of the monarchy was added: the origin of the tricolour.",
+      "lat": 48.857,
+      "lon": 2.352
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+     "https://en.wikipedia.org/wiki/Bastille",
+     "https://en.wikipedia.org/wiki/Flag_of_France"
+    ],
+    "img": "Tour: french-revolution: The fall of the Bastille"
+   },
+   {
+    "y": 1789.651,
+    "lat": 47.0,
+    "lon": 2.5,
+    "z": 5,
+    "t": "Great Fear and the Rights of Man",
+    "c": "In late July 1789 rumours of brigands paid by nobles swept the countryside; peasants armed themselves and burned the manor records listing their dues. On the night of 4 August the Assembly answered by abolishing feudal privileges and the church tithe. On 26 August it adopted the Declaration of the Rights of Man and of the Citizen: 'men are born and remain free and equal in rights'. In the debates that followed, supporters of a strong king sat to the president's right and their opponents to the left, which is where 'left' and 'right' in politics come from.",
+    "w": "Declaration of the Rights of Man and of the Citizen",
+    "look": [
+     [
+      47.62,
+      6.15,
+      "Franche-Comté"
+     ],
+     [
+      46.03,
+      0.2,
+      "Ruffec"
+     ],
+     [
+      46.31,
+      4.83,
+      "Mâconnais"
+     ],
+     [
+      48.8,
+      2.13,
+      "Versailles"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Ruffec",
+      "t": "One of the starting points of the Great Fear: a rumour of brigands here on 28 July spread across the south-west in a few days.",
+      "lat": 46.03,
+      "lon": 0.2
+     },
+     {
+      "h": "Mâconnais",
+      "t": "In the hills around Mâcon peasants attacked dozens of châteaux and abbeys, burning title deeds rather than killing their lords.",
+      "lat": 46.31,
+      "lon": 4.83
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Great_Fear",
+     "https://en.wikipedia.org/wiki/Abolition_of_feudalism_in_France",
+     "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+     "https://en.wikipedia.org/wiki/Left–right_political_spectrum"
+    ],
+    "img": "Tour: french-revolution: Great Fear and the Rights of Man"
+   },
+   {
+    "y": 1789.76,
+    "lat": 48.83,
+    "lon": 2.24,
+    "z": 9,
+    "t": "Women march for bread",
+    "c": "On 5 October 1789, angry at the price and shortage of bread, thousands of Paris market women marched about 20 km in the rain to Versailles, followed by some 20,000 National Guards under Lafayette. The next morning part of the crowd broke into the palace. The king agreed to move to Paris, and the royal family travelled to the Tuileries surrounded by the crowd. The Assembly followed, and from then on Paris crowds could press directly on government.",
+    "w": "Women's March on Versailles",
+    "look": [
+     [
+      48.857,
+      2.352,
+      "Hôtel de Ville"
+     ],
+     [
+      48.805,
+      2.12,
+      "Versailles"
+     ],
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The baker and his family",
+      "t": "The crowd taking the king to Paris called the royal family 'the baker, the baker's wife and the baker's boy', expecting them to provide bread.",
+      "lat": 48.862,
+      "lon": 2.33
+     },
+     {
+      "h": "Sèvres on the way",
+      "t": "The road from Paris ran through Sèvres, famous for its royal porcelain works, which had been moved there from Vincennes in 1756.",
+      "lat": 48.82,
+      "lon": 2.21
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Women's_March_on_Versailles",
+     "https://en.wikipedia.org/wiki/Lafayette"
+    ],
+    "img": "Tour: french-revolution: Women march for bread"
+   },
+   {
+    "y": 1791.471,
+    "lat": 49.1,
+    "lon": 4.2,
+    "z": 6,
+    "t": "The king runs away",
+    "c": "Many nobles had already left France; these émigrés gathered around the king's brothers in Koblenz and urged foreign rulers to intervene. On the night of 20 June 1791 Louis XVI and his family slipped out of the Tuileries in disguise, heading for the loyal army at Montmédy. The postmaster of Sainte-Menehould recognised the king, and the family was stopped at Varennes, 50 km from the frontier, and brought back to a silent Paris. Trust in the king collapsed; on 17 July the National Guard fired on republican petitioners at the Champ de Mars, killing roughly a dozen to 50 (estimates vary).",
+    "w": "Flight to Varennes",
+    "look": [
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ],
+     [
+      49.091,
+      4.896,
+      "Sainte-Menehould"
+     ],
+     [
+      49.226,
+      5.031,
+      "Varennes"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Émigrés in Koblenz",
+      "t": "Thousands of émigré nobles and officers formed an army in Koblenz on the Rhine. Their property in France was later confiscated.",
+      "lat": 50.36,
+      "lon": 7.59
+     },
+     {
+      "h": "Pillnitz",
+      "t": "On 27 August 1791 the Emperor and the King of Prussia declared their support for Louis XVI, a vague threat that made many French people expect war.",
+      "lat": 51.01,
+      "lon": 13.87
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Flight_to_Varennes",
+     "https://en.wikipedia.org/wiki/Champ_de_Mars_massacre",
+     "https://en.wikipedia.org/wiki/Émigré",
+     "https://en.wikipedia.org/wiki/Declaration_of_Pillnitz"
+    ],
+    "img": "Tour: french-revolution: The king runs away"
+   },
+   {
+    "y": 1792.722,
+    "lat": 49.08,
+    "lon": 4.77,
+    "z": 6,
+    "t": "War, a new republic and Valmy",
+    "c": "France declared war on Austria in April 1792, and Prussia joined in. With invasion threatened, Paris crowds and volunteers stormed the Tuileries on 10 August; about 600 of the 900 Swiss Guards died and the king was deposed. In early September crowds killed about 1,100-1,600 prisoners in Paris, most of them common criminals. On 20 September an artillery duel at Valmy turned back the Prussian army, and on 21-22 September the new National Convention abolished the monarchy: Year I of the Republic began.",
+    "w": "Battle of Valmy",
+    "look": [
+     [
+      49.08,
+      4.77,
+      "Valmy"
+     ],
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ],
+     [
+      49.16,
+      5.38,
+      "Verdun"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "La Marseillaise",
+      "t": "Written in Strasbourg in April 1792 as a war song for the Army of the Rhine, it got its name from volunteers from Marseille who sang it marching into Paris.",
+      "lat": 48.58,
+      "lon": 7.75
+     },
+     {
+      "h": "Verdun falls",
+      "t": "The Prussians took Verdun on 2 September; the news set off the September Massacres in Paris.",
+      "lat": 49.16,
+      "lon": 5.38
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Valmy",
+     "https://en.wikipedia.org/wiki/Insurrection_of_10_August_1792",
+     "https://en.wikipedia.org/wiki/September_Massacres",
+     "https://en.wikipedia.org/wiki/La_Marseillaise",
+     "https://en.wikipedia.org/wiki/French_First_Republic"
+    ],
+    "img": "Tour: french-revolution: War, a new republic and Valmy"
+   },
+   {
+    "y": 1793.193,
+    "lat": 47.5,
+    "lon": -0.5,
+    "z": 5,
+    "t": "The king executed, France at war with itself",
+    "c": "Tried by the Convention, Louis XVI was guillotined on 21 January 1793 after a narrow majority voted for death. Britain, the Dutch Republic and Spain joined the war, and the Republic called up 300,000 men. In March the Catholic west rose against conscription and the attack on its priests: the Vendée war. After the radical Montagnards purged their Girondin rivals on 2 June, Lyon, Marseille, Bordeaux, Caen and Toulon rose too. The repression of the Vendée was the bloodiest episode of the Revolution: estimates of the dead on both sides range from about 117,000 to 450,000 (debated, as is calling it a genocide).",
+    "w": "War in the Vendée",
+    "look": [
+     [
+      48.866,
+      2.321,
+      "Place de la Révolution"
+     ],
+     [
+      47.06,
+      -0.88,
+      "Cholet"
+     ],
+     [
+      45.76,
+      4.83,
+      "Lyon"
+     ],
+     [
+      43.12,
+      5.93,
+      "Toulon"
+     ],
+     [
+      44.84,
+      -0.58,
+      "Bordeaux"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Toulon",
+      "t": "Royalists handed the naval port to a British-Spanish fleet in August 1793. The young artillery captain Napoleon Bonaparte helped retake it in December.",
+      "lat": 43.12,
+      "lon": 5.93
+     },
+     {
+      "h": "Caen and Charlotte Corday",
+      "t": "Fugitive Girondins tried to raise an army in Caen. A young woman from the town, Charlotte Corday, travelled to Paris and stabbed the radical journalist Marat on 13 July.",
+      "lat": 49.18,
+      "lon": -0.37
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+     "https://en.wikipedia.org/wiki/War_in_the_Vendée",
+     "https://en.wikipedia.org/wiki/Federalist_revolts",
+     "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)",
+     "https://en.wikipedia.org/wiki/Jean-Paul_Marat"
+    ],
+    "img": "Tour: french-revolution: The king executed, France at war with itself"
+   },
+   {
+    "y": 1793.607,
+    "lat": 48.861,
+    "lon": 2.338,
+    "z": 8,
+    "t": "A museum for everyone and a measure for all",
+    "c": "On 10 August 1793, the first anniversary of the fall of the monarchy, the former royal palace of the Louvre opened as a public museum with 537 paintings, most from the royal collection and confiscated church property. The Revolution also wanted the same measures everywhere instead of hundreds of local units: the metre was defined as one ten-millionth of the distance from the North Pole to the Equator. A law of April 1795 created the metre, gram and litre, and the final platinum metre was deposited in the Archives in June 1799. Today almost every country uses the system.",
+    "w": "Louvre",
+    "look": [
+     [
+      48.861,
+      2.338,
+      "Louvre"
+     ],
+     [
+      48.86,
+      2.357,
+      "Archives"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Measuring the meridian",
+      "t": "From 1792 to 1798 the astronomers Delambre and Méchain measured the meridian from Dunkirk to Barcelona by triangulation, despite war and arrests as suspected spies.",
+      "lat": 51.03,
+      "lon": 2.37
+     },
+     {
+      "h": "Barcelona",
+      "t": "Méchain worked the southern end of the survey from Barcelona; a small error he found in his own measurements troubled him for the rest of his life.",
+      "lat": 41.39,
+      "lon": 2.17
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Louvre",
+     "https://en.wikipedia.org/wiki/History_of_the_metre",
+     "https://en.wikipedia.org/wiki/Metric_system"
+    ],
+    "img": "Tour: french-revolution: A museum for everyone and a measure for all"
+   },
+   {
+    "y": 1793.812,
+    "lat": 48.86,
+    "lon": 2.35,
+    "z": 7,
+    "t": "Sans-culottes, bread and a new calendar",
+    "c": "The sans-culottes, Paris artisans and shopkeepers who wore long trousers instead of the breeches of the rich, pushed for cheap bread and harsh measures against 'hoarders'. In September 1793 the Law of the General Maximum capped the prices of bread and other goods, and the Law of Suspects allowed mass arrests. In October the Convention adopted a revolutionary calendar: years counted from 22 September 1792, ten-day weeks and months named after nature, such as Brumaire (mist) and Thermidor (heat). In the dechristianisation campaign churches were closed and Notre-Dame became a 'Temple of Reason'; citizens called each other 'citoyen' and 'tu'.",
+    "w": "Sans-culottes",
+    "look": [
+     [
+      48.853,
+      2.35,
+      "Notre-Dame"
+     ],
+     [
+      48.856,
+      2.345,
+      "Revolutionary Tribunal"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Freed Town",
+      "t": "After its revolt was crushed, the Convention decreed that Lyon would lose its name and be called 'Ville-Affranchie' (Freed Town); only about 50 of 600 houses ordered destroyed were demolished.",
+      "lat": 45.76,
+      "lon": 4.83
+     },
+     {
+      "h": "Ten-day weeks",
+      "t": "The calendar gave workers one rest day in ten instead of one in seven. It was used officially until Napoleon abolished it on 1 January 1806.",
+      "lat": 47.0,
+      "lon": 2.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Sans-culottes",
+     "https://en.wikipedia.org/wiki/Law_of_Maximum",
+     "https://en.wikipedia.org/wiki/Law_of_Suspects",
+     "https://en.wikipedia.org/wiki/French_Republican_calendar",
+     "https://en.wikipedia.org/wiki/Dechristianization_of_France_during_the_French_Revolution"
+    ],
+    "img": "Tour: french-revolution: Sans-culottes, bread and a new calendar"
+   },
+   {
+    "y": 1793.84,
+    "lat": 48.86,
+    "lon": 2.34,
+    "z": 8,
+    "t": "Women in the Revolution",
+    "c": "Women led bread riots, sat in the galleries of the clubs and formed their own societies; a 1792 law allowed divorce. In 1791 the playwright Olympe de Gouges answered the Declaration of the Rights of Man with a Declaration of the Rights of Woman and of the Female Citizen. But women never got the vote. On 30 October 1793 the Convention banned all women's clubs, and on 3 November Olympe de Gouges, who had attacked Robespierre in print, was guillotined. Marie Antoinette had been executed on 16 October.",
+    "w": "Olympe de Gouges",
+    "look": [
+     [
+      48.866,
+      2.321,
+      "Place de la Révolution"
+     ],
+     [
+      48.856,
+      2.345,
+      "Conciergerie"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Montauban",
+      "t": "Olympe de Gouges was born Marie Gouze in Montauban in 1748; she also wrote against slavery, in the play Zamore and Mirza.",
+      "lat": 44.02,
+      "lon": 1.35
+     },
+     {
+      "h": "Revolutionary Republican Women",
+      "t": "Founded in May 1793 by Pauline Léon and Claire Lacombe, this Paris society campaigned for bread price controls; it was dissolved with the ban on women's clubs.",
+      "lat": 48.85,
+      "lon": 2.34
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Olympe_de_Gouges",
+     "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Woman_and_of_the_Female_Citizen",
+     "https://en.wikipedia.org/wiki/Society_of_Revolutionary_Republican_Women",
+     "https://en.wikipedia.org/wiki/Women_in_the_French_Revolution"
+    ],
+    "img": "Tour: french-revolution: Women in the Revolution"
+   },
+   {
+    "y": 1794.095,
+    "lat": 30.0,
+    "lon": -40.0,
+    "z": 2,
+    "t": "Freedom for the enslaved, then taken back",
+    "c": "In August 1791 enslaved people in Saint-Domingue, France's richest sugar colony, rose in revolt; within a week some 1,800 plantations were destroyed. In 1793 the commissioner Sonthonax freed the slaves of the colony, and on 4 February 1794 the Convention, after welcoming three deputies from Saint-Domingue including Jean-Baptiste Belley, born in Africa and formerly enslaved, abolished slavery in all French colonies. Napoleon restored it by the law of 20 May 1802. Saint-Domingue fought on and became independent Haiti in 1804; France finally abolished slavery in 1848.",
+    "w": "Law of 4 February 1794",
+    "look": [
+     [
+      48.862,
+      2.332,
+      "Convention"
+     ],
+     [
+      19.76,
+      -72.2,
+      "Cap-Français"
+     ],
+     [
+      16.25,
+      -61.58,
+      "Guadeloupe"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Guadeloupe, 1802",
+      "t": "When Napoleon's troops came to restore slavery, the officer Louis Delgrès and his men resisted and blew themselves up at Matouba rather than surrender (28 May 1802).",
+      "lat": 16.06,
+      "lon": -61.68
+     },
+     {
+      "h": "Bois Caïman",
+      "t": "A gathering at Bois Caïman in August 1791 is remembered as the start of the slave revolt; its details come from later accounts and are debated.",
+      "lat": 19.7,
+      "lon": -72.25
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Law_of_4_February_1794",
+     "https://en.wikipedia.org/wiki/1791_slave_rebellion",
+     "https://en.wikipedia.org/wiki/Haitian_Revolution",
+     "https://en.wikipedia.org/wiki/Jean-Baptiste_Belley",
+     "https://en.wikipedia.org/wiki/Law_of_20_May_1802"
+    ],
+    "img": "Tour: french-revolution: Freedom for the enslaved, then taken back"
+   },
+   {
+    "y": 1794.568,
+    "lat": 47.5,
+    "lon": 1.5,
+    "z": 5,
+    "t": "The Terror and its end",
+    "c": "Ruled by the Committee of Public Safety, the Republic used terror against 'enemies of the people'. At least 300,000 suspects were arrested; about 17,000 were officially executed and perhaps 10,000 died in prison, and many more died in the Vendée repression (totals debated). In Nantes, prisoners were drowned in the Loire (estimates 1,800 to over 4,000); in Lyon about 2,000 were executed. In Paris the Revolutionary Tribunal condemned 1,376 people in the last 49 days alone. With the war going better after Fleurus, the Convention turned on Robespierre on 9 Thermidor (27 July 1794); he was guillotined the next day.",
+    "w": "Reign of Terror",
+    "look": [
+     [
+      48.857,
+      2.352,
+      "Paris"
+     ],
+     [
+      47.21,
+      -1.56,
+      "Nantes"
+     ],
+     [
+      45.77,
+      4.86,
+      "Lyon"
+     ],
+     [
+      50.29,
+      2.78,
+      "Arras"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Arras",
+      "t": "Robespierre's home town, where the deputy Joseph Le Bon ran a revolutionary tribunal that sent hundreds to the guillotine (figures vary).",
+      "lat": 50.29,
+      "lon": 2.78
+     },
+     {
+      "h": "Festival of the Supreme Being",
+      "t": "On 8 June 1794 Robespierre led a huge festival for a new civic religion on the Champ de Mars; seven weeks later he was dead.",
+      "lat": 48.856,
+      "lon": 2.298
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Reign_of_Terror",
+     "https://en.wikipedia.org/wiki/Drownings_at_Nantes",
+     "https://en.wikipedia.org/wiki/Revolt_of_Lyon_against_the_National_Convention",
+     "https://en.wikipedia.org/wiki/Revolutionary_Tribunal",
+     "https://en.wikipedia.org/wiki/Thermidorian_Reaction",
+     "https://en.wikipedia.org/wiki/Joseph_Le_Bon"
+    ],
+    "img": "Tour: french-revolution: The Terror and its end"
+   },
+   {
+    "y": 1796.881,
+    "lat": 45.4,
+    "lon": 10.5,
+    "z": 5,
+    "t": "Bonaparte in Italy and the sister republics",
+    "c": "After Thermidor a five-man Directory ruled from 1795. The mass conscription of 1793 had created a citizen army that now carried the Revolution abroad. In 1796-97 General Bonaparte, aged 26 when he took command, beat Sardinia and four Austrian armies in Italy, at Lodi, Arcole and Rivoli, and sent paintings and statues back to the Louvre. France surrounded itself with 'sister republics': Batavian (1795), Cisalpine and Ligurian (1797), Roman and Helvetic (1798), Parthenopean (1799).",
+    "w": "Italian campaigns of the French Revolutionary Wars",
+    "look": [
+     [
+      45.314,
+      9.503,
+      "Lodi"
+     ],
+     [
+      45.357,
+      11.278,
+      "Arcole"
+     ],
+     [
+      45.567,
+      10.817,
+      "Rivoli"
+     ],
+     [
+      45.16,
+      10.8,
+      "Mantua"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The horses of St Mark",
+      "t": "In 1797 the French took the four bronze horses of St Mark's Basilica from Venice to Paris; they were returned in 1815.",
+      "lat": 45.434,
+      "lon": 12.34
+     },
+     {
+      "h": "Helvetic Republic",
+      "t": "In 1798 France invaded Switzerland and replaced the loose confederation of cantons with a centralised republic, governed at first from Aarau.",
+      "lat": 47.39,
+      "lon": 8.04
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Italian_campaigns_of_the_French_Revolutionary_Wars",
+     "https://en.wikipedia.org/wiki/Battle_of_Arcole",
+     "https://en.wikipedia.org/wiki/Sister_republic",
+     "https://en.wikipedia.org/wiki/French_Directory",
+     "https://en.wikipedia.org/wiki/Levée_en_masse"
+    ],
+    "img": "Tour: french-revolution: Bonaparte in Italy and the sister republics"
+   },
+   {
+    "y": 1798.552,
+    "lat": 30.5,
+    "lon": 30.5,
+    "z": 6,
+    "t": "The expedition to Egypt",
+    "c": "To strike at Britain's route to India, Bonaparte sailed from Toulon in May 1798 with about 36,000 soldiers and 167 scholars and scientists. He seized Malta on the way, took Alexandria and defeated the Mamluks at the Battle of the Pyramids on 21 July. On 1 August Nelson destroyed the French fleet in Aboukir Bay, trapping the army in Egypt. The scholars' work led to the Description de l'Égypte, and in 1799 French soldiers found the Rosetta Stone.",
+    "w": "French invasion of Egypt and Syria",
+    "look": [
+     [
+      31.2,
+      29.92,
+      "Alexandria"
+     ],
+     [
+      30.08,
+      31.2,
+      "Pyramids"
+     ],
+     [
+      31.33,
+      30.12,
+      "Aboukir Bay"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Malta",
+      "t": "On 11 June 1798 the Knights of St John surrendered Malta to Bonaparte's fleet after more than 260 years of rule.",
+      "lat": 35.9,
+      "lon": 14.51
+     },
+     {
+      "h": "Rosetta Stone",
+      "t": "Found in July 1799 near Rashid (Rosetta), it carries the same decree in hieroglyphs, Demotic and Greek, the key to Champollion's decipherment in 1822. The British took it in 1801.",
+      "lat": 31.4,
+      "lon": 30.42
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
+     "https://en.wikipedia.org/wiki/Battle_of_the_Pyramids",
+     "https://en.wikipedia.org/wiki/Battle_of_the_Nile",
+     "https://en.wikipedia.org/wiki/Commission_des_Sciences_et_des_Arts",
+     "https://en.wikipedia.org/wiki/Rosetta_Stone"
+    ],
+    "img": "Tour: french-revolution: The expedition to Egypt"
+   },
+   {
+    "y": 1799.859,
+    "lat": 48.844,
+    "lon": 2.219,
+    "z": 8,
+    "t": "18 Brumaire: the Revolution ends in a coup",
+    "c": "Bonaparte left his army in Egypt and returned to a France tired of war, inflation and weak government. On 9-10 November 1799 (18-19 Brumaire, Year VIII), with the help of the Director Sieyès, his grenadiers cleared the Council of Five Hundred at Saint-Cloud, and the Consulate replaced the Directory with Bonaparte as First Consul. The Revolution left lasting legacies: the Rights of Man, citizens equal before the law, the nation as source of sovereignty, the metric system, left and right in politics, and modern nationalism, but also the example of revolutionary terror.",
+    "w": "Coup of 18 Brumaire",
+    "look": [
+     [
+      48.844,
+      2.219,
+      "Saint-Cloud"
+     ],
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Fréjus landing",
+      "t": "Bonaparte landed at Fréjus on 9 October 1799 and was cheered on his way north, a month before the coup.",
+      "lat": 43.43,
+      "lon": 6.74
+     },
+     {
+      "h": "A brother's help",
+      "t": "His brother Lucien Bonaparte, president of the Five Hundred, saved the coup by telling the troops the deputies had threatened the general with daggers.",
+      "lat": 48.87,
+      "lon": 2.33
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
+     "https://en.wikipedia.org/wiki/French_Consulate",
+     "https://en.wikipedia.org/wiki/Lucien_Bonaparte",
+     "https://en.wikipedia.org/wiki/French_Revolution"
+    ],
+    "img": "Tour: french-revolution: 18 Brumaire: the Revolution ends in a coup"
+   }
+  ],
+  "ly": {
+   "lyHist": true,
+   "lyWars": true,
+   "lyReform": false,
+   "lyCities": false,
+   "lyRoutes": false,
+   "lyCrops": false,
+   "lyMigr": false,
+   "lyFigs": false,
+   "lyC14": false,
+   "lyPop": false,
+   "lyFauna": false,
+   "lyHomo": false,
+   "lyPlague": false,
+   "lyBorders": true,
+   "lyEvents": true
+  }
+ },
+ {
+  "id": "napoleon",
+  "title": "The rise and fall of Napoleon",
+  "blurb": "From the coup of 1799 to Waterloo and St Helena: the battles, the reforms that outlived him, and the cost in lives across Europe and beyond.",
+  "cat": "Revolutions & empires",
+  "steps": [
+   {
+    "y": 1799.859,
+    "lat": 48.85,
+    "lon": 2.25,
+    "z": 7,
+    "t": "A general takes power",
+    "c": "Back from his Egyptian expedition, General Bonaparte overthrew the Directory on 9–10 November 1799 (18–19 Brumaire). When the Council of Five Hundred at Saint-Cloud shouted him down, his brother Lucien called in the grenadiers. A new constitution made him First Consul, and a plebiscite approved it. Ten years of revolution ended in the rule of one man.",
+    "w": "Coup of 18 Brumaire",
+    "look": [
+     [
+      48.845,
+      2.218,
+      "Saint-Cloud"
+     ],
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A stone left behind",
+      "t": "In July 1799 French soldiers found the Rosetta Stone near Rashid in Egypt. The British took it in 1801; it has been in the British Museum since 1802.",
+      "lat": 31.4,
+      "lon": 30.42
+     },
+     {
+      "h": "A bank for the state",
+      "t": "The Banque de France was founded in January 1800. With the franc germinal of 1803 it gave France a stable currency for over a century.",
+      "lat": 48.865,
+      "lon": 2.338
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
+     "https://en.wikipedia.org/wiki/Rosetta_Stone",
+     "https://en.wikipedia.org/wiki/Bank_of_France"
+    ],
+    "img": "Tour: napoleon: A general takes power"
+   },
+   {
+    "y": 1800.451,
+    "lat": 45.3,
+    "lon": 8.0,
+    "z": 5,
+    "t": "Over the Alps to Marengo",
+    "c": "In May 1800 Bonaparte led an army over the Great St Bernard Pass into Austrian-held Italy. At Marengo on 14 June the battle was nearly lost by midday; Desaix's division arrived in the evening and turned it, though Desaix was killed. Moreau's victory at Hohenlinden in December forced Austria to make peace at Lunéville in 1801.",
+    "w": "Battle of Marengo",
+    "look": [
+     [
+      44.886,
+      8.678,
+      "Marengo"
+     ],
+     [
+      45.869,
+      7.17,
+      "Great St Bernard"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Hohenlinden",
+      "t": "On 3 December 1800 Moreau beat the Austrians in the snowy forests east of Munich; Austria lost 13,550–15,500 men, most of them captured.",
+      "lat": 48.16,
+      "lon": 12.0
+     },
+     {
+      "h": "The famous portrait",
+      "t": "David's 'Napoleon Crossing the Alps' shows him on a rearing horse in a storm; in reality the crossing was made in fine weather, led by a guide on a mule.",
+      "lat": 45.869,
+      "lon": 7.17
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Marengo",
+     "https://en.wikipedia.org/wiki/Battle_of_Hohenlinden",
+     "https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps"
+    ],
+    "img": "Tour: napoleon: Over the Alps to Marengo"
+   },
+   {
+    "y": 1804.001,
+    "lat": 19.0,
+    "lon": -72.5,
+    "z": 6,
+    "t": "Haiti: the empire's first defeat",
+    "c": "To restore French control of Saint-Domingue, Napoleon sent his brother-in-law Leclerc with about 30,000 men in 1801–02. Toussaint Louverture was tricked, deported and died in a Jura prison in April 1803, and a law of May 1802 kept slavery in other French colonies and was forced back on Guadeloupe. But yellow fever destroyed the army, including Leclerc. After Vertières (18 November 1803) Dessalines declared Haiti independent on 1 January 1804 - the first state born of a successful slave revolt.",
+    "w": "Saint-Domingue expedition",
+    "look": [
+     [
+      19.45,
+      -72.69,
+      "Gonaïves"
+     ],
+     [
+      19.75,
+      -72.2,
+      "Vertières"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Guadeloupe 1802",
+      "t": "Rather than surrender to the troops restoring slavery, Louis Delgrès and his followers blew themselves up at Matouba on 28 May 1802.",
+      "lat": 16.04,
+      "lon": -61.7
+     },
+     {
+      "h": "Selling Louisiana",
+      "t": "With Saint-Domingue lost, Napoleon sold Louisiana to the United States for $15 million in 1803, doubling the size of the country.",
+      "lat": 29.95,
+      "lon": -90.07
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Saint-Domingue_expedition",
+     "https://en.wikipedia.org/wiki/Haitian_Revolution",
+     "https://en.wikipedia.org/wiki/Law_of_20_May_1802",
+     "https://en.wikipedia.org/wiki/Battle_of_Vertières"
+    ],
+    "img": "Tour: napoleon: Haiti: the empire's first defeat"
+   },
+   {
+    "y": 1804.221,
+    "lat": 48.86,
+    "lon": 2.34,
+    "z": 6,
+    "t": "Order at home: Concordat and Code civil",
+    "c": "The Consulate rebuilt the state. The Concordat of 1801 made peace with the Catholic Church: the state paid and appointed bishops, and church lands sold in the Revolution stayed sold. The Code civil of 21 March 1804 gave all men equality before the law, secure property and civil marriage - but made wives subordinate to their husbands. Prefects, lycées (1802) and the Légion d'honneur (1802) still shape France today.",
+    "w": "Napoleonic Code",
+    "look": [
+     [
+      48.856,
+      2.341,
+      "Paris"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Peace with the Pope",
+      "t": "The Concordat was signed on 15 July 1801. It lasted until 1905 and is still in force in Alsace and Moselle, which were German in 1905.",
+      "lat": 48.853,
+      "lon": 2.35
+     },
+     {
+      "h": "A code in Louisiana",
+      "t": "Louisiana's civil law, unlike that of other US states, still follows the French civil-law tradition shaped by the Code.",
+      "lat": 29.95,
+      "lon": -90.07
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleonic_Code",
+     "https://en.wikipedia.org/wiki/Concordat_of_1801",
+     "https://en.wikipedia.org/wiki/Legion_of_Honour"
+    ],
+    "img": "Tour: napoleon: Order at home: Concordat and Code civil"
+   },
+   {
+    "y": 1804.922,
+    "lat": 48.853,
+    "lon": 2.35,
+    "z": 8,
+    "t": "An emperor crowns himself",
+    "c": "On 2 December 1804 Napoleon was crowned Emperor of the French in Notre-Dame. Pope Pius VII had come from Rome, but Napoleon placed the crown on his own head and then crowned Joséphine. A plebiscite had approved the empire by a huge majority. David's painting of the scene is almost 10 metres wide.",
+    "w": "Coronation of Napoleon",
+    "look": [
+     [
+      48.853,
+      2.35,
+      "Notre-Dame"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A torn-out dedication",
+      "t": "Beethoven had meant his Third Symphony for Bonaparte; by his pupil Ries' account he withdrew the dedication when he heard of the empire. It premiered in Vienna as the 'Eroica' in 1805.",
+      "lat": 48.208,
+      "lon": 16.37
+     },
+     {
+      "h": "King of Italy too",
+      "t": "On 26 May 1805 Napoleon took the Iron Crown of Lombardy in Milan Cathedral and became King of Italy.",
+      "lat": 45.464,
+      "lon": 9.19
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Coronation_of_Napoleon",
+     "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+     "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)"
+    ],
+    "img": "Tour: napoleon: An emperor crowns himself"
+   },
+   {
+    "y": 1805.804,
+    "lat": 40.0,
+    "lon": -6.0,
+    "z": 4,
+    "t": "Trafalgar: the sea stays British",
+    "c": "For two years an army of up to about 200,000 men waited at Boulogne to invade England. It never crossed. On 21 October 1805 Nelson's 27 ships of the line met 33 French and Spanish ships off Cape Trafalgar: 18 were taken or destroyed, about 4,400 Franco-Spanish sailors were killed, and Nelson died of a musket wound. Britain ruled the seas for the rest of the war.",
+    "w": "Battle of Trafalgar",
+    "look": [
+     [
+      36.25,
+      -6.2,
+      "Trafalgar"
+     ],
+     [
+      50.73,
+      1.61,
+      "Boulogne"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Medals at Boulogne",
+      "t": "The first Légion d'honneur awards to soldiers were handed out at the Boulogne camp on 16 August 1804.",
+      "lat": 50.73,
+      "lon": 1.61
+     },
+     {
+      "h": "The storm after",
+      "t": "A gale after the battle wrecked or scattered most of the captured ships off Cádiz.",
+      "lat": 36.53,
+      "lon": -6.29
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Trafalgar",
+     "https://en.wikipedia.org/wiki/Camp_of_Boulogne"
+    ],
+    "img": "Tour: napoleon: Trafalgar: the sea stays British"
+   },
+   {
+    "y": 1805.919,
+    "lat": 49.0,
+    "lon": 13.5,
+    "z": 4,
+    "t": "Ulm and Austerlitz",
+    "c": "The Grande Armée marched from the Channel to the Danube in about a month and trapped an Austrian army at Ulm, where about 27,000 men surrendered on 20 October. On 2 December, a year after the coronation, Napoleon beat the Russian and Austrian emperors at Austerlitz: about 9,000 French against 27,000–36,000 allied losses. In 1806 he organised the Confederation of the Rhine, and Francis II ended the thousand-year Holy Roman Empire.",
+    "w": "Battle of Austerlitz",
+    "look": [
+     [
+      48.4,
+      9.99,
+      "Ulm"
+     ],
+     [
+      49.128,
+      16.763,
+      "Austerlitz"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "End of an empire",
+      "t": "Francis II laid down the crown of the Holy Roman Empire on 6 August 1806; he remained Emperor of Austria.",
+      "lat": 48.208,
+      "lon": 16.37
+     },
+     {
+      "h": "An arch for the army",
+      "t": "The Arc de Triomphe was ordered in 1806 after Austerlitz; it was finished only in 1836.",
+      "lat": 48.874,
+      "lon": 2.295
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Austerlitz",
+     "https://en.wikipedia.org/wiki/Battle_of_Ulm",
+     "https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire"
+    ],
+    "img": "Tour: napoleon: Ulm and Austerlitz"
+   },
+   {
+    "y": 1806.821,
+    "lat": 51.8,
+    "lon": 12.5,
+    "z": 5,
+    "t": "Jena and Berlin",
+    "c": "Prussia went to war in 1806 and was crushed in a single day: on 14 October Napoleon won at Jena while Davout, outnumbered more than two to one, beat the main Prussian army at Auerstedt. Napoleon entered Berlin on 27 October. From there, on 21 November, he issued the Berlin Decree, closing the Continent to British trade.",
+    "w": "Battle of Jena–Auerstedt",
+    "look": [
+     [
+      50.927,
+      11.586,
+      "Jena"
+     ],
+     [
+      52.52,
+      13.4,
+      "Berlin"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The world-soul on horseback",
+      "t": "The philosopher Hegel, finishing his 'Phenomenology of Spirit' in Jena, wrote on 13 October 1806 that he had seen the emperor, 'this world-soul', ride through the town.",
+      "lat": 50.927,
+      "lon": 11.586
+     },
+     {
+      "h": "A goddess to Paris",
+      "t": "Napoleon had the Quadriga taken from the Brandenburg Gate to Paris; it came back to Berlin in 1814.",
+      "lat": 52.516,
+      "lon": 13.378
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Jena–Auerstedt",
+     "https://en.wikipedia.org/wiki/Continental_System",
+     "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+    ],
+    "img": "Tour: napoleon: Jena and Berlin"
+   },
+   {
+    "y": 1807.514,
+    "lat": 53.5,
+    "lon": 16.0,
+    "z": 4,
+    "t": "Tilsit, the blockade and sugar from beets",
+    "c": "After the bloody draw at Eylau and victory at Friedland, Napoleon and Tsar Alexander met on a raft on the Niemen. At Tilsit Prussia lost about half its land, new states appeared (the Duchy of Warsaw, Jérôme's Kingdom of Westphalia), and Russia joined the Continental System. Cut off from cane sugar, Europe turned to sugar beet: Achard's first beet-sugar factory had opened in Silesia in 1801, and France built up a beet-sugar industry that still exists. Smugglers ran British goods in through hubs like Heligoland.",
+    "w": "Treaties of Tilsit",
+    "look": [
+     [
+      55.08,
+      21.88,
+      "Tilsit"
+     ],
+     [
+      54.45,
+      21.02,
+      "Friedland"
+     ],
+     [
+      54.4,
+      20.63,
+      "Eylau"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Smugglers' island",
+      "t": "Britain took Heligoland from Denmark in 1807 and used it as a depot for goods smuggled into the Continent.",
+      "lat": 54.18,
+      "lon": 7.89
+     },
+     {
+      "h": "The emperor tastes sugar",
+      "t": "Napoleon visited Benjamin Delessert's refinery at Passy in 1812, where Quéruel had developed industrial beet-sugar making; Delessert was made a baron.",
+      "lat": 48.857,
+      "lon": 2.28
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Treaties_of_Tilsit",
+     "https://en.wikipedia.org/wiki/Continental_System",
+     "https://en.wikipedia.org/wiki/Sugar_beet",
+     "https://en.wikipedia.org/wiki/Benjamin_Delessert"
+    ],
+    "img": "Tour: napoleon: Tilsit, the blockade and sugar from beets"
+   },
+   {
+    "y": 1808.338,
+    "lat": 40.4,
+    "lon": -3.7,
+    "z": 5,
+    "t": "Spain: guerrilla and Goya",
+    "c": "In 1808 Napoleon forced the Spanish Bourbons to abdicate at Bayonne and made his brother Joseph king. Madrid rose on 2 May; the next day hundreds of people were shot. All Spain revolted: at Bailén in July about 17,000 French soldiers surrendered, and Zaragoza resisted two sieges street by street. Partisan bands fought a 'little war', a guerrilla, and the war cost Spain about 300,000 dead. Goya painted 'The Third of May 1808' in 1814.",
+    "w": "Peninsular War",
+    "look": [
+     [
+      40.417,
+      -3.703,
+      "Madrid"
+     ],
+     [
+      38.096,
+      -3.776,
+      "Bailén"
+     ],
+     [
+      41.65,
+      -0.88,
+      "Zaragoza"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Moore's retreat",
+      "t": "In the winter of 1808–09 a British army retreated over the Galician mountains to Corunna and was taken off by sea; its commander Sir John Moore was killed.",
+      "lat": 43.333,
+      "lon": -8.413
+     },
+     {
+      "h": "Disasters of War",
+      "t": "Goya also etched 'The Disasters of War', 82 prints of atrocities on both sides; they were published only in 1863, after his death.",
+      "lat": 40.414,
+      "lon": -3.692
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Peninsular_War",
+     "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+     "https://en.wikipedia.org/wiki/Battle_of_Bailén",
+     "https://en.wikipedia.org/wiki/Napoleonic_Wars_casualties"
+    ],
+    "img": "Tour: napoleon: Spain: guerrilla and Goya"
+   },
+   {
+    "y": 1809.511,
+    "lat": 48.25,
+    "lon": 16.4,
+    "z": 6,
+    "t": "Aspern and Wagram",
+    "c": "Austria tried again in 1809. Napoleon took Vienna but was thrown back across the Danube at Aspern-Essling in May, his first personal defeat in a decade. Six weeks later, at Wagram, about 300,000 men fought for two days and each side lost some 35,000-39,000. In 1810 he married the Austrian emperor's daughter Marie Louise; his empire reached its greatest extent in 1811-12.",
+    "w": "Battle of Wagram",
+    "look": [
+     [
+      48.213,
+      16.502,
+      "Aspern"
+     ],
+     [
+      48.3,
+      16.56,
+      "Wagram"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Tyrol rises",
+      "t": "Tyrolean peasants under the innkeeper Andreas Hofer rose against Bavarian rule in 1809; he was shot in Mantua in February 1810.",
+      "lat": 47.27,
+      "lon": 11.39
+     },
+     {
+      "h": "Illyria",
+      "t": "After Wagram Austria's Adriatic lands became France's Illyrian Provinces, with their capital at Ljubljana.",
+      "lat": 46.05,
+      "lon": 14.51
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Wagram",
+     "https://en.wikipedia.org/wiki/Battle_of_Aspern–Essling",
+     "https://en.wikipedia.org/wiki/Marie_Louise,_Duchess_of_Parma"
+    ],
+    "img": "Tour: napoleon: Aspern and Wagram"
+   },
+   {
+    "y": 1811.508,
+    "lat": -5.0,
+    "lon": -65.0,
+    "z": 2,
+    "t": "Spanish America breaks away",
+    "c": "Napoleon's seizure of the Spanish crown in 1808 left Spain's American empire without a legitimate king. Towns set up their own juntas - Caracas on 19 April 1810, Buenos Aires on 25 May 1810 - and on 5 July 1811 Venezuela declared independence. The Spanish American wars of independence had begun; by 1826 almost all of mainland Spanish America was free.",
+    "w": "Spanish American wars of independence",
+    "look": [
+     [
+      10.5,
+      -66.91,
+      "Caracas"
+     ],
+     [
+      -34.608,
+      -58.372,
+      "Buenos Aires"
+     ],
+     [
+      21.16,
+      -100.93,
+      "Dolores"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A court in Rio",
+      "t": "Fleeing Junot's army in 1807, the Portuguese royal family sailed to Brazil; Rio de Janeiro was the capital of the Portuguese empire until 1821.",
+      "lat": -22.9,
+      "lon": -43.17
+     },
+     {
+      "h": "The cry of Dolores",
+      "t": "On 16 September 1810 the priest Miguel Hidalgo called his parishioners to revolt, starting Mexico's war of independence.",
+      "lat": 21.16,
+      "lon": -100.93
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence",
+     "https://en.wikipedia.org/wiki/Venezuelan_Declaration_of_Independence",
+     "https://en.wikipedia.org/wiki/May_Revolution",
+     "https://en.wikipedia.org/wiki/Transfer_of_the_Portuguese_court_to_Brazil"
+    ],
+    "img": "Tour: napoleon: Spanish America breaks away"
+   },
+   {
+    "y": 1812.686,
+    "lat": 55.2,
+    "lon": 31.0,
+    "z": 4,
+    "t": "Into Russia: Borodino and Moscow",
+    "c": "When Russia left the Continental System, Napoleon invaded. On 24 June 1812 his main army - 422,000 men by Minard's count, part of some 600,000 or more in all - crossed the Niemen. Heat, hunger, typhus and desertion shrank it to about 100,000 by Moscow. At Borodino on 7 September, the bloodiest day of the wars, the two armies lost roughly 70,000-95,000 men (debated). Napoleon entered Moscow on 14 September; fires destroyed much of the city.",
+    "w": "French invasion of Russia",
+    "look": [
+     [
+      54.9,
+      23.9,
+      "Kovno"
+     ],
+     [
+      55.52,
+      35.82,
+      "Borodino"
+     ],
+     [
+      55.75,
+      37.62,
+      "Moscow"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Smolensk burns",
+      "t": "The French took Smolensk on 17-18 August after a bombardment that set the old city on fire.",
+      "lat": 54.78,
+      "lon": 32.05
+     },
+     {
+      "h": "Moscow in flames",
+      "t": "Fires raged from 14 to 18 September 1812 in the mostly wooden city; the governor Rostopchin is often held responsible.",
+      "lat": 55.75,
+      "lon": 37.62
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+     "https://en.wikipedia.org/wiki/Battle_of_Borodino",
+     "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+    ],
+    "img": "Tour: napoleon: Into Russia: Borodino and Moscow"
+   },
+   {
+    "y": 1812.911,
+    "lat": 55.0,
+    "lon": 30.0,
+    "z": 4,
+    "t": "The retreat, as Minard drew it",
+    "c": "Napoleon left Moscow on 19 October. Forced back on the stripped road he had come by, the army starved and froze; at the Berezina (26-29 November) pontonniers stood in icy water to build two bridges. In 1869 Charles Minard drew the campaign as a band whose width shows the men: 422,000 out, 100,000 at Moscow, 4,000 back at the Niemen (10,000 with a northern corps). His figures are debated - Riehn counts 685,000 men entering Russia and fewer than 70,000 known survivors - but the shape of the disaster is clear.",
+    "w": "Charles Joseph Minard",
+    "look": [
+     [
+      54.325,
+      28.355,
+      "Berezina"
+     ],
+     [
+      54.69,
+      25.28,
+      "Vilnius"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Lice and fever",
+      "t": "A mass grave of Grande Armée soldiers found in Vilnius in 2001 held lice carrying the bacteria of trench fever and typhus.",
+      "lat": 54.7,
+      "lon": 25.27
+     },
+     {
+      "h": "War and Peace",
+      "t": "Tolstoy's novel, published 1865-1869 and written at Yasnaya Polyana, follows Russian families through 1805-1812 and the burning of Moscow.",
+      "lat": 54.07,
+      "lon": 37.52
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Charles_Joseph_Minard",
+     "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+     "https://en.wikipedia.org/wiki/Battle_of_Berezina",
+     "https://en.wikipedia.org/wiki/War_and_Peace"
+    ],
+    "img": "Tour: napoleon: The retreat, as Minard drew it"
+   },
+   {
+    "y": 1813.796,
+    "lat": 50.5,
+    "lon": 8.0,
+    "z": 4,
+    "t": "Leipzig and the fall of Paris",
+    "c": "Prussia rose in 1813, with volunteers and a new citizen army inspired by German nationalism; Austria and Sweden joined Russia and Britain. At Leipzig on 16-19 October more than half a million men fought the 'Battle of the Nations', the largest battle in Europe before 1914. The allies invaded France in 1814 and Paris capitulated on 31 March. Napoleon abdicated at Fontainebleau on 6 April and was sent to rule the island of Elba.",
+    "w": "Battle of Leipzig",
+    "look": [
+     [
+      51.31,
+      12.41,
+      "Leipzig"
+     ],
+     [
+      48.86,
+      2.35,
+      "Paris"
+     ],
+     [
+      48.4,
+      2.7,
+      "Fontainebleau"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Farewell to the Guard",
+      "t": "On 20 April 1814 Napoleon said goodbye to the Old Guard in the courtyard of Fontainebleau, kissing the flag before leaving for Elba.",
+      "lat": 48.4,
+      "lon": 2.7
+     },
+     {
+      "h": "Spain lost too",
+      "t": "Wellington routed Joseph Bonaparte's army at Vitoria on 21 June 1813, capturing 151 guns and the king's baggage; the French were driven back over the Pyrenees.",
+      "lat": 42.85,
+      "lon": -2.68
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Leipzig",
+     "https://en.wikipedia.org/wiki/Battle_of_Paris_(1814)",
+     "https://en.wikipedia.org/wiki/Treaty_of_Fontainebleau_(1814)",
+     "https://en.wikipedia.org/wiki/German_campaign_of_1813"
+    ],
+    "img": "Tour: napoleon: Leipzig and the fall of Paris"
+   },
+   {
+    "y": 1815.215,
+    "lat": 46.0,
+    "lon": 9.0,
+    "z": 4,
+    "t": "Vienna redraws Europe; Napoleon returns",
+    "c": "From November 1814 the Congress of Vienna redrew the map: a German Confederation of 39 states, a united Netherlands, a Russian-ruled Kingdom of Poland, Austria back in northern Italy. On 26 February 1815 Napoleon slipped away from Elba with about 1,000 men and landed at Golfe-Juan. At Laffrey the troops sent to stop him went over to him; on 20 March he was back in the Tuileries. The Congress declared him an outlaw and the allies mobilised again.",
+    "w": "Hundred Days",
+    "look": [
+     [
+      43.565,
+      7.075,
+      "Golfe-Juan"
+     ],
+     [
+      45.0,
+      5.77,
+      "Laffrey"
+     ],
+     [
+      48.208,
+      16.365,
+      "Vienna"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The Route Napoléon",
+      "t": "His road over the Alps via Digne, Sisteron and Gap to Grenoble is now the N85 'Route Napoléon'.",
+      "lat": 44.2,
+      "lon": 5.94
+     },
+     {
+      "h": "Against the slave trade",
+      "t": "In February 1815 the Congress powers declared the Atlantic slave trade 'repugnant to the principles of humanity', though without a date for ending it.",
+      "lat": 48.208,
+      "lon": 16.365
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Hundred_Days",
+     "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+     "https://en.wikipedia.org/wiki/Route_Napoléon"
+    ],
+    "img": "Tour: napoleon: Vienna redraws Europe; Napoleon returns"
+   },
+   {
+    "y": 1815.462,
+    "lat": 50.6,
+    "lon": 4.45,
+    "z": 8,
+    "t": "Waterloo",
+    "c": "Napoleon struck into Belgium to beat his enemies one by one. He beat the Prussians at Ligny on 16 June, but they retreated towards Wavre, not home. On 18 June at Waterloo, Wellington's army held the ridge of Mont-Saint-Jean all afternoon until Blücher's Prussians arrived on the French flank; the Imperial Guard's last attack failed and the army broke. About 24,000 allied and 26,000 French soldiers were killed or wounded. Napoleon abdicated again on 22 June.",
+    "w": "Battle of Waterloo",
+    "look": [
+     [
+      50.68,
+      4.41,
+      "Waterloo"
+     ],
+     [
+      50.52,
+      4.58,
+      "Ligny"
+     ],
+     [
+      50.571,
+      4.453,
+      "Quatre Bras"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Hougoumont",
+      "t": "At the walled farm of Hougoumont alone the French lost about 5,000 of 12,700 men engaged.",
+      "lat": 50.67,
+      "lon": 4.39
+     },
+     {
+      "h": "Surrender at sea",
+      "t": "On 15 July 1815 Napoleon surrendered to Captain Maitland of HMS Bellerophon off Rochefort.",
+      "lat": 46.01,
+      "lon": -1.17
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+     "https://en.wikipedia.org/wiki/Battle_of_Ligny",
+     "https://en.wikipedia.org/wiki/Hundred_Days"
+    ],
+    "img": "Tour: napoleon: Waterloo"
+   },
+   {
+    "y": 1821.341,
+    "lat": 20.0,
+    "lon": 0.0,
+    "z": 2,
+    "t": "St Helena and the legacy",
+    "c": "Napoleon spent his last years at Longwood House on St Helena, in the South Atlantic, dictating the memoirs that built his legend; he died on 5 May 1821, aged 51. His Code shaped civil law across Europe, Latin America and the Middle East, and his wars stirred nationalism in Germany, Italy and Spain and set Latin America on the road to independence. They also killed an estimated 3.5 to 7 million soldiers and civilians (figures debated), and about 2.3 million Frenchmen were called up in 1800-1815.",
+    "w": "Napoleon's exile to St. Helena",
+    "look": [
+     [
+      -15.947,
+      -5.68,
+      "Longwood"
+     ],
+     [
+      48.855,
+      2.312,
+      "Les Invalides"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Return of the ashes",
+      "t": "In December 1840 Napoleon's body was brought back from St Helena and buried under the dome of Les Invalides in Paris.",
+      "lat": 48.855,
+      "lon": 2.312
+     },
+     {
+      "h": "The stone speaks",
+      "t": "In 1822 Champollion, working from the Rosetta Stone found during Bonaparte's Egyptian campaign, announced how hieroglyphs work.",
+      "lat": 48.856,
+      "lon": 2.34
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleon's_exile_to_St._Helena",
+     "https://en.wikipedia.org/wiki/Longwood_House",
+     "https://en.wikipedia.org/wiki/Napoleonic_Code",
+     "https://en.wikipedia.org/wiki/Napoleonic_Wars_casualties",
+     "https://en.wikipedia.org/wiki/Napoleonic_Wars"
+    ],
+    "img": "Tour: napoleon: St Helena and the legacy"
+   }
+  ],
+  "ly": {
+   "lyHist": true,
+   "lyWars": true,
+   "lyReform": false,
+   "lyCities": false,
+   "lyRoutes": false,
+   "lyCrops": false,
+   "lyMigr": false,
+   "lyFigs": false,
+   "lyC14": false,
+   "lyPop": false,
+   "lyFauna": false,
+   "lyHomo": false,
+   "lyPlague": false,
+   "lyBorders": true,
+   "lyEvents": true
+  }
+ },
+ {
+  "id": "british-empire",
+  "title": "How Britain became an empire",
+  "blurb": "From Elizabethan privateers to the 1890s: sea power, trading companies, sugar and slavery, abolition, industry, conquest and famine in the making of the British Empire.",
+  "cat": "Revolutions & empires",
+  "steps": [
+   {
+    "y": 1580.738,
+    "lat": 15,
+    "lon": -40,
+    "z": 1,
+    "t": "Sea dogs and Spanish silver",
+    "c": "In the 1570s England was a minor sea power, and Spain and Portugal held the riches of the Americas and Asia. Privateers such as John Hawkins, who also ran England's first slaving voyages (1562-69), and Francis Drake raided Spanish shipping with the Queen's quiet backing. On 26 September 1580 Drake's Golden Hind came home to Plymouth after sailing around the world with a hold full of Spanish silver, much of it taken from the treasure ship Cacafuego off Ecuador. Elizabeth I knighted him on board at Deptford in 1581.",
+    "w": "Francis Drake's circumnavigation",
+    "look": [
+     [
+      50.37,
+      -4.14,
+      "Plymouth"
+     ],
+     [
+      9.55,
+      -79.65,
+      "Nombre de Dios (raided 1572)"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Ambush at San Juan de Ulúa",
+      "t": "In 1568 a Spanish fleet attacked Hawkins's slave-trading ships in the Mexican harbour; only Hawkins's and Drake's ships escaped, and Drake swore revenge on Spain.",
+      "lat": 19.21,
+      "lon": -96.13
+     },
+     {
+      "h": "Nova Albion",
+      "t": "In June 1579 Drake beached his ship somewhere on the California coast and claimed the land for Elizabeth as 'Nova Albion'. The exact bay is still debated.",
+      "lat": 38.0,
+      "lon": -122.95
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Francis_Drake's_circumnavigation",
+     "https://en.wikipedia.org/wiki/Francis_Drake",
+     "https://en.wikipedia.org/wiki/John_Hawkins_(naval_commander)",
+     "https://en.wikipedia.org/wiki/Battle_of_San_Juan_de_Ulúa_(1568)"
+    ],
+    "img": "Tour: british-empire: Sea dogs and Spanish silver"
+   },
+   {
+    "y": 1588.604,
+    "lat": 52,
+    "lon": -2,
+    "z": 4,
+    "t": "The Armada",
+    "c": "In 1588 Philip II of Spain sent 141 ships with about 19,000 soldiers and 10,000 sailors to escort an invasion army from Flanders. Smaller, better-gunned English ships harried the Armada up the Channel; on the night of 7-8 August fireships broke its anchorage off Calais, and next day it was mauled at Gravelines. Unable to turn back, the fleet sailed home round Scotland and Ireland, where storms wrecked dozens of ships; about 44 were lost. The victory became a founding legend of English sea power, though Spain rebuilt its navy and the war lasted until 1604.",
+    "w": "Spanish Armada",
+    "look": [
+     [
+      50.96,
+      1.85,
+      "Calais"
+     ],
+     [
+      51.0,
+      2.13,
+      "Gravelines"
+     ],
+     [
+      50.37,
+      -4.14,
+      "Plymouth"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Shipwrecked on Fair Isle",
+      "t": "The supply ship El Gran Grifón was wrecked on Fair Isle between Orkney and Shetland; about 260 Spaniards lived among the islanders for weeks before moving on.",
+      "lat": 59.53,
+      "lon": -1.63
+     },
+     {
+      "h": "Streedagh Strand",
+      "t": "Three Armada ships were wrecked on this Irish beach in September 1588; well over a thousand men drowned or were killed ashore.",
+      "lat": 54.4,
+      "lon": -8.57
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Spanish_Armada",
+     "https://en.wikipedia.org/wiki/Battle_of_Gravelines",
+     "https://en.wikipedia.org/wiki/Spanish_Armada_in_Ireland"
+    ],
+    "img": "Tour: british-empire: The Armada"
+   },
+   {
+    "y": 1601.001,
+    "lat": 20,
+    "lon": 60,
+    "z": 1,
+    "t": "A company for the East Indies",
+    "c": "On 31 December 1600 Elizabeth I gave a charter to the 'Governor and Company of Merchants of London trading into the East Indies', a monopoly on English trade east of the Cape of Good Hope. Its first fleet under James Lancaster reached Aceh and Bantam on Java in 1602 for pepper, but the richer Dutch East India Company (1602) pushed the English out of the Spice Islands. The company turned to India: after its ships beat a Portuguese squadron off Swally in 1612, it won Mughal permission for a trading post at Surat, followed by Madras (1639), Bombay (1668) and Calcutta (1690).",
+    "w": "East India Company",
+    "look": [
+     [
+      51.51,
+      -0.08,
+      "London"
+     ],
+     [
+      -6.03,
+      106.16,
+      "Bantam"
+     ],
+     [
+      21.17,
+      72.83,
+      "Surat"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Amboyna, 1623",
+      "t": "Dutch officials on Ambon tortured and executed ten English company men (with nine Japanese and a Portuguese) for an alleged plot; it ended English hopes in the Spice Islands.",
+      "lat": -3.69,
+      "lon": 128.18
+     },
+     {
+      "h": "An English post in Japan",
+      "t": "The company kept a trading house at Hirado in Japan from 1613 to 1623, but English woollens did not sell and it closed at a loss.",
+      "lat": 33.37,
+      "lon": 129.55
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/East_India_Company",
+     "https://en.wikipedia.org/wiki/James_Lancaster",
+     "https://en.wikipedia.org/wiki/Battle_of_Swally",
+     "https://en.wikipedia.org/wiki/Amboyna_massacre"
+    ],
+    "img": "Tour: british-empire: A company for the East Indies"
+   },
+   {
+    "y": 1619.634,
+    "lat": 38,
+    "lon": -73,
+    "z": 4,
+    "t": "Jamestown and tobacco",
+    "c": "After the failed 'Lost Colony' of Roanoke (1585-90), the Virginia Company founded Jamestown on 14 May 1607. Most early settlers died: of about 500 people at the start of the 'Starving Time' winter of 1609-10, only 61 were alive in spring. The colony survived by growing sweet tobacco, exported by John Rolfe from 1614, on land taken from the Powhatan peoples. In 1619 Virginia held the first elected assembly in English America, and the first recorded enslaved Africans were landed at Point Comfort; a year later the Pilgrims founded Plymouth in New England.",
+    "w": "Jamestown, Virginia",
+    "look": [
+     [
+      37.21,
+      -76.78,
+      "Jamestown"
+     ],
+     [
+      37.0,
+      -76.31,
+      "Point Comfort"
+     ],
+     [
+      41.96,
+      -70.67,
+      "Plymouth"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The Lost Colony",
+      "t": "When John White returned to Roanoke in 1590, the 115 settlers he had left in 1587 were gone; only the word 'CROATOAN' was carved on a post.",
+      "lat": 35.93,
+      "lon": -75.7
+     },
+     {
+      "h": "The wreck that settled Bermuda",
+      "t": "The Sea Venture, carrying settlers to Jamestown, was wrecked on Bermuda in 1609; the story is thought to have inspired Shakespeare's 'The Tempest'.",
+      "lat": 32.37,
+      "lon": -64.68
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Jamestown,_Virginia",
+     "https://en.wikipedia.org/wiki/Starving_Time",
+     "https://en.wikipedia.org/wiki/Roanoke_Colony",
+     "https://en.wikipedia.org/wiki/House_of_Burgesses",
+     "https://en.wikipedia.org/wiki/Pocahontas"
+    ],
+    "img": "Tour: british-empire: Jamestown and tobacco"
+   },
+   {
+    "y": 1667.473,
+    "lat": 52,
+    "lon": 2,
+    "z": 4,
+    "t": "Navigation Acts and a navy",
+    "c": "The Navigation Acts (1651, 1660 and later) said colonial goods such as sugar and tobacco must travel in English ships to English ports - a blow aimed at the Dutch, who dominated European shipping. Three Anglo-Dutch wars followed. In June 1667 the Dutch raided the Medway, burned ships at Chatham and towed away the flagship Royal Charles, but England kept New Amsterdam, taken in 1664 and renamed New York. Funded by taxes and from 1694 by loans through the Bank of England, the Royal Navy became the world's strongest from the mid-18th century; the acts lasted until 1849.",
+    "w": "Navigation Acts",
+    "look": [
+     [
+      51.4,
+      0.53,
+      "Chatham (Medway)"
+     ],
+     [
+      40.7,
+      -74.01,
+      "New York"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Gibraltar",
+      "t": "An Anglo-Dutch fleet took Gibraltar on 4 August 1704; Spain ceded it at Utrecht in 1713 and it remains British.",
+      "lat": 36.14,
+      "lon": -5.35
+     },
+     {
+      "h": "A bank for a war",
+      "t": "The Bank of England was founded in 1694 to lend £1.2 million to the government of William III for the war against France.",
+      "lat": 51.514,
+      "lon": -0.089
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Navigation_Acts",
+     "https://en.wikipedia.org/wiki/Raid_on_the_Medway",
+     "https://en.wikipedia.org/wiki/Anglo-Dutch_Wars",
+     "https://en.wikipedia.org/wiki/Royal_Navy",
+     "https://en.wikipedia.org/wiki/Bank_of_England"
+    ],
+    "img": "Tour: british-empire: Navigation Acts and a navy"
+   },
+   {
+    "y": 1700.5,
+    "lat": 12,
+    "lon": -40,
+    "z": 2,
+    "t": "Sugar and the slave trade",
+    "c": "Barbados, settled in 1627, switched to sugar in the 1640s, and Jamaica, taken from Spain in 1655, became Britain's richest colony. The plantations ran on enslaved Africans. The Royal African Company (1672) and then private traders from London, Bristol and Liverpool carried about 3.1 million Africans across the Atlantic on British ships before 1807 - in the 18th century more than any other nation (SlaveVoyages estimate; exact totals debated). Roughly one in seven died at sea, and deaths on the plantations were so high that the enslaved population only grew through new arrivals.",
+    "w": "Atlantic slave trade",
+    "look": [
+     [
+      13.1,
+      -59.62,
+      "Barbados"
+     ],
+     [
+      17.94,
+      -76.84,
+      "Jamaica"
+     ],
+     [
+      5.1,
+      -1.24,
+      "Cape Coast Castle"
+     ],
+     [
+      4.43,
+      7.17,
+      "Bonny"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Port Royal sinks",
+      "t": "On 7 June 1692 an earthquake sank much of Port Royal, Jamaica's rich buccaneer and trading town, killing about 2,000 people.",
+      "lat": 17.94,
+      "lon": -76.84
+     },
+     {
+      "h": "Liverpool's slave ships",
+      "t": "By the late 18th century most British slaving voyages started from Liverpool, which grew rich on the trade.",
+      "lat": 53.41,
+      "lon": -2.99
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+     "https://en.wikipedia.org/wiki/Sugar_plantations_in_the_Caribbean",
+     "https://en.wikipedia.org/wiki/Royal_African_Company",
+     "https://en.wikipedia.org/wiki/Middle_Passage",
+     "https://en.wikipedia.org/wiki/1692_Jamaica_earthquake"
+    ],
+    "img": "Tour: british-empire: Sugar and the slave trade"
+   },
+   {
+    "y": 1759.7,
+    "lat": 35,
+    "lon": -20,
+    "z": 1,
+    "t": "The Seven Years' War",
+    "c": "Britain and France fought the Seven Years' War (1756-63) across the globe. In Bengal, Robert Clive's 3,000 company troops beat the Nawab Siraj ud-Daulah at Plassey on 23 June 1757 after the Nawab's general Mir Jafar held his troops back; Clive made him Nawab. In 1759, Britain's 'year of victories', James Wolfe took Quebec (he and the French general Montcalm both died) and Hawke wrecked the French fleet at Quiberon Bay. The 1763 Treaty of Paris gave Britain Canada and Florida, and in 1765 the company won the right to collect the taxes of Bengal, Bihar and Orissa.",
+    "w": "Seven Years' War",
+    "look": [
+     [
+      23.8,
+      88.25,
+      "Plassey"
+     ],
+     [
+      46.8,
+      -71.22,
+      "Quebec"
+     ],
+     [
+      47.52,
+      -3.0,
+      "Quiberon Bay"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Manila, 1762",
+      "t": "A British force from Madras captured Spanish Manila in October 1762 and held it until 1764.",
+      "lat": 14.59,
+      "lon": 120.97
+     },
+     {
+      "h": "Havana, 1762",
+      "t": "British troops took Havana after a two-month siege in which disease killed thousands of soldiers; it was swapped back to Spain for Florida.",
+      "lat": 23.14,
+      "lon": -82.36
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Seven_Years'_War",
+     "https://en.wikipedia.org/wiki/Battle_of_Plassey",
+     "https://en.wikipedia.org/wiki/Battle_of_the_Plains_of_Abraham",
+     "https://en.wikipedia.org/wiki/Battle_of_Quiberon_Bay",
+     "https://en.wikipedia.org/wiki/Treaty_of_Allahabad"
+    ],
+    "img": "Tour: british-empire: The Seven Years' War"
+   },
+   {
+    "y": 1781.799,
+    "lat": 38,
+    "lon": -70,
+    "z": 3,
+    "t": "Losing America",
+    "c": "Victory left huge debts, and Britain taxed its American colonies (Stamp Act 1765, tea duty) and closed Boston harbour after the Boston Tea Party of 1773. The Thirteen Colonies declared independence on 4 July 1776 and, with French, Spanish and Dutch help, won: on 19 October 1781 Cornwallis's army of about 8,000 British and German troops surrendered at Yorktown. The Treaty of Paris (3 September 1783) recognised the United States. Tens of thousands of Loyalists left, many for Nova Scotia and Quebec, and Britain turned more towards India and the East.",
+    "w": "American Revolutionary War",
+    "look": [
+     [
+      37.23,
+      -76.5,
+      "Yorktown"
+     ],
+     [
+      42.36,
+      -71.05,
+      "Boston"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The Saintes, 1782",
+      "t": "Six months after Yorktown, Admiral Rodney beat the French fleet near Guadeloupe and saved Jamaica from a planned invasion.",
+      "lat": 15.78,
+      "lon": -61.6
+     },
+     {
+      "h": "From Nova Scotia to Freetown",
+      "t": "Black Loyalists who had won freedom by fighting for Britain were settled in Nova Scotia; in 1792 about 1,200 of them sailed to found Freetown in Sierra Leone.",
+      "lat": 43.76,
+      "lon": -65.32
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+     "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+     "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)",
+     "https://en.wikipedia.org/wiki/Black_Loyalist",
+     "https://en.wikipedia.org/wiki/Battle_of_the_Saintes"
+    ],
+    "img": "Tour: british-empire: Losing America"
+   },
+   {
+    "y": 1788.07,
+    "lat": -32,
+    "lon": 150,
+    "z": 4,
+    "t": "Convicts to Australia",
+    "c": "With America closed to British convicts, the government sent them to New South Wales, charted by James Cook in 1770. The First Fleet's 11 ships carried about 1,400 people, more than half of them convicts, and Arthur Phillip raised the flag at Sydney Cove on 26 January 1788. Until 1868 about 162,000 convicts were transported to Australia. For Aboriginal peoples, starting with the Eora of Sydney, colonisation meant the loss of land, violence and disease - a smallpox epidemic in 1789 killed many (its origin is debated).",
+    "w": "First Fleet",
+    "look": [
+     [
+      -33.86,
+      151.21,
+      "Sydney Cove"
+     ],
+     [
+      -33.99,
+      151.2,
+      "Botany Bay"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Van Diemen's Land",
+      "t": "In Tasmania, settled from 1803-04, the 'Black War' of the 1820s and early 1830s and its aftermath nearly destroyed the island's Aboriginal population.",
+      "lat": -42.0,
+      "lon": 147.0
+     },
+     {
+      "h": "Treaty of Waitangi",
+      "t": "On 6 February 1840 Māori chiefs signed a treaty with Britain; its English and Māori texts differ on sovereignty, and its meaning is still debated in New Zealand.",
+      "lat": -35.27,
+      "lon": 174.08
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/First_Fleet",
+     "https://en.wikipedia.org/wiki/Convicts_in_Australia",
+     "https://en.wikipedia.org/wiki/Smallpox_in_Australia",
+     "https://en.wikipedia.org/wiki/Black_War",
+     "https://en.wikipedia.org/wiki/Treaty_of_Waitangi"
+    ],
+    "img": "Tour: british-empire: Convicts to Australia"
+   },
+   {
+    "y": 1807.229,
+    "lat": 15,
+    "lon": -20,
+    "z": 2,
+    "t": "Ruling the waves, ending the trade",
+    "c": "In the wars against Revolutionary and Napoleonic France (1793-1815) the navy won command of the seas, above all at Trafalgar on 21 October 1805, and picked up French and Dutch colonies such as the Cape, Ceylon and Mauritius. At home, abolitionists - Thomas Clarkson, Granville Sharp, the formerly enslaved Olaudah Equiano and William Wilberforce in Parliament - campaigned for twenty years; the Slave Trade Act of 25 March 1807 banned British slave trading. Slavery itself ended in most of the empire on 1 August 1834; slave owners received £20 million in compensation, the freed people nothing and had to work on as 'apprentices' until 1838. The navy's West Africa Squadron captured about 6% of the Atlantic slave ships and freed about 150,000 Africans.",
+    "w": "Slave Trade Act 1807",
+    "look": [
+     [
+      8.48,
+      -13.23,
+      "Freetown"
+     ],
+     [
+      36.18,
+      -6.03,
+      "Trafalgar"
+     ],
+     [
+      51.5,
+      -0.13,
+      "London"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Jamaica's Christmas rising",
+      "t": "In 1831-32 tens of thousands of enslaved Jamaicans, led by the Baptist deacon Samuel Sharpe, went on strike and rebelled; the rising was crushed and hundreds were executed, but it hastened abolition.",
+      "lat": 18.47,
+      "lon": -77.92
+     },
+     {
+      "h": "The Cape changes hands",
+      "t": "Britain took the Dutch Cape Colony in 1806 at the Battle of Blaauwberg to secure the sea route to India; it was formally ceded in 1814.",
+      "lat": -33.92,
+      "lon": 18.42
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Slave_Trade_Act_1807",
+     "https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833",
+     "https://en.wikipedia.org/wiki/West_Africa_Squadron",
+     "https://en.wikipedia.org/wiki/Battle_of_Trafalgar",
+     "https://en.wikipedia.org/wiki/Baptist_War"
+    ],
+    "img": "Tour: british-empire: Ruling the waves, ending the trade"
+   },
+   {
+    "y": 1830.705,
+    "lat": 35,
+    "lon": 0,
+    "z": 1,
+    "t": "Cotton and the Industrial Revolution",
+    "c": "Inventions such as Arkwright's water frame (1769) and steam-powered mills made Manchester 'Cottonopolis'. Much of the raw cotton came from enslaved labour on plantations in the American South, shipped through Liverpool. Machines reversed an old trade: India had long exported fine cotton cloth to Europe, but from the 1810s cheap Lancashire cloth, helped by British tariffs on Indian textiles and the end of the company's trade monopoly in 1813, flooded Indian markets and many hand-weavers lost their living (how far India 'deindustrialised' is debated). The Liverpool and Manchester Railway, the first steam inter-city line, opened in 1830.",
+    "w": "Industrial Revolution",
+    "look": [
+     [
+      53.48,
+      -2.24,
+      "Manchester"
+     ],
+     [
+      53.41,
+      -2.99,
+      "Liverpool"
+     ],
+     [
+      23.71,
+      90.41,
+      "Dhaka"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Dhaka muslin",
+      "t": "Dhaka was famous for muslin so fine it was called 'woven air'; the industry collapsed in the 19th century.",
+      "lat": 23.71,
+      "lon": 90.41
+     },
+     {
+      "h": "King Cotton",
+      "t": "By the mid-19th century most of Britain's raw cotton came from the slave states of the American South, much of it shipped from New Orleans.",
+      "lat": 29.95,
+      "lon": -90.07
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Industrial_Revolution",
+     "https://en.wikipedia.org/wiki/Cottonopolis",
+     "https://en.wikipedia.org/wiki/Liverpool_and_Manchester_Railway",
+     "https://en.wikipedia.org/wiki/De-industrialisation_of_India",
+     "https://en.wikipedia.org/wiki/Dhaka_muslin"
+    ],
+    "img": "Tour: british-empire: Cotton and the Industrial Revolution"
+   },
+   {
+    "y": 1842.659,
+    "lat": 26,
+    "lon": 116,
+    "z": 4,
+    "t": "Opium and Hong Kong",
+    "c": "Britain bought huge amounts of Chinese tea but sold little China wanted, so the company grew opium in Bengal and sold it to private traders who smuggled it into China, about 20,000 chests a year by 1831. When the commissioner Lin Zexu seized and destroyed some 1,000 tons of British-owned opium at Humen in June 1839, Britain sent a fleet that included the company's iron steamer Nemesis. The Treaty of Nanking (29 August 1842) ceded Hong Kong, opened five ports to British trade and made China pay 21 million dollars. A Second Opium War (1856-60) forced China to legalise the trade.",
+    "w": "First Opium War",
+    "look": [
+     [
+      23.11,
+      113.25,
+      "Canton"
+     ],
+     [
+      22.28,
+      114.16,
+      "Hong Kong"
+     ],
+     [
+      32.06,
+      118.78,
+      "Nanjing"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Humen",
+      "t": "Lin Zexu had the confiscated opium mixed with lime and salt and flushed into the sea over 23 days in June 1839.",
+      "lat": 22.82,
+      "lon": 113.67
+     },
+     {
+      "h": "Shanghai",
+      "t": "Opened as a treaty port in 1843, Shanghai grew from a county town into China's biggest city, with a British-run settlement until 1943.",
+      "lat": 31.24,
+      "lon": 121.49
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/First_Opium_War",
+     "https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen",
+     "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
+     "https://en.wikipedia.org/wiki/Nemesis_(1839)",
+     "https://en.wikipedia.org/wiki/Second_Opium_War"
+    ],
+    "img": "Tour: british-empire: Opium and Hong Kong"
+   },
+   {
+    "y": 1857.722,
+    "lat": 26,
+    "lon": 80,
+    "z": 5,
+    "t": "1857 and the Raj",
+    "c": "By 1857 the company ruled most of India directly or through princes, after wars against Mysore, the Marathas and the Sikhs and annexations such as Awadh in 1856. On 10 May 1857 Indian soldiers (sepoys) at Meerut mutinied, marched to Delhi and proclaimed the aged Mughal Bahadur Shah Zafar emperor; revolt spread across the north. Both sides committed atrocities: British women and children were massacred at Kanpur, and British reprisals killed many thousands, including civilians (the total death toll is unknown and debated). In 1858 the Crown took over from the company, and in 1877 Victoria became Empress of India.",
+    "w": "Indian Rebellion of 1857",
+    "look": [
+     [
+      28.98,
+      77.71,
+      "Meerut"
+     ],
+     [
+      28.66,
+      77.23,
+      "Delhi"
+     ],
+     [
+      26.86,
+      80.94,
+      "Lucknow"
+     ],
+     [
+      26.45,
+      80.33,
+      "Kanpur"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The Lucknow Residency",
+      "t": "About 1,700 troops and hundreds of civilians held the British Residency for 87 days before the first relief force arrived in September 1857.",
+      "lat": 26.86,
+      "lon": 80.94
+     },
+     {
+      "h": "The last Mughal",
+      "t": "Bahadur Shah Zafar was tried and exiled to Rangoon, where he died in 1862, ending the Mughal dynasty.",
+      "lat": 16.8,
+      "lon": 96.15
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857",
+     "https://en.wikipedia.org/wiki/Siege_of_Delhi",
+     "https://en.wikipedia.org/wiki/Siege_of_Lucknow",
+     "https://en.wikipedia.org/wiki/Government_of_India_Act_1858",
+     "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+    ],
+    "img": "Tour: british-empire: 1857 and the Raj"
+   },
+   {
+    "y": 1866.568,
+    "lat": 45,
+    "lon": -20,
+    "z": 1,
+    "t": "Steam and the wire",
+    "c": "Steam shrank the empire. P&O steamers carried mail towards India from 1840, and the company's iron gunboat Nemesis showed in China what steam warships could do. In July 1866 Brunel's giant Great Eastern laid the first lasting transatlantic telegraph cable, from Valentia in Ireland to Heart's Content in Newfoundland; by 1870 a cable via Suez and Aden linked Britain to Bombay, so messages took hours instead of weeks. Cables were insulated with gutta-percha, a latex from Malayan trees, and by 1902 the 'All Red Line' of British cables circled the globe.",
+    "w": "Transatlantic telegraph cable",
+    "look": [
+     [
+      51.93,
+      -10.35,
+      "Valentia"
+     ],
+     [
+      47.88,
+      -53.37,
+      "Heart's Content"
+     ],
+     [
+      18.94,
+      72.84,
+      "Bombay"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Porthcurno",
+      "t": "This Cornish cove became the landing point of the 1870 cable to India and later the hub of the world's largest cable network.",
+      "lat": 50.04,
+      "lon": -5.66
+     },
+     {
+      "h": "Gutta-percha",
+      "t": "A Scottish surgeon of the East India Company brought gutta-percha to Europe in the 1840s; it made undersea cables possible.",
+      "lat": 1.35,
+      "lon": 103.82
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+     "https://en.wikipedia.org/wiki/SS_Great_Eastern",
+     "https://en.wikipedia.org/wiki/All_Red_Line",
+     "https://en.wikipedia.org/wiki/Submarine_communications_cable",
+     "https://en.wikipedia.org/wiki/P&O_(company)"
+    ],
+    "img": "Tour: british-empire: Steam and the wire"
+   },
+   {
+    "y": 1877.001,
+    "lat": 20,
+    "lon": 78,
+    "z": 4,
+    "t": "Railways and famine",
+    "c": "British rule built railways, canals, telegraphs and courts, and ran India largely for trade and revenue. It also saw repeated famines. In the Great Famine of 1876-78 an estimated 5.6 to 9.6 million people died in southern and western India; while it raged, the viceroy Lord Lytton held the lavish Delhi Durbar of 1 January 1877 proclaiming Victoria Empress of India, and grain exports continued. Historians debate how much drought (an El Niño) and how much British policy - low relief, high taxes, free-market dogma - caused the deaths. Famine Codes followed in the 1880s.",
+    "w": "Great Famine of 1876–1878",
+    "look": [
+     [
+      13.08,
+      80.29,
+      "Madras"
+     ],
+     [
+      28.72,
+      77.2,
+      "Delhi Durbar"
+     ],
+     [
+      12.97,
+      77.59,
+      "Bangalore"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Bengal, 1770",
+      "t": "Only five years after the company took over Bengal's taxes, a famine killed an estimated 7-10 million people; how much company policy worsened it is debated.",
+      "lat": 24.18,
+      "lon": 88.27
+     },
+     {
+      "h": "A canal dug by the starving",
+      "t": "Parts of the Buckingham Canal along the Coromandel coast were dug as famine-relief work in 1876-78.",
+      "lat": 13.6,
+      "lon": 80.2
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Great_Famine_of_1876–1878",
+     "https://en.wikipedia.org/wiki/Delhi_Durbar",
+     "https://en.wikipedia.org/wiki/Famines_in_India",
+     "https://en.wikipedia.org/wiki/Bengal_famine_of_1770",
+     "https://en.wikipedia.org/wiki/Indian_Famine_Codes"
+    ],
+    "img": "Tour: british-empire: Railways and famine"
+   },
+   {
+    "y": 1882.7,
+    "lat": 29,
+    "lon": 33,
+    "z": 5,
+    "t": "Suez and Egypt",
+    "c": "The French-built Suez Canal opened on 17 November 1869 and cut the sea route from London to Bombay by about 40%. In November 1875 Prime Minister Disraeli bought the Egyptian ruler's 176,602 canal shares (44%) for £4 million, lent by the Rothschilds. When an army revolt under Ahmed Urabi threatened Egypt's European creditors, Britain bombarded Alexandria (July 1882), crushed Urabi at Tel el-Kebir on 13 September 1882 and occupied Egypt, which it ran in practice until 1922 while keeping troops at the canal until 1956.",
+    "w": "Suez Canal",
+    "look": [
+     [
+      31.26,
+      32.3,
+      "Port Said"
+     ],
+     [
+      30.55,
+      31.83,
+      "Tel el-Kebir"
+     ],
+     [
+      31.2,
+      29.92,
+      "Alexandria"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Aden",
+      "t": "The East India Company took Aden in 1839 as a coaling station; after 1869 it became one of the busiest ports on the Suez route.",
+      "lat": 12.78,
+      "lon": 45.03
+     },
+     {
+      "h": "Cyprus, 1878",
+      "t": "At the Congress of Berlin the Ottomans let Britain run Cyprus as a base to guard the route to India.",
+      "lat": 35.17,
+      "lon": 33.36
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Suez_Canal",
+     "https://en.wikipedia.org/wiki/Suez_Canal_Company",
+     "https://en.wikipedia.org/wiki/Anglo-Egyptian_War",
+     "https://en.wikipedia.org/wiki/Battle_of_Tel_el-Kebir",
+     "https://en.wikipedia.org/wiki/Cyprus_Convention"
+    ],
+    "img": "Tour: british-empire: Suez and Egypt"
+   },
+   {
+    "y": 1898.67,
+    "lat": 2,
+    "lon": 22,
+    "z": 2,
+    "t": "The Scramble for Africa",
+    "c": "At the Berlin Conference (1884-85) European powers agreed rules for claiming Africa; within 30 years almost all of it was colonised. Britain's share ran from Egypt and Sudan to the Cape, often won by chartered companies such as the Royal Niger Company and Cecil Rhodes's British South Africa Company. Africans resisted: a Zulu army destroyed a British column at Isandlwana in 1879, and the Boers won at Majuba in 1881. But machine guns usually decided: at Omdurman on 2 September 1898 about 12,000 Sudanese were killed for under 50 British and Egyptian dead. In 1897 a punitive expedition burned Benin City and carried off the Benin Bronzes.",
+    "w": "Scramble for Africa",
+    "look": [
+     [
+      -28.36,
+      30.65,
+      "Isandlwana"
+     ],
+     [
+      15.7,
+      32.5,
+      "Omdurman"
+     ],
+     [
+      6.34,
+      5.63,
+      "Benin City"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Fashoda, 1898",
+      "t": "Days after Omdurman, Kitchener faced a small French force at Fashoda on the White Nile; France backed down, settling the Nile for Britain.",
+      "lat": 9.88,
+      "lon": 32.07
+     },
+     {
+      "h": "Rhodesia",
+      "t": "Rhodes's company sent a Pioneer Column to found Fort Salisbury in 1890; the Ndebele and Shona risings of 1896-97 were crushed.",
+      "lat": -17.83,
+      "lon": 31.05
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Scramble_for_Africa",
+     "https://en.wikipedia.org/wiki/Berlin_Conference",
+     "https://en.wikipedia.org/wiki/Battle_of_Isandlwana",
+     "https://en.wikipedia.org/wiki/Battle_of_Omdurman",
+     "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+    ],
+    "img": "Tour: british-empire: The Scramble for Africa"
+   },
+   {
+    "y": 1913.497,
+    "lat": 20,
+    "lon": 30,
+    "z": 1,
+    "t": "The empire at its height",
+    "c": "At Queen Victoria's Diamond Jubilee in June 1897 troops from across the empire paraded through London. By 1913 the empire ruled about 412 million people, 23% of the world's population, and by 1920 it covered 35.5 million km², about 24% of Earth's land - the largest empire in history. It spread railways, ports, English law and language and a world trading system, but also borders drawn without asking local people, famines, and the violence of conquest - in the Boer War (1899-1902) about 28,000 Boers, mostly children, and many thousands of Black Africans died in British concentration camps. Canada, Australia and New Zealand already governed themselves; most colonies won independence after 1945.",
+    "w": "British Empire",
+    "look": [
+     [
+      51.5,
+      -0.13,
+      "London"
+     ],
+     [
+      -29.12,
+      26.21,
+      "Bloemfontein"
+     ],
+     [
+      28.61,
+      77.21,
+      "Delhi"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Dominion of Canada",
+      "t": "Canada became a self-governing dominion on 1 July 1867, the model later followed by Australia (1901) and New Zealand (1907).",
+      "lat": 45.42,
+      "lon": -75.7
+     },
+     {
+      "h": "The camps",
+      "t": "In the Boer War British forces burned farms and held Boer and Black African civilians in camps; disease killed about one in four Boer inmates.",
+      "lat": -29.12,
+      "lon": 26.21
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/British_Empire",
+     "https://en.wikipedia.org/wiki/Diamond_Jubilee_of_Queen_Victoria",
+     "https://en.wikipedia.org/wiki/Second_Boer_War_concentration_camps",
+     "https://en.wikipedia.org/wiki/Dominion"
+    ],
+    "img": "Tour: british-empire: The empire at its height"
+   }
+  ],
+  "ly": {
+   "lyHist": true,
+   "lyWars": true,
+   "lyReform": false,
+   "lyCities": false,
+   "lyRoutes": true,
+   "lyCrops": false,
+   "lyMigr": false,
+   "lyFigs": false,
+   "lyC14": false,
+   "lyPop": false,
+   "lyFauna": false,
+   "lyHomo": false,
+   "lyPlague": false,
+   "lyBorders": true,
+   "lyEvents": true
   }
  },
  {
@@ -5680,7 +8146,9 @@
    "lyFauna": false,
    "lyHomo": false,
    "lyCrops": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -6190,6 +8658,822 @@
   ]
  },
  {
+  "id": "columbian-exchange",
+  "title": "The Columbian Exchange",
+  "blurb": "How ships from Portugal and Spain joined the hemispheres after 1492, moving crops, animals, silver, diseases and enslaved people, and changing life on every continent.",
+  "cat": "Trade & exploration",
+  "steps": [
+   {
+    "y": 1420.5,
+    "lat": 34.5,
+    "lon": -11.0,
+    "z": 4,
+    "t": "Prince Henry and the sugar island",
+    "c": "Portugal took Ceuta in North Africa in 1415, and Prince Henry, later called 'the Navigator', sponsored voyages down the African coast and into the Atlantic. Uninhabited Madeira was claimed in 1419 and settled from about 1420. With Genoese money, Sicilian know-how and water mills, it became Europe's great sugar island by the late 1400s, and the cane was cut and milled by enslaved Canary Islanders and Africans: the first Atlantic plantation.",
+    "w": "Prince Henry the Navigator",
+    "look": [
+     [
+      32.65,
+      -16.91,
+      "Funchal"
+     ],
+     [
+      35.89,
+      -5.32,
+      "Ceuta"
+     ],
+     [
+      37.0,
+      -8.94,
+      "Sagres"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Ceuta, 1415",
+      "t": "Portugal's capture of the Moroccan port on 21 August 1415 is often taken as the start of European overseas expansion.",
+      "lat": 35.89,
+      "lon": -5.32
+     },
+     {
+      "h": "Levadas",
+      "t": "Madeira's sugar needed water: settlers cut irrigation channels (levadas) along steep cliffs, some built by enslaved workers hanging on ropes.",
+      "lat": 32.75,
+      "lon": -17.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator",
+     "https://en.wikipedia.org/wiki/Madeira",
+     "https://en.wikipedia.org/wiki/Conquest_of_Ceuta",
+     "https://en.wikipedia.org/wiki/History_of_sugar"
+    ],
+    "fx": {
+     "crops": [
+      "Sugarcane"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Prince Henry and the sugar island"
+   },
+   {
+    "y": 1482.05,
+    "lat": 9.0,
+    "lon": -6.0,
+    "z": 4,
+    "t": "Gold, castles and captives",
+    "c": "In 1444 captives seized on the West African coast were sold at Lagos in Portugal, the start of the Portuguese Atlantic slave trade. In January 1482 Portugal began building São Jorge da Mina (Elmina) on the Gold Coast, trading cloth, brass and horses for Akan gold. Captives bought in Benin and elsewhere were shipped to São Tomé, settled from 1493, where sugar plantations worked by enslaved Africans set the pattern later used in the Americas.",
+    "w": "Elmina Castle",
+    "look": [
+     [
+      5.08,
+      -1.35,
+      "Elmina"
+     ],
+     [
+      0.34,
+      6.73,
+      "São Tomé"
+     ],
+     [
+      20.6,
+      -16.45,
+      "Arguin"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "African partners",
+      "t": "Coastal states and merchants controlled who and what was sold; the Portuguese needed their permission to build and paid rent and gifts to local rulers.",
+      "lat": 6.3,
+      "lon": 5.6
+     },
+     {
+      "h": "Dutch Elmina",
+      "t": "The Dutch West India Company took the castle in 1637 and ran it as the capital of the Dutch Gold Coast until 1872.",
+      "lat": 5.08,
+      "lon": -1.35
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Elmina_Castle",
+     "https://en.wikipedia.org/wiki/Lagos,_Portugal",
+     "https://en.wikipedia.org/wiki/São_Tomé",
+     "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+    ],
+    "img": "Tour: columbian-exchange: Gold, castles and captives"
+   },
+   {
+    "y": 1492.78,
+    "lat": 23.0,
+    "lon": -75.0,
+    "z": 5,
+    "t": "Two worlds meet",
+    "c": "On 12 October 1492 Columbus's three ships reached an island of the Bahamas that its Lucayan Taíno people called Guanahani. Columbus believed he was near Asia and called the people 'Indians'. The Taíno of the Caribbean lived in farming chiefdoms growing cassava, maize and sweet potato; their words hammock, canoe, hurricane and barbecue passed into European languages. Within a few decades Taíno society on the large islands had collapsed.",
+    "w": "Voyages of Christopher Columbus",
+    "look": [
+     [
+      24.05,
+      -74.5,
+      "Guanahani"
+     ],
+     [
+      19.75,
+      -72.2,
+      "Hispaniola"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "La Navidad",
+      "t": "When the Santa María ran aground on Christmas Day 1492, Columbus left 39 men in a fort on Hispaniola; on his return all had been killed.",
+      "lat": 19.75,
+      "lon": -72.0
+     },
+     {
+      "h": "Taíno words",
+      "t": "Spanish borrowed Taíno words such as huracán (hurricane), canoa (canoe), hamaca (hammock) and barbacoa (barbecue).",
+      "lat": 21.5,
+      "lon": -78.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
+     "https://en.wikipedia.org/wiki/Taíno",
+     "https://en.wikipedia.org/wiki/Lucayan_people"
+    ],
+    "img": "Tour: columbian-exchange: Two worlds meet"
+   },
+   {
+    "y": 1494.02,
+    "lat": 19.3,
+    "lon": -71.0,
+    "z": 6,
+    "t": "Horses, cattle, pigs and cane",
+    "c": "Columbus's second voyage of 17 ships reached Hispaniola in November 1493 and founded La Isabela in January 1494. It brought horses, cattle, pigs, sheep, goats, dogs, wheat and sugarcane. Pigs and cattle ran wild and multiplied, trampling Taíno gardens. Forced labour, violence, hunger and disease shrank the Taíno population: a count in 1514 reportedly found about 32,000 (pre-contact estimates vary from about 100,000 to over a million, debated). The first sugar mills worked from about 1516, and enslaved Africans replaced the dying Taíno.",
+    "w": "Second voyage of Christopher Columbus",
+    "look": [
+     [
+      19.89,
+      -71.08,
+      "La Isabela"
+     ],
+     [
+      18.47,
+      -69.89,
+      "Santo Domingo"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Feral herds",
+      "t": "Cattle and pigs multiplied fast and ran wild; beef and hides became staple exports of the Spanish colony.",
+      "lat": 18.8,
+      "lon": -70.5
+     },
+     {
+      "h": "Santo Domingo",
+      "t": "Founded in 1496, it is the oldest continuously inhabited European city in the Americas.",
+      "lat": 18.47,
+      "lon": -69.89
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Second_voyage_of_Christopher_Columbus",
+     "https://en.wikipedia.org/wiki/La_Isabela",
+     "https://en.wikipedia.org/wiki/Taíno_genocide",
+     "https://en.wikipedia.org/wiki/Columbian_exchange"
+    ],
+    "fx": {
+     "crops": [
+      "Horse",
+      "Taurine cattle",
+      "Pig",
+      "Sugarcane"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Horses, cattle, pigs and cane"
+   },
+   {
+    "y": 1520.8,
+    "lat": 19.4,
+    "lon": -97.5,
+    "z": 6,
+    "t": "The great rash",
+    "c": "The first recorded smallpox epidemic in the Americas struck Hispaniola in December 1518. In spring 1520 it reached Mexico with the expedition of Pánfilo de Narváez and spread inland. In Tenochtitlan it raged for about 70 days from autumn 1520 and killed the new ruler Cuitláhuac. Nahua elders later told the friar Sahagún how people lay covered in sores, unable to move, and many starved because no one could cook for them. Indigenous Americans had no immunity to this and other Old World diseases.",
+    "w": "History of smallpox",
+    "look": [
+     [
+      19.45,
+      -96.4,
+      "Cempoala"
+     ],
+     [
+      19.43,
+      -99.13,
+      "Tenochtitlan"
+     ],
+     [
+      18.47,
+      -69.89,
+      "Hispaniola"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The Kaqchikel annals",
+      "t": "Maya chronicles in Guatemala record a deadly plague around 1519–1521, before the Spanish arrived there: disease ran ahead of the conquerors.",
+      "lat": 14.73,
+      "lon": -90.99
+     },
+     {
+      "h": "Florentine Codex",
+      "t": "The 12-book encyclopedia compiled by Sahagún with Nahua scholars (completed 1577) tells the conquest from the Mexica side, in Nahuatl and Spanish with over 2,000 pictures.",
+      "lat": 19.35,
+      "lon": -99.16
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/History_of_smallpox",
+     "https://en.wikipedia.org/wiki/Cuitláhuac",
+     "https://en.wikipedia.org/wiki/Florentine_Codex",
+     "https://en.wikipedia.org/wiki/Annals_of_the_Cakchiquels"
+    ],
+    "img": "Tour: columbian-exchange: The great rash"
+   },
+   {
+    "y": 1521.62,
+    "lat": 19.43,
+    "lon": -99.13,
+    "z": 8,
+    "t": "The fall of Tenochtitlan",
+    "c": "Tenochtitlan, an island city of perhaps 200,000 people (estimate), fell on 13 August 1521 after a siege of about 80 days. Cortés had a few hundred to about 1,000 Spaniards; the decisive force was tens of thousands of Indigenous allies, above all Tlaxcalans, who fought to break Mexica rule. Smallpox had already killed many defenders. Mexico City was built on the ruins, and allies like Tlaxcala won privileges from the Spanish crown, but soon also suffered epidemics and tribute.",
+    "w": "Fall of Tenochtitlan",
+    "look": [
+     [
+      19.43,
+      -99.13,
+      "Tenochtitlan"
+     ],
+     [
+      19.32,
+      -98.24,
+      "Tlaxcala"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Wheat in New Spain",
+      "t": "Juan Garrido, an African-born conquistador who fought at Tenochtitlan, is credited with the first wheat harvest in New Spain.",
+      "lat": 19.4,
+      "lon": -99.2
+     },
+     {
+      "h": "Cuauhtémoc",
+      "t": "The last Mexica ruler was captured on the lake as the city fell; he was executed in 1525.",
+      "lat": 19.45,
+      "lon": -99.06
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+     "https://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)",
+     "https://en.wikipedia.org/wiki/Juan_Garrido"
+    ],
+    "img": "Tour: columbian-exchange: The fall of Tenochtitlan"
+   },
+   {
+    "y": 1527.5,
+    "lat": -6.0,
+    "lon": -78.0,
+    "z": 4,
+    "t": "An empire hit before the conquerors came",
+    "c": "Around 1527 an epidemic swept the Inca Empire, possibly smallpox spreading south ahead of the Spanish (the disease is debated). It killed the ruler Huayna Capac at Quito and his chosen heir, and his sons Huáscar and Atahualpa fought a civil war for the throne. When Francisco Pizarro and 168 men reached Cajamarca in November 1532, they captured the victorious Atahualpa, took a room's worth of gold and silver as ransom, and executed him in 1533. Cusco fell that November.",
+    "w": "Huayna Capac",
+    "look": [
+     [
+      -0.22,
+      -78.51,
+      "Quito"
+     ],
+     [
+      -7.16,
+      -78.51,
+      "Cajamarca"
+     ],
+     [
+      -13.53,
+      -71.97,
+      "Cusco"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Ransom room",
+      "t": "Atahualpa offered to fill a room once with gold and twice with silver; most of it was melted down.",
+      "lat": -7.16,
+      "lon": -78.52
+     },
+     {
+      "h": "Resistance",
+      "t": "Inca rulers held out at Vilcabamba until 1572, when the last Sapa Inca, Túpac Amaru, was captured and executed.",
+      "lat": -13.1,
+      "lon": -73.2
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Huayna_Capac",
+     "https://en.wikipedia.org/wiki/Inca_Civil_War",
+     "https://en.wikipedia.org/wiki/Battle_of_Cajamarca",
+     "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+    ],
+    "img": "Tour: columbian-exchange: An empire hit before the conquerors came"
+   },
+   {
+    "y": 1545.3,
+    "lat": -19.59,
+    "lon": -65.75,
+    "z": 6,
+    "t": "The mountain of silver",
+    "c": "In 1545 silver was found at the Cerro Rico of Potosí, 4,000 m up in the Andes. With mercury from Huancavelica and the forced labour draft (mita), which took up to 13,500 Indigenous men a year, it produced an estimated 60% of the world's silver in the late 1500s, and the town grew past 200,000 people (estimate). The work was deadly: many miners died underground or from mercury poisoning. Spanish silver dollars, the 'pieces of eight', became the first global currency.",
+    "w": "Potosí",
+    "look": [
+     [
+      -19.59,
+      -65.75,
+      "Potosí"
+     ],
+     [
+      -12.79,
+      -74.97,
+      "Huancavelica"
+     ],
+     [
+      22.77,
+      -102.58,
+      "Zacatecas"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Mercury from Huancavelica",
+      "t": "From the 1560s mercury from this Andean mine was used to extract silver from lower-grade ore by amalgamation.",
+      "lat": -12.79,
+      "lon": -74.97
+     },
+     {
+      "h": "Zacatecas",
+      "t": "Northern Mexico's silver boom began here in 1546, a year after Potosí.",
+      "lat": 22.77,
+      "lon": -102.58
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Potosí",
+     "https://en.wikipedia.org/wiki/Mit'a",
+     "https://en.wikipedia.org/wiki/Huancavelica",
+     "https://en.wikipedia.org/wiki/Spanish_dollar"
+    ],
+    "img": "Tour: columbian-exchange: The mountain of silver"
+   },
+   {
+    "y": 1571.48,
+    "lat": 17.0,
+    "lon": 122.0,
+    "z": 4,
+    "t": "Silver crosses the Pacific",
+    "c": "In 1565 Andrés de Urdaneta found the return route from the Philippines to Mexico, and on 24 June 1571 Legazpi founded Spanish Manila. For 250 years galleons carried American silver from Acapulco to Manila, where Chinese merchants from Fujian traded it for silk and porcelain. Ming China, which taxed in silver, absorbed a large share of the world's silver. For the first time every inhabited continent was linked in one trade. The galleons also carried American crops such as maize, sweet potato and tobacco to Asia.",
+    "w": "Manila galleon",
+    "look": [
+     [
+      14.59,
+      120.98,
+      "Manila"
+     ],
+     [
+      24.44,
+      117.83,
+      "Yuegang"
+     ],
+     [
+      22.19,
+      113.54,
+      "Macau"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Moon Harbour",
+      "t": "In 1567 the Ming allowed private overseas trade from Yuegang in Fujian; junks from here carried silk to Manila and brought back silver.",
+      "lat": 24.44,
+      "lon": 117.83
+     },
+     {
+      "h": "Sangleys",
+      "t": "Manila's Chinese traders and craftsmen, called Sangleys, numbered about 25,000 before a massacre in 1603; their trade kept the colony alive.",
+      "lat": 14.59,
+      "lon": 120.97
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Manila_galleon",
+     "https://en.wikipedia.org/wiki/Manila",
+     "https://en.wikipedia.org/wiki/Haicheng,_Fujian",
+     "https://en.wikipedia.org/wiki/Sangley"
+    ],
+    "fx": {
+     "crops": [
+      "Maize",
+      "Chili pepper"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Silver crosses the Pacific"
+   },
+   {
+    "y": 1576.4,
+    "lat": 5.0,
+    "lon": -75.0,
+    "z": 2,
+    "t": "The Great Dying",
+    "c": "Estimates of the population of the Americas in 1492 range from about 8 to over 100 million; many scholars now put it at 45–60 million. Within about a century perhaps 90% had died from wave after wave of disease, together with war, enslavement, forced labour and famine. In Mexico the cocoliztli epidemics of 1545 and 1576 killed millions; their cause is debated (one study found Salmonella in victims). A 2019 study (Koch et al.) argues that forest regrowing on abandoned fields lowered atmospheric CO2 by 7–10 ppm around 1610 and added to Little Ice Age cooling; this effect is debated.",
+    "w": "Population history of the Indigenous peoples of the Americas",
+    "look": [
+     [
+      19.43,
+      -99.13,
+      "Mexico City"
+     ],
+     [
+      17.52,
+      -97.48,
+      "Teposcolula"
+     ],
+     [
+      -13.53,
+      -71.97,
+      "Cusco"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Teposcolula-Yucundaa",
+      "t": "Ancient DNA from victims buried in this Mixtec town in 1545–48 contained Salmonella enterica Paratyphi C, a possible cause of cocoliztli.",
+      "lat": 17.52,
+      "lon": -97.48
+     },
+     {
+      "h": "Antarctic ice",
+      "t": "Air bubbles in the Law Dome ice core record the CO2 dip of about 1610 sometimes called the 'Orbis spike'.",
+      "lat": -66.77,
+      "lon": 112.8
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas",
+     "https://en.wikipedia.org/wiki/Cocoliztli_epidemics",
+     "https://en.wikipedia.org/wiki/Orbis_spike",
+     "https://en.wikipedia.org/wiki/Little_Ice_Age",
+     "https://doi.org/10.1016/j.quascirev.2018.12.004"
+    ],
+    "img": "Tour: columbian-exchange: The Great Dying"
+   },
+   {
+    "y": 1594.5,
+    "lat": 25.0,
+    "lon": 40.0,
+    "z": 1,
+    "t": "New staples for the Old World",
+    "c": "American crops travelled fast. Potatoes were shipped from the Canaries to Antwerp in 1567 and became an Irish staple in the 1600s. Portuguese traders took cassava from Brazil to West-Central Africa, where it slowly replaced sorghum and millet. Maize spread through Africa and appeared in Chinese records from the mid-1500s, and in 1594 the sweet potato was brought from Luzon to Fujian after a crop failure. Nunn and Qian (2011) estimate that the potato alone explains about a quarter of Old World population growth in 1700–1900; the size of such effects is debated.",
+    "w": "Columbian exchange",
+    "look": [
+     [
+      28.12,
+      -15.43,
+      "Gran Canaria"
+     ],
+     [
+      -6.27,
+      14.24,
+      "Mbanza Kongo"
+     ],
+     [
+      26.07,
+      119.3,
+      "Fuzhou"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Sweet potato in Fujian",
+      "t": "Brought from Spanish Luzon in about 1594, it became a famine food that grew on poor hill soils; China now grows over half the world's sweet potatoes.",
+      "lat": 26.07,
+      "lon": 119.3
+     },
+     {
+      "h": "Maize in Africa",
+      "t": "Introduced by the Portuguese in the 1500s, maize is today Africa's most important staple food crop.",
+      "lat": 6.0,
+      "lon": 0.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Columbian_exchange",
+     "https://en.wikipedia.org/wiki/History_of_the_potato",
+     "https://en.wikipedia.org/wiki/Sweet_potato",
+     "https://en.wikipedia.org/wiki/Cassava",
+     "https://doi.org/10.1093/qje/qjr009",
+     "https://doi.org/10.1257/jep.24.2.163"
+    ],
+    "fx": {
+     "crops": [
+      "Maize",
+      "Potato",
+      "Cassava (manioc)",
+      "Tomato"
+     ]
+    },
+    "img": "Tour: columbian-exchange: New staples for the Old World"
+   },
+   {
+    "y": 1614.5,
+    "lat": 20.0,
+    "lon": 95.0,
+    "z": 2,
+    "t": "Chili conquers Asia",
+    "c": "Chili peppers came from the Americas, but within a century they were so common in Asia that Europeans thought they were Asian: the German botanist Leonhart Fuchs in 1543 called one kind 'Calicut pepper'. Portuguese traders carried them to Africa, Goa, Sri Lanka and Malacca; the details are unrecorded. The first Korean mention is in an encyclopedia of 1614, and chili later turned kimchi red. Sichuan, Thai and Indian cooking, now unthinkable without chili, all took it up after 1500.",
+    "w": "Chili pepper",
+    "look": [
+     [
+      15.5,
+      73.83,
+      "Goa"
+     ],
+     [
+      37.57,
+      126.98,
+      "Seoul"
+     ],
+     [
+      30.66,
+      104.07,
+      "Chengdu"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Vindaloo",
+      "t": "Goa's vindaloo takes its name from the Portuguese carne de vinha d'alhos (meat in wine and garlic), with chili added.",
+      "lat": 15.5,
+      "lon": 73.83
+     },
+     {
+      "h": "Gochujang",
+      "t": "Korean red chili paste developed after chili arrived in the 1600s; earlier fermented pastes used other spices.",
+      "lat": 37.57,
+      "lon": 126.98
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Chili_pepper",
+     "https://en.wikipedia.org/wiki/Gochujang",
+     "https://en.wikipedia.org/wiki/Columbian_exchange",
+     "https://en.wikipedia.org/wiki/Vindaloo"
+    ],
+    "fx": {
+     "crops": [
+      "Chili pepper"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Chili conquers Asia"
+   },
+   {
+    "y": 1622.2,
+    "lat": 40.0,
+    "lon": -60.0,
+    "z": 3,
+    "t": "Stowaways: worms, bees and weeds",
+    "c": "Not everything that crossed the ocean was planned. Much of glaciated northern North America had no native earthworms; European earthworms, probably carried in soil, ballast and plant roots, now change its forest floors. Honey bees were shipped from England to Virginia in 1622; Native people reportedly called them the 'white man's fly'. Greater plantain was called 'white man's footprint' because it grew wherever settlers went, and dandelions, black rats, clover and grasses spread with them.",
+    "w": "Columbian exchange",
+    "look": [
+     [
+      37.21,
+      -76.78,
+      "Jamestown"
+     ],
+     [
+      41.96,
+      -70.67,
+      "Plymouth"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "White man's footprint",
+      "t": "Greater plantain is believed to be one of the first European plants to reach North America after colonisation.",
+      "lat": 41.96,
+      "lon": -70.67
+     },
+     {
+      "h": "Earthworms today",
+      "t": "About a third of the earthworm species in the US and Canada are introduced, and in northern forests they eat the leaf litter that native plants need.",
+      "lat": 46.5,
+      "lon": -92.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Earthworms_as_invasive_species",
+     "https://en.wikipedia.org/wiki/Western_honey_bee",
+     "https://en.wikipedia.org/wiki/Plantago_major",
+     "https://en.wikipedia.org/wiki/Taraxacum_officinale",
+     "https://en.wikipedia.org/wiki/Columbian_exchange"
+    ],
+    "fx": {
+     "crops": [
+      "Honey bee (managed)"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Stowaways: worms, bees and weeds"
+   },
+   {
+    "y": 1645.5,
+    "lat": 10.0,
+    "lon": -45.0,
+    "z": 2,
+    "t": "Sugar, tobacco, chocolate: new drugs, new slavery",
+    "c": "Europeans developed a taste for stimulants: sugar, tobacco from the Americas, chocolate (first documented at the Spanish court in 1544), and coffee and tea from the Old World. Tobacco made the Virginia colony after 1612, and from the 1640s Barbados turned to sugar. The plantations that grew these crops were worked by enslaved Africans: about 12.5 million people were embarked on slave ships between the 1500s and 1860s, and roughly 1.8 million died at sea. Enslaved people still built families, faiths and cultures that shaped the Americas.",
+    "w": "Atlantic slave trade",
+    "look": [
+     [
+      13.1,
+      -59.62,
+      "Barbados"
+     ],
+     [
+      -8.01,
+      -34.86,
+      "Pernambuco"
+     ],
+     [
+      37.21,
+      -76.78,
+      "Virginia"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Dutch Brazil",
+      "t": "The Dutch held the sugar coast of Pernambuco from 1630 to 1654; painters such as Frans Post and Albert Eckhout recorded its plantations.",
+      "lat": -8.05,
+      "lon": -34.9
+     },
+     {
+      "h": "Chocolate",
+      "t": "In 1544 Q'eqchi' Maya nobles brought chocolate to Prince Philip's court; the first recorded cacao shipment to Spain followed in 1585.",
+      "lat": 15.5,
+      "lon": -90.3
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+     "https://en.wikipedia.org/wiki/History_of_Barbados",
+     "https://en.wikipedia.org/wiki/History_of_chocolate",
+     "https://en.wikipedia.org/wiki/John_Rolfe",
+     "https://en.wikipedia.org/wiki/Sugar_plantations_in_the_Caribbean"
+    ],
+    "fx": {
+     "crops": [
+      "Sugarcane",
+      "Cacao",
+      "Coffee (arabica)"
+     ]
+    },
+    "img": "Tour: columbian-exchange: Sugar, tobacco, chocolate: new drugs, new slavery"
+   },
+   {
+    "y": 1700.0,
+    "lat": 40.0,
+    "lon": -103.0,
+    "z": 4,
+    "t": "The horse returns to the Plains",
+    "c": "Horses had died out in the Americas at the end of the last ice age. Spanish horses spread north from New Mexico through trade, raids and runaways, and in the Pueblo Revolt of 1680 the Pueblos seized thousands of horses and other livestock. A 2023 genetic and archaeological study, made with Indigenous scholars, found horses already widespread on the Plains and in the Rockies in the first half of the 1600s, as Native oral histories say. The Shoshone had horses by about 1700, the Comanche were fully mounted bison hunters by the 1730s, and peoples like the Lakota and Cheyenne later left farming for life on horseback.",
+    "w": "Plains Indians",
+    "look": [
+     [
+      35.69,
+      -105.94,
+      "Santa Fe"
+     ],
+     [
+      34.5,
+      -100.0,
+      "Comanchería"
+     ],
+     [
+      43.0,
+      -109.0,
+      "Shoshone"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Pueblo Revolt",
+      "t": "On 10 August 1680 the Pueblos rose, drove the Spanish out of New Mexico for twelve years and took their horses.",
+      "lat": 35.69,
+      "lon": -105.94
+     },
+     {
+      "h": "Bows on horseback",
+      "t": "Plains hunters shortened their bows to about three feet to shoot from a galloping horse.",
+      "lat": 44.0,
+      "lon": -101.0
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Plains_Indians",
+     "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+     "https://en.wikipedia.org/wiki/Horses_in_the_United_States",
+     "https://doi.org/10.1126/science.adc9691"
+    ],
+    "fx": {
+     "crops": [
+      "Horse"
+     ]
+    },
+    "img": "Tour: columbian-exchange: The horse returns to the Plains"
+   },
+   {
+    "y": 1700.5,
+    "lat": 20.0,
+    "lon": 0.0,
+    "z": 1,
+    "t": "One world, unequally joined",
+    "c": "By 1700 the Columbian exchange had remade the planet. Maize, potatoes, cassava and sweet potatoes fed growing populations in Africa, Europe and Asia; wheat, cattle, horses and sugar remade the Americas. American silver tied Europe, the Americas and China into one economy. The costs were vast and uneven: the deaths of most Indigenous Americans, the enslavement of millions of Africans, and new weeds, pests and diseases. Indigenous and African peoples were not only victims: they adapted, resisted and shaped the new societies.",
+    "w": "Columbian exchange",
+    "look": [
+     [
+      -19.59,
+      -65.75,
+      "Potosí"
+     ],
+     [
+      14.59,
+      120.98,
+      "Manila"
+     ],
+     [
+      5.08,
+      -1.35,
+      "Elmina"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A word coined in 1972",
+      "t": "The historian Alfred W. Crosby named the 'Columbian exchange' in his 1972 book of that title.",
+      "lat": 42.36,
+      "lon": -71.06
+     },
+     {
+      "h": "Two-way traffic",
+      "t": "Old World diseases, animals and weeds went west; American crops and silver went east. Syphilis, first recorded in Europe at Naples in 1495, probably went east too (debated).",
+      "lat": 40.85,
+      "lon": 14.27
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Columbian_exchange",
+     "https://en.wikipedia.org/wiki/Alfred_W._Crosby",
+     "https://en.wikipedia.org/wiki/History_of_syphilis"
+    ],
+    "fx": {
+     "crops": [
+      "Maize",
+      "Potato",
+      "Horse",
+      "Sugarcane"
+     ]
+    },
+    "img": "Tour: columbian-exchange: One world, unequally joined"
+   }
+  ],
+  "ly": {
+   "lyHist": true,
+   "lyWars": false,
+   "lyReform": false,
+   "lyCities": false,
+   "lyRoutes": true,
+   "lyCrops": true,
+   "lyMigr": true,
+   "lyFigs": false,
+   "lyC14": false,
+   "lyPop": false,
+   "lyFauna": false,
+   "lyHomo": false,
+   "lyPlague": false,
+   "lyBorders": true,
+   "lyEvents": true
+  }
+ },
+ {
   "id": "vikings",
   "title": "Vikings: from the Rus to Vinland",
   "blurb": "Raiders, traders and settlers from Scandinavia, 793 to 1066: from Lindisfarne and Paris to Novgorod, Baghdad's envoys on the Volga, Constantinople, Iceland, Greenland and North America.",
@@ -6630,7 +9914,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "fx": {
    "walk": true
@@ -6651,7 +9937,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -7048,7 +10336,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -7387,7 +10677,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
@@ -7675,7 +10967,9 @@
    "lyCrops": false,
    "lyRoutes": false,
    "lyCities": false,
-   "lyReform": false
+   "lyReform": false,
+   "lyHist": false,
+   "lyWars": false
   },
   "steps": [
    {
