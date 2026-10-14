@@ -1,0 +1,2316 @@
+{
+ "places": [
+  {
+   "n": "Prague",
+   "lat": 50.087,
+   "lon": 14.421,
+   "y": 1420,
+   "approx": false,
+   "conf": "hussite",
+   "kind": "city",
+   "what": "Hussite Prague: the Four Articles of Prague (communion in both kinds, free preaching) are proclaimed after the 1419 defenestration",
+   "back": 1620,
+   "back_what": "After the Battle of White Mountain the Habsburgs re-Catholicise Bohemia; Protestant worship banned (Renewed Land Ordinance 1627)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hussites",
+    "https://en.wikipedia.org/wiki/Hussite_Wars",
+    "https://en.wikipedia.org/wiki/Battle_of_White_Mountain"
+   ]
+  },
+  {
+   "n": "Tábor",
+   "lat": 49.414,
+   "lon": 14.658,
+   "y": 1420,
+   "approx": false,
+   "conf": "hussite",
+   "kind": "city",
+   "what": "Radical Hussites (Taborites) found the town of Tábor",
+   "back": 1452,
+   "back_what": "George of Poděbrady takes Tábor; the radical Taborite community ends",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tábor",
+    "https://en.wikipedia.org/wiki/Taborites"
+   ]
+  },
+  {
+   "n": "Kingdom of Bohemia",
+   "lat": 49.8,
+   "lon": 15.5,
+   "y": 1436,
+   "approx": false,
+   "conf": "hussite",
+   "kind": "territory",
+   "what": "Compacts of Basel: the Church accepts Utraquist (Hussite) communion in Bohemia and Moravia (centroid of Bohemia)",
+   "back": 1627,
+   "back_what": "Renewed Land Ordinance makes Catholicism the only permitted faith; Protestant nobles must convert or emigrate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Compacts_of_Basel",
+    "https://en.wikipedia.org/wiki/Utraquism",
+    "https://en.wikipedia.org/wiki/Battle_of_White_Mountain",
+    "https://de.wikipedia.org/wiki/Verneuerte_Landesordnung"
+   ]
+  },
+  {
+   "n": "Kunvald",
+   "lat": 50.13,
+   "lon": 16.48,
+   "y": 1457,
+   "approx": false,
+   "conf": "hussite",
+   "kind": "city",
+   "what": "The Unity of the Brethren (Unitas Fratrum), heirs of the Hussites, is founded here",
+   "back": 1620,
+   "back_what": "After White Mountain the Brethren are banned and expelled; Comenius leads many into exile",
+   "src": [
+    "https://en.wikipedia.org/wiki/Unity_of_the_Brethren",
+    "https://en.wikipedia.org/wiki/Kunvald"
+   ]
+  },
+  {
+   "n": "Wittenberg",
+   "lat": 51.866,
+   "lon": 12.646,
+   "y": 1522,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Wittenberg's council issues the first evangelical church ordinance after Karlstadt's Christmas 1521 communion in both kinds",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Wittenberg",
+    "https://en.wikipedia.org/wiki/Andreas_Karlstadt"
+   ]
+  },
+  {
+   "n": "Electoral Saxony",
+   "lat": 51.56,
+   "lon": 13.0,
+   "y": 1527,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Elector John the Steadfast orders church visitations that organise a Lutheran territorial church (capital Torgau)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Electorate_of_Saxony",
+    "https://en.wikipedia.org/wiki/John,_Elector_of_Saxony"
+   ]
+  },
+  {
+   "n": "Ducal Saxony (Dresden)",
+   "lat": 51.05,
+   "lon": 13.74,
+   "y": 1539,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Duke Henry the Pious introduces the Reformation in Albertine Saxony after his Catholic brother George dies (capital Dresden)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Henry_IV,_Duke_of_Saxony",
+    "https://en.wikipedia.org/wiki/George,_Duke_of_Saxony"
+   ]
+  },
+  {
+   "n": "Leipzig",
+   "lat": 51.34,
+   "lon": 12.375,
+   "y": 1539,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Luther preaches at Pentecost 1539 as Albertine Saxony turns Protestant",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Leipzig",
+    "https://en.wikipedia.org/wiki/Henry_IV,_Duke_of_Saxony"
+   ]
+  },
+  {
+   "n": "Erfurt",
+   "lat": 50.978,
+   "lon": 11.029,
+   "y": 1521,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Georg Petz becomes the first evangelical pastor; most of the city turns Protestant, though it stays under the Catholic Archbishop of Mainz",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Erfurt"
+   ]
+  },
+  {
+   "n": "Halle",
+   "lat": 51.482,
+   "lon": 11.97,
+   "y": 1541,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Halle's council calls Justus Jonas and adopts the Reformation against Cardinal Albrecht",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Halle_(Saale)",
+    "https://en.wikipedia.org/wiki/Justus_Jonas"
+   ]
+  },
+  {
+   "n": "Magdeburg",
+   "lat": 52.131,
+   "lon": 11.64,
+   "y": 1524,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Magdeburg's citizens adopt the Reformation after Luther preaches there",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Magdeburg"
+   ]
+  },
+  {
+   "n": "Anhalt (Köthen)",
+   "lat": 51.751,
+   "lon": 11.97,
+   "y": 1525,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Prince Wolfgang of Anhalt-Köthen, an early Luther supporter, introduces the Reformation (capital Köthen)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Wolfgang,_Prince_of_Anhalt-Köthen"
+   ]
+  },
+  {
+   "n": "Hesse (Marburg)",
+   "lat": 50.81,
+   "lon": 8.77,
+   "y": 1526,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Landgrave Philip of Hesse holds the Synod of Homberg and founds Marburg, the first Protestant university, in 1527",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Philip_I,_Landgrave_of_Hesse",
+    "https://en.wikipedia.org/wiki/University_of_Marburg",
+    "https://de.wikipedia.org/wiki/Homberger_Synode"
+   ]
+  },
+  {
+   "n": "Hesse-Kassel",
+   "lat": 51.316,
+   "lon": 9.498,
+   "y": 1605,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "Landgrave Maurice moves Hesse-Kassel from Lutheran to Reformed (Calvinist) worship",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Maurice,_Landgrave_of_Hesse-Kassel"
+   ]
+  },
+  {
+   "n": "Brandenburg (Berlin)",
+   "lat": 52.517,
+   "lon": 13.389,
+   "y": 1539,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Elector Joachim II takes communion in both kinds and introduces a Lutheran church order; his heir Johann Sigismund turns Reformed in 1613",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Joachim_II_Hector,_Elector_of_Brandenburg",
+    "https://en.wikipedia.org/wiki/John_Sigismund,_Elector_of_Brandenburg"
+   ]
+  },
+  {
+   "n": "Ducal Prussia",
+   "lat": 54.71,
+   "lon": 20.51,
+   "y": 1525,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Albert of Prussia secularises the Teutonic Order's state into the first Lutheran duchy (capital Königsberg)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+    "https://en.wikipedia.org/wiki/Albert,_Duke_of_Prussia"
+   ]
+  },
+  {
+   "n": "Brandenburg-Ansbach",
+   "lat": 49.3,
+   "lon": 10.572,
+   "y": 1528,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Margrave George the Pious introduces the Reformation (capital Ansbach)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/George,_Margrave_of_Brandenburg-Ansbach"
+   ]
+  },
+  {
+   "n": "Brunswick-Lüneburg (Celle)",
+   "lat": 52.625,
+   "lon": 10.081,
+   "y": 1527,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Duke Ernest the Confessor introduces the Reformation; he signs the Augsburg Confession in 1530 (capital Celle)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Ernest_I,_Duke_of_Brunswick-Lüneburg"
+   ]
+  },
+  {
+   "n": "Brunswick-Wolfenbüttel",
+   "lat": 52.162,
+   "lon": 10.535,
+   "y": 1568,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Duke Julius introduces the Reformation after the death of his Catholic father Henry the Younger (capital Wolfenbüttel)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Julius,_Duke_of_Brunswick-Lüneburg"
+   ]
+  },
+  {
+   "n": "Württemberg",
+   "lat": 48.776,
+   "lon": 9.177,
+   "y": 1534,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Duke Ulrich, restored by Philip of Hesse, introduces the Reformation (capital Stuttgart)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Ulrich,_Duke_of_Württemberg",
+    "https://en.wikipedia.org/wiki/Duchy_of_Württemberg"
+   ]
+  },
+  {
+   "n": "Pomerania",
+   "lat": 53.428,
+   "lon": 14.553,
+   "y": 1534,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Bugenhagen's church order is adopted in 1534/35 (capital Stettin)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Johannes_Bugenhagen"
+   ]
+  },
+  {
+   "n": "Mecklenburg",
+   "lat": 53.63,
+   "lon": 11.41,
+   "y": 1549,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "The Diet at Sternberg confirms Lutheranism as the faith of the duchy (capital Schwerin)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Duchy_of_Mecklenburg",
+    "https://en.wikipedia.org/wiki/Mecklenburg"
+   ]
+  },
+  {
+   "n": "Electoral Palatinate",
+   "lat": 49.41,
+   "lon": 8.71,
+   "y": 1563,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "Elector Frederick III issues the Heidelberg Catechism, making the Palatinate Reformed (Lutheran since 1556; capital Heidelberg)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Heidelberg_Catechism",
+    "https://en.wikipedia.org/wiki/Frederick_III,_Elector_Palatine"
+   ]
+  },
+  {
+   "n": "Upper Palatinate (Amberg)",
+   "lat": 49.444,
+   "lon": 11.857,
+   "y": 1556,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "The Reformation is introduced with the Palatine church order under Elector Otto Henry (capital Amberg)",
+   "back": 1628,
+   "back_what": "Bavaria occupies it (1621), re-Catholicises it and annexes it (1628); Protestants who will not convert must leave",
+   "src": [
+    "https://en.wikipedia.org/wiki/Otto_Henry,_Elector_Palatine",
+    "https://de.wikipedia.org/wiki/Oberpfalz"
+   ]
+  },
+  {
+   "n": "Nassau-Dillenburg (Herborn)",
+   "lat": 50.682,
+   "lon": 8.305,
+   "y": 1584,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "Count John VI makes Nassau-Dillenburg Reformed and founds the Calvinist Herborn Academy (1584)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Herborn_Academy",
+    "https://de.wikipedia.org/wiki/Johann_VI._(Nassau-Dillenburg)"
+   ]
+  },
+  {
+   "n": "Nuremberg",
+   "lat": 49.454,
+   "lon": 11.078,
+   "y": 1525,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "After a religious colloquy in March 1525 the city council adopts the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Nuremberg",
+    "https://en.wikipedia.org/wiki/Andreas_Osiander"
+   ]
+  },
+  {
+   "n": "Strasbourg",
+   "lat": 48.583,
+   "lon": 7.746,
+   "y": 1529,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Under Martin Bucer's influence the council abolishes the Mass in February 1529",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Martin_Bucer",
+    "https://en.wikipedia.org/wiki/Strasbourg"
+   ]
+  },
+  {
+   "n": "Augsburg",
+   "lat": 48.369,
+   "lon": 10.898,
+   "y": 1534,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The council introduces the Reformation in 1534/37; after the Interim (1548) and the 1555 peace Augsburg becomes a biconfessional city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Augsburg",
+    "https://en.wikipedia.org/wiki/Augsburg_Interim"
+   ]
+  },
+  {
+   "n": "Bremen",
+   "lat": 53.076,
+   "lon": 8.807,
+   "y": 1522,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Heinrich von Zütphen preaches the first Reformation sermon (November 1522); the city turns Lutheran and later Reformed",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Bremische_Evangelische_Kirche"
+   ]
+  },
+  {
+   "n": "Hamburg",
+   "lat": 53.551,
+   "lon": 9.994,
+   "y": 1529,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Bugenhagen's church order is adopted by the city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Hamburg",
+    "https://en.wikipedia.org/wiki/Johannes_Bugenhagen"
+   ]
+  },
+  {
+   "n": "Lübeck",
+   "lat": 53.866,
+   "lon": 10.686,
+   "y": 1531,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Bugenhagen's church order is adopted in the leading Hanseatic city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Lübeck",
+    "https://en.wikipedia.org/wiki/Johannes_Bugenhagen"
+   ]
+  },
+  {
+   "n": "Brunswick",
+   "lat": 52.269,
+   "lon": 10.521,
+   "y": 1528,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The city adopts Bugenhagen's church order",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Braunschweig",
+    "https://en.wikipedia.org/wiki/Johannes_Bugenhagen"
+   ]
+  },
+  {
+   "n": "Goslar",
+   "lat": 51.906,
+   "lon": 10.428,
+   "y": 1528,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The council introduces the Reformation and calls Nikolaus von Amsdorf; first church order 1531",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Goslar"
+   ]
+  },
+  {
+   "n": "Ulm",
+   "lat": 48.398,
+   "lon": 9.992,
+   "y": 1531,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "In a citizens' vote (November 1530) 1,621 of 1,865 voters choose the Reformation; Ambrosius Blarer introduces it in 1531",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Ulm"
+   ]
+  },
+  {
+   "n": "Frankfurt",
+   "lat": 50.11,
+   "lon": 8.682,
+   "y": 1533,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The free imperial city introduces the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Frankfurt_am_Main"
+   ]
+  },
+  {
+   "n": "Regensburg",
+   "lat": 49.013,
+   "lon": 12.101,
+   "y": 1542,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The imperial city's council introduces the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Regensburg"
+   ]
+  },
+  {
+   "n": "Memmingen",
+   "lat": 47.988,
+   "lon": 10.181,
+   "y": 1525,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The Twelve Articles of the peasants are drafted here; the city turns Protestant in the 1520s",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Memmingen",
+    "https://en.wikipedia.org/wiki/Twelve_Articles"
+   ]
+  },
+  {
+   "n": "Reutlingen",
+   "lat": 48.491,
+   "lon": 9.211,
+   "y": 1524,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Matthäus Alber, preaching Luther's teaching from 1519, makes Reutlingen a Protestant stronghold; it joins the 1529 Protestation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Reutlingen",
+    "https://en.wikipedia.org/wiki/Protestation_at_Speyer"
+   ]
+  },
+  {
+   "n": "Schwäbisch Hall",
+   "lat": 49.112,
+   "lon": 9.737,
+   "y": 1526,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Johannes Brenz reforms the city's church",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Johannes_Brenz",
+    "https://en.wikipedia.org/wiki/Schwäbisch_Hall"
+   ]
+  },
+  {
+   "n": "Constance",
+   "lat": 47.66,
+   "lon": 9.176,
+   "y": 1527,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Ambrosius Blarer and Johannes Zwick reform the city; the bishop leaves",
+   "back": 1548,
+   "back_what": "Habsburg troops take Constance after it refuses the Interim; it is re-Catholicised and loses its imperial freedom",
+   "src": [
+    "https://de.wikipedia.org/wiki/Konstanz",
+    "https://en.wikipedia.org/wiki/Konstanz"
+   ]
+  },
+  {
+   "n": "Breslau",
+   "lat": 51.11,
+   "lon": 17.032,
+   "y": 1524,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Johann Hess is appointed pastor and Breslau (Wrocław) adopts the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Johann_Hess",
+    "https://en.wikipedia.org/wiki/Wrocław"
+   ]
+  },
+  {
+   "n": "Emden",
+   "lat": 53.367,
+   "lon": 7.206,
+   "y": 1542,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "John a Lasco leads the East Frisian church; Emden becomes a refuge for Dutch Calvinists ('Geneva of the North')",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/John_a_Lasco",
+    "https://en.wikipedia.org/wiki/Emden"
+   ]
+  },
+  {
+   "n": "Electorate of Cologne (Bonn)",
+   "lat": 50.735,
+   "lon": 7.098,
+   "y": 1543,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Archbishop-Elector Hermann von Wied invites Bucer and Melanchthon to reform his territory (residence Bonn)",
+   "back": 1547,
+   "back_what": "Wied is deposed and excommunicated; the electorate stays Catholic",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hermann_of_Wied"
+   ]
+  },
+  {
+   "n": "Bavaria",
+   "lat": 48.137,
+   "lon": 11.575,
+   "y": 1522,
+   "approx": false,
+   "conf": "back",
+   "kind": "territory",
+   "what": "At the Grünwald conference (February 1522) the dukes decide Bavaria stays Catholic; Luther's followers are arrested or expelled (capital Munich)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Wilhelm_IV._(Bayern)",
+    "https://en.wikipedia.org/wiki/Bavaria"
+   ]
+  },
+  {
+   "n": "Würzburg",
+   "lat": 49.794,
+   "lon": 9.929,
+   "y": 1585,
+   "approx": true,
+   "conf": "back",
+   "kind": "territory",
+   "what": "Prince-Bishop Julius Echter banishes Lutheran preachers and leads the Counter-Reformation (Jesuit-run university 1582)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Julius_Echter_von_Mespelbrunn"
+   ]
+  },
+  {
+   "n": "Inner Austria (Graz)",
+   "lat": 47.071,
+   "lon": 15.439,
+   "y": 1572,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "The Pacification of Graz grants the Styrian Protestant nobility freedom of worship",
+   "back": 1598,
+   "back_what": "Archduke Ferdinand orders Protestant pastors and teachers expelled and sends commissions to restore Catholic parishes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ferdinand_II,_Holy_Roman_Emperor",
+    "https://en.wikipedia.org/wiki/Counter-Reformation"
+   ]
+  },
+  {
+   "n": "Lower Austria (Vienna)",
+   "lat": 48.208,
+   "lon": 16.373,
+   "y": 1568,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Maximilian II offers the Austrian estates a religious concession (1568; assurance 1571) allowing Lutheran worship for nobles and their subjects",
+   "back": 1620,
+   "back_what": "After the Bohemian Revolt is crushed, Austria's Protestant nobles and clergy are expelled or forced to convert",
+   "src": [
+    "https://de.wikipedia.org/wiki/Maximilian_II._(HRR)",
+    "https://en.wikipedia.org/wiki/Counter-Reformation"
+   ]
+  },
+  {
+   "n": "Upper Austria (Linz)",
+   "lat": 48.306,
+   "lon": 14.286,
+   "y": 1550,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "By 1550 most people in Upper Austria are Protestant (capital Linz)",
+   "back": 1624,
+   "back_what": "Under Bavarian occupation an imperial reformation commission expels Protestant preachers; resentment fuels the Peasants' War of 1626",
+   "src": [
+    "https://en.wikipedia.org/wiki/Upper_Austria",
+    "https://en.wikipedia.org/wiki/Upper_Austrian_peasant_war_of_1626",
+    "https://de.wikipedia.org/wiki/Oberösterreichischer_Bauernkrieg"
+   ]
+  },
+  {
+   "n": "Carniola (Ljubljana)",
+   "lat": 46.051,
+   "lon": 14.506,
+   "y": 1550,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Primož Trubar, expelled from Ljubljana in 1547, writes the first two books in Slovene (1550); Carniola's estates turn largely Protestant",
+   "back": 1600,
+   "back_what": "Bishop Thomas Chrön suppresses Protestantism in his diocese (1600–1603)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Primož_Trubar",
+    "https://en.wikipedia.org/wiki/Thomas_Chrön"
+   ]
+  },
+  {
+   "n": "Salzburg",
+   "lat": 47.8,
+   "lon": 13.045,
+   "y": 1589,
+   "approx": false,
+   "conf": "back",
+   "kind": "territory",
+   "what": "Archbishop Wolf Dietrich expels all Protestants from the city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Wolf_Dietrich_von_Raitenau"
+   ]
+  },
+  {
+   "n": "Rome",
+   "lat": 41.902,
+   "lon": 12.454,
+   "y": 1542,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "Pope Paul III founds the Roman Inquisition to stop the spread of Protestant ideas in Italy",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Roman_Inquisition"
+   ]
+  },
+  {
+   "n": "Zürich",
+   "lat": 47.373,
+   "lon": 8.542,
+   "y": 1523,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "City council adopts Zwingli's reform after the First Disputation (January 1523)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Huldrych_Zwingli",
+    "https://en.wikipedia.org/wiki/Reformation_in_Zürich"
+   ]
+  },
+  {
+   "n": "Zollikon (Swiss Brethren)",
+   "lat": 47.341,
+   "lon": 8.574,
+   "y": 1525,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Swiss Brethren perform the first adult baptisms (January 1525) and form the first Anabaptist congregation",
+   "back": 1527,
+   "back_what": "Zürich drowns Felix Manz, the first Anabaptist executed by Protestants",
+   "src": [
+    "https://en.wikipedia.org/wiki/Swiss_Brethren",
+    "https://en.wikipedia.org/wiki/Felix_Manz"
+   ]
+  },
+  {
+   "n": "Schleitheim",
+   "lat": 47.748,
+   "lon": 8.484,
+   "y": 1527,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Swiss Brethren agree the Schleitheim Confession, the first Anabaptist statement of faith",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Schleitheim_Confession"
+   ]
+  },
+  {
+   "n": "Waldshut",
+   "lat": 47.623,
+   "lon": 8.214,
+   "y": 1525,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Balthasar Hubmaier leads the town into Anabaptism",
+   "back": 1525,
+   "back_what": "Austrian troops retake Waldshut in December 1525; Hubmaier flees",
+   "src": [
+    "https://en.wikipedia.org/wiki/Balthasar_Hubmaier"
+   ]
+  },
+  {
+   "n": "Bern",
+   "lat": 46.948,
+   "lon": 7.447,
+   "y": 1528,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Bern Disputation leads the largest Swiss city-state to adopt the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Bern_Disputation",
+    "https://en.wikipedia.org/wiki/Bern"
+   ]
+  },
+  {
+   "n": "Basel",
+   "lat": 47.56,
+   "lon": 7.588,
+   "y": 1529,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "After iconoclastic riots the council adopts the Reformation under Oecolampadius",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Johannes_Oecolampadius",
+    "https://en.wikipedia.org/wiki/Basel"
+   ]
+  },
+  {
+   "n": "St. Gallen",
+   "lat": 47.424,
+   "lon": 9.377,
+   "y": 1526,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Joachim Vadian, elected mayor in 1526, leads the city into the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Joachim_Vadian",
+    "https://de.wikipedia.org/wiki/Joachim_Vadian"
+   ]
+  },
+  {
+   "n": "Schaffhausen",
+   "lat": 47.696,
+   "lon": 8.635,
+   "y": 1529,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The city adopts the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Schaffhausen"
+   ]
+  },
+  {
+   "n": "Neuchâtel",
+   "lat": 46.99,
+   "lon": 6.93,
+   "y": 1530,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "William Farel's preaching leads the town to vote for the Reformation",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/William_Farel"
+   ]
+  },
+  {
+   "n": "Geneva",
+   "lat": 46.204,
+   "lon": 6.143,
+   "y": 1536,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The citizens vote in May 1536 to 'live according to the Gospel'; Calvin arrives that summer",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/John_Calvin",
+    "https://en.wikipedia.org/wiki/Republic_of_Geneva"
+   ]
+  },
+  {
+   "n": "Lausanne (Vaud)",
+   "lat": 46.52,
+   "lon": 6.633,
+   "y": 1536,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Bern conquers Vaud and imposes the Reformation; the cathedral is stripped",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Lausanne"
+   ]
+  },
+  {
+   "n": "Grisons (Chur)",
+   "lat": 46.85,
+   "lon": 9.53,
+   "y": 1526,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "The Ilanz Articles let each commune of the Three Leagues choose its faith; many turn Reformed",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Three_Leagues"
+   ]
+  },
+  {
+   "n": "Lucerne",
+   "lat": 47.05,
+   "lon": 8.307,
+   "y": 1531,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "The Catholic inner cantons defeat Zürich at Kappel; Zwingli is killed, the Swiss stay split by confession",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Battles_of_Kappel",
+    "https://en.wikipedia.org/wiki/Second_War_of_Kappel"
+   ]
+  },
+  {
+   "n": "Locarno",
+   "lat": 46.17,
+   "lon": 8.795,
+   "y": 1540,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "A small Protestant community forms in the Italian-speaking town",
+   "back": 1555,
+   "back_what": "The Catholic cantons expel the Protestants; about 100 exiles move to Zürich",
+   "src": [
+    "https://en.wikipedia.org/wiki/Locarno"
+   ]
+  },
+  {
+   "n": "Valtellina (Sondrio)",
+   "lat": 46.17,
+   "lon": 9.87,
+   "y": 1550,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "Protestant communities grow under rule of the Grisons, many founded by Italian religious refugees",
+   "back": 1620,
+   "back_what": "Catholic rebels kill 300–600 Protestants in the 'Sacro Macello' (18–23 July 1620)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Valtellina",
+    "https://de.wikipedia.org/wiki/Veltliner_Mord"
+   ]
+  },
+  {
+   "n": "Haderslev",
+   "lat": 55.25,
+   "lon": 9.49,
+   "y": 1528,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Duke Christian (later Christian III) issues the Haderslev Ordinance, the first Lutheran church order in the Danish lands",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Haderslev",
+    "https://en.wikipedia.org/wiki/Christian_III_of_Denmark"
+   ]
+  },
+  {
+   "n": "Sweden (Västerås)",
+   "lat": 59.611,
+   "lon": 16.545,
+   "y": 1527,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Gustav Vasa's Riksdag of Västerås breaks the Church's power and allows Lutheran preaching",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Riksdag_of_Västerås",
+    "https://en.wikipedia.org/wiki/Swedish_Reformation"
+   ]
+  },
+  {
+   "n": "Stockholm",
+   "lat": 59.325,
+   "lon": 18.071,
+   "y": 1526,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Olaus Petri preaches in Stockholm; the Swedish New Testament is printed",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Olaus_Petri",
+    "https://en.wikipedia.org/wiki/Swedish_Reformation"
+   ]
+  },
+  {
+   "n": "Uppsala",
+   "lat": 59.858,
+   "lon": 17.639,
+   "y": 1593,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The Uppsala Synod adopts the Augsburg Confession, making Sweden firmly Lutheran",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Uppsala_Synod"
+   ]
+  },
+  {
+   "n": "Finland (Turku)",
+   "lat": 60.452,
+   "lon": 22.267,
+   "y": 1527,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "As part of Sweden, Finland follows the Västerås decisions; Mikael Agricola prints the Finnish New Testament in 1548 (capital Turku)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Mikael_Agricola",
+    "https://en.wikipedia.org/wiki/Swedish_Reformation"
+   ]
+  },
+  {
+   "n": "Denmark (Copenhagen)",
+   "lat": 55.676,
+   "lon": 12.568,
+   "y": 1536,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Christian III arrests the bishops and makes Denmark Lutheran; the church ordinance follows in 1537",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Reformation_in_Denmark–Norway_and_Holstein",
+    "https://en.wikipedia.org/wiki/Christian_III_of_Denmark"
+   ]
+  },
+  {
+   "n": "Norway (Trondheim)",
+   "lat": 63.427,
+   "lon": 10.397,
+   "y": 1537,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Archbishop Olav Engelbrektsson flees and the Danish Lutheran church order is imposed on Norway",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Olav_Engelbriktsson",
+    "https://en.wikipedia.org/wiki/Reformation_in_Denmark–Norway_and_Holstein"
+   ]
+  },
+  {
+   "n": "Skálholt",
+   "lat": 64.127,
+   "lon": -20.524,
+   "y": 1541,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The southern Icelandic diocese accepts the Lutheran church order",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Reformation_in_Iceland",
+    "https://en.wikipedia.org/wiki/Skálholt"
+   ]
+  },
+  {
+   "n": "Hólar",
+   "lat": 65.734,
+   "lon": -19.112,
+   "y": 1550,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Bishop Jón Arason, last Catholic bishop of Iceland, is beheaded; the north turns Lutheran",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Jón_Arason",
+    "https://en.wikipedia.org/wiki/Reformation_in_Iceland"
+   ]
+  },
+  {
+   "n": "Riga",
+   "lat": 56.949,
+   "lon": 24.105,
+   "y": 1522,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Riga accepts the Reformation, ending the archbishops' power",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Riga"
+   ]
+  },
+  {
+   "n": "Reval (Tallinn)",
+   "lat": 59.437,
+   "lon": 24.745,
+   "y": 1524,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Livonian towns and knights meeting in Reval (July 1524) resolve to keep the Protestant teaching; iconoclasm follows in September",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Tallinn",
+    "https://en.wikipedia.org/wiki/Tallinn"
+   ]
+  },
+  {
+   "n": "Courland (Mitau)",
+   "lat": 56.652,
+   "lon": 23.721,
+   "y": 1561,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "territory",
+   "what": "Gotthard Kettler secularises the Livonian Order's lands into the Lutheran Duchy of Courland (capital Mitau)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Duchy_of_Courland_and_Semigallia",
+    "https://en.wikipedia.org/wiki/Gotthard_Kettler"
+   ]
+  },
+  {
+   "n": "Danzig",
+   "lat": 54.352,
+   "lon": 18.646,
+   "y": 1557,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Lutheran preaching from 1522 (a 1525 uprising is crushed); in 1557 King Sigismund II Augustus confirms communion in both kinds",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Danzig",
+    "https://en.wikipedia.org/wiki/Gdańsk"
+   ]
+  },
+  {
+   "n": "Thorn",
+   "lat": 53.01,
+   "lon": 18.605,
+   "y": 1557,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Royal Prussian Toruń receives the right to Lutheran worship",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Toruń"
+   ]
+  },
+  {
+   "n": "Pińczów",
+   "lat": 50.52,
+   "lon": 20.53,
+   "y": 1550,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The first Calvinist service in Poland-Lithuania is held here (1550) after the town's lord expels the monks",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Polish_Reformed_Church",
+    "https://en.wikipedia.org/wiki/Pińczów"
+   ]
+  },
+  {
+   "n": "Raków",
+   "lat": 50.678,
+   "lon": 21.04,
+   "y": 1569,
+   "approx": false,
+   "conf": "unitarian",
+   "kind": "city",
+   "what": "Founded as the centre of the anti-Trinitarian Polish Brethren; the Racovian Catechism is printed in 1605",
+   "back": 1638,
+   "back_what": "The Sejm closes the Raków Academy and press; Polish Brethren are expelled in 1658",
+   "src": [
+    "https://en.wikipedia.org/wiki/Raków,_Kielce_County",
+    "https://en.wikipedia.org/wiki/Polish_Brethren",
+    "https://en.wikipedia.org/wiki/Racovian_Academy"
+   ]
+  },
+  {
+   "n": "Vilnius",
+   "lat": 54.687,
+   "lon": 25.28,
+   "y": 1555,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Mikołaj Radziwiłł 'the Black' champions Calvinism in Lithuania and finances a Reformed church and college in Vilnius",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Mikołaj_Radziwiłł_the_Black",
+    "https://en.wikipedia.org/wiki/Religion_in_Lithuania"
+   ]
+  },
+  {
+   "n": "Kraków",
+   "lat": 50.062,
+   "lon": 19.937,
+   "y": 1591,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "A Catholic mob destroys the Protestant church (23 May 1591); the congregation moves out of the city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Krakau",
+    "https://en.wikipedia.org/wiki/Counter-Reformation_in_Poland"
+   ]
+  },
+  {
+   "n": "Nikolsburg (Mikulov)",
+   "lat": 48.806,
+   "lon": 16.638,
+   "y": 1526,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Hubmaier finds refuge under the Lords of Liechtenstein; Nikolsburg becomes an Anabaptist centre",
+   "back": 1528,
+   "back_what": "Hubmaier is burned in Vienna",
+   "src": [
+    "https://en.wikipedia.org/wiki/Balthasar_Hubmaier",
+    "https://en.wikipedia.org/wiki/Mikulov"
+   ]
+  },
+  {
+   "n": "Austerlitz (Slavkov)",
+   "lat": 49.153,
+   "lon": 16.876,
+   "y": 1528,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Anabaptists form a community of goods here, origin of the Hutterites",
+   "back": 1622,
+   "back_what": "Hutterites are expelled from Moravia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hutterites"
+   ]
+  },
+  {
+   "n": "Debrecen",
+   "lat": 47.531,
+   "lon": 21.627,
+   "y": 1567,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Synod of Debrecen adopts the Second Helvetic Confession; the town becomes the 'Calvinist Rome'",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Debrecen",
+    "https://en.wikipedia.org/wiki/Reformed_Church_in_Hungary"
+   ]
+  },
+  {
+   "n": "Sárospatak",
+   "lat": 48.319,
+   "lon": 21.567,
+   "y": 1531,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Reformed College is founded, a leading Protestant school (Comenius taught here 1650–54)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Sárospatak"
+   ]
+  },
+  {
+   "n": "Bártfa (Bardejov)",
+   "lat": 49.293,
+   "lon": 21.276,
+   "y": 1549,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Five Upper Hungarian royal towns adopt Leonard Stöckel's Lutheran Confessio Pentapolitana",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Leonard_Stöckel"
+   ]
+  },
+  {
+   "n": "Kronstadt (Brașov)",
+   "lat": 45.642,
+   "lon": 25.589,
+   "y": 1543,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Johannes Honterus reforms the Saxon town's church (Reformation booklet 1543)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Johannes_Honter",
+    "https://de.wikipedia.org/wiki/Johannes_Honterus"
+   ]
+  },
+  {
+   "n": "Hermannstadt (Sibiu)",
+   "lat": 45.797,
+   "lon": 24.152,
+   "y": 1543,
+   "approx": false,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "The Lutheran confession is introduced; in 1553 the Saxon pastors elect their first Lutheran superintendent",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://de.wikipedia.org/wiki/Hermannstadt",
+    "https://en.wikipedia.org/wiki/Transylvanian_Saxons"
+   ]
+  },
+  {
+   "n": "Kolozsvár (Cluj)",
+   "lat": 46.771,
+   "lon": 23.59,
+   "y": 1568,
+   "approx": false,
+   "conf": "unitarian",
+   "kind": "city",
+   "what": "Ferenc Dávid leads the town into Unitarianism; Prince John Sigismund follows",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Ferenc_Dávid",
+    "https://en.wikipedia.org/wiki/Unitarian_Church_of_Transylvania"
+   ]
+  },
+  {
+   "n": "Nagyszombat (Trnava)",
+   "lat": 48.377,
+   "lon": 17.588,
+   "y": 1635,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "Péter Pázmány founds a Jesuit university; he wins much of Royal Hungary's nobility back to Catholicism",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Péter_Pázmány",
+    "https://en.wikipedia.org/wiki/University_of_Trnava"
+   ]
+  },
+  {
+   "n": "Meaux",
+   "lat": 48.96,
+   "lon": 2.879,
+   "y": 1521,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Bishop Briçonnet's reform circle offers French Scripture; later the first Calvin-inspired church in France meets here",
+   "back": 1546,
+   "back_what": "Fourteen members of the town's Protestant church are burned",
+   "src": [
+    "https://en.wikipedia.org/wiki/Guillaume_Briçonnet_(bishop_of_Meaux)",
+    "https://en.wikipedia.org/wiki/Meaux"
+   ]
+  },
+  {
+   "n": "Paris",
+   "lat": 48.857,
+   "lon": 2.352,
+   "y": 1534,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "The Affair of the Placards turns Francis I against the Protestants; the capital stays Catholic",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Affair_of_the_Placards"
+   ]
+  },
+  {
+   "n": "Béarn (Pau)",
+   "lat": 43.296,
+   "lon": -0.371,
+   "y": 1560,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "Queen Jeanne d'Albret of Navarre declares herself Calvinist and later bans Catholic worship in Béarn",
+   "back": 1620,
+   "back_what": "Louis XIII marches into Béarn and restores Catholicism",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jeanne_d'Albret",
+    "https://en.wikipedia.org/wiki/Béarn"
+   ]
+  },
+  {
+   "n": "Nîmes",
+   "lat": 43.837,
+   "lon": 4.36,
+   "y": 1561,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "A Protestant majority takes over the city; the Michelade (1567) kills Catholic clergy",
+   "back": 1685,
+   "back_what": "Revocation of the Edict of Nantes: Protestant worship banned, forced conversions",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nîmes",
+    "https://en.wikipedia.org/wiki/Michelade"
+   ]
+  },
+  {
+   "n": "Montpellier",
+   "lat": 43.611,
+   "lon": 3.877,
+   "y": 1561,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Montpellier becomes a Huguenot stronghold",
+   "back": 1622,
+   "back_what": "Louis XIII besieges the city; the Peace of Montpellier strips its fortifications",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Montpellier"
+   ]
+  },
+  {
+   "n": "Lyon",
+   "lat": 45.764,
+   "lon": 4.836,
+   "y": 1562,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Huguenot troops seize the city at the start of the Wars of Religion",
+   "back": 1563,
+   "back_what": "The Edict of Amboise returns the city to royal and Catholic control",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lyon",
+    "https://en.wikipedia.org/wiki/French_Wars_of_Religion"
+   ]
+  },
+  {
+   "n": "Rouen",
+   "lat": 49.443,
+   "lon": 1.099,
+   "y": 1562,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Huguenots take control of the city in April 1562",
+   "back": 1562,
+   "back_what": "Royal troops storm Rouen in October 1562",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Rouen_(1562)"
+   ]
+  },
+  {
+   "n": "La Rochelle",
+   "lat": 46.16,
+   "lon": -1.151,
+   "y": 1568,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The port becomes the Huguenots' chief stronghold",
+   "back": 1628,
+   "back_what": "Surrenders to Richelieu after a 14-month siege; its walls are razed",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_La_Rochelle",
+    "https://en.wikipedia.org/wiki/La_Rochelle"
+   ]
+  },
+  {
+   "n": "Montauban",
+   "lat": 44.018,
+   "lon": 1.355,
+   "y": 1560,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Bishops and magistrates embrace Protestantism (1560); it becomes one of four Huguenot safe towns in 1570",
+   "back": 1685,
+   "back_what": "Revocation of the Edict of Nantes (the town had submitted to the king in 1629)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Montauban",
+    "https://en.wikipedia.org/wiki/Siege_of_Montauban"
+   ]
+  },
+  {
+   "n": "Saumur",
+   "lat": 47.26,
+   "lon": -0.077,
+   "y": 1593,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Philippe Duplessis-Mornay founds the Protestant Academy of Saumur",
+   "back": 1685,
+   "back_what": "The academy is closed (1685) and Protestant worship banned",
+   "src": [
+    "https://en.wikipedia.org/wiki/Academy_of_Saumur",
+    "https://en.wikipedia.org/wiki/Philippe_de_Mornay"
+   ]
+  },
+  {
+   "n": "Brussels",
+   "lat": 50.847,
+   "lon": 4.352,
+   "y": 1579,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "A Calvinist regime rules the city during the Dutch Revolt",
+   "back": 1585,
+   "back_what": "Brussels surrenders to the Duke of Parma's army; Protestants must leave",
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_Brussels",
+    "https://en.wikipedia.org/wiki/Fall_of_Antwerp"
+   ]
+  },
+  {
+   "n": "Antwerp",
+   "lat": 51.219,
+   "lon": 4.402,
+   "y": 1577,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Calvinists dominate the city government of the Calvinist Republic",
+   "back": 1585,
+   "back_what": "Fall of Antwerp to Parma; Protestants get four years to leave, many go to Amsterdam",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fall_of_Antwerp",
+    "https://en.wikipedia.org/wiki/Antwerp"
+   ]
+  },
+  {
+   "n": "Ghent",
+   "lat": 51.054,
+   "lon": 3.725,
+   "y": 1577,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Calvinist Republic of Ghent is proclaimed",
+   "back": 1584,
+   "back_what": "Ghent surrenders to Parma",
+   "src": [
+    "https://en.wikipedia.org/wiki/Calvinist_Republic_of_Ghent"
+   ]
+  },
+  {
+   "n": "Den Briel",
+   "lat": 51.9,
+   "lon": 4.162,
+   "y": 1572,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Sea Beggars capture Brielle on 1 April 1572, starting the revolt in Holland",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Capture_of_Brielle"
+   ]
+  },
+  {
+   "n": "Dordrecht",
+   "lat": 51.813,
+   "lon": 4.69,
+   "y": 1572,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The first free assembly of the States of Holland meets here; the Synod of Dort (1618–19) fixes Reformed doctrine",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Dordrecht",
+    "https://en.wikipedia.org/wiki/Synod_of_Dort"
+   ]
+  },
+  {
+   "n": "Leiden",
+   "lat": 52.16,
+   "lon": 4.497,
+   "y": 1574,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Relieved from the Spanish siege; William of Orange founds a Protestant university in 1575",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Leiden",
+    "https://en.wikipedia.org/wiki/Leiden_University"
+   ]
+  },
+  {
+   "n": "Middelburg",
+   "lat": 51.499,
+   "lon": 3.614,
+   "y": 1574,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The Spanish garrison surrenders; Zeeland's capital turns Reformed",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Middelburg,_Zeeland"
+   ]
+  },
+  {
+   "n": "Amsterdam",
+   "lat": 52.373,
+   "lon": 4.893,
+   "y": 1578,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The 'Alteration': Catholic magistrates are expelled and the city joins the revolt",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Amsterdam"
+   ]
+  },
+  {
+   "n": "Utrecht",
+   "lat": 52.09,
+   "lon": 5.121,
+   "y": 1580,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Public Catholic worship is banned in the city",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Utrecht"
+   ]
+  },
+  {
+   "n": "Groningen",
+   "lat": 53.219,
+   "lon": 6.567,
+   "y": 1594,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The 'Reduction of Groningen' brings the city into the Dutch Republic and Reformed worship",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Reduction_of_Groningen"
+   ]
+  },
+  {
+   "n": "Münster",
+   "lat": 51.962,
+   "lon": 7.626,
+   "y": 1534,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Radical Anabaptists take over the city and proclaim a 'New Jerusalem'",
+   "back": 1535,
+   "back_what": "The besieging prince-bishop takes the city; the leaders are executed and their bodies hung in cages",
+   "src": [
+    "https://en.wikipedia.org/wiki/Münster_rebellion"
+   ]
+  },
+  {
+   "n": "Witmarsum",
+   "lat": 53.1,
+   "lon": 5.47,
+   "y": 1536,
+   "approx": false,
+   "conf": "anabaptist",
+   "kind": "city",
+   "what": "Priest Menno Simons leaves the Catholic Church and leads the peaceful Anabaptists (later Mennonites)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Menno_Simons"
+   ]
+  },
+  {
+   "n": "London (England)",
+   "lat": 51.507,
+   "lon": -0.128,
+   "y": 1534,
+   "approx": false,
+   "conf": "anglican",
+   "kind": "territory",
+   "what": "The Act of Supremacy makes Henry VIII head of the Church of England",
+   "back": 1553,
+   "back_what": "Mary I restores Catholicism; about 280 Protestants are burned (1555–58)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Act_of_Supremacy_1534",
+    "https://en.wikipedia.org/wiki/Marian_persecutions"
+   ]
+  },
+  {
+   "n": "Canterbury (England)",
+   "lat": 51.28,
+   "lon": 1.08,
+   "y": 1559,
+   "approx": false,
+   "conf": "anglican",
+   "kind": "territory",
+   "what": "Elizabethan Religious Settlement: the Church of England is restored; Matthew Parker becomes Archbishop of Canterbury",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Elizabethan_Religious_Settlement",
+    "https://en.wikipedia.org/wiki/Matthew_Parker"
+   ]
+  },
+  {
+   "n": "York (Pilgrimage of Grace)",
+   "lat": 53.958,
+   "lon": -1.08,
+   "y": 1536,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "The Pilgrimage of Grace, a northern Catholic rising against the dissolution of the monasteries, briefly holds York",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Pilgrimage_of_Grace"
+   ]
+  },
+  {
+   "n": "Wales (St Asaph)",
+   "lat": 53.257,
+   "lon": -3.442,
+   "y": 1588,
+   "approx": false,
+   "conf": "anglican",
+   "kind": "territory",
+   "what": "Bishop William Morgan's Welsh Bible is published",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/William_Morgan_(bishop)",
+    "https://en.wikipedia.org/wiki/Bible_translations_into_Welsh"
+   ]
+  },
+  {
+   "n": "Edinburgh (Scotland)",
+   "lat": 55.953,
+   "lon": -3.188,
+   "y": 1560,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "The Reformation Parliament rejects papal authority and adopts the Scots Confession",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Scottish_Reformation_Parliament",
+    "https://en.wikipedia.org/wiki/Scots_Confession"
+   ]
+  },
+  {
+   "n": "Perth",
+   "lat": 56.396,
+   "lon": -3.437,
+   "y": 1559,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "John Knox's sermon sparks iconoclastic riots in May 1559",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/John_Knox",
+    "https://en.wikipedia.org/wiki/Scottish_Reformation"
+   ]
+  },
+  {
+   "n": "St Andrews",
+   "lat": 56.34,
+   "lon": -2.796,
+   "y": 1559,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "The seat of Scotland's archbishop is reformed (Patrick Hamilton was burned here in 1528)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Patrick_Hamilton_(martyr)",
+    "https://en.wikipedia.org/wiki/St_Andrews"
+   ]
+  },
+  {
+   "n": "Dublin (Ireland)",
+   "lat": 53.349,
+   "lon": -6.26,
+   "y": 1537,
+   "approx": false,
+   "conf": "anglican",
+   "kind": "territory",
+   "what": "The Irish Parliament makes Henry VIII head of the Church of Ireland; most of the population stays Catholic",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Act_of_Supremacy_1534",
+    "https://en.wikipedia.org/wiki/Reformation_in_Ireland"
+   ]
+  },
+  {
+   "n": "Kilkenny (Ireland)",
+   "lat": 52.654,
+   "lon": -7.248,
+   "y": 1642,
+   "approx": false,
+   "conf": "back",
+   "kind": "city",
+   "what": "Seat of Confederate Catholic Ireland; Ireland outside the Protestant settler communities remains Catholic",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Confederate_Ireland"
+   ]
+  },
+  {
+   "n": "Piedmont valleys (Angrogna)",
+   "lat": 44.843,
+   "lon": 7.224,
+   "y": 1532,
+   "approx": false,
+   "conf": "reformed",
+   "kind": "territory",
+   "what": "The Waldensians join the Reformation at the Synod of Chanforan (small group)",
+   "back": null,
+   "back_what": null,
+   "src": [
+    "https://en.wikipedia.org/wiki/Waldensians",
+    "https://en.wikipedia.org/wiki/Synod_of_Chanforan"
+   ]
+  },
+  {
+   "n": "Guardia Piemontese",
+   "lat": 39.465,
+   "lon": 16.0,
+   "y": 1532,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Waldensian settlers in Calabria take up Reformed worship (small group)",
+   "back": 1561,
+   "back_what": "Massacre of the Calabrian Waldensians",
+   "src": [
+    "https://en.wikipedia.org/wiki/Guardia_Piemontese",
+    "https://en.wikipedia.org/wiki/Waldensians"
+   ]
+  },
+  {
+   "n": "Ferrara",
+   "lat": 44.836,
+   "lon": 11.62,
+   "y": 1536,
+   "approx": true,
+   "conf": "reformed",
+   "kind": "city",
+   "what": "Duchess Renée of France shelters Protestants; Calvin visits in 1536 (small group)",
+   "back": 1554,
+   "back_what": "Renée is forced to attend Mass",
+   "src": [
+    "https://en.wikipedia.org/wiki/Renée_of_France"
+   ]
+  },
+  {
+   "n": "Seville",
+   "lat": 37.389,
+   "lon": -5.984,
+   "y": 1557,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "A secret Protestant circle includes monks of San Isidoro del Campo (small group)",
+   "back": 1560,
+   "back_what": "The Inquisition's autos-da-fé (1559–60) destroy the circle",
+   "src": [
+    "https://en.wikipedia.org/wiki/Protestantism_in_Spain"
+   ]
+  },
+  {
+   "n": "Valladolid",
+   "lat": 41.652,
+   "lon": -4.724,
+   "y": 1552,
+   "approx": true,
+   "conf": "lutheran",
+   "kind": "city",
+   "what": "Agustín de Cazalla joins a secret Protestant circle (small group)",
+   "back": 1559,
+   "back_what": "Autos-da-fé of May and October 1559 burn the leaders",
+   "src": [
+    "https://en.wikipedia.org/wiki/Agustín_de_Cazalla",
+    "https://en.wikipedia.org/wiki/Protestantism_in_Spain"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "n": "Jan Hus burned at Constance",
+   "y": 1415,
+   "date": "6 July 1415",
+   "lat": 47.66,
+   "lon": 9.176,
+   "what": "The Council of Constance condemns the Czech reformer Jan Hus as a heretic and burns him despite a promise of safe conduct; Bohemia rises in the Hussite revolt",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jan_Hus",
+    "https://en.wikipedia.org/wiki/Council_of_Constance"
+   ]
+  },
+  {
+   "n": "Gutenberg Bible printed",
+   "y": 1455,
+   "date": "c. 1454–1455",
+   "lat": 49.999,
+   "lon": 8.271,
+   "what": "Johannes Gutenberg prints the Bible with movable metal type in Mainz (first copies 1454 or 1455; about 160–185 copies, 49 survive); printing spreads the Reformation's pamphlets two generations later",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+    "https://en.wikipedia.org/wiki/Printing_press"
+   ]
+  },
+  {
+   "n": "Ninety-five Theses",
+   "y": 1517,
+   "date": "31 October 1517",
+   "lat": 51.866,
+   "lon": 12.646,
+   "what": "Martin Luther sends his theses against the sale of indulgences to Archbishop Albrecht of Mainz; whether he also nailed them to the church door is debated",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+   ]
+  },
+  {
+   "n": "Leipzig Debate",
+   "y": 1519,
+   "date": "June–July 1519",
+   "lat": 51.34,
+   "lon": 12.375,
+   "what": "Luther and Karlstadt debate Johann Eck; Luther denies that popes and councils cannot err and defends some views of Hus",
+   "src": [
+    "https://en.wikipedia.org/wiki/Leipzig_Debate"
+   ]
+  },
+  {
+   "n": "Luther's pamphlets of 1520",
+   "y": 1520,
+   "date": "1520",
+   "lat": 51.866,
+   "lon": 12.646,
+   "what": "Luther becomes Europe's most published author: printers distribute about 300,000 copies of his works in 1518–20. On 10 December 1520 he burns the papal bull threatening him with excommunication",
+   "src": [
+    "https://en.wikipedia.org/wiki/Printing_press",
+    "https://en.wikipedia.org/wiki/Exsurge_Domine"
+   ]
+  },
+  {
+   "n": "Diet of Worms",
+   "y": 1521,
+   "date": "17–18 April 1521",
+   "lat": 49.632,
+   "lon": 8.359,
+   "what": "Luther refuses to recant before Emperor Charles V; the Edict of Worms outlaws him and he is hidden at the Wartburg",
+   "src": [
+    "https://en.wikipedia.org/wiki/Diet_of_Worms",
+    "https://en.wikipedia.org/wiki/Edict_of_Worms"
+   ]
+  },
+  {
+   "n": "Luther's New Testament",
+   "y": 1522,
+   "date": "September 1522",
+   "lat": 50.966,
+   "lon": 10.306,
+   "what": "Luther's German New Testament, translated at the Wartburg (plotted there) in about ten weeks, is printed in Wittenberg in September 1522",
+   "src": [
+    "https://en.wikipedia.org/wiki/Luther_Bible",
+    "https://en.wikipedia.org/wiki/Wartburg"
+   ]
+  },
+  {
+   "n": "German Peasants' War",
+   "y": 1525,
+   "date": "1524–1525",
+   "lat": 51.361,
+   "lon": 11.1,
+   "what": "Peasant armies demand rights in the Twelve Articles; the princes crush them. The last major battle in Thuringia is at Frankenhausen (plotted, 14–15 May 1525); up to 100,000 of about 300,000 rebels are killed. Luther sides with the princes",
+   "src": [
+    "https://en.wikipedia.org/wiki/German_Peasants'_War",
+    "https://en.wikipedia.org/wiki/Battle_of_Frankenhausen"
+   ]
+  },
+  {
+   "n": "Augsburg Confession",
+   "y": 1530,
+   "date": "25 June 1530",
+   "lat": 48.369,
+   "lon": 10.898,
+   "what": "Lutheran princes and cities present Melanchthon's confession of faith to Charles V at the Diet of Augsburg",
+   "src": [
+    "https://en.wikipedia.org/wiki/Augsburg_Confession"
+   ]
+  },
+  {
+   "n": "Act of Supremacy",
+   "y": 1534,
+   "date": "3 November 1534",
+   "lat": 51.499,
+   "lon": -0.125,
+   "what": "The English Parliament declares Henry VIII Supreme Head of the Church of England, breaking with Rome",
+   "src": [
+    "https://en.wikipedia.org/wiki/Acts_of_Supremacy"
+   ]
+  },
+  {
+   "n": "Münster rebellion",
+   "y": 1534,
+   "date": "1534–1535",
+   "lat": 51.962,
+   "lon": 7.626,
+   "what": "Radical Anabaptists rule Münster until the prince-bishop's army takes the city in June 1535",
+   "src": [
+    "https://en.wikipedia.org/wiki/Münster_rebellion"
+   ]
+  },
+  {
+   "n": "Calvin's Institutes",
+   "y": 1536,
+   "date": "March 1536",
+   "lat": 47.56,
+   "lon": 7.588,
+   "what": "John Calvin publishes the first edition of the Institutes of the Christian Religion in Basel",
+   "src": [
+    "https://en.wikipedia.org/wiki/Institutes_of_the_Christian_Religion",
+    "https://en.wikipedia.org/wiki/John_Calvin"
+   ]
+  },
+  {
+   "n": "Jesuits approved",
+   "y": 1540,
+   "date": "27 September 1540",
+   "lat": 41.902,
+   "lon": 12.48,
+   "what": "Pope Paul III approves Ignatius of Loyola's Society of Jesus, which becomes a leading force in Catholic schools and missions",
+   "src": [
+    "https://en.wikipedia.org/wiki/Society_of_Jesus",
+    "https://en.wikipedia.org/wiki/Regimini_militantis_Ecclesiae"
+   ]
+  },
+  {
+   "n": "Council of Trent",
+   "y": 1545,
+   "date": "1545–1563",
+   "lat": 46.067,
+   "lon": 11.121,
+   "what": "The Catholic Church's council defines doctrine against the Protestants and reforms the clergy (seminaries, residence of bishops)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Council_of_Trent"
+   ]
+  },
+  {
+   "n": "Battle of Mühlberg",
+   "y": 1547,
+   "date": "24 April 1547",
+   "lat": 51.434,
+   "lon": 13.221,
+   "what": "Charles V defeats the Protestant Schmalkaldic League in the Schmalkaldic War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Schmalkaldic_War",
+    "https://en.wikipedia.org/wiki/Battle_of_Mühlberg"
+   ]
+  },
+  {
+   "n": "Peace of Augsburg",
+   "y": 1555,
+   "date": "25 September 1555",
+   "lat": 48.369,
+   "lon": 10.898,
+   "what": "Lutheran and Catholic princes may choose their territory's faith (later summed up as 'cuius regio, eius religio'); Calvinists are excluded",
+   "src": [
+    "https://en.wikipedia.org/wiki/Peace_of_Augsburg"
+   ]
+  },
+  {
+   "n": "Elizabethan Religious Settlement",
+   "y": 1559,
+   "date": "1559",
+   "lat": 51.499,
+   "lon": -0.125,
+   "what": "Acts of Supremacy and Uniformity restore a Protestant Church of England under Elizabeth I",
+   "src": [
+    "https://en.wikipedia.org/wiki/Elizabethan_Religious_Settlement"
+   ]
+  },
+  {
+   "n": "Iconoclastic Fury",
+   "y": 1566,
+   "date": "August–October 1566",
+   "lat": 50.81,
+   "lon": 2.583,
+   "what": "Image-breaking starts at Steenvoorde in Flanders on 10 August and sweeps the Low Countries, prelude to the Dutch Revolt",
+   "src": [
+    "https://en.wikipedia.org/wiki/Beeldenstorm"
+   ]
+  },
+  {
+   "n": "Edict of Torda",
+   "y": 1568,
+   "date": "28 January 1568",
+   "lat": 46.567,
+   "lon": 23.783,
+   "what": "The Transylvanian Diet lets communities choose their preachers, a broad grant of religious freedom for its time",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edict_of_Torda"
+   ]
+  },
+  {
+   "n": "St. Bartholomew's Day massacre",
+   "y": 1572,
+   "date": "24 August 1572",
+   "lat": 48.86,
+   "lon": 2.341,
+   "what": "Catholic mobs kill Huguenots in Paris and other towns; estimates range from 5,000 to 30,000 dead",
+   "src": [
+    "https://en.wikipedia.org/wiki/St._Bartholomew's_Day_massacre"
+   ]
+  },
+  {
+   "n": "Edict of Nantes",
+   "y": 1598,
+   "date": "April 1598",
+   "lat": 47.218,
+   "lon": -1.554,
+   "what": "Henry IV grants the Huguenots freedom of conscience, worship in set places and safe towns, ending the French Wars of Religion",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edict_of_Nantes"
+   ]
+  },
+  {
+   "n": "Defenestration of Prague",
+   "y": 1618,
+   "date": "23 May 1618",
+   "lat": 50.09,
+   "lon": 14.4,
+   "what": "Protestant Bohemian nobles throw two imperial regents and their secretary out of a window of Prague Castle; all survive. The revolt starts the Thirty Years' War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Defenestrations_of_Prague"
+   ]
+  },
+  {
+   "n": "Battle of White Mountain",
+   "y": 1620,
+   "date": "8 November 1620",
+   "lat": 50.078,
+   "lon": 14.32,
+   "what": "Catholic imperial forces crush the Bohemian Protestant estates; Bohemia is re-Catholicised",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_White_Mountain"
+   ]
+  },
+  {
+   "n": "Peace of Westphalia",
+   "y": 1648,
+   "date": "October 1648",
+   "lat": 51.962,
+   "lon": 7.626,
+   "what": "Treaties of Münster and Osnabrück end the Thirty Years' War; Calvinism is recognised and 1624 becomes the 'normal year' for confessional status",
+   "src": [
+    "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+   ]
+  },
+  {
+   "n": "Revocation of the Edict of Nantes",
+   "y": 1685,
+   "date": "22 October 1685",
+   "lat": 48.404,
+   "lon": 2.701,
+   "what": "Louis XIV's Edict of Fontainebleau bans Protestantism in France; estimates of Protestants who left over the next two decades range from 210,000 to 900,000",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edict_of_Fontainebleau"
+   ]
+  }
+ ],
+ "notes": "Places: y = year the city council or ruler formally adopted the Reformation (church order, council vote, diet); approx:true where adoption was gradual or only roughly dated. conf 'back' = places that stayed Catholic or led the Catholic Reformation; for them y is the year of the decisive Catholic measure and back is null. back = year the Protestant (or Hussite/Anabaptist/Unitarian) church was suppressed or reversed by force or law; many communities survived underground (e.g. Austrian crypto-Protestants, French Huguenots after 1685). One entry per place: England is split into London 1534 (reversed 1553 under Mary I) and Canterbury 1559 (Elizabethan Settlement). Several places changed confession more than once: Electoral Palatinate Lutheran 1556, Reformed 1563, Lutheran again 1576-83, then Reformed; Bremen later Reformed; Brandenburg's ruler Reformed from 1613 while most subjects stayed Lutheran; Augsburg biconfessional after 1548/1555. Italy and Spain entries are small minority groups, not majority conversions. Ireland: established Church of Ireland from 1537, but most of the population stayed Catholic. Coordinates: city centres; for territories the capital or residence named in the label/'what' (Kingdom of Bohemia = rough centroid). Debated or uncertain: whether Luther nailed the theses to the door; the 'Here I stand' words; deaths in the St Bartholomew's Day massacre (5,000-30,000), the Peasants' War (up to 100,000) and emigration after 1685 (210,000-900,000). Sources: English Wikipedia unless the URL is de.wikipedia (German articles used where they give the adoption year). Not yet covered: Schleswig-Holstein towns, Silesian principalities, Lusatia, Alsace towns other than Strasbourg, Hungarian Ottoman-ruled areas, Orthodox/Uniate questions (Union of Brest 1596)."
+}
