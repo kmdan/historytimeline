@@ -1713,16 +1713,20 @@ function drawSpread(S,t){ if(!S.places.length||!S.on(t)) return; if(!S.T) S.T=sp
 // Story overlays, only while a guided tour asks for them (tour "fx": {"spread": "farming", "walk": true})
 let storyFx=null, walkRaf=0, walkLast=0;
 // walkers: small figures that keep walking along the drawn part of each active migration route
-function drawWalkers(y){ if(!storyFx||!storyFx.walk||!LY.migr) return false; const now=performance.now(); let any=false;
+// Walkers are placed along the route in map degrees, not screen pixels, so zooming does not shift them: a fixed spacing
+// per line (up to 4 figures along the whole route) and a phase that advances at about 35 screen pixels a second
+let walkT=0;
+function drawWalkers(y){ if(!storyFx||!storyFx.walk||!LY.migr) return false; const now=performance.now(), dt=Math.min(0.1,(now-(walkT||now))/1000); walkT=now; let any=false;
   mx.save(); mx.lineJoin='round';
   for(const m of MIGR){ if(m.kind==='conquest'||m.kind==='forced'||m.hyp&&!storyFx.hyp) continue; const st=migState(m,y); if(!st) continue;
-    for(const [li,L] of m.lines.entries()){ const n=migPts(m,li,st.prog); if(n<2) continue; const pts=L.slice(0,n).map(p=>[PX(p[0]),PY(p[1])]);
-      let len=0; const cum=[0]; for(let i=1;i<pts.length;i++){ len+=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]); cum.push(len); }
-      if(len<30) continue; const k=Math.min(4,Math.max(1,Math.round(len/90))), per=Math.max(4000,len*28);   // one walker per ~90 px, ~35 px a second
-      for(let w=0;w<k;w++){ const u=((now/per)+w/k)%1, d=u*len; let i=1; while(i<cum.length-1&&cum[i]<d) i++;
-        const f=(d-cum[i-1])/Math.max(1e-6,cum[i]-cum[i-1]), x=pts[i-1][0]+(pts[i][0]-pts[i-1][0])*f, yy=pts[i-1][1]+(pts[i][1]-pts[i-1][1])*f;
+    m.wph=m.wph||m.lines.map(()=>0);
+    for(const [li,L] of m.lines.entries()){ const n=migPts(m,li,st.prog); if(n<2) continue; const c=m.cum[li], gl=c[n-1], full=c[c.length-1];
+      if(gl*mv.k<30) continue; const S=full/Math.min(4,Math.max(1,Math.round(full/25)));   // spacing between figures (degrees)
+      m.wph[li]=(m.wph[li]+dt*35/mv.k)%S;
+      for(let d=m.wph[li],w=0;d<gl;d+=S,w++){ let i=1; while(i<n-1&&c[i]<d) i++;
+        const f=(d-c[i-1])/Math.max(1e-9,c[i]-c[i-1]), x=PX(L[i-1][0]+(L[i][0]-L[i-1][0])*f), yy=PY(L[i-1][1]+(L[i][1]-L[i-1][1])*f);
         if(x<-10||x>MW+10||yy<-10||yy>MH+10) continue; any=true;
-        const a=Math.min(1,u*6,(1-u)*6)*(st.fade??1), bob=Math.sin(now/140+w*2)*0.8;
+        const a=Math.max(0,Math.min(1,d/(0.2*S),(gl-d)/(0.2*S)))*(st.fade??1), bob=Math.sin(now/140+w*2)*0.8;
         mx.globalAlpha=a; mx.beginPath(); person(x,yy-8+bob,16); mx.strokeStyle=col.surface; mx.lineWidth=3.2; mx.stroke();
         mx.fillStyle=col[MCOL[m.kind]||'l0']||col.fg; mx.fill(); } } }
   mx.restore(); return any; }
