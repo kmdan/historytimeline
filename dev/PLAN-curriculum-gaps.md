@@ -35,3 +35,40 @@ first cities, Great Divergence.
 ## Licences
 Non-commercial: Seshat (CC BY-NC-SA, registration), SlaveVoyages (CC BY-NC). Unstated: Reba 2016 data files, Clio-Infra,
 AADR, ORBIS. Open: Maddison (CC BY 4.0), Pleiades, Cliopatria, OWID (CC BY 4.0), ROAD (CC BY-SA, verify).
+
+# European secondary-school survey (2026-10-14)
+
+Raw surveys: `dev/research/hs_west.md` (England, France, Germany: Bavaria/NRW/BW, Netherlands), `hs_central_south.md`
+(Hungary, Poland, Czechia, Italy, Spain), `hs_north_intl.md` (Finland, Sweden, Norway, Ireland, IB Diploma, European
+Schools, Council of Europe/EUROCLIO). 15 curricula; items some official sites blocked are marked *(unverified)* there.
+
+## Shared across (nearly) all 15
+French Revolution and the age of revolutions (1848 in most), Industrial Revolution, nationalism and unifications,
+imperialism and decolonisation, voyages of discovery, Renaissance and Reformation, both world wars, the Holocaust,
+totalitarianism, the Cold War, European integration. Upper secondary is typically 55–90% after 1800 (Italy and the
+Netherlands are the balanced exceptions).
+
+## Common (roughly half to two-thirds)
+Greece and Rome, the ancient Near East and Egypt, Islam's rise, medieval Europe and towns, Crusades, Atlantic slave trade
+(all of the West), Ottomans, Mongols, Migration Period, Black Death, migration as a long theme (England, Nordics),
+Silk Roads (France, BW).
+
+## Rare at school level (where the atlas is unusually strong)
+Human origins, Ice Ages, Neolithic (mostly ages 10–12; upper-secondary only in Czechia, Poland extended, Finland HI1),
+climate, pandemics, agriculture, demography. Council of Europe 2022/23 notes pandemics and natural disasters are
+under-taught: a gap the atlas fills.
+
+## Map-friendly gaps, ranked (taught widely x has dated spatial data x not yet on the page)
+1. Spread of the Reformation (Luther 1517 -> dated city/state adoptions; fits SPREADS fronts; Hussites as prelude).
+2. Atlantic slave trade + abolition dates (SlaveVoyages, CC BY-NC; careful wording).
+3. Colonial empires and independence years per territory (pre-1900 directly; 20th-c. decolonisation as timeline events).
+4. Industrialisation: first railways by year / network spread, coalfields (pre-1900).
+5. Age of revolutions 1775–1849: American, French, Haitian, Latin American independence, 1848 city uprisings (dated points).
+6. Crusade routes (1096–1270) and Migration-Period routes, Magyar conquest 895 (migrations layer).
+7. Spread of Christianity and Islam as dated fronts; Ottoman and Mongol expansion as dated campaigns.
+8. Greek colonies and Alexander's campaign (route + founded cities).
+9. Cholera pandemics 1817–1899 (fits the plague layer's arrival method).
+10. Border-change moments: Congress of Vienna, unifications of Italy and Germany, partitions of Poland (Cliopatria covers states).
+
+## Scope note
+World wars, Holocaust, Cold War: central everywhere but after 1900. Proposal: timeline events (+ short explainers) only.
