@@ -572,6 +572,22 @@
       -168.0,
       "Beringia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Too dry for ice",
+      "t": "Beringia stayed free of ice because so little snow fell. Moist Pacific air kept a refuge of shrub tundra, with patches of larch, amid grassy steppe.",
+      "lat": 64.5,
+      "lon": -163.0,
+      "img": "Mammoth steppe"
+     },
+     {
+      "h": "Bluefish Caves, Yukon",
+      "t": "Cut marks on animal bones in these Yukon caves may show people here about 24,000 years ago. The dates are disputed because the layers are uncertain.",
+      "lat": 67.15,
+      "lon": -140.58,
+      "img": "Bluefish Caves"
+     }
     ]
    },
    {
@@ -594,6 +610,20 @@
       -125.0,
       "Cordilleran ice"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Three kilometres thick",
+      "t": "The Laurentide ice sheet was up to 3 km thick over northern Quebec, thinning towards its edges. It gouged out the basins of the five Great Lakes.",
+      "lat": 60.0,
+      "lon": -85.0
+     },
+     {
+      "h": "Floods from Lake Missoula",
+      "t": "Later, 15,000–13,000 years ago, an ice-dammed lake in Montana burst again and again. The largest flood carried about 13 times the flow of the Amazon.",
+      "lat": 47.0,
+      "lon": -114.0
+     }
     ]
    },
    {
@@ -611,6 +641,21 @@
       -106.3,
       "White Sands"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Mammoths and sloths too",
+      "t": "The same mudflats hold tracks of Columbian mammoths, ground sloths, American lions and dire wolves. One sloth reared on its hind legs and spun around.",
+      "lat": 32.85,
+      "lon": -106.35,
+      "img": "Ground sloth"
+     },
+     {
+      "h": "Mostly children",
+      "t": "Most prints were made by teenagers and children. In one trail an older person set a child down and picked it up again, slipping under the extra weight.",
+      "lat": 32.78,
+      "lon": -106.25
+     }
     ]
    },
    {
@@ -633,6 +678,20 @@
       -129.5,
       "BC coast"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A hearth on Triquet Island",
+      "t": "On a small island off British Columbia, a hearth was radiocarbon dated to between 13,613 and 14,086 years old.",
+      "lat": 51.8,
+      "lon": -128.25
+     },
+     {
+      "h": "A seafood diet",
+      "t": "A man who died in his mid-twenties in On Your Knees Cave, Alaska, about 9,800 years ago, ate almost only marine food. His obsidian came from British Columbia.",
+      "lat": 56.33,
+      "lon": -133.59
+     }
     ]
    },
    {
@@ -650,6 +709,20 @@
       -73.204,
       "Monte Verde"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Seaweed and wild potatoes",
+      "t": "Hearths held nine species of seaweed and marine algae, and the camp had a 13,000-year-old wild potato and remains of 45 edible plant species.",
+      "lat": -41.49,
+      "lon": -73.18
+     },
+     {
+      "h": "Elephant relatives on the menu",
+      "t": "People butchered Notiomastodon, an extinct elephant relative called a gomphothere. A peat bog later sealed the camp, preserving wood, hides and plants.",
+      "lat": -41.52,
+      "lon": -73.23
+     }
     ]
    },
    {
@@ -667,6 +740,21 @@
       -120.5514,
       "Paisley Caves"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Camels and horses",
+      "t": "Bones of extinct camels, horses and bison lay with the dung layers, alongside many bones of waterfowl and fish.",
+      "lat": 42.77,
+      "lon": -120.54,
+      "img": "Equus (genus)"
+     },
+     {
+      "h": "Not Clovis tools",
+      "t": "People here made Western Stemmed points, quite unlike Clovis points. The caves sit above the Summer Lake basin, shaped by Ice Age lake waves.",
+      "lat": 42.75,
+      "lon": -120.57
+     }
     ]
    },
    {
@@ -684,6 +772,21 @@
       -116.0,
       "Ice-free corridor"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Ravens at Charlie Lake",
+      "t": "Charlie Lake Cave, British Columbia, held a fluted point and two buried ravens, called the oldest traces of ritual in Canada; finds go back 10,500–11,000 years.",
+      "lat": 56.27,
+      "lon": -120.94
+     },
+     {
+      "h": "Bison came from the south",
+      "t": "A 2016 study found the corridor became liveable only slowly; Clovis people probably came from the south, perhaps following bison, not down the corridor.",
+      "lat": 54.0,
+      "lon": -115.0,
+      "img": "Steppe bison"
+     }
     ]
    },
    {
@@ -706,6 +809,21 @@
       -110.6,
       "Anzick site"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Found by a local",
+      "t": "Ridgley Whiteman of Clovis recognised the site in 1929. Gravel mining in 1952–1970 exposed mammoth and bison kill sites; camel, horse and sabre-toothed cat remains occur too.",
+      "lat": 34.29,
+      "lon": -103.31,
+      "img": "Blackwater Draw"
+     },
+     {
+      "h": "A child's grave goods",
+      "t": "The Anzick child, 1–2 years old, lay with over 115 stone and antler tools dusted with red ochre. It was reburied in an intertribal ceremony in 2014.",
+      "lat": 46.0,
+      "lon": -110.65
+     }
     ]
    },
    {
@@ -728,6 +846,20 @@
       -40.0,
       "Greenland"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Iron from the sky",
+      "t": "Thule people collected iron from meteorites, such as the Cape York meteorite in Greenland, worked it and traded it between communities.",
+      "lat": 76.1,
+      "lon": -64.9
+     },
+     {
+      "h": "The Tuniit of legend",
+      "t": "Inuit legends tell of the Tuniit, taller and stronger than Inuit but shy: a memory of the Dorset. Dorset people had no bows or arrows.",
+      "lat": 69.12,
+      "lon": -105.06
+     }
     ]
    }
   ],
@@ -770,6 +902,21 @@
       -4.0,
       "British ice sheet"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Mammoths on the seabed",
+      "t": "Trawlers on the Dogger Bank have dredged up moor peat and remains of mammoth and rhinoceros, animals of the open plains that once stood here.",
+      "lat": 54.72,
+      "lon": 2.77,
+      "img": "Woolly mammoth"
+     },
+     {
+      "h": "Pushed up by ice",
+      "t": "The Dogger Bank hill is a thrust moraine: ground shoved up by the ice sheet during the Last Glacial Maximum.",
+      "lat": 54.9,
+      "lon": 2.0
+     }
     ]
    },
    {
@@ -787,6 +934,21 @@
       10.18,
       "Stellmoor"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Arrows in the chest",
+      "t": "At Stellmoor, intact reindeer skeletons were found with flint arrowheads in the chest, perhaps sacrifices. Arrow shafts of pine wood survived too.",
+      "lat": 53.67,
+      "lon": 10.22,
+      "img": "Stellmoor"
+     },
+     {
+      "h": "An October camp",
+      "t": "Stellmoor was a seasonal camp, used mainly in October, when the reindeer herds passed.",
+      "lat": 53.6,
+      "lon": 10.1
+     }
     ]
    },
    {
@@ -804,6 +966,21 @@
       -0.423,
       "Star Carr"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Britain's oldest Mesolithic art",
+      "t": "A small engraved shale pendant found here in 2015 is thought to be the oldest known Mesolithic art in Britain.",
+      "lat": 54.22,
+      "lon": -0.41
+     },
+     {
+      "h": "Hunting by Lake Flixton",
+      "t": "People hunted red and roe deer, elk, aurochs and wild boar. The site's 195 barbed points are over 95% of all known from Mesolithic Britain.",
+      "lat": 54.2,
+      "lon": -0.44,
+      "img": "Aurochs"
+     }
     ]
    },
    {
@@ -821,6 +998,14 @@
       3.0,
       "Doggerland"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A lake in the lowland",
+      "t": "Streams from the Dogger hills drained into a lake in the Outer Silver Pit, today a basin between two huge sandbanks.",
+      "lat": 54.1,
+      "lon": 2.0
+     }
     ]
    },
    {
@@ -838,6 +1023,22 @@
       -1.5,
       "Britain"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Cheddar Man",
+      "t": "A man buried in Gough's Cave, Somerset, about 8300 BCE, probably had dark skin and blue-green eyes, and could not digest milk as an adult.",
+      "lat": 51.28,
+      "lon": -2.77,
+      "img": "Cheddar Man"
+     },
+     {
+      "h": "A lobster's find",
+      "t": "At Bouldnor Cliff, 11 m under the Solent, a lobster was seen throwing worked flints out of its burrow. The drowned site is about 8,000 years old.",
+      "lat": 50.71,
+      "lon": -1.46,
+      "img": "Mesolithic Britain"
+     }
     ]
    },
    {
@@ -865,6 +1066,20 @@
       2.5,
       "Doggerland"
      ]
+    ],
+    "tips": [
+     {
+      "h": "290 km of seabed slid",
+      "t": "About 290 km of the Norwegian shelf edge collapsed, sending some 3,500 km³ of debris downslope. Studies for the Ormen Lange gas field mapped it closely.",
+      "lat": 64.87,
+      "lon": 1.3
+     },
+     {
+      "h": "Sand in Scottish peat",
+      "t": "In the Montrose Basin and Firth of Forth a grey tsunami sand layer lies between peat, reaching 4 m above today's normal tide level.",
+      "lat": 56.7,
+      "lon": -2.5
+     }
     ]
    },
    {
@@ -882,6 +1097,20 @@
       2.25,
       "Dogger Bank"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Named after boats",
+      "t": "The bank takes its name from doggers, two-masted medieval Dutch fishing boats that trawled here for cod and herring.",
+      "lat": 54.72,
+      "lon": 2.77
+     },
+     {
+      "h": "Shallow sea today",
+      "t": "The bank covers about 17,600 km², some 160 by 60 miles, under only about 15–36 m of water. It is now planned as a giant offshore wind area.",
+      "lat": 54.6,
+      "lon": 2.2
+     }
     ]
    },
    {
@@ -899,6 +1128,21 @@
       2.0,
       "Leman and Ower"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Same year: an earthquake",
+      "t": "Also in 1931, a magnitude 6.1 earthquake struck at the Dogger Bank, the largest ever recorded in the United Kingdom.",
+      "lat": 54.5,
+      "lon": 1.5
+     },
+     {
+      "h": "A Neanderthal off Zeeland",
+      "t": "A Neanderthal skull fragment over 40,000 years old was recovered from the seabed about 10 miles off the coast of Zeeland, Netherlands.",
+      "lat": 51.7,
+      "lon": 3.3,
+      "img": "Neanderthal"
+     }
     ]
    }
   ],
@@ -938,6 +1182,20 @@
       121.97,
       "Batanes Islands"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Half the planet",
+      "t": "Before 1500 CE, Austronesian languages reached from Madagascar to Easter Island. About 386 million people speak them today.",
+      "lat": 23.5,
+      "lon": 121.0
+     },
+     {
+      "h": "Built for the open sea",
+      "t": "Austronesians sailed catamarans and outrigger boats with the crab claw sail; sails were in use before 2000 BCE.",
+      "lat": 20.45,
+      "lon": 121.97
+     }
     ]
    },
    {
@@ -960,6 +1218,20 @@
       168.38,
       "Teouma"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Houses on stilts",
+      "t": "Some Lapita houses stood on stilts over large lagoons. Talepakemalai on Mussau is one of the earliest Lapita sites in the Bismarcks.",
+      "lat": -1.45,
+      "lon": 149.65
+     },
+     {
+      "h": "Shell rings for skulls",
+      "t": "At Teouma, skulls were removed after death and replaced with cone shell rings. DNA of the buried women is closest to the Ami and Atayal of Taiwan.",
+      "lat": -17.79,
+      "lon": 168.39
+     }
     ]
    },
    {
@@ -987,6 +1259,20 @@
       -172.0,
       "Samoa"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Cradle of Polynesia?",
+      "t": "Nukuleka on Tongatapu may be Tonga's first settlement. A coral file found there was dated to 888 BC by uranium–thorium.",
+      "lat": -21.15,
+      "lon": -175.13
+     },
+     {
+      "h": "Pigs, dogs and chickens",
+      "t": "Lapita settlers kept pigs, dogs and chickens, and traded obsidian over long distances.",
+      "lat": -17.8,
+      "lon": 178.0
+     }
     ]
    },
    {
@@ -1004,6 +1290,14 @@
       -174.0,
       "West Polynesia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Rats as a clock",
+      "t": "The Polynesian rat cannot swim far, so its bones and DNA trace human voyages across the Pacific. Its DNA suggests it came from Flores.",
+      "lat": -13.8,
+      "lon": -172.0
+     }
     ]
    },
    {
@@ -1021,6 +1315,14 @@
       -149.5,
       "Society Islands"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Taputapuatea, Raiatea",
+      "t": "This marae may date from about 1000 CE. Navigators gathered here, and a stone taken from it founded new marae elsewhere. UNESCO World Heritage since 2017.",
+      "lat": -16.84,
+      "lon": -151.36
+     }
     ]
    },
    {
@@ -1038,6 +1340,20 @@
       -155.5,
       "Hawaiʻi"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The voyages stopped",
+      "t": "Regular canoe voyages linked Tahiti and Hawaiʻi for some time but stopped around 1300 CE. By 1778 about 300,000 people lived on the islands (estimate).",
+      "lat": 21.3,
+      "lon": -157.86
+     },
+     {
+      "h": "Stowaway rats",
+      "t": "Polynesian rats came too. On Oʻahu they caused a decline of native palms and shrubs in the lowland forests.",
+      "lat": 21.47,
+      "lon": -158.0
+     }
     ]
    },
    {
@@ -1055,6 +1371,21 @@
       -109.35,
       "Rapa Nui"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Half left in the quarry",
+      "t": "More than 900 moai are known, on average 4 m tall and 12.5 tonnes, carved mostly 1250–1500. Nearly half remain at the Rano Raraku quarry.",
+      "lat": -27.12,
+      "lon": -109.29,
+      "img": "Moai"
+     },
+     {
+      "h": "Lost giant palms",
+      "t": "Fossils show a giant palm, Paschalococos, once dominated the island; by 1722 no tree stood above about 3 m. Pitcairn, the nearest inhabited land, is 2,075 km away.",
+      "lat": -27.15,
+      "lon": -109.4
+     }
     ]
    },
    {
@@ -1077,6 +1408,20 @@
       -140.0,
       "East Polynesia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Kumar and kumara",
+      "t": "Quechua names for sweet potato, such as kumar, are strikingly like the Polynesian kumara; some scholars see this as a sign of contact (debated).",
+      "lat": -13.16,
+      "lon": -74.22
+     },
+     {
+      "h": "Sweet potato on Mangaia",
+      "t": "The earliest sweet potato remains in Mangaia, Cook Islands, are dated to 1210–1400 CE, before any European ship reached the Pacific.",
+      "lat": -21.93,
+      "lon": -157.93
+     }
     ]
    },
    {
@@ -1099,6 +1444,21 @@
       176.51,
       "Kaharoa ash"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Gone within a century",
+      "t": "The largest moa stood about 3.6 m tall and weighed about 230 kg; their only predator was Haast's eagle. All moa were extinct by 1445.",
+      "lat": -43.5,
+      "lon": 171.0,
+      "img": "Moa"
+     },
+     {
+      "h": "Kiore date the arrival",
+      "t": "Bones of the Polynesian rat, kiore, were once dated to over 2,000 years ago; later work showed it reached both main islands about 1280.",
+      "lat": -38.5,
+      "lon": 175.5
+     }
     ]
    },
    {
@@ -1121,6 +1481,20 @@
       -149.43,
       "Tahiti"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Twin hulls, 18.7 m",
+      "t": "Launched in 1975, Hōkūleʻa is 18.7 m long and carries 12–16 crew. It was built to test whether Polynesians settled the Pacific by purposeful voyaging.",
+      "lat": 21.3,
+      "lon": -157.86
+     },
+     {
+      "h": "Around the world",
+      "t": "In 2014–2017 Hōkūleʻa sailed 47,000 nautical miles round the world, calling at 85 ports in 26 countries.",
+      "lat": -17.53,
+      "lon": -149.57
+     }
     ]
    }
   ],
@@ -1163,7 +1537,21 @@
     "c": "For the last half-million years Earth has swung between long ice ages and short warm spells, roughly every 100,000 years. Since about 430,000 years ago (the Mid-Brunhes Event) the swings have been especially deep. Why the weak 100,000-year wobble of Earth's orbit sets the beat is still an open question: the \"100,000-year problem\".",
     "w": "100,000-year problem",
     "img": "Woolly mammoth",
-    "src": "https://en.wikipedia.org/wiki/100,000-year_problem"
+    "src": "https://en.wikipedia.org/wiki/100,000-year_problem",
+    "tips": [
+     {
+      "h": "Air from 800,000 years ago",
+      "t": "Bubbles in Antarctic ice drilled at Dome C hold ancient air: in 800,000 years, CO2 never topped the levels seen since industrialisation. Today it is about 50 percent higher.",
+      "lat": -75.1,
+      "lon": 123.33
+     },
+     {
+      "h": "Tiny shells keep score",
+      "t": "In 1967 Nicholas Shackleton argued that oxygen isotopes in fossil seafloor shells mainly track the volume of ice on land. That idea underlies the numbered marine isotope stages.",
+      "lat": 52.2,
+      "lon": 0.12
+     }
+    ]
    },
    {
     "y": -448050,
@@ -1186,7 +1574,22 @@
       "Dover Strait breach"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Anglian_stage"
+    "src": "https://en.wikipedia.org/wiki/Anglian_stage",
+    "tips": [
+     {
+      "h": "Butchers on the beach",
+      "t": "Just before this ice age, about 480,000 years ago, people at Boxgrove butchered a 600 kg horse on a tidal mudflat below chalk cliffs, knapping flint tools on the spot.",
+      "lat": 50.87,
+      "lon": -0.69,
+      "img": "Homo heidelbergensis"
+     },
+     {
+      "h": "Ice to the Isles of Scilly",
+      "t": "Anglian ice reached the Isles of Scilly and the Western Approaches: the furthest south ice reached in Britain in any Pleistocene ice age.",
+      "lat": 49.93,
+      "lon": -6.32
+     }
+    ]
    },
    {
     "y": -408050,
@@ -1209,7 +1612,21 @@
       "Barnham: earliest fire-making"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Marine_Isotope_Stage_11"
+    "src": "https://en.wikipedia.org/wiki/Marine_Isotope_Stage_11",
+    "tips": [
+     {
+      "h": "The oldest wooden weapon",
+      "t": "The Clacton Spear, a yew point found at Clacton-on-Sea in 1911, is about 400,000 years old: the oldest known worked wooden weapon. Oak forest and grassland lined its river.",
+      "lat": 51.79,
+      "lon": 1.15
+     },
+     {
+      "h": "Monkeys by the Thames",
+      "t": "At Swanscombe, where pieces of an early Neanderthal skull turned up in 1935-1955, the same river gravels hold Barbary macaques, straight-tusked elephants, rhinos and beavers.",
+      "lat": 51.4456,
+      "lon": 0.2991
+     }
+    ]
    },
    {
     "y": -148050,
@@ -1232,7 +1649,15 @@
       "Hondsrug"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Saale_glaciation"
+    "src": "https://en.wikipedia.org/wiki/Saale_glaciation",
+    "tips": [
+     {
+      "h": "Giants' beds from Sweden",
+      "t": "Drenthe's 52 hunebeds, Neolithic tombs, are built from boulders this ice carried from Sweden and Finland. The largest stones weigh around 40 tonnes.",
+      "lat": 52.92,
+      "lon": 6.8
+     }
+    ]
    },
    {
     "y": -123050,
@@ -1255,7 +1680,22 @@
       "Northernmost hippos"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Last_Interglacial"
+    "src": "https://en.wikipedia.org/wiki/Last_Interglacial",
+    "tips": [
+     {
+      "h": "A hyena den in Yorkshire",
+      "t": "Kirkdale Cave held Eemian bones of hippos, elephants, rhinos and cave lions dragged in by hyenas, plus fossil dung. In 1821 Buckland showed it was a den, not Noah's Flood.",
+      "lat": 54.26,
+      "lon": -0.96,
+      "img": "Last Interglacial"
+     },
+     {
+      "h": "Neanderthal elephant hunters",
+      "t": "At Neumark-Nord in Germany lie at least 57 straight-tusked elephants butchered by Neanderthals; researchers estimate one was killed every 5 to 6 years over about 300 years.",
+      "lat": 51.33,
+      "lon": 11.89
+     }
+    ]
    },
    {
     "y": -72050,
@@ -1283,7 +1723,22 @@
       "Pinnacle Point"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Youngest_Toba_eruption"
+    "src": "https://en.wikipedia.org/wiki/Youngest_Toba_eruption",
+    "tips": [
+     {
+      "h": "An island that rose 450 m",
+      "t": "Samosir, 630 km² in the middle of Lake Toba, is the largest island within an island. Lake sediments show it has risen at least 450 m since the eruption.",
+      "lat": 2.6,
+      "lon": 98.82,
+      "img": "Youngest Toba eruption"
+     },
+     {
+      "h": "Ash over 7.5% of the Earth",
+      "t": "Toba ash at least 1 cm thick covered more than 38 million km², about 7.5% of Earth's surface; on the central Indian Ocean floor it lies 10 cm thick.",
+      "lat": -5.0,
+      "lon": 80.0
+     }
+    ]
    },
    {
     "y": -43050,
@@ -1306,7 +1761,21 @@
       "Hudson Strait"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Dansgaard–Oeschger_event"
+    "src": "https://en.wikipedia.org/wiki/Dansgaard–Oeschger_event",
+    "tips": [
+     {
+      "h": "Three kilometres of ice",
+      "t": "In 1992 the GRIP team reached bedrock at Summit, the top of the Greenland ice sheet, with a 3,029 m core. Its isotopes made the abrupt glacial climate jumps clear.",
+      "lat": 72.58,
+      "lon": -37.57
+     },
+     {
+      "h": "Drilling under a radar base",
+      "t": "Under Dye 3, a Cold War radar station on the ice, Danish drillers hit bedrock at 2,038 m in 1981; ice from the last glaciation began at 1,785 m.",
+      "lat": 65.18,
+      "lon": -43.82
+     }
+    ]
    },
    {
     "y": -19050,
@@ -1339,7 +1808,22 @@
       "Sundaland"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum"
+    "src": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum",
+    "tips": [
+     {
+      "h": "Painted cave, now under the sea",
+      "t": "Cosquer Cave near Marseille was painted when the sea was far lower; its entrance now lies 37 m underwater. Among its animals are 9 seals and 3 great auks.",
+      "lat": 43.2028,
+      "lon": 5.4492,
+      "img": "Cosquer Cave"
+     },
+     {
+      "h": "Frozen ground to Hungary",
+      "t": "South of the ice sheets, permafrost covered Europe as far south as present-day Szeged in southern Hungary.",
+      "lat": 46.25,
+      "lon": 20.15
+     }
+    ]
    },
    {
     "y": -13550,
@@ -1367,7 +1851,22 @@
       "Wallula Gap"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Missoula_floods"
+    "src": "https://en.wikipedia.org/wiki/Missoula_floods",
+    "tips": [
+     {
+      "h": "Ripples as tall as houses",
+      "t": "At Camas Prairie, Montana, the floods left current ripples 25 to 50 ft (8-15 m) high and 300 ft long: key evidence for Bretz's floods.",
+      "lat": 47.55,
+      "lon": -114.6,
+      "img": "Missoula floods"
+     },
+     {
+      "h": "A meteorite on an iceberg",
+      "t": "The 14-tonne Willamette Meteorite, the largest found in the US, lay in Oregon with no crater. It probably rode an ice raft from Canada or Montana in the floods.",
+      "lat": 45.37,
+      "lon": -122.58
+     }
+    ]
    },
    {
     "y": -12450,
@@ -1384,7 +1883,21 @@
       "Sunda Shelf"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Meltwater_pulse_1A"
+    "src": "https://en.wikipedia.org/wiki/Meltwater_pulse_1A",
+    "tips": [
+     {
+      "h": "A drowned river",
+      "t": "A great river, the North Sunda or Molengraaff River, drained the dry shelf. Its fish, the river threadfin, still lives in rivers of Borneo and Sumatra.",
+      "lat": 2.0,
+      "lon": 107.0
+     },
+     {
+      "h": "Savanna between islands (debated)",
+      "t": "Some researchers think a 50-150 km wide savanna corridor ran from the Malay Peninsula through Sumatra and Java to Borneo; others think rainforest dominated.",
+      "lat": -3.0,
+      "lon": 110.0
+     }
+    ]
    },
    {
     "y": -10850,
@@ -1407,7 +1920,22 @@
       "Lake Agassiz"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/Younger_Dryas"
+    "src": "https://en.wikipedia.org/wiki/Younger_Dryas",
+    "tips": [
+     {
+      "h": "Reindeer hunters with bows",
+      "t": "At Stellmoor near Hamburg, autumn hunters left bones of 650 reindeer, pine arrow shafts, and whole reindeer skeletons with flint arrowheads in their chests.",
+      "lat": 53.62,
+      "lon": 10.18,
+      "img": "Stellmoor"
+     },
+     {
+      "h": "Glaciers return to Scotland",
+      "t": "In Britain, where it is called the Loch Lomond Stadial, icefields and glaciers grew again in the uplands, and lowland permafrost implies mean yearly temperatures no higher than -1 °C.",
+      "lat": 56.08,
+      "lon": -4.57
+     }
+    ]
    },
    {
     "y": -7050,
@@ -1430,7 +1958,22 @@
       "Cave of Swimmers"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/African_humid_period"
+    "src": "https://en.wikipedia.org/wiki/African_humid_period",
+    "tips": [
+     {
+      "h": "A family grave by a lake",
+      "t": "At Gobero in Niger's desert, fishers lived by a lake 3 km wide. A woman and two children lie facing each other, hands entwined; pollen hints at flowers.",
+      "lat": 17.08,
+      "lon": 9.52,
+      "img": "Gobero"
+     },
+     {
+      "h": "The Yellow Nile",
+      "t": "Wadi Howar, a dry valley over 1,100 km long, was then a Nile tributary. The Sahara's southern edge lay some 500 km further north than today.",
+      "lat": 17.0,
+      "lon": 26.0
+     }
+    ]
    },
    {
     "y": -6250,
@@ -1452,7 +1995,21 @@
       "North Atlantic"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/8.2-kiloyear_event"
+    "src": "https://en.wikipedia.org/wiki/8.2-kiloyear_event",
+    "tips": [
+     {
+      "h": "A lake bigger than the Caspian",
+      "t": "At its largest, Lake Agassiz may have covered 440,000 km², more than any lake today. Lake Winnipeg and Lake of the Woods are its leftovers.",
+      "lat": 51.0,
+      "lon": -97.0
+     },
+     {
+      "h": "The Storegga tsunami",
+      "t": "About 6225-6170 BCE, 3,500 km³ of seabed slid off Norway's shelf, sending a tsunami across the North Atlantic to Britain and Doggerland.",
+      "lat": 64.87,
+      "lon": 1.3
+     }
+    ]
    },
    {
     "y": -3550,
@@ -1475,7 +2032,22 @@
       "Mega-Chad dries"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/African_humid_period"
+    "src": "https://en.wikipedia.org/wiki/African_humid_period",
+    "tips": [
+     {
+      "h": "Cattle in roofed tombs",
+      "t": "From 5500 BC herders at Nabta Playa buried cattle in clay-lined, roofed chambers under stone mounds, and raised a stone circle that may be an early sky calendar.",
+      "lat": 22.508,
+      "lon": 30.726,
+      "img": "Nabta Playa"
+     },
+     {
+      "h": "Lakes from ancient rain",
+      "t": "In Chad, with under 2 mm of rain a year, 18 Ounianga lakes live on groundwater stored in the wet millennia. Lake Yoa evaporates 6 m a year.",
+      "lat": 19.06,
+      "lon": 20.5
+     }
+    ]
    },
    {
     "y": -2200,
@@ -1498,7 +2070,21 @@
       "Mawmluh Cave"
      ]
     ],
-    "src": "https://en.wikipedia.org/wiki/4.2-kiloyear_event"
+    "src": "https://en.wikipedia.org/wiki/4.2-kiloyear_event",
+    "tips": [
+     {
+      "h": "A layer without people",
+      "t": "At Tell Leilan in Syria, an Akkadian-era city, about 1 m of sediment with no trace of people covers the ruins; excavators link it to a three-century drought.",
+      "lat": 36.957,
+      "lon": 41.505
+     },
+     {
+      "h": "Dust winds and salty fields",
+      "t": "Fossil corals from Oman suggest longer winter shamal wind seasons around 2200 BC, which could have salted irrigated fields; their role in Akkad's fall is debated.",
+      "lat": 22.5,
+      "lon": 59.5
+     }
+    ]
    }
   ]
  },
@@ -1522,6 +2108,21 @@
       35.5,
       "Natufian Levant"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A woman and her puppy",
+      "t": "At Ain Mallaha by ancient Lake Hula, a woman was buried with her hand resting on a puppy: the earliest known archaeological evidence of dog domestication.",
+      "lat": 33.087,
+      "lon": 35.579,
+      "img": "Ain Mallaha"
+     },
+     {
+      "h": "Beer and flowers",
+      "t": "At Raqefet Cave on Mount Carmel, stone mortars may have been used to brew cereal beer about 13,000 years ago, and graves were lined with flowers like Judean sage (interpretations).",
+      "lat": 32.65,
+      "lon": 35.08
+     }
     ]
    },
    {
@@ -1539,6 +2140,21 @@
       38.922,
       "Göbekli Tepe"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Foxes, boars and vultures",
+      "t": "The pillars, the oldest known megaliths, are carved with lions, bulls, boars, foxes, gazelles, snakes, insects, spiders and above all vultures. Some have human arms.",
+      "lat": 37.2233,
+      "lon": 38.9224,
+      "img": "Göbekli Tepe"
+     },
+     {
+      "h": "Karahan Tepe",
+      "t": "About 60 km away lies a sister site: more than 266 T-shaped pillars were counted at Karahan Tepe, along with carved human heads and a 2.3 m statue.",
+      "lat": 37.0925,
+      "lon": 39.3036
+     }
     ]
    },
    {
@@ -1556,6 +2172,21 @@
       40.5,
       "Fertile Crescent"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Wheat from a mountain",
+      "t": "DNA fingerprinting suggests einkorn wheat was first domesticated near Karacadağ in south-east Turkey, an area with a number of early farming villages.",
+      "lat": 37.67,
+      "lon": 39.83
+     },
+     {
+      "h": "Pigs and copper",
+      "t": "Çayönü may be where pigs were first domesticated. Its people also ran a copper and malachite workshop around 6900-6800 BCE, making copper beads.",
+      "lat": 38.2164,
+      "lon": 39.7264,
+      "img": "Çayönü"
+     }
     ]
    },
    {
@@ -1573,6 +2204,21 @@
       32.828,
       "Çatalhöyük"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Streets on the roofs",
+      "t": "There were no streets: houses packed like a honeycomb were entered through roof holes by ladders. The dead were buried beneath floors, platforms and hearths.",
+      "lat": 37.667,
+      "lon": 32.828,
+      "img": "Çatalhöyük"
+     },
+     {
+      "h": "The oldest map? (debated)",
+      "t": "A mural is often called the oldest map: houses beneath the twin peaks of Mount Hasan, perhaps erupting. Critics see a leopard skin and geometric patterns instead.",
+      "lat": 38.1275,
+      "lon": 34.1667
+     }
     ]
    },
    {
@@ -1590,6 +2236,21 @@
       144.33,
       "Kuk Swamp"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Farming at 1,550 metres",
+      "t": "Kuk lies at about 1,550 m in the Wahgi Valley. Wooden digging sticks and a grindstone lay in its ditches; the Kawelka people live there today.",
+      "lat": -5.7825,
+      "lon": 144.33,
+      "img": "Kuk Early Agricultural Site"
+     },
+     {
+      "h": "Birthplace of sugar",
+      "t": "The best evidence points to New Guinea as where Papuans first domesticated sugarcane. Kuk shows sugar cane, with bananas, being grown 6,900-6,400 years ago.",
+      "lat": -6.0,
+      "lon": 145.0
+     }
     ]
    },
    {
@@ -1612,6 +2273,21 @@
       -69.4,
       "Lake Titicaca"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Squash came first",
+      "t": "In Guilá Naquitz cave, Oaxaca, domesticated squash dates to 8,000-10,750 years ago, about 4,000 years before maize and beans there.",
+      "lat": 16.975,
+      "lon": -96.309,
+      "img": "Cucurbita pepo"
+     },
+     {
+      "h": "Freeze-dried potatoes",
+      "t": "Andean farmers made chuño: small potatoes left out about three nights to freeze, drying by day. Remains have been found at Tiwanaku near Lake Titicaca.",
+      "lat": -16.55,
+      "lon": -68.67
+     }
     ]
    },
    {
@@ -1634,6 +2310,21 @@
       114.1,
       "Cishan"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Flutes of crane bones",
+      "t": "At Jiahu (about 7000-5700 BC), people buried 33 flutes carved from red-crowned crane wing bones, among the oldest playable instruments in the world.",
+      "lat": 33.613,
+      "lon": 113.667
+     },
+     {
+      "h": "Rice and stilt houses",
+      "t": "Later, at Hemudu near Hangzhou Bay (from 5500 BC), rice farmers lived in long stilt houses, tilled with shoulder-blade hoes and made red lacquer bowls.",
+      "lat": 29.964,
+      "lon": 121.344,
+      "img": "History of rice cultivation"
+     }
     ]
    },
    {
@@ -1661,6 +2352,22 @@
       20.7,
       "Starčevo"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Fish-faced sculptures",
+      "t": "At Lepenski Vir in the Danube's Iron Gates gorge, fishers carved fish-faced stone heads and built trapezoid houses (6300-6000 BC) as newly arrived farmers mixed with them.",
+      "lat": 44.561,
+      "lon": 22.024,
+      "img": "Lepenski Vir"
+     },
+     {
+      "h": "A village by the sea",
+      "t": "Nea Nikomedeia (6250-6050 BC), one of Europe's oldest farming villages, had 12 m square timber houses and jars holding up to 85 litres, on a shore now inland.",
+      "lat": 40.604,
+      "lon": 22.265,
+      "img": "Neolithic Greece"
+     }
     ]
    },
    {
@@ -1688,6 +2395,20 @@
       2.5,
       "Paris Basin"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The biggest houses on Earth",
+      "t": "Linear Pottery longhouses, built on fertile loess near rivers, were the largest free-standing buildings in the world at the time. Their builders favoured cattle.",
+      "lat": 48.59,
+      "lon": 16.5
+     },
+     {
+      "h": "A 7,000-year-old well",
+      "t": "Near Kückhoven in Germany, a timber-lined Linear Pottery well built around 5100 BC is one of the oldest wooden structures in the world.",
+      "lat": 51.06,
+      "lon": 6.33
+     }
     ]
    },
    {
@@ -1715,6 +2436,21 @@
       10.0,
       "Southern Scandinavia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A walkway over the bog",
+      "t": "The Sweet Track crossed Somerset's peat bog on timbers felled in 3807 BC, dated by tree rings. A ceremonial jadeitite axe head was found along it.",
+      "lat": 51.164,
+      "lon": -2.826
+     },
+     {
+      "h": "The people before",
+      "t": "Cheddar Man, a hunter-gatherer of about 8300 BC, probably had dark skin and blue-green eyes (limited DNA). Farmers later brought lighter skin and brown eyes.",
+      "lat": 51.282,
+      "lon": -2.767,
+      "img": "Cheddar Man"
+     }
     ]
    },
    {
@@ -1732,6 +2468,21 @@
       -1.0,
       "Northern Mali"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Stone villages on a cliff",
+      "t": "From about 2000 BCE herders and farmers on the Dhar Tichitt cliffs in Mauritania built drystone compounds with granaries; pearl millet was their only domesticated crop.",
+      "lat": 18.452,
+      "lon": -9.405
+     },
+     {
+      "h": "Africa's first pots",
+      "t": "At Ounjougou in Mali, pottery appears in the first half of the 10th millennium BC: the earliest found in Africa, made to cook grains.",
+      "lat": 14.6,
+      "lon": -3.4,
+      "img": "Ounjougou"
+     }
     ]
    }
   ],
@@ -1779,6 +2530,20 @@
       33.2,
       "Cyprus"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Dug up for fertiliser",
+      "t": "Around 1887 a local woman digging old mud-brick for fertiliser at Amarna found over 300 clay tablets. Most are letters in Akkadian, the diplomatic language of the age.",
+      "lat": 27.645,
+      "lon": 30.896
+     },
+     {
+      "h": "Gold-plated, not gold",
+      "t": "Tushratta, king of Mitanni, complained that Egypt sent him gold-plated statues instead of solid gold ones, part of the bride-price for his daughter Tadukhepa.",
+      "lat": 27.7,
+      "lon": 30.85
+     }
     ]
    },
    {
@@ -1801,6 +2566,20 @@
       33.2,
       "Cyprus"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Nine or ten cultures aboard",
+      "t": "Besides metal, the wreck held Baltic amber, African blackwood, elephant and hippo ivory, ostrich eggshells and a gold scarab bearing Nefertiti's name: goods from nine or ten cultures.",
+      "lat": 36.1286,
+      "lon": 29.6858
+     },
+     {
+      "h": "22,413 dives",
+      "t": "A sponge diver found it in 1982, sketching 'metal biscuits with ears' (copper ingots). Excavating it 44–52 m down took eleven seasons and 22,413 dives.",
+      "lat": 36.12,
+      "lon": 29.7
+     }
     ]
    },
    {
@@ -1818,6 +2597,20 @@
       36.519,
       "Kadesh"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A planted false report",
+      "t": "Two nomads told Ramesses the Hittite army was far away near Aleppo. Captured spies then revealed it was hidden close by, and the Hittite chariots struck his marching army.",
+      "lat": 34.57,
+      "lon": 36.51
+     },
+     {
+      "h": "Pirates in pharaoh's guard",
+      "t": "Sherden sea raiders, defeated by Ramesses II a few years earlier, fought for Egypt here; he took many into his personal guard.",
+      "lat": 34.62,
+      "lon": 36.45
+     }
     ]
    },
    {
@@ -1840,6 +2633,20 @@
       31.0,
       "Egypt"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A thousand gods as witnesses",
+      "t": "The Hittite copies, three clay tablets in Akkadian, were found in Hattusa's royal archive. The oath calls on a thousand gods; both sides promised to return each other's refugees.",
+      "lat": 40.02,
+      "lon": 34.615
+     },
+     {
+      "h": "Sealed with a marriage",
+      "t": "In the 34th year of his reign Ramesses II married a Hittite princess. His delta capital Pi-Ramesses had stables with about 460 horse tether points.",
+      "lat": 30.799,
+      "lon": 31.836
+     }
     ]
    },
    {
@@ -1857,6 +2664,20 @@
       31.98,
       "Anatolia (Gordion)"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The Dead Sea shrank",
+      "t": "At the end of the second millennium BCE, the subsurface water level around the Dead Sea dropped by more than 50 metres, a sign of a drying climate.",
+      "lat": 31.5,
+      "lon": 35.5
+     },
+     {
+      "h": "Not everywhere burned",
+      "t": "At Kition on Cyprus the excavator found no evidence of violent destruction. One recent count argues 61% of claimed destructions around 1200 BCE are misdated or unproven (debated).",
+      "lat": 34.92,
+      "lon": 33.63
+     }
     ]
    },
    {
@@ -1874,6 +2695,20 @@
       35.782,
       "Ugarit"
      ]
+    ],
+    "tips": [
+     {
+      "h": "'The enemy's ships came'",
+      "t": "Ugarit's last king, Ammurapi, wrote to the king of Cyprus (Alashiya) that seven enemy ships had come and damaged his land. The city held about 7,000–8,000 people.",
+      "lat": 35.602,
+      "lon": 35.782
+     },
+     {
+      "h": "Found by a plough",
+      "t": "Ugarit was forgotten until a peasant ploughing a field in 1928 opened an old tomb. At its port, excavators found murex shells used to make purple dye.",
+      "lat": 35.63,
+      "lon": 35.75
+     }
     ]
    },
    {
@@ -1891,6 +2726,20 @@
       34.62,
       "Hattusa"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A city of clay tablets",
+      "t": "About 30,000 clay tablets from Hattusa form the main body of Hittite writing. The city covered 1.8 km² inside more than 6 km of walls.",
+      "lat": 40.0197,
+      "lon": 34.6153
+     },
+     {
+      "h": "An old curse",
+      "t": "Centuries earlier King Anitta left a curse on anyone who resettled the town: 'let the Stormgod of the Sky strike him!' The Hittites made it their capital anyway.",
+      "lat": 40.03,
+      "lon": 34.6
+     }
     ]
    },
    {
@@ -1908,6 +2757,20 @@
       21.695,
       "Pylos"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Egg-based paint",
+      "t": "The palace's wall paintings, long called frescoes, turned out to be egg tempera, among the oldest examples of this paint in the world.",
+      "lat": 37.0272,
+      "lon": 21.695
+     },
+     {
+      "h": "The Griffin Warrior",
+      "t": "In 2015 archaeologists found an untouched warrior's grave near the palace, an earlier Mycenaean burial with gold rings and bronze weapons.",
+      "lat": 37.03,
+      "lon": 21.7
+     }
     ]
    },
    {
@@ -1930,6 +2793,21 @@
       31.0,
       "Nile Delta"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Families in ox carts",
+      "t": "Ramesses III's temple reliefs show the invaders with women and children in ox carts, suggesting migrants rather than just raiders. Its walls carry over 7,000 m² of reliefs.",
+      "lat": 25.7197,
+      "lon": 32.6008,
+      "img": "Sea Peoples"
+     },
+     {
+      "h": "'No land could stand'",
+      "t": "Ramesses' inscription says no land could resist them, 'from Hatti, Kode, Carchemish, Arzawa, Alashiya'. Reliefs show enemy dead counted by piling up their severed hands.",
+      "lat": 25.75,
+      "lon": 32.62
+     }
     ]
    },
    {
@@ -1952,6 +2830,20 @@
       23.0,
       "Greece"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Where 'Bible' comes from",
+      "t": "Byblos traded so much Egyptian papyrus that the Greek word 'byblos' came to mean papyrus; English 'Bible' ultimately comes from the city's name.",
+      "lat": 34.1236,
+      "lon": 35.6519
+     },
+     {
+      "h": "A is an ox",
+      "t": "The alphabet had 22 letters, all consonants, written right to left. Aleph meant 'ox' and bet 'house'; the Greeks later added vowels.",
+      "lat": 34.15,
+      "lon": 35.65
+     }
     ]
    }
   ],
@@ -1988,6 +2880,20 @@
       12.4875,
       "Palatine"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The Forum was a swamp",
+      "t": "The valley below was marshy. The Cloaca Maxima drain, traditionally begun around 600 BCE, carried water to the Tiber, and part of it still drains central Rome today.",
+      "lat": 41.8889,
+      "lon": 12.4803
+     },
+     {
+      "h": "Where 'palace' comes from",
+      "t": "Emperors later built their homes on this hill, the Palatium, and its name gave English the word 'palace'.",
+      "lat": 41.8883,
+      "lon": 12.4869
+     }
     ]
    },
    {
@@ -2005,6 +2911,20 @@
       12.4853,
       "Rome"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A temple for year one",
+      "t": "Livy says the Temple of Jupiter on the Capitol was dedicated on 13 September of the Republic's first year. Its terracotta statues were credited to Vulca, an Etruscan from Veii.",
+      "lat": 41.8922,
+      "lon": 12.4817
+     },
+     {
+      "h": "Two bosses, one year",
+      "t": "The king's powers passed to two consuls, elected for one year, each able to veto the other. A plebeian first became consul only in 366 BCE.",
+      "lat": 41.8925,
+      "lon": 12.4853
+     }
     ]
    },
    {
@@ -2032,6 +2952,20 @@
       12.5,
       "Rome"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A heap of gold rings",
+      "t": "Livy says Hannibal's brother Mago poured out a heap of gold rings in Carthage's senate, one for each Roman knight killed at Cannae.",
+      "lat": 41.3064,
+      "lon": 16.1325
+     },
+     {
+      "h": "Escape with 70 riders",
+      "t": "Ancient counts of Roman dead range from 48,200 (Livy) to 70,000 (Polybius). The consul Varro reportedly escaped with about 70 horsemen.",
+      "lat": 41.32,
+      "lon": 16.1
+     }
     ]
    },
    {
@@ -2049,6 +2983,20 @@
       10.323,
       "Carthage"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Walls 15–20 m high",
+      "t": "Carthage's main land wall was 9 m wide and 15–20 m high, with barracks inside it for over 24,000 soldiers.",
+      "lat": 36.8439,
+      "lon": 10.3264
+     },
+     {
+      "h": "No salt was sown",
+      "t": "The famous story that Rome sowed Carthage's fields with salt is probably a 19th-century invention. Augustus later completed a new Roman city on the site.",
+      "lat": 36.86,
+      "lon": 10.3
+     }
     ]
    },
    {
@@ -2066,6 +3014,20 @@
       4.5,
       "Alesia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A siege inside a siege",
+      "t": "At Alesia Caesar built a 16 km ring of walls facing the town and a 21 km ring facing outward, with hidden pits and sharpened stakes in front.",
+      "lat": 47.537,
+      "lon": 4.5
+     },
+     {
+      "h": "Vercingetorix's fate",
+      "t": "The Gallic leader was held in Rome for five years, paraded in Caesar's triumph and then strangled in 46 BCE.",
+      "lat": 47.55,
+      "lon": 4.48
+     }
     ]
    },
    {
@@ -2083,6 +3045,20 @@
       12.5,
       "Rome"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The first Pantheon",
+      "t": "Augustus's ally Agrippa built the first Pantheon in 29–19 BCE. Hadrian rebuilt it later but kept Agrippa's name on the front, where it still stands.",
+      "lat": 41.8986,
+      "lon": 12.4768
+     },
+     {
+      "h": "Born on the Palatine",
+      "t": "Augustus was born Gaius Octavius on the Palatine Hill in 63 BCE. He ruled for about 41 years, and the month of August is named after him.",
+      "lat": 41.8883,
+      "lon": 12.4869
+     }
     ]
    },
    {
@@ -2110,6 +3086,21 @@
       44.0,
       "Mesopotamia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A bridge over the Danube",
+      "t": "To invade Dacia, Trajan's architect Apollodorus built a 1,135 m bridge on 20 stone piers across the Danube in 103–105 CE. Two end pillars survive.",
+      "lat": 44.6238,
+      "lon": 22.667,
+      "img": "Dacians"
+     },
+     {
+      "h": "A war story in stone",
+      "t": "Trajan's Column in Rome tells the Dacian Wars in a 190 m spiral frieze with 2,662 figures; Trajan appears 58 times. His ashes were placed in its base.",
+      "lat": 41.8958,
+      "lon": 12.4842
+     }
     ]
    },
    {
@@ -2127,6 +3118,14 @@
       12.5,
       "Rome"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Rome builds walls again",
+      "t": "After an invasion in 270, Aurelian walled Rome: 19 km long, with 383 towers by 500 CE. They defended the city until 1870.",
+      "lat": 41.8733,
+      "lon": 12.4989
+     }
     ]
    },
    {
@@ -2144,6 +3143,20 @@
       28.98,
       "Constantinople"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Races for 100,000",
+      "t": "The Hippodrome, about 450 m long, held around 100,000 spectators. Constantine brought the bronze Serpent Column from Delphi to decorate it; its base still stands.",
+      "lat": 41.0064,
+      "lon": 28.9758
+     },
+     {
+      "h": "Free food, like Rome",
+      "t": "From 332 the new capital handed out free food like old Rome: about 80,000 rations a day from 117 distribution points.",
+      "lat": 41.0125,
+      "lon": 28.98
+     }
     ]
    },
    {
@@ -2166,6 +3179,21 @@
       28.98,
       "Constantinople"
      ]
+    ],
+    "tips": [
+     {
+      "h": "3,000 pounds of pepper",
+      "t": "To lift an earlier siege, Rome paid Alaric 5,000 pounds of gold, 30,000 of silver, 4,000 silk tunics, 3,000 scarlet hides and 3,000 pounds of pepper.",
+      "lat": 41.91,
+      "lon": 12.5,
+      "img": "Visigoths"
+     },
+     {
+      "h": "A grave in a river",
+      "t": "Alaric died of illness at Consentia (Cosenza) later in 410. Legend says slaves buried him with treasure in the bed of the Busento river, then were killed.",
+      "lat": 39.3,
+      "lon": 16.25
+     }
     ]
    },
    {
@@ -2188,6 +3216,20 @@
       28.98,
       "Constantinople"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Retired to a seaside villa",
+      "t": "Odoacer spared the deposed emperor, gave him a pension of 6,000 solidi a year and sent him to Castellum Lucullanum near Naples, today's Castel dell'Ovo.",
+      "lat": 40.8278,
+      "lon": 14.2481
+     },
+     {
+      "h": "'Little Augustus'",
+      "t": "'Augustulus' was a mocking nickname for an emperor perhaps only ten years old. His father Orestes had once been secretary to Attila the Hun.",
+      "lat": 44.4167,
+      "lon": 12.2
+     }
     ]
    },
    {
@@ -2205,6 +3247,20 @@
       28.98,
       "Constantinople"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A 27-foot cannon",
+      "t": "Orban's giant bombard was about 8.2 m long and hurled 270 kg stone balls over 1.6 km. Sixty oxen and 400 men dragged it; reloading took three hours.",
+      "lat": 41.03,
+      "lon": 28.935
+     },
+     {
+      "h": "Ships over a hill",
+      "t": "A chain blocked the Golden Horn, so on 22 April Mehmed had his ships dragged on greased logs over the hill of Galata into the harbour.",
+      "lat": 41.0256,
+      "lon": 28.974
+     }
     ]
    }
   ],
@@ -2239,6 +3295,21 @@
       108.7,
       "Onon source"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Master of the ocean?",
+      "t": "No one is sure what 'Genghis' meant: perhaps 'firm' or 'righteous', or from Turkic tängiz, 'ocean' – a ruler as wide as the world-encircling sea (debated).",
+      "lat": 48.762,
+      "lon": 109.0103,
+      "img": "Genghis Khan"
+     },
+     {
+      "h": "An army of tens",
+      "t": "He broke up the old tribes: every man aged 15 to 70 joined units of 10, 100 and 1,000. Commanders like Jelme and Subutai were blacksmiths' sons.",
+      "lat": 47.5,
+      "lon": 106.0
+     }
     ]
    },
    {
@@ -2262,6 +3333,20 @@
       106.27,
       "Western Xia"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The flood that backfired",
+      "t": "Besieging the Xia capital in 1209, the Mongols tried to flood it by diverting the Yellow River. Their dike broke and flooded their own camp instead.",
+      "lat": 38.485,
+      "lon": 106.225
+     },
+     {
+      "h": "Walls 15 metres thick",
+      "t": "Zhongdu's walls were almost 15 m thick at the base, with 13 gates and over 900 watchtowers. The Mongols could not storm them, so they starved the city out.",
+      "lat": 39.9067,
+      "lon": 116.3975
+     }
     ]
    },
    {
@@ -2290,6 +3375,20 @@
       59.15,
       "Urgench"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The minaret that was spared",
+      "t": "Bukhara, mostly wooden, burned with its 45,000-book library. The Mongols razed the great mosque but left its Kalyan minaret, 45.6 m tall, built in 1127. It still stands.",
+      "lat": 39.7758,
+      "lon": 64.4142
+     },
+     {
+      "h": "War elephants",
+      "t": "Samarkand had eight iron gates and a garrison with 20 war elephants. To surprise Bukhara first, Genghis crossed the Kyzylkum Desert, thought impassable for an army.",
+      "lat": 39.6547,
+      "lon": 66.9758
+     }
     ]
    },
    {
@@ -2318,6 +3417,20 @@
       50.5,
       "Caspian Sea"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Ten guides for a city",
+      "t": "Derbent, the 'gate' between the Caspian and the Caucasus, was spared for 10 guides. The mountain crossing still cost the Mongols their siege engines and hundreds of men to cold.",
+      "lat": 42.0578,
+      "lon": 48.2889
+     },
+     {
+      "h": "The longest cavalry raid",
+      "t": "Jebe and Subutai rode about 8,900 km in three years. After the Kalka, Prince Mstislav of Kiev and his nobles were crushed beneath the victors' feasting platform.",
+      "lat": 47.2508,
+      "lon": 37.4956
+     }
     ]
    },
    {
@@ -2336,6 +3449,20 @@
       102.82,
       "Karakorum"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A tree that poured drinks",
+      "t": "An enslaved Parisian goldsmith, Guillaume Bouchier, made a silver tree for the palace. When a mechanical angel blew its trumpet, serpents round the trunk gushed drinks.",
+      "lat": 47.2103,
+      "lon": 102.8478
+     },
+     {
+      "h": "The Great Taboo",
+      "t": "Genghis Khan was buried on or near the sacred peak Burkhan Khaldun. The mountain was declared 'Great Taboo', closed to everyone except its guards.",
+      "lat": 48.762,
+      "lon": 109.0103
+     }
     ]
    },
    {
@@ -2364,6 +3491,20 @@
       20.97,
       "Mohi"
      ]
+    ],
+    "tips": [
+     {
+      "h": "2,000 left of 50,000",
+      "t": "In Kyiv, people crowded into the Church of the Tithes; its balcony collapsed under them. Of about 50,000 inhabitants, some 2,000 survived; six of forty major buildings stood.",
+      "lat": 50.45,
+      "lon": 30.5233
+     },
+     {
+      "h": "Nine sacks of ears",
+      "t": "At Legnica the Mongols reportedly cut an ear from each fallen enemy to count the dead, filling nine sacks – a figure as doubtful as European counts of Mongols.",
+      "lat": 51.1453,
+      "lon": 16.2228
+     }
     ]
    },
    {
@@ -2382,6 +3523,20 @@
       19.0,
       "Central Europe"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Coins for a new province",
+      "t": "The Mongols looked set to stay: they named a governor (darughachi) for Hungary and minted coins in the Great Khan's name. Up to half of Hungary's people may have died.",
+      "lat": 47.5,
+      "lon": 19.5
+     },
+     {
+      "h": "A princess born in a fortress",
+      "t": "Hunting King Béla IV, Mongol riders reached the Adriatic. His daughter Margaret, later a saint, was born in 1242 in Klis Fortress near Split.",
+      "lat": 43.56,
+      "lon": 16.5239
+     }
     ]
    },
    {
@@ -2400,6 +3555,20 @@
       44.366,
       "Baghdad"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A river black with ink?",
+      "t": "Chroniclers said so many books from Baghdad's libraries, the House of Wisdom among them, were thrown into the Tigris that it ran black with ink. Historians suspect a literary trope.",
+      "lat": 33.3153,
+      "lon": 44.3661
+     },
+     {
+      "h": "No royal blood spilt",
+      "t": "Spilling royal blood was taboo to the Mongols, so the last caliph was reportedly rolled up in a carpet and trampled to death by horses.",
+      "lat": 33.3475,
+      "lon": 44.335
+     }
     ]
    },
    {
@@ -2418,6 +3587,20 @@
       35.36,
       "Ain Jalut"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The spring of the battle",
+      "t": "Ain Jalut is a spring at the foot of Mount Gilboa, today Ma'ayan Harod. The Mongols camped there for water and pasture for their horses.",
+      "lat": 32.5489,
+      "lon": 35.3569
+     },
+     {
+      "h": "Steppe against steppe",
+      "t": "Most Mamluks were Kipchaks, Turkic slave soldiers from the steppe, many shipped from the Golden Horde's own lands via Black Sea ports. Steppe horsemen beat steppe horsemen.",
+      "lat": 32.5,
+      "lon": 35.5
+     }
     ]
    },
    {
@@ -2446,6 +3629,20 @@
       112.0,
       "Kublai's realm"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Permission to rule",
+      "t": "Russian princes, even the grand prince of Vladimir, had to travel to Sarai on the lower Volga to swear loyalty and receive the khan's patent (yarlyk) to rule.",
+      "lat": 47.1814,
+      "lon": 47.4345
+     },
+     {
+      "h": "Cousins at war",
+      "t": "Berke of the Golden Horde had become a Muslim and was horrified by his cousin Hulagu's sack of Baghdad. From 1262 to 1265 the two khans fought each other.",
+      "lat": 42.0578,
+      "lon": 48.2889
+     }
     ]
    },
    {
@@ -2469,6 +3666,20 @@
       113.1,
       "Yamen"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A chained fleet",
+      "t": "The Song chained about 1,000 ships together and coated them with fire-resistant mud against fire ships. Chained, they could neither help each other nor escape.",
+      "lat": 22.27,
+      "lon": 113.08
+     },
+     {
+      "h": "The boy emperor",
+      "t": "When all was lost, chancellor Lu Xiufu jumped into the sea with the boy emperor Zhao Bing. The child's body was reportedly found near today's Shekou in Shenzhen.",
+      "lat": 22.486,
+      "lon": 113.911
+     }
     ]
    },
    {
@@ -2487,6 +3698,20 @@
       130.38,
       "Hakata Bay"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Bombs on the seabed",
+      "t": "Divers found bomb shells in a Yuan shipwreck off Japan's coast. X-rays show gunpowder packed with scrap iron: the 'thunder crash bombs' fired by catapult.",
+      "lat": 33.37,
+      "lon": 129.83
+     },
+     {
+      "h": "A samurai's own scrolls",
+      "t": "The samurai Takezaki Suenaga had two illustrated scrolls made of his deeds in 1274 and 1281 – some of the earliest pictures of the invasions.",
+      "lat": 33.618,
+      "lon": 130.333
+     }
     ]
    },
    {
@@ -2515,6 +3740,20 @@
       116.4,
       "Kublai's court"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A relay of horses",
+      "t": "Yam relay stations, about 32–64 km apart, kept fresh horses and food. Changing mounts, Mongol messengers covered 200–300 km a day.",
+      "lat": 39.4681,
+      "lon": 75.9938
+     },
+     {
+      "h": "A passport tablet",
+      "t": "Envoys carried a paiza, a tablet entitling them to horses and rations on the road. Not a Mongol invention: the Liao and Jin had used them before.",
+      "lat": 42.8525,
+      "lon": 68.3028
+     }
     ]
    }
   ],
@@ -2552,6 +3791,20 @@
       77.27,
       "Lake Issyk-Kul"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Christian tombstones",
+      "t": "The victims lay in two Chüy Valley cemeteries of Nestorian Christians. Their Syriac tombstones give each name, the year of death and often the cause.",
+      "lat": 42.8333,
+      "lon": 75.2833
+     },
+     {
+      "h": "Marmot country",
+      "t": "Plague lives on in the fleas of ground rodents; on the Central Asian steppes the main host is believed to be the marmot. Nearby Issyk-Kul is salty and rarely freezes.",
+      "lat": 42.4167,
+      "lon": 77.25
+     }
     ]
    },
    {
@@ -2570,6 +3823,20 @@
       35.38,
       "Caffa"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Slaves for Egypt",
+      "t": "Italian merchants here shipped Turkic slaves to Egypt's Mamluk army. Angered, the khan Toqta besieged Caffa; in 1308 the Genoese burned it and left, returning later.",
+      "lat": 45.0342,
+      "lon": 35.3792
+     },
+     {
+      "h": "A brawl in Tana",
+      "t": "The war began with a brawl between Italians and Muslims in Tana, a Venetian post at the mouth of the Don. Jani Beg first besieged Caffa in 1343.",
+      "lat": 47.1083,
+      "lon": 39.4181
+     }
     ]
    },
    {
@@ -2593,6 +3860,20 @@
       29.92,
       "Alexandria"
      ]
+    ],
+    "tips": [
+     {
+      "h": "An emperor's grief",
+      "t": "In Constantinople the plague killed the 13-year-old son of Emperor John VI Kantakouzenos, who described it on the model of Thucydides' Plague of Athens.",
+      "lat": 41.0125,
+      "lon": 28.98
+     },
+     {
+      "h": "One ship",
+      "t": "Plague reached Alexandria in autumn 1347 by sea from Constantinople – on a single merchant ship carrying slaves.",
+      "lat": 31.1975,
+      "lon": 29.8925
+     }
     ]
    },
    {
@@ -2621,6 +3902,20 @@
       11.26,
       "Florence"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Ten days of stories",
+      "t": "In Boccaccio's Decameron, seven young women and three young men flee plague-struck Florence to a villa and tell 100 tales over ten days.",
+      "lat": 43.7714,
+      "lon": 11.2542
+     },
+     {
+      "h": "No one wept",
+      "t": "In Siena, the chronicler Agnolo di Tura saw bodies thrown into pits; no one cried, as all expected to die. The painters Ambrogio and Pietro Lorenzetti died too.",
+      "lat": 43.3186,
+      "lon": 11.3306
+     }
     ]
    },
    {
@@ -2649,6 +3944,20 @@
       39.83,
       "Mecca"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The Nile choked",
+      "t": "Cairo, with some 600,000 people the largest city of the Mediterranean, had a great hospital. Yet the boy sultan an-Nasir Hasan fled, and the Nile was choked with corpses.",
+      "lat": 30.0444,
+      "lon": 31.2358
+     },
+     {
+      "h": "Death at the plough",
+      "t": "In Gaza people fled to the countryside, the looters who plundered their homes died, and peasants reportedly fell dead in their fields while ploughing.",
+      "lat": 31.5075,
+      "lon": 34.4597
+     }
     ]
    },
    {
@@ -2677,6 +3986,20 @@
       -0.128,
       "London"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Half of Paris",
+      "t": "About half of Paris's 100,000 people are thought to have died. Florence shrank from some 110,000–120,000 people in 1338 to 50,000 in 1351.",
+      "lat": 48.8567,
+      "lon": 2.3522
+     },
+     {
+      "h": "Five deep",
+      "t": "At London's East Smithfield plague cemetery, 200 bodies a day were buried in mass graves, stacked five deep. DNA from these skeletons confirmed Yersinia pestis.",
+      "lat": 51.5084,
+      "lon": -0.0708
+     }
     ]
    },
    {
@@ -2705,6 +4028,20 @@
       6.96,
       "Cologne"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Debts wiped out",
+      "t": "Strasbourg's council had guarded the Jewish quarter; it was overthrown and replaced. Many who pushed the coup owed money to Jews and were rid of their debts.",
+      "lat": 48.5833,
+      "lon": 7.7458
+     },
+     {
+      "h": "Refuge in Poland",
+      "t": "King Casimir III of Poland gave Jews refuge and protection. Many fled east to Poland and Lithuania, where their communities remained for six centuries.",
+      "lat": 50.0614,
+      "lon": 19.9372
+     }
     ]
    },
    {
@@ -2733,6 +4070,20 @@
       10.4,
       "Trondheim"
      ]
+    ],
+    "tips": [
+     {
+      "h": "40 priests of 300",
+      "t": "All of Norway's bishops except Oslo's died. By 1371, only 40 of the country's 300 priests were left.",
+      "lat": 63.4297,
+      "lon": 10.3933
+     },
+     {
+      "h": "Germans take Bergen",
+      "t": "With Norway's merchants weakened, German traders of the Hanseatic League took over Bergen's trade, and Germans replaced many dead Norwegian officials.",
+      "lat": 60.3894,
+      "lon": 5.33
+     }
     ]
    },
    {
@@ -2761,6 +4112,14 @@
       37.62,
       "Moscow"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A monk at the end",
+      "t": "Before he died, Simeon the Proud took monastic vows under the name Sozont. His brother Andrey outlived him by only six weeks.",
+      "lat": 55.7558,
+      "lon": 37.6178
+     }
     ]
    },
    {
@@ -2784,6 +4143,20 @@
       -1.5,
       "England"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Forty days",
+      "t": "In 1377 Ragusa (Dubrovnik) made arrivals from plague areas wait 30 days, later 40. From Italian for 'forty' comes our word quarantine.",
+      "lat": 42.6403,
+      "lon": 18.1083
+     },
+     {
+      "h": "The pope's count",
+      "t": "As early as 1351, agents of Pope Clement VI in Avignon counted 23,840,000 dead in Christian Europe – about 31% of some 75 million people.",
+      "lat": 43.95,
+      "lon": 4.8075
+     }
     ]
    }
   ],
@@ -2819,6 +4192,20 @@
       -1.8,
       "Lindisfarne"
      ]
+    ],
+    "tips": [
+     {
+      "h": "An island at low tide",
+      "t": "Lindisfarne is a tidal island. At low tide visitors still cross the sands and mudflats by causeway or the old pilgrims' path; high tide covers both.",
+      "lat": 55.68,
+      "lon": -1.8025
+     },
+     {
+      "h": "A book that survived",
+      "t": "The Lindisfarne Gospels, a richly painted Latin gospel book probably made here in the early 700s, perhaps by Bishop Eadfrith, is now in the British Library.",
+      "lat": 55.669,
+      "lon": -1.8
+     }
     ]
    },
    {
@@ -2841,6 +4228,20 @@
       -6.26,
       "Dublin"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Viking port towns",
+      "t": "Norse kingdoms grew up at Dublin, Waterford, Wexford, Cork and Limerick. Under Norse rule Dublin became a major slave-trading port.",
+      "lat": 52.2567,
+      "lon": -7.1292
+     },
+     {
+      "h": "Foreigner-Gaels",
+      "t": "People of mixed Norse and Gaelic culture were called Gall-Goídil, 'foreigner-Gaels' – the origin of the name Galloway. The Hebrides are still Innse Gall, 'islands of foreigners'.",
+      "lat": 55.05,
+      "lon": -4.1333
+     }
     ]
    },
    {
@@ -2863,6 +4264,20 @@
       30.52,
       "Kyiv"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Silver from the caliphate",
+      "t": "The oldest Arab silver coins (dirhams) in European Russia were found at Ladoga, the earliest dated 786/787. Tree rings date the town itself to 753.",
+      "lat": 59.9972,
+      "lon": 32.2981
+     },
+     {
+      "h": "The men who row",
+      "t": "The name Rus' probably comes from an Old Norse word for 'the men who row' – rowing was how they travelled the rivers of Eastern Europe.",
+      "lat": 58.55,
+      "lon": 31.2667
+     }
     ]
    },
    {
@@ -2885,6 +4300,20 @@
       -1.08,
       "York"
      ]
+    ],
+    "tips": [
+     {
+      "h": "They, sky and window",
+      "t": "English took many Norse words from the Danelaw: law, sky, window, even they, them and their. Place names ending in -by ('village') and -thorp are Norse too.",
+      "lat": 53.96,
+      "lon": -1.08
+     },
+     {
+      "h": "264 in one grave",
+      "t": "The army spent a winter at Repton on the Trent. A mass burial of at least 264 people there, dated to the late 800s, is linked to the Vikings.",
+      "lat": 52.838,
+      "lon": -1.549
+     }
     ]
    },
    {
@@ -2907,6 +4336,21 @@
       -18.5,
       "Iceland"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Pillars on the waves",
+      "t": "Ingólfr threw his high-seat pillars overboard and vowed to settle where they washed ashore. His slaves found them, and he built his farm at Reykjavík.",
+      "lat": 64.1458,
+      "lon": -21.9425,
+      "img": "Settlement of Iceland"
+     },
+     {
+      "h": "A wooded island",
+      "t": "Before medieval settlers cleared land for pasture, about 40% of Iceland was forested. Today only about 2% is.",
+      "lat": 64.9,
+      "lon": -19.0
+     }
     ]
    },
    {
@@ -2929,6 +4373,20 @@
       4.8,
       "Burgundy"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Paris was an island",
+      "t": "Paris then lay on the Île de la Cité. Its two low bridges, one wood, one stone, blocked even shallow Viking ships from going up the Seine.",
+      "lat": 48.854,
+      "lon": 2.347
+     },
+     {
+      "h": "A bishop with an axe",
+      "t": "Bishop Gozlin fought with bow and axe, and defenders drove attackers back with hot wax and pitch. Count Odo, who led the defence, became king of the Franks in 888.",
+      "lat": 48.853,
+      "lon": 2.349
+     }
     ]
    },
    {
@@ -2951,6 +4409,20 @@
       0.0,
       "Normandy"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The kiss that toppled a king",
+      "t": "A later story: told to kiss the king's foot, Rollo had a warrior do it instead – who lifted the foot to his mouth and toppled the king backwards.",
+      "lat": 49.2081,
+      "lon": 1.6803
+     },
+     {
+      "h": "Too big for a horse",
+      "t": "Sagas identify Rollo with Hrólfr 'the Walker', so big no horse could carry him (debated). He was the great-great-great-grandfather of William the Conqueror.",
+      "lat": 49.4428,
+      "lon": 1.0886
+     }
     ]
    },
    {
@@ -2973,6 +4445,21 @@
       44.366,
       "Baghdad"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Tall as palm trees",
+      "t": "Ibn Fadlan described the Rus' as tall as date palms, blond and ruddy, tattooed from toes to neck, each with an axe, a sword and a long knife.",
+      "lat": 54.9789,
+      "lon": 49.0564
+     },
+     {
+      "h": "A mission to the Bulgars",
+      "t": "The embassy reached the Bulgar capital on 12 May 922 to teach Islamic law to new converts. The king was annoyed: the promised money for a fortress had not come.",
+      "lat": 54.95,
+      "lon": 49.1,
+      "img": "Bulgars"
+     }
     ]
    },
    {
@@ -2995,6 +4482,20 @@
       -51.72,
       "Western Settlement"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Named to sell",
+      "t": "Erik chose the name Greenland so people would want to go. Of 25 ships that sailed, only 14 arrived. His wife Thjodhild had Greenland's first church built.",
+      "lat": 61.1522,
+      "lon": -45.515
+     },
+     {
+      "h": "Ivory from the north",
+      "t": "Each summer the settlements sent men north to Disko Bay, above the Arctic Circle, to hunt seals, take walrus ivory and salvage beached whales.",
+      "lat": 69.0,
+      "lon": -52.0
+     }
     ]
    },
    {
@@ -3017,6 +4518,21 @@
       30.52,
       "Kyiv"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Halvdan was here",
+      "t": "Runic graffiti in the galleries of Hagia Sophia are believed to have been left by Varangian guardsmen; one reads 'Halvdan was here'.",
+      "lat": 41.0083,
+      "lon": 28.98,
+      "img": "Hagia Sophia"
+     },
+     {
+      "h": "English guardsmen",
+      "t": "After 1066 many English warriors who had lost their lands to the Normans joined the Guard; by the late 11th century it was largely Anglo-Saxon.",
+      "lat": 41.006,
+      "lon": 28.975
+     }
     ]
    },
    {
@@ -3034,6 +4550,22 @@
       -55.533,
       "L'Anse aux Meadows"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Butternuts from the south",
+      "t": "Butternuts were found at the site. They do not grow north of New Brunswick, so the Norse travelled farther south to get them.",
+      "lat": 51.5964,
+      "lon": -55.5333,
+      "img": "Norse colonization of North America"
+     },
+     {
+      "h": "Women, too",
+      "t": "A spindle and a bone needle suggest women lived here as well as men. The eight sod buildings included an iron smithy; forest then grew where grass is now.",
+      "lat": 51.59,
+      "lon": -55.54,
+      "img": "L'Anse aux Meadows"
+     }
     ]
    },
    {
@@ -3051,6 +4583,20 @@
       -0.91,
       "Stamford Bridge"
      ]
+    ],
+    "tips": [
+     {
+      "h": "From Varangian to king",
+      "t": "Harald Hardrada had spent 15 years in exile, serving in Kievan Rus' and leading the Varangian Guard in Constantinople, before becoming king of Norway.",
+      "lat": 53.9925,
+      "lon": -0.9125
+     },
+     {
+      "h": "Three weeks later",
+      "t": "Less than three weeks after Stamford Bridge, Harold's army was defeated at Hastings by the Normans of William – a descendant of the Viking Rollo.",
+      "lat": 50.855,
+      "lon": 0.5833
+     }
     ]
    }
   ],
@@ -3102,6 +4648,20 @@
       116.32,
       "Lombok"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A language lost",
+      "t": "The Tambora people spoke a language unlike their Austronesian neighbours, perhaps an isolate or Papuan. It died with them; only word lists by Zollinger and Raffles survive.",
+      "lat": -8.25,
+      "lon": 118.0
+     },
+     {
+      "h": "\"Pompeii of the East\"",
+      "t": "In 2004 a dig 25 km west of the crater found a house buried under 3 m of ash, with two adults, bronze bowls, pots and iron tools inside.",
+      "lat": -8.22,
+      "lon": 117.78
+     }
     ]
    },
    {
@@ -3120,6 +4680,20 @@
       118.0,
       "Tambora"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Coloured snow",
+      "t": "Volcanic dust tinted the snow: Hungary saw brown snowfall, northern Italy red snow throughout 1816, and Maryland brown, bluish and yellow snow in spring.",
+      "lat": 45.5,
+      "lon": 9.2
+     },
+     {
+      "h": "Sunspots by naked eye",
+      "t": "In 1816 a \"dry fog\" hung over the eastern United States. Neither wind nor rain cleared it, and it dimmed the Sun so much that sunspots became visible.",
+      "lat": 40.7,
+      "lon": -74.0
+     }
     ]
    },
    {
@@ -3143,6 +4717,20 @@
       -67.22,
       "Dennysville"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Icicles in June",
+      "t": "On 7 June 1816 a doctor in Franconia, New Hampshire, wrote of ground frozen hard, snow squalls and \"icicles 12 inches long\" in the noonday shade.",
+      "lat": 44.23,
+      "lon": -71.75
+     },
+     {
+      "h": "Vermont empties out",
+      "t": "Vermont lost 10,000–15,000 people in 1816–17 as farmers left for the west. Joseph Smith's family moved from Norwich, Vermont, to Palmyra, New York.",
+      "lat": 43.72,
+      "lon": -72.31
+     }
     ]
    },
    {
@@ -3166,6 +4754,20 @@
       2.5,
       "France"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Bread beyond reach",
+      "t": "In 1816 a quarter of wheat rose from 52 to 103 shillings, while average wages stayed at 8–9 shillings a week.",
+      "lat": 52.4,
+      "lon": 0.26
+     },
+     {
+      "h": "A wagon with guns",
+      "t": "Littleport rioters mounted fowling guns front and back on a stolen wagon and marched on Ely, demanding \"the price of a stone of flour per day\".",
+      "lat": 52.46,
+      "lon": 0.31
+     }
     ]
    },
    {
@@ -3184,6 +4786,20 @@
       102.71,
       "Kunming"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Snow in Taiwan",
+      "t": "In 1816 snow fell at Hsinchu and Miaoli in subtropical Taiwan, and frost hit Changhua. Summer snow was also reported in Jiangxi and Anhui.",
+      "lat": 24.8,
+      "lon": 120.97
+     },
+     {
+      "h": "Yangtze floods",
+      "t": "The disrupted monsoon brought overwhelming floods to the Yangtze Valley, and thousands of people fled the coastal areas.",
+      "lat": 30.6,
+      "lon": 114.3
+     }
     ]
    },
    {
@@ -3202,6 +4818,20 @@
       6.1833,
       "Villa Diodati"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Darkness at noon",
+      "t": "Byron wrote his poem \"Darkness\" after a day when \"the fowls all went to roost at noon\" and candles were lit as at midnight. Mary Shelley was just 18.",
+      "lat": 46.22,
+      "lon": 6.18
+     },
+     {
+      "h": "A glacier lake bursts",
+      "t": "The cold let an ice dam form below the Giétro Glacier in the Val de Bagnes. Despite drainage work it burst in June 1818, killing forty people.",
+      "lat": 45.99,
+      "lon": 7.38
+     }
     ]
    },
    {
@@ -3225,6 +4855,20 @@
       9.18,
       "Württemberg"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A hungry boy turns chemist",
+      "t": "Justus von Liebig lived through the famine as a child in Darmstadt. He later studied plant nutrition and introduced mineral fertilizers.",
+      "lat": 49.87,
+      "lon": 8.65
+     },
+     {
+      "h": "Grain stuck on the Rhine",
+      "t": "Floods made major rivers like the Rhine hard to navigate, slowing grain shipments; prices rose most in inland German lands.",
+      "lat": 50.0,
+      "lon": 8.27
+     }
     ]
    },
    {
@@ -3243,6 +4887,20 @@
       -6.26,
       "Dublin"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Welsh refugees",
+      "t": "Cold and heavy rain ruined British harvests. Families in Wales walked long distances as refugees, begging for food.",
+      "lat": 52.3,
+      "lon": -3.7
+     },
+     {
+      "h": "Coldest July on record",
+      "t": "The Central England temperature record, kept since 1659, logged 1816 as its coldest July and third coldest summer.",
+      "lat": 52.5,
+      "lon": -1.5
+     }
     ]
    },
    {
@@ -3266,6 +4924,20 @@
       88.36,
       "Calcutta"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Snow in Bengal",
+      "t": "The disturbed seasons even brought abnormal cold and snow to Bengal during the winter monsoon.",
+      "lat": 24.0,
+      "lon": 88.5
+     },
+     {
+      "h": "Soldiers fall ill",
+      "t": "Cholera reached Calcutta by September 1817. About 10,000 troops in British service died in the pandemic, which drew Europe's attention.",
+      "lat": 22.57,
+      "lon": 88.36
+     }
     ]
    },
    {
@@ -3284,6 +4956,20 @@
       8.47,
       "Mannheim"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Twice walking speed",
+      "t": "The rider pushed off the ground with his feet, with no pedals. On level ground the machine reached about 16 km/h, more than double walking pace.",
+      "lat": 49.49,
+      "lon": 8.47
+     },
+     {
+      "h": "From vélocipède to pedals",
+      "t": "Drais patented it in France in February 1818 as the vélocipède. In the 1860s French makers added cranks and pedals to the front wheel.",
+      "lat": 48.86,
+      "lon": 2.35
+     }
     ]
    },
    {
@@ -3302,6 +4988,20 @@
       -0.79,
       "Chichester Canal"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Glowing London twilights",
+      "t": "Already in 1815 Londoners saw long, brilliant sunsets, orange or red near the horizon and purple above, from 28 June to 2 July and again in autumn.",
+      "lat": 51.5,
+      "lon": -0.12
+     },
+     {
+      "h": "Painted for an earl",
+      "t": "The 3rd Earl of Egremont commissioned Chichester Canal. The ship is probably a collier brig; the final version of the scene hangs at Petworth House.",
+      "lat": 50.99,
+      "lon": -0.61
+     }
     ]
    }
   ]
@@ -3340,6 +5040,20 @@
       -119.0,
       "Mono Craters?"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Irish oaks stop growing",
+      "t": "Tree rings from Irish oaks, studied by Mike Baillie in Belfast, show abnormally little growth in 536 and another sharp drop in 542.",
+      "lat": 54.6,
+      "lon": -6.5
+     },
+     {
+      "h": "Ash from California?",
+      "t": "Glass shards in ice cores dated to 536 point to three North American eruptions; one matches tephra from the Mono Craters in California.",
+      "lat": 37.88,
+      "lon": -119.0
+     }
     ]
    },
    {
@@ -3363,6 +5077,20 @@
       28.98,
       "Constantinople"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A desert city shrinks",
+      "t": "From about 540 the people of Elusa, a Negev city of tens of thousands, made less and less rubbish: a sign the city was shrinking.",
+      "lat": 31.1,
+      "lon": 34.65
+     },
+     {
+      "h": "Fimbulwinter",
+      "t": "Archaeologists think Scandinavia may have lost up to half its people after the eruptions of 536–547. The disaster may be the origin of the Norse \"Fimbulwinter\".",
+      "lat": 60.0,
+      "lon": 15.0
+     }
     ]
    },
    {
@@ -3381,6 +5109,20 @@
       116.41,
       "Samalas"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Written on palm leaves",
+      "t": "The Babad Lombok, written on palm leaves in Old Javanese, says Pamatan had about 10,000 people and walls. Its king escaped, but the city's site is still lost.",
+      "lat": -8.36,
+      "lon": 116.53
+     },
+     {
+      "h": "Lake where a peak stood",
+      "t": "Samalas may once have stood about 4,200 m high. Today its place is a 6–7 km wide caldera holding Lake Segara Anak, 200 m deep.",
+      "lat": -8.41,
+      "lon": 116.4
+     }
     ]
    },
    {
@@ -3404,6 +5146,20 @@
       -71.54,
       "Arequipa"
      ]
+    ],
+    "tips": [
+     {
+      "h": "A sea battle?",
+      "t": "In Lima and Arica people took the blasts for a naval fight with English corsairs, and the viceroy sent troops to Callao.",
+      "lat": -12.05,
+      "lon": -77.04
+     },
+     {
+      "h": "Pompeii of Peru",
+      "t": "Between 11 and 17 villages within 20 km were buried. Estagagache is called the \"Pompeii of Peru\"; a project begun in 2015 is searching for the lost towns.",
+      "lat": -16.65,
+      "lon": -70.9
+     }
     ]
    },
    {
@@ -3422,6 +5178,20 @@
       37.62,
       "Moscow"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Mass graves in Moscow",
+      "t": "Tsar Boris Godunov sold state grain at half price, then gave grain and money away until the treasury ran dry. Still, 127,000 bodies went into Moscow's mass graves.",
+      "lat": 55.75,
+      "lon": 37.62
+     },
+     {
+      "h": "Estonia's empty farms",
+      "t": "Deaths and failed crops in 1601–1603 led Estonians to abandon three quarters of all farms, at least for a time.",
+      "lat": 58.6,
+      "lon": 25.0
+     }
     ]
    },
    {
@@ -3450,6 +5220,20 @@
       14.42,
       "Prague"
      ]
+    ],
+    "tips": [
+     {
+      "h": "The fire mass",
+      "t": "On 20 July 1783 pastor Jón Steingrímsson preached his \"fire mass\" at Kirkjubæjarklaustur. The lava stopped short of the church, at a spot since called Fire Mass Point.",
+      "lat": 63.79,
+      "lon": -18.05
+     },
+     {
+      "h": "Haze across Europe",
+      "t": "The cloud reached Prague by 17 June, Berlin by 18 June and Paris by 20 June. Ships stayed in port and the sun looked \"blood coloured\".",
+      "lat": 48.86,
+      "lon": 2.35
+     }
     ]
    },
    {
@@ -3468,6 +5252,20 @@
       118.0,
       "Tambora"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Heard as gunfire",
+      "t": "On 10 April 1815 people in Trumon, Sumatra, more than 2,600 km away, thought the explosions were the sound of firing guns.",
+      "lat": 2.82,
+      "lon": 97.63
+     },
+     {
+      "h": "A mountain loses a third",
+      "t": "Tambora stood about 4,300 m high, one of the tallest peaks in the archipelago. The eruption cut it to 2,851 m.",
+      "lat": -8.25,
+      "lon": 118.0
+     }
     ]
    },
    {
@@ -3491,6 +5289,21 @@
       63.4,
       "Rodrigues heard"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Burst eardrums",
+      "t": "The loudest sound ever measured burst the eardrums of sailors on the ship Norham Castle, about 64 km away off Sumatra.",
+      "lat": -5.9,
+      "lon": 105.1,
+      "img": "1883 eruption of Krakatoa"
+     },
+     {
+      "h": "Pumice to Africa",
+      "t": "Pumice from the eruption floated across the Indian Ocean for almost a year before washing ashore at Takwa Beach in Kenya.",
+      "lat": -2.28,
+      "lon": 40.93
+     }
     ]
    },
    {
@@ -3509,6 +5322,20 @@
       120.35,
       "Pinatubo"
      ]
+    ],
+    "tips": [
+     {
+      "h": "Typhoon on the same day",
+      "t": "Typhoon Yunya struck on the same day, passing about 75 km north. Its rain soaked the falling ash, so roofs collapsed and mudflows poured down.",
+      "lat": 15.8,
+      "lon": 120.4
+     },
+     {
+      "h": "The Aeta on the move",
+      "t": "The Aeta living on the volcano's slopes left their villages when the first blasts began in April; some moved up to nine times in two months.",
+      "lat": 15.2,
+      "lon": 120.25
+     }
     ]
    }
   ]
@@ -3542,7 +5369,21 @@
       "Liangzhu City"
      ]
     ],
-    "span": 800
+    "span": 800,
+    "tips": [
+     {
+      "h": "A city of boats",
+      "t": "Only one road crossed the walls. People travelled by boat on 30 km of moats and canals controlled by eight water gates.",
+      "lat": 30.4,
+      "lon": 119.99
+     },
+     {
+      "h": "Thousands of jades",
+      "t": "The Fanshan and Jiangjiashan cemeteries held 4,229 jade objects. The largest jade cong (ritual tube) of the culture weighs 3.5 kg.",
+      "lat": 30.41,
+      "lon": 120.01
+     }
+    ]
    },
    {
     "y": -2250,
@@ -3560,7 +5401,22 @@
       "Mawmluh Cave"
      ]
     ],
-    "span": 800
+    "span": 800,
+    "tips": [
+     {
+      "h": "A 7.2 km maze cave",
+      "t": "Mawmluh Cave in Meghalaya is a 7.2 km maze cave, the fourth longest on the subcontinent. In 2022 it joined the IUGS list of 100 geological heritage sites.",
+      "lat": 25.26,
+      "lon": 91.71,
+      "img": "Meghalayan"
+     },
+     {
+      "h": "A Gulf culture ends",
+      "t": "Around the Persian Gulf the 22nd-century BCE drought marks the end of the Umm Al Nar culture and the start of the Wadi Suq culture.",
+      "lat": 24.44,
+      "lon": 54.5
+     }
+    ]
    },
    {
     "y": -2200,
@@ -3578,7 +5434,21 @@
       "Lerna"
      ]
     ],
-    "span": 600
+    "span": 600,
+    "tips": [
+     {
+      "h": "A lost lake",
+      "t": "Lerna once lay beside a freshwater lagoon about 4.7 km across, where myth placed the many-headed Hydra. Silt turned it into marsh, drained in the 1800s.",
+      "lat": 37.54,
+      "lon": 22.73
+     },
+     {
+      "h": "Obsidian from Melos",
+      "t": "Lerna's toolmakers worked obsidian shipped from Melos. Less of it arrived by the end of Early Helladic III, a sign of shrinking long-distance trade.",
+      "lat": 36.7,
+      "lon": 24.43
+     }
+    ]
    },
    {
     "y": -2170,
@@ -3596,7 +5466,21 @@
       "Tell Leilan"
      ]
     ],
-    "span": 600
+    "span": 600,
+    "tips": [
+     {
+      "h": "A metre of silence",
+      "t": "Excavators found a layer of sediment about a metre (3 ft) thick at Tell Leilan with no trace of people living there.",
+      "lat": 36.96,
+      "lon": 41.51
+     },
+     {
+      "h": "Reborn as a capital",
+      "t": "Around 1800 BCE King Shamshi-Adad I revived the site as his capital Shubat-Enlil: 90 hectares, perhaps 20,000 people, and an archive of 1,100 tablets.",
+      "lat": 36.94,
+      "lon": 41.53
+     }
+    ]
    },
    {
     "y": -2150,
@@ -3619,7 +5503,21 @@
       "Thebes"
      ]
     ],
-    "span": 600
+    "span": 600,
+    "tips": [
+     {
+      "h": "\"Bread to the hungry\"",
+      "t": "Warlord Ankhtifi's tomb at Mo'alla boasts that he gave bread to the hungry and let no one die. Many rulers made such claims; how bad the famine was is debated.",
+      "lat": 25.47,
+      "lon": 32.52
+     },
+     {
+      "h": "A very long reign",
+      "t": "Pepi II, buried at Saqqara, ruled from childhood perhaps into his 90s (uncertain) and outlived many heirs, one reason given for the troubled succession.",
+      "lat": 29.84,
+      "lon": 31.21
+     }
+    ]
    },
    {
     "y": -2112,
@@ -3642,7 +5540,21 @@
       "Uruk"
      ]
     ],
-    "span": 600
+    "span": 600,
+    "tips": [
+     {
+      "h": "The great ziggurat",
+      "t": "Ur-Nammu built the ziggurat of the moon god Nanna: 64 by 45 m at the base, of mud brick faced with fired bricks set in bitumen.",
+      "lat": 30.96,
+      "lon": 46.1
+     },
+     {
+      "h": "120,000 receipts",
+      "t": "About 120,000 clay tablets survive from Ur III, mostly receipts and accounts. The first big batch was dug up in 1894 at Girsu (Tello).",
+      "lat": 31.54,
+      "lon": 46.18
+     }
+    ]
    },
    {
     "y": -2000,
@@ -3660,7 +5572,21 @@
       "Taosi"
      ]
     ],
-    "span": 800
+    "span": 800,
+    "tips": [
+     {
+      "h": "A sunrise calendar?",
+      "t": "At Taosi a semicircular rammed-earth platform has slots facing points on Chongfen Mountain where the sun rises; it was probably used to follow the solar calendar.",
+      "lat": 35.89,
+      "lon": 111.5
+     },
+     {
+      "h": "Eggshell pottery",
+      "t": "Longshan potters used the wheel to make thin-walled, polished black pottery; the \"eggshell\" cups of Shandong are the finest.",
+      "lat": 36.66,
+      "lon": 117.02
+     }
+    ]
    },
    {
     "y": -1900,
@@ -3678,7 +5604,22 @@
       "Mohenjo-daro"
      ]
     ],
-    "span": 800
+    "span": 800,
+    "tips": [
+     {
+      "h": "700 wells",
+      "t": "Mohenjo-daro had over 700 wells, about one for every three houses, plus drains and bathing places: unheard of in Egypt or Mesopotamia then.",
+      "lat": 27.33,
+      "lon": 68.14,
+      "img": "Mohenjo-daro"
+     },
+     {
+      "h": "The Great Bath",
+      "t": "Steps lead down into a brick pool 12 m long, 7 m wide and 2.4 m deep, sealed with bitumen; it may have served for religious purification.",
+      "lat": 27.34,
+      "lon": 68.12
+     }
+    ]
    }
   ]
  },
@@ -3711,7 +5652,21 @@
       "Samalas"
      ]
     ],
-    "span": 800
+    "span": 800,
+    "tips": [
+     {
+      "h": "Famine in London",
+      "t": "Witnesses reported 15,000–20,000 deaths in London during the cold, wet 1258. A mass grave of famine victims was found in the city in the 1990s.",
+      "lat": 51.52,
+      "lon": -0.08
+     },
+     {
+      "h": "Trees remember",
+      "t": "Tree rings record the chill: slower growth in Mongolia in 1258–1262, frost-damaged rings in Canada, and a decade of thin rings in Norway and Sweden.",
+      "lat": 47.5,
+      "lon": 103.0
+     }
+    ]
    },
    {
     "y": 1315,
@@ -3739,7 +5694,21 @@
       "Northern France"
      ]
     ],
-    "span": 300
+    "span": 300,
+    "tips": [
+     {
+      "h": "No bread for the king",
+      "t": "On 10 August 1315 King Edward II stopped at St Albans and could hardly find bread for himself and his court.",
+      "lat": 51.75,
+      "lon": -0.34
+     },
+     {
+      "h": "No salt in the rain",
+      "t": "Brine would not evaporate in the wet, so salt for curing meat grew scarce and dear. In Lorraine wheat prices rose by 320%.",
+      "lat": 48.69,
+      "lon": 6.18
+     }
+    ]
    },
    {
     "y": 1408,
@@ -3757,7 +5726,21 @@
       "Hvalsey Church"
      ]
     ],
-    "span": 300
+    "span": 300,
+    "tips": [
+     {
+      "h": "From farm to sea",
+      "t": "Bones show the first settlers ate about 80% farm food. By the 1300s, 50–80% of the Greenlanders' diet came from the sea.",
+      "lat": 61.15,
+      "lon": -45.51
+     },
+     {
+      "h": "A white church",
+      "t": "Hvalsey church was built of granite blocks, some of 4–5 tonnes, plastered with crushed-shell mortar that made it white. The 1408 couple later settled in Iceland.",
+      "lat": 60.83,
+      "lon": -45.78
+     }
+    ]
    },
    {
     "y": 1600,
@@ -3775,7 +5758,21 @@
       "Grindelwald Glacier"
      ]
     ],
-    "span": 300
+    "span": 300,
+    "tips": [
+     {
+      "h": "1–2 °C colder",
+      "t": "Temperatures were 1–2 °C below 20th-century averages. The glacier advance began about 15 years before the first big eruption (Colima, 1585).",
+      "lat": 46.62,
+      "lon": 8.03
+     },
+     {
+      "h": "Still low today",
+      "t": "In 2008 the Upper Grindelwald Glacier's tongue still reached down to about 1,400 m, one of the lowest glaciers in the Alps.",
+      "lat": 46.61,
+      "lon": 8.11
+     }
+    ]
    },
    {
     "y": 1644,
@@ -3798,7 +5795,21 @@
       "Shaanxi"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "The last Ming emperor",
+      "t": "As the rebels took Beijing, the Chongzhen Emperor hanged himself from a tree in the imperial garden outside the Forbidden City.",
+      "lat": 39.92,
+      "lon": 116.4
+     },
+     {
+      "h": "The gate in the Wall",
+      "t": "General Wu Sangui held Shanhai Pass, the Great Wall's eastern end. He joined the Manchus, whose cavalry routed Li Zicheng's army there on 27 May 1644.",
+      "lat": 40.01,
+      "lon": 119.75
+     }
+    ]
    },
    {
     "y": 1648,
@@ -3816,7 +5827,21 @@
       "Münster"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "Three years of peace",
+      "t": "War was the norm in the 1600s: in the century Poland saw only 27 years of peace, the Dutch Republic 14, France 11 and Spain just 3.",
+      "lat": 40.42,
+      "lon": -3.7
+     },
+     {
+      "h": "Germany loses up to 30%",
+      "t": "Germany's population fell by about 15–30% during the Thirty Years' War.",
+      "lat": 51.0,
+      "lon": 10.5
+     }
+    ]
    },
    {
     "y": 1658,
@@ -3839,7 +5864,21 @@
       "Copenhagen"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "Through the ice",
+      "t": "Off Funen the ice broke behind the Swedes: two cavalry squadrons vanished, and the king's sled sank with its crew and horses. He had already mounted a horse.",
+      "lat": 55.43,
+      "lon": 9.85
+     },
+     {
+      "h": "A frozen fleet",
+      "t": "At Nyborg four Danish ships under Vice Admiral Peter Bredal were frozen in. Asked to surrender, Bredal chose to fight.",
+      "lat": 55.31,
+      "lon": 10.79
+     }
+    ]
    },
    {
     "y": 1684,
@@ -3857,7 +5896,21 @@
       "London Bridge"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "Your name, printed on ice",
+      "t": "For sixpence a printer named Croom sold cards with your name, the date and proof they were printed on the Thames. Charles II bought one.",
+      "lat": 51.508,
+      "lon": -0.1
+     },
+     {
+      "h": "Bridge that made the ice",
+      "t": "Old London Bridge's 19 piers slowed the wide river so ice jammed. After it was replaced in 1831 and the banks built up, frost fairs ended.",
+      "lat": 51.508,
+      "lon": -0.088
+     }
+    ]
    },
    {
     "y": 1696,
@@ -3880,7 +5933,21 @@
       "Estonia"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "Bread from bark",
+      "t": "About 150,000 of Finland's 500,000 people died in two years. Many relied on bread made with bark; some historians call them \"the years of many deaths\".",
+      "lat": 61.5,
+      "lon": 23.8
+     },
+     {
+      "h": "A hymn for summer",
+      "t": "In 1695 Israel Kolmodin wrote the Swedish hymn \"Den blomstertid nu kommer\" as a prayer that the next summer would bring food.",
+      "lat": 59.33,
+      "lon": 18.07
+     }
+    ]
    },
    {
     "y": 1698,
@@ -3898,7 +5965,21 @@
       "Aberdeen"
      ]
     ],
-    "span": 200
+    "span": 200,
+    "tips": [
+     {
+      "h": "A camp in a graveyard",
+      "t": "So many starving beggars reached Edinburgh in December 1696 that the town council set up a \"refugee camp\" in Greyfriars kirkyard.",
+      "lat": 55.947,
+      "lon": -3.191
+     },
+     {
+      "h": "Oatmeal in Aberdeen",
+      "t": "In 1698 oatmeal in Aberdeen cost two-thirds more than usual. People ate grass and nettles, and deaths in Aberdeenshire may have reached 25%.",
+      "lat": 57.15,
+      "lon": -2.09
+     }
+    ]
    },
    {
     "y": 1816,
@@ -3921,7 +6002,21 @@
       "New England"
      ]
     ],
-    "span": 100
+    "span": 100,
+    "tips": [
+     {
+      "h": "Storm at the Cape",
+      "t": "On 29–30 July 1816 a violent storm with hail and strong northerly winds struck near Cape Town, badly damaging shipping.",
+      "lat": -33.92,
+      "lon": 18.42
+     },
+     {
+      "h": "Drought in Brazil",
+      "t": "News from Pernambuco in February 1817 told of an uncommon drought in north-eastern Brazil: streams dry, cattle dying, people moving to the big rivers.",
+      "lat": -8.05,
+      "lon": -34.88
+     }
+    ]
    },
    {
     "y": 1870,
@@ -3944,7 +6039,21 @@
       "Mer de Glace"
      ]
     ],
-    "span": 300
+    "span": 300,
+    "tips": [
+     {
+      "h": "A grotto since 1870",
+      "t": "Tourists have walked through an ice grotto in the Rhône Glacier since 1870. Since 1850 it has lost about 60% of its volume; white blankets now slow the melt.",
+      "lat": 46.57,
+      "lon": 8.38
+     },
+     {
+      "h": "Aletsch pulls back 4 km",
+      "t": "The Great Aletsch, the Alps' largest glacier, has retreated more than 4 km: its 19th-century snout lay where the Gibidum reservoir is now.",
+      "lat": 46.36,
+      "lon": 7.99
+     }
+    ]
    }
   ]
  }
