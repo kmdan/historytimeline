@@ -3,6 +3,7 @@
   "id": "out-of-africa",
   "title": "Out of Africa",
   "blurb": "How modern humans spread from Africa to every continent except Antarctica, meeting Neanderthals and Denisovans on the way.",
+  "cat": "Human journeys",
   "steps": [
    {
     "y": -330050,
@@ -556,6 +557,7 @@
   "id": "americas",
   "title": "Peopling of the Americas",
   "blurb": "From the Bering land bridge to the tip of South America, and the later Arctic migrations.",
+  "cat": "Human journeys",
   "steps": [
    {
     "y": -23050,
@@ -881,6 +883,7 @@
   "id": "doggerland",
   "title": "Doggerland drowns",
   "blurb": "How rising seas turned the land between Britain and the continent into the North Sea.",
+  "cat": "Ice Age & climate",
   "steps": [
    {
     "y": -18050,
@@ -1161,6 +1164,7 @@
   "id": "polynesia",
   "title": "Polynesian wayfinding",
   "blurb": "How Austronesian seafarers from Taiwan settled the remote Pacific, from Lapita pottery makers to the last great voyages to Rapa Nui and Aotearoa.",
+  "cat": "Human journeys",
   "steps": [
    {
     "y": -3000,
@@ -1514,6 +1518,7 @@
   "id": "ice-ages",
   "title": "Five ice ages",
   "blurb": "How the planet breathed over 500,000 years: ice sheets came and went, seas rose and fell, the Sahara turned green and dried again.",
+  "cat": "Ice Age & climate",
   "ly": {
    "lyFigs": false,
    "lyC14": false,
@@ -2092,6 +2097,7 @@
   "id": "farming",
   "title": "The spread of farming",
   "blurb": "How farming began independently in several parts of the world after the Ice Age and spread from the Fertile Crescent across Europe.",
+  "cat": "Food & farming",
   "steps": [
    {
     "y": -10800,
@@ -2504,6 +2510,7 @@
   "id": "bronze-age-collapse",
   "title": "Bronze Age collapse",
   "blurb": "How a connected world of kings, traders and palaces around the eastern Mediterranean came apart around 1200 BCE, and what grew from the ruins.",
+  "cat": "Empires & upheavals",
   "steps": [
    {
     "y": -1350,
@@ -2864,6 +2871,7 @@
   "id": "rome",
   "title": "Rome: from village to empire and fall",
   "blurb": "From huts on the Palatine Hill to an empire around the Mediterranean, its long division, and the end of its eastern half in 1453.",
+  "cat": "Empires & upheavals",
   "steps": [
    {
     "y": -753,
@@ -3278,6 +3286,7 @@
   "id": "mongols",
   "title": "The Mongol conquests",
   "blurb": "How the steppe tribes united under Genghis Khan built the largest contiguous land empire in history, from Korea to Hungary, and how it split into four khanates.",
+  "cat": "Empires & upheavals",
   "steps": [
    {
     "y": 1206,
@@ -3774,6 +3783,7 @@
   "id": "black-death",
   "title": "The Black Death",
   "blurb": "Follow the deadliest pandemic in recorded history from Central Asia across the Black Sea and the Mediterranean to every corner of Europe and the Middle East, 1338–1353.",
+  "cat": "Empires & upheavals",
   "steps": [
    {
     "y": 1339,
@@ -4176,6 +4186,7 @@
   "id": "vikings",
   "title": "Vikings: from the Rus to Vinland",
   "blurb": "Raiders, traders and settlers from Scandinavia, 793 to 1066: from Lindisfarne and Paris to Novgorod, Baghdad's envoys on the Volga, Constantinople, Iceland, Greenland and North America.",
+  "cat": "Human journeys",
   "steps": [
    {
     "y": 793,
@@ -4618,6 +4629,7 @@
   "id": "tambora",
   "title": "Tambora and the Year Without a Summer",
   "blurb": "How one Indonesian volcano in 1815 chilled the world, emptied granaries from New England to Yunnan and left traces in literature and art.",
+  "cat": "Ice Age & climate",
   "ly": {
    "lyFigs": false,
    "lyC14": false,
@@ -5010,6 +5022,7 @@
   "id": "volcanic-winters",
   "title": "Volcanoes that changed the climate",
   "blurb": "Seven eruptions, from the dark sun of 536 to Pinatubo in 1991, that cooled the planet and shook harvests and societies.",
+  "cat": "Ice Age & climate",
   "ly": {
    "lyFigs": false,
    "lyC14": false,
@@ -5344,6 +5357,7 @@
   "id": "drought-4200",
   "title": "The 4.2-kiloyear drought",
   "blurb": "Around 2200 BCE a dry, cool spell hit many regions, and several early states and cities declined at about the same time, though how much the climate caused is debated.",
+  "cat": "Ice Age & climate",
   "ly": {
    "lyFigs": false,
    "lyC14": false,
@@ -5627,6 +5641,7 @@
   "id": "little-ice-age",
   "title": "The Little Ice Age",
   "blurb": "From roughly 1300 to 1850 the Northern Hemisphere was often colder than before or since, with frozen rivers, advancing glaciers and famines; its dates and causes are still argued over.",
+  "cat": "Ice Age & climate",
   "ly": {
    "lyFigs": false,
    "lyC14": false,

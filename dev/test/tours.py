@@ -18,7 +18,7 @@ for mobile in (False, True):
         pg.click('#bTours'); pg.wait_for_timeout(200); r['menu'] = pg.locator('#tourMenu button').count()
         pg.locator('#tourMenu').screenshot(path=f'{OUT}/tour_menu_{tag}.png')
         LY0 = pg.evaluate("Object.fromEntries([...document.querySelectorAll('input[id^=ly]')].map(c=>[c.id,c.checked]))")
-        pg.locator('#tourMenu button').first.click(); pg.wait_for_timeout(5200)
+        pg.locator('#tourMenu button[data-id]').first.click(); pg.wait_for_timeout(5200)
         T = tours[0]; steps = []
         for i, st in enumerate(T['steps']):
             s = pg.evaluate(STATE); txt = pg.inner_text('#tour').split('\n')
