@@ -83,7 +83,7 @@ h1 span{color:var(--accent)}
 .tour b{font-family:var(--f-display);font-weight:400;font-size:18px;line-height:1.2}
 .tour .tpic{display:grid;grid-template-columns:132px 1fr;gap:10px;align-items:start}.tour .tpic>span{display:flex;flex-direction:column;gap:5px}.tour .tpic .pphoto span{font-size:10px}
 .tnote{position:absolute;z-index:3;width:min(250px,calc(100% - 16px));background:var(--surface);color:var(--fg);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:6px;padding:7px 10px;box-shadow:0 6px 20px rgba(0,0,0,.18);font-size:12px;line-height:1.4;pointer-events:none;transition:opacity .45s;display:flex;gap:8px;align-items:flex-start}
-.tnote[hidden]{display:none}.tnote b{display:block;font-weight:600;font-size:12.5px;margin-bottom:1px}.tnote i{flex:none;width:64px;aspect-ratio:16/10;border-radius:4px;background-repeat:no-repeat;background-color:var(--line)}
+.tnote[hidden]{display:none}.tour .tkn{font-size:12px;color:var(--accent);font-weight:500}.tnote b{display:block;font-weight:600;font-size:12.5px;margin-bottom:1px}.tnote i{flex:none;width:64px;aspect-ratio:16/10;border-radius:4px;background-repeat:no-repeat;background-color:var(--line)}
 .tour .tdots{display:flex;gap:4px;flex-wrap:wrap}
 .tour .tdots button{all:unset;cursor:pointer;width:9px;height:9px;border-radius:50%;border:1px solid var(--accent)}
 .tour .tdots button.on{background:var(--accent)}
@@ -1724,19 +1724,15 @@ function drawFocus(){ if(!storyFocus) return false; const age=(performance.now()
     mx.globalAlpha=a; mx.strokeStyle=col.surface; mx.lineWidth=4; mx.beginPath(); mx.arc(x,yy,10,0,7); mx.stroke(); mx.strokeStyle=col.accent; mx.lineWidth=2.2; mx.stroke();
     if(lab){ const w=mx.measureText(lab).width; mx.fillStyle=col.accent; mx.globalAlpha=a; halo(lab,x+15,yy-14,.9); placed.push([x+13,yy-22,x+17+w,yy-6]); } }
   mx.restore(); return true; }
-// "did you know" notes of a tour step (step "tips": [{h, t, lat, lon, img?}]): after the camera settles they appear one
-// after another, pinned to their place with a short line, each for about six seconds
-const TIP_DELAY=1.2, TIP_EVERY=7, TIP_SHOW=6.3;
-let storyTips=null, tipCur=-1;   // {list, t0}
+// "did you know" notes of a tour step (step "tips": [{h, t, lat, lon, img?}]): Next ▶ visits them one by one before the
+// next step: the map glides to the note's place and the note stays, pinned there with a short line, until the viewer moves on
+let storyTips=null, tipCur=null;   // {q, t0}
 const tnoteEl=document.getElementById('tnote');
-function drawTips(){ if(!storyTips){ if(tipCur>=0){ tipCur=-1; tnoteEl.hidden=true; } return false; }
-  const age=(performance.now()-storyTips.t0)/1000-TIP_DELAY, n=storyTips.list.length, i=Math.floor(age/TIP_EVERY), u=age-i*TIP_EVERY;
-  if(age>n*TIP_EVERY){ storyTips=null; tipCur=-1; tnoteEl.hidden=true; return false; }
-  if(age<0||i>=n||u>TIP_SHOW){ tnoteEl.style.opacity=0; return true; }
-  const q=storyTips.list[i];
-  if(tipCur!==i){ tipCur=i; const m=picFor(q.img), [C,R]=PIMG?PIMG._grid:[1,1];
+function drawTips(){ if(!storyTips){ if(tipCur){ tipCur=null; tnoteEl.hidden=true; } return false; }
+  const q=storyTips.q, u=(performance.now()-storyTips.t0)/1000;
+  if(tipCur!==q){ tipCur=q; const m=picFor(q.img), [C,R]=PIMG?PIMG._grid:[1,1];
     tnoteEl.innerHTML=`${m?`<i style="background-image:url(atlas/pimg/s${m.s}.webp);background-size:${C*100}% ${R*100}%;background-position:${m.c%C/(C-1)*100}% ${Math.floor(m.c/C)/(R-1)*100}%"></i>`:''}<span><b>${esc(q.h)}</b>${esc(q.t)}</span>`; tnoteEl.hidden=false; }
-  const a=Math.min(1,u/0.45,(TIP_SHOW-u)/0.45); tnoteEl.style.opacity=a;
+  const a=Math.max(0,Math.min(1,(u-0.5)/0.4)); tnoteEl.style.opacity=a;
   const x=PX(q.lon), yy=PY(q.lat), w=tnoteEl.offsetWidth, h=tnoteEl.offsetHeight;
   // beside the place, kept inside the map and off the tour card
   let L=x+18, T=yy-h-18; if(L+w>MW-8) L=x-w-18; L=Math.max(8,Math.min(MW-w-8,L)); if(T<8) T=yy+18; T=Math.max(8,Math.min(MH-h-8,T));
@@ -1745,7 +1741,7 @@ function drawTips(){ if(!storyTips){ if(tipCur>=0){ tipCur=-1; tnoteEl.hidden=tr
   if(x>-20&&x<MW+20&&yy>-20&&yy<MH+20){ const cx=Math.max(L,Math.min(L+w,x)), cy=Math.max(T,Math.min(T+h,yy));
     mx.save(); mx.globalAlpha=a; mx.strokeStyle=col.accent; mx.lineWidth=1.5; mx.beginPath(); mx.moveTo(x,yy); mx.lineTo(cx,cy); mx.stroke();
     mx.fillStyle=col.accent; mx.strokeStyle=col.surface; mx.lineWidth=2; mx.beginPath(); mx.arc(x,yy,4.5,0,7); mx.fill(); mx.stroke(); mx.restore(); }
-  return true; }
+  return a<1; }   // keep redrawing only while it fades in
 // keep story overlays moving between redraws (about 25 frames a second, only while a tour shows them)
 function walkTick(t){ walkRaf=0; if(!storyFx&&!storyFocus&&!storyTips) return; if(t-walkLast>38){ walkLast=t; drawMap(); } else walkRaf=requestAnimationFrame(walkTick); }
 
@@ -2386,31 +2382,49 @@ function tourFly(st,ms){ const k1=tourK(st.y), kS=center, a0=Math.max(1,NOW-cent
     if(tm>=1) tourLook();
     if(t<1) tourRun.fly=requestAnimationFrame(tick); else { tourRun.fly=0; popStepK=0; mapHold=null; center=k1; draw(); drawMap(); tourShown(); } };
   tourRun.fly=requestAnimationFrame(tick); }
-function tourHTML(){ const {t,i,auto}=tourRun, st=t.steps[i], n=t.steps.length;
+function tourHTML(){ const {t,i,auto,tip}=tourRun, st=t.steps[i], n=t.steps.length;
   return `<span class="nk">Tour · ${esc(t.title)} · ${i+1}/${n} · ${esc(tourWhen(st.y))}</span><button type="button" class="tx" aria-label="Close the tour">✕</button>
     ${(()=>{ const m=picFor(st.img); return m?`<span class="tpic">${picHTML(m,st.img)}<span><b>${esc(st.t)}</b><span>${esc(st.c)}</span></span></span>`:`<b>${esc(st.t)}</b><span>${esc(st.c)}</span>`; })()}
     <span class="tdots">${t.steps.map((s,j)=>`<button type="button" data-j="${j}" class="${j<=i?'on':''}" aria-label="Step ${j+1}: ${esc(s.t)}"></button>`).join('')}</span>
-    <span class="nrow"><button type="button" class="tb" ${i?'':'disabled'}>◀ Back</button><button type="button" class="tn">${i<n-1?'Next ▶':'Finish'}</button>
+    ${(st.tips||[]).length?`<span class="tkn">${tip<0?`Did you know? ${st.tips.length} note${st.tips.length>1?'s':''} on the map: take your time, Next ▶ visits ${st.tips.length>1?'them':'it'}`:`Did you know · ${tip+1} of ${st.tips.length}: ${esc(st.tips[tip].h)}`}</span>`:''}
+    <span class="nrow"><button type="button" class="tb" ${i||tip>=0?'':'disabled'}>◀ Back</button><button type="button" class="tn">${tip<(st.tips||[]).length-1?(tip<0?'Did you know? ▶':'Next note ▶'):i<n-1?'Next step ▶':'Finish'}</button>
       <button type="button" class="ta" aria-pressed="${auto}">${auto?'❚❚ Pause':'▶ Auto'}</button><label class="tsp" title="How fast time runs between steps"><select aria-label="Tour speed">${[[0.5,'½× slow'],[1,'1×'],[2,'2× fast']].map(([v,l])=>`<option value="${v}"${v===tourSpd?' selected':''}>${l}</option>`).join('')}</select></label>${st.w?`<a class="ext" href="${wikiUrl(st.w)}" target="_blank" rel="noopener">Read more ↗</a>`:''}</span>
-    ${auto?`<span class="nbar" style="animation-duration:${tourRead(st)}ms;animation-play-state:paused"></span>`:''}`; }
+    ${auto?`<span class="nbar" style="animation-duration:${tip<0?tourRead(st):tipRead(st.tips[tip])}ms;animation-play-state:paused"></span>`:''}`; }
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const tourWhen=y=>{ if(y>0&&y!==Math.floor(y)) return `${MONTHS[Math.min(11,Math.floor((y-Math.floor(y))*12))]} ${Math.floor(y)}`; if(y>-8000) return civil(ke(y)+0.5); const a=1950-y, d=Math.pow(10,Math.floor(Math.log10(a))-1); return `≈ ${fmt(Math.round(a/d)*d)} years ago`; };
 let tourSpd=1;   // ½× = slower travel between steps
 const tourMs=()=>Math.round(4500/tourSpd);
-const tourRead=st=>Math.max(Math.min(16000,4000+60*(st.c||'').split(/\s+/).length),(st.tips||[]).length*TIP_EVERY*1000+TIP_DELAY*1000);   // reading time for auto mode
+const tourRead=st=>Math.min(16000,4000+60*(st.c||'').split(/\s+/).length), tipRead=q=>Math.min(14000,3500+70*(q.h+' '+q.t).split(/\s+/).length);   // reading time for auto mode
 function tourRender(){ tourEl.innerHTML=tourHTML(); tourEl.hidden=false;
-  tourEl.querySelector('.tx').onclick=()=>tourEnd(); tourEl.querySelector('.tb').onclick=()=>tourStep(tourRun.i-1);
-  tourEl.querySelector('.tn').onclick=()=>tourRun.i<tourRun.t.steps.length-1?tourStep(tourRun.i+1):tourEnd();
+  tourEl.querySelector('.tx').onclick=()=>tourEnd(); tourEl.querySelector('.tb').onclick=()=>tourGo(-1);
+  tourEl.querySelector('.tn').onclick=()=>tourGo(1);
   tourEl.querySelector('.ta').onclick=()=>{ tourRun.auto=!tourRun.auto; clearTimeout(tourRun.timer); if(tourRun.auto&&tourRun.i>=tourRun.t.steps.length-1) tourStep(0); else { tourRender(); if(!tourRun.fly) tourShown(); } };
   tourEl.querySelectorAll('.tdots button').forEach(b=>b.onclick=()=>tourStep(+b.dataset.j));
   tourEl.querySelector('.tsp select').onchange=e=>{ tourSpd=+e.target.value; }; }
 // the step has arrived: in auto mode wait for reading time, then move on
 // "look here" rings start when the camera has settled, so they are up while time runs to the step's moment
-function tourLook(){ if(!tourRun||storyFocus) return; const st=tourRun.t.steps[tourRun.i], pts=st.look||((st.z||2)>=4?[[st.lat,st.lon]]:[]); storyFocus=pts.length?{pts,t0:performance.now()}:null; storyTips=st.tips&&st.tips.length?{list:st.tips,t0:performance.now()}:null; drawMap(); }
+function tourLook(){ if(!tourRun||storyFocus) return; const st=tourRun.t.steps[tourRun.i], pts=st.look||((st.z||2)>=4?[[st.lat,st.lon]]:[]); storyFocus=pts.length?{pts,t0:performance.now()}:null; drawMap(); }
 function tourShown(){ if(!tourRun) return; clearTimeout(tourRun.timer); tourLook(); const bar=tourEl.querySelector('.nbar'); if(bar) bar.style.animationPlayState='running';
-  if(tourRun.auto) tourRun.timer=setTimeout(()=>{ if(!tourRun) return; if(tourRun.i<tourRun.t.steps.length-1) tourStep(tourRun.i+1); else { tourRun.auto=false; tourRender(); } },tourRead(tourRun.t.steps[tourRun.i])); }
+  tourAutoNext(tourRead(tourRun.t.steps[tourRun.i])); }
+// auto mode: after the reading time go on (through the notes, then to the next step); stops at the end
+function tourAutoNext(ms){ clearTimeout(tourRun.timer); if(tourRun.auto) tourRun.timer=setTimeout(()=>{ if(!tourRun) return; const st=tourRun.t.steps[tourRun.i];
+  if(tourRun.tip<(st.tips||[]).length-1||tourRun.i<tourRun.t.steps.length-1) tourGo(1); else { tourRun.auto=false; tourRender(); } },ms); }
+// Next / Back: through the step's notes first, then to the next / previous step
+function tourGo(d){ if(!tourRun) return; const st=tourRun.t.steps[tourRun.i], m=(st.tips||[]).length, j=tourRun.tip+d;
+  if(j>=-1&&j<m&&!(d<0&&tourRun.tip<0)) tourTip(j); else if(d>0) tourRun.i<tourRun.t.steps.length-1?tourStep(tourRun.i+1):tourEnd(); else if(tourRun.i>0) tourStep(tourRun.i-1); }
+function tourTip(j){ const st=tourRun.t.steps[tourRun.i], q=j>=0?st.tips[j]:null; tourRun.tip=j; clearTimeout(tourRun.timer); storyFocus=null;
+  if(tourRun.fly){ cancelAnimationFrame(tourRun.fly); tourRun.fly=0; popStepK=0; mapHold=null; center=tourK(st.y); draw(); }
+  storyTips=q?{q,t0:performance.now()}:null; tourRender(); const bar=tourEl.querySelector('.nbar'); if(bar) bar.style.animationPlayState='running';
+  tourGlide(q?q.lat:st.lat,q?q.lon:st.lon,st.z||2); tourAutoNext(q?tipRead(q):tourRead(st)); }
+// the map glides (time stays) so the place sits in the open part of the map, as for the step itself
+let glide=0;
+function tourGlide(lat,lon,z){ cancelAnimationFrame(glide); const k1=z*minK(), la0=mv.lat, lo0=mv.lon, k0=mv.k, t0=performance.now(), ms=reduce?0:1100;
+  const side=tourEl.parentElement===atlasEl, tla=lat-(side?0.1*MH/k1:0), tlo=lon-(side?0.06*MW/k1:0);
+  const f=now=>{ const t=ms?Math.min(1,(now-t0)/ms):1, e=t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+    mv.lat=la0+(tla-la0)*e; mv.lon=lo0+(tlo-lo0)*e; mv.k=Math.exp(Math.log(k0)+(Math.log(k1)-Math.log(k0))*e); mapClamp(); drawMap(); if(t<1) glide=requestAnimationFrame(f); };
+  glide=requestAnimationFrame(f); }
 const tourLayers=on=>{ for(const [id,v] of Object.entries(on||{})){ const c=$(id); if(c&&c.checked!==v){ c.checked=v; c.dispatchEvent(new Event('change',{bubbles:true})); } } };
-function tourStep(i,ms){ if(!tourRun) return; storyFocus=null; storyTips=null; const n=tourRun.t.steps.length; i=Math.max(0,Math.min(n-1,i)); const back=i<tourRun.i; tourRun.i=i; clearTimeout(tourRun.timer);
+function tourStep(i,ms){ if(!tourRun) return; storyFocus=null; storyTips=null; cancelAnimationFrame(glide); tourRun.tip=-1; const n=tourRun.t.steps.length; i=Math.max(0,Math.min(n-1,i)); const back=i<tourRun.i; tourRun.i=i; clearTimeout(tourRun.timer);
   const st=tourRun.t.steps[i]; tourRender();   // the card first, so nothing below can keep it from showing
   try{ tourLayers({...tourRun.t.ly,...st.ly}); }catch(e){ console.error(e); } storyFx=(tourRun.t.fx||st.fx)?{...tourRun.t.fx,...st.fx}:null;
   if(tourEl.parentElement!==$('atlas')) requestAnimationFrame(()=>tourEl.scrollIntoView({behavior:'auto',block:'nearest'}));   // under the map (phones): keep the card on screen
@@ -2418,7 +2432,7 @@ function tourStep(i,ms){ if(!tourRun) return; storyFocus=null; storyTips=null; c
 function tourStart(id,i=0,ms){ const t=TOURS.find(x=>x.id===id); if(!t) return; playStop(); if(placeRun) placeStop(); pop.hidden=true;
   if(tourRun){ clearTimeout(tourRun.timer); if(tourRun.fly) cancelAnimationFrame(tourRun.fly); }
   const saved=tourRun?tourRun.saved:Object.fromEntries([...document.querySelectorAll('input[id^="ly"]')].map(c=>[c.id,c.checked]));
-  tourRun={t,i:-1,auto:false,timer:0,fly:0,saved}; tourMenuOpen(false); tourStep(i,ms);
+  tourRun={t,i:-1,tip:-1,auto:false,timer:0,fly:0,saved}; tourMenuOpen(false); tourStep(i,ms);
   if(ms!==0) document.getElementById('atlas').scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); }
 function tourEnd(){ if(!tourRun) return; clearTimeout(tourRun.timer); if(tourRun.fly) cancelAnimationFrame(tourRun.fly); popStepK=0; mapHold=null; const saved=tourRun.saved; tourRun=null; storyFx=null; storyFocus=null; storyTips=null; tourLayers(saved); drawMap(); tourEl.hidden=true; linkSoon(); }
 function tourMenuOpen(on){ tourMenu.hidden=!on; bTours.setAttribute('aria-expanded',on); }
@@ -2429,7 +2443,7 @@ tourMenu.addEventListener('click',e=>{ const b=e.target.closest('button[data-id]
 document.addEventListener('pointerdown',e=>{ if(!tourMenu.hidden&&!e.target.closest('#tourMenu,#bTours')) tourMenuOpen(false); });
 document.addEventListener('keydown',e=>{ if(e.target.closest('input,select,textarea')) return;
   if(e.key==='Escape'){ if(!tourMenu.hidden) tourMenuOpen(false); else if(tourRun) tourEnd(); return; }
-  if(!tourRun) return; if(e.key==='ArrowRight'&&!e.target.closest('#tl')){ e.preventDefault(); tourStep(tourRun.i+1); } else if(e.key==='ArrowLeft'&&!e.target.closest('#tl')){ e.preventDefault(); tourStep(tourRun.i-1); } });
+  if(!tourRun) return; if(e.key==='ArrowRight'&&!e.target.closest('#tl')){ e.preventDefault(); tourGo(1); } else if(e.key==='ArrowLeft'&&!e.target.closest('#tl')){ e.preventDefault(); tourGo(-1); } });
 cv.addEventListener('pointerdown',()=>{ if(tourRun&&tourRun.auto){ tourRun.auto=false; clearTimeout(tourRun.timer); tourRender(); } });   // touching the timeline pauses auto mode
 bPlay.addEventListener('click',()=>{ if(tourRun) tourEnd(); },true);
 
