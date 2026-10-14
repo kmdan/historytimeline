@@ -1,0 +1,2478 @@
+{
+ "crops": [
+  {
+   "n": "Einkorn wheat",
+   "sci": "Triticum monococcum",
+   "wild": "Wild einkorn (Triticum monococcum subsp. aegilopoides, syn. T. boeoticum)",
+   "wild_look": "Short grass under 70 cm, not very productive; ripe ears shatter and drop their kernels, which sit in tough husks (glumes).",
+   "changes": "Ear stays intact when ripe (non-shattering), so it can be reaped; slightly larger kernels. Self-pollination helped keep the new traits.",
+   "centre": "Karaca Dağ, SE Turkey (DNA fingerprinting)",
+   "lat": 37.67,
+   "lon": 39.83,
+   "cult": -9600,
+   "dom": -8800,
+   "spread": [
+    {
+     "place": "Cyprus",
+     "lat": 34.92,
+     "lon": 33.1,
+     "y": -7500,
+     "note": "Einkorn introduced to Cyprus c. 7500 BC",
+     "approx": true
+    },
+    {
+     "place": "British Isles and Scandinavia",
+     "lat": 52.5,
+     "lon": -1.5,
+     "y": -4000,
+     "note": "Wheats reach Britain and Scandinavia by 4000 BC",
+     "approx": true
+    },
+    {
+     "place": "Near East",
+     "lat": 36.5,
+     "lon": 40.0,
+     "y": -2000,
+     "note": "Declines in favour of emmer from c. 2000 BCE",
+     "approx": true
+    }
+   ],
+   "today": "A niche hulled wheat; contains gluten and more protein than modern red wheats.",
+   "fact": "Models once claimed domestication could take 20–200 years; archaeology shows over a thousand years of pre-domestication cultivation.",
+   "img": [
+    {
+     "file": "File:Einkorn Fuchs 1543 295.jpg",
+     "lic": "Public domain",
+     "artist": "Albert Meyer (illustrator of Leonhart Fuchs's herbal, 1543)",
+     "shows": "Einkorn plant, woodcut from Fuchs 1543 (domesticated)"
+    },
+    {
+     "file": "File:Wildeinkorn.jpg",
+     "lic": "Public domain",
+     "artist": "Mark Nesbitt",
+     "shows": "Wild einkorn (T. boeoticum) growing on Karadağ, Karaman province, Turkey"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Einkorn_wheat",
+    "https://en.wikipedia.org/wiki/Wheat",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+   ],
+   "cult_note": "Wild einkorn gathered at Abu Hureyra (c. 10,700–9000 BC) and Mureybet (c. 9800–9300 BC); wheat cultivation in the Fertile Crescent from c. 9600 BC",
+   "dom_note": "Domestic form after c. 8800 BC at Çayönü, Cafer Höyük and possibly Nevalı Çori; genetics also suggest several domestications"
+  },
+  {
+   "n": "Emmer wheat",
+   "sci": "Triticum turgidum subsp. dicoccum",
+   "wild": "Wild emmer (Triticum turgidum subsp. dicoccoides), itself a hybrid of wild Triticum urartu × goatgrass Aegilops speltoides",
+   "wild_look": "Grass 50–70 cm with 10–15 cm awned ears that shatter when ripe; spikelets drill into the soil with their awns; chaff hard to remove.",
+   "changes": "Ears no longer shatter, so whole spikelets can be harvested (hulled emmer); later free-threshing forms whose grains fall free when threshed.",
+   "centre": "Çayönü, SE Anatolia (genetics: domesticated once in SE Anatolia)",
+   "lat": 38.2164,
+   "lon": 39.7264,
+   "cult": -9600,
+   "dom": -8300,
+   "spread": [
+    {
+     "place": "Cyprus",
+     "lat": 34.92,
+     "lon": 33.1,
+     "y": -8600,
+     "note": "Introduced to Cyprus as early as 8600 BC",
+     "approx": true
+    },
+    {
+     "place": "Mehrgarh, Pakistan",
+     "lat": 29.383,
+     "lon": 67.617,
+     "y": -7000,
+     "note": "Small amounts in Period 1, 7000–5000 BC"
+    },
+    {
+     "place": "Greece (Thessaly)",
+     "lat": 39.66,
+     "lon": 22.341,
+     "y": -6500,
+     "note": "Emmer reaches Greece by 6500 BC",
+     "approx": true
+    },
+    {
+     "place": "Egypt",
+     "lat": 29.871,
+     "lon": 31.216,
+     "y": -6000,
+     "note": "Shortly after 6000 BC; later main Pharaonic wheat",
+     "approx": true
+    },
+    {
+     "place": "Germany and Spain",
+     "lat": 50.5,
+     "lon": 10.0,
+     "y": -5000,
+     "note": "Reaches Germany and Spain by 5000 BC",
+     "approx": true
+    }
+   ],
+   "today": "Still grown; one of the three grains sold as farro in Italy.",
+   "fact": "Emmer was the main wheat of Pharaonic Egypt; with barley it was the basis of Egyptian bread and beer.",
+   "img": [
+    {
+     "file": "File:Triticum dicoccum var atratum RF.jpg",
+     "lic": "CC BY 4.0",
+     "artist": "Robert Flogaus-Faust",
+     "shows": "Black emmer in a field near Allmendingen, Germany (colour photo)"
+    },
+    {
+     "file": "File:Wild wheat (Triticum dicoccoides).jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Davidbena",
+     "shows": "Wild emmer growing in spring in Israel"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Emmer",
+    "https://en.wikipedia.org/wiki/Wheat",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+   ],
+   "cult_note": "Wild emmer first cultivated in the southern Levant as early as 9600 BC; wild grains at Netiv HaGdud (PPNA)",
+   "dom_note": "Çayönü c. 8300–7600 BC: spikelet scars of a hulled domestic type; Tell Aswad c. 8500–8200 BC claimed (less reliable grain-size method); location still debated"
+  },
+  {
+   "n": "Bread wheat",
+   "sci": "Triticum aestivum",
+   "wild": "No wild ancestor: hybrid of a domesticated tetraploid (emmer-type) wheat × Tausch's goatgrass (Aegilops tauschii)",
+   "wild_look": "The goatgrass parent is a wild annual grass of the Caucasus, Caspian and Central Asia; it gave wheat its D genome.",
+   "changes": "Six chromosome sets (four from emmer, two from goatgrass), free-threshing grain; 20th-century dwarfing genes (Norin 10) powered the Green Revolution.",
+   "centre": "South Caucasus / south-west Caspian area",
+   "lat": 39.0,
+   "lon": 48.0,
+   "approx": true,
+   "cult": null,
+   "dom": -6400,
+   "spread": [
+    {
+     "place": "Çatalhöyük, Turkey",
+     "lat": 37.6667,
+     "lon": 32.828,
+     "y": -6400,
+     "note": "Oldest hexaploid wheat (DNA), 6400–6200 BC"
+    },
+    {
+     "place": "India",
+     "lat": 26.0,
+     "lon": 78.0,
+     "y": -3500,
+     "note": "Wheat cultivated in India around 3500 BC",
+     "approx": true
+    },
+    {
+     "place": "Lower Yellow River, China",
+     "lat": 35.0,
+     "lon": 116.0,
+     "y": -2600,
+     "note": "Wheat likely appears around 2600 BC",
+     "approx": true
+    },
+    {
+     "place": "Mexico City (New Spain)",
+     "lat": 19.43,
+     "lon": -99.13,
+     "y": 1525,
+     "note": "Juan Garrido sows first wheat in New Spain, 1520s",
+     "approx": true
+    },
+    {
+     "place": "North American prairies",
+     "lat": 50.0,
+     "lon": -100.0,
+     "y": 1870,
+     "note": "Prairie colonisation makes North America a grain exporter",
+     "approx": true
+    }
+   ],
+   "today": "~95% of all wheat; wheat (799 Mt, 2024) covers more land than any food crop.",
+   "fact": "World trade in wheat is greater than that of all other crops combined.",
+   "img": [
+    {
+     "file": "File:Triticum aestivum - Köhler–s Medizinal-Pflanzen-274.jpg",
+     "lic": "Public domain",
+     "artist": "Walther Otto Müller (Köhler's Medizinal-Pflanzen, 1897)",
+     "shows": "Colour plate of a flowering wheat plant and ripe ear"
+    },
+    {
+     "file": "File:Aegilops tauschii ARS-1.jpg",
+     "lic": "Public domain",
+     "artist": "Mark Nesbitt (en.wikipedia upload, 2006)",
+     "shows": "Spike of the wild goatgrass parent Aegilops tauschii (small, 196 px)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Common_wheat",
+    "https://en.wikipedia.org/wiki/Wheat",
+    "https://en.wikipedia.org/wiki/Aegilops_tauschii",
+    "https://en.wikipedia.org/wiki/Juan_Garrido"
+   ],
+   "cult_note": "Arose spontaneously in farmers' fields of already-domesticated wheat",
+   "dom_note": "Originated c. 8,000 years ago; oldest hexaploid wheat DNA from Çatalhöyük seeds, c. 6400–6200 BC"
+  },
+  {
+   "n": "Barley",
+   "sci": "Hordeum vulgare",
+   "wild": "Wild barley (Hordeum vulgare subsp. spontaneum)",
+   "wild_look": "Two-rowed ear with hulled grains and a brittle spike that falls apart when ripe; ground into flour at Ohalo II 23,000 years ago.",
+   "changes": "Non-brittle ear (Bt1/Bt2 mutations), then naked (hulless) and six-rowed forms with three fertile spikelets per node; grains became rounder.",
+   "centre": "Tell Aswad, Syria (earliest domestic two-row barley)",
+   "lat": 33.4,
+   "lon": 36.55,
+   "cult": -9700,
+   "dom": -8250,
+   "spread": [
+    {
+     "place": "Çatalhöyük, Turkey",
+     "lat": 37.6667,
+     "lon": 32.828,
+     "y": -7400,
+     "note": "First six-rowed barley, 9350–8950 years ago"
+    },
+    {
+     "place": "Eastern Finland",
+     "lat": 62.5,
+     "lon": 28.0,
+     "y": -4200,
+     "note": "Domesticated barley reaches eastern Finland by 4200 BC",
+     "approx": true
+    },
+    {
+     "place": "Harappan Indus valley",
+     "lat": 30.63,
+     "lon": 72.86,
+     "y": -3700,
+     "note": "Harappan barley, 5,700–3,300 years ago",
+     "approx": true
+    },
+    {
+     "place": "Korean Peninsula",
+     "lat": 36.5,
+     "lon": 127.5,
+     "y": -1500,
+     "note": "Grown since Early Mumun period, c. 1500–850 BC",
+     "approx": true
+    },
+    {
+     "place": "Tibet",
+     "lat": 29.65,
+     "lon": 91.1,
+     "y": 450,
+     "note": "Staple of Tibetan cuisine since the 5th century AD",
+     "approx": true
+    }
+   ],
+   "today": "Fourth grain by quantity (146 Mt, 2023); 70% feeds animals, 30% beer, whisky, food.",
+   "fact": "Barley beer was probably one of the first alcoholic drinks; barley later served as currency (Sumerian ration tablets).",
+   "img": [
+    {
+     "file": "File:Hordeum vulgare illustration (01).jpg",
+     "lic": "Public domain",
+     "artist": "Nikolaus Thomas Host, Icones et descriptiones Graminum austriacorum (1801–09)",
+     "shows": "Colour botanical plate of barley ear and plant"
+    },
+    {
+     "file": "File:Wild barley (Hordeum spontaneum).jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Davidbena",
+     "shows": "Wild barley growing in Israel (colour photo)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Barley",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops",
+    "https://en.wikipedia.org/wiki/Gilgal_I",
+    "https://en.wikipedia.org/wiki/Ohalo_II"
+   ],
+   "cult_note": "Gilgal I granary of thousands of wild barley grains, c. 11,700–10,550 years ago: cultivation before domestication",
+   "dom_note": "Domestic two-row barley at Tell Aswad, c. 10,200–9,550 years ago; Jarmo 9000–7000 BC; Tibet and Ethiopia possibly extra centres (debated)"
+  },
+  {
+   "n": "Lentil",
+   "sci": "Lens culinaris (Vicia lens)",
+   "wild": "Wild lentil (Lens culinaris subsp. orientalis / Lens orientalis)",
+   "wild_look": "Small bushy herb; wild pods burst open to scatter seeds, and the seeds stay dormant instead of sprouting together.",
+   "changes": "Pods that stay closed (indehiscent), seeds without dormancy, and seed size rising through the PPNB (Yiftah'el seeds ~4.2 mm wide).",
+   "centre": "Yiftah'el, Galilee, Israel",
+   "lat": 32.7554,
+   "lon": 35.2277,
+   "cult": -9050,
+   "dom": -8150,
+   "spread": [
+    {
+     "place": "Tell Ramad, Syria",
+     "lat": 33.3602,
+     "lon": 35.9489,
+     "y": -6250,
+     "note": "Carbonised lentils, 6250–5950 BC"
+    },
+    {
+     "place": "Argissa-Magula, Thessaly, Greece",
+     "lat": 39.6599,
+     "lon": 22.3412,
+     "y": -6000,
+     "note": "Lentils 6000–5000 BC"
+    },
+    {
+     "place": "Tepe Sabz, Iran",
+     "lat": 32.5,
+     "lon": 47.5,
+     "y": -5500,
+     "note": "Lentils 5500–5000 BC",
+     "approx": true
+    },
+    {
+     "place": "India and Pakistan",
+     "lat": 26.0,
+     "lon": 75.0,
+     "y": -2500,
+     "note": "Lentils appear c. 2500–2000 BC",
+     "approx": true
+    }
+   ],
+   "today": "7 Mt dry lentils (2023), 72% from Australia, Canada and India.",
+   "fact": "At Yiftah'el, Israel, archaeologists found a hoard of more than one million carbonised lentils about 10,000 years old.",
+   "img": [
+    {
+     "file": "File:Illustration Lens culinaris0.jpg",
+     "lic": "Public domain",
+     "artist": "Otto Wilhelm Thomé, Flora von Deutschland, Österreich und der Schweiz (1885)",
+     "shows": "Colour botanical plate of lentil plant, flowers and pods"
+    },
+    {
+     "file": "File:Lens culinaris Sturm8.jpg",
+     "lic": "Public domain",
+     "artist": "Jacob Sturm (Johann Georg Sturm, 1796)",
+     "shows": "Colour plate of lentil (Vicia lens)"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Lentil",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8030269/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680861/"
+   ],
+   "cult_note": "Pre-domestication cultivation at Jerf el Ahmar (Syria) and Netiv HaGdud, c. 11,000 cal BP (PPNA); wild lentils gathered at Ohalo II 23,000 BP",
+   "dom_note": "Yiftah'el hoard of >1 million lentils, 10,100–9,700 cal BP: widely cultivated; full domestication during the PPNB (one review dates Yiftah'el 6800 BC)"
+  },
+  {
+   "n": "Pea",
+   "sci": "Pisum sativum",
+   "wild": "Wild pea (Pisum sativum subsp. elatius); P. fulvum gave a second, separate domestication",
+   "wild_look": "Climbing wild vine of the Mediterranean and Near East; ripe pods split open to shed seeds, which have rough coats and stay dormant.",
+   "changes": "Pods that stay shut, seeds that sprout without dormancy, smoother seed coats and bigger seeds; genomics shows two independent domestications.",
+   "centre": "Southern Turkey / Fertile Crescent (Çayönü area)",
+   "lat": 38.2164,
+   "lon": 39.7264,
+   "approx": true,
+   "cult": -8550,
+   "dom": -5850,
+   "spread": [
+    {
+     "place": "Nile Delta, Egypt",
+     "lat": 30.8,
+     "lon": 31.0,
+     "y": -4800,
+     "note": "Early finds c. 4800–4400 BC",
+     "approx": true
+    },
+    {
+     "place": "Georgia (Caucasus)",
+     "lat": 41.7,
+     "lon": 44.8,
+     "y": -4500,
+     "note": "Present in the 5th millennium BC",
+     "approx": true
+    },
+    {
+     "place": "Fennoscandia",
+     "lat": 60.0,
+     "lon": 15.0,
+     "y": -4000,
+     "note": "Pea finds date back to 4000 BC",
+     "approx": true
+    },
+    {
+     "place": "Harappan Indus region",
+     "lat": 30.63,
+     "lon": 72.86,
+     "y": -2250,
+     "note": "Harappan peas 2250–1750 BC",
+     "approx": true
+    }
+   ],
+   "today": "21.5 Mt green peas (2023); China and India grow 86%.",
+   "fact": "Gregor Mendel's mid-19th-century pea crosses founded genetics, but were ignored until about 1900.",
+   "img": [
+    {
+     "file": "File:Illustration Pisum sativum0.jpg",
+     "lic": "Public domain",
+     "artist": "Otto Wilhelm Thomé, Flora von Deutschland (1885)",
+     "shows": "Colour botanical plate of garden pea"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Pea",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680861/"
+   ],
+   "cult_note": "A Neolithic founder crop, domesticated in the Pre-Pottery Neolithic (10,500–7,500 years ago); exact start unclear",
+   "dom_note": "Smooth-coated domestic peas 5850–5600 BC; Wikipedia: seeds with domestic traits ≥7,000 years old in Turkey (slow change)"
+  },
+  {
+   "n": "Chickpea",
+   "sci": "Cicer arietinum",
+   "wild": "Cicer reticulatum (closest wild relative, interfertile)",
+   "wild_look": "Rare wild annual of a small area of SE Turkey and nearby Syria; smaller seeds that need a dormancy period and ripen unevenly.",
+   "changes": "Large palatable seeds without dormancy, seeds easy to free from pods, even ripening, and a shift to spring sowing.",
+   "centre": "Çayönü, SE Turkey",
+   "lat": 38.2164,
+   "lon": 39.7264,
+   "cult": -8000,
+   "dom": -7500,
+   "spread": [
+    {
+     "place": "Hacilar, Turkey",
+     "lat": 37.57,
+     "lon": 30.08,
+     "y": -5450,
+     "note": "Chickpeas dated 5450 BCE",
+     "approx": true
+    },
+    {
+     "place": "Indian subcontinent (e.g. Daimabad)",
+     "lat": 19.5,
+     "lon": 74.7,
+     "y": -1750,
+     "note": "Several sites, 1750–1500 BCE",
+     "approx": true
+    },
+    {
+     "place": "Deir el-Medina, Egypt",
+     "lat": 25.728,
+     "lon": 32.596,
+     "y": -1400,
+     "note": "Bronze Age chickpeas, 1400 BCE",
+     "approx": true
+    },
+    {
+     "place": "New Spain (Mexico)",
+     "lat": 19.43,
+     "lon": -99.13,
+     "y": 1550,
+     "note": "Spanish and Portuguese bring chickpeas, 16th century",
+     "approx": true
+    }
+   ],
+   "today": "India grows 75% of the world's chickpeas (2023).",
+   "fact": "Genomes of 3,366 chickpeas show a strong bottleneck about 10,000 years ago, the mark of domestication.",
+   "img": [
+    {
+     "file": "File:Cicer sativum - Cece rosso - Poids chiche. (Chick pea, Garbanzo) (NYPL b14444147-1130776)(1)b.png",
+     "lic": "Public domain",
+     "artist": "Hortus Romanus (Bonelli, Sabbati & Martelli), 1772; scan NYPL",
+     "shows": "Hand-coloured engraving of chickpea plant"
+    },
+    {
+     "file": "File:Cicer arietinum Taub129.png",
+     "lic": "Public domain",
+     "artist": "Paul Taubert (1891)",
+     "shows": "Line drawing of chickpea plant, flower and pod"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Chickpea",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680861/"
+   ],
+   "cult_note": "Chickpeas with other pulses at Tell el-Kerkh and Abu Hureyra, Syria, 8th millennium BCE",
+   "dom_note": "Çayönü, 7500–6800 BCE; cultivation of domestic crops documented from 7500 BCE"
+  },
+  {
+   "n": "Flax",
+   "sci": "Linum usitatissimum",
+   "wild": "Pale flax (Linum bienne)",
+   "wild_look": "Slender pale-blue flax from Western Europe to the Caucasus; its wild fibres were spun and dyed 30,000 years ago (Dzudzuana Cave).",
+   "changes": "First selected for oil: bigger seeds (Tell Ramad); later tall fibre types for linen. Early domesticates still had seed capsules that split open.",
+   "centre": "Tell Ramad, Syria",
+   "lat": 33.3602,
+   "lon": 35.9489,
+   "cult": -7950,
+   "dom": -7050,
+   "spread": [
+    {
+     "place": "Switzerland and Germany",
+     "lat": 47.5,
+     "lon": 8.5,
+     "y": -3000,
+     "note": "Flax reaches Switzerland and Germany by 5,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "India and China",
+     "lat": 30.0,
+     "lon": 80.0,
+     "y": -3000,
+     "note": "Cultivated at least 5,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "Aachen (Frankish empire)",
+     "lat": 50.78,
+     "lon": 6.08,
+     "y": 780,
+     "note": "Charlemagne revives flax growing, 8th century",
+     "approx": true
+    }
+   ],
+   "today": "876,000 t fibre flax (2022), 75% grown in France.",
+   "fact": "Ancient Egyptian priests wore only linen, and mummies were wrapped in it.",
+   "img": [
+    {
+     "file": "File:Linum usitatissimum - Köhler–s Medizinal-Pflanzen-088.jpg",
+     "lic": "Public domain",
+     "artist": "Walther Otto Müller (Köhler's Medizinal-Pflanzen, 1897)",
+     "shows": "Colour plate of flowering flax"
+    },
+    {
+     "file": "File:Linum bienne kz01.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Krzysztof Ziarnek, Kenraiz",
+     "shows": "Wild pale flax flowering on the coast of Portugal"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Flax",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+   ],
+   "cult_note": "First appears at Tell es-Sultan (Jericho), c. 9900–9550 years ago",
+   "dom_note": "Domestic oilseed flax with larger seeds at Tell Ramad, and flax fabric at Çatalhöyük, by c. 9,000 years ago"
+  },
+  {
+   "n": "Olive",
+   "sci": "Olea europaea",
+   "wild": "Wild olive / oleaster (Olea europaea var. sylvestris)",
+   "wild_look": "Wild olive trees have smaller, thinner-fleshed fruits than cultivated trees.",
+   "changes": "Bigger, fleshier, oil-rich fruit; good trees cloned by cuttings, layering or grafting, because trees from seed yield poorly.",
+   "centre": "Galilee (Ein Zippori area)",
+   "lat": 32.75,
+   "lon": 35.28,
+   "approx": true,
+   "cult": -6000,
+   "dom": -4000,
+   "spread": [
+    {
+     "place": "Submerged settlement south of Haifa (Kfar Samir)",
+     "lat": 32.79,
+     "lon": 34.95,
+     "y": -4500,
+     "note": "Olive oil production c. 4500 BC",
+     "approx": true
+    },
+    {
+     "place": "Crete",
+     "lat": 35.24,
+     "lon": 24.9,
+     "y": -3500,
+     "note": "Earliest olive oil amphorae, Early Minoan, 3500 BC",
+     "approx": true
+    },
+    {
+     "place": "Ebla, Syria",
+     "lat": 35.798,
+     "lon": 36.798,
+     "y": -2400,
+     "note": "Palace archives record royal olive lands, 2400 BC",
+     "approx": true
+    },
+    {
+     "place": "Chile / Spanish America",
+     "lat": -33.45,
+     "lon": -70.67,
+     "y": 1560,
+     "note": "Olives reach the Americas, 16th century (sources differ)",
+     "approx": true
+    }
+   ],
+   "today": "Spain makes about 25% of world olive oil; the EU nearly 60%.",
+   "fact": "About 100,000 years ago people on Morocco's Atlantic coast used olive wood for fuel and probably ate olives.",
+   "img": [
+    {
+     "file": "File:Olea europaea - Köhler–s Medizinal-Pflanzen-229.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1897)",
+     "shows": "Colour plate of flowering and fruiting olive branch"
+    },
+    {
+     "file": "File:Olea europaea var. sylvestris kz01.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Krzysztof Ziarnek, Kenraiz",
+     "shows": "Wild olive at Pulo do Lobo, Guadiana valley, Portugal"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Olive",
+    "https://en.wikipedia.org/wiki/Olive_oil"
+   ],
+   "cult_note": "By 6000 BC olives were turned into oil in Galilee (wild or tended trees unclear)",
+   "dom_note": "First cultivated in the eastern Mediterranean 6000–4000 BC; exact date and place unclear (debated)"
+  },
+  {
+   "n": "Grape (wine)",
+   "sci": "Vitis vinifera",
+   "wild": "Wild grapevine (Vitis vinifera subsp. sylvestris)",
+   "wild_look": "Forest climber with male and female flowers on separate plants; only pollinated females bear small (~6 mm) dark berries.",
+   "changes": "Hermaphrodite self-pollinating flowers; much bigger berries (up to 3 cm), green, red or black; narrower pips.",
+   "centre": "Gadachrili Gora, Kvemo Kartli, Georgia",
+   "lat": 41.49,
+   "lon": 44.82,
+   "cult": -6000,
+   "dom": -6000,
+   "spread": [
+    {
+     "place": "Hajji Firuz, NW Iran",
+     "lat": 36.99,
+     "lon": 45.47,
+     "y": -5000,
+     "note": "Wine residues in jars, c. 5000 BC",
+     "approx": true
+    },
+    {
+     "place": "Greek Macedonia",
+     "lat": 40.6,
+     "lon": 22.5,
+     "y": -4500,
+     "note": "Wine production by c. 4500 BC",
+     "approx": true
+    },
+    {
+     "place": "Areni-1 cave, Armenia",
+     "lat": 39.7313,
+     "lon": 45.2036,
+     "y": -4100,
+     "note": "Oldest known winery, c. 4100 BC"
+    },
+    {
+     "place": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "y": 1530,
+     "note": "Vineyards established in Mexico by 1530",
+     "approx": true
+    },
+    {
+     "place": "Peru",
+     "lat": -13.5,
+     "lon": -72.0,
+     "y": 1550,
+     "note": "Vineyards in Peru by the 1550s, Chile soon after",
+     "approx": true
+    }
+   ],
+   "today": "Vitis vinifera grapes make the majority of the world's wine.",
+   "fact": "Armenia's Areni-1 cave held a 6,000-year-old winery: wine press, fermentation vats, jars and cups.",
+   "img": [
+    {
+     "file": "File:Vitis vinifera - Köhler–s Medizinal-Pflanzen-145.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1897)",
+     "shows": "Colour plate of flowering and fruiting grapevine"
+    },
+    {
+     "file": "File:Vitis vinifera sylvestris Closeup SierraMadrona.jpg",
+     "lic": "Public domain",
+     "artist": "Javier martin",
+     "shows": "Wild grapevine close-up, Sierra Madrona, Spain"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Vitis_vinifera",
+    "https://en.wikipedia.org/wiki/History_of_wine",
+    "https://en.wikipedia.org/wiki/Areni-1_winery",
+    "https://en.wikipedia.org/wiki/Gadachrili_Gora"
+   ],
+   "cult_note": "Earliest domesticated grapes and wine residues at Gadachrili Gora and Shulaveri, Georgia, c. 6000 BC",
+   "dom_note": "Gadachrili Gora c. 6000 BC; pip-shape studies instead suggest 4100–3000 BC (debated)"
+  },
+  {
+   "n": "Date palm",
+   "sci": "Phoenix dactylifera",
+   "wild": "Uncertain: wild/feral Phoenix dactylifera; North African dates also share genome with Cretan Phoenix theophrasti",
+   "wild_look": "Tall palm with separate male and female trees; only females bear fruit, and only when wind carries pollen from a male.",
+   "changes": "Hand-pollination, so one male can serve up to 100 females; growers keep mostly fruiting females and select sweet varieties.",
+   "centre": "Eastern Arabia / Persian Gulf (Dalma island, UAE)",
+   "lat": 24.517,
+   "lon": 52.317,
+   "cult": -7000,
+   "dom": -5500,
+   "spread": [
+    {
+     "place": "Harappan Indus valley",
+     "lat": 30.63,
+     "lon": 72.86,
+     "y": -2600,
+     "note": "Dates throughout Harappan period, 2600–1900 BCE",
+     "approx": true
+    },
+    {
+     "place": "Mexico",
+     "lat": 19.43,
+     "lon": -99.13,
+     "y": 1550,
+     "note": "Introduced to Mexico as early as the 16th century",
+     "approx": true
+    },
+    {
+     "place": "Mission San Diego de Alcalá, California",
+     "lat": 32.7844,
+     "lon": -117.1064,
+     "y": 1769,
+     "note": "Spaniards bring dates to California by 1769"
+    }
+   ],
+   "today": "9.9 Mt dates (2024); Saudi Arabia, Egypt, Algeria and Iran grow 63%.",
+   "fact": "A 2,000-year-old Judean date seed sprouted into a palm named Methuselah; seven ancient seeds have now grown.",
+   "img": [
+    {
+     "file": "File:Michel Garnier Phoenix dactylifera.jpg",
+     "lic": "Public domain",
+     "artist": "Michel Garnier (1753–1829), painted on Mauritius 1801–09",
+     "shows": "Painting of date palm fruit clusters"
+    },
+    {
+     "file": "File:NdP Phoenix dactylifera.png",
+     "lic": "Public domain",
+     "artist": "Gotthilf Heinrich von Schubert, Naturgeschichte des Pflanzenreichs (plate XLIX, fragment)",
+     "shows": "Colour plate of a date palm"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Date_palm"
+   ],
+   "cult_note": "Claimed date cultivation at Mehrgarh, Pakistan, c. 7000 BCE; Arabia since the 6th millennium BCE",
+   "dom_note": "Archaeological date cultivation in eastern Arabia, 5530–5320 cal BC; origin region debated (Gulf, Mesopotamia–Egypt or India)"
+  },
+  {
+   "n": "Fig (early cultivation, Gilgal I)",
+   "sci": "Ficus carica",
+   "wild": "Wild fig / caprifig (wild Ficus carica)",
+   "wild_look": "Wild figs depend on the tiny fig wasp Blastophaga psenes; without pollination the fruit tends to drop.",
+   "changes": "A seedless parthenocarpic mutant that ripens without wasps; kept alive only by planting cut branches (vegetative propagation).",
+   "centre": "Gilgal I, Jordan Valley (13 km north of Jericho)",
+   "lat": 32.0328,
+   "lon": 35.4756,
+   "cult": -9300,
+   "dom": -9300,
+   "spread": [
+    {
+     "place": "Athens (Aristotle, Theophrastus)",
+     "lat": 37.98,
+     "lon": 23.73,
+     "y": -340,
+     "note": "Greek writers describe tying wild figs to cultivated trees",
+     "approx": true
+    },
+    {
+     "place": "Rome (Cato the Elder)",
+     "lat": 41.9,
+     "lon": 12.5,
+     "y": -160,
+     "note": "De Agri Cultura lists five fig strains",
+     "approx": true
+    },
+    {
+     "place": "California (Spanish missions)",
+     "lat": 32.7844,
+     "lon": -117.1064,
+     "y": 1769,
+     "note": "Junípero Serra's missionaries bring first figs"
+    },
+    {
+     "place": "California (Smyrna figs)",
+     "lat": 36.75,
+     "lon": -119.77,
+     "y": 1880,
+     "note": "True Smyrna figs introduced by Rixford",
+     "approx": true
+    }
+   ],
+   "today": "1.26 Mt figs (2020); Turkey grows a quarter.",
+   "fact": "Gilgal's figs may be the oldest known crop, about a thousand years before wheat and barley (debated).",
+   "img": [
+    {
+     "file": "File:Ficus carica L, 1771.jpg",
+     "lic": "Public domain",
+     "artist": "Georg Dionysius Ehret, in C. J. Trew, Plantae selectae vol. 8, t. 73 (1771)",
+     "shows": "Hand-coloured engraving of fig branch and fruit"
+    },
+    {
+     "file": "File:Illustration Ficus carica0.jpg",
+     "lic": "Public domain",
+     "artist": "Otto Wilhelm Thomé (biolib.de scan)",
+     "shows": "Colour botanical plate of fig"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Common_fig",
+    "https://en.wikipedia.org/wiki/Gilgal_I",
+    "https://doi.org/10.1126/science.1125910",
+    "https://doi.org/10.1126/science.1132636"
+   ],
+   "cult_note": "Nine parthenocarpic figs, c. 9400–9200 BC, stored with wild barley, wild oats and acorns at Gilgal I",
+   "dom_note": "Interpreted as planted, domesticated figs ~1,000 years before cereals (debated: could be wild unpollinated figs, Lev-Yadun et al. 2006)"
+  },
+  {
+   "n": "Sorghum",
+   "sci": "Sorghum bicolor",
+   "wild": "Wild Sorghum bicolor (wild races; usually named subsp. verticilliflorum — not stated in Wikipedia)",
+   "wild_look": "Tall wild savanna grass of north-east Africa; ripe grains drop from the head (shattering).",
+   "changes": "Non-shattering heads holding up to 3,000 seeds; first race (bicolor) kept tight husks; later races caudatum, durra and guinea suited new regions.",
+   "centre": "Kassala, eastern Sudan (Atbara–Gash rivers)",
+   "lat": 15.4567,
+   "lon": 36.4042,
+   "cult": null,
+   "dom": -3500,
+   "spread": [
+    {
+     "place": "Predynastic Egypt",
+     "lat": 26.0,
+     "lon": 32.0,
+     "y": -3100,
+     "note": "Sorghum bread in graves, c. 3100 BCE",
+     "approx": true
+    },
+    {
+     "place": "Indian subcontinent",
+     "lat": 19.0,
+     "lon": 76.0,
+     "y": -2000,
+     "note": "Reaches India around 4,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "West Africa",
+     "lat": 12.0,
+     "lon": -2.0,
+     "y": -1000,
+     "note": "Reaches West Africa about 3,000 years ago",
+     "approx": true
+    },
+    {
+     "place": "Al-Andalus, Spain",
+     "lat": 37.88,
+     "lon": -4.78,
+     "y": 900,
+     "note": "Spread by the Arab Agricultural Revolution, Middle Ages",
+     "approx": true
+    }
+   ],
+   "today": "World's fifth most important cereal; 57 Mt (2023), US grows 14%.",
+   "fact": "A piece of sorghum bread from a Predynastic Egyptian grave, about 5,100 years old, is in Turin's Egyptian Museum.",
+   "img": [
+    {
+     "file": "File:Sorghum bicolor illustration (01).jpg",
+     "lic": "Public domain",
+     "artist": "Nikolaus Thomas Host, Icones et descriptiones Graminum austriacorum (1801–09)",
+     "shows": "Colour botanical plate of sorghum panicle and plant"
+    },
+    {
+     "file": "File:Flore médicale des Antilles, ou, Traité des plantes usuelles (10559146133) (cropped).jpg",
+     "lic": "Public domain",
+     "artist": "Michel Étienne & J. Théodore Descourtilz (1829)",
+     "shows": "Colour plate of sorghum, Flore médicale des Antilles"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Sorghum_bicolor"
+   ],
+   "cult_note": "Not separately dated",
+   "dom_note": "Domesticated sorghum near Kassala, 3500–3000 BCE (Butana Group); domesticated >5,000 years ago"
+  },
+  {
+   "n": "Pearl millet",
+   "sci": "Cenchrus americanus (syn. Pennisetum glaucum)",
+   "wild": "Wild pearl millet (Pennisetum violaceum, classed within P. glaucum since 1977)",
+   "wild_look": "Bristly wild grass of the southern Sahara and Sahel with small grains that fall when ripe (shattering).",
+   "changes": "Non-shattering heads, larger grains and stalked spikelet clusters; extremely hardy—grows where drought, poor soil and heat defeat maize or wheat.",
+   "centre": "Tilemsi Valley, northern Mali",
+   "lat": 17.0,
+   "lon": 0.3,
+   "approx": true,
+   "cult": -6000,
+   "dom": -2500,
+   "spread": [
+    {
+     "place": "Dhar Tichitt, Mauritania",
+     "lat": 18.45,
+     "lon": -9.5,
+     "y": -2000,
+     "note": "Western branch of millet farming, after 2000 cal BC",
+     "approx": true
+    },
+    {
+     "place": "Kintampo, Ghana",
+     "lat": 8.05,
+     "lon": -1.7167,
+     "y": -2000,
+     "note": "Kintampo farmers (2500–1400 BCE) take millet south",
+     "approx": true
+    },
+    {
+     "place": "Indian subcontinent",
+     "lat": 26.9,
+     "lon": 72.0,
+     "y": -2000,
+     "note": "Arrives 2000–1700 BC (other sources 1500–1100 BCE)",
+     "approx": true
+    }
+   ],
+   "today": "Most widely grown millet; India is the largest producer.",
+   "fact": "In Nigeria it is grown mixed with sorghum and cowpea, so one crop's failure never ruins the whole harvest.",
+   "img": [
+    {
+     "file": "File:Pennisetum glaucum MHNT.BOT.2013.22.56.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Roger Culos",
+     "shows": "Pearl millet grains and seeds (museum specimen photo)"
+    },
+    {
+     "file": "File:Pearl millet in summer.jpg",
+     "lic": "CC BY 4.0",
+     "artist": "Herovaclicks",
+     "shows": "Pearl millet growing in fields, India"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Pearl_millet",
+    "https://en.wikipedia.org/wiki/Millet",
+    "https://en.wikipedia.org/wiki/Kintampo_culture",
+    "https://doi.org/10.1016/j.jas.2010.09.007"
+   ],
+   "cult_note": "Isozyme studies: domestication north-east of the Senegal River, tentatively c. 6000 BC (estimate)",
+   "dom_note": "Domesticated pearl millet impressed in pottery, Tilemsi Valley, Mali, 2500–2000 BCE (Manning et al. 2011)"
+  },
+  {
+   "n": "African rice",
+   "sci": "Oryza glaberrima",
+   "wild": "Wild African rice (Oryza barthii)",
+   "wild_look": "Wild rice of open West African wetlands; its seed heads shatter, scattering the grains as they ripen.",
+   "changes": "Less shattering (though on average about half the grains still fall); hardy: tolerates deep water, drought, iron toxicity and poor soils.",
+   "centre": "Inner Niger Delta, Mali",
+   "lat": 15.2,
+   "lon": -4.1,
+   "cult": null,
+   "dom": -1000,
+   "spread": [
+    {
+     "place": "Brazil",
+     "lat": -12.97,
+     "lon": -38.5,
+     "y": 1550,
+     "note": "Carried on slave ships, arriving probably by the 1550s",
+     "approx": true
+    },
+    {
+     "place": "South Carolina",
+     "lat": 32.78,
+     "lon": -79.93,
+     "y": 1784,
+     "note": "U.S. arrival 1784 (date flagged dubious)",
+     "approx": true
+    },
+    {
+     "place": "West Africa",
+     "lat": 13.0,
+     "lon": -5.0,
+     "y": 1880,
+     "note": "Asian rice arrives late 1800s and gradually replaces it",
+     "approx": true
+    }
+   ],
+   "today": "About 20% of West Africa's commercial rice; mostly replaced by Asian rice.",
+   "fact": "Enslaved West African rice farmers brought both the seed and the know-how; planters marketed captives for their rice skills.",
+   "img": [
+    {
+     "file": "File:African rice niger.png",
+     "lic": "CC BY 3.0",
+     "artist": "Jun-Ichi Sakagami",
+     "shows": "African rice growing along the Niger River in Niger (small, 400 px)"
+    },
+    {
+     "file": "File:Oryza glaberrima seeds.jpg",
+     "lic": "Public domain",
+     "artist": "Jose Hernandez, USDA-NRCS PLANTS Database",
+     "shows": "African rice grains"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Oryza_glaberrima"
+   ],
+   "cult_note": "Not separately dated; wild rice retreated with the drying climate and came to rely on people",
+   "dom_note": "Domesticated about 3,000 years ago in the inland delta of the Upper Niger"
+  },
+  {
+   "n": "Coffee (arabica)",
+   "sci": "Coffea arabica",
+   "wild": "Wild Coffea arabica of Ethiopian forests (itself a natural hybrid of C. canephora × C. eugenioides)",
+   "wild_look": "Forest tree 9–12 m tall with open branches, wild in south Ethiopia, South Sudan's Boma Plateau and Yemen.",
+   "changes": "Grown as pruned shrubs on terraced Yemeni slopes; nearly all arabica varieties descend from plants farmed in Yemen.",
+   "centre": "Haraz Mountains, Yemen (wild origin: SW Ethiopia)",
+   "lat": 15.1667,
+   "lon": 43.75,
+   "cult": 1450,
+   "dom": 1450,
+   "spread": [
+    {
+     "place": "Istanbul",
+     "lat": 41.01,
+     "lon": 28.97,
+     "y": 1554,
+     "note": "First coffeehouse in Istanbul, 1554",
+     "approx": true
+    },
+    {
+     "place": "Venice",
+     "lat": 45.44,
+     "lon": 12.33,
+     "y": 1645,
+     "note": "First mainland European coffeehouse, 1645",
+     "approx": true
+    },
+    {
+     "place": "Java, Indonesia",
+     "lat": -6.6,
+     "lon": 106.8,
+     "y": 1699,
+     "note": "Arabica production begins in Indonesia, 1699",
+     "approx": true
+    },
+    {
+     "place": "Martinique",
+     "lat": 14.64,
+     "lon": -61.02,
+     "y": 1720,
+     "note": "Gabriel de Clieu brings seedlings to the New World",
+     "approx": true
+    },
+    {
+     "place": "Brazil",
+     "lat": -22.0,
+     "lon": -47.0,
+     "y": 1852,
+     "note": "Becomes world's largest coffee producer by 1852",
+     "approx": true
+    }
+   ],
+   "today": "Arabica is about 60% of world coffee production.",
+   "fact": "Arabica was born as a natural hybrid of two coffee species between 1.08 million and 543,000 years ago.",
+   "img": [
+    {
+     "file": "File:Coffea arabica - Köhler–s Medizinal-Pflanzen-189.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+     "shows": "Colour plate of coffee branch with flowers and cherries"
+    },
+    {
+     "file": "File:Coffea arabica Blanco1.53.png",
+     "lic": "Public domain",
+     "artist": "Francisco Manuel Blanco, Flora de Filipinas (1880–83)",
+     "shows": "Colour plate of coffee plant"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/History_of_coffee",
+    "https://en.wikipedia.org/wiki/Coffea_arabica",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ],
+   "cult_note": "Cultivated in Yemen's highlands (Haraz, Bani Matar) by the 15th century; no confirmed coffee drinking earlier",
+   "dom_note": "Same: Yemen became the first large-scale production zone; Harar tradition in Ethiopia"
+  },
+  {
+   "n": "Oil palm",
+   "sci": "Elaeis guineensis",
+   "wild": "Wild and semi-wild groves of the same species, West and south-west Africa (Angola to the Gambia)",
+   "wild_look": "Tall African palm bearing large bunches of oily fruit, each around a thick-shelled nut.",
+   "changes": "Modern tenera palms (thick-shelled dura × shell-less pisifera) have thin shells: about 30% more oil per fruit.",
+   "centre": "Kintampo, Ghana (early use); domesticated along West Africa's Atlantic coast",
+   "lat": 8.05,
+   "lon": -1.7167,
+   "cult": -2000,
+   "dom": null,
+   "spread": [
+    {
+     "place": "Abydos, Egypt",
+     "lat": 26.185,
+     "lon": 31.919,
+     "y": -3000,
+     "note": "Possible palm oil in tomb (doubtful: maybe date oil)"
+    },
+    {
+     "place": "Bogor, Java",
+     "lat": -6.5975,
+     "lon": 106.7983,
+     "y": 1848,
+     "note": "Dutch introduce oil palms to Java",
+     "approx": true
+    },
+    {
+     "place": "Malaya",
+     "lat": 3.0,
+     "lon": 101.5,
+     "y": 1910,
+     "note": "Introduced to British Malaya by Sime and Darby",
+     "approx": true
+    }
+   ],
+   "today": "Palm oil ~36% of oil-crop oils (2017); Indonesia produced 60% (2022).",
+   "fact": "The palm-nut vulture lives largely on oil palm fruit: over 60% of an adult's diet, over 90% of a juvenile's.",
+   "img": [
+    {
+     "file": "File:Elaeis guineensis - Köhler–s Medizinal-Pflanzen-056.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+     "shows": "Colour plate of whole oil palm, male and female inflorescences and fruit"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Elaeis_guineensis",
+    "https://en.wikipedia.org/wiki/Palm_oil",
+    "https://en.wikipedia.org/wiki/Kintampo_culture"
+   ],
+   "cult_note": "Oil palm used at Kintampo starting at least 4,000 years ago",
+   "dom_note": "Semi-domesticated in West Africa; no clear date"
+  },
+  {
+   "n": "White yam (Guinea yam)",
+   "sci": "Dioscorea rotundata",
+   "wild": "Dioscorea praehensilis (forest yam), possibly with D. abyssinica (savanna) by hybridisation",
+   "wild_look": "Climbing vine with a starchy tuber; many wild Dioscorea are toxic—wild bitter yams were even used to poison animals.",
+   "changes": "Large edible tubers grown from 'seed yams' (tuber pieces); farmers keep up to 30% of the harvest to replant.",
+   "centre": "Niger River basin (Benin/Nigeria)",
+   "lat": 10.0,
+   "lon": 4.5,
+   "approx": true,
+   "cult": null,
+   "dom": null,
+   "spread": [],
+   "today": "75 Mt yams (2020), Nigeria 67%; about 95% of yams are grown in Africa.",
+   "fact": "Yams were domesticated three separate times: D. rotundata in Africa, D. alata in Asia, D. trifida in South America.",
+   "img": [
+    {
+     "file": "File:Own yam.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Akadeby",
+     "shows": "White yam tuber"
+    },
+    {
+     "file": "File:Yam at monday market kaduna state 01.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Dorcas Atule",
+     "shows": "White yams at Monday market, Kaduna, Nigeria"
+    }
+   ],
+   "src": [
+    "https://en.wikipedia.org/wiki/Yam_(vegetable)",
+    "https://en.wikipedia.org/wiki/Dioscorea_rotundata",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6527260/"
+   ],
+   "cult_note": "Not dated archaeologically",
+   "dom_note": "Genomics: domesticated from West African D. praehensilis; expansion began in the Niger basin (Scarcelli et al. 2019)"
+  },
+  {
+   "n": "Asian rice",
+   "sci": "Oryza sativa",
+   "wild": "Common wild rice (Oryza rufipogon)",
+   "wild_look": "Marsh grass whose awned grains drop (shatter) as they ripen, so most seed fell before anyone could harvest it.",
+   "changes": "Non-shattering spikelets, shorter or no awns, upright dense plants. At Tianluoshan non-shattering spikelet bases rose from 27% to 39% in c. 300 years.",
+   "centre": "Lower Yangtze, Zhejiang (Shangshan; Tianluoshan near Hemudu)",
+   "lat": 29.96,
+   "lon": 121.34,
+   "cult": -7400,
+   "cult_note": "Shangshan rice phytoliths directly dated c. 9,400 cal BP, already closer to domestic forms (Zuo et al. 2017); Wikipedia gives domestication 13,500-8,200 years ago",
+   "dom": -4900,
+   "dom_note": "Tianluoshan: non-shattering spikelet bases 27%->39% between 6,900 and 6,600 years ago (Fuller et al. 2009); domestication was gradual (debated pace)",
+   "spread": [
+    {
+     "place": "Northern China (Yangshao millet farmers)",
+     "lat": 34.8,
+     "lon": 111.2,
+     "y": -4000,
+     "note": "Rice reaches Sino-Tibetan north by 6,000-5,600 years ago"
+    },
+    {
+     "place": "Taiwan (Dapenkeng culture)",
+     "lat": 25.1,
+     "lon": 121.5,
+     "y": -3500,
+     "note": "Carried to Taiwan 5,500-4,000 years ago"
+    },
+    {
+     "place": "Ganges plain, India",
+     "lat": 26.8,
+     "lon": 83.0,
+     "y": -2500,
+     "note": "Japonica arrives c. 4,500 years ago; crosses into indica"
+    },
+    {
+     "place": "Korea and Japan",
+     "lat": 35.5,
+     "lon": 128.5,
+     "y": -1200,
+     "note": "Arrives between 5,500 and 3,200 years ago (range)"
+    }
+   ],
+   "today": "Staple food of over half the world's people; 800 million t harvested in 2023.",
+   "fact": "Indica rice arose when japonica reached India c. 4,500 years ago and crossed with local wild or proto-indica rice.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rice",
+    "https://en.wikipedia.org/wiki/History_of_rice_cultivation",
+    "https://en.wikipedia.org/wiki/Oryza_rufipogon",
+    "https://en.wikipedia.org/wiki/Hemudu_culture",
+    "https://doi.org/10.1126/science.1166605",
+    "https://doi.org/10.1073/pnas.1704304114"
+   ],
+   "img": [
+    {
+     "file": "File:Oryza sativa - Köhler–s Medizinal-Pflanzen-232.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of rice: flowering plant, panicles, grains"
+    },
+    {
+     "file": "File:Oryza rufipogon - National Taiwan University - DSC01108.JPG",
+     "lic": "CC0",
+     "artist": "Daderot",
+     "shows": "Wild ancestor Oryza rufipogon growing, Taipei (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Foxtail millet",
+   "sci": "Setaria italica",
+   "wild": "Green foxtail (Setaria viridis)",
+   "wild_look": "Weedy grass with small bristly heads of tiny grains that shatter (fall off) as soon as they ripen.",
+   "changes": "Grains stay on the head (non-shattering, the main wild/crop difference per Zohary & Hopf); bigger, heavier drooping heads with larger grains.",
+   "centre": "Cishan, Hebei (Taihang foothills)",
+   "lat": 36.7,
+   "lon": 114.2,
+   "cult": -6700,
+   "cult_note": "Foxtail millet joins broomcorn millet in Cishan storage pits after c. 8,700 cal BP (Lu et al. 2009); early Cishan dates questioned by some (debated)",
+   "dom": -6000,
+   "dom_note": "Cishan culture identified as earliest to domesticate foxtail millet, c. 6500-5500 BC (Wikipedia)",
+   "spread": [
+    {
+     "place": "Chengtoushan, Middle Yangtze",
+     "lat": 29.7,
+     "lon": 111.7,
+     "y": -4000,
+     "note": "First foxtail millet outside its native range"
+    },
+    {
+     "place": "Dongsam-dong, southern Korea",
+     "lat": 35.08,
+     "lon": 129.07,
+     "y": -3360,
+     "note": "Direct AMS date on grains"
+    },
+    {
+     "place": "Nankuanli, Taiwan",
+     "lat": 23.0,
+     "lon": 120.2,
+     "y": -2800,
+     "note": "Dapenkeng culture farmers"
+    },
+    {
+     "place": "Non Pa Wai, central Thailand",
+     "lat": 14.9,
+     "lon": 100.8,
+     "y": -2300,
+     "note": "Earliest directly dated in Southeast Asia"
+    },
+    {
+     "place": "Tille Hoyuk, Turkey",
+     "lat": 37.9,
+     "lon": 38.6,
+     "y": -600,
+     "note": "First definite Near East evidence, Iron Age"
+    }
+   ],
+   "today": "Second most widely planted millet and the most grown millet in Asia.",
+   "fact": "Though domesticated by 6000 BC in China, foxtail millet only reached central Europe in the 2nd millennium BC.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Foxtail_millet",
+    "https://en.wikipedia.org/wiki/Setaria_viridis",
+    "https://en.wikipedia.org/wiki/Cishan_culture",
+    "https://doi.org/10.1073/pnas.0900158106"
+   ],
+   "img": [
+    {
+     "file": "File:Naturalis Biodiversity Center - RMNH.ART.713 - Setaria italica Beauvois - Yūshi Ishizaki - Cock Blomhoff Collection - pencil drawing - water colour.jpg",
+     "lic": "Public domain",
+     "artist": "Ishizaki Yūshi (Cock Blomhoff Collection, Naturalis)",
+     "shows": "Japanese watercolour of foxtail millet heads, early 19th c."
+    },
+    {
+     "file": "File:Setaria italica - Oslo botanical garden - IMG 8911.jpg",
+     "lic": "Public domain",
+     "artist": "Daderot",
+     "shows": "Foxtail millet plant with drooping heads (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Broomcorn millet (proso)",
+   "sci": "Panicum miliaceum",
+   "wild": "Uncertain: weedy Panicum miliaceum subsp. ruderale may be the wild ancestor or a feral escape (debated)",
+   "wild_look": "Wild ancestor not securely known; weedy forms drop their small round seeds when ripe.",
+   "changes": "Seeds retained on the plant and larger grain; a very short life cycle - early varieties ripened as little as 45 days after planting.",
+   "centre": "Cishan, Hebei (Taihang foothills)",
+   "lat": 36.7,
+   "lon": 114.2,
+   "cult": -8300,
+   "cult_note": "Husk phytoliths and biomolecules of common millet in Cishan storage pits, c. 10,300-8,700 cal BP (Lu et al. 2009); early dates questioned (debated)",
+   "dom": -8000,
+   "dom_note": "Earliest archaeological evidence for domesticated proso at Cishan, c. 8000 BCE (Wikipedia)",
+   "spread": [
+    {
+     "place": "North of the Black Sea",
+     "lat": 47.0,
+     "lon": 34.0,
+     "y": -1700,
+     "note": "Directly dated grains; older Neolithic claims overturned"
+    },
+    {
+     "place": "Central Europe",
+     "lat": 49.5,
+     "lon": 15.0,
+     "y": -1450,
+     "note": "AMS-dated grains, 2nd millennium BC"
+    },
+    {
+     "place": "Northern Europe",
+     "lat": 56.0,
+     "lon": 10.0,
+     "y": -1200,
+     "note": "Arrives c. 1200 BCE"
+    }
+   ],
+   "today": "Needs little water; some varieties give grain only 60 days after planting.",
+   "fact": "Common millet was East Asia's earliest dry-farming crop, probably thanks to its excellent drought resistance (Lu et al. 2009).",
+   "src": [
+    "https://en.wikipedia.org/wiki/Proso_millet",
+    "https://en.wikipedia.org/wiki/Cishan_culture",
+    "https://doi.org/10.1073/pnas.0900158106"
+   ],
+   "img": [
+    {
+     "file": "File:370 Panicum miliaceum L.jpg",
+     "lic": "Public domain",
+     "artist": "Amédée Masclef",
+     "shows": "Colour plate of broomcorn millet, Atlas des plantes de France (1891)"
+    }
+   ]
+  },
+  {
+   "n": "Soybean",
+   "sci": "Glycine max",
+   "wild": "Wild soybean (Glycine soja)",
+   "wild_look": "Annual wild legume of China, Japan, Korea and the Russian Far East with small seeds, much smaller than today's soybeans.",
+   "changes": "Selection for big seeds: small-seeded soy at 9,000-8,600 cal BP in north China; large seeds in Japan by 5,000 and Korea by 3,000 cal BP.",
+   "centre": "Between the Yellow and Huai rivers (Jiahu, Henan)",
+   "lat": 33.613,
+   "lon": 113.667,
+   "cult": -7000,
+   "cult_note": "Charred wild soybean at Jiahu (9,000-7,800 years ago); Wikipedia cites domestication evidence 7000-6600 BC in China; genetics: 6,000-9,000 years ago",
+   "dom": -3000,
+   "dom_note": "Seeds significantly larger than wild in Middle Jomon Japan (5,000 cal BP, direct AMS dates; Lee et al. 2011). Single vs multiple domestication is debated",
+   "spread": [
+    {
+     "place": "Central Japan (Jomon)",
+     "lat": 35.7,
+     "lon": 138.5,
+     "y": -3000,
+     "note": "Large-seeded soybeans by 5,000 cal BP"
+    },
+    {
+     "place": "Okbang, southern Korea (Mumun)",
+     "lat": 35.2,
+     "lon": 128.1,
+     "y": -1000,
+     "note": "Grown as a food crop c. 1000-900 BC"
+    },
+    {
+     "place": "Skidaway Island, Georgia, USA",
+     "lat": 31.95,
+     "lon": -81.05,
+     "y": 1765,
+     "note": "First New World crop, seeds from Samuel Bowen"
+    },
+    {
+     "place": "Cerrado, Brazil",
+     "lat": -15.8,
+     "lon": -47.9,
+     "y": 1980,
+     "note": "Low-latitude cultivars make Brazil a top producer"
+    }
+   ],
+   "today": "Over 353 million t in 2020; Brazil and the USA grow two thirds.",
+   "fact": "The word 'soy' comes from Japanese shoyu (soy sauce) via the Kagoshima dialect form 'soi' - the bean is named after its sauce.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Soybean",
+    "https://en.wikipedia.org/wiki/Glycine_soja",
+    "https://en.wikipedia.org/wiki/Jiahu",
+    "https://doi.org/10.1371/journal.pone.0026720"
+   ],
+   "img": [
+    {
+     "file": "File:Naturalis Biodiversity Center - RMNH.ART.652 - Glycine max - Yūshi Ishizaki - Cock Blomhoff Collection - pencil drawing - water colour.jpg",
+     "lic": "Public domain",
+     "artist": "Ishizaki Yūshi (Cock Blomhoff Collection, Naturalis)",
+     "shows": "Japanese watercolour of soybean plant with pods"
+    },
+    {
+     "file": "File:Glycine soja 2.JPG",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Dalgial",
+     "shows": "Wild soybean Glycine soja in Korea (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Tea",
+   "sci": "Camellia sinensis",
+   "wild": "Unknown: no wild populations of China-type tea are known, so its origin is speculative",
+   "wild_look": "Evergreen shrub or tree up to 20 m tall; wild leaves larger than cultivated ones, bitter and astringent with caffeine.",
+   "changes": "Kept as bushes pruned to about 1 m for plucking young leaves; genetics suggest Chinese and Indian Assam tea were domesticated separately.",
+   "centre": "Yunnan, borderlands of SW China, NE India and Myanmar",
+   "lat": 22.8,
+   "lon": 101.0,
+   "cult": -1500,
+   "cult_note": "Tea drinking likely began in Yunnan in the 2nd millennium BC as a medicine (Wikipedia; estimate)",
+   "dom": -141,
+   "dom_note": "Oldest physical tea: leaves in the mausoleum of Emperor Jing of Han (d. 141 BC), Xi'an, found 2016; first written record 59 BC; first record of cultivation on Meng Mountain near Chengdu",
+   "spread": [
+    {
+     "place": "Amsterdam",
+     "lat": 52.37,
+     "lon": 4.9,
+     "y": 1610,
+     "note": "Dutch East India Company brings first tea, early 17th c."
+    },
+    {
+     "place": "Moscow",
+     "lat": 55.75,
+     "lon": 37.62,
+     "y": 1618,
+     "note": "Tea gifted by China to Tsar Michael I"
+    },
+    {
+     "place": "London",
+     "lat": 51.51,
+     "lon": -0.13,
+     "y": 1660,
+     "note": "Pepys drinks his first 'cup of tee'"
+    },
+    {
+     "place": "Assam, India",
+     "lat": 26.7,
+     "lon": 94.2,
+     "y": 1836,
+     "note": "British introduce tea cultivation to India"
+    },
+    {
+     "place": "Ceylon (Sri Lanka)",
+     "lat": 7.0,
+     "lon": 80.8,
+     "y": 1867,
+     "note": "British introduce tea culture"
+    }
+   ],
+   "today": "After plain water, the most widely consumed drink in the world.",
+   "fact": "Chinese small-leaf tea and Assam tea are estimated to have split c. 22,000 years ago - long before anyone brewed it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tea",
+    "https://en.wikipedia.org/wiki/History_of_tea",
+    "https://en.wikipedia.org/wiki/Camellia_sinensis"
+   ],
+   "img": [
+    {
+     "file": "File:Camellia sinensis - Köhler–s Medizinal-Pflanzen-025.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of tea: flowering branch, flower, fruit"
+    }
+   ]
+  },
+  {
+   "n": "Sugarcane",
+   "sci": "Saccharum officinarum",
+   "wild": "Robust cane (Saccharum robustum), New Guinea",
+   "wild_look": "Tall wild cane of New Guinea; its fibrous stems held far less sweet juice than the cultivated canes bred from it (general literature).",
+   "changes": "Selected for thick, juicy, sweet stems, propagated from stem cuttings; hybrids with wild S. spontaneum gave the hardy canes of Asia.",
+   "centre": "New Guinea highlands (Kuk Swamp)",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "cult": -4950,
+   "cult_note": "Kuk Swamp: evidence of banana and sugarcane cultivation 6,900-6,400 years ago",
+   "dom": -4000,
+   "dom_note": "Several strains selectively bred from S. robustum from c. 6,000 BP (Wikipedia)",
+   "spread": [
+    {
+     "place": "Northern India",
+     "lat": 26.0,
+     "lon": 80.0,
+     "y": -1000,
+     "note": "Austronesian traders bring cane by c. 3,000 BP"
+    },
+    {
+     "place": "Egypt and the Mediterranean",
+     "lat": 30.0,
+     "lon": 31.2,
+     "y": 750,
+     "note": "Arab traders spread sugar from India, c. 8th c."
+    },
+    {
+     "place": "Madeira",
+     "lat": 32.75,
+     "lon": -16.95,
+     "y": 1450,
+     "note": "Portuguese plantations, 15th century"
+    },
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1493,
+     "note": "Columbus's 2nd voyage; first harvest 1501"
+    }
+   ],
+   "today": "World's largest crop by weight: 1.9 billion t in 2020, 40% from Brazil.",
+   "fact": "Papuans and Austronesians first grew sugarcane mainly as food for their domesticated pigs. Crystalline sugar was first made in northern India.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sugarcane",
+    "https://en.wikipedia.org/wiki/Saccharum_robustum",
+    "https://en.wikipedia.org/wiki/Kuk_Swamp"
+   ],
+   "img": [
+    {
+     "file": "File:Saccharum officinarum - Köhler–s Medizinal-Pflanzen-125.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of sugarcane plant, stem and flowers"
+    }
+   ]
+  },
+  {
+   "n": "Banana",
+   "sci": "Musa (acuminata x balbisiana cultivars)",
+   "wild": "Wild banana Musa acuminata (esp. subsp. banksii) and Musa balbisiana",
+   "wild_look": "Wild bananas are packed with numerous large, hard seeds and little pulp.",
+   "changes": "Seedless (parthenocarpic) fruit, first picked from natural seedless plants; hybrid triploids propagated as clones from suckers - e.g. Cavendish.",
+   "centre": "Kuk Swamp, New Guinea highlands",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "cult": -8000,
+   "cult_note": "Banana phytoliths at Kuk Swamp c. 10,000-6,500 BP; plant exploitation on the wetland margin 10,220-9,910 cal BP",
+   "dom": -4950,
+   "dom_note": "Bananas intensively cultivated by at least 6,950-6,440 cal BP, Kuk Swamp (Denham et al. 2003)",
+   "spread": [
+    {
+     "place": "Kot Diji, Pakistan (Indus)",
+     "lat": 27.34,
+     "lon": 68.71,
+     "y": -2500,
+     "note": "Phytoliths interpreted as banana (debated)"
+    },
+    {
+     "place": "Nkang, Cameroon",
+     "lat": 4.5,
+     "lon": 11.6,
+     "y": -500,
+     "note": "Musa phytoliths, 1st millennium BC (debated)"
+    },
+    {
+     "place": "Madagascar",
+     "lat": -18.9,
+     "lon": 47.5,
+     "y": 600,
+     "note": "Austronesian settlers bring bananas, c. 600 AD"
+    },
+    {
+     "place": "Brazil",
+     "lat": -12.97,
+     "lon": -38.5,
+     "y": 1550,
+     "note": "Portuguese bring bananas from West Africa, 16th c."
+    }
+   ],
+   "today": "India and China grew about 26% of the world's bananas in 2022.",
+   "fact": "The banana plant is the largest herbaceous flowering plant: no wood, yet most are about 5 m tall.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Banana",
+    "https://en.wikipedia.org/wiki/Musa_acuminata",
+    "https://en.wikipedia.org/wiki/Kuk_Swamp",
+    "https://doi.org/10.1126/science.1085255"
+   ],
+   "img": [
+    {
+     "file": "File:Musa paradisiaca Blanco1.88-cropped.jpg",
+     "lic": "Public domain",
+     "artist": "Francisco Manuel Blanco (Flora de Filipinas, 1880s)",
+     "shows": "Colour plate of banana plant, flowers and fruit bunch"
+    },
+    {
+     "file": "File:Inside a wild-type banana.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Warut Roonguthai",
+     "shows": "Cut wild banana full of large hard seeds (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Taro",
+   "sci": "Colocasia esculenta",
+   "wild": "Wild taro (wild forms of Colocasia esculenta)",
+   "wild_look": "Raw corms and leaves are acrid and toxic: needle-shaped calcium oxalate crystals (raphides) irritate mouth and throat.",
+   "changes": "Larger, less acrid corms grown from offsets; preferred over other Pacific 'taros' as less likely to contain irritating raphides.",
+   "centre": "Kuk Swamp, New Guinea highlands",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "cult": -8100,
+   "cult_note": "Taro used at Kuk Swamp 8250-7960 BC; wild vs cultivated cannot be told apart",
+   "dom": null,
+   "dom_note": "No clear date: likely domesticated several times (New Guinea, mainland SE Asia, NE India); wild and cultivated taro are hard to tell apart",
+   "spread": [
+    {
+     "place": "Lapita sites, western Pacific",
+     "lat": -21.5,
+     "lon": 165.0,
+     "y": -1100,
+     "note": "Taro starch at Lapita sites 1100-550 BC"
+    },
+    {
+     "place": "Hawaii",
+     "lat": 20.8,
+     "lon": -156.3,
+     "y": 1000,
+     "note": "Polynesian settlers arrive 940-1200 AD; taro becomes poi"
+    }
+   ],
+   "today": "18 million t produced in 2022; Nigeria grew 46% of it.",
+   "fact": "Starch on stone tools shows taro was used at Kilu Cave, Solomon Islands, some 28,000-20,000 years ago.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Taro",
+    "https://en.wikipedia.org/wiki/Kuk_Swamp",
+    "https://en.wikipedia.org/wiki/History_of_Hawaii",
+    "https://doi.org/10.1126/science.1085255"
+   ],
+   "img": [
+    {
+     "file": "File:Colocasia esculenta CBM.png",
+     "lic": "Public domain",
+     "artist": "Fitch (Curtis's Botanical Magazine)",
+     "shows": "Colour botanical plate of taro leaf and flower"
+    },
+    {
+     "file": "File:Starr-050303-4827-Colocasia esculenta-habit-Maui Nui Botanical Garden-Maui (24621996512).jpg",
+     "lic": "CC BY 3.0 us",
+     "artist": "Forest and Kim Starr",
+     "shows": "Taro (kalo) plants, Maui, Hawaii (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Sweet orange",
+   "sci": "Citrus x sinensis",
+   "wild": "Not a wild species: hybrid of pomelo (Citrus maxima) and mandarin (Citrus reticulata)",
+   "wild_look": "No wild sweet orange exists. Its ancestors, wild pomelo and mandarin, descend from small berries; some mandarins are too sour to eat.",
+   "changes": "One ancient cross, about 42% pomelo and 58% mandarin; every sweet orange is a clone of it, differing only by selected bud mutations (e.g. navel).",
+   "centre": "Southern China, NE India and Myanmar (Citrus genus: SE Himalayan foothills)",
+   "lat": 25.0,
+   "lon": 98.5,
+   "cult": -314,
+   "cult_note": "Earliest mention of the sweet orange in Chinese literature, 314 BC; the date of the original cross is unknown",
+   "dom": null,
+   "dom_note": "Arose in domestication in East Asia; no archaeological date",
+   "spread": [
+    {
+     "place": "Hispaniola",
+     "lat": 19.0,
+     "lon": -70.7,
+     "y": 1493,
+     "note": "Columbus may have planted oranges on 2nd voyage"
+    },
+    {
+     "place": "Lisbon / Mediterranean",
+     "lat": 38.7,
+     "lon": -9.1,
+     "y": 1500,
+     "note": "Italian and Portuguese merchants bring sweet orange, c. 1500"
+    },
+    {
+     "place": "St Augustine, Florida",
+     "lat": 29.9,
+     "lon": -81.3,
+     "y": 1565,
+     "note": "Spanish settlers bring sweet oranges"
+    },
+    {
+     "place": "San Diego, California",
+     "lat": 32.7,
+     "lon": -117.2,
+     "y": 1769,
+     "note": "Franciscan missions plant orange trees"
+    }
+   ],
+   "today": "67 million t of oranges grown in 2024; Brazil produced 23%.",
+   "fact": "Grapefruit is a sweet orange x pomelo backcross; clementines come from orange x mandarin crosses.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Orange_(fruit)",
+    "https://en.wikipedia.org/wiki/Citrus",
+    "https://en.wikipedia.org/wiki/Mandarin_orange"
+   ],
+   "img": [
+    {
+     "file": "File:Pomological Watercolor POM00006500.jpg",
+     "lic": "Public domain",
+     "artist": "Ellen Isham Schutt (USDA Pomological Watercolor Collection)",
+     "shows": "Watercolour of Washington Navel oranges, whole and cut"
+    }
+   ]
+  },
+  {
+   "n": "Cotton (Old World tree cotton)",
+   "sci": "Gossypium arboreum",
+   "wild": "Exact wild ancestor unknown (Old World A-genome cottons)",
+   "wild_look": "Shrub 1-2 m tall with maple-like leaves; seeds sit in capsules (bolls) covered in fibre hairs.",
+   "changes": "Selected for long, plentiful spinnable fibre (lint) on the seeds (general literature).",
+   "centre": "Mehrgarh, Balochistan, Pakistan",
+   "lat": 29.383,
+   "lon": 67.617,
+   "cult": -5500,
+   "cult_note": "Mineralised cotton thread in a string of copper beads at Mehrgarh, 6th millennium BC (Mehrgarh period I dating debated: 7000 vs 5250-4650 BCE). Dyed cotton fibres at Tel Tsaf, Jordan Valley, 5200 BCE, possibly traded from South Asia",
+   "dom": -2500,
+   "dom_note": "Cotton textiles and spindle whorls at Mohenjo-daro, 3rd millennium BCE; Indus Valley likely site of first cultivation of G. arboreum",
+   "spread": [
+    {
+     "place": "Meroe, Nubia (Sudan)",
+     "lat": 16.94,
+     "lon": 33.75,
+     "y": -300,
+     "note": "Cotton spinning flourishes (G. herbaceum); 85% of textiles"
+    },
+    {
+     "place": "Yunnan, China",
+     "lat": 25.0,
+     "lon": 102.7,
+     "y": -100,
+     "note": "Grown in Yunnan under the Han dynasty"
+    },
+    {
+     "place": "Al-Andalus and Sicily",
+     "lat": 37.9,
+     "lon": -4.8,
+     "y": 900,
+     "note": "Muslim conquests bring cotton making to Europe"
+    },
+    {
+     "place": "Northern Italy",
+     "lat": 45.4,
+     "lon": 9.2,
+     "y": 1150,
+     "note": "Cotton weaving spreads after Norman conquest of Sicily"
+    }
+   ],
+   "new_world": "Cotton was domesticated separately in the Americas: G. barbadense at Nanchoc, Peru (7th-6th millennia BC) and G. hirsutum in Mexico (3400-2300 BC; Tehuacan bolls c. 5500 BC). Upland G. hirsutum now gives 90% of world cotton.",
+   "today": "Upland cotton from Mexico gives 90% of world output; India is the largest producer.",
+   "fact": "Megasthenes told Seleucus I of Indian 'trees on which wool grows' - probably tree cotton.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cotton",
+    "https://en.wikipedia.org/wiki/Gossypium_arboreum",
+    "https://en.wikipedia.org/wiki/Mehrgarh"
+   ],
+   "img": [
+    {
+     "file": "File:Gossypium arboreum, jardín botánico de Tallinn, Estonia, 2012-08-13, DD 04.JPG",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Diego Delso",
+     "shows": "Tree cotton Gossypium arboreum flowering (photo)"
+    },
+    {
+     "file": "File:Gossypium barbadense - Köhler–s Medizinal-Pflanzen-068.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of New World cotton G. barbadense with open boll"
+    }
+   ]
+  },
+  {
+   "n": "Maize",
+   "sci": "Zea mays subsp. mays",
+   "wild": "Balsas teosinte (Zea mays subsp. parviglumis)",
+   "wild_look": "Short, bushy grass; each tiny 'ear' holds 5-10 seeds, each sealed in a very hard fruitcase, and the ear breaks apart when ripe.",
+   "changes": "One tall stalk (gene tb1), naked kernels held on a cob that does not shatter: 8-32 rows, up to 1,200 grains on a large ear.",
+   "centre": "Central Balsas River valley, Guerrero (Xihuatoxtla shelter)",
+   "lat": 18.35,
+   "lon": -99.55,
+   "cult": -7000,
+   "cult_note": "Genetics: single domestication about 9,000 years ago from Balsas teosinte (Doebley and colleagues)",
+   "dom": -6700,
+   "dom_note": "Maize starch grains and phytoliths at Xihuatoxtla shelter, 8,700 cal BP (Piperno et al. 2009); oldest cobs from Guila Naquitz, Oaxaca",
+   "spread": [
+    {
+     "place": "Highland Ecuador",
+     "lat": -1.0,
+     "lon": -78.5,
+     "y": -6000,
+     "note": "Maize reaches the Andes at least 8,000 years ago"
+    },
+    {
+     "place": "New Mexico and Arizona",
+     "lat": 33.0,
+     "lon": -109.0,
+     "y": -2100,
+     "note": "First maize in the US Southwest, c. 4,100 years ago"
+    },
+    {
+     "place": "Eastern Woodlands, USA",
+     "lat": 38.5,
+     "lon": -87.5,
+     "y": -200,
+     "note": "Arrives after 200 BCE; later replaces local crops"
+    },
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1525,
+     "note": "Grown in Spain around 1525, decades after Columbus"
+    }
+   ],
+   "today": "1.16 billion t in 2020: the top grain crop, second only to sugarcane overall.",
+   "fact": "Maize and teosinte look so different that the teosinte origin was only proposed in 1931-32 (Vavilov, Beadle); two genes explain much of it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maize",
+    "https://en.wikipedia.org/wiki/Zea_(plant)",
+    "https://en.wikipedia.org/wiki/Guilá_Naquitz_Cave",
+    "https://en.wikipedia.org/wiki/History_of_the_potato",
+    "https://doi.org/10.1073/pnas.0812525106"
+   ],
+   "img": [
+    {
+     "file": "File:Zea mays - Köhler–s Medizinal-Pflanzen-283.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of maize: plant, tassel, ear"
+    },
+    {
+     "file": "File:Maize-teosinte.jpg",
+     "lic": "CC BY 3.0",
+     "artist": "John Doebley",
+     "shows": "Ears of teosinte, maize-teosinte hybrid and maize side by side (photo)"
+    },
+    {
+     "file": "File:Teosinte Jalisco.jpg",
+     "lic": "CC BY-SA 3.0",
+     "artist": "Mbhufford",
+     "shows": "Wild Balsas teosinte (Zea mays ssp. parviglumis) growing in Jalisco (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Squash / pumpkin",
+   "sci": "Cucurbita pepo",
+   "wild": "Wild C. pepo: subsp. fraterna (NE Mexico) and subsp. texana / var. ozarkana (eastern USA)",
+   "wild_look": "Small hard-rinded gourds with bitter, toxic cucurbitacin in the flesh; eaten mainly for seeds or used as containers.",
+   "changes": "Loss of bitterness, bigger fruits with thicker rind and fewer, larger seeds; Guila Naquitz peduncles over 10 mm thick by 8,000 BP.",
+   "centre": "Guila Naquitz Cave, Oaxaca",
+   "lat": 16.975,
+   "lon": -96.309,
+   "cult": -8750,
+   "cult_note": "Cucurbita seeds and rinds at Guila Naquitz from c. 8750 BC (4% of rinds); oldest known locations Oaxaca 10,000-8,000 years ago",
+   "dom": -6000,
+   "dom_note": "Thicker rinds and peduncles show deliberate breeding by no later than 8,000 BP at Guila Naquitz",
+   "spread": [
+    {
+     "place": "Ocampo Caves, Tamaulipas",
+     "lat": 22.85,
+     "lon": -99.33,
+     "y": -5000,
+     "note": "Cultivated squash about 7,000 years ago"
+    },
+    {
+     "place": "Missouri, eastern USA",
+     "lat": 38.0,
+     "lon": -92.5,
+     "y": -2000,
+     "note": "Separate eastern domestication; present 4,000 years ago"
+    },
+    {
+     "place": "Riverton, Illinois",
+     "lat": 39.02,
+     "lon": -87.58,
+     "y": -1800,
+     "note": "Domesticated squash in the Eastern Agricultural Complex"
+    },
+    {
+     "place": "Europe",
+     "lat": 48.5,
+     "lon": 9.0,
+     "y": 1550,
+     "note": "Brought by early colonisers, 16th c. (approx.)"
+    }
+   ],
+   "today": "One species gives pumpkins, zucchini, pattypans and ornamental gourds; record pumpkin 1,246.9 kg (2023).",
+   "fact": "Wild squashes were probably spread by mammoths and mastodons; after these megafauna died out, people became their seed dispersers (Kistler et al. 2015).",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cucurbita_pepo",
+    "https://en.wikipedia.org/wiki/Cucurbita",
+    "https://en.wikipedia.org/wiki/Guilá_Naquitz_Cave",
+    "https://en.wikipedia.org/wiki/Eastern_Agricultural_Complex",
+    "https://en.wikipedia.org/wiki/Pumpkin",
+    "https://doi.org/10.1073/pnas.1516109112"
+   ],
+   "img": [
+    {
+     "file": "File:Colocasia esculenta and Curcurbita pepo (15187776498).jpg",
+     "lic": "CC BY 2.0",
+     "artist": "Basilius Besler (Hortus Eystettensis, 1613)",
+     "shows": "Hand-coloured engraving of summer squash and taro"
+    }
+   ]
+  },
+  {
+   "n": "Common bean",
+   "sci": "Phaseolus vulgaris",
+   "wild": "Wild common bean (wild Phaseolus vulgaris), Mexico to Argentina",
+   "wild_look": "A climbing vine with small beans; raw beans contain toxic phytohaemagglutinin, destroyed only by long boiling.",
+   "changes": "Larger seeds, bush (non-climbing) forms, and many seed colours; domesticated twice, giving separate Mesoamerican and Andean gene pools.",
+   "centre": "Mesoamerica and the southern Andes (two centres)",
+   "lat": 17.0,
+   "lon": -96.7,
+   "cult": -6000,
+   "cult_note": "Genetics and archaeology: domesticated separately in Mesoamerica and the southern Andes some 8,000 years ago (Wikipedia)",
+   "dom": -2300,
+   "dom_note": "Large-seeded domesticated beans in the highlands of Peru, 2300 BC; small-seeded beans in Mexico by 300 BC",
+   "spread": [
+    {
+     "place": "Coastal Peru",
+     "lat": -8.5,
+     "lon": -79.0,
+     "y": -500,
+     "note": "Large-seeded Andean beans reach the coast"
+    },
+    {
+     "place": "East of the Mississippi",
+     "lat": 37.0,
+     "lon": -86.0,
+     "y": 1000,
+     "note": "Small-seeded Mexican beans spread north by 1000 AD"
+    },
+    {
+     "place": "Spain / Europe",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1530,
+     "note": "Arrives in the 16th century via the Columbian Exchange"
+    }
+   ],
+   "today": "28 million t of dry beans in 2022; India grew 23%.",
+   "fact": "The 'beans' Romans and Greeks ate were Old World species; P. vulgaris joined maize and squash as the 'Three Sisters'.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+    "https://en.wikipedia.org/wiki/Columbian_exchange"
+   ],
+   "img": [
+    {
+     "file": "File:Libri picturati Phaseolus.jpg",
+     "lic": "Public domain",
+     "artist": "Carolus Clusius and others (Libri picturati, 16th c.)",
+     "shows": "Early European watercolour of the newly arrived common bean"
+    }
+   ]
+  },
+  {
+   "n": "Potato",
+   "sci": "Solanum tuberosum",
+   "wild": "Wild potatoes of the Solanum brevicaule complex (northern group, Peru)",
+   "wild_look": "About twenty similar wild tuber-bearing species; wild tubers are small, and potato plants contain toxic glycoalkaloids such as solanine.",
+   "changes": "Bigger tubers with negligible glycoalkaloids; tubers that no longer need short autumn days to form; over 5,000 varieties today.",
+   "centre": "Southern Peru / NW Bolivia, near Lake Titicaca",
+   "lat": -15.9,
+   "lon": -69.3,
+   "cult": -8000,
+   "cult_note": "Domesticated in southern Peru and extreme NW Bolivia between 8000 and 5000 BC (single origin from the northern S. brevicaule complex: Spooner et al. 2005)",
+   "dom": -2500,
+   "dom_note": "Earliest verified potato tubers at Ancon, central Peru, 2500 BC; stone-tool residues suggest 3400 BC",
+   "spread": [
+    {
+     "place": "Chiripa, Lake Titicaca",
+     "lat": -16.6,
+     "lon": -68.8,
+     "y": -650,
+     "note": "Potatoes on the Altiplano, 800-500 BC"
+    },
+    {
+     "place": "Canary Islands",
+     "lat": 28.1,
+     "lon": -15.4,
+     "y": 1567,
+     "note": "Receipt for potatoes shipped Las Palmas-Antwerp"
+    },
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1570,
+     "note": "Arrives in Spain around 1570"
+    },
+    {
+     "place": "Ireland",
+     "lat": 53.3,
+     "lon": -8.0,
+     "y": 1600,
+     "note": "First wide-scale European crop, early 17th c."
+    },
+    {
+     "place": "Northern India",
+     "lat": 26.45,
+     "lon": 74.64,
+     "y": 1675,
+     "note": "Mentioned at a banquet in Ajmer"
+    }
+   ],
+   "today": "China and India lead world potato production (2023).",
+   "fact": "Over 99% of today's potato varieties descend from a subspecies of the lowlands of south-central Chile, not the Andes.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Potato",
+    "https://en.wikipedia.org/wiki/History_of_the_potato",
+    "https://en.wikipedia.org/wiki/Solanum_brevicaule",
+    "https://doi.org/10.1073/pnas.0507400102"
+   ],
+   "img": [
+    {
+     "file": "File:234 Solanum tuberosum L.jpg",
+     "lic": "Public domain",
+     "artist": "Amédée Masclef",
+     "shows": "Colour plate of potato plant, flowers and tubers (1891)"
+    }
+   ]
+  },
+  {
+   "n": "Tomato",
+   "sci": "Solanum lycopersicum",
+   "wild": "Currant tomato (Solanum pimpinellifolium), Ecuador and Peru",
+   "wild_look": "Wild 'currant tomato' with tiny red fruits - small enough to be named after currants.",
+   "changes": "Much larger fruits - via the cherry tomato (var. cerasiforme) - and lumpy, many-chambered Mesoamerican forms; many colours.",
+   "centre": "Western South America (Ecuador-Peru); possibly Mesoamerica (debated)",
+   "lat": -4.0,
+   "lon": -79.5,
+   "cult": -5000,
+   "cult_note": "Genomic estimate: cultivated tomato originated c. 7,000 years ago, with substantial uncertainty (debated)",
+   "dom": -500,
+   "dom_note": "Already cultivated in southern Mexico by 500 BCE; exact date and place of domestication unknown",
+   "spread": [
+    {
+     "place": "Tenochtitlan (Mexico City)",
+     "lat": 19.43,
+     "lon": -99.13,
+     "y": 1519,
+     "note": "Aztec markets sell many tomato varieties"
+    },
+    {
+     "place": "Italy",
+     "lat": 43.77,
+     "lon": 11.25,
+     "y": 1544,
+     "note": "Mattioli's herbal: first European mention"
+    },
+    {
+     "place": "China",
+     "lat": 22.2,
+     "lon": 113.5,
+     "y": 1550,
+     "note": "Introduced via the Philippines or Macau, 16th c."
+    },
+    {
+     "place": "Britain",
+     "lat": 51.51,
+     "lon": -0.13,
+     "y": 1820,
+     "note": "Long thought poisonous; common in markets by 1820"
+    }
+   ],
+   "today": "192 million t in 2023; China grew 36%.",
+   "fact": "In 1548 Cosimo de' Medici's steward reported a basket of tomatoes 'arrived safely' - yet Tuscans long used them only as table decoration.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tomato",
+    "https://en.wikipedia.org/wiki/Solanum_pimpinellifolium"
+   ],
+   "img": [
+    {
+     "file": "File:A bunch of tomatoes (Lycopersicon esculentum). Chromolithogr Wellcome V0044757.jpg",
+     "lic": "CC BY 4.0",
+     "artist": "P. de Pannemaeker (Wellcome Collection)",
+     "shows": "Chromolithograph of a bunch of tomatoes, c. 1854"
+    },
+    {
+     "file": "File:Solanum pimpinellifolium kz04.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "Krzysztof Ziarnek, Kenraiz",
+     "shows": "Wild currant tomato with tiny fruits (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Chili pepper",
+   "sci": "Capsicum annuum",
+   "wild": "Chiltepin / bird pepper (Capsicum annuum var. glabriusculum)",
+   "wild_look": "Bushy shrub with tiny, fiercely hot berries (chiltepin: 100,000-200,000 Scoville units) eaten and spread by birds.",
+   "changes": "Much larger fruits of many shapes and colours; heat bred from fiery to none (bell pepper: 0 Scoville).",
+   "centre": "Central-east Mexico (Tehuacan Valley, Puebla)",
+   "lat": 18.46,
+   "lon": -97.39,
+   "cult": -6000,
+   "cult_note": "Wild chilies eaten more than 8,000 years ago (Oaxaca, Tehuacan caves); Capsicum in human diets since c. 7500 BC",
+   "dom": -4000,
+   "dom_note": "Domestication about 6,000 years ago in Mexico; central-east Mexico supported by four lines of evidence (Kraft et al. 2014)",
+   "spread": [
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1493,
+     "note": "Chanca brings chilies from Columbus's 2nd voyage"
+    },
+    {
+     "place": "Goa, India",
+     "lat": 15.5,
+     "lon": 73.83,
+     "y": 1520,
+     "note": "Portuguese carry chilies to Africa and Asia, 16th c."
+    },
+    {
+     "place": "Nagasaki, Japan",
+     "lat": 32.75,
+     "lon": 129.87,
+     "y": 1580,
+     "note": "Reaches East Asia in the late 16th century"
+    }
+   ],
+   "today": "45 million t of fresh chillies and peppers in 2024; China grew 39%.",
+   "fact": "Capsaicin deters mammals but birds feel nothing - so the wild seeds are spread by birds.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Chili_pepper",
+    "https://en.wikipedia.org/wiki/Capsicum",
+    "https://en.wikipedia.org/wiki/Capsicum_annuum",
+    "https://doi.org/10.1073/pnas.1308933111"
+   ],
+   "img": [
+    {
+     "file": "File:Capsicum annuum - Köhler–s Medizinal-Pflanzen-027.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of chili pepper plant with flowers and red fruits"
+    },
+    {
+     "file": "File:Capsicum annuum Chiltepin 1zz.jpg",
+     "lic": "CC BY-SA 4.0",
+     "artist": "David J. Stang",
+     "shows": "Chiltepin, the small wild-type pepper (photo)"
+    }
+   ]
+  },
+  {
+   "n": "Cacao",
+   "sci": "Theobroma cacao",
+   "wild": "Wild cacao (Theobroma cacao) of the upper Amazon",
+   "wild_look": "Understorey tree with flowers and pods directly on the trunk; 20-60 bitter seeds in sweet white pulp.",
+   "changes": "First grown probably for the sweet pulp (snack, mild alcoholic drink); later for fermented, roasted beans - Criollo, Forastero, Nacional types.",
+   "centre": "Santa Ana-La Florida, Zamora-Chinchipe, Ecuador",
+   "lat": -4.64,
+   "lon": -79.13,
+   "cult": -3300,
+   "cult_note": "Cacao starch, theobromine residues and ancient DNA at Santa Ana-La Florida, c. 5,300 years ago (Zarrillo et al. 2018)",
+   "dom": -3300,
+   "dom_note": "Upper Amazon (Mayo-Chinchipe culture) is the oldest known centre of cacao domestication; Mesoamerican origin no longer favoured",
+   "spread": [
+    {
+     "place": "Paso de la Amada area, Chiapas",
+     "lat": 14.9,
+     "lon": -92.4,
+     "y": -1900,
+     "note": "Mokaya drink frothy cacao by 1900 BC"
+    },
+    {
+     "place": "Gulf Coast, Veracruz",
+     "lat": 18.0,
+     "lon": -94.5,
+     "y": -1750,
+     "note": "Pre-Olmec cacao residue in vessel"
+    },
+    {
+     "place": "Spain",
+     "lat": 40.42,
+     "lon": -3.7,
+     "y": 1544,
+     "note": "Q'eqchi' Maya nobles bring chocolate to the court"
+    },
+    {
+     "place": "Gold Coast (Ghana)",
+     "lat": 5.7,
+     "lon": -0.2,
+     "y": 1879,
+     "note": "Tetteh Quarshie plants cacao from Fernando Po"
+    }
+   ],
+   "today": "5.6 million t of cocoa beans in 2023; Ivory Coast grew 42.5%.",
+   "fact": "Cacao flowers are pollinated by tiny biting midges (Forcipomyia), not bees. In 1545 thirty beans bought a small rabbit.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Theobroma_cacao",
+    "https://en.wikipedia.org/wiki/History_of_chocolate",
+    "https://en.wikipedia.org/wiki/Santa_Ana_(La_Florida)",
+    "https://en.wikipedia.org/wiki/Tetteh_Quarshie",
+    "https://doi.org/10.1038/s41559-018-0697-x"
+   ],
+   "img": [
+    {
+     "file": "File:Theobroma cacao - Köhler–s Medizinal-Pflanzen-136.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of cacao: flowering branch, pod and beans"
+    }
+   ]
+  },
+  {
+   "n": "Cassava (manioc)",
+   "sci": "Manihot esculenta",
+   "wild": "Manihot esculenta subsp. flabellifolia",
+   "wild_look": "Woody shrub of the southern Amazon fringe without the crop's big swollen storage roots (general literature).",
+   "changes": "Big starchy storage roots, grown from stem cuttings; sweet and bitter varieties - bitter ones need careful processing to remove cyanide.",
+   "centre": "Southern border of the Amazon basin, west-central Brazil",
+   "lat": -11.0,
+   "lon": -62.0,
+   "cult": -8000,
+   "cult_note": "Likely first domesticated in west-central Brazil no more than 10,000 years ago (Olsen & Schaal 1999 genetics; estimate)",
+   "dom": -4600,
+   "dom_note": "Manioc pollen in the Gulf of Mexico lowlands (San Andres, Tabasco), c. 4600 BC; oldest direct cultivation evidence Joya de Ceren, El Salvador, c. 600 AD",
+   "spread": [
+    {
+     "place": "San Andres, Tabasco",
+     "lat": 18.13,
+     "lon": -94.03,
+     "y": -4600,
+     "note": "Single manioc pollen grain, far from its homeland"
+    },
+    {
+     "place": "Joya de Ceren, El Salvador",
+     "lat": 13.83,
+     "lon": -89.37,
+     "y": 600,
+     "note": "Maya fields buried by volcanic ash"
+    },
+    {
+     "place": "West-central Africa (Kongo coast)",
+     "lat": -6.0,
+     "lon": 12.4,
+     "y": 1550,
+     "note": "Portuguese bring cassava from Brazil, 16th c."
+    },
+    {
+     "place": "Goa, Malacca, Philippines",
+     "lat": 15.5,
+     "lon": 73.83,
+     "y": 1600,
+     "note": "Spread to Asian colonies by Portuguese and Spanish"
+    },
+    {
+     "place": "East Africa",
+     "lat": -6.2,
+     "lon": 39.2,
+     "y": 1850,
+     "note": "Promoted against drought and famine"
+    }
+   ],
+   "today": "Third-largest carbohydrate source in the tropics; over 500 million people depend on it.",
+   "fact": "Improperly prepared cassava can contain enough cyanide to poison; yet farmers may choose bitter varieties to minimise crop losses.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cassava",
+    "https://doi.org/10.1073/pnas.96.10.5586"
+   ],
+   "img": [
+    {
+     "file": "File:Manihot esculenta - Köhler–s Medizinal-Pflanzen-090.jpg",
+     "lic": "Public domain",
+     "artist": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen, 1887-1898)",
+     "shows": "Colour plate of cassava: flowering branch and leaf"
+    }
+   ]
+  },
+  {
+   "n": "Sunflower",
+   "sci": "Helianthus annuus",
+   "wild": "Wild common sunflower (Helianthus annuus), central and western North America",
+   "wild_look": "Branched plant carrying many small flower heads instead of one big one.",
+   "changes": "A single huge flower head on one unbranched stem, with large seeds (achenes) for snacks and oil.",
+   "centre": "Eastern North America (Riverton site, Illinois); Mexico also proposed (debated)",
+   "lat": 39.02,
+   "lon": -87.58,
+   "cult": -3000,
+   "cult_note": "Long held: domesticated in the southeastern US roughly 5,000 years ago",
+   "dom": -2300,
+   "dom_note": "Earliest fully domesticated US sunflower, Tennessee, c. 2300 BCE; a domesticated seed from San Andres, Tabasco, c. 2650-2550 BCE suggests Mexico (debated)",
+   "spread": [
+    {
+     "place": "San Andres, Tabasco, Mexico",
+     "lat": 18.13,
+     "lon": -94.03,
+     "y": -2600,
+     "note": "Domesticated seed and fruit (debated)"
+    },
+    {
+     "place": "Riverton, Illinois",
+     "lat": 39.02,
+     "lon": -87.58,
+     "y": -1800,
+     "note": "Grown with goosefoot and squash, Eastern Agricultural Complex"
+    },
+    {
+     "place": "Spain",
+     "lat": 37.4,
+     "lon": -6.0,
+     "y": 1510,
+     "note": "Spanish explorers carry seeds to Europe"
+    },
+    {
+     "place": "Alexeyevka, Voronezh, Russia",
+     "lat": 50.6,
+     "lon": 38.7,
+     "y": 1830,
+     "note": "Bokaryov starts industrial oil pressing"
+    }
+   ],
+   "today": "Russia and Ukraine produce over half the world's sunflower seed (2020).",
+   "fact": "Russian Orthodox Lent allowed only plant fats, so sunflower oil boomed in 18th-century Russia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Common_sunflower",
+    "https://en.wikipedia.org/wiki/Eastern_Agricultural_Complex",
+    "https://en.wikipedia.org/wiki/Riverton_Site",
+    "https://en.wikipedia.org/wiki/San_Andrés_(Mesoamerican_site)"
+   ],
+   "img": [
+    {
+     "file": "File:Helianthus annuus00.jpg",
+     "lic": "Public domain",
+     "artist": "Nicolas Robert (1614-1685)",
+     "shows": "Watercolour on vellum of a sunflower"
+    },
+    {
+     "file": "File:Gc4 helianthus annuus.jpg",
+     "lic": "Public domain",
+     "artist": "Hans-Simon Holtzbecker (Gottorfer Codex)",
+     "shows": "17th-c. gouache of a sunflower"
+    }
+   ]
+  }
+ ],
+ "before_farming": [
+  {
+   "n": "Ohalo II (Sea of Galilee)",
+   "lat": 32.7221,
+   "lon": 35.5721,
+   "y": -21000,
+   "t": "Fisher-hunter-gatherer camp c. 23,000 years ago: 90,000+ seeds of 100+ species; wild barley and grasses ground on a stone slab; sickle wear on flints.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ohalo_II"
+   ]
+  },
+  {
+   "n": "Shubayqa 1 (Black Desert, Jordan)",
+   "lat": 32.45,
+   "lon": 37.1,
+   "approx": true,
+   "y": -12450,
+   "t": "Natufian hearths, 14,400 years ago: charred flatbread-like remains of wild einkorn, barley or oat flour mixed with ~50,000 club-rush tubers—4,000 years before farming.",
+   "src": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6077754/",
+    "https://en.wikipedia.org/wiki/Natufian_culture"
+   ]
+  },
+  {
+   "n": "Natufian Levant",
+   "lat": 31.98,
+   "lon": 35.07,
+   "approx": true,
+   "y": -12500,
+   "t": "Natufian foragers (c. 12,500–9500 BCE) gathered wild cereals, legumes, almonds, acorns and pistachios, and hunted mountain gazelle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Natufian_culture"
+   ]
+  },
+  {
+   "n": "Abu Hureyra (Euphrates, Syria)",
+   "lat": 35.866,
+   "lon": 38.4,
+   "y": -11050,
+   "t": "Foragers harvested 'wild gardens' of einkorn, emmer and rye and hunted gazelle; rye cultivation claimed from 11,050 BCE in the Younger Dryas (debated).",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+    "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+   ]
+  },
+  {
+   "n": "Göbekli Tepe (SE Turkey)",
+   "lat": 37.2236,
+   "lon": 38.9217,
+   "y": -9500,
+   "t": "From c. 9500 BCE: over 7,000 grinding stones show heavy cereal processing (wild or cultivated unclear); gazelle hunted midsummer to autumn amid wild einkorn and barley.",
+   "src": [
+    "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+    "https://doi.org/10.1371/journal.pone.0215214"
+   ]
+  },
+  {
+   "n": "Odai Yamamoto I (Jōmon, Aomori, Japan)",
+   "lat": 41.0672,
+   "lon": 140.555,
+   "y": -14500,
+   "t": "World's oldest pottery, c. 14,500 BCE. Jōmon foragers ate chestnuts, beechnuts, acorns (tannins processed out), salmon, shellfish, sika deer and wild boar.",
+   "src": [
+    "https://en.wikipedia.org/wiki/J%C5%8Dmon_period"
+   ]
+  },
+  {
+   "n": "Monte Verde II (southern Chile)",
+   "lat": -41.5047,
+   "lon": -73.2044,
+   "y": -12200,
+   "t": "Camp eating seaweed (nine species, from a coast 60 km away, dated 14,220–13,980 years ago), tubers, seeds, nuts, berries and wild potato. Dating debated.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Monte_Verde"
+   ]
+  },
+  {
+   "n": "Clovis, Blackwater Draw (New Mexico)",
+   "lat": 34.2779,
+   "lon": -103.3246,
+   "y": -11500,
+   "t": "Clovis points found with Pleistocene animal bones (c. 11,500 BCE); whether Clovis people were big-game specialists or mixed foragers is disputed.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Paleo-Indians",
+    "https://en.wikipedia.org/wiki/Blackwater_Draw"
+   ]
+  },
+  {
+   "n": "Kuk Swamp (Papua New Guinea highlands)",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "y": -7000,
+   "t": "Independent farming: wetland drained by ditches about 9,000 years ago to grow taro; deliberate banana planting 6,950–6,550 years ago. UNESCO site.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kuk_Swamp"
+   ]
+  }
+ ]
+}
