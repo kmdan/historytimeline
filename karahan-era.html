@@ -2423,10 +2423,11 @@ function tourAutoNext(ms){ clearTimeout(tourRun.timer); if(tourRun.auto) tourRun
 // Next / Back: through the step's notes first, then to the next / previous step
 function tourGo(d){ if(!tourRun) return; const st=tourRun.t.steps[tourRun.i], m=(st.tips||[]).length, j=tourRun.tip+d;
   if(j>=-1&&j<m&&!(d<0&&tourRun.tip<0)) tourTip(j); else if(d>0) tourRun.i<tourRun.t.steps.length-1?tourStep(tourRun.i+1):tourEnd(); else if(tourRun.i>0) tourStep(tourRun.i-1); }
+// notes are shown at least at a regional zoom (z 5 = 72° wide) unless the note sets its own z
 function tourTip(j){ const st=tourRun.t.steps[tourRun.i], q=j>=0?st.tips[j]:null; tourRun.tip=j; clearTimeout(tourRun.timer); storyFocus=null;
   if(tourRun.fly){ cancelAnimationFrame(tourRun.fly); tourRun.fly=0; popStepK=0; mapHold=null; center=tourK(st.y); draw(); }
   storyTips=q?{q,t0:performance.now()}:null; tourRender(); const bar=tourEl.querySelector('.nbar'); if(bar) bar.style.animationPlayState='running';
-  tourGlide(q?q.lat:st.lat,q?q.lon:st.lon,st.z||2); tourAutoNext(q?tipRead(q):tourRead(st)); }
+  tourGlide(q?q.lat:st.lat,q?q.lon:st.lon,q?q.z||Math.max(st.z||2,5):st.z||2); tourAutoNext(q?tipRead(q):tourRead(st)); }
 // the map glides (time stays) so the place sits in the open part of the map, as for the step itself
 function tourGlide(lat,lon,z){ const k1=z*minK(), side=tourEl.parentElement===atlasEl; mapGlide(lat-(side?0.1*MH/k1:0),lon-(side?0.06*MW/k1:0),k1,reduce?0:1100); }
 const tourLayers=on=>{ for(const [id,v] of Object.entries(on||{})){ const c=$(id); if(c&&c.checked!==v){ c.checked=v; c.dispatchEvent(new Event('change',{bubbles:true})); } } };
