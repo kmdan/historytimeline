@@ -1,0 +1,829 @@
+{
+ "id": "buddhism",
+ "title": "The spread of Buddhism",
+ "blurb": "How a teacher's path from the Ganges plain spread by monks, merchants and kings across Asia, faded in its homeland, and reached the West.",
+ "cat": "Faith & ideas",
+ "steps": [
+  {
+   "y": -528,
+   "lat": 25.6,
+   "lon": 84.5,
+   "z": 5,
+   "t": "An awakening in the Ganges plain",
+   "c": "Siddhartha Gautama was born at Lumbini in the Nepal lowlands, left a princely life and, after years as a wandering ascetic, reached awakening (bodhi) under a fig tree at Bodh Gaya. Tradition dates this to c. 528 BCE; many historians now prefer c. 450 BCE or later, so his dates are debated by about a century. He gave his first sermon at Sarnath and taught for some 45 years in the kingdoms of Magadha and Kosala before dying at Kushinagar, aged about 80.",
+   "w": "The Buddha",
+   "look": [
+    [
+     27.469,
+     83.276,
+     "Lumbini"
+    ],
+    [
+     24.696,
+     84.991,
+     "Bodh Gaya"
+    ],
+    [
+     25.381,
+     83.024,
+     "Sarnath"
+    ],
+    [
+     26.741,
+     83.888,
+     "Kushinagar"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A pillar that names the place",
+     "t": "Around 249 BCE the emperor Ashoka set up a pillar at Lumbini whose inscription says the Buddha was born here; it was rediscovered in 1896.",
+     "lat": 27.469,
+     "lon": 83.276
+    },
+    {
+     "h": "Rainy-season retreat",
+     "t": "Monks stopped wandering during the monsoon. The Buddha is said to have spent many rainy seasons at the Jetavana grove in Sravasti, donated by the merchant Anathapindika.",
+     "lat": 27.52,
+     "lon": 82.05
+    }
+   ],
+   "img_alt": {
+    "file": "File:Mahabodhi Temple, Bodh Gaya, Bihar, India.jpg",
+    "by": "Shubhrojit Misra, 2016",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/The_Buddha",
+    "https://en.wikipedia.org/wiki/Mahabodhi_Temple",
+    "https://en.wikipedia.org/wiki/Lumbini",
+    "https://en.wikipedia.org/wiki/Sarnath",
+    "https://en.wikipedia.org/wiki/Kushinagar"
+   ]
+  },
+  {
+   "y": -383,
+   "lat": 25.6,
+   "lon": 85.3,
+   "z": 6,
+   "t": "Monks, memory and the first councils",
+   "c": "After the Buddha's death his followers are said to have met at Rajgir to recite his teachings from memory: the First Council, whose historicity is debated. About a century later a Second Council at Vaishali argued over monastic rules, such as whether monks could accept money; the dispute is usually seen as the root of the first split, between the 'Elders' (Sthaviras) and the Mahasanghikas. For about four centuries the teachings were passed on only by chanting, in communities of monks and nuns living on alms.",
+   "w": "Buddhist councils",
+   "look": [
+    [
+     25.03,
+     85.42,
+     "Rajgir"
+    ],
+    [
+     25.99,
+     85.13,
+     "Vaishali"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The first nuns",
+     "t": "Buddhist tradition says the Buddha's foster-mother Mahapajapati Gotami became the first nun, after walking to Vaishali to ask for ordination.",
+     "lat": 25.99,
+     "lon": 85.13
+    },
+    {
+     "h": "Painted memories",
+     "t": "The murals at Ajanta, painted around 460-480 CE, retell the Buddha's former lives (Jatakas) for monks and visitors centuries later.",
+     "lat": 20.55,
+     "lon": 75.7
+    }
+   ],
+   "img_alt": {
+    "file": "File:A mural painting at Ajanta Caves.jpg",
+    "by": "Ajanta mural (c. 5th century), photo Ms Sarah Welch, 2016",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhist_councils",
+    "https://en.wikipedia.org/wiki/Rajgir",
+    "https://en.wikipedia.org/wiki/Ajanta_Caves"
+   ]
+  },
+  {
+   "y": -260,
+   "lat": 23.0,
+   "lon": 82.0,
+   "z": 4,
+   "t": "Ashoka turns to the dharma",
+   "c": "Around 261 BCE the Maurya emperor Ashoka conquered Kalinga on India's east coast. In his 13th Rock Edict he says 100,000 were killed, 150,000 deported and many more died, and that he felt deep remorse. He became a lay Buddhist, had moral edicts carved on rocks and pillars across his empire, and is said to have built 84,000 stupas; Sanchi's Great Stupa began in his reign. Theravada chronicles add a Third Council at Pataliputra (c. 250 BCE) that sent missionaries abroad, an account found only in that tradition.",
+   "w": "Ashoka",
+   "look": [
+    [
+     20.19,
+     85.84,
+     "Kalinga (Dhauli)"
+    ],
+    [
+     25.61,
+     85.14,
+     "Pataliputra"
+    ],
+    [
+     23.48,
+     77.74,
+     "Sanchi"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Edicts in Greek",
+     "t": "At Kandahar in Afghanistan one of Ashoka's edicts was carved in Greek and Aramaic, for the Greek and Iranian subjects on his western frontier.",
+     "lat": 31.61,
+     "lon": 65.71
+    },
+    {
+     "h": "A national emblem",
+     "t": "The lion capital from Ashoka's pillar at Sarnath is the state emblem of India, and the wheel beneath the lions is on India's flag.",
+     "lat": 25.381,
+     "lon": 83.024
+    }
+   ],
+   "img_alt": {
+    "file": "File:Stupa 1, Sanchi 02.jpg",
+    "by": "Bernard Gagnon, 2013",
+    "lic": "CC BY-SA 3.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Ashoka",
+    "https://en.wikipedia.org/wiki/Kalinga_War",
+    "https://en.wikipedia.org/wiki/Edicts_of_Ashoka",
+    "https://en.wikipedia.org/wiki/Sanchi_Stupa",
+    "https://en.wikipedia.org/wiki/Buddhist_councils"
+   ]
+  },
+  {
+   "y": -29,
+   "lat": 7.9,
+   "lon": 80.6,
+   "z": 6,
+   "t": "An island writes down the canon",
+   "c": "By Sri Lankan tradition Ashoka's son Mahinda converted King Devanampiya Tissa at Anuradhapura around 250 BCE, and his daughter Sanghamitta brought a cutting of the Bodhi tree. The Mahavihara monastery became the centre of what is now Theravada Buddhism. Around 29 BCE, after famine and war, monks at the Aluvihare cave temple wrote the Pali Canon on palm leaves for the first time; until then it had been memorised (the exact year varies by source).",
+   "w": "Pali Canon",
+   "look": [
+    [
+     8.35,
+     80.39,
+     "Anuradhapura"
+    ],
+    [
+     7.497,
+     80.62,
+     "Aluvihare"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The oldest planted tree?",
+     "t": "The Jaya Sri Maha Bodhi at Anuradhapura is said to grow from Sanghamitta's cutting of the original Bodhi tree, which would make it the oldest human-planted tree with a recorded planting date.",
+     "lat": 8.345,
+     "lon": 80.397
+    },
+    {
+     "h": "A Buddhist Maldives",
+     "t": "The Maldives were Buddhist for well over a thousand years, until the king converted to Islam, traditionally in 1153.",
+     "lat": 4.175,
+     "lon": 73.51
+    }
+   ],
+   "img_alt": {
+    "file": "File:Ruwanweli Saya 1.jpg",
+    "by": "KennyOMG, 2009",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Pali_Canon",
+    "https://en.wikipedia.org/wiki/Mahinda_(Buddhist_monk)",
+    "https://en.wikipedia.org/wiki/Mahavihara",
+    "https://en.wikipedia.org/wiki/Aluvihare_Rock_Temple",
+    "https://en.wikipedia.org/wiki/Jaya_Sri_Maha_Bodhi"
+   ]
+  },
+  {
+   "y": 100,
+   "lat": 33.9,
+   "lon": 71.5,
+   "z": 5,
+   "t": "The first images of the Buddha",
+   "c": "Early Buddhist art showed the Buddha only through symbols: a footprint, an empty throne, a tree. Around the 1st century CE sculptors in Gandhara (today's north-west Pakistan and eastern Afghanistan) and at Mathura began carving him in human form. Gandhara's Buddhas have wavy hair and toga-like robes in Greek and Roman style, a legacy of the Indo-Greek kingdoms; which school came first, and how much the Greek influence mattered, are debated.",
+   "w": "Greco-Buddhist art",
+   "look": [
+    [
+     33.75,
+     72.83,
+     "Taxila"
+    ],
+    [
+     34.01,
+     71.58,
+     "Peshawar"
+    ],
+    [
+     27.49,
+     77.67,
+     "Mathura"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "King Milinda's questions",
+     "t": "The Indo-Greek king Menander I (2nd century BCE) appears in a Pali dialogue, the Milinda Panha, debating the monk Nagasena at his capital Sagala.",
+     "lat": 32.49,
+     "lon": 74.53
+    },
+    {
+     "h": "Herakles as bodyguard",
+     "t": "Some Gandharan reliefs show the Buddha's protector Vajrapani with the club and lion skin of the Greek hero Herakles.",
+     "lat": 34.36,
+     "lon": 70.47
+    }
+   ],
+   "img_alt": {
+    "file": "File:Buddha-Vajrapani-Herakles.JPG",
+    "by": "Gandhara relief (2nd century), photo World Imaging, 2005",
+    "lic": "CC BY-SA 3.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Greco-Buddhist_art",
+    "https://en.wikipedia.org/wiki/Art_of_Mathura",
+    "https://en.wikipedia.org/wiki/Menander_I",
+    "https://en.wikipedia.org/wiki/Vajrapani"
+   ]
+  },
+  {
+   "y": 140,
+   "lat": 37.0,
+   "lon": 74.0,
+   "z": 3,
+   "t": "Kanishka and the Silk Road monks",
+   "c": "The Kushan Empire stretched from Central Asia to the Ganges and controlled key Silk Road routes. Its emperor Kanishka (reigned c. 127-150; dates debated) patronised Buddhism and built a huge stupa at Peshawar; northern traditions place a Fourth Council in Kashmir in his reign. Monasteries grew at Termez, Balkh and the Tarim Basin oases such as Khotan and Kucha, and Mahayana ('Great Vehicle') texts, centred on the bodhisattva who delays nirvana to help others, spread alongside the older schools. Merchants and monks from Parthia, Sogdia and the Kushan lands carried the teaching east.",
+   "w": "Silk Road transmission of Buddhism",
+   "look": [
+    [
+     34.01,
+     71.58,
+     "Peshawar"
+    ],
+    [
+     37.23,
+     67.2,
+     "Termez"
+    ],
+    [
+     37.11,
+     79.93,
+     "Khotan"
+    ],
+    [
+     41.72,
+     82.96,
+     "Kucha"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The 'Nalanda of Central Asia'",
+     "t": "The Naw Bahar monastery near Balkh flourished for centuries; its hereditary administrators, the Barmakids, later became viziers of the Abbasid caliphs in Baghdad.",
+     "lat": 36.76,
+     "lon": 66.9
+    },
+    {
+     "h": "Painted caves of Kucha",
+     "t": "The Kizil caves near Kucha hold more than 230 cave shrines painted between about the 3rd and 8th centuries.",
+     "lat": 41.78,
+     "lon": 82.51
+    }
+   ],
+   "img_alt": {
+    "file": "File:Kumarajiva at Kizil Caves, Kuqa.jpg",
+    "by": "Yoshi Canopus, 2012",
+    "lic": "CC BY-SA 3.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Silk_Road_transmission_of_Buddhism",
+    "https://en.wikipedia.org/wiki/Kanishka",
+    "https://en.wikipedia.org/wiki/Kushan_Empire",
+    "https://en.wikipedia.org/wiki/Buddhist_councils",
+    "https://en.wikipedia.org/wiki/Kizil_Caves"
+   ]
+  },
+  {
+   "y": 401.9,
+   "lat": 34.5,
+   "lon": 110.5,
+   "z": 5,
+   "t": "Translating the dharma into Chinese",
+   "c": "Buddhism reached China with Silk Road traders in the 1st century CE. A record of 65 CE mentions a prince honouring the Buddha, and legend says Emperor Ming's dream led to the White Horse Temple at Luoyang in 68. Systematic translation began with the Parthian monk An Shigao in Luoyang from 148. In 401 the Kuchean scholar Kumarajiva was brought to Chang'an, where his team's fluent translations, such as the Lotus Sutra and Diamond Sutra, are still the versions read in East Asia today.",
+   "w": "Kumārajīva",
+   "look": [
+    [
+     34.72,
+     112.6,
+     "Luoyang"
+    ],
+    [
+     34.26,
+     108.94,
+     "Chang'an"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A walk to India at 60",
+     "t": "In 399 the monk Faxian, then about 60, set out from Chang'an to find monastic rules in India; he came back by sea 13 years later.",
+     "lat": 40.14,
+     "lon": 94.66
+    },
+    {
+     "h": "The Pure Land",
+     "t": "On Mount Lu, the monk Huiyuan (334-416) gathered followers devoted to Amitabha's Pure Land; later Pure Land schools in China and Japan honour him as their first patriarch.",
+     "lat": 29.53,
+     "lon": 115.98
+    }
+   ],
+   "img_alt": {
+    "file": "File:2011-06 White Horse Temple 07.jpg",
+    "by": "Gary Todd, 2011",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Kum%C4%81raj%C4%ABva",
+    "https://en.wikipedia.org/wiki/White_Horse_Temple",
+    "https://en.wikipedia.org/wiki/An_Shigao",
+    "https://en.wikipedia.org/wiki/Faxian",
+    "https://en.wikipedia.org/wiki/Lushan_Huiyuan"
+   ]
+  },
+  {
+   "y": 500,
+   "lat": 38.0,
+   "lon": 104.0,
+   "z": 4,
+   "t": "Cave temples on the frontier",
+   "c": "In 366 a monk named Lezun cut the first meditation cave in the cliffs at Mogao near Dunhuang; over a thousand years nearly 500 painted caves followed. The Northern Wei emperors carved colossal Buddhas at Yungang (from 460) and Longmen (from 493). Around 1000 CE a side chamber at Mogao holding tens of thousands of manuscripts was sealed; reopened in 1900, it held the Diamond Sutra of 868, the oldest dated printed book.",
+   "w": "Mogao Caves",
+   "look": [
+    [
+     40.04,
+     94.81,
+     "Dunhuang"
+    ],
+    [
+     40.11,
+     113.12,
+     "Yungang"
+    ],
+    [
+     34.56,
+     112.47,
+     "Longmen"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Shaolin",
+     "t": "The Shaolin Monastery was founded in 495 for an Indian monk; later legend links it with Bodhidharma, the founder of Chan (Zen).",
+     "lat": 34.51,
+     "lon": 112.94
+    },
+    {
+     "h": "Uyghur Buddhists",
+     "t": "At Bezeklik near Turfan, Uyghur rulers of the 10th-13th centuries had themselves painted as donors in cave temples.",
+     "lat": 42.96,
+     "lon": 89.54
+    }
+   ],
+   "img_alt": {
+    "file": "File:Mogao Cave 217 - South Wall of the Main Chamber - Lotus Sutra tableau (preaching Buddha with Summit of Being atop; parable of the Phantom city to the right).png",
+    "by": "Mogao Cave 217 mural, c. 705-706",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Mogao_Caves",
+    "https://en.wikipedia.org/wiki/Yungang_Grottoes",
+    "https://en.wikipedia.org/wiki/Longmen_Grottoes",
+    "https://en.wikipedia.org/wiki/Diamond_Sutra"
+   ]
+  },
+  {
+   "y": 643,
+   "lat": 30.0,
+   "lon": 80.0,
+   "z": 3,
+   "t": "Xuanzang's pilgrimage to Nalanda",
+   "c": "Defying a ban on travel abroad, the monk Xuanzang left Chang'an in 629 and went via Turfan, Samarkand and Bamiyan, where he saw the giant standing Buddhas, to India. He studied for about five years at Nalanda, founded c. 427 and then the greatest Buddhist university, with thousands of monks. In 643 Emperor Harsha honoured him at a great assembly at Kannauj; in 645 he reached home with 657 texts and spent his last 19 years translating them. His journey later inspired the novel Journey to the West.",
+   "w": "Xuanzang",
+   "look": [
+    [
+     25.136,
+     85.443,
+     "Nalanda"
+    ],
+    [
+     34.83,
+     67.83,
+     "Bamiyan"
+    ],
+    [
+     27.06,
+     79.92,
+     "Kannauj"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Giants of Bamiyan",
+     "t": "Radiocarbon dating puts the two Bamiyan Buddhas at about 570 and 618 CE; they stood 38 m and 55 m tall until they were blown up in 2001.",
+     "lat": 34.83,
+     "lon": 67.83
+    },
+    {
+     "h": "A pagoda for the sutras",
+     "t": "The Giant Wild Goose Pagoda in Chang'an (Xi'an) was built in 652 to house the texts Xuanzang brought back.",
+     "lat": 34.22,
+     "lon": 108.96
+    }
+   ],
+   "img_alt": {
+    "file": "File:Xuanzang w.jpg",
+    "by": "Unknown painter, 14th century (Tokyo National Museum)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Xuanzang",
+    "https://en.wikipedia.org/wiki/Nalanda_mahavihara",
+    "https://en.wikipedia.org/wiki/Harsha",
+    "https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan"
+   ]
+  },
+  {
+   "y": 752.27,
+   "lat": 35.5,
+   "lon": 131.0,
+   "z": 4,
+   "t": "Korea and Japan: Buddhism of the court",
+   "c": "Buddhism reached the Korean kingdoms from China: Goguryeo in 372, Baekje in 384, and Silla, after resistance at court, in 527. Baekje sent a Buddha image and sutras to the Japanese court in 538 or 552 (the sources differ). Prince Shotoku (574-622) patronised temples such as Horyu-ji, founded in 607, and in 752 Emperor Shomu dedicated the Great Buddha of Todai-ji at Nara, a bronze about 15 m tall, as the centre of a network of provincial temples.",
+   "w": "Tōdai-ji",
+   "look": [
+    [
+     35.84,
+     129.21,
+     "Gyeongju (Silla)"
+    ],
+    [
+     34.614,
+     135.734,
+     "Horyu-ji"
+    ],
+    [
+     34.689,
+     135.84,
+     "Nara"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Six attempts to reach Japan",
+     "t": "The Chinese master Jianzhen (Ganjin) tried six times to sail to Japan, going blind on the way, and finally arrived in 753 to teach proper monastic ordination.",
+     "lat": 34.675,
+     "lon": 135.785
+    },
+    {
+     "h": "A martyr for Buddhism",
+     "t": "In Silla the courtier Ichadon was executed in 527 for supporting Buddhism; legend says milk-white blood flowed from his neck, and the king then made Buddhism official.",
+     "lat": 35.84,
+     "lon": 129.21
+    }
+   ],
+   "img_alt": {
+    "file": "File:Daibutsu-den in Todaiji Nara01bs3200.jpg",
+    "by": "photo, Commons",
+    "lic": "CC BY 2.5"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+    "https://en.wikipedia.org/wiki/Korean_Buddhism",
+    "https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku",
+    "https://en.wikipedia.org/wiki/H%C5%8Dry%C5%AB-ji",
+    "https://en.wikipedia.org/wiki/Jianzhen",
+    "https://en.wikipedia.org/wiki/Ichadon"
+   ]
+  },
+  {
+   "y": 779,
+   "lat": 29.8,
+   "lon": 91.0,
+   "z": 5,
+   "t": "Tibet and the Vajrayana",
+   "c": "Tibetan tradition credits King Songtsen Gampo (died c. 650) and his Nepali and Chinese wives with the first temples, including the Jokhang in Lhasa (c. 640); the Nepali queen's historicity is debated. Under King Trisong Detsen the Indian abbot Shantarakshita and the tantric master Padmasambhava founded Samye, where the first Tibetan monks were ordained in 779. Tibet adopted the late Indian tantric form, Vajrayana, and translated the Indian canon; many texts lost in India survive only in Tibetan.",
+   "w": "Samye",
+   "look": [
+    [
+     29.653,
+     91.13,
+     "Lhasa"
+    ],
+    [
+     29.33,
+     91.5,
+     "Samye"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A teacher from Bengal",
+     "t": "After the collapse of the Tibetan Empire in 842, the Bengali master Atisha came to western Tibet in 1042 and helped start the 'later spread' of Buddhism.",
+     "lat": 31.48,
+     "lon": 79.8
+    },
+    {
+     "h": "Monks as rulers",
+     "t": "Sakya monastery, founded in 1073, later supplied the lamas who governed Tibet on behalf of the Mongol Yuan emperors.",
+     "lat": 28.9,
+     "lon": 88.02
+    }
+   ],
+   "img_alt": {
+    "file": "File:Padmasambhava (Orgyen Dorje Chang), with Yeshe Tsogyal, emanations, Nyingma gurus and Samantabhadra - 17th century Tibetan thangka.jpg",
+    "by": "Tibetan thangka, 17th century",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Samye",
+    "https://en.wikipedia.org/wiki/Songtsen_Gampo",
+    "https://en.wikipedia.org/wiki/Jokhang",
+    "https://en.wikipedia.org/wiki/Padmasambhava"
+   ]
+  },
+  {
+   "y": 800,
+   "lat": -3.0,
+   "lon": 108.0,
+   "z": 4,
+   "t": "Monks by sea: Srivijaya and Borobudur",
+   "c": "Buddhism also travelled the monsoon sea routes. In 671 the Chinese pilgrim Yijing stopped at Srivijaya (Palembang), where he reported more than a thousand monks, and advised others to study Sanskrit there before going on to India. In central Java the Sailendra kings built Borobudur around 800: a stepped stone mountain with 2,672 relief panels and originally 504 Buddha statues, which pilgrims circle on their way to the top.",
+   "w": "Borobudur",
+   "look": [
+    [
+     -2.99,
+     104.76,
+     "Palembang"
+    ],
+    [
+     -7.608,
+     110.204,
+     "Borobudur"
+    ],
+    [
+     -1.48,
+     103.67,
+     "Muaro Jambi"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A Javanese gift to Nalanda",
+     "t": "A 9th-century copper plate records that the Pala king granted villages to support a monastery at Nalanda founded by Balaputradeva, a king of Srivijaya.",
+     "lat": 25.136,
+     "lon": 85.443
+    },
+    {
+     "h": "Early Buddhism in Vietnam",
+     "t": "Luy Lau, near Hanoi, was an early Buddhist centre on the sea route from India in the 2nd-3rd centuries.",
+     "lat": 21.04,
+     "lon": 106.04
+    }
+   ],
+   "img_alt": {
+    "file": "File:Borobudur Sunrise 2012-01-05.jpg",
+    "by": "Justine Hong, 2012",
+    "lic": "CC BY 2.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Borobudur",
+    "https://en.wikipedia.org/wiki/Srivijaya",
+    "https://en.wikipedia.org/wiki/Yijing_(monk)",
+    "https://en.wikipedia.org/wiki/Muaro_Jambi_Temple_Compounds",
+    "https://en.wikipedia.org/wiki/Nalanda_mahavihara"
+   ]
+  },
+  {
+   "y": 1190,
+   "lat": 17.0,
+   "lon": 100.0,
+   "z": 4,
+   "t": "Theravada kingdoms of the mainland",
+   "c": "According to the Burmese chronicles, King Anawrahta of Pagan took the Mon city of Thaton in 1057 and adopted its Theravada Buddhism (the story is debated). Over the next 250 years more than 10,000 temples and monasteries rose on the Bagan plain; over 2,300 survive. At Angkor, Jayavarman VII (r. 1181-c. 1218) made Mahayana the state faith and built the Bayon, but within about a century Cambodia, like the Thai kingdoms of Sukhothai and Ayutthaya and Lan Xang in Laos, turned to Theravada, renewed by monks ordained in Sri Lanka.",
+   "w": "Theravada",
+   "look": [
+    [
+     21.17,
+     94.86,
+     "Bagan"
+    ],
+    [
+     13.441,
+     103.859,
+     "Angkor"
+    ],
+    [
+     17.02,
+     99.7,
+     "Sukhothai"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "One church for Sri Lanka",
+     "t": "Around 1165 King Parakramabahu I of Polonnaruwa united Sri Lanka's rival monastic orders under the Mahavihara tradition, the model later copied in Burma and Thailand.",
+     "lat": 7.94,
+     "lon": 81.0
+    },
+    {
+     "h": "The Phra Bang",
+     "t": "Fa Ngum founded the Lao kingdom of Lan Xang in 1353; its royal city Luang Prabang is named after the Phra Bang, a Buddha image.",
+     "lat": 19.89,
+     "lon": 102.13
+    }
+   ],
+   "img_alt": {
+    "file": "File:Old Bagan, Myanmar, Landscape of ancient Bagan city.jpg",
+    "by": "photo, Commons",
+    "lic": "CC BY 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Theravada",
+    "https://en.wikipedia.org/wiki/Bagan",
+    "https://en.wikipedia.org/wiki/Anawrahta",
+    "https://en.wikipedia.org/wiki/Jayavarman_VII",
+    "https://en.wikipedia.org/wiki/Sukhothai_Kingdom",
+    "https://en.wikipedia.org/wiki/Parakramabahu_I"
+   ]
+  },
+  {
+   "y": 1193,
+   "lat": 31.0,
+   "lon": 76.0,
+   "z": 3,
+   "t": "Decline in India and Central Asia",
+   "c": "Buddhism in India had been losing royal patrons and lay followers to Hindu devotional movements for centuries, and survived mainly in great monasteries backed by the Pala kings of Bengal and Bihar. Around 1193 (the date is debated) troops of Bakhtiyar Khalji sacked Nalanda and Odantapuri; Vikramashila fell soon after, and many monks fled to Tibet and Nepal. Further west, Gandhara and Afghanistan were largely Muslim by about 1000, Khotan fell to the Karakhanids in 1006, and the Uyghur Buddhists of Turfan converted in the 14th-15th centuries.",
+   "w": "Decline of Buddhism in the Indian subcontinent",
+   "look": [
+    [
+     25.136,
+     85.443,
+     "Nalanda"
+    ],
+    [
+     25.32,
+     87.28,
+     "Vikramashila"
+    ],
+    [
+     37.11,
+     79.93,
+     "Khotan"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Nalanda lingered",
+     "t": "Nalanda did not end in a single day: the Tibetan pilgrim Dharmasvamin still found a small community teaching among the ruins in 1235.",
+     "lat": 25.14,
+     "lon": 85.44
+    },
+    {
+     "h": "Buddhist Mongols in Iran",
+     "t": "The Mongol Ilkhans of Iran built Buddhist temples until Ghazan converted to Islam in 1295 and had them destroyed.",
+     "lat": 37.39,
+     "lon": 46.24
+    }
+   ],
+   "img_alt": {
+    "file": "File:Temple 12 - Nalanda Mahavihara (21).jpg",
+    "by": "Sumitsurai, 2023",
+    "lic": "CC BY-SA 4.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Decline_of_Buddhism_in_the_Indian_subcontinent",
+    "https://en.wikipedia.org/wiki/Nalanda_mahavihara",
+    "https://en.wikipedia.org/wiki/Muhammad_Bakhtiyar_Khalji",
+    "https://en.wikipedia.org/wiki/Vikramashila",
+    "https://en.wikipedia.org/wiki/Kingdom_of_Khotan",
+    "https://en.wikipedia.org/wiki/Qocho"
+   ]
+  },
+  {
+   "y": 1578.4,
+   "lat": 43.0,
+   "lon": 102.0,
+   "z": 3,
+   "t": "Mongols and the Dalai Lama",
+   "c": "Kublai Khan made the Tibetan lama Phagpa his imperial preceptor, but Buddhism faded among the Mongols after the Yuan dynasty fell in 1368. In 1578 Altan Khan met the Gelug lama Sonam Gyatso near Lake Kokonor and gave him the title Dalai Lama ('ocean lama'); he became the third, his two predecessors being named retroactively. The Mongols converted over the following decades: Erdene Zuu monastery was built at Karakorum in 1585, and Tibetan Buddhism spread to the Oirats, the Kalmyks on the Volga and the Buryats near Lake Baikal, whose faith Russia recognised in 1741.",
+   "w": "Dalai Lama",
+   "look": [
+    [
+     36.9,
+     100.2,
+     "Kokonor"
+    ],
+    [
+     47.2,
+     102.84,
+     "Erdene Zuu"
+    ],
+    [
+     40.81,
+     111.65,
+     "Hohhot"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Buddhists in Europe",
+     "t": "The Kalmyks, Oirat Mongols who settled on the lower Volga in the 17th century, are the only traditionally Buddhist people living in Europe.",
+     "lat": 46.31,
+     "lon": 44.27
+    },
+    {
+     "h": "A palace on a hill",
+     "t": "The 5th Dalai Lama, who became ruler of Tibet with Mongol help, began the Potala Palace in Lhasa in 1645.",
+     "lat": 29.658,
+     "lon": 91.117
+    }
+   ],
+   "img_alt": {
+    "file": "File:Erdene Zuu Monastery 06.jpg",
+    "by": "Bernard Gagnon, 2023",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Altan_Khan",
+    "https://en.wikipedia.org/wiki/Dalai_Lama",
+    "https://en.wikipedia.org/wiki/3rd_Dalai_Lama",
+    "https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery",
+    "https://en.wikipedia.org/wiki/Kalmyks",
+    "https://en.wikipedia.org/wiki/Buddhism_in_Buryatia"
+   ]
+  },
+  {
+   "y": 1893.7,
+   "lat": 25.0,
+   "lon": 40.0,
+   "z": 1,
+   "t": "A world religion",
+   "c": "From the 1870s Western readers met Buddhism in translation; Edwin Arnold's poem The Light of Asia (1879) became a bestseller, and in 1880 the Theosophists Henry Olcott and Helena Blavatsky formally became Buddhists in Sri Lanka. At the 1893 World's Parliament of Religions in Chicago the Sri Lankan reformer Anagarika Dharmapala and the Japanese Zen abbot Soyen Shaku spoke to American audiences, while Japanese immigrants were founding temples in Hawaii and California. Today about 500 million people, some 7% of humanity, are counted as Buddhists; the figure is debated, because many in East Asia combine Buddhism with other traditions.",
+   "w": "Buddhism in the West",
+   "look": [
+    [
+     41.79,
+     -87.58,
+     "Chicago"
+    ],
+    [
+     6.03,
+     80.22,
+     "Galle"
+    ],
+    [
+     24.696,
+     84.991,
+     "Bodh Gaya"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Bodh Gaya reclaimed",
+     "t": "In 1891 Dharmapala founded the Maha Bodhi Society to return the temple at Bodh Gaya to Buddhist care; a joint Buddhist-Hindu committee has run it since 1949.",
+     "lat": 24.696,
+     "lon": 84.991
+    },
+    {
+     "h": "The world's largest book",
+     "t": "In 1871 King Mindon of Burma had the whole Pali Canon carved on 729 marble slabs at the Kuthodaw Pagoda in Mandalay.",
+     "lat": 21.997,
+     "lon": 96.11
+    }
+   ],
+   "img_alt": {
+    "file": "File:Buddhist pilgrims at Mahabodhi temple.jpg",
+    "by": "Ineb-2553, 2008",
+    "lic": "CC0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhism_in_the_West",
+    "https://en.wikipedia.org/wiki/Anagarika_Dharmapala",
+    "https://en.wikipedia.org/wiki/Parliament_of_the_World's_Religions",
+    "https://en.wikipedia.org/wiki/Henry_Steel_Olcott",
+    "https://en.wikipedia.org/wiki/The_Light_of_Asia",
+    "https://en.wikipedia.org/wiki/Buddhism_by_country"
+   ]
+  }
+ ]
+}

@@ -10,16 +10,18 @@ import json, sys
 from pathlib import Path
 
 D = Path('dev/data')
-TOPICS = ['columbian_exchange', 'french_revolution', 'napoleon', 'british_empire']
+TOPICS = ['buddhism', 'islam', 'columbian_exchange', 'french_revolution', 'napoleon', 'british_empire']
 # layers each new tour shows; every other tour turns these layers off
-LY_ALL = ['lyHist', 'lyWars', 'lyReform', 'lyCities', 'lyRoutes', 'lyCrops', 'lyMigr', 'lyFigs', 'lyC14', 'lyPop', 'lyFauna', 'lyHomo', 'lyPlague']
+LY_ALL = ['lyFaith', 'lyHist', 'lyWars', 'lyReform', 'lyCities', 'lyRoutes', 'lyCrops', 'lyMigr', 'lyFigs', 'lyC14', 'lyPop', 'lyFauna', 'lyHomo', 'lyPlague']
 TOUR_LY = {
+    'buddhism': {'lyFaith', 'lyWars', 'lyRoutes'},
+    'islam': {'lyFaith', 'lyWars', 'lyRoutes'},
     'columbian_exchange': {'lyHist', 'lyRoutes', 'lyCrops', 'lyMigr'},
     'french_revolution': {'lyHist', 'lyWars'},
     'napoleon': {'lyHist', 'lyWars'},
     'british_empire': {'lyHist', 'lyWars', 'lyRoutes'},
 }
-AFTER = {'columbian_exchange': 'silk-roads', 'french_revolution': 'reformation', 'napoleon': 'french-revolution', 'british_empire': 'napoleon'}
+AFTER = {'buddhism': 'black-death', 'islam': 'buddhism', 'columbian_exchange': 'silk-roads', 'french_revolution': 'reformation', 'napoleon': 'french-revolution', 'british_empire': 'napoleon'}
 
 def load(p):
     return json.loads(p.read_bytes()) if p.exists() else None
@@ -29,9 +31,11 @@ def main():
     for t in TOPICS:
         d = load(D / f'{t}.json')
         if not d: print('missing', t); continue
+        REL = {'buddhism': 'Buddhism', 'islam': 'Islam'}
         for p in d.get('places', []):
+            if t in REL and not str(p.get('who', '')).startswith(REL[t]): p['who'] = REL[t]   # all places of a religion topic go to the religions layer
             out['places'].append([p['n'], p['lat'], p['lon'], p['y'], p.get('end'), 1 if p.get('approx') else 0, p.get('kind', 'other'),
-                                  p.get('who', ''), p.get('what', ''), p.get('w', '')])
+                                  p.get('who', '') + (' · ' + p['sub'] if p.get('sub') else ''), p.get('what', ''), p.get('w', '')])
         for b in d.get('battles', []):
             out['battles'].append([b['n'], b['y'], b.get('date', ''), b['lat'], b['lon'], b.get('war', ''), b.get('a', ''), b.get('b', ''),
                                    b.get('won', ''), b.get('men'), b.get('loss'), b.get('what', ''), b.get('w', '')])
@@ -63,7 +67,7 @@ def main():
         tours.insert(i, tr)
     new = {json.loads((D / f'tour_{t}.json').read_bytes())['id'].replace('_', '-') for t in TOPICS if (D / f'tour_{t}.json').exists()}
     for x in tours:
-        if x['id'] not in new: x.setdefault('ly', {}); x['ly'].setdefault('lyHist', False); x['ly'].setdefault('lyWars', False)
+        if x['id'] not in new: x.setdefault('ly', {}); x['ly'].setdefault('lyHist', False); x['ly'].setdefault('lyWars', False); x['ly'].setdefault('lyFaith', False)
     (D / 'tours.json').write_bytes(json.dumps(tours, ensure_ascii=False, indent=1).replace('\n', '\r\n').encode('utf-8') + b'\r\n')
     (D / 'popup_images_pick.json').write_bytes((json.dumps(dict(sorted(pick.items())), ensure_ascii=False, indent=0) + '\n').encode())
     print(len(tours), 'tours:', [x['id'] for x in tours])

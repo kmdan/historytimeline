@@ -1,0 +1,2552 @@
+{
+ "places": [
+  {
+   "n": "Lumbini",
+   "lat": 27.469,
+   "lon": 83.276,
+   "y": -563,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Traditional birthplace of Siddhartha Gautama, the Buddha; birth c. 563 or c. 480 BCE (debated). Ashoka's pillar of c. 249 BCE marks the spot",
+   "w": "Lumbini",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lumbini",
+    "https://en.wikipedia.org/wiki/The_Buddha"
+   ]
+  },
+  {
+   "n": "Kapilavastu (Tilaurakot)",
+   "lat": 27.573,
+   "lon": 83.054,
+   "y": -550,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Buddhism",
+   "what": "Capital of the Shakya clan where the young Gautama grew up; whether it was at Tilaurakot (Nepal) or Piprahwa (India) is debated",
+   "w": "Kapilavastu",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kapilavastu"
+   ]
+  },
+  {
+   "n": "Bodh Gaya",
+   "lat": 24.696,
+   "lon": 84.991,
+   "y": -528,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "the Buddha",
+   "what": "Gautama reaches awakening under the Bodhi tree; c. 528 BCE in the traditional chronology, c. 450 BCE or later in the short chronology (debated)",
+   "w": "Mahabodhi Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mahabodhi_Temple",
+    "https://en.wikipedia.org/wiki/Bodh_Gaya"
+   ]
+  },
+  {
+   "n": "Sarnath",
+   "lat": 25.381,
+   "lon": 83.024,
+   "y": -528,
+   "end": 1194,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "the Buddha",
+   "what": "First sermon in the deer park; later a great monastery with Ashoka's lion capital. Sacked by Muslim armies c. 1194 (date approximate)",
+   "w": "Sarnath",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sarnath"
+   ]
+  },
+  {
+   "n": "Sravasti (Jetavana)",
+   "lat": 27.52,
+   "lon": 82.05,
+   "y": -500,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Jetavana monastery, donated by the merchant Anathapindika; the Buddha spent many rainy seasons here",
+   "w": "Jetavana",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jetavana"
+   ]
+  },
+  {
+   "n": "Rajgir (Rajagriha)",
+   "lat": 25.03,
+   "lon": 85.42,
+   "y": -483,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Capital of Magadha; by tradition the First Council recites the Buddha's teachings here soon after his death (historicity debated)",
+   "w": "Rajgir",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rajgir",
+    "https://en.wikipedia.org/wiki/Buddhist_councils"
+   ]
+  },
+  {
+   "n": "Kushinagar",
+   "lat": 26.741,
+   "lon": 83.888,
+   "y": -483,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The Buddha dies (parinirvana) aged about 80; c. 483 or c. 400 BCE (debated)",
+   "w": "Kushinagar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kushinagar"
+   ]
+  },
+  {
+   "n": "Vaishali",
+   "lat": 25.99,
+   "lon": 85.13,
+   "y": -383,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Second Council, about a century after the Buddha, over monastic discipline; often seen as the root of the first schism (dates debated)",
+   "w": "Buddhist councils",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhist_councils",
+    "https://en.wikipedia.org/wiki/Vaishali_(ancient_city)"
+   ]
+  },
+  {
+   "n": "Kalinga (Dhauli)",
+   "lat": 20.19,
+   "lon": 85.84,
+   "y": -261,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Ashoka's bloody conquest of Kalinga; his 13th Rock Edict records his remorse and turn to the dharma",
+   "w": "Kalinga War",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kalinga_War",
+    "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+   ]
+  },
+  {
+   "n": "Pataliputra",
+   "lat": 25.61,
+   "lon": 85.14,
+   "y": -250,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Ashoka's capital; Theravada chronicles place a Third Council here under Moggaliputta-Tissa and say it sent missionaries abroad (known only from that tradition)",
+   "w": "Buddhist councils",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhist_councils",
+    "https://en.wikipedia.org/wiki/Pataliputra"
+   ]
+  },
+  {
+   "n": "Sanchi",
+   "lat": 23.48,
+   "lon": 77.74,
+   "y": -250,
+   "end": 1300,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Ashoka commissions the Great Stupa; its carved gateways are added in the 1st century BCE. Active until about the 12th-13th century",
+   "w": "Sanchi Stupa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sanchi_Stupa",
+    "https://en.wikipedia.org/wiki/Ashoka"
+   ]
+  },
+  {
+   "n": "Maldives (Male)",
+   "lat": 4.175,
+   "lon": 73.51,
+   "y": -250,
+   "end": 1153,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Buddhism probably arrives from Sri Lanka in the 3rd century BCE (approximate); the king converts to Islam in 1153 by tradition",
+   "w": "Buddhism in the Maldives",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhism_in_the_Maldives"
+   ]
+  },
+  {
+   "n": "Suvarnabhumi (Thaton?)",
+   "lat": 16.92,
+   "lon": 97.37,
+   "y": -250,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Ashoka's mission of Sona and Uttara to the 'Golden Land'; its location (Lower Burma, Thailand or elsewhere) is debated",
+   "w": "Suvarnabhumi",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suvarnabhumi"
+   ]
+  },
+  {
+   "n": "Taxila (Dharmarajika)",
+   "lat": 33.75,
+   "lon": 72.83,
+   "y": -250,
+   "end": 500,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Ashoka's Dharmarajika stupa; Taxila's monasteries flourish until destroyed in the Hun (Alchon) invasions c. 450-500",
+   "w": "Dharmarajika Stupa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dharmarajika_Stupa",
+    "https://en.wikipedia.org/wiki/Taxila"
+   ]
+  },
+  {
+   "n": "Swat (Butkara)",
+   "lat": 34.76,
+   "lon": 72.36,
+   "y": -250,
+   "end": 1000,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Stupa founded in Ashoka's time and enlarged for centuries; Swat (Udyana) remains Buddhist until about the 10th-11th century",
+   "w": "Butkara Stupa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Butkara_Stupa"
+   ]
+  },
+  {
+   "n": "Kashmir (Srinagar)",
+   "lat": 34.08,
+   "lon": 74.8,
+   "y": -250,
+   "end": 1339,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Buddhism established by Ashoka's time; a Fourth Council (Sarvastivada) is placed here under Kanishka (debated). Declines as Islam spreads after 1339",
+   "w": "Buddhism in Kashmir",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhism_in_Kashmir",
+    "https://en.wikipedia.org/wiki/Buddhist_councils"
+   ]
+  },
+  {
+   "n": "Anuradhapura (Mahavihara)",
+   "lat": 8.35,
+   "lon": 80.39,
+   "y": -247,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Ashoka's son Mahinda converts King Devanampiya Tissa (c. 250 BCE); the Mahavihara becomes the centre of Theravada and Sanghamitta's Bodhi-tree cutting is planted",
+   "w": "Mahavihara",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mahavihara",
+    "https://en.wikipedia.org/wiki/Mahinda_(Buddhist_monk)",
+    "https://en.wikipedia.org/wiki/Jaya_Sri_Maha_Bodhi"
+   ]
+  },
+  {
+   "n": "Amaravati",
+   "lat": 16.575,
+   "lon": 80.358,
+   "y": -200,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Great stupa of the Andhra region, enlarged from the 3rd century BCE to the 3rd century CE",
+   "w": "Amaravati Stupa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Amaravati_Stupa"
+   ]
+  },
+  {
+   "n": "Bharhut",
+   "lat": 24.45,
+   "lon": 80.86,
+   "y": -150,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Stupa railings carved c. 150 BCE: early Buddhist art showing the Buddha only by symbols",
+   "w": "Bharhut",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bharhut"
+   ]
+  },
+  {
+   "n": "Ajanta",
+   "lat": 20.55,
+   "lon": 75.7,
+   "y": -150,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Rock-cut monasteries; first phase c. 2nd century BCE, famous murals of the second phase c. 460-480 CE",
+   "w": "Ajanta Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ajanta_Caves"
+   ]
+  },
+  {
+   "n": "Sagala (Sialkot)",
+   "lat": 32.49,
+   "lon": 74.53,
+   "y": -150,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Capital of the Indo-Greek king Menander I, remembered as 'Milinda' in a Buddhist dialogue",
+   "w": "Menander I",
+   "src": [
+    "https://en.wikipedia.org/wiki/Menander_I",
+    "https://en.wikipedia.org/wiki/Milinda_Panha"
+   ]
+  },
+  {
+   "n": "Karla Caves",
+   "lat": 18.78,
+   "lon": 73.47,
+   "y": -50,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "traders",
+   "what": "Rock-cut prayer hall paid for by merchants, some of them Yavanas (Greeks); site developed from the 2nd century BCE",
+   "w": "Karla Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Karla_Caves"
+   ]
+  },
+  {
+   "n": "Aluvihare",
+   "lat": 7.497,
+   "lon": 80.62,
+   "y": -29,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Monks write down the Pali Canon on palm leaves for the first time, c. 29 BCE (date varies by source)",
+   "w": "Aluvihare Rock Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aluvihare_Rock_Temple",
+    "https://en.wikipedia.org/wiki/Pali_Canon"
+   ]
+  },
+  {
+   "n": "Pengcheng (Xuzhou)",
+   "lat": 34.26,
+   "lon": 117.19,
+   "y": 65,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Earliest secure Chinese record of Buddhist practice: Prince Ying of Chu honours the Buddha (65 CE)",
+   "w": "Silk Road transmission of Buddhism",
+   "src": [
+    "https://en.wikipedia.org/wiki/Silk_Road_transmission_of_Buddhism"
+   ]
+  },
+  {
+   "n": "Luoyang (White Horse Temple)",
+   "lat": 34.72,
+   "lon": 112.6,
+   "y": 68,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "By legend Emperor Ming's dream brings two Indian monks and sutras on white horses; China's first Buddhist temple (traditional date)",
+   "w": "White Horse Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/White_Horse_Temple"
+   ]
+  },
+  {
+   "n": "Mathura",
+   "lat": 27.49,
+   "lon": 77.67,
+   "y": 100,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Kushan-era workshops carve some of the first images of the Buddha in human form (whether before Gandhara is debated)",
+   "w": "Art of Mathura",
+   "src": [
+    "https://en.wikipedia.org/wiki/Art_of_Mathura"
+   ]
+  },
+  {
+   "n": "Hadda",
+   "lat": 34.36,
+   "lon": 70.47,
+   "y": 100,
+   "end": 900,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Gandharan monasteries with stucco sculpture, 1st-7th centuries; end date approximate",
+   "w": "Hadda, Afghanistan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hadda,_Afghanistan",
+    "https://en.wikipedia.org/wiki/Greco-Buddhist_art"
+   ]
+  },
+  {
+   "n": "Termez (Kara Tepe)",
+   "lat": 37.23,
+   "lon": 67.2,
+   "y": 100,
+   "end": 750,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Kushan cave monasteries on the Amu Darya; Buddhism fades after the Arab conquest (approximate)",
+   "w": "Kara Tepe",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kara_Tepe",
+    "https://en.wikipedia.org/wiki/Termez"
+   ]
+  },
+  {
+   "n": "Khotan",
+   "lat": 37.11,
+   "lon": 79.93,
+   "y": 100,
+   "end": 1006,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Buddhist oasis kingdom (arrival date uncertain); Faxian sees its image processions in 401. Conquered by the Muslim Karakhanids in 1006",
+   "w": "Kingdom of Khotan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kingdom_of_Khotan",
+    "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   ]
+  },
+  {
+   "n": "Peshawar (Kanishka Stupa)",
+   "lat": 34.01,
+   "lon": 71.58,
+   "y": 127,
+   "end": 1000,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Kushan emperor Kanishka (r. c. 127-150) builds one of the tallest stupas of the ancient world",
+   "w": "Kanishka Stupa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kanishka_Stupa",
+    "https://en.wikipedia.org/wiki/Kanishka"
+   ]
+  },
+  {
+   "n": "Luoyang (An Shigao)",
+   "lat": 34.68,
+   "lon": 112.45,
+   "y": 148,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The Parthian prince-monk An Shigao begins translating Buddhist texts into Chinese",
+   "w": "An Shigao",
+   "src": [
+    "https://en.wikipedia.org/wiki/An_Shigao",
+    "https://en.wikipedia.org/wiki/Lokaksema_(Buddhist_monk)"
+   ]
+  },
+  {
+   "n": "Balkh (Naw Bahar)",
+   "lat": 36.76,
+   "lon": 66.9,
+   "y": 150,
+   "end": 1000,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "'New Monastery' near Balkh, perhaps founded in Kanishka's time; flourishing in the 7th-11th centuries by historical accounts",
+   "w": "Naw Bahar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Naw_Bahar"
+   ]
+  },
+  {
+   "n": "Miran",
+   "lat": 39.22,
+   "lon": 88.97,
+   "y": 200,
+   "end": 800,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Stupas with Roman-influenced wall paintings in the kingdom of Shanshan (Kroraina); abandoned in the late 1st millennium",
+   "w": "Miran (Xinjiang)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Miran_(Xinjiang)"
+   ]
+  },
+  {
+   "n": "Kucha",
+   "lat": 41.72,
+   "lon": 82.96,
+   "y": 200,
+   "end": 1400,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "Tocharian Buddhist kingdom, birthplace of Kumarajiva (344); Islamised in the 14th-15th centuries (approximate)",
+   "w": "Kucha",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kucha",
+    "https://en.wikipedia.org/wiki/Kum%C4%81raj%C4%ABva"
+   ]
+  },
+  {
+   "n": "Luy Lau (Dau Temple)",
+   "lat": 21.04,
+   "lon": 106.04,
+   "y": 200,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "traders",
+   "what": "Early centre of Buddhism in Jiaozhi on the sea route from India, 2nd-3rd centuries (approximate)",
+   "w": "Dâu Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/D%C3%A2u_Temple"
+   ]
+  },
+  {
+   "n": "Nagarjunakonda",
+   "lat": 16.52,
+   "lon": 79.24,
+   "y": 250,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Monasteries of the Ikshvaku kings' capital in the 3rd century CE; the link with the philosopher Nagarjuna is debated",
+   "w": "Nagarjunakonda",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nagarjunakonda"
+   ]
+  },
+  {
+   "n": "Kizil Caves",
+   "lat": 41.78,
+   "lon": 82.51,
+   "y": 300,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "More than 230 painted cave shrines of the Kucha kingdom, 3rd-8th centuries (dating debated)",
+   "w": "Kizil Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kizil_Caves"
+   ]
+  },
+  {
+   "n": "Dunhuang (Mogao Caves)",
+   "lat": 40.04,
+   "lon": 94.81,
+   "y": 366,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "The monk Lezun digs the first meditation cave; nearly 500 painted caves follow over a thousand years",
+   "w": "Mogao Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mogao_Caves"
+   ]
+  },
+  {
+   "n": "Goguryeo (Gungnae)",
+   "lat": 41.12,
+   "lon": 126.19,
+   "y": 372,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "The monk Sundo brings images and sutras from the Former Qin; Buddhism adopted at court",
+   "w": "Sundo",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sundo",
+    "https://en.wikipedia.org/wiki/Korean_Buddhism"
+   ]
+  },
+  {
+   "n": "Baekje (Hanseong)",
+   "lat": 37.52,
+   "lon": 127.11,
+   "y": 384,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "monks",
+   "what": "The Serindian monk Marananta arrives from Eastern Jin China",
+   "w": "Marananta",
+   "src": [
+    "https://en.wikipedia.org/wiki/Marananta"
+   ]
+  },
+  {
+   "n": "Mount Lu (Donglin Temple)",
+   "lat": 29.53,
+   "lon": 115.98,
+   "y": 386,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Pure Land",
+   "what": "Huiyuan founds Donglin Temple, later revered as the starting point of Pure Land Buddhism",
+   "w": "Donglin Temple (Jiujiang)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Donglin_Temple_(Jiujiang)",
+    "https://en.wikipedia.org/wiki/Lushan_Huiyuan"
+   ]
+  },
+  {
+   "n": "Turfan (Gaochang / Qocho)",
+   "lat": 42.85,
+   "lon": 89.53,
+   "y": 400,
+   "end": 1450,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Buddhist oasis kingdom visited by Xuanzang in 630; from 843 the Uyghur kingdom of Qocho, Buddhist until Islamisation in the 15th century (approximate)",
+   "w": "Qocho",
+   "src": [
+    "https://en.wikipedia.org/wiki/Qocho",
+    "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
+   ]
+  },
+  {
+   "n": "Chang'an (Kumarajiva)",
+   "lat": 34.26,
+   "lon": 108.94,
+   "y": 401.9,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Kumarajiva arrives under Later Qin patronage; his translation bureau shapes Chinese Buddhism until his death in 413",
+   "w": "Kumārajīva",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kum%C4%81raj%C4%ABva"
+   ]
+  },
+  {
+   "n": "Nalanda",
+   "lat": 25.136,
+   "lon": 85.443,
+   "y": 427,
+   "end": 1193,
+   "approx": true,
+   "kind": "city",
+   "who": "Buddhism",
+   "what": "Great monastic university founded under the Guptas c. 427; sacked by Bakhtiyar Khalji c. 1193 (date debated), afterwards continued only in reduced form",
+   "w": "Nalanda mahavihara",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nalanda_mahavihara",
+    "https://en.wikipedia.org/wiki/Muhammad_Bakhtiyar_Khalji"
+   ]
+  },
+  {
+   "n": "Kathmandu (Swayambhunath)",
+   "lat": 27.715,
+   "lon": 85.29,
+   "y": 460,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Stupa traditionally dated to the 5th century; Newar Buddhism of the valley later preserves Sanskrit texts and tantric rites",
+   "w": "Swayambhunath",
+   "src": [
+    "https://en.wikipedia.org/wiki/Swayambhunath"
+   ]
+  },
+  {
+   "n": "Yungang Grottoes",
+   "lat": 40.11,
+   "lon": 113.12,
+   "y": 460,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Northern Wei emperors carve colossal Buddhas near their capital Pingcheng",
+   "w": "Yungang Grottoes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yungang_Grottoes"
+   ]
+  },
+  {
+   "n": "Longmen Grottoes",
+   "lat": 34.56,
+   "lon": 112.47,
+   "y": 493,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "After moving the capital to Luoyang the Northern Wei start the Longmen caves; work continues into the Tang",
+   "w": "Longmen Grottoes",
+   "src": [
+    "https://en.wikipedia.org/wiki/Longmen_Grottoes"
+   ]
+  },
+  {
+   "n": "Shaolin Monastery",
+   "lat": 34.51,
+   "lon": 112.94,
+   "y": 495,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Zen/Chan",
+   "what": "Founded for an Indian monk; later legend links it with Bodhidharma, founder of Chan (Zen)",
+   "w": "Shaolin Monastery",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shaolin_Monastery"
+   ]
+  },
+  {
+   "n": "Sri Ksetra (Pyu)",
+   "lat": 18.8,
+   "lon": 95.29,
+   "y": 500,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Largest Pyu city; Pali inscriptions and stupas show Theravada (with Mahayana) from about the 5th century",
+   "w": "Sri Ksetra kingdom",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sri_Ksetra_kingdom"
+   ]
+  },
+  {
+   "n": "Silla (Gyeongju)",
+   "lat": 35.84,
+   "lon": 129.21,
+   "y": 527,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "After the martyrdom of the courtier Ichadon, King Beopheung makes Buddhism Silla's official faith",
+   "w": "Ichadon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ichadon"
+   ]
+  },
+  {
+   "n": "Asuka (Yamato court)",
+   "lat": 34.47,
+   "lon": 135.82,
+   "y": 552,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Baekje sends a Buddha image and sutras to the Japanese court in 538 or 552 (the sources differ)",
+   "w": "Buddhism in Japan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhism_in_Japan"
+   ]
+  },
+  {
+   "n": "Bamiyan",
+   "lat": 34.83,
+   "lon": 67.83,
+   "y": 570,
+   "end": 1000,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Giant Buddhas carved c. 570 and c. 618 (radiocarbon); the valley turns Muslim by c. 1000 (approximate). Statues destroyed in 2001",
+   "w": "Buddhas of Bamiyan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan"
+   ]
+  },
+  {
+   "n": "Shitenno-ji (Osaka)",
+   "lat": 34.654,
+   "lon": 135.516,
+   "y": 593,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Temple traditionally founded by Prince Shotoku",
+   "w": "Shitennō-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/Shitenn%C5%8D-ji",
+    "https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku"
+   ]
+  },
+  {
+   "n": "Asuka-dera",
+   "lat": 34.478,
+   "lon": 135.82,
+   "y": 596,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Japan's first full temple, built by the Soga clan from 588",
+   "w": "Asuka-dera",
+   "src": [
+    "https://en.wikipedia.org/wiki/Asuka-dera"
+   ]
+  },
+  {
+   "n": "Bezeklik",
+   "lat": 42.96,
+   "lon": 89.54,
+   "y": 600,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Cave temples above Turfan with Uyghur-era murals of donors and Buddhas (5th-14th centuries)",
+   "w": "Bezeklik Thousand Buddha Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bezeklik_Thousand_Buddha_Caves"
+   ]
+  },
+  {
+   "n": "Dvaravati (Nakhon Pathom)",
+   "lat": 13.82,
+   "lon": 100.06,
+   "y": 600,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Mon Buddhist polities of central Thailand, 6th-11th centuries",
+   "w": "Dvaravati",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dvaravati"
+   ]
+  },
+  {
+   "n": "Horyu-ji",
+   "lat": 34.614,
+   "lon": 135.734,
+   "y": 607,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Founded by Prince Shotoku; its rebuilt halls are among the oldest wooden buildings in the world",
+   "w": "Hōryū-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/H%C5%8Dry%C5%AB-ji"
+   ]
+  },
+  {
+   "n": "Ellora",
+   "lat": 20.03,
+   "lon": 75.18,
+   "y": 630,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Buddhist caves (c. 600-730) beside Hindu and Jain ones: Buddhism as one faith among several",
+   "w": "Ellora Caves",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ellora_Caves"
+   ]
+  },
+  {
+   "n": "Lhasa (Jokhang)",
+   "lat": 29.653,
+   "lon": 91.13,
+   "y": 640,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "King Songtsen Gampo builds the Jokhang for a Buddha image brought by his Nepali queen (her historicity is debated)",
+   "w": "Jokhang",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jokhang",
+    "https://en.wikipedia.org/wiki/Songtsen_Gampo"
+   ]
+  },
+  {
+   "n": "Kannauj",
+   "lat": 27.06,
+   "lon": 79.92,
+   "y": 643,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Emperor Harsha holds a great religious assembly honouring the Chinese pilgrim Xuanzang",
+   "w": "Harsha",
+   "src": [
+    "https://en.wikipedia.org/wiki/Harsha"
+   ]
+  },
+  {
+   "n": "Muaro Jambi",
+   "lat": -1.48,
+   "lon": 103.67,
+   "y": 650,
+   "end": 1300,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Brick temple-monastery complex on the Batang Hari river, 7th-13th centuries",
+   "w": "Muaro Jambi Temple Compounds",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muaro_Jambi_Temple_Compounds"
+   ]
+  },
+  {
+   "n": "Chang'an (Great Wild Goose Pagoda)",
+   "lat": 34.22,
+   "lon": 108.96,
+   "y": 652,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Pagoda built to house the texts Xuanzang brought back from India",
+   "w": "Xuanzang",
+   "src": [
+    "https://en.wikipedia.org/wiki/Xuanzang"
+   ]
+  },
+  {
+   "n": "Srivijaya (Palembang)",
+   "lat": -2.99,
+   "lon": 104.76,
+   "y": 671,
+   "end": 1300,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Yijing finds over a thousand monks here in 671; Srivijaya's power fades in the 13th century (approximate)",
+   "w": "Srivijaya",
+   "src": [
+    "https://en.wikipedia.org/wiki/Srivijaya",
+    "https://en.wikipedia.org/wiki/Yijing_(monk)"
+   ]
+  },
+  {
+   "n": "Caoxi (Nanhua Temple)",
+   "lat": 24.8,
+   "lon": 113.6,
+   "y": 677,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Zen/Chan",
+   "what": "Huineng, the Sixth Patriarch, teaches here; his 'sudden awakening' school becomes mainstream Chan",
+   "w": "Nanhua Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nanhua_Temple",
+    "https://en.wikipedia.org/wiki/Huineng"
+   ]
+  },
+  {
+   "n": "Odantapuri (Bihar Sharif)",
+   "lat": 25.2,
+   "lon": 85.52,
+   "y": 750,
+   "end": 1193,
+   "approx": true,
+   "kind": "city",
+   "who": "Buddhism",
+   "what": "Pala monastic university founded in the 8th century; destroyed by Bakhtiyar Khalji's troops c. 1193 (date debated)",
+   "w": "Odantapuri",
+   "src": [
+    "https://en.wikipedia.org/wiki/Odantapuri"
+   ]
+  },
+  {
+   "n": "Nara (Todai-ji)",
+   "lat": 34.689,
+   "lon": 135.84,
+   "y": 752.27,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Emperor Shomu's Great Buddha, a bronze about 15 m tall, is dedicated",
+   "w": "Tōdai-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji"
+   ]
+  },
+  {
+   "n": "Nara (Toshodai-ji)",
+   "lat": 34.675,
+   "lon": 135.785,
+   "y": 759,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Temple founded by the blind Chinese master Jianzhen (Ganjin), who brought proper ordination rules",
+   "w": "Tōshōdai-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/T%C5%8Dsh%C5%8Ddai-ji",
+    "https://en.wikipedia.org/wiki/Jianzhen"
+   ]
+  },
+  {
+   "n": "Bulguksa and Seokguram",
+   "lat": 35.79,
+   "lon": 129.33,
+   "y": 774,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Silla's great temple and cave shrine; work begun in 751 is completed in 774",
+   "w": "Bulguksa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bulguksa"
+   ]
+  },
+  {
+   "n": "Samye",
+   "lat": 29.33,
+   "lon": 91.5,
+   "y": 779,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "First Tibetan monastery, founded under Trisong Detsen by Shantarakshita and Padmasambhava; first monks ordained in 779",
+   "w": "Samye",
+   "src": [
+    "https://en.wikipedia.org/wiki/Samye"
+   ]
+  },
+  {
+   "n": "Mount Hiei (Enryaku-ji)",
+   "lat": 35.07,
+   "lon": 135.84,
+   "y": 788,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Saicho founds the Tendai school's headquarters, cradle of later Japanese schools",
+   "w": "Enryaku-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/Enryaku-ji"
+   ]
+  },
+  {
+   "n": "Vikramashila",
+   "lat": 25.32,
+   "lon": 87.28,
+   "y": 800,
+   "end": 1203,
+   "approx": true,
+   "kind": "city",
+   "who": "Buddhism",
+   "what": "Monastic university founded by the Pala king Dharmapala (r. 783-820); destroyed c. 1203",
+   "w": "Vikramashila",
+   "src": [
+    "https://en.wikipedia.org/wiki/Vikramashila",
+    "https://en.wikipedia.org/wiki/Pala_Empire"
+   ]
+  },
+  {
+   "n": "Borobudur",
+   "lat": -7.608,
+   "lon": 110.204,
+   "y": 800,
+   "end": 1500,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Sailendra kings build the largest Buddhist monument, with 2,672 relief panels and 504 Buddhas; Java turns Muslim in the 15th-16th centuries",
+   "w": "Borobudur",
+   "src": [
+    "https://en.wikipedia.org/wiki/Borobudur"
+   ]
+  },
+  {
+   "n": "Mount Koya",
+   "lat": 34.21,
+   "lon": 135.58,
+   "y": 816,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Kukai founds the centre of Shingon esoteric Buddhism",
+   "w": "Mount Kōya",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_K%C5%8Dya"
+   ]
+  },
+  {
+   "n": "Lhasa (Langdarma)",
+   "lat": 29.66,
+   "lon": 91.12,
+   "y": 842,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Assassination of Langdarma ends the Tibetan Empire; monastic Buddhism in central Tibet declines for over a century",
+   "w": "Langdarma",
+   "src": [
+    "https://en.wikipedia.org/wiki/Langdarma"
+   ]
+  },
+  {
+   "n": "Chang'an (Huichang persecution)",
+   "lat": 34.27,
+   "lon": 108.93,
+   "y": 845,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Emperor Wuzong closes some 4,600 monasteries and returns monks and nuns to lay life; Chinese Buddhism never regains its Tang wealth",
+   "w": "Huichang persecution of Buddhism",
+   "src": [
+    "https://en.wikipedia.org/wiki/Huichang_persecution_of_Buddhism"
+   ]
+  },
+  {
+   "n": "Dunhuang Library Cave",
+   "lat": 40.04,
+   "lon": 94.82,
+   "y": 868.36,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The Diamond Sutra, the oldest dated printed book (11 May 868), later sealed in the 'Library Cave' c. 1000 and found in 1900",
+   "w": "Diamond Sutra",
+   "src": [
+    "https://en.wikipedia.org/wiki/Diamond_Sutra",
+    "https://en.wikipedia.org/wiki/Mogao_Caves"
+   ]
+  },
+  {
+   "n": "Chengdu (Kaibao Canon)",
+   "lat": 30.66,
+   "lon": 104.06,
+   "y": 971,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The whole Buddhist canon is printed from woodblocks, 971-983",
+   "w": "Kaibao Canon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kaibao_Canon"
+   ]
+  },
+  {
+   "n": "Western Xia (Yinchuan)",
+   "lat": 38.47,
+   "lon": 106.27,
+   "y": 1038,
+   "end": 1227,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Tangut state patronises Buddhism and prints the canon in its own script; destroyed by the Mongols in 1227",
+   "w": "Western Xia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Western_Xia"
+   ]
+  },
+  {
+   "n": "Tholing (Guge)",
+   "lat": 31.48,
+   "lon": 79.8,
+   "y": 1042,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "The Bengali master Atisha arrives in western Tibet, starting the 'later spread' of Buddhism",
+   "w": "Atiśa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ati%C5%9Ba",
+    "https://en.wikipedia.org/wiki/Tholing_Monastery"
+   ]
+  },
+  {
+   "n": "Hanoi (One Pillar Pagoda)",
+   "lat": 21.036,
+   "lon": 105.834,
+   "y": 1049,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Ly dynasty royal pagoda; Buddhism at the height of court patronage",
+   "w": "One Pillar Pagoda",
+   "src": [
+    "https://en.wikipedia.org/wiki/One_Pillar_Pagoda"
+   ]
+  },
+  {
+   "n": "Yingxian Wooden Pagoda",
+   "lat": 39.56,
+   "lon": 113.18,
+   "y": 1056,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Liao (Khitan) dynasty builds the world's tallest surviving wooden pagoda",
+   "w": "Pagoda of Fogong Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pagoda_of_Fogong_Temple"
+   ]
+  },
+  {
+   "n": "Bagan (Pagan)",
+   "lat": 21.17,
+   "lon": 94.86,
+   "y": 1057,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "By the chronicles King Anawrahta takes Thaton in 1057 and adopts Theravada (debated); over 10,000 temples built in 250 years",
+   "w": "Bagan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bagan",
+    "https://en.wikipedia.org/wiki/Anawrahta"
+   ]
+  },
+  {
+   "n": "Sakya",
+   "lat": 28.9,
+   "lon": 88.02,
+   "y": 1073,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Sakya monastery founded; its lamas later rule Tibet for the Mongols",
+   "w": "Sakya Monastery",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sakya_Monastery"
+   ]
+  },
+  {
+   "n": "Alchi (Ladakh)",
+   "lat": 34.22,
+   "lon": 77.17,
+   "y": 1140,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Temples with Kashmiri-style murals; dated 11th century by tradition, no earlier than c. 1140 by recent readings (debated)",
+   "w": "Alchi Monastery",
+   "src": [
+    "https://en.wikipedia.org/wiki/Alchi_Monastery"
+   ]
+  },
+  {
+   "n": "Polonnaruwa",
+   "lat": 7.94,
+   "lon": 81.0,
+   "y": 1165,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Parakramabahu I unites Sri Lanka's monastic orders under the Mahavihara tradition",
+   "w": "Parakramabahu I",
+   "src": [
+    "https://en.wikipedia.org/wiki/Parakramabahu_I",
+    "https://en.wikipedia.org/wiki/Polonnaruwa"
+   ]
+  },
+  {
+   "n": "Kyoto (Honen)",
+   "lat": 35.01,
+   "lon": 135.78,
+   "y": 1175,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Pure Land",
+   "what": "Honen founds the Jodo (Pure Land) school: salvation by reciting Amida's name",
+   "w": "Hōnen",
+   "src": [
+    "https://en.wikipedia.org/wiki/H%C5%8Dnen"
+   ]
+  },
+  {
+   "n": "Angkor (Bayon)",
+   "lat": 13.441,
+   "lon": 103.859,
+   "y": 1190,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Mahayana",
+   "what": "Jayavarman VII (r. 1181-c. 1218) makes Mahayana the state faith and builds the Bayon",
+   "w": "Jayavarman VII",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jayavarman_VII",
+    "https://en.wikipedia.org/wiki/Bayon"
+   ]
+  },
+  {
+   "n": "Eihei-ji",
+   "lat": 36.06,
+   "lon": 136.36,
+   "y": 1244,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Zen/Chan",
+   "what": "Dogen founds the head temple of Soto Zen",
+   "w": "Eihei-ji",
+   "src": [
+    "https://en.wikipedia.org/wiki/Eihei-ji",
+    "https://en.wikipedia.org/wiki/D%C5%8Dgen"
+   ]
+  },
+  {
+   "n": "Haeinsa (Tripitaka Koreana)",
+   "lat": 35.8,
+   "lon": 128.1,
+   "y": 1251,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "About 81,000 woodblocks of the canon, carved 1237-1251 to invoke protection against the Mongols, later kept at Haeinsa",
+   "w": "Tripitaka Koreana",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tripitaka_Koreana",
+    "https://en.wikipedia.org/wiki/Haeinsa"
+   ]
+  },
+  {
+   "n": "Kamakura (Great Buddha)",
+   "lat": 35.317,
+   "lon": 139.536,
+   "y": 1252,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Bronze Amida Buddha cast for the warrior capital",
+   "w": "Kōtoku-in",
+   "src": [
+    "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in"
+   ]
+  },
+  {
+   "n": "Ilkhanate (Maragheh)",
+   "lat": 37.39,
+   "lon": 46.24,
+   "y": 1258,
+   "end": 1295,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Hulagu's Mongol rulers of Iran patronise Buddhist temples; Ghazan's conversion to Islam in 1295 ends it",
+   "w": "Ilkhanate",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ilkhanate"
+   ]
+  },
+  {
+   "n": "Khanbaliq (Beijing)",
+   "lat": 39.9,
+   "lon": 116.4,
+   "y": 1260,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Kublai Khan makes the Sakya lama Phagpa his national preceptor; Tibetan Buddhism at the Yuan court",
+   "w": "Drogön Chögyal Phagpa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Drog%C3%B6n_Ch%C3%B6gyal_Phagpa"
+   ]
+  },
+  {
+   "n": "Sukhothai",
+   "lat": 17.02,
+   "lon": 99.7,
+   "y": 1292,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Ram Khamhaeng's inscription (1292; authenticity debated) praises Lankan-lineage monks",
+   "w": "Sukhothai Kingdom",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sukhothai_Kingdom",
+    "https://en.wikipedia.org/wiki/Ram_Khamhaeng_Inscription"
+   ]
+  },
+  {
+   "n": "Yen Tu (Truc Lam)",
+   "lat": 21.16,
+   "lon": 106.72,
+   "y": 1299,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Zen/Chan",
+   "what": "The retired emperor Tran Nhan Tong founds the Vietnamese Truc Lam Zen school",
+   "w": "Trúc Lâm",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m"
+   ]
+  },
+  {
+   "n": "Angkor (Theravada)",
+   "lat": 13.412,
+   "lon": 103.867,
+   "y": 1300,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Within about a century of Jayavarman VII the Khmer turn to Theravada; Angkor Wat becomes a Buddhist shrine (approximate)",
+   "w": "Khmer Empire",
+   "src": [
+    "https://en.wikipedia.org/wiki/Khmer_Empire",
+    "https://en.wikipedia.org/wiki/Theravada"
+   ]
+  },
+  {
+   "n": "Majapahit (Trowulan)",
+   "lat": -7.56,
+   "lon": 112.38,
+   "y": 1300,
+   "end": 1527,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Court blends Shiva worship and tantric Buddhism; decline of the kingdom by 1527 (approximate)",
+   "w": "Trowulan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Trowulan"
+   ]
+  },
+  {
+   "n": "Ayutthaya",
+   "lat": 14.355,
+   "lon": 100.57,
+   "y": 1351,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Thai kingdom with Theravada as court religion until its sack by the Burmese in 1767; Buddhism continues under Bangkok",
+   "w": "Ayutthaya Kingdom",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ayutthaya_Kingdom"
+   ]
+  },
+  {
+   "n": "Luang Prabang (Lan Xang)",
+   "lat": 19.89,
+   "lon": 102.13,
+   "y": 1353,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Fa Ngum founds Lan Xang with Khmer support; the Phra Bang image becomes the palladium of Laos",
+   "w": "Fa Ngum",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fa_Ngum"
+   ]
+  },
+  {
+   "n": "Ganden",
+   "lat": 29.76,
+   "lon": 91.47,
+   "y": 1409,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Tsongkhapa founds the first Gelug ('Yellow Hat') monastery",
+   "w": "Ganden Monastery",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ganden_Monastery"
+   ]
+  },
+  {
+   "n": "Chiang Mai (Wat Chet Yot)",
+   "lat": 18.81,
+   "lon": 98.97,
+   "y": 1477,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "King Tilokarat of Lan Na hosts a council to revise the Pali Canon (numbered the eighth in Thai tradition)",
+   "w": "Wat Chet Yot",
+   "src": [
+    "https://en.wikipedia.org/wiki/Wat_Chet_Yot"
+   ]
+  },
+  {
+   "n": "Kokonor (Qinghai Lake)",
+   "lat": 36.9,
+   "lon": 100.2,
+   "y": 1578.4,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Altan Khan meets Sonam Gyatso and gives him the title Dalai Lama; the Mongols turn to Tibetan Buddhism",
+   "w": "Altan Khan",
+   "src": [
+    "https://en.wikipedia.org/wiki/Altan_Khan",
+    "https://en.wikipedia.org/wiki/3rd_Dalai_Lama"
+   ]
+  },
+  {
+   "n": "Hohhot (Dazhao Temple)",
+   "lat": 40.81,
+   "lon": 111.65,
+   "y": 1579,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Altan Khan's city gets its first great Tibetan Buddhist temple",
+   "w": "Dazhao Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dazhao_Temple",
+    "https://en.wikipedia.org/wiki/Hohhot"
+   ]
+  },
+  {
+   "n": "Erdene Zuu (Karakorum)",
+   "lat": 47.2,
+   "lon": 102.84,
+   "y": 1585,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "ruler converts",
+   "what": "Abtai Khan builds the first major monastery of the Khalkha Mongols from the ruins of Karakorum",
+   "w": "Erdene Zuu Monastery",
+   "src": [
+    "https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery",
+    "https://en.wikipedia.org/wiki/Buddhism_in_Mongolia"
+   ]
+  },
+  {
+   "n": "Kandy (Temple of the Tooth)",
+   "lat": 7.294,
+   "lon": 80.641,
+   "y": 1595,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The Buddha's tooth relic, symbol of kingship, is housed in the last Sinhalese royal capital",
+   "w": "Temple of the Tooth",
+   "src": [
+    "https://en.wikipedia.org/wiki/Temple_of_the_Tooth"
+   ]
+  },
+  {
+   "n": "Kalmyks on the Volga",
+   "lat": 46.31,
+   "lon": 44.27,
+   "y": 1630,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Oirat Mongols migrate to the lower Volga and found the Kalmyk Khanate: Europe's only traditionally Buddhist people",
+   "w": "Kalmyks",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kalmyks"
+   ]
+  },
+  {
+   "n": "Bhutan (Punakha)",
+   "lat": 27.61,
+   "lon": 89.87,
+   "y": 1637,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Ngawang Namgyal unifies Bhutan as a Drukpa Kagyu Buddhist state in the 1630s",
+   "w": "Ngawang Namgyal",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ngawang_Namgyal"
+   ]
+  },
+  {
+   "n": "Urga (Ulaanbaatar)",
+   "lat": 47.92,
+   "lon": 106.92,
+   "y": 1639,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "A mobile monastery-camp founded for Zanabazar, first Jebtsundamba Khutuktu; it grows into Mongolia's capital",
+   "w": "Zanabazar",
+   "src": [
+    "https://en.wikipedia.org/wiki/Zanabazar"
+   ]
+  },
+  {
+   "n": "Sikkim (Yuksom)",
+   "lat": 27.37,
+   "lon": 88.22,
+   "y": 1642,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Three lamas consecrate Phuntsog Namgyal as the first Buddhist king of Sikkim",
+   "w": "Yuksom",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yuksom"
+   ]
+  },
+  {
+   "n": "Lhasa (Potala Palace)",
+   "lat": 29.658,
+   "lon": 91.117,
+   "y": 1645,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "The 5th Dalai Lama, now ruler of Tibet, begins the Potala Palace",
+   "w": "Potala Palace",
+   "src": [
+    "https://en.wikipedia.org/wiki/Potala_Palace"
+   ]
+  },
+  {
+   "n": "Buryats (Tamchinsky datsan)",
+   "lat": 51.28,
+   "lon": 106.4,
+   "y": 1741,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Vajrayana",
+   "what": "Russia formally recognises the Buddhism of the Buryats; datsans (monastic colleges) multiply",
+   "w": "Buddhism in Buryatia",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhism_in_Buryatia",
+    "https://en.wikipedia.org/wiki/Tamchinsky_datsan"
+   ]
+  },
+  {
+   "n": "Beijing (Yonghe Temple)",
+   "lat": 39.95,
+   "lon": 116.41,
+   "y": 1744,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Qing emperor Qianlong turns a palace into a Tibetan Buddhist monastery",
+   "w": "Yonghe Temple",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yonghe_Temple"
+   ]
+  },
+  {
+   "n": "Kandy (Siam Nikaya)",
+   "lat": 7.3,
+   "lon": 80.65,
+   "y": 1753,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Theravada",
+   "what": "Monks from Ayutthaya under Upali Thera restore full ordination in Sri Lanka",
+   "w": "Siam Nikaya",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siam_Nikaya"
+   ]
+  },
+  {
+   "n": "Mandalay (Fifth Council)",
+   "lat": 21.997,
+   "lon": 96.11,
+   "y": 1871,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "King Mindon's council has the Pali Canon carved on 729 marble slabs at the Kuthodaw Pagoda",
+   "w": "Fifth Buddhist council",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fifth_Buddhist_council",
+    "https://en.wikipedia.org/wiki/Kuthodaw_Pagoda"
+   ]
+  },
+  {
+   "n": "New York (Theosophical Society)",
+   "lat": 40.71,
+   "lon": -74.0,
+   "y": 1875.9,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Founded by Blavatsky and Olcott; it popularises Asian religions in the West",
+   "w": "Theosophical Society",
+   "src": [
+    "https://en.wikipedia.org/wiki/Theosophical_Society"
+   ]
+  },
+  {
+   "n": "London (The Light of Asia)",
+   "lat": 51.51,
+   "lon": -0.13,
+   "y": 1879.5,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Edwin Arnold's verse life of the Buddha becomes a bestseller in Britain and America",
+   "w": "The Light of Asia",
+   "src": [
+    "https://en.wikipedia.org/wiki/The_Light_of_Asia"
+   ]
+  },
+  {
+   "n": "Galle",
+   "lat": 6.03,
+   "lon": 80.22,
+   "y": 1880.4,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Theosophists Henry Olcott and Helena Blavatsky formally take the Buddhist precepts; Olcott later backs Buddhist schools",
+   "w": "Henry Steel Olcott",
+   "src": [
+    "https://en.wikipedia.org/wiki/Henry_Steel_Olcott",
+    "https://en.wikipedia.org/wiki/Theosophical_Society"
+   ]
+  },
+  {
+   "n": "Honolulu",
+   "lat": 21.31,
+   "lon": -157.86,
+   "y": 1889,
+   "end": null,
+   "approx": true,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Pure Land",
+   "what": "Jodo Shinshu priests follow Japanese plantation workers to Hawaii (approximate)",
+   "w": "Jōdo Shinshū",
+   "src": [
+    "https://en.wikipedia.org/wiki/J%C5%8Ddo_Shinsh%C5%AB"
+   ]
+  },
+  {
+   "n": "Maha Bodhi Society (Colombo)",
+   "lat": 6.93,
+   "lon": 79.85,
+   "y": 1891,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Anagarika Dharmapala founds the society to return Bodh Gaya to Buddhist care",
+   "w": "Maha Bodhi Society",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maha_Bodhi_Society",
+    "https://en.wikipedia.org/wiki/Anagarika_Dharmapala"
+   ]
+  },
+  {
+   "n": "Chicago (Parliament of Religions)",
+   "lat": 41.79,
+   "lon": -87.58,
+   "y": 1893.7,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Buddhism",
+   "what": "Anagarika Dharmapala and the Zen abbot Soyen Shaku present Buddhism at the World's Parliament of Religions",
+   "w": "Parliament of the World's Religions",
+   "src": [
+    "https://en.wikipedia.org/wiki/Parliament_of_the_World's_Religions",
+    "https://en.wikipedia.org/wiki/Anagarika_Dharmapala"
+   ]
+  },
+  {
+   "n": "San Francisco",
+   "lat": 37.77,
+   "lon": -122.42,
+   "y": 1899,
+   "end": null,
+   "approx": false,
+   "kind": "faith",
+   "who": "Buddhism",
+   "sub": "Pure Land",
+   "what": "Japanese immigrants found the Buddhist Mission of North America, later the Buddhist Churches of America",
+   "w": "Buddhist Churches of America",
+   "src": [
+    "https://en.wikipedia.org/wiki/Buddhist_Churches_of_America"
+   ]
+  }
+ ],
+ "battles": [],
+ "campaigns": [
+  {
+   "n": "Faxian's pilgrimage",
+   "who": "Faxian",
+   "side": "Buddhism",
+   "pts": [
+    [
+     108.94,
+     34.26,
+     399.3,
+     null
+    ],
+    [
+     102.64,
+     37.93,
+     399.6,
+     null
+    ],
+    [
+     94.66,
+     40.14,
+     400.3,
+     null
+    ],
+    [
+     88.9,
+     39.2,
+     400.5,
+     null
+    ],
+    [
+     86.57,
+     42.06,
+     400.8,
+     null
+    ],
+    [
+     79.93,
+     37.11,
+     401.3,
+     null
+    ],
+    [
+     75.23,
+     37.77,
+     402.0,
+     null
+    ],
+    [
+     72.36,
+     34.77,
+     402.4,
+     null
+    ],
+    [
+     71.58,
+     34.01,
+     402.8,
+     null
+    ],
+    [
+     70.47,
+     34.36,
+     403.2,
+     null
+    ],
+    [
+     77.67,
+     27.49,
+     404.0,
+     null
+    ],
+    [
+     82.05,
+     27.52,
+     405.0,
+     null
+    ],
+    [
+     83.05,
+     27.57,
+     405.2,
+     null
+    ],
+    [
+     83.89,
+     26.74,
+     405.4,
+     null
+    ],
+    [
+     85.13,
+     25.99,
+     405.6,
+     null
+    ],
+    [
+     85.14,
+     25.61,
+     406.0,
+     null
+    ],
+    [
+     84.99,
+     24.7,
+     407.0,
+     null
+    ],
+    [
+     85.14,
+     25.61,
+     408.0,
+     null
+    ],
+    [
+     83.02,
+     25.38,
+     408.3,
+     null
+    ],
+    [
+     87.92,
+     22.3,
+     409.0,
+     null
+    ],
+    [
+     80.39,
+     8.35,
+     410.5,
+     null
+    ],
+    [
+     80.39,
+     8.35,
+     411.6,
+     null
+    ],
+    [
+     110.0,
+     -6.5,
+     412.0,
+     null
+    ],
+    [
+     120.6,
+     36.1,
+     412.6,
+     null
+    ]
+   ],
+   "what": "The Chinese monk Faxian walked from Chang'an across the Taklamakan and the Pamirs to India in search of monastic rules, studied at Pataliputra, sailed from Tamralipti to Sri Lanka, and returned by sea via Java or Borneo (the stop is debated), landing in Shandong in 412. Points after Khotan are approximate.",
+   "w": "Faxian",
+   "src": [
+    "https://en.wikipedia.org/wiki/Faxian"
+   ]
+  },
+  {
+   "n": "Kumarajiva brought to Chang'an",
+   "who": "Kumarajiva",
+   "side": "Buddhism",
+   "pts": [
+    [
+     82.96,
+     41.72,
+     353,
+     null
+    ],
+    [
+     74.8,
+     34.08,
+     354,
+     null
+    ],
+    [
+     75.99,
+     39.47,
+     356,
+     null
+    ],
+    [
+     82.96,
+     41.72,
+     358,
+     null
+    ],
+    [
+     82.96,
+     41.72,
+     384,
+     null
+    ],
+    [
+     102.64,
+     37.93,
+     386,
+     null
+    ],
+    [
+     102.64,
+     37.93,
+     401.5,
+     null
+    ],
+    [
+     108.94,
+     34.26,
+     401.95,
+     null
+    ]
+   ],
+   "what": "Born in Kucha in 344, Kumarajiva studied in Kashmir (Jibin) and Kashgar as a boy. When the general Lu Guang took Kucha in 384 he was carried off to Guzang (Wuwei) and held there for 17 years, until the Later Qin brought him to Chang'an in 401 to head a translation bureau. Childhood dates are approximate.",
+   "w": "Kumārajīva",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kum%C4%81raj%C4%ABva"
+   ]
+  },
+  {
+   "n": "Xuanzang's journey to India",
+   "who": "Xuanzang",
+   "side": "Buddhism",
+   "pts": [
+    [
+     108.94,
+     34.26,
+     629.6,
+     null
+    ],
+    [
+     102.64,
+     37.93,
+     629.7,
+     null
+    ],
+    [
+     95.78,
+     40.5,
+     629.8,
+     null
+    ],
+    [
+     93.51,
+     42.83,
+     630.0,
+     null
+    ],
+    [
+     89.53,
+     42.85,
+     630.1,
+     null
+    ],
+    [
+     82.96,
+     41.72,
+     630.3,
+     null
+    ],
+    [
+     75.2,
+     42.8,
+     630.5,
+     null
+    ],
+    [
+     69.24,
+     41.3,
+     630.6,
+     null
+    ],
+    [
+     66.96,
+     39.65,
+     630.7,
+     null
+    ],
+    [
+     67.2,
+     37.23,
+     630.8,
+     null
+    ],
+    [
+     66.9,
+     36.76,
+     630.9,
+     null
+    ],
+    [
+     67.83,
+     34.83,
+     631.0,
+     null
+    ],
+    [
+     69.25,
+     35.0,
+     631.1,
+     null
+    ],
+    [
+     71.58,
+     34.01,
+     631.3,
+     null
+    ],
+    [
+     74.8,
+     34.08,
+     631.5,
+     null
+    ],
+    [
+     74.8,
+     34.08,
+     633.0,
+     null
+    ],
+    [
+     77.67,
+     27.49,
+     634.0,
+     null
+    ],
+    [
+     79.92,
+     27.06,
+     635.0,
+     null
+    ],
+    [
+     82.05,
+     27.52,
+     635.5,
+     null
+    ],
+    [
+     83.05,
+     27.57,
+     635.6,
+     null
+    ],
+    [
+     83.89,
+     26.74,
+     635.7,
+     null
+    ],
+    [
+     83.02,
+     25.38,
+     636.0,
+     null
+    ],
+    [
+     85.13,
+     25.99,
+     636.3,
+     null
+    ],
+    [
+     84.99,
+     24.7,
+     637.0,
+     null
+    ],
+    [
+     85.44,
+     25.14,
+     637.2,
+     null
+    ],
+    [
+     85.44,
+     25.14,
+     642.0,
+     null
+    ],
+    [
+     91.7,
+     26.14,
+     642.5,
+     null
+    ],
+    [
+     79.92,
+     27.06,
+     643.0,
+     null
+    ],
+    [
+     72.83,
+     33.75,
+     643.7,
+     null
+    ],
+    [
+     75.23,
+     37.77,
+     644.2,
+     null
+    ],
+    [
+     75.99,
+     39.47,
+     644.4,
+     null
+    ],
+    [
+     79.93,
+     37.11,
+     644.6,
+     null
+    ],
+    [
+     94.66,
+     40.14,
+     644.9,
+     null
+    ],
+    [
+     108.94,
+     34.26,
+     645.1,
+     null
+    ]
+   ],
+   "what": "Xuanzang left Chang'an in 629 against an imperial ban, crossed the Gobi to Turfan, went round the Tian Shan via Suyab, Tashkent and Samarkand, and over the Hindu Kush by Balkh and Bamiyan to Kashmir and the Ganges plain. After about five years at Nalanda and the assembly at Kannauj in 643 he returned by the southern Silk Road, reaching Chang'an early in 645 with 657 texts. Dates between stops are approximate.",
+   "w": "Xuanzang",
+   "src": [
+    "https://en.wikipedia.org/wiki/Xuanzang",
+    "https://en.wikipedia.org/wiki/Records_of_the_Western_Regions"
+   ]
+  },
+  {
+   "n": "Yijing's sea voyage",
+   "who": "Yijing",
+   "side": "Buddhism",
+   "pts": [
+    [
+     113.26,
+     23.13,
+     671.9,
+     null
+    ],
+    [
+     104.76,
+     -2.99,
+     672.0,
+     null
+    ],
+    [
+     103.6,
+     -1.6,
+     672.5,
+     null
+    ],
+    [
+     100.4,
+     5.65,
+     673.0,
+     null
+    ],
+    [
+     87.92,
+     22.3,
+     673.2,
+     null
+    ],
+    [
+     84.99,
+     24.7,
+     673.6,
+     null
+    ],
+    [
+     85.44,
+     25.14,
+     675.0,
+     null
+    ],
+    [
+     85.44,
+     25.14,
+     685.0,
+     null
+    ],
+    [
+     87.92,
+     22.3,
+     685.5,
+     null
+    ],
+    [
+     100.4,
+     5.65,
+     686.5,
+     null
+    ],
+    [
+     104.76,
+     -2.99,
+     687.0,
+     null
+    ],
+    [
+     113.26,
+     23.13,
+     689.5,
+     null
+    ],
+    [
+     104.76,
+     -2.99,
+     689.9,
+     null
+    ],
+    [
+     104.76,
+     -2.99,
+     694.5,
+     null
+    ],
+    [
+     113.26,
+     23.13,
+     695.0,
+     null
+    ],
+    [
+     112.45,
+     34.62,
+     695.4,
+     null
+    ]
+   ],
+   "what": "Yijing sailed from Guangzhou on a Persian ship in 671, learned Sanskrit in Srivijaya, and studied at Nalanda for about ten years. He then spent years copying and translating texts in Srivijaya, made a brief trip to Guangzhou in 689 for helpers and paper, and was welcomed at Luoyang by Empress Wu in 695. Intermediate dates are approximate.",
+   "w": "Yijing (monk)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yijing_(monk)"
+   ]
+  },
+  {
+   "n": "Jianzhen (Ganjin) to Japan",
+   "who": "Jianzhen",
+   "side": "Buddhism",
+   "pts": [
+    [
+     119.43,
+     32.41,
+     742.9,
+     null
+    ],
+    [
+     119.43,
+     32.41,
+     748.4,
+     null
+    ],
+    [
+     109.5,
+     18.25,
+     748.9,
+     null
+    ],
+    [
+     113.26,
+     23.13,
+     750.0,
+     null
+    ],
+    [
+     110.29,
+     25.27,
+     750.3,
+     null
+    ],
+    [
+     119.43,
+     32.41,
+     752.0,
+     null
+    ],
+    [
+     119.43,
+     32.41,
+     753.85,
+     null
+    ],
+    [
+     127.7,
+     26.2,
+     753.92,
+     null
+    ],
+    [
+     130.2,
+     31.4,
+     753.97,
+     null
+    ],
+    [
+     130.52,
+     33.51,
+     754.05,
+     null
+    ],
+    [
+     135.8,
+     34.68,
+     754.1,
+     null
+    ],
+    [
+     135.785,
+     34.675,
+     759.0,
+     null
+    ]
+   ],
+   "what": "Invited in 742 by Japanese monks to bring proper ordination to Japan, the Yangzhou master Jianzhen failed five times; in 748 a storm drove him to Hainan, and on the way back he went blind. His sixth attempt in late 753 succeeded via Okinawa and Kyushu; in Nara he ordained the retired emperor and founded Toshodai-ji in 759. Intermediate dates are approximate.",
+   "w": "Jianzhen",
+   "src": [
+    "https://en.wikipedia.org/wiki/Jianzhen",
+    "https://en.wikipedia.org/wiki/T%C5%8Dsh%C5%8Ddai-ji"
+   ]
+  }
+ ],
+ "routes": []
+}
