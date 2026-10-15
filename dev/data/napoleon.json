@@ -769,6 +769,179 @@
    "src": [
     "https://en.wikipedia.org/wiki/War_and_Peace"
    ]
+  },
+  {
+   "n": "Napoleon born (Maison Bonaparte, Ajaccio)",
+   "lat": 41.9176,
+   "lon": 8.7377,
+   "y": 1769.621,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "Napoleone di Buonaparte was born here on 15 August 1769, a year after Genoa ceded Corsica to France; the family house is now a museum.",
+   "w": "Maison Bonaparte",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maison_Bonaparte",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Bonaparte at the military school of Brienne",
+   "lat": 48.393,
+   "lon": 4.527,
+   "y": 1779.368,
+   "end": 1784.7,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Aged nine to fifteen he studied here, bullied for his accent and birthplace; he excelled at mathematics and became a Corsican nationalist.",
+   "w": "Napoleon",
+   "src": [
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Bonaparte at the École militaire (Paris)",
+   "lat": 48.851,
+   "lon": 2.302,
+   "y": 1784.706,
+   "end": 1785.7,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Trained as an artillery officer; after his father's death he finished the two-year course in one and was the first Corsican to graduate.",
+   "w": "École militaire",
+   "src": [
+    "https://en.wikipedia.org/wiki/École_militaire",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Second lieutenant Bonaparte at Valence",
+   "lat": 44.933,
+   "lon": 4.892,
+   "y": 1785.834,
+   "end": 1786.7,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "His first posting, aged 16, with the La Fère artillery regiment (1785–86).",
+   "w": "Valence, Drôme",
+   "src": [
+    "https://en.wikipedia.org/wiki/Valence,_Drôme",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Failed attack on La Maddalena",
+   "lat": 41.215,
+   "lon": 9.405,
+   "y": 1793.147,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Part of the failed French expedition to Sardinia and Bonaparte's first action; his men had to spike and abandon their guns.",
+   "w": "French expedition to Sardinia",
+   "src": [
+    "https://en.wikipedia.org/wiki/French_expedition_to_Sardinia"
+   ]
+  },
+  {
+   "n": "Bonapartes flee Corsica (Ajaccio)",
+   "lat": 41.92,
+   "lon": 8.74,
+   "y": 1793.442,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Outlawed by Paoli's Corsican assembly, the family was taken off by ship and settled near Toulon as refugees.",
+   "w": "Pasquale Paoli",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pasquale_Paoli",
+    "https://en.wikipedia.org/wiki/Ajaccio",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Le souper de Beaucaire",
+   "lat": 43.808,
+   "lon": 4.644,
+   "y": 1793.574,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Bonaparte's pro-Jacobin pamphlet, written after a supper with merchants at the Beaucaire fair; it helped his career.",
+   "w": "Le souper de Beaucaire",
+   "src": [
+    "https://en.wikipedia.org/wiki/Le_souper_de_Beaucaire"
+   ]
+  },
+  {
+   "n": "Bonaparte made brigadier general after Toulon",
+   "lat": 43.124,
+   "lon": 5.928,
+   "y": 1793.974,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Wounded in the assault, the 24-year-old artillery commander was promoted brigadier general for his plan that forced the allies out of Toulon.",
+   "w": "Siege of Toulon (1793)",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Marriage of Bonaparte and Joséphine (Paris)",
+   "lat": 48.869,
+   "lon": 2.336,
+   "y": 1796.187,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Civil marriage on 9 March 1796; two days later he left to command the Army of Italy. A religious ceremony followed only on the eve of the 1804 coronation.",
+   "w": "Joséphine de Beauharnais",
+   "src": [
+    "https://en.wikipedia.org/wiki/Joséphine_de_Beauharnais",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
+  },
+  {
+   "n": "Prisoners executed at Jaffa",
+   "lat": 32.05,
+   "lon": 34.75,
+   "y": 1799.185,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "After the town was sacked, Bonaparte had the surrendered Ottoman prisoners, mostly Albanians, shot or bayoneted on the shore: about 2,440 or 4,100 by different sources.",
+   "w": "Siege of Jaffa",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Jaffa"
+   ]
+  },
+  {
+   "n": "Bonaparte lands at Fréjus",
+   "lat": 43.433,
+   "lon": 6.736,
+   "y": 1799.771,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "Back from Egypt without orders, he landed here on 9 October 1799; a month later he seized power.",
+   "w": "Fréjus",
+   "src": [
+    "https://en.wikipedia.org/wiki/Fréjus",
+    "https://en.wikipedia.org/wiki/Napoleon"
+   ]
   }
  ],
  "battles": [

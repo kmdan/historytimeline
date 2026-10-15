@@ -8093,9 +8093,383 @@
  {
   "id": "napoleon",
   "title": "The rise and fall of Napoleon",
-  "blurb": "From the coup of 1799 to Waterloo and St Helena: the battles, the reforms that outlived him, and the cost in lives across Europe and beyond.",
+  "blurb": "From a Corsican boyhood and the Revolution to the coup of 1799, Waterloo and St Helena: the battles, the reforms that outlived him, and the cost in lives across Europe and beyond.",
   "cat": "Revolutions & empires",
   "steps": [
+   {
+    "y": 1769.621,
+    "lat": 41.92,
+    "lon": 8.74,
+    "z": 7,
+    "t": "A Corsican boy",
+    "c": "Napoleone di Buonaparte was born in the family house in Ajaccio on 15 August 1769, a year after Genoa ceded Corsica to France. His parents, Carlo and Letizia, were minor nobles of Tuscan origin; Carlo had backed Pasquale Paoli's independent Corsica, then made his peace with the French, whose governor Marbeuf became his patron and the boy's godfather. At home the children spoke Corsican and Italian; French came later, at school.",
+    "w": "Napoleon",
+    "look": [
+     [
+      41.9176,
+      8.7377,
+      "Maison Bonaparte"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The end of Paoli's republic",
+      "t": "On 8 May 1769 French troops crushed Paoli's Corsicans at Ponte Novu, and Paoli went into exile in Britain. The Bonapartes, who had helped him, stayed and swore loyalty to Louis XV.",
+      "lat": 42.47,
+      "lon": 9.28
+     },
+     {
+      "h": "An island changes hands",
+      "t": "By the Treaty of Versailles of 1768 the Republic of Genoa, unable to put down the Corsican rebellion, ceded the island to France.",
+      "lat": 44.41,
+      "lon": 8.93
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/Carlo_Buonaparte",
+     "https://en.wikipedia.org/wiki/Maison_Bonaparte",
+     "https://en.wikipedia.org/wiki/Pasquale_Paoli"
+    ],
+    "img": "Tour: napoleon: A Corsican boy"
+   },
+   {
+    "y": 1785.705,
+    "lat": 48.39,
+    "lon": 4.53,
+    "z": 6,
+    "t": "A lonely cadet",
+    "c": "In 1779, aged nine, he was sent to France: first to a school at Autun to learn French, then to the military academy at Brienne-le-Château, where boys mocked his accent, his birthplace and his size. He withdrew into books, excelled at mathematics and became a fervent Corsican nationalist. A famous story has him leading the younger boys to victory in a snowball fight, but it may be legend. After a year at the École militaire in Paris he was commissioned in September 1785, aged 16, as a second lieutenant of artillery at Valence.",
+    "w": "Napoleon",
+    "look": [
+     [
+      46.951,
+      4.299,
+      "Autun"
+     ],
+     [
+      48.393,
+      4.527,
+      "Brienne"
+     ],
+     [
+      48.851,
+      2.302,
+      "École militaire"
+     ],
+     [
+      44.933,
+      4.892,
+      "Valence"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Two years in one",
+      "t": "His father died in February 1785, leaving the family short of money, so he finished the two-year course in one. Examined by the scientist Laplace, he was the first Corsican to graduate from the École militaire.",
+      "lat": 48.851,
+      "lon": 2.302
+     },
+     {
+      "h": "A history of Corsica",
+      "t": "With his regiment at Auxonne he worked on a history of Corsica and sent it to his hero Paoli, who found it amateurish and too impassioned.",
+      "lat": 47.193,
+      "lon": 5.388
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/École_militaire",
+     "https://en.wikipedia.org/wiki/Carlo_Buonaparte",
+     "https://en.wikipedia.org/wiki/Pasquale_Paoli"
+    ],
+    "img": "Tour: napoleon: A lonely cadet"
+   },
+   {
+    "y": 1793.442,
+    "lat": 42.3,
+    "lon": 7.6,
+    "z": 6,
+    "t": "Revolution in Corsica",
+    "c": "The Revolution thrilled him, and he spent more time on leave in Corsica than with his regiment: an active Jacobin, he became lieutenant colonel of a battalion of Corsican volunteers in 1792. In February 1793 he served in a failed French attack on La Maddalena off Sardinia. His family then fell out with Paoli, now ruling Corsica: Paolists detained him and sacked the family house, and in June 1793 the Buonapartes fled to Toulon as refugees. The Corsican patriot was becoming a Frenchman.",
+    "w": "Pasquale Paoli",
+    "look": [
+     [
+      41.92,
+      8.74,
+      "Ajaccio"
+     ],
+     [
+      41.215,
+      9.405,
+      "La Maddalena"
+     ],
+     [
+      43.12,
+      5.93,
+      "Toulon"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Guns left behind",
+      "t": "At La Maddalena the young officer wanted a night attack but was overruled; when the attack was called off, too few boats came and his men had to spike and abandon their cannon.",
+      "lat": 41.215,
+      "lon": 9.405
+     },
+     {
+      "h": "Supper at Beaucaire",
+      "t": "In July 1793 he wrote 'Le souper de Beaucaire', a pamphlet in which a soldier argues merchants out of rebellion against the Republic. It had little effect, but it pleased the Jacobin deputies who could advance his career.",
+      "lat": 43.808,
+      "lon": 4.644
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/French_expedition_to_Sardinia",
+     "https://en.wikipedia.org/wiki/Pasquale_Paoli",
+     "https://en.wikipedia.org/wiki/Le_souper_de_Beaucaire",
+     "https://en.wikipedia.org/wiki/Ajaccio"
+    ],
+    "img": "Tour: napoleon: Revolution in Corsica"
+   },
+   {
+    "y": 1793.966,
+    "lat": 43.11,
+    "lon": 5.92,
+    "z": 8,
+    "t": "Toulon: the young gunner",
+    "c": "In September 1793 his fellow Corsican Saliceti, a deputy of the Convention, had the 24-year-old captain made artillery commander at the siege of Toulon, which royalists had handed to the British. Bonaparte saw that guns on the heights by the forts of L'Éguillette and Balaguier could cut the harbour off from the allied fleet, and he trained infantrymen to serve his batteries. In the night assault of 16–17 December he was bayoneted in the thigh; the allies sailed away and Toulon fell on 19 December. He was promoted brigadier general at 24, while the victors shot up to 800 royalist prisoners in the town.",
+    "w": "Siege of Toulon (1793)",
+    "look": [
+     [
+      43.093,
+      5.912,
+      "Balaguier"
+     ],
+     [
+      43.096,
+      5.913,
+      "L'Éguillette"
+     ],
+     [
+      43.12,
+      5.93,
+      "Toulon"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Friends in high places",
+      "t": "Toulon brought him to the attention of Augustin Robespierre, younger brother of Maximilien. In February 1794 he became artillery commander of the Army of Italy, based at Nice.",
+      "lat": 43.7,
+      "lon": 7.27
+     },
+     {
+      "h": "A fleet burned",
+      "t": "As they left Toulon, British and Spanish forces burned or carried off several French warships, crippling much of the French navy for a time.",
+      "lat": 43.105,
+      "lon": 5.95
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)",
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/Augustin_Robespierre",
+     "https://en.wikipedia.org/wiki/Antoine_Christophe_Saliceti"
+    ],
+    "img": "Tour: napoleon: Toulon: the young gunner"
+   },
+   {
+    "y": 1795.76,
+    "lat": 48.865,
+    "lon": 2.333,
+    "z": 8,
+    "t": "Out of favour, then cannon in Paris",
+    "c": "The fall of Robespierre nearly ended his career: as Augustin Robespierre's protégé he was arrested on 9 August 1794 and held for two weeks. In 1795 he refused a posting against the royalist rebels of the Vendée and in September was struck off the list of serving generals. Three weeks later, on 13 Vendémiaire (5 October 1795), Barras made him his second in command against a royalist rising in Paris: Bonaparte had Murat fetch 40 cannon and fired canister into the crowds by the church of Saint-Roch. 'A whiff of grapeshot' is the historian Carlyle's later phrase; by the end of October Bonaparte commanded the Army of the Interior.",
+    "w": "13 Vendémiaire",
+    "look": [
+     [
+      48.865,
+      2.333,
+      "Saint-Roch"
+     ],
+     [
+      48.862,
+      2.33,
+      "Tuileries"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "A mission to Genoa",
+      "t": "In July 1794 Augustin Robespierre sent him to the Republic of Genoa to find out its intentions towards France; days after his return came Thermidor and his arrest.",
+      "lat": 44.41,
+      "lon": 8.93
+     },
+     {
+      "h": "The war he refused",
+      "t": "In April 1795 he was posted to the Army of the West, fighting the royalist rising in the Vendée, as an infantry general. He would not go.",
+      "lat": 46.67,
+      "lon": -1.43
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/13_Vendémiaire",
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/Paul_Barras"
+    ],
+    "img": "Tour: napoleon: Out of favour, then cannon in Paris"
+   },
+   {
+    "y": 1797.037,
+    "lat": 45.4,
+    "lon": 10.4,
+    "z": 5,
+    "t": "Joséphine and Italy",
+    "c": "He fell for Joséphine de Beauharnais, a Caribbean-born widow of the Terror and former mistress of Barras; they married on 9 March 1796, and two days later he left to command the ragged Army of Italy, where whole battalions lacked shoes. Writing her a stream of passionate letters, he knocked Piedmont out of the war in two weeks and beat the Austrians at Lodi, Arcole and Rivoli. Over 110 works of art went to Paris in 1796 alone, and two army newspapers, one for his troops and one for France, built his legend. In October 1797 he signed the peace of Campo Formio himself, partitioning the Republic of Venice with Austria.",
+    "w": "Joséphine de Beauharnais",
+    "look": [
+     [
+      45.314,
+      9.503,
+      "Lodi"
+     ],
+     [
+      45.357,
+      11.284,
+      "Arcole"
+     ],
+     [
+      45.571,
+      10.811,
+      "Rivoli"
+     ],
+     [
+      45.977,
+      13.025,
+      "Campo Formio"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The bridge at Lodi",
+      "t": "On 10 May 1796 French columns stormed the bridge over the Adda; when the column faltered, Masséna, Berthier, Lannes and other officers rushed to its head. The fight became a core of the Napoleonic legend and convinced Bonaparte himself that he was destined for great things.",
+      "lat": 45.314,
+      "lon": 9.503
+     },
+     {
+      "h": "Flag in hand at Arcole",
+      "t": "In November 1796 he seized a flag to lead an attack on the bridge at Arcole; his aide Muiron was killed beside him and he ended up in a muddy ditch. Gros's famous portrait shows only the heroic moment.",
+      "lat": 45.357,
+      "lon": 11.284
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/Joséphine_de_Beauharnais",
+     "https://en.wikipedia.org/wiki/Montenotte_campaign",
+     "https://en.wikipedia.org/wiki/Battle_of_Lodi",
+     "https://en.wikipedia.org/wiki/Battle_of_Arcole",
+     "https://en.wikipedia.org/wiki/Napoleonic_looting_of_art",
+     "https://en.wikipedia.org/wiki/Treaty_of_Campo_Formio"
+    ],
+    "img": "Tour: napoleon: Joséphine and Italy"
+   },
+   {
+    "y": 1798.585,
+    "lat": 30.6,
+    "lon": 31.0,
+    "z": 5,
+    "t": "Egypt: an army and 167 scholars",
+    "c": "To strike at Britain's trade with India, he sailed from Toulon on 19 May 1798 with about 36,000 troops, seized Malta on the way and landed at Alexandria on 28 June. He beat the Mamluks near the pyramids on 21 July, but on 1 August Nelson destroyed his fleet in Aboukir Bay, cutting the army off from France. With him came 167 scholars of the Commission of Sciences and Arts, whose survey became the great Description de l'Égypte. He later boasted that in Egypt he had made himself 'a Moslem' to rule.",
+    "w": "French invasion of Egypt and Syria",
+    "look": [
+     [
+      31.2,
+      29.92,
+      "Alexandria"
+     ],
+     [
+      29.98,
+      31.13,
+      "Pyramids"
+     ],
+     [
+      31.32,
+      30.07,
+      "Aboukir Bay"
+     ],
+     [
+      30.04,
+      31.24,
+      "Cairo"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "The flagship explodes",
+      "t": "In the Battle of the Nile the French flagship L'Orient, which had carried Bonaparte from Toulon, caught fire and exploded at around 10 pm.",
+      "lat": 31.32,
+      "lon": 30.07
+     },
+     {
+      "h": "To the Red Sea",
+      "t": "With scholars of the Commission, Bonaparte rode three days across the desert to Suez. One aim of the scholars was to open a canal to the Red Sea.",
+      "lat": 29.97,
+      "lon": 32.55
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
+     "https://en.wikipedia.org/wiki/Commission_des_Sciences_et_des_Arts",
+     "https://en.wikipedia.org/wiki/Napoleon"
+    ],
+    "img": "Tour: napoleon: Egypt: an army and 167 scholars"
+   },
+   {
+    "y": 1799.382,
+    "lat": 32.5,
+    "lon": 34.9,
+    "z": 6,
+    "t": "Jaffa, Acre and a quiet exit",
+    "c": "In February 1799 he marched into Ottoman Syria with about 14,000 men. At Jaffa in March his troops sacked the town and he had the surrendered prisoners shot or bayoneted on the beach: about 2,440 or 4,100, depending on the source. Plague spread in the army and the siege of Acre, defended by Jezzar Pasha with British help, failed after two months; whether he had some plague victims poisoned with opium on the retreat is still debated. On 24 August 1799 he slipped away from Egypt without orders, leaving Kléber in command, and landed at Fréjus on 9 October.",
+    "w": "Siege of Jaffa",
+    "look": [
+     [
+      32.054,
+      34.752,
+      "Jaffa"
+     ],
+     [
+      32.921,
+      35.068,
+      "Acre"
+     ]
+    ],
+    "tips": [
+     {
+      "h": "Left behind",
+      "t": "The army learned from a proclamation on 23 August that he had handed command to Kléber. He sailed on the frigate Muiron, named after his aide killed at Arcole.",
+      "lat": 31.2,
+      "lon": 29.92
+     },
+     {
+      "h": "Back in France",
+      "t": "He landed at Fréjus on 9 October 1799, officially to defend the Directory. A month later he overthrew it.",
+      "lat": 43.433,
+      "lon": 6.736
+     }
+    ],
+    "src": [
+     "https://en.wikipedia.org/wiki/Siege_of_Jaffa",
+     "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
+     "https://en.wikipedia.org/wiki/Napoleon",
+     "https://en.wikipedia.org/wiki/Battle_of_Arcole",
+     "https://en.wikipedia.org/wiki/Fréjus"
+    ],
+    "img": "Tour: napoleon: Jaffa, Acre and a quiet exit"
+   },
    {
     "y": 1799.859,
     "lat": 48.85,
