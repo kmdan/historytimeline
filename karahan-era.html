@@ -1338,13 +1338,14 @@ let baseSrc=base, baseP={D:0,cc:0,ice:false,bp:0}, elevOK=0, baseWorld=1;
 const GLB=(()=>{ try{
   if(/[?&]cpu\b/.test(location.search)) return null;   // ?cpu forces the CPU renderer (for comparison)
   const gl=glc.getContext('webgl2',{alpha:false,antialias:false,depth:false,premultipliedAlpha:false,preserveDrawingBuffer:true}); if(!gl) return null;
-  const RELZ='12.', RELK='0.9';   // relief: vertical exaggeration of the fine elevation, and shading strength
+  const RELZ='12.', RELK='0.9', ICEK='10.';   // relief: vertical exaggeration of the fine elevation, and shading strength
   const VS=`#version 300 es
 in vec2 a; void main(){ gl_Position=vec4(a,0.,1.); }`;
   const FS=`#version 300 es
 precision highp float; precision highp int; precision highp usampler2D; precision highp usampler2DArray; precision highp isampler2D;
 uniform usampler2D uT,uI,uR,uS; uniform usampler2DArray uB; uniform bool uHasS; uniform float uBP;
 uniform isampler2D uE,uEc; uniform bool uHasE; uniform float uES,uH; uniform vec3 uV;
+uniform sampler2D uIH; uniform bool uHasIH; uniform float uIHf;   // Ice Age ice-sheet rise (m, 0.5 deg): two time slices stacked, blend
 uniform usampler2D uDT; uniform bool uHasD; uniform vec4 uDB;   // close-zoom detail patch (1 arc-minute, 128 + diff/8 m): west lon, north lat, width, height (px)   // fine elevation (m), its cell means; view: lon at left, lat at top, degrees per device pixel
 uniform float uD,uCC,uBt,uGf,uY,uLate,uGEff; uniform int uSi,uNb; uniform bool uBio,uFarm,uIce,uForest,uHasBio,uHasReg,uDeep;
 uniform vec3 cSD,cSS,cLL,cLH,cSH,cIC,cGR,cFM,cFO,cCL; uniform vec3 cB[11]; uniform float uFS[11],uFP[11]; uniform vec2 uRF[24];
@@ -1405,10 +1406,18 @@ float eAt(float lon,float lat){ int W=int(360.*uES+.5); vec2 g=vec2((lon+180.)*u
 float eC(ivec2 q){ q.x=(q.x%${GW}+${GW})%${GW}; q.y=clamp(q.y,0,${GH-1}); return float(texelFetch(uEc,q,0).r); }
 float eLo(vec2 g){ ivec2 i=ivec2(floor(g)); vec2 f=fract(g); return mix(mix(eC(i),eC(i+ivec2(1,0)),f.x),mix(eC(i+ivec2(0,1)),eC(i+ivec2(1,1)),f.x),f.y); }
 // hillshade from the fine elevation: light mostly from the north-west, some from the west; 0.7071 = flat ground
-float hill(float lon,float lat){ float h=inD(lon,lat)?1./60.:1./uES, cl=max(cos(radians(lat)),.05);
-  float gx=(eAt(lon+h,lat)-eAt(lon-h,lat))/(2.*h*111320.*cl), gy=(eAt(lon,lat+h)-eAt(lon,lat-h))/(2.*h*111320.);
-  vec3 n=normalize(vec3(-gx*${RELZ},-gy*${RELZ},1.));
+vec2 gHill(float lon,float lat){ float h=inD(lon,lat)?1./60.:1./uES, cl=max(cos(radians(lat)),.05);
+  return vec2((eAt(lon+h,lat)-eAt(lon-h,lat))/(2.*h*111320.*cl), (eAt(lon,lat+h)-eAt(lon,lat-h))/(2.*h*111320.)); }
+float shade(vec2 g){ vec3 n=normalize(vec3(-g*${RELZ},1.));
   return dot(n,vec3(-.5,.5,.70711))*.75+dot(n,vec3(-.70711,0.,.70711))*.25; }
+// ice-sheet rise: smooth (cubic B-spline from 4 bilinear taps) in one 720x360 half of uIH
+float ihS(vec2 p,float y0){ p-=.5; vec2 i=floor(p), f=p-i, f2=f*f, f3=f2*f;
+  vec2 w0=(1.-3.*f+3.*f2-f3)/6., w1=(4.-6.*f2+3.*f3)/6., w2=(1.+3.*f+3.*f2-3.*f3)/6., w3=f3/6., a=w0+w1, b=w2+w3;
+  vec2 h0=i-.5+w1/a, h1=i+1.5+w3/b; h0.y=clamp(h0.y,.5,359.5)+y0; h1.y=clamp(h1.y,.5,359.5)+y0; h0/=vec2(720.,720.); h1/=vec2(720.,720.);
+  return a.y*(a.x*texture(uIH,h0).r+b.x*texture(uIH,vec2(h1.x,h0.y)).r)+b.y*(a.x*texture(uIH,vec2(h0.x,h1.y)).r+b.x*texture(uIH,h1).r); }
+float iceRise(float lon,float lat){ vec2 p=vec2((lon+180.)*2.,(90.-lat)*2.); return mix(ihS(p,0.),ihS(p,360.),uIHf); }
+vec2 gIce(float lon,float lat){ float h=.2, cl=max(cos(radians(lat)),.05);
+  return vec2((iceRise(lon+h,lat)-iceRise(lon-h,lat))/(2.*h*111320.*cl), (iceRise(lon,lat+h)-iceRise(lon,lat-h))/(2.*h*111320.)); }
 void main(){
   float lon=uV.x+gl_FragCoord.x*uV.z, lat=uV.y-(uH-gl_FragCoord.y)*uV.z;
   if(lat>90.||lat<-90.){ o=vec4(cSD/255.,1.); return; }
@@ -1421,9 +1430,10 @@ void main(){
   for(int k=0;k<4;k++){ ivec2 d=ivec2(k&1,k>>1); float w=(d.x==1?f.x:1.-f.x)*(d.y==1?f.y:1.-f.y);
     Cell C=cellAt(i0+d,bo); lc+=C.col*w*C.land; sc+=C.col*w*(1.-C.land); lw+=w*C.land; iw+=w*C.ice; Gs+=w*C.G; }
   vec3 landC = lw>.001 ? lc/lw : cLL, seaC = lw<.999 ? sc/(1.-lw) : cSS;
-  float lf=lw, s, si, h=0.;
+  float lf=lw, s, si, h=0., hI=0.;
   if(uHasE){ lf+=clamp((eAt(lon,lat)-eLo(g0))/40.,-.45,.45)*min(1.,lw*(1.-lw)*8.);   // coast detail from fine elevation, only where the cells are mixed land/sea
-    h=hill(lon,lat)-.70711; s=clamp(.97+h*${RELK},.6,1.25); si=clamp(.97+h*${RELK}*.5,.8,1.1); }
+    vec2 gT=gHill(lon,lat); h=shade(gT)-.70711; hI=uHasIH&&iw>.01 ? shade(gT+gIce(lon,lat)*${ICEK})-.70711 : h;   // ice sheets: their own (exaggerated) surface
+    s=clamp(.97+h*${RELK},.6,1.25); si=clamp(.97+hI*${RELK}*.7,.72,1.12); }
   else { s=.74+Gs/255.*.46; si=.88+Gs/255.*.18; }
   float aa=clamp(fwidth(lf)*.7,1e-4,.2), A=smoothstep(.5-aa,.5+aa,lf);
   vec3 col=mix(seaC,landC*s,A);
@@ -1439,7 +1449,7 @@ void main(){
       hh=h*1.9+clamp((E-eLo(g0))/500.,-1.,.5)*.35; }
     else { seaC=pS1; hh=(Gs-127.)/128.*1.2; }
     vec3 lS = hh<0. ? mix(landC,pSH,min(.6,-hh*1.2)) : mix(landC,pHL,min(.45,hh*1.1));
-    vec3 iS = hh<0. ? mix(pSN,vec3(150.,175.,195.),min(.6,-hh*1.4)) : pSN;
+    float hi=uHasE?hI*1.9:hh; vec3 iS = hi<0. ? mix(pSN,vec3(150.,175.,195.),min(.6,-hi*1.4)) : mix(pSN,pHL,min(.3,hi));
     col=mix(mix(seaC,lS,A),iS,IA)*uDim; }
   o=vec4(col/255.,1.);
 }`;
@@ -1453,9 +1463,10 @@ void main(){
   gl.pixelStorei(gl.UNPACK_ALIGNMENT,1);
   const tex=(unit,target)=>{ const t=gl.createTexture(); gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(target,t);
     for(const [k,v] of [[gl.TEXTURE_MIN_FILTER,gl.NEAREST],[gl.TEXTURE_MAG_FILTER,gl.NEAREST],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]]) gl.texParameteri(target,k,v); return t; };
-  const tT=tex(0,gl.TEXTURE_2D), tI=tex(1,gl.TEXTURE_2D), tR=tex(2,gl.TEXTURE_2D), tB=tex(3,gl.TEXTURE_2D_ARRAY), tS=tex(4,gl.TEXTURE_2D), tE=tex(5,gl.TEXTURE_2D), tEc=tex(6,gl.TEXTURE_2D), tD=tex(7,gl.TEXTURE_2D);
+  const tT=tex(0,gl.TEXTURE_2D), tI=tex(1,gl.TEXTURE_2D), tR=tex(2,gl.TEXTURE_2D), tB=tex(3,gl.TEXTURE_2D_ARRAY), tS=tex(4,gl.TEXTURE_2D), tE=tex(5,gl.TEXTURE_2D), tEc=tex(6,gl.TEXTURE_2D), tD=tex(7,gl.TEXTURE_2D), tIH=tex(8,gl.TEXTURE_2D);
+  for(const [k,v] of [[gl.TEXTURE_MIN_FILTER,gl.LINEAR],[gl.TEXTURE_MAG_FILTER,gl.LINEAR],[gl.TEXTURE_WRAP_S,gl.REPEAT]]) gl.texParameteri(gl.TEXTURE_2D,k,v);
   gl.activeTexture(gl.TEXTURE3); gl.bindTexture(gl.TEXTURE_2D_ARRAY,tB); gl.texStorage3D(gl.TEXTURE_2D_ARRAY,1,gl.RGBA8UI,BW,BH,BL);
-  gl.uniform1i(u('uT'),0); gl.uniform1i(u('uI'),1); gl.uniform1i(u('uR'),2); gl.uniform1i(u('uB'),3); gl.uniform1i(u('uS'),4); gl.uniform1i(u('uE'),5); gl.uniform1i(u('uEc'),6); gl.uniform1i(u('uDT'),7);
+  gl.uniform1i(u('uT'),0); gl.uniform1i(u('uI'),1); gl.uniform1i(u('uR'),2); gl.uniform1i(u('uB'),3); gl.uniform1i(u('uS'),4); gl.uniform1i(u('uE'),5); gl.uniform1i(u('uEc'),6); gl.uniform1i(u('uDT'),7); gl.uniform1i(u('uIH'),8);
   const up2=(unit,t,data,fmt,ifmt)=>{ gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t); gl.texImage2D(gl.TEXTURE_2D,0,ifmt,GW,GH,0,fmt,gl.UNSIGNED_BYTE,new Uint8Array(data.buffer,data.byteOffset,data.byteLength)); };
   const upE=(unit,t,data,w,h)=>{ gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t); gl.texImage2D(gl.TEXTURE_2D,0,gl.R16I,w,h,0,gl.RED_INTEGER,gl.SHORT,data); };
   const has={T:false,I:false,R:false,S:false,E:false}; let eS=6;
@@ -1469,11 +1480,14 @@ void main(){
     // close-zoom detail patch (see DEM below)
     dem:(d,w,h)=>{ gl.activeTexture(gl.TEXTURE7); gl.bindTexture(gl.TEXTURE_2D,tD); gl.texImage2D(gl.TEXTURE_2D,0,gl.R8UI,w,h,0,gl.RED_INTEGER,gl.UNSIGNED_BYTE,d); },
     elev:(e,ec,w)=>{ const big=w<=gl.getParameter(gl.MAX_TEXTURE_SIZE); upE(5,tE,big?e:ec,big?w:GW,big?w/2:GH); upE(6,tEc,ec,GW,GH); eS=big?w/360:GR; has.E=true; },
+    // ice-sheet rise: slices k and k+1 of ICEH stacked (720x720 float), uploaded when the pair changes
+    iceh:(a,b)=>{ const f=new Float32Array(720*720); f.set(a); f.set(b,720*360); gl.activeTexture(gl.TEXTURE8); gl.bindTexture(gl.TEXTURE_2D,tIH); gl.texImage2D(gl.TEXTURE_2D,0,gl.R16F,720,720,0,gl.RED,gl.FLOAT,f); },
     biome:(d,z0=ND/3)=>{ gl.activeTexture(gl.TEXTURE3); gl.bindTexture(gl.TEXTURE_2D_ARRAY,tB); gl.texSubImage3D(gl.TEXTURE_2D_ARRAY,0,0,0,z0,BW,BH,d.length/(BW*BH*4),gl.RGBA_INTEGER,gl.UNSIGNED_BYTE,new Uint8Array(d.buffer,d.byteOffset,d.byteLength)); },
     draw(P){ if(api.lost||!has.T) return false;
       const V=P.view; if(glc.width!==V.w||glc.height!==V.h){ glc.width=V.w; glc.height=V.h; }
       gl.useProgram(pr); gl.viewport(0,0,V.w,V.h); gl.uniform3f(u('uV'),V.lon0,V.lat0,V.dpp); gl.uniform1f(u('uH'),V.h);
       gl.uniform1i(u('uHasE'),has.E?1:0); gl.uniform1f(u('uES'),eS);
+      gl.uniform1i(u('uHasIH'),P.ih?1:0); if(P.ih) gl.uniform1f(u('uIHf'),P.ih.f);
       const DB=P.dem; gl.uniform1i(u('uHasD'),has.E&&DB?1:0); if(DB) gl.uniform4f(u('uDB'),DB.lon0,DB.lat0,DB.w,DB.h);
       for(const [n,v] of Object.entries(P.f)) gl.uniform1f(u(n),v);
       for(const [n,v] of Object.entries(P.i)) gl.uniform1i(u(n),v);
@@ -1489,6 +1503,11 @@ legendPaint(); $('lyPaint').addEventListener('change',legendPaint);
 function flagAt(p){
   if(baseP.ice){ const on=iceD[p*4], off=iceD[p*4+1]; if((baseP.deep ? bio&&landCell(p,baseP.D,baseP.bp)&&bioCls(terr[p*4+2]<baseP.b.bt255?baseP.b.nb:baseP.b.si,p,terr[p*4+1],terr[p*4+2])===9 : on>0&&on<=baseP.cc&&(off===255||off>baseP.cc))||p>=GW*(GH-48)) return 2; }
   return landCell(p,baseP.D,baseP.bp)?1:0; }
+// Ice Age ice-sheet heights (PaleoMIST 1.0 via build_ice_height.py): rise above today's ground, 33 slices 78,050 BCE -> 1950
+const ICEH0=-78050, ICEHS=2500, ICEHN=33; let iceH=null, iceHK=-1;
+function iceHFor(y){ if(!iceH||y<ICEH0||y>=1950-ICEHS) return null; const t=(y-ICEH0)/ICEHS, k=Math.floor(t);
+  if(k!==iceHK){ const n=720*360; GLB.iceh(iceH.subarray(k*n,(k+1)*n),iceH.subarray((k+1)*n,(k+2)*n)); iceHK=k; }
+  return {f:t-k}; }
 function buildBase(y,sea){
   if(!terr) return;
   const D=-sea, gf=greenFactor(y), cc=iceCode(y), b=bioSnap(y), deep=y<DEEPICE;
@@ -1507,7 +1526,7 @@ function buildBase(y,sea){
   const bp=yearBP(y), landKey=[D.toFixed(1),useIce?cc+(deep?':'+b.si+':'+b.bt.toFixed(2):''):'x',slw?Math.round(bp/20):'',col.surface].join('|'), landChanged=landKey!==baseP.key; baseP={D,cc,ice:!!useIce,bp,key:landKey,deep,b};
   const sd=hex(col['sea-deep']), ss=hex(col['sea-shallow']), ll=hex(col['land-low']), lh=hex(col['land-high']), sh=hex(col.shelf), ic=hex(col.ice), gr=hex(col.green), fm=hex(col.farm);
   if(gpu){ const gK=ke(y), gRatio = y< -8000 ? 1 : interp(FORESTG,gK)/6.0;
-    const ok=GLB.draw({ view, dem:view.world?null:demFor(view),
+    const ok=GLB.draw({ view, dem:view.world?null:demFor(view), ih:useIce?iceHFor(y):null,
       f:{uBP:bp,uD:D,uCC:cc,uBt:b.bt255,uGf:gf,uY:y,uLate:y>1850?1+Math.min(1,(y-1850)/100)*0.45:1,uGEff:1-(1-gRatio)*0.6,uSea:sea,uTA:Math.min(0,interp(TMP,ke(y))||0),uDim:darkTheme()?.8:1},
       i:{uSi:b.si,uNb:b.nb,uBio:useBio?1:0,uFarm:useFarm?1:0,uIce:useIce?1:0,uForest:useForest?1:0,uHasBio:bio?1:0,uDeep:deep?1:0,uPaint:LY.paint?1:0},
       c:{cSD:sd,cSS:ss,cLL:ll,cLH:lh,cSH:sh,cIC:ic,cGR:gr,cFM:fm,cFO:hex(col.forest),cCL:hex(col.cleared),...Object.fromEntries(Object.entries(PAINT.c).map(([n,v])=>[n,hex(v)]))},
@@ -2488,7 +2507,8 @@ loadPx('atlas/terrain.png',d=>{ terr=d; GLB&&GLB.terrain(d);
     for(let j=0;j<GH;j++) for(let i=0;i<GW;i++){ const a=2*j*W2+2*i; ec[j*GW+i]=Math.round((e[a]+e[a+1]+e[a+W2]+e[a+W2+1])/4); }
     GLB.elev(e,ec,W2); elevOK=1; },GW*2,GH*2); });
 buildRegIdx(); GLB&&GLB.regions(regIdx);
-loadPx('atlas/ice.png',d=>{ iceD=d; GLB&&GLB.ice(d); });
+loadPx('atlas/ice.png',d=>{ iceD=d; GLB&&GLB.ice(d);
+  if(GLB) loadPx('atlas/iceh.png',px=>{ const a=new Float32Array(720*360*ICEHN); for(let i=0,q=0;i<a.length;i++,q+=4) a[i]=px[q]<<8|px[q+1]; iceH=a; iceHK=-1; },720,360*ICEHN); });
 loadPx('atlas/slw.png',d=>{ slw=d; GLB&&GLB.shelf(d); });
 loadPx('atlas/popd.png',d=>{ popd=d; },720,360*Math.ceil(POPY.length/3));
 loadPx('atlas/biome_beyer.png',d=>{ bio=d; GLB&&GLB.biome(d); },BW,BH*Math.ceil(CLD.years.length/3));
