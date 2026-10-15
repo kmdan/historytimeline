@@ -10,10 +10,11 @@ import json, sys
 from pathlib import Path
 
 D = Path('dev/data')
-TOPICS = ['buddhism', 'islam', 'columbian_exchange', 'french_revolution', 'napoleon', 'british_empire']
+TOPICS = ['buddhism', 'islam', 'columbian_exchange', 'french_revolution', 'napoleon', 'british_empire', 'baltic_fleet']
 # layers each new tour shows; every other tour turns these layers off
 LY_ALL = ['lyFaith', 'lyHist', 'lyWars', 'lyReform', 'lyCities', 'lyRoutes', 'lyCrops', 'lyMigr', 'lyFigs', 'lyC14', 'lyPop', 'lyFauna', 'lyHomo', 'lyPlague']
 TOUR_LY = {
+    'baltic_fleet': {'lyWars', 'lyHist'},
     'buddhism': {'lyFaith', 'lyWars', 'lyRoutes'},
     'islam': {'lyFaith', 'lyWars', 'lyRoutes'},
     'columbian_exchange': {'lyHist', 'lyRoutes', 'lyCrops', 'lyMigr'},
@@ -21,7 +22,7 @@ TOUR_LY = {
     'napoleon': {'lyHist', 'lyWars'},
     'british_empire': {'lyHist', 'lyWars', 'lyRoutes'},
 }
-AFTER = {'buddhism': 'black-death', 'islam': 'buddhism', 'columbian_exchange': 'silk-roads', 'french_revolution': 'reformation', 'napoleon': 'french-revolution', 'british_empire': 'napoleon'}
+AFTER = {'buddhism': 'black-death', 'islam': 'buddhism', 'columbian_exchange': 'silk-roads', 'french_revolution': 'reformation', 'napoleon': 'french-revolution', 'british_empire': 'napoleon', 'baltic_fleet': 'little-ice-age'}
 
 def load(p):
     return json.loads(p.read_bytes()) if p.exists() else None
