@@ -1,0 +1,917 @@
+{
+ "places": [
+  {
+   "n": "Reval (Tallinn): the Tsar's farewell",
+   "lat": 59.44,
+   "lon": 24.75,
+   "y": 1904.774,
+   "end": 1904.7795,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Russia",
+   "what": "Nicholas II reviewed the squadron on 9–10 October 1904, the last time he saw these ships.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky"
+   ]
+  },
+  {
+   "n": "Libau (Liepāja): departure",
+   "lat": 56.52,
+   "lon": 20.99,
+   "y": 1904.7901,
+   "end": null,
+   "approx": false,
+   "kind": "naval-base",
+   "who": "Russia",
+   "what": "The Second Pacific Squadron sailed for the Far East on 15 October 1904.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Skagen: coaling and jitters",
+   "lat": 57.73,
+   "lon": 10.6,
+   "y": 1904.8041,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "Coaling stop where new reports of Japanese torpedo boats leaving Norway sent the fleet hurrying into the North Sea.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Fishermen's memorial, Hull",
+   "lat": 53.737,
+   "lon": -0.368,
+   "y": 1906.5,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Britain",
+   "what": "Statue on Hessle Road unveiled in 1906 for skipper George Henry Smith and third hand William Leggett of the Crane, and skipper Walter Whelpton, who died in May 1905.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident"
+   ]
+  },
+  {
+   "n": "Gibraltar: the Channel Fleet stands ready",
+   "lat": 36.14,
+   "lon": -5.35,
+   "y": 1904.8178,
+   "end": 1904.8644,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Britain",
+   "what": "Royal Navy battleships raised steam and cruisers shadowed the Russians; the Navy was told the crisis was over on 11 November.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Vigo: the standoff",
+   "lat": 42.23,
+   "lon": -8.78,
+   "y": 1904.8205,
+   "end": 1904.837,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "Rozhestvensky waited here under British watch and left behind officers to give evidence about the Dogger Bank.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Paris: international commission of inquiry",
+   "lat": 48.86,
+   "lon": 2.33,
+   "y": 1905.0233,
+   "end": 1905.1521,
+   "approx": true,
+   "kind": "treaty",
+   "who": "Britain",
+   "what": "Commission under the Hague Convention on the Dogger Bank shooting; Russia paid £66,000 to the fishermen.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident"
+   ]
+  },
+  {
+   "n": "Tangier: the cut cable",
+   "lat": 35.79,
+   "lon": -5.8,
+   "y": 1904.8425,
+   "end": 1904.8479,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "The squadron split here; leaving, an anchor hooked the town's telegraph cable, which was cut, leaving Tangier without a line to Europe for four days.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "n": "Suda Bay, Crete",
+   "lat": 35.49,
+   "lon": 24.1,
+   "y": 1904.8616,
+   "end": 1904.8918,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "Fölkersam's detachment rested here; shore leave reportedly ended in a brawl with locals.",
+   "w": "Dmitry Gustavovich von Fölkersahm",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Djibouti: disputed coal",
+   "lat": 11.6,
+   "lon": 43.15,
+   "y": 1904.9301,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "France",
+   "what": "Fölkersam coaled in French Somaliland; Japan protested a breach of neutrality.",
+   "w": "Dmitry Gustavovich von Fölkersahm",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Dakar: coaling against orders",
+   "lat": 14.67,
+   "lon": -17.42,
+   "y": 1904.8671,
+   "end": 1904.8781,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "France forbade coaling under British pressure; the fleet coaled anyway, each battleship taking about 2,200 tons.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Libreville, Gabon",
+   "lat": 0.4,
+   "lon": 9.43,
+   "y": 1904.9055,
+   "end": 1904.9192,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "Coaling stop where news arrived of a third squadron to be sent after the fleet.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Great Fish Bay (Angola)",
+   "lat": -16.55,
+   "lon": 11.75,
+   "y": 1904.9329,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Portugal",
+   "what": "The Portuguese gunboat Limpopo ordered the fleet out; it coaled in what the admiral called international water.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Lüderitz Bay (Angra Pequena)",
+   "lat": -26.64,
+   "lon": 15.15,
+   "y": 1904.9466,
+   "end": 1904.963,
+   "approx": false,
+   "kind": "other",
+   "who": "Germany",
+   "what": "In German South West Africa the local commander reported that he could see no ships from his house.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Île Sainte-Marie: bad news",
+   "lat": -17.0,
+   "lon": 49.85,
+   "y": 1904.9959,
+   "end": null,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "The main force reached Madagascar and learned that the Port Arthur squadron had been destroyed.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "n": "Port Arthur surrenders",
+   "lat": 38.81,
+   "lon": 121.24,
+   "y": 1905.0041,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Japan",
+   "what": "The fortress the fleet was sent to relieve surrendered on 2 January 1905.",
+   "w": "Siege of Port Arthur",
+   "src": [
+    "https://en.wikipedia.org/wiki/Siege_of_Port_Arthur",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+   ]
+  },
+  {
+   "n": "Nosy Be: the long wait",
+   "lat": -13.4,
+   "lon": 48.27,
+   "y": 1904.9932,
+   "end": 1905.2041,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "Both parts of the squadron met here and waited over two months (9 January–16 March 1905) for coal arrangements and reinforcements.",
+   "w": "Nosy Be",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nosy_Be",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "n": "Singapore: news by megaphone",
+   "lat": 1.29,
+   "lon": 103.85,
+   "y": 1905.2671,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Britain",
+   "what": "The fleet passed in daylight; the Russian consul chased it in a launch and shouted the news to the flagship.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Cam Ranh Bay",
+   "lat": 11.95,
+   "lon": 109.2,
+   "y": 1905.2836,
+   "end": 1905.3055,
+   "approx": false,
+   "kind": "other",
+   "who": "France",
+   "what": "Anchorage in French Indochina until France, under Japanese protest, asked the fleet to leave.",
+   "w": "Cam Ranh Bay",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Knyaz_Suvorov"
+   ]
+  },
+  {
+   "n": "Van Phong Bay: the squadrons meet",
+   "lat": 12.6,
+   "lon": 109.35,
+   "y": 1905.3055,
+   "end": 1905.3658,
+   "approx": false,
+   "kind": "other",
+   "who": "Russia",
+   "what": "Nebogatov's Third Pacific Squadron joined off this coast on 9 May; the combined fleet left on 14 May.",
+   "w": "Nikolai Nebogatov",
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov"
+   ]
+  },
+  {
+   "n": "Shanghai: transports detached",
+   "lat": 31.23,
+   "lon": 121.47,
+   "y": 1905.3959,
+   "end": null,
+   "approx": false,
+   "kind": "city",
+   "who": "Russia",
+   "what": "Six transports sent into the neutral port told the Japanese the fleet was near.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader"
+   ]
+  },
+  {
+   "n": "Liancourt Rocks (Takeshima): Nebogatov surrenders",
+   "lat": 37.24,
+   "lon": 131.87,
+   "y": 1905.4039,
+   "end": null,
+   "approx": true,
+   "kind": "other",
+   "who": "Japan",
+   "what": "Nebogatov surrendered four battleships south of the rocks on the morning of 28 May.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov"
+   ]
+  },
+  {
+   "n": "Vladivostok: three ships arrive",
+   "lat": 43.12,
+   "lon": 131.89,
+   "y": 1905.4068,
+   "end": null,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "Russia",
+   "what": "Only the cruiser Almaz and the destroyers Grozny and Bravy reached the port the fleet had sailed for.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Russian_cruiser_Almaz"
+   ]
+  },
+  {
+   "n": "Manila: cruisers interned",
+   "lat": 14.58,
+   "lon": 120.97,
+   "y": 1905.4205,
+   "end": null,
+   "approx": true,
+   "kind": "naval-base",
+   "who": "United States",
+   "what": "Aurora, Zhemchug and Oleg escaped and were interned by the United States until the war ended.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Russian_cruiser_Aurora"
+   ]
+  },
+  {
+   "n": "Sasebo: Tōgō visits Rozhestvensky",
+   "lat": 33.16,
+   "lon": 129.72,
+   "y": 1905.426,
+   "end": null,
+   "approx": true,
+   "kind": "city",
+   "who": "Japan",
+   "what": "The wounded Russian admiral recovered in the naval hospital, where Tōgō visited him.",
+   "w": "Zinovy Rozhestvensky",
+   "src": [
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+   ]
+  },
+  {
+   "n": "Odessa: Potemkin mutiny",
+   "lat": 46.49,
+   "lon": 30.74,
+   "y": 1905.4863,
+   "end": 1905.4973,
+   "approx": false,
+   "kind": "uprising",
+   "who": "Russia",
+   "what": "With Black Sea Fleet morale at its lowest after Tsushima, the crew of the battleship Potemkin mutinied and sailed to Odessa under a red flag.",
+   "w": "Russian battleship Potemkin",
+   "src": [
+    "https://en.wikipedia.org/wiki/Russian_battleship_Potemkin",
+    "https://en.wikipedia.org/wiki/Russian_Revolution_of_1905"
+   ]
+  },
+  {
+   "n": "Portsmouth: peace treaty",
+   "lat": 43.08,
+   "lon": -70.74,
+   "y": 1905.6781,
+   "end": null,
+   "approx": false,
+   "kind": "treaty",
+   "who": "United States",
+   "what": "Russia and Japan signed peace at the Portsmouth Naval Shipyard; Theodore Roosevelt won the 1906 Nobel Peace Prize for his mediation.",
+   "w": "Treaty of Portsmouth",
+   "src": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth"
+   ]
+  }
+ ],
+ "battles": [
+  {
+   "n": "Dogger Bank incident",
+   "y": 1904.8083,
+   "date": "21–22 October 1904",
+   "lat": 54.6,
+   "lon": 2.2,
+   "war": "Russo-Japanese War",
+   "a": "Russia",
+   "b": "British trawlers",
+   "won": "draw",
+   "men": null,
+   "loss": [
+    2,
+    3
+   ],
+   "what": "Russian battleships took Hull steam trawlers fishing on the Dogger Bank for Japanese torpedo boats and fired on them for ten to twenty minutes: the trawler Crane sank, two fishermen were killed, six wounded and a third man died in May 1905; Russian shells also hit the cruisers Aurora and Dmitry Donskoy, killing a chaplain and a sailor. Position approximate.",
+   "w": "Dogger Bank incident",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://en.wikipedia.org/wiki/Kamchatka_(ship)",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "n": "Battle of Tsushima",
+   "y": 1905.4016,
+   "date": "27–28 May 1905",
+   "lat": 34.45,
+   "lon": 130.15,
+   "war": "Russo-Japanese War",
+   "a": "Japan",
+   "b": "Russia",
+   "won": "a",
+   "men": null,
+   "loss": [
+    700,
+    11864
+   ],
+   "what": "Tōgō's Combined Fleet destroyed the Second and Third Pacific Squadrons: all 11 Russian battleships sunk or captured, 21 ships sunk in all. Losses (Wikipedia infobox): Japan 117 dead and 583 wounded, three torpedo boats; Russia 5,045 dead, 803 wounded and 6,016 captured (other counts: 4,380–4,830 killed, 5,917 captured). Crew totals are not given.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky"
+   ]
+  }
+ ],
+ "campaigns": [
+  {
+   "n": "Voyage of the Second Pacific Squadron (Libau to Tsushima)",
+   "who": "Second Pacific Squadron",
+   "side": "Russia",
+   "pts": [
+    [
+     24.75,
+     59.45,
+     1904.7795,
+     null
+    ],
+    [
+     20.99,
+     56.52,
+     1904.7822,
+     null
+    ],
+    [
+     20.99,
+     56.52,
+     1904.7901,
+     null
+    ],
+    [
+     10.95,
+     55.3,
+     1904.7959,
+     null
+    ],
+    [
+     10.65,
+     57.75,
+     1904.8041,
+     null
+    ],
+    [
+     2.2,
+     54.6,
+     1904.8083,
+     null
+    ],
+    [
+     1.5,
+     51.0,
+     1904.8123,
+     null
+    ],
+    [
+     -6.5,
+     46.0,
+     1904.8178,
+     null
+    ],
+    [
+     -8.78,
+     42.23,
+     1904.8205,
+     null
+    ],
+    [
+     -8.78,
+     42.23,
+     1904.837,
+     null
+    ],
+    [
+     -5.8,
+     35.79,
+     1904.8425,
+     null
+    ],
+    [
+     -5.8,
+     35.79,
+     1904.8479,
+     null
+    ],
+    [
+     -15.5,
+     28.5,
+     1904.8562,
+     null
+    ],
+    [
+     -17.42,
+     14.67,
+     1904.8671,
+     null
+    ],
+    [
+     -17.42,
+     14.67,
+     1904.8781,
+     null
+    ],
+    [
+     9.43,
+     0.4,
+     1904.9055,
+     null
+    ],
+    [
+     9.43,
+     0.4,
+     1904.9192,
+     null
+    ],
+    [
+     11.75,
+     -16.55,
+     1904.9329,
+     null
+    ],
+    [
+     15.15,
+     -26.64,
+     1904.9466,
+     null
+    ],
+    [
+     15.15,
+     -26.64,
+     1904.963,
+     null
+    ],
+    [
+     19.5,
+     -36.5,
+     1904.9712,
+     null
+    ],
+    [
+     45.5,
+     -26.5,
+     1904.9904,
+     null
+    ],
+    [
+     49.85,
+     -17.1,
+     1904.9959,
+     null
+    ],
+    [
+     49.6,
+     -11.9,
+     1905.0178,
+     null
+    ],
+    [
+     48.25,
+     -13.42,
+     1905.0233,
+     null
+    ],
+    [
+     48.25,
+     -13.42,
+     1905.2045,
+     null
+    ],
+    [
+     70.0,
+     -8.0,
+     1905.2288,
+     null
+    ],
+    [
+     88.0,
+     -2.0,
+     1905.2479,
+     null
+    ],
+    [
+     97.0,
+     6.0,
+     1905.2589,
+     null
+    ],
+    [
+     104.0,
+     1.2,
+     1905.2671,
+     null
+    ],
+    [
+     109.6,
+     11.0,
+     1905.2781,
+     null
+    ],
+    [
+     109.2,
+     11.95,
+     1905.2836,
+     null
+    ],
+    [
+     109.35,
+     12.6,
+     1905.3055,
+     null
+    ],
+    [
+     109.6,
+     12.4,
+     1905.3521,
+     null
+    ],
+    [
+     109.35,
+     12.6,
+     1905.3658,
+     null
+    ],
+    [
+     121.0,
+     20.5,
+     1905.3795,
+     null
+    ],
+    [
+     124.5,
+     25.0,
+     1905.3877,
+     null
+    ],
+    [
+     123.3,
+     31.2,
+     1905.3959,
+     null
+    ],
+    [
+     130.15,
+     34.45,
+     1905.4016,
+     null
+    ]
+   ],
+   "what": "Rozhestvensky's main force: the new Borodino-class battleships with Oslyabya, cruisers and transports, about 18,000 nautical miles in seven months round Africa, coaling from German colliers off ports that would not admit it. Crew strength along the way is not given in the sources (men left null); points marked approximate in the build notes are interpolated at sea.",
+   "w": "Battle of Tsushima",
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра#Поход_2-й_Тихоокеанской_эскадры_(1904—1905)",
+    "https://kinenkan-mikasa.or.jp/en/tourmap/central_exhibition_data/bal.html",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Knyaz_Suvorov"
+   ]
+  },
+  {
+   "n": "Fölkersam's detachment via Suez",
+   "who": "Second Pacific Squadron (Fölkersam)",
+   "side": "Russia",
+   "pts": [
+    [
+     -5.8,
+     35.79,
+     1904.8434,
+     null
+    ],
+    [
+     -2.0,
+     36.5,
+     1904.8479,
+     null
+    ],
+    [
+     15.0,
+     36.8,
+     1904.8562,
+     null
+    ],
+    [
+     24.1,
+     35.49,
+     1904.8616,
+     null
+    ],
+    [
+     24.1,
+     35.49,
+     1904.8918,
+     null
+    ],
+    [
+     32.31,
+     31.27,
+     1904.9,
+     null
+    ],
+    [
+     32.55,
+     29.95,
+     1904.9055,
+     null
+    ],
+    [
+     38.8,
+     20.0,
+     1904.9164,
+     null
+    ],
+    [
+     43.15,
+     11.6,
+     1904.9247,
+     null
+    ],
+    [
+     43.15,
+     11.6,
+     1904.9493,
+     null
+    ],
+    [
+     51.5,
+     11.8,
+     1904.9548,
+     null
+    ],
+    [
+     49.0,
+     -5.0,
+     1904.974,
+     null
+    ],
+    [
+     48.25,
+     -13.42,
+     1904.9932,
+     null
+    ]
+   ],
+   "what": "The older battleships Sissoi Veliky and Navarin with light cruisers, destroyers and transports took the short way: Tangier, Suda Bay (Crete), the Suez Canal and Djibouti to Nosy Be, arriving 28 December 1904. Dates between Suda Bay and Nosy Be are approximate.",
+   "w": "Dmitry Gustavovich von Fölkersahm",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dmitry_Gustavovich_von_Fölkersahm",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+   ]
+  },
+  {
+   "n": "Nebogatov's Third Pacific Squadron",
+   "who": "Third Pacific Squadron",
+   "side": "Russia",
+   "pts": [
+    [
+     20.99,
+     56.52,
+     1905.1247,
+     null
+    ],
+    [
+     10.65,
+     57.75,
+     1905.1356,
+     null
+    ],
+    [
+     1.5,
+     51.0,
+     1905.1466,
+     null
+    ],
+    [
+     -5.6,
+     36.0,
+     1905.1685,
+     null
+    ],
+    [
+     20.0,
+     34.5,
+     1905.1932,
+     null
+    ],
+    [
+     32.31,
+     31.27,
+     1905.2096,
+     null
+    ],
+    [
+     32.55,
+     29.95,
+     1905.2178,
+     null
+    ],
+    [
+     43.15,
+     11.6,
+     1905.2644,
+     null
+    ],
+    [
+     75.0,
+     6.0,
+     1905.3,
+     null
+    ],
+    [
+     97.0,
+     6.0,
+     1905.3219,
+     null
+    ],
+    [
+     104.0,
+     1.2,
+     1905.3301,
+     null
+    ],
+    [
+     109.6,
+     12.4,
+     1905.3521,
+     null
+    ]
+   ],
+   "what": "One old battleship (Imperator Nikolai I), three coastal-defence ships and the old cruiser Vladimir Monomakh, sent after Rozhestvensky in February 1905 through the Suez Canal; left Djibouti on 7 April and joined him off French Indochina on 9 May. His staff called them the 'self-sinkers'. Dates between Libau and Djibouti are approximate.",
+   "w": "Nikolai Nebogatov",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Knyaz_Suvorov",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky"
+   ]
+  }
+ ],
+ "routes": []
+}

@@ -1,0 +1,682 @@
+{
+ "id": "baltic-fleet",
+ "title": "Around the World to Lose a War",
+ "blurb": "In 1904 Russia sent its Baltic Fleet 18,000 nautical miles to fight Japan; on the way it shelled Hull trawlers, cut a cable, collected a zoo and lost its purpose, then arrived just in time for one of the most one-sided sea battles in history.",
+ "cat": "Odd & funny history",
+ "steps": [
+  {
+   "y": 1904.7901,
+   "lat": 57.6,
+   "lon": 22.0,
+   "z": 5,
+   "t": "Off to the wrong side of the world",
+   "c": "In 1904 Japan had Russia's Pacific squadron trapped in Port Arthur, so St Petersburg sent most of its Baltic Fleet, renamed the Second Pacific Squadron, to the rescue: 18,000 nautical miles away. Tsar Nicholas II reviewed the ships at Reval on 9–10 October, and on 15 October Vice Admiral Zinovy Rozhestvensky led them out of Libau. Some of the brand-new battleships were on their shakedown cruise, many crews were raw recruits, and the admiral himself thought the plan ill-conceived.",
+   "w": "Zinovy Rozhestvensky",
+   "look": [
+    [
+     56.52,
+     20.99,
+     "Libau"
+    ],
+    [
+     59.44,
+     24.75,
+     "Reval"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Spare binoculars",
+     "t": "Rozhestvensky's temper was famous: he would have live rounds fired across the bows of an errant ship, and once flung his binoculars into the sea, so his staff kept a good supply aboard the flagship.",
+     "lat": 59.44,
+     "lon": 24.75
+    },
+    {
+     "h": "Shots under the stern",
+     "t": "In the Danish straits the escorting icebreaker Ermak ignored a signal; the flagship fired shells under her stern, after which, the fleet engineer wrote, she answered quickly.",
+     "lat": 55.3,
+     "lon": 10.95
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Knyaz Suvorov\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the flagship Knyaz Suvorov)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1904.8041,
+   "lat": 57.73,
+   "lon": 10.6,
+   "z": 6,
+   "t": "Japanese torpedo boats everywhere",
+   "c": "Russian agents had reported Japanese officers with torpedoes around the Baltic and torpedo boats built for Japan in Britain, thousands of kilometres from any Japanese port. The nervous fleet steered round a non-existent minefield and fired at fishermen near the Danish coast who were bringing it dispatches (missing them). At Skagen on 20 October, with fresh reports of torpedo boats leaving Norway, the admiral hurried the coaling, sailed, and ordered that no vessel of any sort be allowed among the fleet.",
+   "w": "Dogger Bank incident",
+   "look": [
+    [
+     57.73,
+     10.6,
+     "Skagen"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Disguised as fishermen",
+     "t": "The transport Bakan reported four torpedo boats in the Langeland Belt showing lights only at the masthead, so that from afar they might be taken for fishing boats.",
+     "lat": 55.0,
+     "lon": 10.9
+    },
+    {
+     "h": "Kamchatka sounds the alarm",
+     "t": "Around 9 p.m. on 21 October the repair ship Kamchatka, lagging at the rear, radioed that she was being attacked by eight torpedo boats. She had apparently mistaken a passing Swedish ship for the enemy.",
+     "lat": 56.2,
+     "lon": 4.5
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Cargo ship \"Kamchatka\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1905 (the repair ship Kamchatka)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://en.wikipedia.org/wiki/Kamchatka_(ship)",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1904.8083,
+   "lat": 54.6,
+   "lon": 2.2,
+   "z": 6,
+   "t": "Night on the Dogger Bank",
+   "c": "Just before 1 a.m. on 22 October the battleships' searchlights picked out small boats with their nets down: steam trawlers from Hull. The Russians opened fire for ten to twenty minutes. The trawler Crane sank; her skipper George Henry Smith and third hand William Leggett were killed, six fishermen were wounded, and skipper Walter Whelpton of the Mino died in May 1905. In the confusion the battleships also shelled their own cruisers Aurora and Dmitry Donskoy, killing Aurora's chaplain and a sailor.",
+   "w": "Dogger Bank incident",
+   "look": [
+    [
+     54.6,
+     2.2,
+     "Dogger Bank"
+    ],
+    [
+     53.74,
+     -0.33,
+     "Hull"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Panic aboard Borodino",
+     "t": "On the battleship Borodino a rumour spread that the Japanese were boarding: some men put on life vests and lay flat on deck, others drew cutlasses. Oryol reportedly fired more than 500 shells without hitting anything.",
+     "lat": 55.0,
+     "lon": 2.7
+    },
+    {
+     "h": "Kamchatka's own war",
+     "t": "Kamchatka, separated from the fleet, later claimed to have fought three Japanese warships with over 300 shells; her targets are said to have been a Swedish merchantman, a German trawler and a French schooner (possibly apocryphal: sources differ).",
+     "lat": 50.3,
+     "lon": -1.5
+    }
+   ],
+   "img_alt": {
+    "file": "File:North Sea Incident 1904 - Memorial - geograph.org.uk - 264822.jpg",
+    "by": "David Wright, photograph 2006 (memorial unveiled in Hull, 1906)",
+    "lic": "CC BY-SA 2.0"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://en.wikipedia.org/wiki/Kamchatka_(ship)",
+    "https://www.gutenberg.org/ebooks/49735",
+    "https://en.wikipedia.org/wiki/Russian_cruiser_Aurora"
+   ]
+  },
+  {
+   "y": 1904.8288,
+   "lat": 44.0,
+   "lon": -6.0,
+   "z": 4,
+   "t": "Britain reaches for its guns",
+   "c": "The fleet steamed on without helping the fishermen, and Britain, Japan's ally, was furious: newspapers called the Russians pirates, 28 battleships of the Home Fleet raised steam, and cruisers shadowed the squadron down the coast of Spain. France, allied to Russia and newly friendly with Britain, worked to calm both. At Vigo (26 October–1 November) Rozhestvensky left behind officers to give evidence, among them at least one of his critics, and Russia agreed to an international inquiry.",
+   "w": "Dogger Bank incident",
+   "look": [
+    [
+     42.23,
+     -8.78,
+     "Vigo"
+    ],
+    [
+     36.14,
+     -5.35,
+     "Gibraltar"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "A gentle verdict",
+     "t": "The commission met in Paris from 9 January to 25 February 1905. It criticised the firing but said the admiral had done all he could to stop fire on boats recognised as trawlers. Russia paid the fishermen £66,000.",
+     "lat": 48.86,
+     "lon": 2.33
+    },
+    {
+     "h": "The witness who struck back",
+     "t": "Captain Nikolai Klado, sent home from Vigo as a witness, published articles urging that everything that could float be sent east. They helped launch the Third Pacific Squadron that Rozhestvensky never wanted.",
+     "lat": 59.94,
+     "lon": 30.31
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Oryol\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the battleship Oryol)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "y": 1904.8479,
+   "lat": 35.79,
+   "lon": -5.8,
+   "z": 7,
+   "t": "Tangier: one fleet becomes two",
+   "c": "At Tangier the squadron split. The new battleships drew more water than designed and might not pass the Suez Canal (a reason that may also have hidden worry about British-controlled waters), so they went round Africa with Rozhestvensky. Older and lighter ships under Rear Admiral Dmitry von Fölkersam left on 3 November for the Mediterranean and Suez; both groups would meet in Madagascar. When the main force left on 5 November, an anchor hooked the town's undersea telegraph cable and Tangier lost its line to Europe for four days.",
+   "w": "Dogger Bank incident",
+   "look": [
+    [
+     35.79,
+     -5.8,
+     "Tangier"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Who cut it?",
+     "t": "The fleet engineer Yevgeny Politovsky wrote that the transport Anadyr's anchor caught the cable and the admiral ordered it cut, adding that it was lucky the cable was French and not English.",
+     "lat": 35.9,
+     "lon": -5.55
+    },
+    {
+     "h": "Beresford waits",
+     "t": "At Gibraltar Lord Charles Beresford's Channel Fleet watched every move and Beresford urged disarming the Russians; only on 11 November was the Royal Navy told that the crisis was over.",
+     "lat": 36.14,
+     "lon": -5.35
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Cruiser of the 1st rank \"Aurora\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the cruiser Aurora)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dogger_Bank_incident",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://www.gutenberg.org/ebooks/49735",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "y": 1904.8726,
+   "lat": 8.0,
+   "lon": -8.0,
+   "z": 4,
+   "t": "Coal in the cabins",
+   "c": "No neutral port wanted the Russians, so the fuel came along: about 60 German Hamburg-Amerika Line colliers met the fleet at anchorages down the coast. At French Dakar (12–16 November) the port commander passed on Paris's ban on coaling; Rozhestvensky said he would yield only to the fire of shore batteries, and the commander, who had none, politely left. Each battleship then took on about 2,200 tons, nearly twice the 1,100–1,200 considered safe, piled in passages, cabins and on deck in the tropical heat.",
+   "w": "Zinovy Rozhestvensky",
+   "look": [
+    [
+     14.67,
+     -17.42,
+     "Dakar"
+    ],
+    [
+     0.4,
+     9.43,
+     "Libreville"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Death by heat",
+     "t": "At Dakar Lieutenant Nelidov, son of the Russian ambassador in Paris and a speaker of seven or eight languages, died of sunstroke; men on watch collapsed from the heat, the fleet engineer wrote.",
+     "lat": 14.67,
+     "lon": -17.42
+    },
+    {
+     "h": "Unwelcome reinforcements",
+     "t": "At Libreville in French Gabon (26 November–1 December) word arrived that the Tsar would send a third squadron of old ships after the fleet.",
+     "lat": 0.4,
+     "lon": 9.43
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Borodino\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the battleship Borodino)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1904.9027,
+   "lat": 30.5,
+   "lon": 30.0,
+   "z": 4,
+   "t": "Fölkersam takes the short cut",
+   "c": "Fölkersam's detachment, the old battleships Sissoi Veliky and Navarin with light cruisers, destroyers and transports, called at Suda Bay in Crete (10–21 November), passed the Suez Canal and coaled at French Djibouti. Fölkersam was seriously ill and a lenient commander: shore leave in Crete reportedly ended in a brawl with locals that Reuters made much of. With a British cruiser keeping company in the Red Sea, his ships reached Nosy Be in Madagascar on 28 December 1904.",
+   "w": "Dmitry Gustavovich von Fölkersahm",
+   "look": [
+    [
+     35.49,
+     24.1,
+     "Suda Bay"
+    ],
+    [
+     30.5,
+     32.35,
+     "Suez Canal"
+    ],
+    [
+     11.6,
+     43.15,
+     "Djibouti"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Neutral, but not very",
+     "t": "Japan protested Fölkersam's coaling at Djibouti as a breach of neutrality; he replied that he had heard nothing of it and the colliers should hurry.",
+     "lat": 11.6,
+     "lon": 43.15
+    },
+    {
+     "h": "A change of meeting place",
+     "t": "Under Japanese pressure France would not let the Russians use its naval base at Diego Suarez, so the rendezvous moved to Nosy Be, whose waters were poorly charted. Fölkersam protested and was overruled.",
+     "lat": -12.27,
+     "lon": 49.29
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Sisoy Veliky\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the battleship Sissoi Veliky)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dmitry_Gustavovich_von_Fölkersahm",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+   ]
+  },
+  {
+   "y": 1904.963,
+   "lat": -21.5,
+   "lon": 13.5,
+   "z": 4,
+   "t": "Neutrality, Portuguese and German style",
+   "c": "At Great Fish Bay in Portuguese Angola (6 December) the small gunboat Limpopo ordered the fleet away; Rozhestvensky replied that the bay was wide enough to contain international water, and that an attack would be a welcome diversion for his crews. At Lüderitz Bay in German South West Africa (11–17 December) the local commander, Major Lequis, settled the neutrality question by reporting that he could see no ships from his house. English newspapers from Cape Town told the admiral that the Japanese had taken 203 Metre Hill above Port Arthur, dooming the ships in its harbour.",
+   "w": "Zinovy Rozhestvensky",
+   "look": [
+    [
+     -16.55,
+     11.75,
+     "Great Fish Bay"
+    ],
+    [
+     -26.64,
+     15.15,
+     "Lüderitz"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Round the Cape of Storms",
+     "t": "Leaving Lüderitz overloaded with coal, the fleet met a gale off the Cape with waves up to 12 m. The tailwind at least sped it up, and no rumoured torpedo-carrying schooners would be out in such weather.",
+     "lat": -35.5,
+     "lon": 19.5
+    },
+    {
+     "h": "Throw him overboard",
+     "t": "When Kamchatka asked permission to dump 150 tons of bad coal, the admiral suspected sabotage, refused, and instead gave permission to throw the wrongdoer overboard, Politovsky wrote.",
+     "lat": -31.0,
+     "lon": 33.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Cruiser of the 1st rank \"Dmitry Donskoy\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1905 (the cruiser Dmitry Donskoy)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1905.0041,
+   "lat": -17.0,
+   "lon": 49.85,
+   "z": 6,
+   "t": "Madagascar: the mission disappears",
+   "c": "On 29 December the main force reached Île Sainte-Marie off Madagascar, where the news confirmed the worst: the First Pacific Squadron had been sunk in Port Arthur harbour, and on 2 January 1905 the fortress itself surrendered. The fleet now had nothing left to relieve. Instead of being recalled it was ordered to wait in Madagascar for reinforcements, and its goal became Vladivostok.",
+   "w": "Siege of Port Arthur",
+   "look": [
+    [
+     -17.0,
+     49.85,
+     "Île Sainte-Marie"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Port Arthur falls",
+     "t": "Port Arthur's commander, General Stessel, offered surrender on 1 January without consulting his senior officers; the capitulation followed on 2 January 1905.",
+     "lat": 38.81,
+     "lon": 121.24
+    },
+    {
+     "h": "A Christmas alarm",
+     "t": "On 25 December a signal from Kamchatka about her speed was read on the flagship as 'Do you see the torpedo boats?'. Officers were woken and buglers stood ready to sound action stations.",
+     "lat": -28.0,
+     "lon": 42.0
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Emperor Alexander III\" by Vsevolozhsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the battleship Imperator Aleksandr III)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Siege_of_Port_Arthur",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://en.wikipedia.org/wiki/Kamchatka_(ship)",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1905.1,
+   "lat": -13.4,
+   "lon": 48.27,
+   "z": 8,
+   "t": "Nosy Be: a floating zoo",
+   "c": "The reunited fleet waited at Nosy Be for over two months (9 January–16 March 1905) while coal contracts and reinforcements were sorted out. Sailors filled the ships with parrots, monkeys, chameleons, a hare, a porcupine, dogs and livestock; a snake that came aboard in hay for the cattle bit an engineer, who recovered. Ashore, bars and brothels boomed; aboard, heat, boredom, accidents and disease took a steady toll. Gunnery practice was rationed for lack of shells, and the results were poor.",
+   "w": "Nosy Be",
+   "look": [
+    [
+     -13.4,
+     48.27,
+     "Nosy Be"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Target practice",
+     "t": "On one practice day a shell ricocheted onto the bridge of the cruiser Dmitry Donskoy, hurting no one; the fleet engineer noted they returned 'not having hit anything this time'. The supply ship Irtysh, hoped to bring more shells, brought coal but no ammunition.",
+     "lat": -12.9,
+     "lon": 47.7
+    },
+    {
+     "h": "News from Mukden",
+     "t": "On 12 March, while coaling, the admiral learned that the army had lost the great land battle of Mukden. Still no order came to turn back.",
+     "lat": 41.8,
+     "lon": 123.4
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Cruiser of the 1st rank \"Svetlana\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the cruiser Svetlana)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Nosy_Be",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://www.gutenberg.org/ebooks/49735"
+   ]
+  },
+  {
+   "y": 1905.2671,
+   "lat": 3.0,
+   "lon": 99.0,
+   "z": 4,
+   "t": "The long way across the Indian Ocean",
+   "c": "On 16 March about 45 warships and auxiliaries steamed into the Indian Ocean, coaling at sea from boats in the swell and steering clear of every port. The world's naval experts expected them to use the Sunda Strait; instead the fleet entered the long, narrow Strait of Malacca from the north on 5 April and passed Singapore in daylight on 8 April, to the surprise of observers.",
+   "w": "Battle of Tsushima",
+   "look": [
+    [
+     6.0,
+     97.0,
+     "Strait of Malacca"
+    ],
+    [
+     1.29,
+     103.85,
+     "Singapore"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "News by megaphone",
+     "t": "The Russian consul in Singapore gathered every newspaper he could find, chased the fleet in a launch and shouted his news up to the flagship's bridge, saving the most important for last: Nebogatov had left Djibouti.",
+     "lat": 1.29,
+     "lon": 103.85
+    },
+    {
+     "h": "Guessing the route",
+     "t": "While the fleet was out of sight, experts debated its route: the Sunda Strait seemed likeliest, and one retired British admiral even raised a voyage round Australia.",
+     "lat": -6.0,
+     "lon": 105.8
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Cruiser of the 2nd rank \"Izumrud\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (the cruiser Izumrud)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+   ]
+  },
+  {
+   "y": 1905.3521,
+   "lat": 12.3,
+   "lon": 109.3,
+   "z": 7,
+   "t": "Waiting for the self-sinkers",
+   "c": "From mid-April the squadron sheltered in Cam Ranh Bay in French Indochina, then, as France bowed to Japanese protests, shuffled between Cam Ranh, Van Phong Bay and the open sea to keep up the appearance of neutrality. St Petersburg ordered it to wait for Rear Admiral Nikolai Nebogatov's Third Pacific Squadron: one old battleship, three small coastal-defence ships and an old cruiser, which Rozhestvensky's staff called the 'self-sinkers'. They met off the coast on 9 May, and the combined fleet sailed on 14 May.",
+   "w": "Nikolai Nebogatov",
+   "look": [
+    [
+     11.95,
+     109.2,
+     "Cam Ranh"
+    ],
+    [
+     12.6,
+     109.35,
+     "Van Phong"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The missing 400 tons",
+     "t": "On 12 April Imperator Aleksandr III reported 400 tons less coal than expected: at the last five coalings nobody had measured her stocks, only estimated them, which probably also explains how she kept winning the fleet's coal-loading prize.",
+     "lat": 11.0,
+     "lon": 109.6
+    },
+    {
+     "h": "Easter barefoot",
+     "t": "At Orthodox Easter, 30 April, many men in Van Phong Bay heard the service in torn uniforms and barefoot: no replacement clothing had been sent.",
+     "lat": 12.7,
+     "lon": 109.45
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Emperor Nicholas I\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1905 (Nebogatov's flagship Imperator Nikolai I)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Knyaz_Suvorov"
+   ]
+  },
+  {
+   "y": 1905.3932,
+   "lat": 28.5,
+   "lon": 125.5,
+   "z": 4,
+   "t": "A dead admiral's flag",
+   "c": "Rozhestvensky's second-in-command, Rear Admiral von Fölkersam, had been incapacitated since a stroke in April and died aboard the battleship Oslyabya in the last days before the battle (sources give 23–25 May). Fearing the effect on morale, Rozhestvensky kept the death secret: the body went into the ship's cold store, the admiral's flag kept flying and Oslyabya's captain quietly took command. Nebogatov, now second-in-command, was not told. On 25 May the transports were sent off to Shanghai and the fleet turned for the Tsushima Strait.",
+   "w": "Dmitry Gustavovich von Fölkersahm",
+   "look": [
+    [
+     31.2,
+     123.3,
+     "transports detached"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Giving the game away",
+     "t": "The transports reaching neutral Shanghai on the evening of 25 May told the Japanese that the Russian fleet was near and preparing to break through.",
+     "lat": 31.23,
+     "lon": 121.47
+    },
+    {
+     "h": "Lit up by the rules",
+     "t": "At 2:45 a.m. on 27 May the Japanese auxiliary cruiser Shinano Maru spotted the lights of the Russian hospital ship Orel, burning as the rules of war required; at 4:55 she radioed: enemy in grid 203.",
+     "lat": 33.6,
+     "lon": 128.6
+    }
+   ],
+   "img_alt": {
+    "file": "File:Postcard of Community of Saint Eugenia - Squadron battleship \"Oslyabya\" by Vsevolozhsky after Prokudin-Gorsky.jpg",
+    "by": "S. Vsevolozhsky, colour postcard for the Community of St Eugenia, 1904 (Fölkersam's flagship Oslyabya)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Dmitry_Gustavovich_von_Fölkersahm",
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov",
+    "https://de.wikipedia.org/wiki/Zweites_Pazifik-Geschwader",
+    "https://ru.wikipedia.org/wiki/Вторая_Тихоокеанская_эскадра"
+   ]
+  },
+  {
+   "y": 1905.4016,
+   "lat": 34.45,
+   "lon": 130.15,
+   "z": 6,
+   "t": "Tsushima",
+   "c": "On 27 May Admiral Tōgō Heihachirō's Combined Fleet met the Russians east of Tsushima Island and crossed their T, bringing its broadsides against their leading ships. By evening the battleships Oslyabya, Knyaz Suvorov, Imperator Aleksandr III and Borodino were sunk; Aleksandr III went down with her entire crew of 778, and Borodino left a single survivor of 855. Night torpedo attacks sank more, and on 28 May Nebogatov surrendered his four remaining battleships. Russia lost 21 ships sunk and some 4,400–5,000 men killed, with about 6,000 captured; Japan lost three torpedo boats and 117 men.",
+   "w": "Battle of Tsushima",
+   "look": [
+    [
+     34.45,
+     130.15,
+     "Tsushima"
+    ],
+    [
+     37.24,
+     131.87,
+     "surrender"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "The admiral captured",
+     "t": "Rozhestvensky, badly wounded in the head, was taken off the burning Knyaz Suvorov by a destroyer; on 28 May the destroyer Bedovy, carrying him, surrendered to the Japanese Sazanami.",
+     "lat": 35.4,
+     "lon": 129.6
+    },
+    {
+     "h": "No word for surrender",
+     "t": "Nebogatov's signal XGE was not in the Japanese code books, and firing went on even after a white tablecloth was run up; it stopped when his ships halted their engines. He said the lives of the 2,400 men mattered more than his own.",
+     "lat": 37.0,
+     "lon": 131.6
+    }
+   ],
+   "img_alt": {
+    "file": "File:Battle of Tsushima, 1905 by Tōjō Shōtarō.jpg",
+    "by": "Tōjō Shōtarō, 1905",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://en.wikipedia.org/wiki/Nikolai_Nebogatov",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Borodino",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Imperator_Aleksandr_III_(1901)"
+   ]
+  },
+  {
+   "y": 1905.426,
+   "lat": 33.16,
+   "lon": 129.72,
+   "z": 5,
+   "t": "The bill comes due",
+   "c": "Of the whole armada only the cruiser Almaz and two destroyers reached Vladivostok; three cruisers were interned at Manila. In the naval hospital at Sasebo Tōgō visited the wounded Rozhestvensky and told him that defeat was a common fate of soldiers, and that what mattered was whether one had done one's duty. The disaster pushed Russia to make peace: the Treaty of Portsmouth was signed on 5 September 1905, earning Theodore Roosevelt the 1906 Nobel Peace Prize. At home both admirals were court-martialled; Rozhestvensky insisted on taking full responsibility.",
+   "w": "Zinovy Rozhestvensky",
+   "look": [
+    [
+     33.16,
+     129.72,
+     "Sasebo"
+    ],
+    [
+     43.12,
+     131.89,
+     "Vladivostok"
+    ]
+   ],
+   "tips": [
+    {
+     "h": "Borscht and mutiny",
+     "t": "Morale in the Black Sea Fleet sank after Tsushima. On 27 June the crew of the battleship Potemkin refused borscht made from maggot-infested meat, mutinied and sailed to Odessa under a red flag.",
+     "lat": 46.49,
+     "lon": 30.74
+    },
+    {
+     "h": "Aurora's second career",
+     "t": "Aurora, shelled by her own fleet at the Dogger Bank, survived Tsushima and internment in Manila; in 1917 she fired the blank shot that, in Russian lore, signalled the storming of the Winter Palace.",
+     "lat": 14.58,
+     "lon": 120.97
+    }
+   ],
+   "img_alt": {
+    "file": "File:Admiral Togo Visiting Zinovy Rozhestvensky by Fujishima Takeji (Reimeikan).jpg",
+    "by": "Fujishima Takeji (1867–1943)",
+    "lic": "Public domain"
+   },
+   "src": [
+    "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+    "https://en.wikipedia.org/wiki/Zinovy_Rozhestvensky",
+    "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth",
+    "https://en.wikipedia.org/wiki/Russian_battleship_Potemkin",
+    "https://en.wikipedia.org/wiki/Russian_cruiser_Aurora"
+   ]
+  }
+ ]
+}
